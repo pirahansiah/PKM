@@ -1,14 +1,16 @@
-# CV
-## DL
-## LLM
+# CV3
+## DL4
+## LLM5
 
-# Projects
+# Projects9
 project IoT
 project LLM
-# about
+# about8
 Farshid
-# PKM
+# PKM7
 PKM
-# cv
+# cv2
 cv [[cv2ToT]]
 link to the cv [[cv2ToT]]
+/contents/inbox/cv2ToT.md
+[/contents/inbox/cv2ToT.md]{/contents/inbox/cv2ToT.md}
