@@ -1,6 +1,11 @@
 .farshid/
 *.farshid
 
+*._
+*._.
+._*
+
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
