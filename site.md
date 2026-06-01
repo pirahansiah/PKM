@@ -23,3 +23,19 @@
 -[] bb
 
 
+
+# a
+## b
+### c
+
+- a
+    - b
+        - v
+
+[x] a
+- [x] b
+-[] bb
+
+
+only the # must be show in menue as level 1
+only ## and ### must have submenue under level 1 menue 
