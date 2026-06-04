@@ -39,13 +39,27 @@ title: Data & DevOps
   .reveal h1 { font-size: 2.2em; }
   .reveal h2 { font-size: 1.6em; }
 
-  /* 3. Style the Image to fit inside the slide */
+  /* 3. Style the Image/Video to fit inside the slide */
   .slide-image {
-    max-width: 80%;
-    max-height: 300px;
+    max-width: 100%;
+    max-height: calc(100vh - 240px);
+    width: auto;
+    height: auto;
+    object-fit: contain;
     border-radius: 12px;
     border: 2px solid rgba(255,255,255,0.2);
-    margin-top: 10px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .slide-video {
+    width: 100%;
+    max-height: calc(100vh - 240px);
+    object-fit: contain;
+    border-radius: 12px;
+    border: 2px solid rgba(255,255,255,0.2);
+    margin: 0 auto;
+    display: block;
   }
 
   /* 4. Ensure code blocks don't overflow on iPhone */
