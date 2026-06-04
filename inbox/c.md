@@ -1,9 +1,12 @@
 ---
 layout: default
-title: Farshid Pirahansiah
+title: test panel presentation s Farshid Pirahansiah
 
 ---
-page title = test panel presentation s
+
+test panel presentation s Farshid Pirahansiah
+
+test panel presentation s
 
 # this is presentation
 
