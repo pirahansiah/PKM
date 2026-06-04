@@ -1,9 +1,10 @@
 ---
-layout: presentation
+layout: default
 title: Farshid Pirahansiah
 
 ---
 
+<div class="presentation-panel">
 <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"></script>
 
 <style>
@@ -68,4 +69,5 @@ title: Farshid Pirahansiah
 - Docker
 - CI/CD
 
+</div>
 </div>
