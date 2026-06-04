@@ -55,6 +55,8 @@ title: My Project
           <li class="fragment fade-up">Postgres</li>
           <li class="fragment fade-up">Redis</li>
           contents/inbox/a.png
+          contents/inbox/c.py
+          
         </ul>
       </section>
     </section>
