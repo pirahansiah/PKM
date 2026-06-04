@@ -3,33 +3,40 @@ layout: presentation
 title: My Project
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css">
+
 <style>
-  /* Ensure the presentation has a specific area to live in */
-  .presentation-container {
-    height: 80vh; /* Adjust this to make it smaller/larger */
-    width: 90%;
-    margin: 20px auto;
+  .presentation-deck {
+    width: 95%;
+    max-width: 1000px;
+    height: 75vh;
     position: relative;
-    border-radius: 30px;
+    border-radius: 24px;
     overflow: hidden;
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+    margin: 2rem auto;
   }
 
-  .reveal {
+  .presentation-deck .reveal {
     background: rgba(0, 0, 0, 0.5) !important;
     backdrop-filter: blur(10px);
   }
 
-  /* Fixes the "Top" issue - centers the slides vertically */
-  .reveal .slides {
+  .presentation-deck .reveal .slides {
     text-align: center;
+  }
+
+  .glass-slide {
+    background: rgba(255,255,255,0.06) !important;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    padding: 30px !important;
+    backdrop-filter: blur(10px);
   }
 </style>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.css">
-
-<div class="presentation-container">
+<div class="presentation-deck">
   <div class="reveal">
     <div class="slides">
       <section>
@@ -55,12 +62,11 @@ title: My Project
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.js"></script>
 <script>
-  // Crucial: we tell Reveal which element to use as the viewport
-  let deck = new Reveal(document.querySelector('.presentation-container'), {
-    embedded: true, // This keeps it inside your box, not full screen
+  Reveal.initialize({
+    embedded: true,
     hash: true,
-    center: true,   // Vertically centers the content
-    transition: 'slide'
+    center: true,
+    transition: 'slide',
+    display: 'block'
   });
-  deck.initialize();
 </script>
