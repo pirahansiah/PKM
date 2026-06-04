@@ -1,74 +1,113 @@
 ---
 layout: default
 title: Data & DevOps
-
 ---
 
-<div class="presentation-panel">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.css">
-
 <style>
-  body { margin: 0; padding: 0; }
-  .reveal { font-size: 2em; }
+  /* 1. Ensure the presentation panel fits the Liquid Glass style */
+  .presentation-panel {
+    position: relative;
+    width: 100%;
+    height: 60vh; /* Fixed height is required to center the slides */
+    margin: 20px 0;
+    border-radius: 24px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /* 2. Center the slides and make them mobile-responsive */
+  .reveal {
+    font-size: 0.8em; /* Slightly smaller for mobile compatibility */
+  }
+
+  .reveal h1 { font-size: 2.2em; }
+  .reveal h2 { font-size: 1.6em; }
+
+  /* 3. Style the Image to fit inside the slide */
+  .slide-image {
+    max-width: 80%;
+    max-height: 300px;
+    border-radius: 12px;
+    border: 2px solid rgba(255,255,255,0.2);
+    margin-top: 10px;
+  }
+
+  /* 4. Ensure code blocks don't overflow on iPhone */
+  pre code {
+    font-size: 0.5em !important;
+    line-height: 1.2 !important;
+  }
 </style>
 
-<div class="reveal">
-  <div class="slides">
+<!-- Load Reveal.js Assets -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css">
 
-    <!-- Slide 1 — Title -->
-    <section>
-      <h1>Data & DevOps</h1>
-      <p>Press <kbd>→</kbd> to go forward, <kbd>↓</kbd> for sub-slides</p>
-    </section>
+<div class="presentation-panel">
+  <div class="reveal">
+    <div class="slides">
 
-    <!-- Slide 2 — with vertical sub-slides -->
-    <section>
+      <!-- Slide 1 — Title -->
       <section>
-        <h2>Backend</h2>
-        <p>Press ↓ for details</p>
+        <h1>Data & DevOps</h1>
+        <p style="font-size: 0.5em;">Tap anywhere to go forward</p>
       </section>
+
+      <!-- Slide 2 — THE IMAGE SLIDE -->
       <section>
-        <h2>Database & Assets</h2>
-        <ul>
-          <li class="fragment fade-up">Postgres</li>
-          <li class="fragment fade-up">Redis</li>
-        </ul>
+        <h2>System Architecture</h2>
+        <img src="{{ '/contents/inbox/c.png' | relative_url }}" class="slide-image" alt="Architecture Diagram">
+        <p style="font-size: 0.4em;">Contents from /inbox/c.png</p>
       </section>
+
+      <!-- Slide 3 — Vertical Sub-slides -->
       <section>
-        <h2>Python Logic (c.py)</h2>
-        <pre><code class="language-python">
-# contents/inbox/c.py
+        <section>
+          <h2>Backend</h2>
+          <p>Press ↓ for code</p>
+        </section>
+        <section>
+          <h2>Python Logic (c.py)</h2>
+          <pre><code class="language-python">
 import math
-
 def calculate_liquid_glass():
     return "iOS 26 Style"
-        </code></pre>
+          </code></pre>
+        </section>
       </section>
-    </section>
 
-    <!-- Slide 3 — DevOps -->
-    <section>
-      <h2>DevOps</h2>
-      <ul>
-        <li class="fragment">Docker</li>
-        <li class="fragment">CI/CD</li>
-        <li class="fragment">Cloud Deployment</li>
-      </ul>
-    </section>
+      <!-- Slide 4 — DevOps -->
+      <section>
+        <h2>DevOps</h2>
+        <ul>
+          <li class="fragment">Docker</li>
+          <li class="fragment">CI/CD</li>
+          <li class="fragment">Cloud Deployment</li>
+        </ul>
+      </section>
 
+    </div>
   </div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.js"></script>
 <script>
-  Reveal.initialize({
+  // Initialize Reveal inside the panel
+  let deck = new Reveal(document.querySelector('.presentation-panel'), {
+    embedded: true,    // IMPORTANT: Keeps your main menu/nav visible
     hash: true,
-    transition: 'slide',
-    transitionSpeed: 'default',
-    backgroundTransition: 'fade',
+    center: true,      // Centers slides vertically in the panel
+    touch: true,       // Enables swipe on iPhone
     controls: true,
     progress: true,
-    center: true,
+    mouseWheel: false
+  });
+
+  deck.initialize();
+
+  // MOBILE FRIENDLY: Tap anywhere on the presentation to go to the next slide
+  document.querySelector('.presentation-panel').addEventListener('click', function() {
+    deck.next();
   });
 </script>
