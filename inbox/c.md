@@ -54,6 +54,7 @@ title: My Project
         <ul>
           <li class="fragment fade-up">Postgres</li>
           <li class="fragment fade-up">Redis</li>
+          contents/inbox/a.png
         </ul>
       </section>
     </section>
