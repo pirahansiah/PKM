@@ -39,9 +39,9 @@ title: Data & DevOps
   .reveal h1 { font-size: 2.2em; }
   .reveal h2 { font-size: 1.6em; }
 
-  /* 3. Style the Image/Video to fit inside the slide */
+  /* 3. Style the Image/Video to fit inside the slide and always show the full image */
   .slide-image {
-    max-width: 100%;
+    max-width: calc(100vw - 40px);
     max-height: calc(100vh - 240px);
     width: auto;
     height: auto;
@@ -52,9 +52,14 @@ title: Data & DevOps
     display: block;
   }
 
-  .slide-video {
-    width: 100%;
+  .slide-image, .slide-video {
+    max-width: calc(100vw - 40px);
     max-height: calc(100vh - 240px);
+  }
+
+  .slide-video {
+    width: auto;
+    height: auto;
     object-fit: contain;
     border-radius: 12px;
     border: 2px solid rgba(255,255,255,0.2);
@@ -77,6 +82,12 @@ title: Data & DevOps
   <div class="reveal">
     <div class="slides">
 
+      <!-- Slide 0 — Title -->
+      <section>
+        <h1>**Start**</h1>
+        <p style="font-size: 0.5em;">Tap anywhere to go forward</p>
+      </section>
+      
       <!-- Slide 1 — Title -->
       <section>
         <h1>Data & DevOps</h1>
@@ -87,7 +98,7 @@ title: Data & DevOps
       <section>
         <h2>System Architecture</h2>
         <img src="{{ '/contents/inbox/c.png' | relative_url }}" class="slide-image" alt="Architecture Diagram">
-        <p style="font-size: 0.4em;">Contents from /inbox/c.png</p>
+        <p style="font-size: 0.4em;">Tap left to go back, right to go next. Full image shown even if smaller.</p>
       </section>
 
       <!-- Slide 3 — Vertical Sub-slides -->
@@ -115,6 +126,11 @@ def calculate_liquid_glass():
           <li class="fragment">Cloud Deployment</li>
         </ul>
       </section>
+      <!-- Slide End — Title -->
+      <section>
+        <h1>**End**</h1>
+        <p style="font-size: 0.5em;">Tap anywhere to go forward</p>
+      </section>
 
     </div>
   </div>
@@ -135,8 +151,22 @@ def calculate_liquid_glass():
 
   deck.initialize();
 
-  // MOBILE FRIENDLY: Tap anywhere on the presentation to go to the next slide
-  document.querySelector('.presentation-panel').addEventListener('click', function() {
-    deck.next();
+  // MOBILE FRIENDLY: Tap left for previous slide, right for next slide
+  document.querySelector('.presentation-panel').addEventListener('click', function(event) {
+    const panel = event.currentTarget;
+    const controlClick = event.target.closest('button, a, .reveal .controls');
+    if (controlClick) {
+      return;
+    }
+
+    const rect = panel.getBoundingClientRect();
+    const x = event.clientX - rect.left;
+    const isLeft = x < rect.width * 0.5;
+
+    if (isLeft) {
+      deck.prev();
+    } else {
+      deck.next();
+    }
   });
 </script>
