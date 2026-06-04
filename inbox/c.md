@@ -3,9 +3,7 @@ layout: default
 title: Farshid Pirahansiah
 
 ---
----
-layout: default
----
+
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.css">

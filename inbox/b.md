@@ -3,9 +3,7 @@ layout: default
 title: Farshid Pirahansiah
 
 ---
----
-layout: default
----
+
 
 <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"></script>
 
