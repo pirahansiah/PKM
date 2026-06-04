@@ -1,3 +1,9 @@
+---
+layout: default
+title: Data & DevOps
+---
+
+
 
 * [page e](/contents/inbox/e)
 * [page f](/contents/inbox/f)
