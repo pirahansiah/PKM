@@ -1,131 +1,66 @@
 ---
-layout: default
+layout: presentation
 title: My Project
 ---
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css">
-
 <style>
-body {
-  margin: 0;
-  background: radial-gradient(circle at top, #1a1a2e, #0f0f1a);
-  font-family: system-ui;
-}
+  /* Ensure the presentation has a specific area to live in */
+  .presentation-container {
+    height: 80vh; /* Adjust this to make it smaller/larger */
+    width: 90%;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.2);
+  }
 
-.reveal {
-  font-size: 1.6em;
-  color: #fff;
-}
+  .reveal {
+    background: rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(10px);
+  }
 
-.reveal h1, .reveal h2 {
-  letter-spacing: 1px;
-  text-transform: none;
-}
-
-.reveal section {
-  padding: 20px;
-}
-
-.glass {
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 16px;
-  padding: 30px;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
-}
-
-.reveal .slides section {
-  transition: transform 0.6s ease, opacity 0.6s ease;
-}
-
-.fragment {
-  opacity: 0;
-  transform: translateY(10px);
-}
-
-.fragment.visible {
-  opacity: 1;
-  transform: translateY(0);
-  transition: all 0.5s ease;
-}
-
-code {
-  font-size: 0.9em;
-  background: #111;
-  padding: 10px;
-  border-radius: 10px;
-  display: block;
-}
+  /* Fixes the "Top" issue - centers the slides vertically */
+  .reveal .slides {
+    text-align: center;
+  }
 </style>
 
-<div class="reveal">
-  <div class="slides">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.css">
 
-    <section class="glass">
-      <h1>My Project</h1>
-      <p>Use → and ↓ to navigate</p>
-    </section>
-
-    <section>
-      <section class="glass">
-        <h2>Frontend</h2>
+<div class="presentation-container">
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <h1>My Project</h1>
+        <p>Press <kbd>→</kbd> to start</p>
       </section>
 
-      <section class="glass">
-        <h2>React</h2>
-        <ul>
-          <li class="fragment">Components</li>
-          <li class="fragment">Hooks</li>
-        </ul>
+      <section>
+        <section>
+          <h2>Frontend</h2>
+          <p>Press ↓ for details</p>
+        </section>
+        <section>
+          <h2>React</h2>
+          <ul>
+            <li class="fragment">Components</li>
+          </ul>
+        </section>
       </section>
-
-      <section class="glass">
-        <h2>CSS</h2>
-        <ul>
-          <li class="fragment">Tailwind</li>
-          <li class="fragment">Animations</li>
-        </ul>
-      </section>
-    </section>
-
-    <section>
-      <section class="glass">
-        <h2>Backend</h2>
-      </section>
-
-      <section class="glass">
-        <h2>Database</h2>
-        <ul>
-          <li class="fragment">Postgres</li>
-          <li class="fragment">Redis</li>
-        </ul>
-      </section>
-    </section>
-
-    <section class="glass">
-      <h2>Code</h2>
-      <pre><code>
-fetch('/api/data')
-  .then(res => res.json())
-  .then(data => console.log(data));
-      </code></pre>
-    </section>
-
+    </div>
   </div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.js"></script>
-
 <script>
-Reveal.initialize({
-  hash: true,
-  transition: 'convex',
-  backgroundTransition: 'fade',
-  controls: true,
-  progress: true,
-  center: true,
-  fragments: true
-});
+  // Crucial: we tell Reveal which element to use as the viewport
+  let deck = new Reveal(document.querySelector('.presentation-container'), {
+    embedded: true, // This keeps it inside your box, not full screen
+    hash: true,
+    center: true,   // Vertically centers the content
+    transition: 'slide'
+  });
+  deck.initialize();
 </script>
