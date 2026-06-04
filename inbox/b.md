@@ -71,3 +71,8 @@ title: Farshid Pirahansiah
 
 </div>
 </div>
+
+
+![ccc](c.png)
+
+[py](c.py)
