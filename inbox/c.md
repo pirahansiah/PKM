@@ -86,3 +86,6 @@ fetch('/api/data')
     center: true,
   });
 </script>
+
+
+#mindmaps
