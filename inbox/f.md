@@ -8,12 +8,27 @@ title: Data & DevOps
   .presentation-panel {
     position: relative;
     width: 100%;
-    height: 60vh; /* Fixed height is required to center the slides */
+    min-height: 70vh;
     margin: 20px 0;
     border-radius: 24px;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .presentation-panel .reveal {
+    height: 100%;
+  }
+
+  .reveal .slides section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    text-align: center;
   }
 
   /* 2. Center the slides and make them mobile-responsive */
