@@ -3,18 +3,32 @@ layout: default
 title: Farshid Pirahansiah
 
 ---
-# page a
-# a
-## b
-### c
 
-- a
-    - b
-        - v
+<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"></script>
 
-[x] a
-- [x] b
--[] bb
+<div class="markmap">
+
+# My Project
+
+## Frontend
+### React
+- Components
+- Hooks
+### CSS
+- Tailwind
+- Animations
+
+## Backend
+### Node.js
+### Database
+- Postgres
+- Redis
+
+## DevOps
+- Docker
+- CI/CD
+
+</div>
 
 
 
