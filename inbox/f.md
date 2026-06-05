@@ -4,67 +4,60 @@ title: presentation with left and right click area
 ---
 
 <style>
-  /* 1. Ensure the presentation panel fits the Liquid Glass style */
+  /* 1. Panel height must be fixed (not min-height) so Reveal knows the limit */
   .presentation-panel {
     position: relative;
     width: 100%;
-    min-height: 70vh;
+    height: 75vh; /* Fixed height is key */
     margin: 20px 0;
     border-radius: 24px;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .presentation-panel .reveal {
-    height: 100%;
-  }
-
+  /* 2. Make each slide a flex container that fits exactly 100% height */
   .reveal .slides section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding: 1.5rem;
-    box-sizing: border-box;
-    text-align: center;
-    min-height: 100%;
+    height: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 20px !important;
+    box-sizing: border-box !important;
   }
 
-  /* 2. Center the slides and make them mobile-responsive */
-  .reveal {
-    font-size: 0.8em; /* Slightly smaller for mobile compatibility */
-  }
-
-  .reveal h1 { font-size: 2.2em; }
-  .reveal h2 { font-size: 1.6em; }
-
-  /* 3. Style the Image/Video to fit inside the slide and always show the full image */
-  .slide-image, .slide-video {
-    max-width: none !important;
-    max-height: none !important;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+  /* 3. THE FIX: Image handles the remaining space */
+  .slide-image {
+    /* Allow text and headers to take their space first */
+    flex-shrink: 1; 
+    flex-grow: 0;
+    
+    /* Ensure the image never forces the slide to grow larger than the panel */
+    max-width: 90% !important;
+    max-height: 55% !important; /* Limits image height to leave room for text */
+    
+    /* Keep aspect ratio and show full image */
+    object-fit: contain !important; 
+    
     border-radius: 12px;
-    border: 2px solid rgba(255,255,255,0.2);
-    margin: 0 auto;
-    display: block;
-   
-
-    object-fit: contain;
-    border-radius: 12px;
-    border: 2px solid rgba(255,255,255,0.2);
-    margin: 0 auto;
-    display: block;
-    flex-shrink: 0;
+    border: 1px solid rgba(255,255,255,0.2);
+    margin: 10px 0 !important;
   }
 
-  /* 4. Ensure code blocks don't overflow on iPhone */
-  pre code {
-    font-size: 0.5em !important;
-    line-height: 1.2 !important;
+  .reveal h1 { font-size: 1.8em; margin-bottom: 0.5em; }
+  .reveal h2 { font-size: 1.4em; margin: 0.2em 0; }
+  .reveal p, .reveal li { font-size: 0.7em; }
+
+  /* Navigation Guide Overlay (Optional visual hint) */
+  .nav-hint {
+    position: absolute;
+    bottom: 10px;
+    font-size: 0.4em;
+    opacity: 0.3;
+    color: white;
+    pointer-events: none;
+    z-index: 10;
   }
 </style>
 
@@ -73,57 +66,57 @@ title: presentation with left and right click area
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css">
 
 <div class="presentation-panel">
+  <div class="nav-hint">← Tap Left for Back | Tap Right for Next →</div>
+  
   <div class="reveal">
     <div class="slides">
 
-      <!-- Slide 0 — Title -->
+      <!-- Slide 0 -->
       <section>
         <h1>**Start**</h1>
-        <p style="font-size: 0.5em;">Tap anywhere to go forward</p>
-      </section>
-      
-      <!-- Slide 1 — Title -->
-      <section>
-        <h1>Data & DevOps</h1>
-        <p style="font-size: 0.5em;">Tap anywhere to go forward</p>
+        <p>iOS 26 Liquid Glass Presentation</p>
       </section>
 
-      <!-- Slide 2 — THE IMAGE SLIDE -->
+      <!-- Slide 2 — THE IMAGE SLIDE (Now Fixed) -->
       <section>
         <h2>System Architecture</h2>
+        <p>Full Overview of Workflow</p>
+        
         <img src="{{ '/contents/inbox/c.png' | relative_url }}" class="slide-image" alt="Architecture Diagram">
-        <!-- <p style="font-size: 0.4em;">Tap left to go back, right to go next. Full image shown even if smaller.</p> -->
+        
+        <p>This diagram shows the CI/CD pipeline integrated with Postgres.</p>
       </section>
 
-      <!-- Slide 3 — Vertical Sub-slides -->
+      <!-- Slide 3 -->
       <section>
         <section>
-          <h2>Backend</h2>
-          <p>Press ↓ for code</p>
+          <h2>Backend Logic</h2>
+          <p>The code is rendered below ↓</p>
         </section>
         <section>
-          <h2>Python Logic (c.py)</h2>
+          <h2>Python (c.py)</h2>
           <pre><code class="language-python">
 import math
-def calculate_liquid_glass():
-    return "iOS 26 Style"
+def calculate_refraction():
+    return "Liquid Effect Applied"
           </code></pre>
         </section>
       </section>
 
-      <!-- Slide 4 — DevOps -->
+      <!-- Slide 4 -->
       <section>
-        <h2>DevOps</h2>
+        <h2>DevOps Stack</h2>
         <ul>
-          <li class="fragment">Docker</li>
-          <li class="fragment">CI/CD</li>
-          <li class="fragment">Cloud Deployment</li>
+          <li class="fragment">Docker Containers</li>
+          <li class="fragment">GitHub Actions CI</li>
+          <li class="fragment">AWS Cloudfront</li>
         </ul>
       </section>
-      <!-- Slide End — Title -->
+
+      <!-- Slide End -->
       <section>
         <h1>**End**</h1>
-        <p style="font-size: 0.5em;">Tap anywhere to go forward</p>
+        <button onclick="location.reload()" style="background: rgba(255,255,255,0.1); color: white; border: 1px solid white; padding: 10px; border-radius: 10px; cursor: pointer;">Restart</button>
       </section>
 
     </div>
@@ -132,32 +125,33 @@ def calculate_liquid_glass():
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.js"></script>
 <script>
-  // Initialize Reveal inside the panel
   let deck = new Reveal(document.querySelector('.presentation-panel'), {
-    embedded: true,    // IMPORTANT: Keeps your main menu/nav visible
+    embedded: true,
     hash: true,
-    center: true,      // Centers slides vertically in the panel
-    touch: true,       // Enables swipe on iPhone
+    center: true,      
+    touch: true,       
     controls: true,
     progress: true,
-    mouseWheel: false
+    // Helps fit content automatically
+    width: 960,
+    height: 700,
+    margin: 0.1,
+    minScale: 0.2,
+    maxScale: 2.0
   });
 
   deck.initialize();
 
-  // MOBILE FRIENDLY: Tap left for previous slide, right for next slide
+  // LEFT/RIGHT CLICK NAVIGATION
   document.querySelector('.presentation-panel').addEventListener('click', function(event) {
-    const panel = event.currentTarget;
-    const controlClick = event.target.closest('button, a, .reveal .controls');
-    if (controlClick) {
-      return;
-    }
+    // Don't trigger if clicking on a button or the native reveal controls
+    if (event.target.closest('button, a, .controls, .progress')) return;
 
-    const rect = panel.getBoundingClientRect();
+    const rect = this.getBoundingClientRect();
     const x = event.clientX - rect.left;
-    const isLeft = x < rect.width * 0.5;
-
-    if (isLeft) {
+    
+    // Left 40% goes back, Right 60% goes forward (better for natural tapping)
+    if (x < rect.width * 0.4) {
       deck.prev();
     } else {
       deck.next();
