@@ -29,6 +29,7 @@ title: presentation with left and right click area
     padding: 1.5rem;
     box-sizing: border-box;
     text-align: center;
+    min-height: 100%;
   }
 
   /* 2. Center the slides and make them mobile-responsive */
@@ -41,8 +42,8 @@ title: presentation with left and right click area
 
   /* 3. Style the Image/Video to fit inside the slide and always show the full image */
   .slide-image {
-    max-width: calc(100vw - 40px);
-    max-height: calc(100vh - 240px);
+    max-width: 90vw;
+    max-height: 70vh;
     width: auto;
     height: auto;
     object-fit: contain;
@@ -50,14 +51,12 @@ title: presentation with left and right click area
     border: 2px solid rgba(255,255,255,0.2);
     margin: 0 auto;
     display: block;
-  }
-
-  .slide-image, .slide-video {
-    max-width: calc(100vw - 40px);
-    max-height: calc(100vh - 240px);
+    flex-shrink: 0;
   }
 
   .slide-video {
+    max-width: 90vw;
+    max-height: 70vh;
     width: auto;
     height: auto;
     object-fit: contain;
@@ -65,6 +64,7 @@ title: presentation with left and right click area
     border: 2px solid rgba(255,255,255,0.2);
     margin: 0 auto;
     display: block;
+    flex-shrink: 0;
   }
 
   /* 4. Ensure code blocks don't overflow on iPhone */
