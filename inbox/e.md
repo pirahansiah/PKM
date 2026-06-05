@@ -1,7 +1,6 @@
 ---
 layout: default
-title: My Project
-
+title: Data & DevOps
 ---
 
 <div class="presentation-panel">

@@ -1,6 +1,6 @@
 ---
-layout: presentation
-title: My Project
+layout: default
+title: Data & DevOps
 ---
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
