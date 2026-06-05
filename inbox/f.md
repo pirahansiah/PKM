@@ -41,23 +41,18 @@ title: presentation with left and right click area
   .reveal h2 { font-size: 1.6em; }
 
   /* 3. Style the Image/Video to fit inside the slide and always show the full image */
-  .slide-image {
-  
-    width: auto;
+  .slide-image, .slide-video {
+    max-width: none !important;
+    max-height: none !important;
+    width: 100%;
     height: auto;
     object-fit: contain;
     border-radius: 12px;
     border: 2px solid rgba(255,255,255,0.2);
     margin: 0 auto;
     display: block;
-    flex-shrink: 0;
-  }
+   
 
-  .slide-video {
-    max-width: 90vw;
-    max-height: 70vh;
-    width: auto;
-    height: auto;
     object-fit: contain;
     border-radius: 12px;
     border: 2px solid rgba(255,255,255,0.2);
