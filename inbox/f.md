@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data & DevOps
+title: presentation with left and right click area 
 ---
 
 <style>
@@ -98,7 +98,7 @@ title: Data & DevOps
       <section>
         <h2>System Architecture</h2>
         <img src="{{ '/contents/inbox/c.png' | relative_url }}" class="slide-image" alt="Architecture Diagram">
-        <p style="font-size: 0.4em;">Tap left to go back, right to go next. Full image shown even if smaller.</p>
+        <!-- <p style="font-size: 0.4em;">Tap left to go back, right to go next. Full image shown even if smaller.</p> -->
       </section>
 
       <!-- Slide 3 — Vertical Sub-slides -->
