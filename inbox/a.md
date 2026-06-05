@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Markdown with Mindmap : markmap
+title: Markdown with Mindmap markmap
 hashtags: markmap
 
 ---
