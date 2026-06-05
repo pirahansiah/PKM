@@ -42,8 +42,7 @@ title: presentation with left and right click area
 
   /* 3. Style the Image/Video to fit inside the slide and always show the full image */
   .slide-image {
-    max-width: 90vw;
-    max-height: 70vh;
+  
     width: auto;
     height: auto;
     object-fit: contain;
