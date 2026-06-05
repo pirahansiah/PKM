@@ -8,19 +8,19 @@ title: Data & DevOps
 #cc
 
 * [page e](/contents/inbox/e)
-* [page f](/contents/inbox/f)
+* [page f](/contents/inbox/presentation)
 
 
 # CV3
 
 [e](/contents/inbox/e)
 
-[f](/contents/inbox/f)
+[f](/contents/inbox/presentation)
 
 ## DL4
-[a](/contents/inbox/a)
+[a](/contents/inbox/markmap-autoloader)
 ## LLM5
-[b](/contents/inbox/b)
+[b](/contents/inbox/FullMarkmapAutoloaderWithImages)
 
 # test
 [c](/contents/inbox/c)
@@ -37,7 +37,7 @@ title: Data & DevOps
 
 - [page e](/contents/inbox/e)
 
-- [page f](/contents/inbox/f)
+- [page f](/contents/inbox/presentation)
 
 
 [[/Volumes/4tb/2026-6/PKM/contents/cv/AboutMe.html]]
