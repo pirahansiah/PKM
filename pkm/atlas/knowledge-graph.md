@@ -8,6 +8,134 @@ references: system-design, strategic-connections
 related: technology, research
 backlinks: /contents/pkm/about/company.md
 ---
+dfsgfdsgfdsgdfsg
+
+# option 7 claude
+<div id="knowledge-explorer" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px;">
+  <div id="loader" style="padding: 40px; text-align: center; color: #666;">
+    <div style="border: 4px solid #f3f3f3; border-top: 4px solid #3498db; border-radius: 50%; width: 30px; height: 30px; animation: spin 1s linear infinite; margin: 0 auto 15px;"></div>
+    Loading knowledge atlas…
+  </div>
+</div>
+<style>
+@keyframes spin { to { transform: rotate(360deg); } }
+.category-block { margin-bottom: 40px; }
+.knowledge-list { column-count: 2; column-gap: 40px; list-style: none; padding: 0; margin: 0; }
+@media (max-width: 600px) { .knowledge-list { column-count: 1; } }
+.knowledge-item { margin-bottom: 12px; break-inside: avoid; }
+.knowledge-link { color: #0076df; text-decoration: none; font-size: 1.05rem; display: block; border-left: 3px solid #eee; padding-left: 12px; transition: color 0.2s, border-color 0.2s; }
+.knowledge-link:hover { color: #004a8d; border-left-color: #3498db; background: #f9f9f9; }
+.category-title { font-size: 0.8rem; letter-spacing: 0.1em; color: #888; text-transform: uppercase; border-bottom: 1px solid #eee; padding-bottom: 8px; margin-bottom: 15px; font-weight: 600; }
+</style>
+<script>
+(async function buildKnowledgeAtlas() {
+  const container = document.getElementById('knowledge-explorer');
+  const loader    = document.getElementById('loader');
+  const CACHE_KEY = 'atlas_tree_v1';
+  const repo      = 'pirahansiah/pirahansiah.github.io';
+  const branch    = 'main';
+
+  try {
+    let treeData = null;
+
+    // Use sessionStorage to avoid burning GitHub rate limit on repeat views
+    const cached = sessionStorage.getItem(CACHE_KEY);
+    if (cached) {
+      treeData = JSON.parse(cached);
+    } else {
+      const resp = await fetch(`https://api.github.com/repos/${repo}/git/trees/${branch}?recursive=1`);
+      if (resp.status === 403 || resp.status === 429) {
+        throw new Error('rate_limited');
+      }
+      if (!resp.ok) {
+        throw new Error('api_error_' + resp.status);
+      }
+      treeData = await resp.json();
+      try { sessionStorage.setItem(CACHE_KEY, JSON.stringify(treeData)); } catch(_) {}
+    }
+
+    const assets = treeData.tree
+      .filter(item =>
+        item.type === 'blob' &&
+        item.path.startsWith('contents/') &&
+        item.path.endsWith('.md') &&
+        !item.path.includes('/index.md') &&
+        !item.path.split('/').some(p => p.startsWith('.'))
+      )
+      .map(item => {
+        // FIX: keep the full path, just strip .md and add trailing slash
+        const cleanPath = item.path.replace(/\.md$/, '');
+        const segments  = cleanPath.split('/');       // ['contents', 'cat', 'name']
+        const rawName   = segments.pop();             // 'name'
+        const category  = segments.slice(1).join(' / ').toUpperCase() || 'ROOT'; // skip 'contents'
+
+        return {
+          title:    rawName.replace(/[-_]/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
+          url:      '/' + cleanPath + '/',            // /contents/cat/name/
+          category: category
+        };
+      });
+
+    if (assets.length === 0) {
+      container.innerHTML = '<p>No .md files found in <code>/contents/</code>.</p>';
+      return;
+    }
+
+    assets.sort((a, b) => a.title.localeCompare(b.title));
+
+    const grouped = assets.reduce((acc, a) => {
+      (acc[a.category] = acc[a.category] || []).push(a);
+      return acc;
+    }, {});
+
+    loader.style.display = 'none';
+
+    let html = '<h1 style="margin-bottom:40px;font-weight:300;border-bottom:2px solid #333;padding-bottom:10px;">Knowledge Atlas</h1>';
+    for (const [cat, items] of Object.entries(grouped)) {
+      html += `<div class="category-block">
+        <div class="category-title">${cat}</div>
+        <ul class="knowledge-list">
+          ${items.map(f => `<li class="knowledge-item"><a href="${f.url}" class="knowledge-link">${f.title}</a></li>`).join('')}
+        </ul>
+      </div>`;
+    }
+    container.innerHTML = html;
+
+  } catch (err) {
+    const msg = err.message === 'rate_limited'
+      ? 'GitHub API rate limit reached (60 req/hour). Try again in a few minutes.'
+      : `Could not load atlas: ${err.message}`;
+    container.innerHTML = `<div style="background:#fff5f5;border:1px solid #feb2b2;padding:20px;color:#c53030;border-radius:8px;">
+      <strong>Error:</strong> ${msg}
+    </div>`;
+  }
+})();
+</script>
+
+
+
+
+# end 7
+dsfg
+fdsg
+fdsg
+dfsg
+fds
+gdfs
+gfds
+g
+fdsg
+fdsg
+g
+dfs
+fdsg
+fdsg
+fdsg
+dsf
+gsdf
+gdsf
+g
+dfs
 
 <script>
 async function getAllMdFiles(path = 'contents', files = []) {
