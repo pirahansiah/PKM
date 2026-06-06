@@ -21,55 +21,48 @@ title: Knowledge Atlas
 (function(){
   var el=document.getElementById('ka');
   el.innerHTML='<div id="ka-loader"><div></div>Loading…</div>';
-  var CACHE='atlas_v2',repo='pirahansiah/pirahansiah.github.io',branch='main';
+  var CACHE='atlas_pkm_v1';
   function run(data){
     var items=data.tree.filter(function(i){
-      return i.type==='blob'&&i.path.startsWith('contents/')&&i.path.endsWith('.md')
-        &&!i.path.includes('/index.md')&&!i.path.split('/').some(function(p){return p[0]==='.'});
+      return i.type==='blob'&&i.path.endsWith('.md')
+        &&!i.path.includes('index.md')
+        &&!i.path.split('/').some(function(p){return p[0]==='.'});
     }).map(function(i){
       var clean=i.path.replace(/\.md$/,'');
       var segs=clean.split('/');
       var name=segs.pop();
-      var cat=segs.slice(1).join(' / ').toUpperCase()||'ROOT';
+      var cat=segs.join(' / ').toUpperCase()||'ROOT';
       return{
         title:name.replace(/[-_]/g,' ').replace(/\b\w/g,function(c){return c.toUpperCase()}),
-        url:'/'+clean+'/',
+        url:'/contents/'+clean+'/',
         cat:cat
       };
     });
-    if(!items.length){el.innerHTML='<p>No .md files found in /contents/.</p>';return;}
+    if(!items.length){el.innerHTML='<p>No pages found.</p>';return;}
     items.sort(function(a,b){return a.title.localeCompare(b.title)});
     var grouped={};
     items.forEach(function(i){(grouped[i.cat]=grouped[i.cat]||[]).push(i)});
     var html='<h2 style="font-weight:300;border-bottom:2px solid #333;padding-bottom:8px;margin-bottom:32px">Knowledge Atlas ('+items.length+' pages)</h2>';
     Object.keys(grouped).sort().forEach(function(cat){
       html+='<div class="kb"><div class="kc">'+cat+'</div><ul class="kl">';
-      grouped[cat].forEach(function(f){
-        html+='<li class="ki"><a class="kk" href="'+f.url+'">'+f.title+'</a></li>';
-      });
+      grouped[cat].forEach(function(f){html+='<li class="ki"><a class="kk" href="'+f.url+'">'+f.title+'</a></li>';});
       html+='</ul></div>';
     });
     el.innerHTML=html;
   }
-  try{
-    var cached=sessionStorage.getItem(CACHE);
-    if(cached){run(JSON.parse(cached));return;}
-  }catch(e){}
-  fetch('https://api.github.com/repos/'+repo+'/git/trees/'+branch+'?recursive=1')
+  try{var c=sessionStorage.getItem(CACHE);if(c){run(JSON.parse(c));return;}}catch(e){}
+  fetch('https://api.github.com/repos/pirahansiah/PKM/git/trees/main?recursive=1')
     .then(function(r){
-      if(r.status===403||r.status===429)throw new Error('rate_limited');
-      if(!r.ok)throw new Error('http_'+r.status);
+      if(r.status===403||r.status===429)throw new Error('GitHub API rate limit hit. Try again in a minute.');
+      if(!r.ok)throw new Error('GitHub API error: '+r.status);
       return r.json();
     })
     .then(function(data){
-      try{sessionStorage.setItem(CACHE,JSON.stringify(data))}catch(e){}
+      try{sessionStorage.setItem(CACHE,JSON.stringify(data));}catch(e){}
       run(data);
     })
     .catch(function(err){
-      var msg=err.message==='rate_limited'
-        ?'GitHub API rate limit hit (60 req/hr). Refresh in a few minutes.'
-        :'Could not load atlas: '+err.message;
-      el.innerHTML='<div style="background:#fff5f5;border:1px solid #feb2b2;padding:16px;color:#c53030;border-radius:6px"><strong>Error:</strong> '+msg+'</div>';
+      el.innerHTML='<div style="background:#fff5f5;border:1px solid #feb2b2;padding:16px;color:#c53030;border-radius:6px"><strong>Error:</strong> '+err.message+'</div>';
     });
 })();
 </script>
