@@ -26,11 +26,11 @@ A
 
 # 🚀 SOLUTIONS
 ## B
-[Industries](./pkm/solutions/industries)
+[Industries](./pkm/solutions/use-cases)
 
  Sector-specific integration models.
 ## B
-[Use Cases](/contents/pkm/solutions/use-cases/)
+[Use Cases](./pkm/solutions/use-cases)
 
  High-impact application scenarios.
 ## B
@@ -38,43 +38,43 @@ A
 
  Strategic implementation methodology.
 ## B
-[ROI Calculator](./pkm/solutions/roi-calculator)
+[ROI Calculator](./pkm/investors/growth-model)
 
  Value modeling and performance projections.
 
 # 📦 PRODUCTS
 ## B
-[Flagship Platform](./pkm/products/flagship-platform)
+[Flagship Platform](./pkm/products/offering)
 
  The core Liquid Glass UI/UX environment.
 ## B
-[AI Agents](./pkm/products/ai-agents)
+[AI Agents](./pkm/templates/prompt)
 
  Autonomous agentic workflows.
 ## B
-[Vision AI](./pkm/products/vision-ai)
+[Vision AI](./pkm/technology/system-design)
 
  Advanced computer vision and spatial logic.
 ## B
-[Edge AI](./pkm/products/edge-ai)
+[Edge AI](./pkm/products/offering)
 
  Distributed intelligence at the hardware perimeter.
 
 # 🛠 TECHNOLOGY
 ## B
-[Architecture](/contents/pkm/technology/architecture/)
+[Architecture](./pkm/technology/system-design)
 
  System-level design and data flow.
 ## B
-[The Forge](/contents/pkm/technology/forge/)
+[The Forge](./pkm/templates/presentation)
 
  Rapid R&D and implementation prototypes.
 ## B
-[Benchmarks](/contents/pkm/technology/benchmarks/)
+[Benchmarks](./pkm/technology/benchmarks)
 
  Performance verification and hardware metrics.
 ## B
-[Infrastructure](/contents/pkm/technology/infrastructure/)
+[Infrastructure](./pkm/templates/markmap-autoloader)
 
  Deployment and scaling foundations.
 
@@ -82,19 +82,19 @@ A
 
 # 📈 INVESTORS
 ## B
-[Growth Model](/contents/pkm/investors/growth-model/)
+[Growth Model](./pkm/investors/growth-model)
 
  Scaling trajectories and projections.
 ## B
-[Vision](/contents/pkm/investors/vision/)
+[Vision](./pkm/investors/vision/)
 
  Long-term objective and market disruption.
 ## B
-[Pitch Deck](/contents/pkm/investors/pitch-deck/)
+[Pitch Deck](./pkm/investors/pitch-deck/)
 
  Core venture presentation.
 ## B
-[Investment Highlights](/contents/pkm/investors/investment-highlights/)
+[Investment Highlights](./pkm/investors/investment-highlights/)
 
  Key defensibility factors and moats.
 ## B
@@ -108,17 +108,17 @@ A
 
  Starter, Professional, and Enterprise structures.
 ## B
-[Licensing](./pkm/pricing/licensing)
+[Licensing](./pkm/pricing/licensing/)
 
  Software distribution and IP rights.
 ## B
-[Custom Solutions](./pkm/pricing/custom-solutions)
+[Custom Solutions](./pkm/pricing/custom-solutions/)
 
  Bespoke integration modeling.
 
 # 📜 LEGACY
 ## B
-[Intellectual Property](./pkm/legacy/intellectual-property)
+[Intellectual Property](./pkm/legacy/proof)
 
  Patents, trademarks, and logic protection.
 ## B
@@ -126,13 +126,13 @@ A
 
  Project history and milestone verification.
 ## B
-[Partnerships](./pkm/legacy/partnerships)
+[Partnerships](./pkm/templates/presentationFarshid)
 
  Ecosystem and strategic alliances.
 
 # 📡 PULSE
 ## B
-[Build Log](./pkm/pulse/build-log)
+[Build Log](./pkm/pulse/updates)
 
  Real-time development and operational stream.
 ## B
@@ -140,21 +140,21 @@ A
 
  Formal announcements and market releases.
 ## B
-[Market Insights](./pkm/pulse/market-insights)
+[Market Insights](./pkm/templates/prompt)
 
  Curated intelligence and trend tracking.
 
 # 🏢 ABOUT
 ## B
-[Company](./pkm/about/company)
+[Company](./pkm/about/company/)
 
  Founding mission and core values.
 ## B
-[Leadership](/contents/pkm/about/leadership/)
+[Leadership](./pkm/about/contact/)
 
  Strategic management and technical direction.
 ## B
-[Contact](/contents/pkm/about/contact/)
+[Contact](./pkm/about/contact)
 
  Global engagement channels.
 
@@ -162,14 +162,14 @@ A
 
 # 🔄 RECENT UPDATES
 ## B
-[TOC Index](/contents/pkm/TOC/)
+[TOC Index](./pkm/TOC)
 
  Complete Table of Contents.
 ## B
-[Markmap Autoloader](/inbox/markmap-autoloader/)
+[Markmap Autoloader](./inbox/markmap-autoloader/)
 
  Visualizing mental networks.
 ## B
-[Presentation](/inbox/presentation/)
+[Presentation](./inbox/presentation/)
 
  Active slide decks.
