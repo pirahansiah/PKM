@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Knowledge Graph
@@ -8,7 +7,6 @@ links: https://pirahansiah.github.io/atlas/knowledge-graph/
 references: system-design, strategic-connections
 related: technology, research
 backlinks: /contents/pkm/about/company.md
-
 ---
 
 <script>
