@@ -1,5 +1,57 @@
 # General Coding Task
 
+---
+/no_think
+
+Update only the requested files.
+
+Rules:
+- Return complete updated files only.
+- No explanations.
+- No summaries.
+- No comments.
+- No terminal output.
+- No status messages.
+- No analysis.
+- No placeholders.
+- Keep code and documents clean, minimal, and production-ready.
+- Follow existing project structure, style, and conventions.
+- Preserve unchanged content unless required by the task.
+- Return only files that were modified.
+
+Batch Mode:
+- Process 1 to 4 files per response.
+- Never process large sets at once.
+- After completing a batch, stop.
+- Continue with the next batch only after confirmation or next request.
+- Prioritize requested files before scanning additional files.
+
+Output:
+- One fenced code block only.
+- Use:
+  --- file: path/to/file.ext ---
+  (full file content)
+
+- No text before the opening fence.
+- No text after the closing fence.
+- Stop immediately after the closing fence.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
 /no_think
 Update all .md files in given folder.
 Add front matter headers.
