@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: Knowledge Graph
@@ -8,50 +9,58 @@ references: system-design, strategic-connections
 related: technology, research
 backlinks: /contents/pkm/about/company.md
 
-## Core Concept
-
-A **knowledge graph** is a semantic network representing entities and their relationships. Unlike traditional databases, it captures meaning through structure - nodes represent concepts, edges represent relations.
-
-### Why Knowledge Graphs?
-- **Contextual Understanding**: Relationships matter more than isolated facts
-- **Reasoning Capabilities**: Infer new knowledge from existing connections
-- **Scalable Semantics**: Human-readable ontology that machines can execute
-
-### Implementation Stack
-- Storage: Property graphs (Neo4j, JanusGraph) or RDF triples (Jena, Stardog)
-- Querying: Cypher, SPARQL, or custom graph DSL
-- Visualization: D3.js force-directed layouts, Markmap WebAssembly
-
 ---
 
-## All Knowledge Pages
-
 <script>
-// Auto-generate list of all .md files from GitHub API - no build required
-async function loadMdFiles() {
+async function getAllMdFiles(path = 'contents', files = []) {
   try {
-    const response = await fetch('https://api.github.com/repos/pirahansiah/pirahansiah.github.io/contents/pkm');
-    const files = await response.json();
+    const response = await fetch(`https://api.github.com/repos/pirahansiah/pirahansiah.github.io/contents/${path}`);
+    if (!response.ok) return files;
     
-    // Filter .md files and convert to readable links (without .md extension)
-    const mdFiles = files.filter(f => f.name.endsWith('.md')).map(file => {
-      return `<a href="/${file.path}" target="_blank">${file.name.replace('.md', '')}</a>`;
-    }).join(', ');
+    const items = await response.json();
+    if (!Array.isArray(items)) return files;
     
-    // Display in a simple list format
-    document.body.insertAdjacentHTML('beforeend', 
-      '<div style="padding: 20px; font-family: system-ui, sans-serif;">' +
-        '<h3>📚 All Knowledge Pages</h3>' +
-        '<ul style="line-height: 2;">' + mdFiles.split(',').map(f => `<li><a href="/${f}" target="_blank">${f.replace('.md', '')}</a></li>`).join('') + '</ul>' +
-      '</div>'
-    );
+    for (const item of items) {
+      if (item.name.startsWith('.')) continue;
+      
+      if (item.type === 'file' && item.name.endsWith('.md')) {
+        files.push({
+          name: item.name.replace('.md', ''),
+          path: item.path.replace('contents/', '').replace('.md', '')
+        });
+      } else if (item.type === 'dir') {
+        await getAllMdFiles(item.path, files);
+      }
+    }
   } catch (error) {
-    document.body.insertAdjacentHTML('beforeend', 
-      '<p style="color: #666;">Unable to load page list. Please refresh or check your connection.</p>'
-    );
+    console.error('Error fetching files:', error);
   }
+  
+  return files;
 }
 
-// Load when page loads
-loadMdFiles();
+async function renderMdLinks() {
+  const files = await getAllMdFiles();
+  files.sort((a, b) => a.name.localeCompare(b.name));
+  
+  const linksList = files.map(f => 
+    `<li><a href="/${f.path}/">${f.name}</a></li>`
+  ).join('');
+  
+  const container = document.querySelector('main') || document.body;
+  container.insertAdjacentHTML('beforeend', `
+    <section style="margin-top: 40px; padding: 20px; border-top: 1px solid #ccc;">
+      <h2>📚 All Knowledge Pages</h2>
+      <ul style="column-count: 2; column-gap: 30px; line-height: 1.8;">
+        ${linksList}
+      </ul>
+    </section>
+  `);
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', renderMdLinks);
+} else {
+  renderMdLinks();
+}
 </script>
