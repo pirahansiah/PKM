@@ -1,43 +1,42 @@
 # Solutions
 ## Use Cases
-[Use Cases](./solutions/use-cases.md)
+[Use Cases](./solutions/use-cases/)
 
 # Products
 ## Offering
-[Offering](./products/offering.md)
+[Offering](./products/offering/)
 
 # Technology
 ## System Design
-[System Design](./technology/system-design.md)
+[System Design](./technology/system-design/)
 
 # Atlas
 ## Knowledge Graph
-[Knowledge Graph](./atlas/knowledge-graph.md)
+[Knowledge Graph](./atlas/knowledge-graph/)
 
 # Investors RELATIONS
-## Growth Model
-### [Growth Model](./investors/growth-model.md)
-### [VISION](./investors/growth-model.md)
-### [EVENTS & TRADE FAIRS](./investors/growth-model.md)
-### [PITCH DECK](./investors/growth-model.md)
-### [TESTIMONIALS](./investors/growth-model.md)
-### [INVESTMENT HIGHLIGHTS](./investors/growth-model.md)
+## [Growth Model](./investors/growth-model/)
+## [VISION](./investors/growth-model/)
+## [EVENTS & TRADE FAIRS](./investors/growth-model/)
+## [PITCH DECK](./investors/growth-model/)
+## [TESTIMONIALS](./investors/growth-model/)
+## [INVESTMENT HIGHLIGHTS](./investors/growth-model/)
 
 # Pricing
 ## Costs
-[Costs](./pricing/costs.md)
+[Costs](./pricing/costs/)
 
 # Legacy
 ## Proof
-[Proof](./legacy/proof.md)
+[Proof](./legacy/proof/)
 
 # Pulse
 ## Updates
-[Updates](./pulse/updates.md)
+[Updates](./pulse/updates/)
 
 # About
 ## Company
-[Company](./about/company.md)
+[Company](./about/company/)
 
 # update
 [TOC](/contents/TOC)

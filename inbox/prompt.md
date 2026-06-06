@@ -1,14 +1,56 @@
 # General Coding Task
 
 /no_think
+Update all .md files in given folder.
+Add front matter headers.
+
+Rules:
+
+* layout is always: default
+* generate title from file content or filename
+* generate tags from content, folder, and context
+* keep metadata consistent and relevant
+* no manual placeholders
+* no explanations
+* no extra text
+
+Output:
+
+* return all updated files in one code block only
+* format:
+    — file: path/filename.md —
+
+⸻
+
+layout: default
+title: …
+tags: …
+
+(content)
+— file: next.md —
+…
+
+* stop after closing fence
+
+i need like PKM methods to need to have link,refrenceline,doubledlink connetion, forward and backward links, ... releven tags,... find other relevent suported headers that can work in github page jukill build of .md files without build or add packages
+
+
+
+
+
+
+
+
+
+
+---
+
+/no_think
 Return the complete updated files.
 Do not explain changes.
 Do not add comments.
 Output one code block only.
 Stop immediately after the closing fence.
-
-Task:
-[INSERT YOUR TASK DESCRIPTION HERE]
 
 Requirements:
 - Provide clean, production-ready, and minimal code.
