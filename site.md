@@ -98,55 +98,55 @@ A
 
  Key defensibility factors and moats.
 ## B
-[Market Opportunity](/contents/pkm/investors/market-opportunity/)
+[Market Opportunity](./pkm/investors/market-opportunity)
 
  TAM / SAM / SOM analysis.
 
 # 💳 PRICING
 ## B
-[Costs & Tiers](/contents/pkm/pricing/costs/)
+[Costs & Tiers](./pkm/pricing/costs)
 
  Starter, Professional, and Enterprise structures.
 ## B
-[Licensing](/contents/pkm/pricing/licensing/)
+[Licensing](./pkm/pricing/licensing)
 
  Software distribution and IP rights.
 ## B
-[Custom Solutions](/contents/pkm/pricing/custom-solutions/)
+[Custom Solutions](./pkm/pricing/custom-solutions)
 
  Bespoke integration modeling.
 
 # 📜 LEGACY
 ## B
-[Intellectual Property](/contents/pkm/legacy/intellectual-property/)
+[Intellectual Property](./pkm/legacy/intellectual-property)
 
  Patents, trademarks, and logic protection.
 ## B
-[Track Record](/contents/pkm/legacy/track-record/)
+[Track Record](./pkm/legacy/track-record)
 
  Project history and milestone verification.
 ## B
-[Partnerships](/contents/pkm/legacy/partnerships/)
+[Partnerships](./pkm/legacy/partnerships)
 
  Ecosystem and strategic alliances.
 
 # 📡 PULSE
 ## B
-[Build Log](/contents/pkm/pulse/build-log/)
+[Build Log](./pkm/pulse/build-log)
 
  Real-time development and operational stream.
 ## B
-[Updates](/contents/pkm/pulse/updates/)
+[Updates](./pkm/pulse/updates)
 
  Formal announcements and market releases.
 ## B
-[Market Insights](/contents/pkm/pulse/market-insights/)
+[Market Insights](./pkm/pulse/market-insights)
 
  Curated intelligence and trend tracking.
 
 # 🏢 ABOUT
 ## B
-[Company](/contents/pkm/about/company/)
+[Company](./pkm/about/company)
 
  Founding mission and core values.
 ## B
