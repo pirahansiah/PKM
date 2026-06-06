@@ -13,6 +13,11 @@
 # Atlas
 ## Knowledge Graph
 [Knowledge Graph](./atlas/knowledge-graph/)
+* Knowledge Graph
+* Research
+* Maps
+* Connections
+
 
 # Investors RELATIONS
 ## [Growth Model](./investors/growth-model/)
@@ -39,7 +44,7 @@
 [Company](./about/company/)
 
 # update
-[TOC](/contents/TOC)
+[TOC](/contents/pkm/TOC)
 * [b FullMarkmap-autoloader with images](/contents/inbox/FullMarkmapAutoloaderWithImages)
 * [a markmap-autoloader](/contents/inbox/markmap-autoloader)
 * [c presentation](/contents/inbox/presentation)
