@@ -8,25 +8,25 @@ categories: system
 # 🗺 ATLAS
 ## B
 A
-[Knowledge Graph](/contents/pkm/atlas/knowledge-graph/)
+[Knowledge Graph](./pkm/atlas/knowledge-graph)
 
  Semantic network of intelligence assets.
 
 # update
 ## B
-[TOC](/contents/pkm/TOC)
+[TOC](./pkm/TOC)
 
 # About Me
 ## B
-[About Me](/contents/pkm/cv/AboutMe.html)
+[About Me](./pkm/cv/AboutMe)
 
 # Knowledge Graph
 ## B
-[Knowledge Graph](./contents/pkm/atlas/knowledge-graph/)
+[Knowledge Graph](./pkm/atlas/knowledge-graph)
 
 # 🚀 SOLUTIONS
 ## B
-[Industries](/contents/pkm/solutions/industries/)
+[Industries](./pkm/solutions/industries)
 
  Sector-specific integration models.
 ## B
@@ -34,29 +34,29 @@ A
 
  High-impact application scenarios.
 ## B
-[Transformation Framework](/contents/pkm/solutions/transformation-framework/)
+[Transformation Framework](./pkm/solutions/transformation-framework)
 
  Strategic implementation methodology.
 ## B
-[ROI Calculator](/contents/pkm/solutions/roi-calculator/)
+[ROI Calculator](./pkm/solutions/roi-calculator)
 
  Value modeling and performance projections.
 
 # 📦 PRODUCTS
 ## B
-[Flagship Platform](/contents/pkm/products/flagship-platform/)
+[Flagship Platform](./pkm/products/flagship-platform)
 
  The core Liquid Glass UI/UX environment.
 ## B
-[AI Agents](/contents/pkm/products/ai-agents/)
+[AI Agents](./pkm/products/ai-agents)
 
  Autonomous agentic workflows.
 ## B
-[Vision AI](/contents/pkm/products/vision-ai/)
+[Vision AI](./pkm/products/vision-ai)
 
  Advanced computer vision and spatial logic.
 ## B
-[Edge AI](/contents/pkm/products/edge-ai/)
+[Edge AI](./pkm/products/edge-ai)
 
  Distributed intelligence at the hardware perimeter.
 
