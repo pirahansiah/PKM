@@ -5,17 +5,17 @@ tags: indexing, sitemap, architect, strategy
 categories: system
 ---
 
-# 🗺 ATLAS
+# 🗺 ATLAS2
 ## Knowledge Graph
 [Knowledge Graph](./pkm/atlas/knowledge-graph)
 
  Semantic network of intelligence assets.
 
-# update
+# update2
 ## TOC
 [TOC](./pkm/TOC)
 
-# About Me
+# About Me2
 ## About Me
 [About Me](./pkm/cv/AboutMe)
 
