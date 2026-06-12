@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: System Design
 tags: architecture system design tech stack infrastructure
 categories: technology

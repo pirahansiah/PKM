@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: Offering
 tags: pkm products features capabilities offering
 categories: products

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: presentation with left and right click area 
 ---
 

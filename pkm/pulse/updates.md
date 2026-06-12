@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: Updates
 tags: news updates blog announcements pkm
 categories: pulse

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: Use Cases
 tags: pkm usecases solutions valueprop customers
 categories: solutions

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: Markdown with Mindmap markmap
 hashtags: markmap
 

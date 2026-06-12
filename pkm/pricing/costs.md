@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: Pricing & Costs
 tags: pricing costs business model investors financials
 categories: pricing

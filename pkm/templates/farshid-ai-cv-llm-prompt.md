@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: Data & DevOps
 ---
 
@@ -81,7 +81,7 @@ Output:
 
 ⸻
 
-layout: default
+layout: farshid_default
 title: …
 tags: …
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: Proof of Concept
 tags: proof history legacy research validation
 categories: legacy

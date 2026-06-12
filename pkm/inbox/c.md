@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: Inbox C
 tags: pkm inbox technical notes architecture
 categories: inbox
@@ -7,6 +7,7 @@ links: https://pirahansiah.github.io/inbox/c/
 references: system-design, technology
 related: products, legacy
 backlinks: /contents/pkm/atlas/knowledge-graph.md
+---
 
 ## [Technical Notes]
 

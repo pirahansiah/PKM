@@ -1,4 +1,4 @@
 ---
-layout: atlas
+layout: farshid_atlas
 title: Knowledge Atlas
 ---
