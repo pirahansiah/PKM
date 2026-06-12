@@ -1,7 +1,7 @@
 ---
 layout: farshid_default
-title: "Dr. Farshid Pirahansiah — Complete Portfolio & Links"
-tags: proof portfolio publications patents links resources projects
+title: "Dr. Farshid Pirahansiah — Complete Portfolio"
+tags: proof portfolio publications patents resources projects
 categories: legacy
 links: https://pirahansiah.github.io/legacy/proof/
 references: knowledge-graph, strategic-connections
@@ -13,52 +13,32 @@ backlinks: /contents/pkm/about/company.md
 
 - [About](#about)
 - [Publications](#publications)
-  - [Patents (3)](#patents)
-  - [Books (2)](#books)
-  - [Journals (6)](#journals)
-  - [Conference Papers (11)](#conference-papers)
+  - [Patents](#patents)
+  - [Books](#books)
+  - [Journals](#journals)
+  - [Conference Papers](#conference-papers)
   - [Keynotes](#keynotes)
+- [Camera Calibration Expertise](#camera-calibration-expertise)
 - [Hardware & Platforms](#hardware--platforms)
 - [Products & Tools](#products--tools)
 - [Open Source](#open-source)
 - [Technical Content](#technical-content)
-- [Guides & Tutorials](#guides--tutorials)
-- [Career & Business](#career--business)
-- [Courses (tiziran.com)](#courses)
+  - [CUDA & GPU Programming](#cuda--gpu-programming)
+  - [Optical Flow](#optical-flow)
+  - [3D Vision & Multi-Camera](#3d-vision--multi-camera)
+  - [Optimization](#optimization)
+  - [AI & LLM](#ai--llm)
+- [CV Coaching Roadmap](#cv-coaching-roadmap)
+- [Courses](#courses)
 - [Workshops & Events](#workshops--events)
-- [Knowledge Management](#knowledge-management)
-- [Topics & Projects](#topics--projects)
-- [Community](#community)
-- [Social](#social)
 
 ---
 
 # About
 
-Dr. Farshid Pirahansiah is a Computer Vision expert with 10+ years of R&D experience, specializing in real-time image processing, robotic, and edge AI deployment across Jetson, Raspberry Pi, Hailo, Axelera, and ARM devices. He holds 3 AI patents, has 141+ research citations (h-index: 7), and authored a Springer book chapter on camera calibration.
+Dr. Farshid Pirahansiah — Computer Vision expert with 10+ years R&D. 3 AI patents, 141+ citations (h-index 7), Springer book chapter author. Specializes in real-time image processing, edge AI across Jetson, Raspberry Pi, Hailo, Axelera, ARM. Full-stack CV/DL: model training → fine-tuning → deployment → API integration.
 
-**Metrics:**
-
-| Metric | Value |
-|--------|-------|
-| Publications | 21 total (3 patents, 2 books, 6 journals, 11 conferences) |
-| Citations | 141+ (Google Scholar) |
-| h-index | 7 |
-| i10-index | 5 |
-| LinkedIn Group | 55K+ members |
-| Facebook Group | 15K+ members |
-
-**Links:**
-
-- [Google Scholar](https://scholar.google.com/citations?user=GvCEy4QAAAAJ&hl=en)
-- [ScienceOpen Collection](https://www.scienceopen.com/collection/da288fa0-3d52-46dc-9e07-73dfc597dfb8)
-- [CV / Resume](https://www.pirahansiah.com/farshid/portfolio/publications/CV)
-- [10 Years of Research](https://www.pirahansiah.com/farshid/portfolio/publications/10Years)
-- [Podcast](https://podcasters.spotify.com/pod/show/pirahansiah)
-- [Portfolio](https://www.pirahansiah.com/farshid/portfolio/projects/Solutions)
-- [Resources](https://www.pirahansiah.com/farshid/Resources)
-- [Social](https://www.pirahansiah.com/farshid/Social)
-- [Table of Contents](https://www.pirahansiah.com/farshid/TOC)
+**Metrics:** 21 publications (3 patents, 2 books, 6 journals, 11 conferences) · h-index 7 · i10-index 5 · LinkedIn 55K+ · Facebook 15K+
 
 ---
 
@@ -66,93 +46,74 @@ Dr. Farshid Pirahansiah is a Computer Vision expert with 10+ years of R&D experi
 
 ## Patents
 
-### 1. Face Image Augmentation (WO 2021/060971 A1)
+### 1. Face Image Augmentation — WO 2021/060971 A1
 
-Generates realistic face images from surveillance video using GANs. Captures faces from multiple angles, augments through data transformations, and selects high-quality images for training deep learning models. Improves recognition in difficult environments.
+Generates realistic face images from surveillance video using GANs. Captures faces from multiple angles, augments through data transformations, selects high-quality images for training. Improves recognition in difficult environments with fuzzy logic quality filtering.
 
-- [Full Patent](https://www.pirahansiah.com/farshid/portfolio/publications/Patents/A_METHOD_FOR_AUGMENTING_A_PLURALITY_OF_FACE_IMAGES_WO2021060971A1)
-- Tags: #FaceAugmentation #GAN #Surveillance
+### 2. Advertisement via Facial Analysis — WO 2020/141969 A2
 
-### 2. Advertisement via Facial Analysis (WO 2020/141969 A2)
+Facial recognition (CNN, GAN) adjusts digital advertisements based on user demographics and emotions. Identifies single/group users, provides customized content without collecting personal data. Uses unique matching mechanism correlating facial features with business goals.
 
-Uses facial recognition (CNN, GAN) to dynamically adjust digital advertisements based on user demographics and emotions. Identifies single or group users and provides customized content without collecting personal data.
+### 3. Moving Vehicle Detection — WO 2021/107761 A1
 
-- [Full Patent](https://www.pirahansiah.com/farshid/portfolio/publications/Patents/SYSTEM_AND_METHOD_FOR_PROVIDING_ADVERTISEMENT_CONTENTS_BASED_ON_FACIAL_ANALYSIS_WO2020141969A2)
-- Tags: #DigitalAdvertising #FacialRecognition #TargetedAds
-
-### 3. Moving Vehicle Detection (WO 2021/107761 A1)
-
-Advanced image processing for vehicle detection in surveillance. Uses illumination enhancement, Sobel edge detection, and geometric noise filtering. Works in poor lighting conditions.
-
-- [Full Patent](https://www.pirahansiah.com/farshid/portfolio/publications/Patents/A_METHOD_FOR_DETECTING_A_MOVING_VEHICLE_WO2021107761A1)
-- Tags: #VehicleDetection #ImageProcessing #TrafficSurveillance
+Advanced image processing for vehicle detection. Illumination enhancement, Sobel edge detection, geometric noise filtering. Works in poor lighting. Filters noise using geometric features and relationship to key objects.
 
 ## Books
 
-### 1. Camera Calibration & Video Stabilization for Robot Localization
+### Camera Calibration & Video Stabilization for Robot Localization
 
-Springer book chapter on camera calibration framework for robot localization in the book "Control Engineering in Robotics and Industrial Automation".
+Springer chapter in "Control Engineering in Robotics and Industrial Automation". Camera calibration framework for robot localization.
 
-- [Book Chapter](https://www.pirahansiah.com/farshid/portfolio/publications/Books/My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization)
-
-### 2. Computational Intelligence: Optical Flow for Video Stabilization
+### Computational Intelligence: Optical Flow for Video Stabilization
 
 Explores augmented optical flow methods for video stabilization in "Computational Intelligence: From Theory to Application".
 
-- [Book](https://www.pirahansiah.com/farshid/portfolio/publications/Books/Book_Computational_Intelligence_From_Theory_to_Application_explores_augmented_optical_flow_methods_for_video_stabilization)
+### OpenCV 5 Ebook
 
-### 3. OpenCV 5 Ebook
-
-- [Chapter 0 — Introduction](https://www.pirahansiah.com/farshid/portfolio/publications/Books/AI/0)
-- [Chapter 1 — Image Basics](https://www.pirahansiah.com/farshid/portfolio/publications/Books/AI/1)
-- [Chapter 2 — Feature Detection](https://www.pirahansiah.com/farshid/portfolio/publications/Books/AI/2)
-- [Chapter 3 — Advanced Topics](https://www.pirahansiah.com/farshid/portfolio/publications/Books/AI/3)
-- [Computer Vision Meets LLM](https://www.pirahansiah.com/farshid/portfolio/publications/Books/AI/ComputerVisionMeetLLM)
+4 chapters: Introduction → Image Basics → Feature Detection → Advanced Topics. Plus "Computer Vision Meets LLM".
 
 ## Journals
 
-1. [Adaptive Image Thresholding Based on PSNR](https://www.pirahansiah.com/farshid/portfolio/publications/Journals/Adaptive_Image_Thresholding_Based_on_the_Peak_Signal-to-noise_Ratio)
-2. [Character & Object Recognition via Global Features](https://www.pirahansiah.com/farshid/portfolio/publications/Journals/CHARACTER_AND_OBJECT_RECOGNITION_BASED_ON_GLOBAL_FEATURE_EXTRACTION)
-3. [PSNR Global Single Fuzzy Threshold](https://www.pirahansiah.com/farshid/portfolio/publications/Journals/GSFT-PSNR_Global_Single_Fuzzy_Threshold)
-4. [PSNR Threshold for Image Segmentation](https://www.pirahansiah.com/farshid/portfolio/publications/Journals/PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION)
-5. [3D SLAM for Humanoid Robot Linkages](https://www.pirahansiah.com/farshid/portfolio/publications/Journals/3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages)
-6. [Ant Colony Optimization for Image Processing](https://www.pirahansiah.com/farshid/portfolio/publications/Journals/USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM)
+1. Adaptive Image Thresholding Based on PSNR
+2. Character & Object Recognition via Global Feature Extraction
+3. PSNR Global Single Fuzzy Threshold
+4. PSNR Threshold for Image Segmentation
+5. 3D SLAM: Simultaneous Localization And Mapping Trends And Humanoid Robot Linkages
+6. Using an Ant Colony Optimization Algorithm for Image Processing
 
 ## Conference Papers
 
-1. [2D vs 3D Map for Moving Objects](https://www.pirahansiah.com/farshid/portfolio/publications/Papers/My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects)
-2. [PSNR Adaptive Segmentation for License Plates](https://www.pirahansiah.com/farshid/portfolio/publications/Papers/Adaptive_Image_Segmentation_Based_on_PSNR_for_License_Plate_Recognition)
-3. [Geometrical Topological Feature Analysis](https://www.pirahansiah.com/farshid/portfolio/publications/Papers/An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis)
-4. [Multi-Modal Robot Vision Calibration](https://www.pirahansiah.com/farshid/portfolio/publications/Papers/Camera_Calibration_for_Multi-Modal_Robot_Vision)
-5. [Character Recognition via Global Features](https://www.pirahansiah.com/farshid/portfolio/publications/Papers/)
-6. [Handwritten Image Segmentation](https://www.pirahansiah.com/farshid/portfolio/publications/Papers/Comparison_single_thresholding_method_for_handwritten_images_segmentation)
-7. [License Plate Recognition with Entropy](https://www.pirahansiah.com/farshid/portfolio/publications/Papers/License_Plate_Recognition_with_Multi-Threshold_Based_on_Entropy)
-8. [Multi-threshold License Plate System](https://www.pirahansiah.com/farshid/portfolio/publications/Papers/Multi-threshold_Approach_for_License_Plate_Recognition_System)
-9. [Pattern Significance for Camera Calibration](https://www.pirahansiah.com/farshid/portfolio/publications/Papers/Pattern_Image_Significance_for_Camera_Calibration)
-10. [Grid Computing at Tafresh University](https://www.pirahansiah.com/farshid/portfolio/publications/Papers/TafreshGrid_Grid_computing_in_Tafresh_university)
-11. [CV Meets LLM](https://www.pirahansiah.com/farshid/portfolio/publications/Papers/)
+1. 2D vs 3D Map for Environment Movement Objects
+2. Adaptive Image Segmentation Based on PSNR for License Plate Recognition
+3. Classification Techniques Using Enhanced Geometrical Topological Feature Analysis
+4. Camera Calibration for Multi-Modal Robot Vision
+5. Character Recognition Based on Global Feature
+6. Comparison of Single Thresholding Method for Handwritten Images Segmentation
+7. License Plate Recognition with Multi-Threshold Based on Entropy
+8. Multi-threshold Approach for License Plate Recognition System
+9. Pattern Image Significance for Camera Calibration
+10. TafreshGrid: Grid Computing at Tafresh University
+11. Computer Vision Meets LLM
 
 ## Keynotes
 
-- [LLMs Meet Computer Vision](https://www.pirahansiah.com/farshid/portfolio/publications/Keynotes/LLMsMeetComputerVision)
+- LLMs Meet Computer Vision
 
 ---
 
 # Camera Calibration Expertise
 
-Expert in camera calibration with publications and solutions across:
+Expert across single-camera and multi-camera systems:
 
 - **Standard RGB cameras** — common imaging tasks
-- **High-resolution cameras** — precision imaging
+- **High-resolution cameras** — precision industrial imaging
 - **Depth cameras** — stereo vision, 3D reconstruction
 - **Infrared cameras** — thermal, night vision
-- **IoT camera systems** — real-time monitoring
+- **IoT camera systems** — real-time monitoring, smart environments
 - **Robotic vision** — autonomous navigation, industrial robotics
-- **Medical imaging** — precise calibration for tools
+- **Medical imaging** — precise calibration for surgical tools
 
-**Techniques:** Fixed patterns (chessboard), dynamic automated calibration for real-time/mobile platforms.
-
-[LinkedIn](https://lnkd.in/d97ypMcc)
+**Techniques:** Fixed patterns (chessboard), dynamic automated calibration for real-time/mobile platforms. Works with robotics, IoT, medical technology, industrial automation.
 
 ---
 
@@ -160,199 +121,383 @@ Expert in camera calibration with publications and solutions across:
 
 ## AI Accelerators
 
-- **Axelera AI M2** — Metis AIPU on Raspberry Pi 5
-- **Hailo-15 SBC** — AI Vision Processor with full Yocto Linux
+- **Axelera AI M2** — Metis AIPU on Raspberry Pi 5, M.2 inference card
+- **Hailo-15 SBC** — AI Vision Processor, Yocto Linux, full BSP
 - **FPGA Xilinx Kria KV260** — Zynq UltraScale+ Vision AI Starter Kit
 - **Intel Neural Compute Stick 2** — portable AI inference
 - **OpenCV AI Kit** — integrated AI vision + depth sensing
-- **Google Coral (TPU)** — on-device ML
-- **Nvidia Jetson Nano** — edge AI
+- **Google Coral (TPU)** — on-device ML, low-latency
+- **Nvidia Jetson Nano** — edge AI, accelerated vision
 - **Nvidia GPU (RTX 1080–5090)** — high-performance training
 
 ## Edge Devices
 
-- Raspberry Pi 3, 4, 5
-- ARM-based platforms
-- RISC-V chipsets
+- Raspberry Pi 3, 4, 5 — edge computing, low-power
+- ARM platforms — mobile CV
+- RISC-V chipsets — open-source scalable
 
-## Platforms & OS
+## Platforms
 
 - **ARM** — low-power mobile CV
-- **Apple Silicon** — efficient CV workflows, CoreML
+- **Apple Silicon** — CoreML, MLX, Metal workflows
 - **x86-64** — large-scale training
-- Linux, Windows, macOS
+
+## OS
+
+- Linux (preferred for CV), Windows, macOS
 
 ---
 
 # Products & Tools
 
-- [AI Model Cost Calculator](https://www.pirahansiah.com/farshid/portfolio/projects/AI_Model_Cost_Calculator.html) — CV and multimodal AI cost optimization
-- [Real-time OpenCV GUI](https://www.pirahansiah.com/farshid/portfolio/projects/GUI_OpenCV/realtime_GUI_OpenCV.py) — PyQt5 function tester
-- [3D Camera Calibration](https://www.pirahansiah.com/farshid/portfolio/projects/Camera_Calibration/cameracalibration)
-- [AI Todo List Telegram Mini App](https://www.pirahansiah.com/farshid/portfolio/projects/AI_todo_list/index.html) — IndexedDB persistence
-- [Telegram CV Bot](https://t.me/pirahansiahbot) — fine-tuned GPT-4 Mini on AWS Lambda
-- [Image Processing Bot](https://t.me/image_processing_farshid_bot) — OpenCV functions via Telegram
-- [Custom ChatGPTs](https://www.pirahansiah.com/farshid/portfolio/projects/Solutions):
-  - [CV Developer](https://chat.openai.com/g/g-vHELtCqJq-computer-vision-developer)
-  - [MLOps & DevOps](https://chat.openai.com/g/g-sWtYkb391-mlops-devops)
-  - [Career Companion](https://chat.openai.com/g/g-VrtNMlXDg-career-companion)
-  - [German TutorBot](https://chat.openai.com/g/g-Fkg5ts1II-german-tutorbot)
-  - [Simpli3D Creator](https://chat.openai.com/g/g-AmzCWmmQa-simpli3d-creator)
-  - [Image Inspirer](https://chat.openai.com/g/g-YHNv6svFJ-image-inspirer)
+## AI Model Cost Calculator
+
+Calculates text and image processing costs for GPT-4 Turbo, Gemini 1.5 Pro, Claude 3 Opus with real-time pricing estimates.
+
+## Real-time OpenCV GUI
+
+PyQt5-based function tester. Apply OpenCV functions on images with safe code execution, undo functionality. For learning and prototyping.
+
+## 3D Camera Calibration
+
+Calibration tools and demos for single and multi-camera systems.
+
+## AI Todo List Telegram Mini App
+
+IndexedDB persistence, multi-view calendar (day/week/month/year), cross-device compatible. Telegram Bot + Mini App integration.
+
+## Telegram Bots
+
+- **@pirahansiahbot** — Fine-tuned GPT-4 Mini on AWS Lambda for CV queries. Custom dataset, hyperparameter tuning, serverless deployment.
+- **@image_processing_farshid_bot** — Send images, apply OpenCV functions (Canny, etc.), get instant results. Payment via TON/stars.
+- **@item2cook_bot** — Photo to pencil sketch transformer.
+
+## Custom ChatGPTs
+
+- CV Developer — Python, OpenCV expertise
+- MLOps & DevOps — pipeline optimization
+- Career Companion — CV enhancement, interview prep
+- German TutorBot — text correction, translations
+- Simpli3D Creator — image-to-3D conversion
+- Image Inspirer — creative image generation
+
+## VSCode Extensions Pack
+
+Essential tools for CV, ML, LLM, PKM: Better Comments, Prettier, Python, Jupyter, Docker.
 
 ---
 
 # Open Source
 
-- [OpenCV NuGet VS2019](https://www.nuget.org/packages/OpenCV5_StaticLib_VS2019_NuGet) — `Install-Package OpenCV5_StaticLib_VS2019_NuGet`
-- [OpenCV NuGet VS2022](https://www.nuget.org/packages/OpenCV5_StaticLib_VS22_NuGet) — `Install-Package OpenCV5_StaticLib_VS22_NuGet`
-- [cvTest](https://github.com/pirahansiah/cvtest) — CV unit/integration/system testing framework
-- [opencv-cpp](https://github.com/pirahansiah/opencv-cpp) — C++ examples
-- [VSCode Extensions Farshid](https://marketplace.visualstudio.com/items?itemName=vscode-extensions-farshid.vscode-extensions-farshid) — CV/ML/LLM/PKM extension pack
-- [Mind Maps Source](https://github.com/tiziran/tiziran.github.io) — all diagram sources
+## OpenCV NuGet Packages
+
+Static OpenCV 5 library for Visual Studio. Install via NuGet Package Manager in minutes.
+
+- **VS2019:** `Install-Package OpenCV5_StaticLib_VS2019_NuGet`
+- **VS2022:** `Install-Package OpenCV5_StaticLib_VS22_NuGet`
+
+Static opencv make: 200KB → 18MB, no DLL needed.
+
+## cvTest — Computer Vision Testing Framework
+
+Unit, integration, system, and acceptance tests for CV/DL. Tests processing time, memory, CPU usage. Output validation via PSNR, SSIM, image quality metrics. Hardware-specific benchmarks. Tests: auto brightness adjustment, sharpening kernel effectiveness, FPS measurement, OCR comparison.
+
+## opencv-cpp
+
+C++ OpenCV example projects and templates.
 
 ---
 
 # Technical Content
 
-## CUDA & GPU
+## CUDA & GPU Programming
 
-- [CUDA + OpenCV + VSCode Windows](https://www.pirahansiah.com/farshid/content/VSCodeCUDAwindows) — dev environment setup
-- [PyCUDA Kernel Explanation](https://www.pirahansiah.com/farshid/content/CUDA_pycuda_kernel_explanation) — GPU kernel programming
-- [Numba JIT Tutorial](https://www.pirahansiah.com/farshid/content/CUDA_numba_jit_tutorial) — JIT compilation for CV/ML/DL
+### CUDA + OpenCV + VSCode (Windows)
 
-## Computer Vision
+Setup for CUDA C++ development in VS Code:
 
-- [Optical Flow](https://www.pirahansiah.com/farshid/content/opticalFlow) — motion estimation
-- [Real-Time Multi Camera](https://www.pirahansiah.com/farshid/content/RealTimeMultiCamera) — synchronized systems
-- [3D Vision](https://www.pirahansiah.com/farshid/content/3D) — depth maps to point clouds at 60fps
+**tasks.json** — Build task using nvcc with MSVC include/lib paths. Compiles main.cu → main.exe.
 
-## Programming
+**settings.json** — Associates .cu files with C++ for syntax highlighting. Uses cmd.exe terminal.
 
-- [Python Tips](https://www.pirahansiah.com/farshid/content/Python)
-- [C++ Modern Techniques](https://www.pirahansiah.com/farshid/content/CPP)
-- [C++ Memory Management](https://www.pirahansiah.com/farshid/content/CPP_Memory)
-- [The Missing Semester](https://www.pirahansiah.com/farshid/content/theMissingSemester) — CS fundamentals
+**launch.json** — Debug config using cppvsdbg. Auto-builds before run, executes in external terminal.
 
-## AI & LLM
+**c_cpp_properties.json** — IntelliSense with CUDA and MSVC headers. Compiler: nvcc.exe, C++17 standard.
 
-- [Orchestrating AI Agents](https://www.pirahansiah.com/farshid/content/Mind_Map_Orchestrating_Agents) — multi-agent systems mind map
-- [Advanced LLM Concepts](https://www.pirahansiah.com/farshid/content/Mind_Map_Advanced_LLM_Concepts)
-- [Prompt Engineering](https://www.pirahansiah.com/farshid/content/Prompts)
-- [MLX / CoreML / Metal](https://www.pirahansiah.com/farshid/content/MLX_CoreML_Metal_) — Apple ML frameworks
+Tips: Use `${env:CUDA_PATH}` instead of hardcoding. Add `-g` for debug symbols. Consider CMake for larger projects.
+
+### PyCUDA Kernel Explanation
+
+PyCUDA runs CUDA kernels (C/C++) from Python:
+
+1. **Import:** `pycuda.driver as cuda`, `pycuda.autoinit`
+2. **Write kernel as string:**
+```c
+__global__ void add(int *a, int *b, int *result) {
+    int idx = threadIdx.x + blockIdx.x * blockDim.x;
+    result[idx] = a[idx] + b[idx];
+}
+```
+3. **Compile:** `SourceModule(kernel_code)` — compiles at runtime
+4. **Extract:** `mod.get_function("add")`
+5. **Allocate GPU memory:** `cuda.mem_alloc()`, copy data with `cuda.memcpy_htod()`
+6. **Run:** `add(a_gpu, b_gpu, result_gpu, block=(4,1,1), grid=(1,1))`
+7. **Retrieve:** `cuda.memcpy_dtoh(result, result_gpu)`
+
+### Numba JIT Tutorial
+
+`@jit(nopython=True)` compiles Python to machine code at runtime. Skips Python interpreter entirely.
+
+**Without Numba:**
+```python
+def sum_of_squares(arr):
+    total = 0
+    for num in arr:
+        total += num * num
+    return total
+```
+
+**With Numba:**
+```python
+from numba import jit
+
+@jit(nopython=True)
+def sum_of_squares_jit(arr):
+    total = 0
+    for num in arr:
+        total += num * num
+    return total
+```
+
+For 10M numbers: several times faster. Works for factorials, matrix multiplication, any numerical loop.
+
+## Optical Flow
+
+### Challenges & Solutions
+
+**Illumination Variations:** Use CLAHE preprocessing, RAFT/PWC-Net deep models, NCC for robust matching.
+
+```python
+def robust_motion_estimation(frames):
+    preprocessed = [cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8)).apply(f) for f in frames]
+    return cv2.calcOpticalFlowFarneback(preprocessed[0], preprocessed[1], None, 0.5, 3, 15, 3, 5, 1.2, 0)
+```
+
+**Occlusions:** Bilateral filtering, backward-forward flow consistency check, MaskFlowNet.
+
+**Fast Motion:** Pyramidal Lucas-Kanade, FlowNet2, PWC-Net for large displacements.
+
+**Textureless Regions:** Farneback dense flow, smoothness constraints, RAFT.
+
+**Motion Blur:** Wiener filtering, Dual TV-L1 optical flow, deblurring preprocessing.
+
+**Real-time:** GPU-accelerated (CUDA OpenCV), LiteFlowNet, coarse-to-fine approaches.
+
+**Scaling:** Downscale + multi-scale refinement, image pyramids.
+
+### OpenCV Functions
+
+- `cv2.calcOpticalFlowFarneback()` — dense optical flow
+- `cv2.calcOpticalFlowPyrLK()` — sparse pyramidal Lucas-Kanade
+- `cv2.createCLAHE()` — illumination normalization
+- `cv2.cuda::calcOpticalFlowPyrLK()` — GPU-accelerated
+
+## 3D Vision & Multi-Camera
+
+### Depth to 3D Point Cloud
+
+Deprojection using camera intrinsics:
+```python
+def deproject_point(u, v, depth, camera_matrix):
+    fx, fy = camera_matrix[0,0], camera_matrix[1,1]
+    cx, cy = camera_matrix[0,2], camera_matrix[1,2]
+    return np.array([(u-cx)*depth/fx, (v-cy)*depth/fy, depth])
+```
+
+### 100-Camera Synchronization
+
+**Reality check:** 100 HD cameras @ 30fps ≈ 6.5 Gbps raw. USB/PCIe bottlenecks. 2-4GB just for buffers.
+
+**Recommended architecture (distributed):**
+- 10 machines × 10 cameras each
+- Compressed frames (MJPEG/H.264) over network
+- Central machine decodes and displays synced grid
+
+**Key tools:** ZMQ/gRPC for streaming, FFmpeg for encoding, OpenCV+CUDA for GPU decode.
+
+**Best approach:** GStreamer with `ksvideosrc do-timestamp=true`, `queue max-size-buffers=1 leaky=2`, GPU MJPEG decode, Direct3D11 rendering. End-to-end latency ≤ 40ms.
+
+**MF "no buffer" simulation:** `Flush()` before every `ReadSample()`, `MF_SOURCE_READER_IGNORE_CLOCK`, overwrite "latest frame only" in global array.
+
+### Multi-Camera Transform
+
+```python
+def transform_point(point, matrix):
+    point_homog = np.append(point, 1.0)
+    transformed = np.dot(matrix, point_homog)
+    return transformed[:3]
+```
+
+### Motion Detection from Point Cloud
+
+Threshold-based: compare recent positions within time window, detect movement > 0.05 units.
 
 ## Optimization
 
-- [Model & Code Optimization](https://www.pirahansiah.com/farshid/content/Optimization)
-- [SEO for LLMs](https://www.pirahansiah.com/farshid/content/SEO) — structured data, schema markup
+### Deep Learning Optimization
 
-## Other
+**Model:** Quantization (INT8/FP16), Pruning, Knowledge Distillation
 
-- [Avatar Generator](https://www.pirahansiah.com/farshid/content/Avatar) — local video avatar with Ollama + Wav2Lip
-- [Top LinkedIn Posts 2024](https://www.pirahansiah.com/farshid/content/MYTopLinkeInPost2024)
-- [Links Collection](https://www.pirahansiah.com/farshid/content/links)
+**Hardware:** GPU/TPU acceleration, CUDA/cuDNN
+
+**Data Loading:** Multi-threaded DataLoader, real-time augmentation
+
+**Architecture:** MobileNet, EfficientNet, ResNet
+
+**Inference:** ONNX Runtime, TensorRT, OpenVINO
+
+### Computer Vision Optimization
+
+**Algorithms:** YOLO (real-time detection), MobileNet/SqueezeNet (embedded)
+
+**Preprocessing:** Grayscale conversion, ROI focus, frame skipping
+
+**Parallel:** Multi-threading, GPU processing via CUDA
+
+**Features:** ORB, HOG — efficient extraction
+
+**Edge:** NVIDIA Jetson, TFLite, FPGA/ASIC
+
+### Data Optimization
+
+**Collection:** Diverse sources, balanced classes, high-quality filtering
+
+**Preprocessing:** Normalization, missing data handling, PCA/t-SNE
+
+**Augmentation:** Rotation/scaling/cropping (CV), SMOTE (imbalanced), time-series shifts
+
+### Underfitting vs Overfitting
+
+**Underfitting fix:** More layers/features, complex models, more epochs, reduce learning rate
+
+**Overfitting fix:** L1/L2 regularization, dropout, early stopping, data augmentation, reduce complexity, ensemble methods
+
+### RAM Reduction
+
+Attention sinks, mixed-precision training, lower-precision compute, reduce batch size, gradient accumulation, gradient checkpointing, CPU parameter offloading.
+
+### Key Libraries
+
+- **DL/ML:** PyTorch, TensorFlow, Keras, ONNX Runtime, TensorRT, OpenVINO
+- **CV:** OpenCV, Pillow, FFmpeg, GStreamer
+- **Data:** NumPy, Pandas, Albumentations, SMOTE
+- **Acceleration:** Numba, PyCUDA, CuPy, TFLite
+- **Distributed:** Horovod, Dask, Apache Spark
+- **Tuning:** Ray Tune, GridSearchCV, RandomSearchCV
+
+## AI & LLM
+
+### Orchestrating AI Agents
+
+Multi-agent systems for complex tasks. Components:
+- **Agents:** Autonomous units (single-purpose or general-purpose)
+- **Orchestrator:** Delegates tasks, monitors progress, combines results
+- **Communication:** Message passing, API calls, shared memory
+
+**Workflow:** Task decomposition → assign to specialized agents → monitor → aggregate results
+
+**Benefits:** Efficiency (parallelization), scalability, flexibility, improved decision-making
+
+**Challenges:** Coordination complexity, communication overhead, error handling, resource management
+
+**Applications:** Research & analysis, content creation, project management
+
+### LLM at the Edge (IoT)
+
+1. **Ultra Low-Power** (watch MCUs): TinyML, quantization, pruning, Edge Impulse
+2. **Common Edge** (Raspberry Pi 5): ONNX Runtime, TFLite, model distillation
+3. **RISC-V**: Custom compiler optimization (TVM), RISC-V ML frameworks
+4. **Nvidia Edge**: Jetson platform, CUDA, TensorRT, DeepStream SDK
+
+### RAG vs CAG
+
+- **RAG:** Retrieval-based, up-to-date info, more complex, slower
+- **CAG:** Cache-based, faster responses, simpler, limited to stable data
+
+### Emerging LLM Methods
+
+- **Transformer²:** Self-adaptive weight matrices for real-time task adjustment
+- **MML (Modular ML):** Smaller components, better reasoning, logic-based decisions
+- **Mosaic:** Composite pruning — smaller models without performance loss
 
 ---
 
-# Guides & Tutorials
+# CV Coaching Roadmap
 
-- [CUDA + OpenCV + VSCode Windows Setup](https://www.pirahansiah.com/farshid/guides/CUDA/setup_cuda_opencv_vscode_win)
-- [AI / CV / Python Presentation](https://www.pirahansiah.com/farshid/guides/AI_CV_Python/ppt)
-- [OpenCV 5 on Visual Studio in Minutes](https://www.youtube.com/watch?v=AEqZO_fZHZ8)
+## 1. Fundamentals
+
+Image formation (cameras, lenses, sensors, lighting). Image representation (pixels, RGB/HSV/YCbCr). Sampling & quantization (resolution, bit depth).
+
+## 2. Image Processing
+
+Filtering (convolution, Gaussian, Sobel, Canny). Thresholding (Otsu, adaptive). Morphology (erosion, dilation). Histograms (equalization). Features (SIFT, SURF, ORB, FAST, Harris).
+
+## 3. Object Detection & Recognition
+
+Traditional: Haar cascades, HOG+SVM, template matching. Deep Learning: ResNet/VGG/EfficientNet, YOLO/Faster R-CNN/SSD, U-Net/DeepLab, Mask R-CNN.
+
+## 4. Depth & 3D Vision
+
+Stereo vision (disparity, epipolar). Structure from Motion. Depth sensors (LiDAR, RealSense, Kinect, ToF). SLAM (ORB-SLAM, LSD-SLAM).
+
+## 5. Camera Calibration
+
+Intrinsic/extrinsic parameters. Homographies, perspective warp. Epipolar geometry (fundamental/essential matrix).
+
+## 6. Optical Flow & Motion
+
+Dense vs sparse (Lucas-Kanade, Farneback, Horn-Schunck). Background subtraction (MOG2, KNN). Action recognition (pose, LSTM, 3D CNN).
+
+## 7. Compression
+
+JPEG/PNG (lossy/lossless). H.264/H.265 (video). Depth map compression.
+
+## 8. Real-Time & Edge AI
+
+Hardware acceleration (CUDA, TensorRT, OpenVINO). Frameworks (TFLite, ONNX Runtime, OpenCV DNN). Embedded (Jetson, Raspberry Pi, FPGAs).
+
+## 9. Multi-Camera & Sensor Fusion
+
+Camera synchronization. Multi-view geometry (3D reconstruction, triangulation). IMU+camera, LiDAR+camera fusion.
+
+## 10. Applications
+
+Autonomous vehicles (lane detection, tracking). Medical imaging (MRI/CT, anomaly detection). Surveillance (face recognition, crowd analysis). AR/VR (pose tracking, spatial mapping).
+
+**Tools:** Python+OpenCV+NumPy, TensorFlow, PyTorch, scikit-image, SimpleITK, MATLAB.
 
 ---
 
-# Career & Business
+# Courses
 
-- [1-on-1 Coaching](https://www.pirahansiah.com/farshid/content/coaching) — personalized CV/DL tutoring
-- [Interview Prep](https://www.pirahansiah.com/farshid/content/interview)
-- [AI Startup Guide](https://www.pirahansiah.com/farshid/content/StartUp)
-- [Personal Branding](https://www.pirahansiah.com/farshid/content/Avatar)
-
----
-
-# Courses (tiziran.com)
-
-- [Machine Learning Specialization](https://www.tiziran.com/courses/machine-learning-specialization) — ML fundamentals with case studies
-- [ML Foundations](https://www.tiziran.com/courses/machine-learning-specialization/machine-learning-foundations-a-case-study-approach) — practical ML
-- [Full Stack Deep Learning](https://www.tiziran.com/courses/full-stack-deep-learning) — end-to-end DL deployment
-- [FSDL](https://www.tiziran.com/courses/fsdl) — advanced deep learning
-- [MLOps](https://www.tiziran.com/courses/mlops) — ML pipeline operations
-- [ROS](https://www.tiziran.com/courses/ros) — Robot Operating System
-- [Parallel Programming](https://www.tiziran.com/courses/parallel-programming) — GPU and multi-threading
-- [Modern C++](https://www.tiziran.com/courses/modern-cpp) — C++17/20
-- [Cloud Native](https://www.tiziran.com/courses/cloud-native) — containerized AI
-- [IoT Scholarship](https://www.tiziran.com/courses/iot-scholarship-foundation) — IoT for edge AI
-- [TensorFlow Deployment](https://www.tiziran.com/courses/tensorflow-data-and-deployment-specialization) — TF serving
+- **Machine Learning Specialization** — ML fundamentals with case studies
+- **Full Stack Deep Learning** — end-to-end DL deployment
+- **MLOps** — ML pipeline operations and monitoring
+- **ROS** — Robot Operating System for automation
+- **Parallel Programming** — GPU and multi-threading techniques
+- **Modern C++** — C++17/20 for performance-critical systems
+- **Cloud Native** — containerized AI deployment
+- **IoT Scholarship** — IoT fundamentals for edge AI
+- **TensorFlow Deployment** — TF serving and edge deployment
 
 ---
 
 # Workshops & Events
 
-- [RISC-V](https://www.tiziran.com/workshops-and-events/risc-v) — open-source processor
-- [Edge AI Summit](https://www.tiziran.com/workshops-and-events/edge-ai-summit) — on-device inference
-- [Embedded IoT](https://www.tiziran.com/workshops-and-events/embedded-iot) — AI on microcontrollers
-- [Tesla AI](https://www.tiziran.com/workshops-and-events/tesla) — autonomous driving
-- [AI Hardware](https://www.tiziran.com/workshops-and-events/ai-hardware) — custom accelerators
-- [OpenVINO](https://www.tiziran.com/workshops-and-events/openvino-deep-learning) — Intel inference toolkit
-- [Metaverse](https://www.tiziran.com/workshops-and-events/metaverse) — XR/spatial computing
-- [Workshops](https://www.tiziran.com/workshops-and-events/workshops) — hands-on training
-- [IFA 2022](https://www.tiziran.com/workshops-and-events/ifa2022) — consumer electronics
-
----
-
-# Knowledge Management
-
-- [Book Summary](https://www.tiziran.com/book-summary) — key text insights
-- [Commonplace Book](https://www.tiziran.com/book-summary/commonplace-book) — knowledge collection
-- [Knowledge Management](https://www.tiziran.com/book-summary/knowledge_management) — organizing learning
-- [PKM](https://www.tiziran.com/book-summary/knowledge_management/pkm) — personal knowledge methods
-
----
-
-# Topics & Projects
-
-- [AI Hub](https://www.tiziran.com/topics-and-projects/ai_hub) — curated AI resources
-- [ChatGPT](https://www.tiziran.com/topics-and-projects/chatgpt) — LLM applications
-- [How to Start in CV/AI](https://www.tiziran.com/topics-and-projects/how-to-start)
-- [YouTube Resources](https://www.tiziran.com/topics-and-projects/how-to-start/youtube)
-- [Software Tools](https://www.tiziran.com/topics-and-projects/how-to-start/software)
-- [Image Processing Roadmap](https://www.tiziran.com/topics-and-projects/how-to-start/roadmap-for-image-processing)
-- [Source Code](https://www.tiziran.com/topics-and-projects/source-code)
-- [OpenCV C++](https://www.tiziran.com/topics-and-projects/source-code/opencv/cpp)
-- [OpenCV Python](https://www.tiziran.com/topics-and-projects/source-code/opencv/python)
-- [MacOS OpenCV](https://www.tiziran.com/topics-and-projects/source-code/opencv/macos-opencv)
-- [OpenCV Rust](https://www.tiziran.com/topics-and-projects/source-code/opencv/rust)
-- [Compile Guide](https://www.tiziran.com/topics-and-projects/source-code/compile)
-- [IoT Code](https://www.tiziran.com/topics-and-projects/source-code/iot)
-- [Video Tracking](https://www.tiziran.com/topics-and-projects/video-tracking) — multi-object tracking
-- [Camera Calibration](https://www.tiziran.com/topics-and-projects/camera_calibration)
-- [DRL](https://www.tiziran.com/topics-and-projects/drl) — deep reinforcement learning
-- [Hardware](https://www.tiziran.com/topics-and-projects/hardware) — AI accelerators
-- [Quantum Computing](https://www.tiziran.com/topics-and-projects/quantum-computing)
-- [AltCoin](https://www.tiziran.com/topics-and-projects/altcoin) — crypto and blockchain AI
-- [Resume / CV](https://www.tiziran.com/topics-and-projects/resume_cv) — career templates
-- [Apple](https://www.tiziran.com/topics-and-projects/apple) — CoreML and Vision
-- [Startup](https://www.tiziran.com/topics-and-projects/startup) — AI venture building
-
----
-
-# Community
-
-- [LinkedIn Group — 55K+](https://www.linkedin.com/groups/10320678/) — CV/DL professionals
-- [Facebook Group — 15K+](https://www.facebook.com/groups/185926728115336) — AI/IoT/Robotics
-- [All Links](https://www.tiziran.com/links)
-- [Amazon Picks](https://www.tiziran.com/links/amazon)
-- [Contact](https://www.tiziran.com/about)
-- [FAQ](https://www.tiziran.com/about/fqa)
-- [Prompt Engineering](https://www.tiziran.com/about/prompt)
-- [Calendar / Events](https://www.pirahansiah.com/farshid/portfolio/projects/calendar/data)
-
----
-
-# Social
-
-- [LinkedIn](https://www.linkedin.com/in/pirahansiah/)
-- [GitHub](https://github.com/pirahansiah)
-- [Podcast](https://podcasters.spotify.com/pod/show/pirahansiah)
-- [Email](mailto:info@pirahansiah.com)
+- **RISC-V** — open-source processor architecture
+- **Edge AI Summit** — on-device inference optimization
+- **Embedded IoT** — AI on microcontrollers
+- **Tesla AI** — autonomous driving and vision
+- **AI Hardware** — custom accelerators and NPUs
+- **OpenVINO** — Intel inference optimization toolkit
+- **Metaverse** — XR and spatial computing
