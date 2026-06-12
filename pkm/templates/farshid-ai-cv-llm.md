@@ -1,6 +1,6 @@
 ---
 layout: default
-title: presentation with left and right click area 
+title: farshid-ai-cv-llm
 ---
 
 <style>
