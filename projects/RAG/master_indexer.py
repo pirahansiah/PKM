@@ -1,3 +1,4 @@
+
 """
 master_indexer.py  –  Farshid Brain: Ultimate RAG Indexer & Query Engine
 =========================================================================
@@ -33,9 +34,18 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Optional
 
+import signal
+import threading
+
 import ollama
 import chromadb
 from tqdm import tqdm
+
+# Global shutdown flag – set by SIGINT/SIGTERM handler
+_SHUTDOWN = threading.Event()
+
+PROJECTS_ROOT    = "/Volumes/4tb/"
+DB_PATH          = "/Users/farshid/projects/RAG/ULTIMATE_RAG_INDEX"
 
 # ─── Optional imports (degrade gracefully) ────────────────────────────────────
 try:
@@ -72,8 +82,7 @@ except Exception:
 # ══════════════════════════════════════════════════════════════════════════════
 #  CONFIGURATION
 # ══════════════════════════════════════════════════════════════════════════════
-PROJECTS_ROOT    = "/Volumes/4tb/"
-DB_PATH          = "/Users/farshid/projects/RAG/ULTIMATE_RAG_INDEX"
+
 LEDGER_PATH      = os.path.join(DB_PATH, "indexer_ledger.sqlite")
 FAILED_LOG_PATH  = os.path.join(DB_PATH, "failed_files.log")
 COLLECTION_NAME  = "farshid_brain"
@@ -329,12 +338,16 @@ class MasterIndexer:
             metadata={"hnsw:space": "cosine"}
         )
         self.ledger  = Ledger(LEDGER_PATH)
-        self._lock   = __import__("threading").Lock()  # guards Chroma writes
+        self._lock   = threading.Lock()  # guards Chroma writes
 
     # ── Single-file pipeline ───────────────────────────────────────────────────
 
     def process_file(self, file_path: str) -> int:
         """Extract → hash → skip-if-seen → chunk → embed → store. Returns chunk count."""
+
+        # Bail immediately if a shutdown was requested (Ctrl+C)
+        if _SHUTDOWN.is_set():
+            return 0
 
         ext      = os.path.splitext(file_path)[1].lower()
         language = EXT_TO_LANGUAGE.get(ext, "text")
@@ -412,6 +425,29 @@ class MasterIndexer:
     # ── Full scan ──────────────────────────────────────────────────────────────
 
     def run(self, project_filter: Optional[str] = None):
+        """
+        Scan and index files.  Safe to interrupt with Ctrl+C at any time:
+          • Already-completed files are recorded in the ledger and will be
+            skipped on the next run (content-hash based, rename-resilient).
+          • In-flight threads are allowed to finish their current file before
+            the process exits – no partial writes, no orphaned Chroma chunks.
+          • Simply re-run the same command to continue from where you left off.
+        """
+        _SHUTDOWN.clear()   # reset flag in case of re-use within same process
+
+        # ── Install graceful Ctrl+C handler ───────────────────────────────────
+        original_sigint  = signal.getsignal(signal.SIGINT)
+        original_sigterm = signal.getsignal(signal.SIGTERM)
+
+        def _handle_stop(signum, frame):
+            if not _SHUTDOWN.is_set():
+                print("\n\n⚠️  Stop requested – finishing in-flight files then saving progress…")
+                print("   (Run the same command again to continue where you left off.)\n")
+                _SHUTDOWN.set()
+
+        signal.signal(signal.SIGINT,  _handle_stop)
+        signal.signal(signal.SIGTERM, _handle_stop)
+
         print(f"\n🔍  Scanning  {PROJECTS_ROOT}")
         if project_filter:
             print(f"    └─ Limiting to project: {project_filter}")
@@ -423,7 +459,6 @@ class MasterIndexer:
         for root, dirs, files in os.walk(PROJECTS_ROOT):
             dirs[:] = [d for d in dirs if d not in skip_dirs]
             if project_filter:
-                # Only descend into the target project folder
                 rel = os.path.relpath(root, PROJECTS_ROOT)
                 top = rel.split(os.sep)[0]
                 if rel != "." and top != project_filter:
@@ -432,39 +467,71 @@ class MasterIndexer:
             for f in files:
                 if any(f.lower().endswith(ext) for ext in ALL_EXTENSIONS):
                     full = os.path.join(root, f)
-                    # Quick size guard before adding to queue
                     try:
                         if os.path.getsize(full) <= MAX_FILE_MB * 1024 * 1024:
                             files_to_process.append(full)
                     except OSError:
                         pass
 
-        print(f"📂  {len(files_to_process)} eligible files found\n")
+        # Pre-filter already-indexed files so the progress bar reflects real work
+        pending = []
+        skipped = 0
+        for fp in files_to_process:
+            h = sha256_file(fp)
+            if h and self.ledger.is_indexed(h):
+                skipped += 1
+            else:
+                pending.append(fp)
+
+        print(f"📂  {len(files_to_process)} eligible files  "
+              f"│  {skipped} already indexed  │  {len(pending)} to process\n")
+
+        if not pending:
+            print("✅  Everything is up to date – nothing to do.\n")
+            signal.signal(signal.SIGINT,  original_sigint)
+            signal.signal(signal.SIGTERM, original_sigterm)
+            return
 
         total_chunks = 0
         t0 = time.time()
 
-        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-            futures = {executor.submit(self.process_file, fp): fp for fp in files_to_process}
-            with tqdm(total=len(futures), unit="file", ncols=90,
-                      bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}]") as pbar:
-                for future in as_completed(futures):
-                    try:
-                        total_chunks += future.result()
-                    except Exception as e:
-                        fp = futures[future]
-                        self.ledger.mark_failed(fp, f"executor: {e}")
-                    pbar.update(1)
+        try:
+            with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+                futures = {executor.submit(self.process_file, fp): fp for fp in pending}
+                with tqdm(total=len(futures), unit="file", ncols=90,
+                          bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}]") as pbar:
+                    for future in as_completed(futures):
+                        if _SHUTDOWN.is_set():
+                            # Cancel queued (not yet started) futures
+                            for f in futures:
+                                f.cancel()
+                        try:
+                            total_chunks += future.result()
+                        except Exception as e:
+                            fp = futures[future]
+                            self.ledger.mark_failed(fp, f"executor: {e}")
+                        pbar.update(1)
+        finally:
+            # Always restore original signal handlers
+            signal.signal(signal.SIGINT,  original_sigint)
+            signal.signal(signal.SIGTERM, original_sigterm)
 
         elapsed = time.time() - t0
         stats   = self.ledger.stats()
+        stopped = " (interrupted – safe to resume)" if _SHUTDOWN.is_set() else ""
 
         print(f"\n{'─'*55}")
-        print(f"  ✅  New chunks indexed  : {total_chunks}")
+        print(f"  {'⏸' if _SHUTDOWN.is_set() else '✅'}  Status               : "
+              f"{'Paused' + stopped if _SHUTDOWN.is_set() else 'Complete'}")
+        print(f"  📥  New chunks this run : {total_chunks}")
         print(f"  📚  Total files indexed : {stats['indexed_files']}")
         print(f"  🧩  Total chunks stored : {stats['total_chunks']}")
         print(f"  ❌  Failed files        : {stats['failed_files']}")
         print(f"  ⏱   Elapsed             : {elapsed:.1f}s")
+        if _SHUTDOWN.is_set():
+            remaining = len(pending) - total_chunks  # rough estimate
+            print(f"\n  ▶   To resume, run the exact same command again.")
+            print(f"      The ledger will skip all {stats['indexed_files']} already-done files.")
         print(f"{'─'*55}\n")
 
         if stats['failed_files']:
