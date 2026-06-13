@@ -6,7 +6,7 @@ categories: inbox
 links: https://pirahansiah.github.io/inbox/a/
 references: strategic-connections, knowledge-graph
 related: about, technology
-backlinks: /contents/pkm/atlas/knowledge-graph.md
+backlinks: /contents/pkm/atlas/knowledge-graph
 ---
 
 ## [Ideas]

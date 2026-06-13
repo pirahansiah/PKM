@@ -6,7 +6,7 @@ categories: technology
 links: https://pirahansiah.github.io/technology/system-design/
 references: knowledge-graph, strategic-connections
 related: system-design, technology
-backlinks: /contents/pkm/atlas/knowledge-graph.md
+backlinks: /contents/pkm/atlas/knowledge-graph
 ---
 
 ## All Files in contents/

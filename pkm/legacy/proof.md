@@ -6,7 +6,7 @@ categories: legacy
 links: https://pirahansiah.github.io/legacy/proof/
 references: knowledge-graph, strategic-connections
 related: about, atlas
-backlinks: /contents/pkm/about/company.md
+backlinks: /contents/pkm/about/company
 ---
 
 # Table of Contents
