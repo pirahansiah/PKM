@@ -9,13 +9,13 @@ title: presentation with left and right click area
 <style>
   body { background: #000 !important; overflow: hidden !important; }
   .site-main { padding: 0 !important; margin: 0 !important; background: #000 !important; border: none !important; box-shadow: none !important; }
-  .site-nav, .nav-wrapper, .toolbar, .site-footer, footer { display: none !important; }
+  .toolbar, .site-footer, footer { display: none !important; }
 
   .presentation-panel {
     position: relative;
     width: 100%;
-    height: 100vh;
-    margin: 0;
+    height: calc(100vh - 60px);
+    margin-top: 60px;
     border-radius: 0;
     overflow: hidden;
     background: #000;
