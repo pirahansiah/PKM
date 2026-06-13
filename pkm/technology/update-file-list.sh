@@ -21,8 +21,12 @@ FILE_LIST=$(find "$CONTENTS_DIR" -type f \
   | sort \
   | while read -r f; do
     rel="${f#$CONTENTS_DIR/}"
-    # Create markdown link — URL encode spaces, keep as-is
-    echo "- [$rel](/contents/$rel)"
+    url="/contents/$rel"
+    # For .md files, strip extension from URL (GitHub Pages serves without .md)
+    if [[ "$rel" == *.md ]]; then
+      url="${url%.md}"
+    fi
+    echo "- [$rel]($url)"
   done)
 
 # Read existing frontmatter (between --- markers)
