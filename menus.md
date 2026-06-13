@@ -13,7 +13,7 @@ categories: system
 [use-cases](/contents/pkm/atlas/use-cases)
 
 ## Knowledge Graph
-[Knowledge Graph](/contents/pkm/knowledge-graph)
+[Knowledge Graph](/contents/pkm/atlas/knowledge-graph)
 
  Semantic network of intelligence assets.
 
@@ -27,7 +27,7 @@ categories: system
 
 # Knowledge Graph
 ## Knowledge Graph
-[Knowledge Graph](/contents/pkm/knowledge-graph)
+[Knowledge Graph](/contents/pkm/atlas/knowledge-graph)
 
 ## Transformation Framework
 [Transformation Framework](/contents/pkm/solutions/transformation-framework)
