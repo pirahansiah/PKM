@@ -10,6 +10,7 @@ title: farshid-ai-cv-llm
   body { background: #000 !important; overflow: hidden !important; }
   .site-main { padding: 0 !important; margin: 0 !important; background: #000 !important; border: none !important; box-shadow: none !important; }
   .toolbar, .site-footer, footer { display: none !important; }
+  @media (min-width: 769px) { .nav-menu-btn { display: none !important; } }
 
   .presentation-panel {
     position: relative;
