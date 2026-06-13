@@ -51,5 +51,6 @@ backlinks: /contents/pkm/atlas/knowledge-graph.md
 - [projects/RAG/readIndex.py](/contents/projects/RAG/readIndex.py)
 - [projects/RAG/saveIndex.py](/contents/projects/RAG/saveIndex.py)
 - [projects/setup-mimo.sh](/contents/projects/setup-mimo.sh)
+- [projects/todo/push.sh](/contents/projects/todo/push.sh)
 - [README.md](/contents/README)
 - [weekly/2026-Jun-W24.md](/contents/weekly/2026-Jun-W24)
