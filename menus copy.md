@@ -7,7 +7,7 @@ categories: system
 
 # 🗺 ATLAS2
 ## Knowledge Graph
-[Knowledge Graph](/contents/pkm/atlas/knowledge-graph)
+[Knowledge Graph](/contents/pkm/knowledge-graph)
 
  Semantic network of intelligence assets.
 
@@ -17,33 +17,33 @@ categories: system
 
 # About Me2
 ## About Me
-[About Me](/contents/pkm/cv/AboutMe)
+[About Me](/contents/pkm/AboutMe)
 
 # Knowledge Graph
 ## Knowledge Graph
-[Knowledge Graph](/contents/pkm/atlas/knowledge-graph)
+[Knowledge Graph](/contents/pkm/knowledge-graph)
 
 # 🚀 SOLUTIONS
 ## Industries
-[Industries](/contents/pkm/solutions/use-cases)
+[Industries](/contents/pkm/use-cases)
 
  Sector-specific integration models.
 ## Use Cases
-[Use Cases](/contents/pkm/solutions/use-cases)
+[Use Cases](/contents/pkm/use-cases)
 
  High-impact application scenarios.
 ## Transformation Framework
-[Transformation Framework](/contents/pkm/solutions/transformation-framework)
+[Transformation Framework](/contents/pkm/transformation-framework)
 
  Strategic implementation methodology.
 ## ROI Calculator
-[ROI Calculator](/contents/pkm/investors/growth-model)
+[ROI Calculator](/contents/pkm/growth-model)
 
  Value modeling and performance projections.
 
 # 📦 PRODUCTS
 ## Flagship Platform
-[Flagship Platform](/contents/pkm/products/offering)
+[Flagship Platform](/contents/pkm/offering)
 
  The core Liquid Glass UI/UX environment.
 ## AI Agents
@@ -51,17 +51,17 @@ categories: system
 
  Autonomous agentic workflows.
 ## Vision AI
-[Vision AI](/contents/pkm/technology/system-design)
+[Vision AI](/contents/pkm/system-design)
 
  Advanced computer vision and spatial logic.
 ## Edge AI
-[Edge AI](/contents/pkm/products/offering)
+[Edge AI](/contents/pkm/offering)
 
  Distributed intelligence at the hardware perimeter.
 
 # 🛠 TECHNOLOGY
 ## Architecture
-[Architecture](/contents/pkm/technology/system-design)
+[Architecture](/contents/pkm/system-design)
 
  System-level design and data flow.
 ## The Forge
@@ -69,7 +69,7 @@ categories: system
 
  Rapid R&D and implementation prototypes.
 ## Benchmarks
-[Benchmarks](/contents/pkm/technology/benchmarks)
+[Benchmarks](/contents/pkm/benchmarks)
 
  Performance verification and hardware metrics.
 ## Infrastructure
@@ -81,47 +81,47 @@ categories: system
 
 # 📈 INVESTORS
 ## Growth Model
-[Growth Model](/contents/pkm/investors/growth-model)
+[Growth Model](/contents/pkm/growth-model)
 
  Scaling trajectories and projections.
 ## Vision
-[Vision](/contents/pkm/investors/vision)
+[Vision](/contents/pkm/vision)
 
  Long-term objective and market disruption.
 ## Pitch Deck
-[Pitch Deck](/contents/pkm/investors/pitch-deck)
+[Pitch Deck](/contents/pkm/pitch-deck)
 
  Core venture presentation.
 ## Investment Highlights
-[Investment Highlights](/contents/pkm/investors/investment-highlights)
+[Investment Highlights](/contents/pkm/investment-highlights)
 
  Key defensibility factors and moats.
 ## Market Opportunity
-[Market Opportunity](/contents/pkm/investors/market-opportunity)
+[Market Opportunity](/contents/pkm/market-opportunity)
 
  TAM / SAM / SOM analysis.
 
 # 💳 PRICING
 ## Costs & Tiers
-[Costs & Tiers](/contents/pkm/pricing/costs)
+[Costs & Tiers](/contents/pkm/costs)
 
  Starter, Professional, and Enterprise structures.
 ## Licensing
-[Licensing](/contents/pkm/pricing/licensing)
+[Licensing](/contents/pkm/licensing)
 
  Software distribution and IP rights.
 ## Custom Solutions
-[Custom Solutions](/contents/pkm/pricing/custom-solutions)
+[Custom Solutions](/contents/pkm/custom-solutions)
 
  Bespoke integration modeling.
 
 # 📜 LEGACY
 ## Intellectual Property
-[Intellectual Property](/contents/pkm/legacy/proof)
+[Intellectual Property](/contents/pkm/proof)
 
  Patents, trademarks, and logic protection.
 ## Track Record
-[Track Record](/contents/pkm/legacy/track-record)
+[Track Record](/contents/pkm/track-record)
 
  Project history and milestone verification.
 ## Partnerships
@@ -131,11 +131,11 @@ categories: system
 
 # 📡 PULSE
 ## Build Log
-[Build Log](/contents/pkm/pulse/updates)
+[Build Log](/contents/pkm/updates)
 
  Real-time development and operational stream.
 ## Updates
-[Updates](/contents/pkm/pulse/updates)
+[Updates](/contents/pkm/updates)
 
  Formal announcements and market releases.
 ## Market Insights
@@ -145,15 +145,15 @@ categories: system
 
 # 🏢 ABOUT
 ## Company
-[Company](/contents/pkm/about/company)
+[Company](/contents/pkm/company)
 
  Founding mission and core values.
 ## Leadership
-[Leadership](/contents/pkm/about/contact)
+[Leadership](/contents/pkm/contact)
 
  Strategic management and technical direction.
 ## Contact
-[Contact](/contents/pkm/about/contact)
+[Contact](/contents/pkm/contact)
 
  Global engagement channels.
 

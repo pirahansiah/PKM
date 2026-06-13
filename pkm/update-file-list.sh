@@ -2,9 +2,9 @@
 # Generates a list of all files in contents/ and appends it to system-design.md
 # Run manually or via git pre-commit hook
 
-REPO_ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
+REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
 CONTENTS_DIR="$REPO_ROOT/contents"
-TARGET="$REPO_ROOT/contents/pkm/technology/system-design.md"
+TARGET="$REPO_ROOT/contents/pkm/system-design.md"
 
 if [ ! -d "$CONTENTS_DIR" ]; then
   echo "contents/ directory not found at $CONTENTS_DIR"
