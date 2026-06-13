@@ -117,7 +117,7 @@ def calculate_refraction():
       <!-- Slide End -->
       <section>
         <h1>**End**</h1>
-        <button onclick="location.reload()" style="background: rgba(255,255,255,0.1); color: white; border: 1px solid white; padding: 10px; border-radius: 10px; cursor: pointer;">Restart</button>
+        <button id="restart-btn" style="background: rgba(255,255,255,0.1); color: white; border: 1px solid white; padding: 10px; border-radius: 10px; cursor: pointer;">Restart</button>
       </section>
 
     </div>
@@ -142,6 +142,11 @@ def calculate_refraction():
   });
 
   deck.initialize();
+
+  document.getElementById('restart-btn').addEventListener('click', function(e) {
+    e.stopPropagation();
+    window.location.href = window.location.pathname;
+  });
 
   // LEFT/RIGHT CLICK NAVIGATION
   document.querySelector('.presentation-panel').addEventListener('click', function(event) {
