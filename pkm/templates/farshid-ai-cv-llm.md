@@ -8,12 +8,12 @@ title: farshid-ai-cv-llm
 
 <style>
   body { background: #000 !important; overflow: hidden !important; }
-  .nav-wrapper, .toolbar, .site-footer, footer { display: none !important; }
-  .site-main { padding: 0 !important; margin: 0 !important; background: #000 !important; border: none !important; box-shadow: none !important; max-width: none !important; width: 100% !important; min-height: 100vh !important; }
+  .site-main { padding: 0 !important; margin: 0 !important; background: #000 !important; border: none !important; box-shadow: none !important; max-width: none !important; width: 100% !important; }
+  .toolbar, .site-footer, footer { display: none !important; }
 
   .presentation-panel {
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 80px);
     overflow: hidden;
     background: #000;
   }
