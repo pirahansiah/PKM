@@ -8,6 +8,8 @@ categories: system
 # 🗺 ATLAS2
 ## all files
 [system-design](./pkm/atlas/system-design)
+## all links
+[use-cases](./pkm/atlas/use-cases)
 
 ## Knowledge Graph
 [Knowledge Graph](./pkm/atlas/knowledge-graph)
