@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dr. Farshid Pirahansiah — AI & Computer Vision Engineer</title>
+---
+layout: farshid_default
+title: Dr. Farshid Pirahansiah — AI & Computer Vision Engineer
+---
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=Lora:ital,wght@0,400;1,400;1,600&display=swap" rel="stylesheet">
+
 <style>
   :root {
     --ink: #0a0a0f;
@@ -17,40 +17,17 @@
     --rule: rgba(10,10,15,0.12);
   }
 
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  .site-main { padding: 0; background: var(--paper); border: none; box-shadow: none; }
 
-  html { scroll-behavior: smooth; }
-
-  body {
-    background: var(--paper);
-    color: var(--ink);
-    font-family: 'Lora', Georgia, serif;
-    font-size: 17px;
-    line-height: 1.7;
-    overflow-x: hidden;
-  }
-
-  /* ── NOISE TEXTURE OVERLAY ── */
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
-    pointer-events: none;
-    z-index: 999;
-    opacity: 0.6;
-  }
-
-  /* ── HEADER ── */
-  header {
-    min-height: 100vh;
+  .cv-header {
+    min-height: 80vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: relative;
     overflow: hidden;
   }
 
-  .header-left {
+  .cv-header-left {
     background: var(--ink);
     color: var(--paper);
     padding: 80px 60px;
@@ -60,7 +37,7 @@
     position: relative;
   }
 
-  .header-left::after {
+  .cv-header-left::after {
     content: '';
     position: absolute;
     top: 0; right: -1px; bottom: 0;
@@ -118,10 +95,7 @@
     animation: fadeUp 0.8s ease 0.8s forwards;
   }
 
-  .stat {
-    border-top: 1px solid rgba(245,243,238,0.15);
-    padding-top: 16px;
-  }
+  .stat { border-top: 1px solid rgba(245,243,238,0.15); padding-top: 16px; }
 
   .stat-num {
     font-family: 'Syne', sans-serif;
@@ -140,7 +114,7 @@
     margin-top: 4px;
   }
 
-  .header-right {
+  .cv-header-right {
     background: var(--warm);
     padding: 80px 60px;
     display: flex;
@@ -161,6 +135,7 @@
   }
 
   .intro-text {
+    font-family: 'Lora', Georgia, serif;
     font-size: 20px;
     line-height: 1.75;
     color: var(--ink);
@@ -169,10 +144,7 @@
     animation: fadeUp 0.8s ease 0.7s forwards;
   }
 
-  .intro-text strong {
-    font-weight: 600;
-    color: var(--accent2);
-  }
+  .intro-text strong { font-weight: 600; color: var(--accent2); }
 
   .domain-tags {
     display: flex;
@@ -194,11 +166,11 @@
 
   .tag.accent { background: var(--accent); color: white; border-color: var(--accent); }
 
-  /* ── SECTIONS ── */
-  section {
+  .cv-section {
     max-width: 1100px;
     margin: 0 auto;
     padding: 100px 60px;
+    font-family: 'Lora', Georgia, serif;
   }
 
   .section-header {
@@ -222,7 +194,6 @@
     letter-spacing: -0.02em;
   }
 
-  /* ── STORY SECTION ── */
   .story-section {
     background: var(--ink);
     color: var(--paper);
@@ -238,6 +209,7 @@
     grid-template-columns: 1fr 2fr;
     gap: 80px;
     align-items: start;
+    font-family: 'Lora', Georgia, serif;
   }
 
   .story-sidebar .section-num { color: var(--accent); }
@@ -261,10 +233,8 @@
   }
 
   .story-body p:last-child { margin-bottom: 0; }
-
   .story-body strong { color: var(--paper); font-weight: 600; }
 
-  /* ── SKILLS GRID ── */
   .skills-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -297,18 +267,9 @@
     margin-bottom: 12px;
   }
 
-  .skill-desc {
-    font-size: 14px;
-    color: var(--muted);
-    line-height: 1.6;
-  }
+  .skill-desc { font-size: 14px; color: var(--muted); line-height: 1.6; }
 
-  .skill-tools {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-top: 16px;
-  }
+  .skill-tools { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 16px; }
 
   .tool-pill {
     font-family: 'DM Mono', monospace;
@@ -320,7 +281,6 @@
     color: var(--muted);
   }
 
-  /* ── PROJECTS ── */
   .projects-list { display: flex; flex-direction: column; gap: 0; }
 
   .project-item {
@@ -348,19 +308,9 @@
     margin-bottom: 8px;
   }
 
-  .project-desc {
-    font-size: 15px;
-    color: var(--muted);
-    line-height: 1.6;
-    max-width: 560px;
-  }
+  .project-desc { font-size: 15px; color: var(--muted); line-height: 1.6; max-width: 560px; }
 
-  .project-stack {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-top: 12px;
-  }
+  .project-stack { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
 
   .project-badge {
     font-family: 'DM Mono', monospace;
@@ -392,7 +342,6 @@
     margin-top: 2px;
   }
 
-  /* ── PUBLICATIONS STRIP ── */
   .pub-strip {
     background: var(--accent);
     padding: 0;
@@ -434,115 +383,54 @@
     margin-top: 8px;
   }
 
-  /* ── FOOTER ── */
-  footer {
-    background: var(--ink);
-    padding: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: none;
-  }
-
-  .footer-name {
-    font-family: 'Syne', sans-serif;
-    font-weight: 800;
-    font-size: 24px;
-    color: var(--paper);
-  }
-
-  .footer-links {
-    display: flex;
-    gap: 32px;
-  }
-
-  .footer-link {
-    font-family: 'DM Mono', monospace;
-    font-size: 11px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: rgba(245,243,238,0.5);
-    text-decoration: none;
-    transition: color 0.2s;
-  }
-
-  .footer-link:hover { color: var(--accent); }
-
-  /* ── ANIMATIONS ── */
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(24px); }
     to   { opacity: 1; transform: translateY(0); }
   }
 
-  .reveal {
-    opacity: 0;
-    transform: translateY(32px);
-    transition: opacity 0.7s ease, transform 0.7s ease;
-  }
+  .reveal { opacity: 0; transform: translateY(32px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .reveal.visible { opacity: 1; transform: none; }
 
-  .reveal.visible {
-    opacity: 1;
-    transform: none;
-  }
-
-  /* ── RESPONSIVE ── */
   @media (max-width: 900px) {
-    header { grid-template-columns: 1fr; }
-    .header-left { min-height: 70vh; }
-    .header-right { padding: 60px 40px; }
+    .cv-header { grid-template-columns: 1fr; }
+    .cv-header-left { min-height: 70vh; }
+    .cv-header-right { padding: 60px 40px; }
     .story-inner { grid-template-columns: 1fr; }
     .skills-grid { grid-template-columns: 1fr 1fr; }
-    section { padding: 70px 40px; }
+    .cv-section { padding: 70px 40px; }
     .pub-inner { grid-template-columns: 1fr; gap: 40px; }
     .pub-stat { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 0 0 40px; text-align: left; }
     .pub-stat:last-child { border-bottom: none; padding-bottom: 0; }
     .project-item { grid-template-columns: 1fr; }
     .project-metric { text-align: left; }
-    footer { flex-direction: column; gap: 32px; text-align: center; }
   }
 
   @media (max-width: 600px) {
-    .header-left { padding: 60px 28px; }
+    .cv-header-left { padding: 60px 28px; }
     .header-stats { grid-template-columns: 1fr 1fr; }
     .skills-grid { grid-template-columns: 1fr; }
-    section { padding: 60px 28px; }
+    .cv-section { padding: 60px 28px; }
     .story-inner { padding: 60px 28px; }
     .pub-inner { padding: 60px 28px; }
-    footer { padding: 40px 28px; }
   }
 </style>
-</head>
-<body>
 
-<!-- ── HERO HEADER ── -->
-<header>
-  <div class="header-left">
+<!-- HERO HEADER -->
+<div class="cv-header">
+  <div class="cv-header-left">
     <p class="eyebrow">// About Me</p>
     <h1 class="name">Dr. <em>Farshid</em><br>Pirahansiah</h1>
     <div class="title-block">
       <p>Senior AI Engineer · Computer Vision Researcher<br>Edge AI Specialist · PhD · Author & Speaker</p>
     </div>
     <div class="header-stats">
-      <div class="stat">
-        <div class="stat-num">11+</div>
-        <div class="stat-label">Years Experience</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">21</div>
-        <div class="stat-label">Publications</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">3</div>
-        <div class="stat-label">Patents</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">38%</div>
-        <div class="stat-label">Inference Cost Cut</div>
-      </div>
+      <div class="stat"><div class="stat-num">11+</div><div class="stat-label">Years Experience</div></div>
+      <div class="stat"><div class="stat-num">21</div><div class="stat-label">Publications</div></div>
+      <div class="stat"><div class="stat-num">3</div><div class="stat-label">Patents</div></div>
+      <div class="stat"><div class="stat-num">38%</div><div class="stat-label">Inference Cost Cut</div></div>
     </div>
   </div>
-
-  <div class="header-right">
+  <div class="cv-header-right">
     <p class="header-tag">// Professional Identity</p>
     <p class="intro-text">
       I build intelligent systems that <strong>see, understand, and act</strong> — from real-time edge AI on embedded hardware to large-scale MLOps pipelines in the cloud.
@@ -560,217 +448,119 @@
       <span class="tag">Cloud ML</span>
     </div>
   </div>
-</header>
+</div>
 
-<!-- ── STORY ── -->
+<!-- STORY -->
 <div class="story-section">
   <div class="story-inner">
     <div class="story-sidebar reveal">
       <p class="section-num">01</p>
       <h2 class="section-title">My Story</h2>
-      <blockquote class="story-quote">
-        "Innovation thrives where precision meets possibility."
-      </blockquote>
+      <blockquote class="story-quote">"Innovation thrives where precision meets possibility."</blockquote>
     </div>
     <div class="story-body reveal">
-      <p>
-        My journey into AI began with a fascination for how machines could be taught to <strong>perceive the physical world</strong>. During my PhD, I developed fuzzy logic systems for camera calibration and image segmentation — work that led to patents and set the foundation for a career at the intersection of theory and hardware.
-      </p>
-      <p>
-        Over the years I have worked across academia, enterprise, and deep-tech — from MIMOS (Malaysia's national ICT research centre), where I built patented <strong>Intelligent Video Analytics</strong> systems, to medical device companies improving diagnostic accuracy through computer vision, to cutting-edge edge AI deployments on Hailo AI and Axelera Metis hardware today.
-      </p>
-      <p>
-        I speak at workshops and industry events, engage with investors in the computer vision space, and believe strongly that knowledge compounds fastest when shared. My GitHub, publications, and open projects reflect that commitment to the community.
-      </p>
-      <p>
-        Beyond the code, I am driven by a simple conviction: <strong>optimisation is the art of making systems work better without compromising quality</strong> — and that principle applies equally to neural networks, camera pipelines, and the teams that build them.
-      </p>
+      <p>My journey into AI began with a fascination for how machines could be taught to <strong>perceive the physical world</strong>. During my PhD, I developed fuzzy logic systems for camera calibration and image segmentation — work that led to patents and set the foundation for a career at the intersection of theory and hardware.</p>
+      <p>Over the years I have worked across academia, enterprise, and deep-tech — from MIMOS (Malaysia's national ICT research centre), where I built patented <strong>Intelligent Video Analytics</strong> systems, to medical device companies improving diagnostic accuracy through computer vision, to cutting-edge edge AI deployments on Hailo AI and Axelera Metis hardware today.</p>
+      <p>I speak at workshops and industry events, engage with investors in the computer vision space, and believe strongly that knowledge compounds fastest when shared. My GitHub, publications, and open projects reflect that commitment to the community.</p>
+      <p>Beyond the code, I am driven by a simple conviction: <strong>optimisation is the art of making systems work better without compromising quality</strong> — and that principle applies equally to neural networks, camera pipelines, and the teams that build them.</p>
     </div>
   </div>
 </div>
 
-<!-- ── SKILLS ── -->
-<section>
+<!-- SKILLS -->
+<div class="cv-section">
   <div class="section-header reveal">
     <span class="section-num">02</span>
     <h2 class="section-title">Core Expertise</h2>
   </div>
   <div class="skills-grid">
-
     <div class="skill-card reveal">
       <p class="skill-icon">// Vision</p>
       <h3 class="skill-name">Computer Vision & Deep Learning</h3>
       <p class="skill-desc">Real-time object detection, hand landmark estimation, stereo calibration, 3D reconstruction, medical image analysis, and SLAM.</p>
-      <div class="skill-tools">
-        <span class="tool-pill">OpenCV</span>
-        <span class="tool-pill">PyTorch</span>
-        <span class="tool-pill">TensorFlow</span>
-        <span class="tool-pill">embedded deep learning models</span>
-        <span class="tool-pill">MediaPipe</span>
-        <span class="tool-pill">ONNX</span>
-      </div>
+      <div class="skill-tools"><span class="tool-pill">OpenCV</span><span class="tool-pill">PyTorch</span><span class="tool-pill">TensorFlow</span><span class="tool-pill">MediaPipe</span><span class="tool-pill">ONNX</span></div>
     </div>
-
     <div class="skill-card reveal">
       <p class="skill-icon">// Edge</p>
       <h3 class="skill-name">Edge AI & Embedded Systems</h3>
       <p class="skill-desc">Deploying AI models on resource-constrained hardware — Hailo AI, Axelera Metis, NVIDIA Jetson, Raspberry Pi, and Intel NCS2.</p>
-      <div class="skill-tools">
-        <span class="tool-pill">HailoRT</span>
-        <span class="tool-pill">GStreamer</span>
-        <span class="tool-pill">TFLite</span>
-        <span class="tool-pill">Yocto</span>
-        <span class="tool-pill">CUDA</span>
-        <span class="tool-pill">TinyML</span>
-      </div>
+      <div class="skill-tools"><span class="tool-pill">HailoRT</span><span class="tool-pill">GStreamer</span><span class="tool-pill">TFLite</span><span class="tool-pill">Yocto</span><span class="tool-pill">CUDA</span><span class="tool-pill">TinyML</span></div>
     </div>
-
     <div class="skill-card reveal">
       <p class="skill-icon">// Cloud</p>
       <h3 class="skill-name">MLOps & Cloud Infrastructure</h3>
       <p class="skill-desc">End-to-end ML pipelines, CI/CD automation, containerised deployment, and real-time monitoring at scale.</p>
-      <div class="skill-tools">
-        <span class="tool-pill">AWS</span>
-        <span class="tool-pill">Docker</span>
-        <span class="tool-pill">Kubernetes</span>
-        <span class="tool-pill">MLflow</span>
-        <span class="tool-pill">Airflow</span>
-        <span class="tool-pill">Terraform</span>
-      </div>
+      <div class="skill-tools"><span class="tool-pill">AWS</span><span class="tool-pill">Docker</span><span class="tool-pill">Kubernetes</span><span class="tool-pill">MLflow</span><span class="tool-pill">Airflow</span><span class="tool-pill">Terraform</span></div>
     </div>
-
     <div class="skill-card reveal">
       <p class="skill-icon">// Camera</p>
       <h3 class="skill-name">Multi-Camera Systems</h3>
       <p class="skill-desc">Stereo calibration, depth estimation, 3D scene reconstruction, multi-stream pipeline design, and sensor fusion.</p>
-      <div class="skill-tools">
-        <span class="tool-pill">Intel RealSense</span>
-        <span class="tool-pill">Open3D</span>
-        <span class="tool-pill">NumPy</span>
-        <span class="tool-pill">MFCamera</span>
-        <span class="tool-pill">OG01A1B</span>
-      </div>
+      <div class="skill-tools"><span class="tool-pill">Intel RealSense</span><span class="tool-pill">Open3D</span><span class="tool-pill">NumPy</span><span class="tool-pill">MFCamera</span></div>
     </div>
-
     <div class="skill-card reveal">
       <p class="skill-icon">// Research</p>
       <h3 class="skill-name">AI Research & Publications</h3>
       <p class="skill-desc">21 peer-reviewed publications and 3 patents spanning image processing, fuzzy logic, OCR, and autonomous vision systems.</p>
-      <div class="skill-tools">
-        <span class="tool-pill">MATLAB</span>
-        <span class="tool-pill">Fuzzy Logic</span>
-        <span class="tool-pill">Bayesian Opt.</span>
-        <span class="tool-pill">Active Learning</span>
-      </div>
+      <div class="skill-tools"><span class="tool-pill">MATLAB</span><span class="tool-pill">Fuzzy Logic</span><span class="tool-pill">Bayesian Opt.</span><span class="tool-pill">Active Learning</span></div>
     </div>
-
     <div class="skill-card reveal">
       <p class="skill-icon">// Systems</p>
       <h3 class="skill-name">Software Architecture</h3>
       <p class="skill-desc">Full-stack system design, API integration, cross-platform deployment, and technical leadership across distributed teams.</p>
-      <div class="skill-tools">
-        <span class="tool-pill">Python</span>
-        <span class="tool-pill">C++</span>
-        <span class="tool-pill">Linux</span>
-        <span class="tool-pill">Git</span>
-        <span class="tool-pill">CI/CD</span>
-        <span class="tool-pill">Agile</span>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ── PUBLICATIONS STRIP ── -->
-<div class="pub-strip">
-  <div class="pub-inner">
-    <div class="pub-stat reveal">
-      <div class="pub-num">21</div>
-      <div class="pub-label">Peer-Reviewed Publications</div>
-    </div>
-    <div class="pub-stat reveal">
-      <div class="pub-num">3</div>
-      <div class="pub-label">Granted Patents</div>
-    </div>
-    <div class="pub-stat reveal">
-      <div class="pub-num">11+</div>
-      <div class="pub-label">Years in AI R&D</div>
+      <div class="skill-tools"><span class="tool-pill">Python</span><span class="tool-pill">C++</span><span class="tool-pill">Linux</span><span class="tool-pill">Git</span><span class="tool-pill">CI/CD</span><span class="tool-pill">Agile</span></div>
     </div>
   </div>
 </div>
 
-<!-- ── SELECTED PROJECTS ── -->
-<section>
+<!-- PUBLICATIONS -->
+<div class="pub-strip">
+  <div class="pub-inner">
+    <div class="pub-stat reveal"><div class="pub-num">21</div><div class="pub-label">Peer-Reviewed Publications</div></div>
+    <div class="pub-stat reveal"><div class="pub-num">3</div><div class="pub-label">Granted Patents</div></div>
+    <div class="pub-stat reveal"><div class="pub-num">11+</div><div class="pub-label">Years in AI R&D</div></div>
+  </div>
+</div>
+
+<!-- PROJECTS -->
+<div class="cv-section">
   <div class="section-header reveal">
     <span class="section-num">03</span>
     <h2 class="section-title">Selected Projects</h2>
   </div>
   <div class="projects-list">
-
     <div class="project-item reveal">
       <div class="project-year">2026</div>
       <div>
-        <h3 class="project-name"> Edge AI Pipeline</h3>
+        <h3 class="project-name">Edge AI Pipeline</h3>
         <p class="project-desc">Real-time embedded deep learning models multi object detection and tracking on sensor fusion and multi camera system on the NVidia, Axelera, and Hailo SoC using GStreamer, HailoRT, and MediaPipe — optimised for embedded Linux deployments via Yocto.</p>
-        <div class="project-stack">
-          <span class="project-badge">Hailo AI</span>
-          <span class="project-badge">GStreamer</span>
-          <span class="project-badge">embedded deep learning models</span>
-          <span class="project-badge">Yocto</span>
-          <span class="project-badge">Ubuntu</span>
-        </div>
+        <div class="project-stack"><span class="project-badge">Hailo AI</span><span class="project-badge">GStreamer</span><span class="project-badge">Yocto</span><span class="project-badge">Ubuntu</span></div>
       </div>
       <div class="project-metric">40%<span>latency reduction</span></div>
     </div>
-
     <div class="project-item reveal">
       <div class="project-year">Ongoing</div>
       <div>
         <h3 class="project-name">Intelligent Video Analytics (IVA)</h3>
         <p class="project-desc">Patented video analytics platform developed at MIMOS — covering pedestrian density, anomaly detection, licence plate recognition, and real-time event classification.</p>
-        <div class="project-stack">
-          <span class="project-badge">Python</span>
-          <span class="project-badge">C++</span>
-          <span class="project-badge">OpenCV</span>
-          <span class="project-badge">MATLAB</span>
-          <span class="project-badge">Patent</span>
-        </div>
+        <div class="project-stack"><span class="project-badge">Python</span><span class="project-badge">C++</span><span class="project-badge">OpenCV</span><span class="project-badge">MATLAB</span><span class="project-badge">Patent</span></div>
       </div>
       <div class="project-metric">3<span>patents granted</span></div>
     </div>
-
   </div>
-</section>
-
-<!-- ── FOOTER ── -->
-<footer class="reveal">
-  <div class="footer-name">Dr. Farshid Pirahansiah</div>
-  <div class="footer-links">
-    <a class="footer-link" href="#">GitHub</a>
-    <a class="footer-link" href="#">LinkedIn</a>
-    <a class="footer-link" href="#">Publications</a>
-    <a class="footer-link" href="#">Contact</a>
-  </div>
-</footer>
+</div>
 
 <script>
-  // Intersection observer for reveal animations
   const reveals = document.querySelectorAll('.reveal');
   const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry, i) => {
+    entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        // Stagger siblings in the same parent
         const siblings = [...entry.target.parentElement.querySelectorAll('.reveal')];
         const idx = siblings.indexOf(entry.target);
-        setTimeout(() => {
-          entry.target.classList.add('visible');
-        }, idx * 80);
+        setTimeout(() => { entry.target.classList.add('visible'); }, idx * 80);
         observer.unobserve(entry.target);
       }
     });
   }, { threshold: 0.12 });
-
   reveals.forEach(el => observer.observe(el));
 </script>
-</body>
-</html>

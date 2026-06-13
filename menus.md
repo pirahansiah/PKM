@@ -6,6 +6,9 @@ categories: system
 ---
 
 # 🗺 ATLAS2
+## all files
+[system-design](./pkm/atlas/system-design)
+
 ## Knowledge Graph
 [Knowledge Graph](./pkm/atlas/knowledge-graph)
 
