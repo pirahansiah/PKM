@@ -7,7 +7,7 @@ categories: system
 
 # 🗺 ATLAS2
 ## Knowledge Graph
-[Knowledge Graph](/contents/pkm/atlas/knowledge-graph)
+[Knowledge Graph](/contents/pkm/knowledge-graph)
 
  Semantic network of intelligence assets.
 
@@ -21,15 +21,15 @@ categories: system
 
 # Knowledge Graph
 ## Knowledge Graph
-[Knowledge Graph](/contents/pkm/atlas/knowledge-graph)
+[Knowledge Graph](/contents/pkm/knowledge-graph)
 
 # 🚀 SOLUTIONS
 ## Industries
-[Industries](/contents/pkm/solutions/use-cases)
+[Industries](/contents/pkm/use-cases)
 
  Sector-specific integration models.
 ## Use Cases
-[Use Cases](/contents/pkm/solutions/use-cases)
+[Use Cases](/contents/pkm/use-cases)
 
  High-impact application scenarios.
 ## Transformation Framework
@@ -37,13 +37,13 @@ categories: system
 
  Strategic implementation methodology.
 ## ROI Calculator
-[ROI Calculator](/contents/pkm/investors/growth-model)
+[ROI Calculator](/contents/pkm/growth-model)
 
  Value modeling and performance projections.
 
 # 📦 PRODUCTS
 ## Flagship Platform
-[Flagship Platform](/contents/pkm/products/offering)
+[Flagship Platform](/contents/pkm/offering)
 
  The core Liquid Glass UI/UX environment.
 ## AI Agents
@@ -51,17 +51,17 @@ categories: system
 
  Autonomous agentic workflows.
 ## Vision AI
-[Vision AI](/contents/pkm/technology/system-design)
+[Vision AI](/contents/pkm/system-design)
 
  Advanced computer vision and spatial logic.
 ## Edge AI
-[Edge AI](/contents/pkm/products/offering)
+[Edge AI](/contents/pkm/offering)
 
  Distributed intelligence at the hardware perimeter.
 
 # 🛠 TECHNOLOGY
 ## Architecture
-[Architecture](/contents/pkm/technology/system-design)
+[Architecture](/contents/pkm/system-design)
 
  System-level design and data flow.
 ## The Forge
@@ -81,7 +81,7 @@ categories: system
 
 # 📈 INVESTORS
 ## Growth Model
-[Growth Model](/contents/pkm/investors/growth-model)
+[Growth Model](/contents/pkm/growth-model)
 
  Scaling trajectories and projections.
 ## Vision
@@ -103,7 +103,7 @@ categories: system
 
 # 💳 PRICING
 ## Costs & Tiers
-[Costs & Tiers](/contents/pkm/pricing/costs)
+[Costs & Tiers](/contents/pkm/costs)
 
  Starter, Professional, and Enterprise structures.
 ## Licensing
@@ -117,7 +117,7 @@ categories: system
 
 # 📜 LEGACY
 ## Intellectual Property
-[Intellectual Property](/contents/pkm/legacy/proof)
+[Intellectual Property](/contents/pkm/proof)
 
  Patents, trademarks, and logic protection.
 ## Track Record
@@ -131,11 +131,11 @@ categories: system
 
 # 📡 PULSE
 ## Build Log
-[Build Log](/contents/pkm/pulse/updates)
+[Build Log](/contents/pkm/updates)
 
  Real-time development and operational stream.
 ## Updates
-[Updates](/contents/pkm/pulse/updates)
+[Updates](/contents/pkm/updates)
 
  Formal announcements and market releases.
 ## Market Insights
@@ -145,7 +145,7 @@ categories: system
 
 # 🏢 ABOUT
 ## Company
-[Company](/contents/pkm/about/company)
+[Company](/contents/pkm/company)
 
  Founding mission and core values.
 ## Leadership

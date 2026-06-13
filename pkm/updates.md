@@ -6,5 +6,5 @@ categories: pulse
 links: https://pirahansiah.com/blog
 references: knowledge-graph, system-design
 related: about, investors
-backlinks: /contents/pkm/about/company.md
+backlinks: /contents/pkm/about/company
 ---

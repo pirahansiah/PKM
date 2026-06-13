@@ -6,5 +6,5 @@ categories: products
 links: https://pirahansiah.github.io/products/offering/
 references: system-design, use-cases
 related: pricing, solutions
-backlinks: /contents/pkm/atlas/knowledge-graph.md
+backlinks: /contents/pkm/atlas/knowledge-graph
 ---

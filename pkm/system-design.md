@@ -6,7 +6,7 @@ categories: technology
 links: https://pirahansiah.github.io/technology/system-design/
 references: knowledge-graph, strategic-connections
 related: system-design, technology
-backlinks: /contents/pkm/atlas/knowledge-graph.md
+backlinks: /contents/pkm/atlas/knowledge-graph
 ---
 
 ## All Files in contents/
@@ -14,26 +14,26 @@ backlinks: /contents/pkm/atlas/knowledge-graph.md
 - [LICENSE](/contents/LICENSE)
 - [menus copy.md](/contents/menus copy)
 - [menus.md](/contents/menus)
-- [pkm/about/company.md](/contents/pkm/about/company)
-- [pkm/atlas/concept-maps.md](/contents/pkm/atlas/concept-maps)
-- [pkm/atlas/knowledge-graph.md](/contents/pkm/atlas/knowledge-graph)
-- [pkm/atlas/research-synthesis.md](/contents/pkm/atlas/research-synthesis)
-- [pkm/atlas/strategic-connections.md](/contents/pkm/atlas/strategic-connections)
-- [pkm/atlas/why-we-are-unique.md](/contents/pkm/atlas/why-we-are-unique)
+- [pkm/about/company.md](/contents/pkm/company)
+- [pkm/atlas/concept-maps.md](/contents/pkm/concept-maps)
+- [pkm/atlas/knowledge-graph.md](/contents/pkm/knowledge-graph)
+- [pkm/atlas/research-synthesis.md](/contents/pkm/research-synthesis)
+- [pkm/atlas/strategic-connections.md](/contents/pkm/strategic-connections)
+- [pkm/atlas/why-we-are-unique.md](/contents/pkm/why-we-are-unique)
 - [pkm/cv/AboutMe.html](/contents/pkm/cv/AboutMe.html)
-- [pkm/inbox/a.md](/contents/pkm/inbox/a)
-- [pkm/inbox/b.md](/contents/pkm/inbox/b)
-- [pkm/inbox/c.md](/contents/pkm/inbox/c)
-- [pkm/inbox/d.md](/contents/pkm/inbox/d)
-- [pkm/inbox/e.md](/contents/pkm/inbox/e)
-- [pkm/inbox/f.md](/contents/pkm/inbox/f)
-- [pkm/investors/growth-model.md](/contents/pkm/investors/growth-model)
-- [pkm/legacy/proof.md](/contents/pkm/legacy/proof)
+- [pkm/inbox/a.md](/contents/pkm/a)
+- [pkm/inbox/b.md](/contents/pkm/b)
+- [pkm/inbox/c.md](/contents/pkm/c)
+- [pkm/inbox/d.md](/contents/pkm/d)
+- [pkm/inbox/e.md](/contents/pkm/e)
+- [pkm/inbox/f.md](/contents/pkm/f)
+- [pkm/investors/growth-model.md](/contents/pkm/growth-model)
+- [pkm/legacy/proof.md](/contents/pkm/proof)
 - [pkm/MOC.md](/contents/pkm/MOC)
-- [pkm/pricing/costs.md](/contents/pkm/pricing/costs)
-- [pkm/products/offering.md](/contents/pkm/products/offering)
-- [pkm/pulse/updates.md](/contents/pkm/pulse/updates)
-- [pkm/solutions/use-cases.md](/contents/pkm/solutions/use-cases)
+- [pkm/pricing/costs.md](/contents/pkm/costs)
+- [pkm/products/offering.md](/contents/pkm/offering)
+- [pkm/pulse/updates.md](/contents/pkm/updates)
+- [pkm/solutions/use-cases.md](/contents/pkm/use-cases)
 - [pkm/templates/farshid-ai-cv-llm-a.md](/contents/pkm/templates/farshid-ai-cv-llm-a)
 - [pkm/templates/farshid-ai-cv-llm-b.md](/contents/pkm/templates/farshid-ai-cv-llm-b)
 - [pkm/templates/farshid-ai-cv-llm-c.md](/contents/pkm/templates/farshid-ai-cv-llm-c)

@@ -6,7 +6,7 @@ categories: inbox
 links: https://pirahansiah.github.io/inbox/f/
 references: strategic-connections, use-cases
 related: solutions, offering
-backlinks: /contents/pkm/atlas/knowledge-graph.md
+backlinks: /contents/pkm/atlas/knowledge-graph
 ---
 
 ## [Backlog]

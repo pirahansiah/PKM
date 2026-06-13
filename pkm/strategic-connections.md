@@ -6,9 +6,10 @@ categories: about
 links: https://pirahansiah.github.io/contact/
 references: strategic-connections, growth-model
 related: investors, technology, solutions
-backlinks: /contents/pkm/atlas/knowledge-graph.md
+backlinks: /contents/pkm/atlas/knowledge-graph
 ---
 ## About 
 #farshid
 #pirahansiah
 #drfarshidpirahansiah
+#AI
