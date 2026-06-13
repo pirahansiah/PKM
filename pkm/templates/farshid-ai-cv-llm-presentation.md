@@ -3,20 +3,25 @@ layout: farshid_default
 title: presentation with left and right click area 
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css">
+
 <style>
-  /* 1. Panel height must be fixed (not min-height) so Reveal knows the limit */
+  body { background: #000 !important; overflow: hidden !important; }
+  .site-main { padding: 0 !important; margin: 0 !important; background: #000 !important; border: none !important; box-shadow: none !important; }
+  .site-nav, .nav-wrapper, .toolbar, .site-footer, footer { display: none !important; }
+
   .presentation-panel {
     position: relative;
     width: 100%;
-    height: 75vh; /* Fixed height is key */
-    margin: 20px 0;
-    border-radius: 24px;
+    height: 100vh;
+    margin: 0;
+    border-radius: 0;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: #000;
+    border: none;
   }
 
-  /* 2. Make each slide a flex container that fits exactly 100% height */
   .reveal .slides section {
     height: 100%;
     display: flex !important;
@@ -27,29 +32,28 @@ title: presentation with left and right click area
     box-sizing: border-box !important;
   }
 
-  /* 3. THE FIX: Image handles the remaining space */
+  .reveal .slides { height: 100%; }
+  .reveal { height: 100%; width: 100%; }
+
   .slide-image {
-    /* Allow text and headers to take their space first */
-    flex-shrink: 1; 
+    flex-shrink: 1;
     flex-grow: 0;
-    
-    /* Ensure the image never forces the slide to grow larger than the panel */
     max-width: 90% !important;
-    max-height: 55% !important; /* Limits image height to leave room for text */
-    
-    /* Keep aspect ratio and show full image */
-    object-fit: contain !important; 
-    
+    max-height: 55% !important;
+    object-fit: contain !important;
     border-radius: 12px;
     border: 1px solid rgba(255,255,255,0.2);
     margin: 10px 0 !important;
   }
 
-  .reveal h1 { font-size: 1.8em; margin-bottom: 0.5em; }
-  .reveal h2 { font-size: 1.4em; margin: 0.2em 0; }
-  .reveal p, .reveal li { font-size: 0.7em; }
+  .reveal h1 { font-size: 1.8em; margin-bottom: 0.5em; color: #fff; }
+  .reveal h2 { font-size: 1.4em; margin: 0.2em 0; color: #fff; }
+  .reveal p, .reveal li { font-size: 0.7em; color: #ccc; }
+  .reveal ul { list-style: none; padding: 0; }
+  .reveal pre { width: 90%; }
+  .reveal code { font-size: 0.8em; }
+  .reveal .controls { color: #fff; }
 
-  /* Navigation Guide Overlay (Optional visual hint) */
   .nav-hint {
     position: absolute;
     bottom: 10px;
@@ -60,10 +64,6 @@ title: presentation with left and right click area
     z-index: 10;
   }
 </style>
-
-<!-- Load Reveal.js Assets -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css">
 
 <div class="presentation-panel">
   <div class="nav-hint">← Tap Left for Back | Tap Right for Next →</div>
