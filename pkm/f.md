@@ -3,10 +3,8 @@ layout: farshid_default
 title: Inbox F
 tags: pkm inbox backlog followup
 categories: inbox
-links: https://pirahansiah.github.io/inbox/f/
 references: strategic-connections, use-cases
 related: solutions, offering
-backlinks: /contents/pkm/knowledge-graph
 ---
 
 ## [Backlog]

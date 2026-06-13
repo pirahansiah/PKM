@@ -3,10 +3,8 @@ layout: farshid_default
 title: Inbox E
 tags: pkm inbox references citations
 categories: inbox
-links: https://pirahansiah.github.io/inbox/e/
 references: knowledge-graph, legacy
 related: about, research
-backlinks: /contents/pkm/knowledge-graph
 ---
 
 ## [References]

@@ -10,7 +10,7 @@ test for test
 ## farshid
 withotu links
 ## all files
-[system-design](/contents/pkm/system-design)
+[system-design](system-design)
 ## all links
 [use-cases](/contents/pkm/use-cases)
 

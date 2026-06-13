@@ -3,10 +3,8 @@ layout: farshid_default
 title: "Dr. Farshid Pirahansiah — Complete Portfolio"
 tags: proof portfolio publications patents resources projects
 categories: legacy
-links: https://pirahansiah.github.io/legacy/proof/
 references: knowledge-graph, strategic-connections
 related: about, atlas
-backlinks: /contents/pkm/company
 ---
 
 # Table of Contents

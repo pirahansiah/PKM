@@ -3,16 +3,13 @@ layout: farshid_default
 title: System Design
 tags: architecture system design tech stack infrastructure
 categories: technology
-links: https://pirahansiah.github.io/technology/system-design/
 references: knowledge-graph, strategic-connections
 related: system-design, technology
-backlinks: /contents/pkm/knowledge-graph
 ---
 
 ## All Files in contents/
 
 - [LICENSE](/contents/LICENSE)
-- [menus copy.md](/contents/menus copy)
 - [menus.md](/contents/menus)
 - [pkm/a.md](/contents/pkm/a)
 - [pkm/AboutMe.html](/contents/pkm/AboutMe.html)
@@ -26,6 +23,7 @@ backlinks: /contents/pkm/knowledge-graph
 - [pkm/f.md](/contents/pkm/f)
 - [pkm/growth-model.md](/contents/pkm/growth-model)
 - [pkm/knowledge-graph.md](/contents/pkm/knowledge-graph)
+- [pkm/menus copy.md](/contents/pkm/menus copy)
 - [pkm/MOC.md](/contents/pkm/MOC)
 - [pkm/offering.md](/contents/pkm/offering)
 - [pkm/proof.md](/contents/pkm/proof)

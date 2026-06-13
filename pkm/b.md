@@ -3,10 +3,8 @@ layout: farshid_default
 title: Inbox B
 tags: pkm inbox notes thoughts
 categories: inbox
-links: https://pirahansiah.github.io/inbox/b/
 references: strategic-connections, use-cases
 related: investors, solutions
-backlinks: /contents/pkm/knowledge-graph
 ---
 
 ## [Notes]

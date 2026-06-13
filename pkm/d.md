@@ -3,10 +3,8 @@ layout: farshid_default
 title: Inbox D
 tags: pkm inbox questions to resolve
 categories: inbox
-links: https://pirahansiah.github.io/inbox/d/
 references: strategic-connections, growth-model
 related: investors, pricing
-backlinks: /contents/pkm/knowledge-graph
 ---
 
 ## [Questions]
