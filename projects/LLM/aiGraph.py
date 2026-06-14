@@ -4,7 +4,7 @@ AI Knowledge Graph — Extract entities & relationships from text using local LL
 Uses Ollama + Qwen 3.5 for extraction, NetworkX for graph, and renders to JSON/HTML.
 
 Usage:
-    python aiGraph.py --text "Farshid works at Tiziran with OpenCV and CUDA"
+    python aiGraph.py --text "Farshid works at AI with OpenCV and CUDA"
     python aiGraph.py --file notes.md
     python aiGraph.py --file notes.md --export graph.html
     python aiGraph.py --file notes.md --export graph.json
@@ -35,44 +35,28 @@ except ImportError:
 
 # ─── Config ─────────────────────────────────────────────────────
 OLLAMA_URL = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
-MODEL = os.environ.get("GRAPH_MODEL", "qwen3.5:9b")
+MODEL = os.environ.get("GRAPH_MODEL", "qwen2.5-coder:7b")
 DATA_DIR = Path(__file__).parent.parent.parent / "pkm"
 DATA_DIR.mkdir(exist_ok=True)
 
 
 # ─── LLM Extraction ────────────────────────────────────────────
 EXTRACT_PROMPT_TEMPLATE = """\
-You are a knowledge graph builder. Analyze the following text and extract ALL \
-entities and their relationships. Think deeply about connections between concepts.
-
-Rules:
-- Entities: people, organizations, tools, concepts, locations, projects, files
-- Relationships: typed, meaningful (e.g. "works_at", "uses", "created_by", "likes", "depends_on", "part_of")
-- Infer implicit relationships from context (e.g. if someone uses a tool, add "uses" edge)
-- Extract domain-specific knowledge (AI, CV, LLM, hardware, etc.)
-- Return ONLY valid JSON, no explanation
+Extract entities and relationships from this text as JSON.
 
 Format:
-{
-  "entities": [
-    {"id": "entity_name", "type": "person|org|tool|concept|location|project|file", "description": "brief context"}
-  ],
-  "relationships": [
-    {"source": "entity1", "target": "entity2", "type": "relationship_type", "description": "brief context"}
-  ]
-}
+{"entities":[{"id":"name","type":"person|org|tool|concept|project","description":"brief"}],"relationships":[{"source":"a","target":"b","type":"uses|works_at|created_by|part_of","description":"brief"}]}
 
 Text:
----
 %s
----
-"""
+
+JSON:"""
 
 
 def query_ollama(prompt: str, model: str = MODEL) -> str:
     """Query local Ollama API."""
     url = f"{OLLAMA_URL}/api/generate"
-    payload = {"model": model, "prompt": prompt, "stream": False}
+    payload = {"model": model, "prompt": prompt, "stream": False, "options": {"num_predict": 1000}}
 
     try:
         resp = requests.post(url, json=payload, timeout=300)
@@ -89,7 +73,7 @@ def query_ollama(prompt: str, model: str = MODEL) -> str:
 
 def extract_graph_from_text(text: str) -> dict:
     """Use LLM to extract entities and relationships from text."""
-    prompt = EXTRACT_PROMPT_TEMPLATE % text[:8000]  # limit token usage
+    prompt = EXTRACT_PROMPT_TEMPLATE % text[:1500]  # keep short for speed
     print(f"  Extracting with {MODEL}...")
     response = query_ollama(prompt)
 
@@ -213,7 +197,7 @@ HTML_TEMPLATE = """\
 <body>
 <div class="info">
   <h2>AI Knowledge Graph</h2>
-  <p>Nodes: {nodes} | Edges: {edges}</p>
+  <p>Nodes: __NODES__ | Edges: __EDGES__</p>
   <p>Drag to pan, scroll to zoom, click node for details.</p>
 </div>
 <div class="legend">
@@ -225,7 +209,7 @@ HTML_TEMPLATE = """\
 </div>
 <canvas id="graph"></canvas>
 <script>
-const DATA = {graph_data};
+const DATA = __GRAPH_DATA__;
 
 const COLORS = {{ person:"#58a6ff", org:"#3fb950", tool:"#d2a8ff", concept:"#f0883e",
                   project:"#f778ba", location:"#ffa657", default:"#8b949e" }};
@@ -332,11 +316,7 @@ def export_html(kg: KnowledgeGraph, path: Path):
     """Export interactive HTML visualization."""
     graph_data = nx.node_link_data(kg.graph)
     stats = kg.stats()
-    html = HTML_TEMPLATE.format(
-        nodes=stats["nodes"],
-        edges=stats["edges"],
-        graph_data=json.dumps(graph_data),
-    )
+    html = HTML_TEMPLATE.replace("__NODES__", str(stats["nodes"])).replace("__EDGES__", str(stats["edges"])).replace("__GRAPH_DATA__", json.dumps(graph_data))
     with open(path, "w") as f:
         f.write(html)
     print(f"  Exported HTML → {path}")
@@ -370,8 +350,11 @@ def process_contents_dir(kg: KnowledgeGraph):
     files = [f for f in contents_dir.rglob("*") if f.suffix.lower() in extensions and not f.name.startswith(".")]
     print(f"  Found {len(files)} files in contents/")
 
-    for f in files:
+    for i, f in enumerate(files):
+        print(f"\n  [{i+1}/{len(files)}] {f.name}")
         process_file(str(f), kg)
+        # Save after each file so progress is not lost
+        kg.save()
 
 
 # ─── Interactive Mode ───────────────────────────────────────────
