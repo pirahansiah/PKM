@@ -3,18 +3,9 @@ layout: farshid_default
 title: Data & DevOps
 ---
 
-
-
-PARA, Zettelkasten, Second Brain, Link Your Thinking, LYT, Maps of Content, MOC, Johnny.Decimal, Atomic Notes, GTD, Getting Things Done, CODE, Pillars Pipelines Vaults, Inbox Method, Action Method, Luhmann System, Slipbox, Commonplace Book, Laboratory Method, Evergreen Notes, Digital Garden, The Archive, Bullet Journal, Accessory System, Folderless System, Atomic Thinking, Knowledge Graph, Semantic Linkage.
-
----
 PARA, Zettelkasten, Second Brain, Link Your Thinking, LYT, Maps of Content, MOC, Johnny.Decimal, Atomic Notes, GTD, Getting Things Done, CODE, Pillars Pipelines Vaults, Inbox Method, Action Method, Luhmann System, Slipbox, Commonplace Book, Laboratory Method, Evergreen Notes, Digital Garden, The Archive, Bullet Journal, Accessory System, Folderless System, Atomic Thinking, Knowledge Graph, Semantic Linkage, Personal Information Management, PIM, Personal Research Management, PRM, Personal Knowledge Infrastructure, PKI, Information Scaffolding, Transactive Memory, Knowledge Crystallization, Cognitive Offloading, Distributed Cognition, Cybernetic PKM, Rhizomatic Learning, Memex, Project Xanadu, Sensemaking, Information Foraging Theory, Personal Digital Archiving, Curatorial Learning, Epistemic Foraging, Holigarchy, BASB, ACCESS, ACE, The Pillar Method, PAIN, REAP, QEC, SQ3R, PQ4R, Cornell Method, Feynman Technique, DiSSS, SQRRR, Morphological Analysis, Knowledge Graphing, Triple-Entry Accounting of Thought, Heuristic Systematic Model, PASK, Conversation Theory, Cynefin Framework, Double-Loop Learning, Metacognitive Scaffolding, Personal Learning Networks, PLN, Knowledge Work, Cognitive Mapping, Concept Mapping, Spatial Hypertext, Non-Linear Documentation, Multi-Dimensional Tagging, Hierarchical Foldering, Flat File System, Associative Trails, Navigational Orienting, Information Curation, Semantic MediaWiki, Wiki-Log, Personal Knowledge Base, PKB, Brain Dump, Antinet, Niklas Luhmann, Sönke Ahrens, Tiago Forte, Nick Milo, Vannevar Bush, Ted Nelson, Douglas Engelbart, Collective Intelligence, Personal Operating System, POS, LifeOS, KMaaS, Knowledge Orchestration, Knowledge Graph Embeddings, RAG, Retrieval-Augmented Generation, Agentic PKM, Synthetic Brain, Co-evolution of Man and Machine, Associative Indexing, Knowledge Lifecycle Management, Cognitive Load Theory, Personal Ontology, Knowledge Audit, Fractal Knowledge Management, Interstitial Logging, Just-in-Time Learning, JITL, Sketchnoting, Flow State Mapping, Knowledge Cartography, Heuristic Foraging, Knowledge Distillation, Information Architecture, IA, User Experience of Knowledge, UXK, Personal Content Management, PCM.
 
 ---
-
-The most successful people in AI (researchers, CEOs, and engineers) often move away from complex folder structures and toward **High-Density, Implementation-Based** systems. 
-
-Here are the specific methods used by famous figures in the AI field and how they apply them to their personal PKM:
 
 ### 1. Andrej Karpathy (OpenAI/Tesla)
 *   **Method:** **ArXiv Sanity & First-Principles Implementation.**
@@ -43,26 +34,8 @@ Here are the specific methods used by famous figures in the AI field and how the
 
 ---
 
-### One-Paragraph List of "Expert AI Methods" (for your Knowledge Base)
 
-ArXiv Sanity, First-Principles Implementation, Computable Knowledge, Lifelogging, Top-Down Learning, Literate Programming, Explorable Explanations, Visual Semantic Mapping, High-Leverage Capture, Implementation-First PKM, Essay-Driven Synthesis, Action-Bias Note-taking, Vector-Search Memory, Mental Model Lattice, Recursive Learning, Paper-to-Code Mapping, Distilled Tutorials, Atomic Aphorisms, Deep Work Sessions, Interstitial Logging, Feynman-Implementation Loop.
-
----
-
-### How to adapt this for your "3-Folder" system:
-
-1.  **In `1_FLOW/Projects`**: Use the **Jeremy Howard** method (Literate Programming). Put your thoughts inside the code files as docstrings or READMEs.
-2.  **In `2_BRAIN/Notes`**: Use the **Andrej Karpathy** method. When you learn a new AI concept, don't just write about it; write a 10-line Python script that proves it works.
-3.  **In `2_BRAIN/Assets`**: Use the **Chris Olah** method. Save your "Liquid Glass" UI prototypes here as visual "templates" you can reuse, rather than just abstract instructions.
-
----
-
-
-To elevate your business perspective to a world-class "Deep Tech" level, your website structure must communicate **Product** (Solutions), **Proof** (Legacy), and **Defensibility** (Atlas). 
-
-By making **ATLAS** a top-level menu, you show investors that your competitive advantage is not just code, but a proprietary **Knowledge Engine**.
-
-### 1. The "Architect" Website Menu Structure (Business Sub-Items)
+### The "Architect" Website Menu Structure (Business Sub-Items)
 
 **SOLUTIONS (The Market)**
 *   **Industry Verticals** (Retail AI, Automotive Dashboards, Public Space HMI)
@@ -96,98 +69,3 @@ By making **ATLAS** a top-level menu, you show investors that your competitive a
 *   **Strategic Connections** (Linking Research to Market-ready Solutions)
 
 ---
-
-### 2. The Internal PKM Folder Mapping
-This structure ensures that when you write a note in your PKM, it has a clear "Home" on your professional website.
-
-| Website Menu | PKM Folder Source | Business Value |
-| :--- | :--- | :--- |
-| **SOLUTIONS** | `40_SOLUTIONS/` | Shows **Product-Market Fit**. |
-| **TECHNOLOGY**| `20_FORGE/` | Shows **Technical Superiority**. |
-| **INVESTORS** | `50_EQUITY/` | Shows **Financial Scalability**. |
-| **LEGACY** | `60_LEGACY/` | Shows **Stability & Protection**. |
-| **PULSE** | `10_PULSE/` | Shows **Operational Velocity**. |
-| **ATLAS** | `30_INTEL/` | Shows **Intellectual Defensibility**. |
-
----
-
-### 3. Unified Methodology List (Architect Scheme)
-**(One paragraph, names only)**
-
-Liquid-Glass-UI, Touchfree-HMI, Spatial-Computing, Gesture-Control, Industry-Verticals, Value-Proposition, Forge-R&D, Proprietary-Stack, Performance-Benchmarks, Equity-Model, GTM-Strategy, TAM-SAM-SOM, Revenue-Engine, Unit-Economics, IP-Portfolio, Patent-Landscape, Legacy-Documentation, Pulse-Velocity, Build-Logs, Atlas-Intelligence, Knowledge-Graph-Visualizer, Research-Synthesis, Concept-Mapping, MOC, Semantic-Connections, Atomic-Note-Wiki, Zettelkasten, Slipbox-Method, First-Principles-Implementation, ArXiv-Sanity, Implementation-First-Engineering, Defensible-Moat, Hardware-Agnostic-Software, SaaS-Metrics, Burn-Rate-Optimization, Pitch-Deck-Orchestration, Due-Diligence-Preparedness, Blue-Ocean-Positioning, Disruptive-Innovation, ROI-Modeling, Investor-Relations, IR, Milestone-Tracking, Knowledge-Crystallization, Digital-Gardening, Interactive-Laboratory, Exit-Ready-PKM.
-
-### Why "ATLAS" is your secret weapon:
-Investors today don't just invest in software; they invest in **proprietary data and research workflows**. By showcasing **ATLAS** (Knowledge Graph, Research, Maps), you are demonstrating that your company has a "Cognitive Moat"—meaning it would be nearly impossible for a competitor to replicate your deep understanding and the specific connections you've made between AI research and industry solutions.
-
-
-
-
-
-
-
-
-
-
-#a
-#bb
-#cc
-
-* [page e](/contents/inbox/e)
-* [page f](/contents/inbox/presentation)
-
-
-# CV3
-
-[e](/contents/inbox/e)
-
-[f](/contents/inbox/presentation)
-
-## DL4
-[a](/contents/inbox/markmap-autoloader)
-## LLM5
-[b](/contents/inbox/FullMarkmapAutoloaderWithImages)
-
-# test
-[c](/contents/inbox/c)
-## DL
-[d](/contents/inbox/d)
-
-### Farshid
-[About Me](/contents/cv/AboutMe.html)
-
-# a
-[[/Volumes/4tb/2026-6/PKM/contents/cv/AboutMe.html]]
-## b
-### c
-
-- [page e](/contents/inbox/e)
-
-- [page f](/contents/inbox/presentation)
-
-
-[[/Volumes/4tb/2026-6/PKM/contents/cv/AboutMe.html]]
-- a
-    - b
-        - v
-
-[x] a
-- [x] b
--[] bb
-
-
-
-# a
-## b
-### c
-
-- a
-    - b
-        - v
-
-[x] a
-- [x] b
--[] bb
-
-
-only the # must be show in menue as level 1
-only ## and ### must have submenue under level 1 menue 
