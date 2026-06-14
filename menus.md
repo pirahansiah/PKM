@@ -7,7 +7,7 @@ categories: system
 
 # Sitemap
 
-## ATLAS
+## ATLAS & Graph
 - [Knowledge Graph](/contents/pkm/use-cases)
 ## SOLUTIONS
 - [Use Cases](/contents/pkm/use-cases)
@@ -37,3 +37,7 @@ categories: system
 - [Costs](/contents/pkm/costs)
 - [Proof](/contents/pkm/proof)
 - [Updates](/contents/pkm/updates) -->
+
+## LLM
+- [OpenRouter + Ollama Setup](/contents/projects/LLM/OpenRouter_config.sh)
+- [AI Knowledge Graph](/contents/projects/LLM/aiGraph.py)
