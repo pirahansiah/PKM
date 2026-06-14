@@ -1,11 +1,14 @@
 ---
 layout: farshid_default
-title: Company
-tags: pkm enterprise knowledge-management about company
-categories: about
-references: strategic-connections, growth-model
-related: investors, technology, solutions
+title: Concept Maps
+tags: pkm concept-maps knowledge-graph
+categories: atlas
 ---
-## About 
-#farshid
-#pirahansiah
+
+> **Note:** Concept Maps open in the interactive graph viewer at [pirahansiah.github.io/graph/](https://pirahansiah.github.io/graph/)
+
+# Concept Maps
+
+Visual network of ideas, research, and strategic connections.
+
+**[Open Full Graph →](https://pirahansiah.github.io/graph/)**
