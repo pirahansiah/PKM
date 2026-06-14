@@ -1,41 +1,32 @@
 ---
 layout: farshid_default
 title: Sitemap
-tags: indexing, sitemap, architect, strategy
+tags: indexing, sitemap
 categories: system
 ---
 
-# 🗺 ATLAS21
-test for test
-## farshid
-withotu links
-## all files
-[system-design](system-design)
-## all links
-[use-cases](/contents/pkm/use-cases)
+# Sitemap
 
-## Knowledge Graph
-[Knowledge Graph](/contents/pkm/knowledge-graph)
+## ATLAS
+- [Knowledge Graph](/contents/pkm/knowledge-graph)
+- [Research Synthesis](/contents/pkm/research-synthesis)
+- [Strategic Connections](/contents/pkm/strategic-connections)
+- [Concept Maps](/contents/pkm/concept-maps)
 
- Semantic network of intelligence assets.
+## SOLUTIONS
+- [Use Cases](/contents/pkm/use-cases)
+- [System Design](/contents/pkm/system-design)
+- [Offering](/contents/pkm/offering)
 
-# update2
-## TOC
-[TOC](/contents/pkm/TOC)
+## ABOUT
+- [About Me](/contents/pkm/AboutMe)
+- [Company](/contents/pkm/company)
+- [Why We Are Unique](/contents/pkm/why-we-are-unique)
 
-# About Me2
-## About Me
-[About Me](/contents/pkm/AboutMe)
-
-# Knowledge Graph
-## Knowledge Graph
-[Knowledge Graph](/contents/pkm/knowledge-graph)
-
-## Transformation Framework
-[Transformation Framework](/contents/pkm/transformation-framework)
-
- Visualizing mental networks.
-## Presentation
-[Presentation](/contents/inbox/presentation)
-
- Active slide decks.
+## RESOURCES
+- [TOC](/contents/pkm/TOC)
+- [MOC](/contents/pkm/MOC)
+- [Growth Model](/contents/pkm/growth-model)
+- [Costs](/contents/pkm/costs)
+- [Proof](/contents/pkm/proof)
+- [Updates](/contents/pkm/updates)
