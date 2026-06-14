@@ -8,6 +8,13 @@ categories: system
 # Sitemap
 
 ## ATLAS
+- [Knowledge Graph](/contents/pkm/use-cases)
+## SOLUTIONS
+- [Use Cases](/contents/pkm/use-cases)
+## ABOUT
+- [About Me](AboutMe)
+
+## ATLAS
 <!-- - [Knowledge Graph](/contents/pkm/knowledge-graph)
 - [Research Synthesis](/contents/pkm/research-synthesis)
 - [Strategic Connections](/contents/pkm/strategic-connections)
