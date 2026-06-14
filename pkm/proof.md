@@ -499,3 +499,7 @@ Autonomous vehicles (lane detection, tracking). Medical imaging (MRI/CT, anomaly
 - **AI Hardware** — custom accelerators and NPUs
 - **OpenVINO** — Intel inference optimization toolkit
 - **Metaverse** — XR and spatial computing
+#farshid
+#pirahansiah
+#drfarshidpirahansiah
+#AI
