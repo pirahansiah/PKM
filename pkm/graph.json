@@ -14,8 +14,8 @@
       "id": "tiziran"
     },
     {
-      "type": "tool",
-      "description": "A software library used for computer vision applications.",
+      "type": "library",
+      "description": "Computer vision library usage",
       "id": "opencv"
     },
     {
@@ -32,6 +32,1201 @@
       "type": "concept|project",
       "description": "AI models developed at Ollama used for inference.",
       "id": "qwen_models"
+    },
+    {
+      "type": "concept",
+      "description": "A concept related to Project Knowledge Management",
+      "id": "pkm"
+    },
+    {
+      "type": "project",
+      "description": "An update or release of a PKM project in June 2026",
+      "id": "pkm_update_june_2026"
+    },
+    {
+      "type": "project",
+      "description": "A project related to knowledge graph and research synthesis.",
+      "id": "atlas"
+    },
+    {
+      "type": "tool",
+      "description": "A tool for creating interactive graphs.",
+      "id": "graph"
+    },
+    {
+      "type": "project",
+      "description": "A project related to offering system design and use cases.",
+      "id": "solutions"
+    },
+    {
+      "type": "page",
+      "description": "Information about the creator or organization.",
+      "id": "about"
+    },
+    {
+      "type": "section",
+      "description": "A section containing various resources like TOC, MOC, Growth Model, Costs, Proof, and Updates.",
+      "id": "resources"
+    },
+    {
+      "type": "project",
+      "description": "A project related to large language models (LLM).",
+      "id": "llm"
+    },
+    {
+      "type": "tool",
+      "description": "An installation setup for OpenRouter cloud and local Ollama Qwen 3.5.",
+      "id": "openrouter_+_ollama_setup"
+    },
+    {
+      "type": "concept",
+      "description": "A visual representation of knowledge and relationships in the field of artificial intelligence.",
+      "id": "ai_knowledge_graph"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "use_cases"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "system_design"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "offering"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "toc"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "moc"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "growth_model"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "costs"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "proof"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "updates"
+    },
+    {
+      "type": "person",
+      "description": "A Computer Vision expert with over 10 years of R&D experience.",
+      "id": "dr._farshid_pirahansiah"
+    },
+    {
+      "type": "concept",
+      "description": "A field of engineering that focuses on creating intelligent systems that can perceive and understand the world through computer vision and artificial intelligence.",
+      "id": "ai_&_computer_vision_engineering"
+    },
+    {
+      "type": "concept",
+      "description": "A CSS variable for muted color",
+      "id": "muted"
+    },
+    {
+      "type": "concept",
+      "description": "A CSS variable for ink color",
+      "id": "ink"
+    },
+    {
+      "type": "concept",
+      "description": "A CSS variable for accent color",
+      "id": "accent2"
+    },
+    {
+      "type": "concept",
+      "description": "A CSS variable for rule color",
+      "id": "rule"
+    },
+    {
+      "type": "concept",
+      "description": "A CSS variable for accent color",
+      "id": "accent"
+    },
+    {
+      "type": "concept",
+      "description": "A CSS variable for paper color",
+      "id": "paper"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "intro-text"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "lora,_georgia,_serif"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "tag"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "dm_mono,_monospace"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "cv-section"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "section-header"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "syne,_sans-serif"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "story-section"
+    },
+    {
+      "type": "section",
+      "description": "The left section of the CV header containing personal information and statistics.",
+      "id": "cv-header-left"
+    },
+    {
+      "type": "concept",
+      "description": "A brief description or subtitle.",
+      "id": "eyebrow"
+    },
+    {
+      "type": "person",
+      "description": "The name of the individual.",
+      "id": "name"
+    },
+    {
+      "type": "section",
+      "description": "A block containing job titles and roles.",
+      "id": "title-block"
+    },
+    {
+      "type": "section",
+      "description": "A section displaying statistical information.",
+      "id": "header-stats"
+    },
+    {
+      "type": "concept",
+      "description": "An individual statistic within the header stats section.",
+      "id": "stat"
+    },
+    {
+      "type": "concept",
+      "description": "The numeric value of a statistic.",
+      "id": "stat-num"
+    },
+    {
+      "type": "concept",
+      "description": "The label or description for the numeric statistic.",
+      "id": "stat-label"
+    },
+    {
+      "type": "concept",
+      "description": "The ability to understand and interpret the physical environment.",
+      "id": "perceive_the_physical_world"
+    },
+    {
+      "type": "project",
+      "description": "A patented system for analyzing video data.",
+      "id": "intelligent_video_analytics"
+    },
+    {
+      "type": "org",
+      "description": "Organization where the project was developed",
+      "id": "mimos"
+    },
+    {
+      "type": "concept",
+      "description": "The field of study that deals with how computers can interpret and understand visual data.",
+      "id": "computer_vision"
+    },
+    {
+      "type": "org",
+      "description": "A company involved in advanced AI technology.",
+      "id": "hailo_ai"
+    },
+    {
+      "type": "org",
+      "description": "Another organization related to AI and hardware deployments.",
+      "id": "axelera_metis"
+    },
+    {
+      "type": "concept",
+      "description": "The process of making systems work better without compromising quality.",
+      "id": "optimisation"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "deployments"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "neural_networks"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "camera_pipelines"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "teams"
+    },
+    {
+      "type": "tool",
+      "description": "A workflow automation tool",
+      "id": "airflow"
+    },
+    {
+      "type": "tool",
+      "description": "An infrastructure as code tool",
+      "id": "terraform"
+    },
+    {
+      "type": "concept",
+      "description": "A collection of techniques for working with multiple cameras",
+      "id": "multi-camera_systems"
+    },
+    {
+      "type": "tool",
+      "description": "A camera technology by Intel",
+      "id": "intel_realsense"
+    },
+    {
+      "type": "tool",
+      "description": "An open-source library for 3D data processing",
+      "id": "open3d"
+    },
+    {
+      "type": "tool",
+      "description": "A Python library for numerical computing",
+      "id": "numpy"
+    },
+    {
+      "type": "tool",
+      "description": "A camera module or SDK",
+      "id": "mfcamera"
+    },
+    {
+      "type": "tool",
+      "description": "A programming environment and software for numerical computation, algorithm development, data analysis, and visualization",
+      "id": "matlab"
+    },
+    {
+      "type": "concept",
+      "description": "A form of logic that deals with reasoning that is approximate rather than precise",
+      "id": "fuzzy_logic"
+    },
+    {
+      "type": "concept",
+      "description": "An algorithmic method for finding the global maximum of a blackbox function",
+      "id": "bayesian_opt."
+    },
+    {
+      "type": "concept",
+      "description": "A teaching method in which students are actively involved in the learning process",
+      "id": "active_learning"
+    },
+    {
+      "type": "concept",
+      "description": "The structure of software systems and how they support their intended functions",
+      "id": "software_architecture"
+    },
+    {
+      "type": "tool",
+      "description": "An interpreted, high-level, general-purpose programming language",
+      "id": "python"
+    },
+    {
+      "type": "tool",
+      "description": "A compiled, general-purpose programming language designed with a bias toward systems programming",
+      "id": "c++"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "hcl"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "ai_research_&_publications"
+    },
+    {
+      "type": "project",
+      "description": "Patented video analytics platform developed at MIMOS \u2014 covering pedestrian density, anomaly detection, licence plate recognition, and real-time event classification.",
+      "id": "intelligent_video_analytics_(iva)"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "patent"
+    },
+    {
+      "type": "org",
+      "description": "A website or platform owned by Farshid Pirahansiah",
+      "id": "pirahansiah.com"
+    },
+    {
+      "type": "person",
+      "description": "An individual with expertise in patents and publications",
+      "id": "farshid_pirahansiah"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "moving_vehicle_detection_patent"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "ad_facial_analysis_patent"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "face_image_augmentation_patent"
+    },
+    {
+      "type": "concept",
+      "description": "A method for identifying characters in images.",
+      "id": "character_recognition"
+    },
+    {
+      "type": "tool",
+      "description": "A technique or system used for global feature extraction and recognition.",
+      "id": "globals"
+    },
+    {
+      "type": "project",
+      "description": "A case study on grid computing in Tafresh University.",
+      "id": "grid_computing_tafresh"
+    },
+    {
+      "type": "tool",
+      "description": "An image segmentation method based on the Peak Signal-to-Noise Ratio (PSNR).",
+      "id": "psnr_adaptive_segmentation"
+    },
+    {
+      "type": "concept",
+      "description": "A technique for calibrating camera importance based on pattern significance.",
+      "id": "pattern_significance_calibration"
+    },
+    {
+      "type": "tool",
+      "description": "A fuzzy thresholding method using the Peak Signal-to-Noise Ratio (PSNR).",
+      "id": "psnr_fuzzy_threshold"
+    },
+    {
+      "type": "tool",
+      "description": "An optimization algorithm inspired by ant behavior.",
+      "id": "ant_colony_optimization"
+    },
+    {
+      "type": "concept",
+      "description": "A method for recognizing objects and characters using global features.",
+      "id": "global_feature_recognition"
+    },
+    {
+      "type": "tool",
+      "description": "An adaptive thresholding technique based on the Peak Signal-to-Noise Ratio (PSNR).",
+      "id": "adaptive_thresholding_psnr"
+    },
+    {
+      "type": "project",
+      "description": "A robotics project involving Simultaneous Localization and Mapping in three-dimensional space.",
+      "id": "3d_slam_robotics"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "psnr"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "camera"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "image_processing"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "slam"
+    },
+    {
+      "type": "tool",
+      "description": "A calibration tool and demo for cameras.",
+      "id": "camera_calibration"
+    },
+    {
+      "type": "hardware",
+      "description": "Hardware platforms for edge AI applications.",
+      "id": "edge_ai_hardware_platforms"
+    },
+    {
+      "type": "course",
+      "description": "A specialization course in machine learning with case studies.",
+      "id": "machine_learning_specialization"
+    },
+    {
+      "type": "course",
+      "description": "A practical course in machine learning through real projects.",
+      "id": "ml_foundations"
+    },
+    {
+      "type": "course",
+      "description": "An end-to-end deep learning deployment course.",
+      "id": "full_stack_deep_learning"
+    },
+    {
+      "type": "course",
+      "description": "A course on advanced deep learning practices.",
+      "id": "fsdl"
+    },
+    {
+      "type": "course",
+      "description": "A course on ML pipeline operations and monitoring.",
+      "id": "mlops"
+    },
+    {
+      "type": "course",
+      "description": "A course on the Robot Operating System for automation.",
+      "id": "ros"
+    },
+    {
+      "type": "course",
+      "description": "A course on GPU and multi-threading techniques.",
+      "id": "parallel_programming"
+    },
+    {
+      "type": "course",
+      "description": "A course on C++17/20 for performance-critical systems.",
+      "id": "modern_c++"
+    },
+    {
+      "type": "course",
+      "description": "A course on containerized AI deployment.",
+      "id": "cloud_native"
+    },
+    {
+      "type": "course",
+      "description": "A course on IoT fundamentals for edge AI.",
+      "id": "iot_scholarship_foundation"
+    },
+    {
+      "type": "course",
+      "description": "A course on TensorFlow data and deployment specialization.",
+      "id": "tensorflow_deployment"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "hardware"
+    },
+    {
+      "type": "project",
+      "description": "Curated AI resources and tools",
+      "id": "ai_hub"
+    },
+    {
+      "type": "tool",
+      "description": "LLM applications and prompting",
+      "id": "chatgpt"
+    },
+    {
+      "type": "project",
+      "description": "Getting started in CV and AI",
+      "id": "how_to_start"
+    },
+    {
+      "type": "resource",
+      "description": "Video learning resources",
+      "id": "youtube"
+    },
+    {
+      "type": "resource",
+      "description": "More video resources",
+      "id": "youtube_ii"
+    },
+    {
+      "type": "project",
+      "description": "Essential dev tools",
+      "id": "software_tools"
+    },
+    {
+      "type": "project",
+      "description": "Learning path for IP",
+      "id": "image_processing_roadmap"
+    },
+    {
+      "type": "resource",
+      "description": "Code examples and repos",
+      "id": "source_code"
+    },
+    {
+      "type": "tool",
+      "description": "C++ vision implementations",
+      "id": "opencv_c++"
+    },
+    {
+      "type": "tool",
+      "description": "Python vision scripts",
+      "id": "opencv_python"
+    },
+    {
+      "type": "guide",
+      "description": "macOS build guide",
+      "id": "macos_opencv"
+    },
+    {
+      "type": "library",
+      "description": "Rust bindings for vision",
+      "id": "opencv_rust"
+    },
+    {
+      "type": "guide",
+      "description": "Build",
+      "id": "compile_guide"
+    },
+    {
+      "type": "org",
+      "description": "A community with a LinkedIn Group and Facebook Group focused on AI, IoT, Robotics, and CV/DL.",
+      "id": "community"
+    },
+    {
+      "type": "tool",
+      "description": "A professional network platform for professionals to connect and share ideas.",
+      "id": "linkedin_group"
+    },
+    {
+      "type": "tool",
+      "description": "A social networking service where users create and manage their own groups for sharing content and connecting with others.",
+      "id": "facebook_group"
+    },
+    {
+      "type": "project",
+      "description": "A comprehensive resource collection on various topics.",
+      "id": "all_links"
+    },
+    {
+      "type": "tool",
+      "description": "An online marketplace for products and services with a focus on books and electronics.",
+      "id": "amazon"
+    },
+    {
+      "type": "project",
+      "description": "A page for reaching out to the community for collaboration opportunities.",
+      "id": "contact"
+    },
+    {
+      "type": "project",
+      "description": "A page with answers to common questions about the community or its resources.",
+      "id": "faq"
+    },
+    {
+      "type": "project",
+      "description": "A resource on techniques for creating effective prompts for large language models.",
+      "id": "prompt_engineering"
+    },
+    {
+      "type": "person",
+      "description": "A person known for using fast.ai and nbdev.",
+      "id": "jeremy_howard"
+    },
+    {
+      "type": "person",
+      "description": "A person famous for creating Explorable Explanations.",
+      "id": "chris_olah"
+    },
+    {
+      "type": "person",
+      "description": "The CEO of OpenAI, known for his minimalist approach and The CODE method.",
+      "id": "sam_altman"
+    },
+    {
+      "type": "tool",
+      "description": "A machine learning platform by Jeremy Howard.",
+      "id": "fast.ai"
+    },
+    {
+      "type": "tool",
+      "description": "A tool for developing Python projects using Jupyter Notebooks.",
+      "id": "nbdev"
+    },
+    {
+      "type": "concept",
+      "description": "Chris Olah's method of synthesizing AI knowledge into visual diagrams.",
+      "id": "explorable_explanations"
+    },
+    {
+      "type": "concept",
+      "description": "Sam Altman's approach to capturing, organizing, distilling, and expressing ideas.",
+      "id": "the_code_method"
+    },
+    {
+      "type": "project",
+      "description": "A project or website with specific menu structure for business solutions.",
+      "id": "the_architect_website_menu_structure"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "industry_verticals"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "use_case_library"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "value_proposition"
+    },
+    {
+      "type": "tool",
+      "description": "A graphical interface for creating and manipulating visual elements.",
+      "id": "canvas"
+    },
+    {
+      "type": "object",
+      "description": "The context of the canvas element used for rendering.",
+      "id": "ctx"
+    },
+    {
+      "type": "variable",
+      "description": "Width of the canvas.",
+      "id": "w"
+    },
+    {
+      "type": "variable",
+      "description": "Height of the canvas.",
+      "id": "h"
+    },
+    {
+      "type": "variable",
+      "description": "Pan position in X direction.",
+      "id": "panx"
+    },
+    {
+      "type": "variable",
+      "description": "Pan position in Y direction.",
+      "id": "pany"
+    },
+    {
+      "type": "variable",
+      "description": "A variable to track the current zoom level of the canvas.",
+      "id": "zoom"
+    },
+    {
+      "type": "variable",
+      "description": "A variable to track the current drag state.",
+      "id": "drag"
+    },
+    {
+      "type": "variable",
+      "description": "A boolean indicating whether an element is being hovered over.",
+      "id": "hovered"
+    },
+    {
+      "type": "variable",
+      "description": "An object representing the currently selected element.",
+      "id": "selected"
+    },
+    {
+      "type": "function",
+      "description": "Function to resize the canvas.",
+      "id": "resize"
+    },
+    {
+      "type": "object",
+      "description": "Data object containing nodes and links for the graph.",
+      "id": "data"
+    },
+    {
+      "type": "object",
+      "description": "Object mapping node types to colors.",
+      "id": "colors"
+    },
+    {
+      "type": "array",
+      "description": "Array of node objects for the graph.",
+      "id": "nodes"
+    },
+    {
+      "type": "object",
+      "description": "Object mapping node IDs to their corresponding node objects.",
+      "id": "nodemap"
+    },
+    {
+      "type": "collection",
+      "description": "A collection of connections or relationships between elements.",
+      "id": "links"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "window.addeventlistener('resize',_resize)"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "simulate"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "nodes.foreach(n_=>_{_n.vx=0;_n.vy=0;_})"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "repulsion"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "nodes.foreach(a_=>_{_..._})"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "attraction"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "links.foreach(l_=>_{_..._})"
+    },
+    {
+      "type": "tool",
+      "description": "A tool for displaying information about elements on the canvas.",
+      "id": "info"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "canvas.style.cursor"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "canvas.addeventlistener('mouseup')"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "drag=null"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "canvas.addeventlistener('click')"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "info.innerhtml"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "selected.id"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "selected.type"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "selected.description"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "links.filter(l=>l.source===selected||l.target===selected).length"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "canvas.addeventlistener('wheel')"
+    },
+    {
+      "type": "concept",
+      "description": "Programming model for parallel computing using NVIDIA GPUs.",
+      "id": "cuda_&_gpu_programming"
+    },
+    {
+      "type": "concept",
+      "description": "Technique in computer vision to estimate motion between images or frames of video.",
+      "id": "optical_flow"
+    },
+    {
+      "type": "concept",
+      "description": "Field of computer vision that deals with the processing of 3D data from multiple cameras.",
+      "id": "3d_vision_&_multi-camera"
+    },
+    {
+      "type": "concept",
+      "description": "Improvements made to the system to enhance performance, efficiency or effectiveness.",
+      "id": "optimization"
+    },
+    {
+      "type": "concept",
+      "description": "Artificial Intelligence and Large Language Models, focusing on advanced machine learning techniques.",
+      "id": "ai_&_llm"
+    },
+    {
+      "type": "project",
+      "description": "A structured plan for coaching individuals in computer vision.",
+      "id": "cv_coaching_roadmap"
+    },
+    {
+      "type": "project",
+      "description": "Educational programs or classes related to computer vision and deep learning.",
+      "id": "courses"
+    },
+    {
+      "type": "event",
+      "description": "Organized sessions or gatherings focused on specific topics in computer vision and AI.",
+      "id": "workshops_&_events"
+    },
+    {
+      "type": "concept",
+      "description": "A method for image thresholding using Peak Signal-to-Noise Ratio.",
+      "id": "image_thresholding_based_on_psnr"
+    },
+    {
+      "type": "concept",
+      "description": "A technique for recognizing characters and objects using global feature extraction.",
+      "id": "character_&_object_recognition_via_global_feature_extraction"
+    },
+    {
+      "type": "concept",
+      "description": "A fuzzy threshold method based on Peak Signal-to-Noise Ratio for image segmentation.",
+      "id": "psnr_global_single_fuzzy_threshold"
+    },
+    {
+      "type": "concept",
+      "description": "A thresholding method using Peak Signal-to-Noise Ratio for image segmentation.",
+      "id": "psnr_threshold_for_image_segmentation"
+    },
+    {
+      "type": "project",
+      "description": "A research project on 3D SLAM and its trends, with a focus on humanoid robot linkages.",
+      "id": "3d_slam:_simultaneous_localization_and_mapping_trends_and_humanoid_robot_linkages"
+    },
+    {
+      "type": "tool",
+      "description": "An algorithm using ant colony optimization for image processing tasks.",
+      "id": "using_an_ant_colony_optimization_algorithm_for_image_processing"
+    },
+    {
+      "type": "conference_paper",
+      "description": "A conference paper comparing 2D and 3D maps for movement objects in an environment.",
+      "id": "2d_vs_3d_map_for_environment_movement_objects"
+    },
+    {
+      "type": "conference_paper",
+      "description": "A paper on adaptive image segmentation based on Peak Signal-to-Noise Ratio for license plate recognition.",
+      "id": "adaptive_image_segmentation_based_on_psnr_for_license_plate_recognition"
+    },
+    {
+      "type": "conference_paper",
+      "description": "A paper discussing classification techniques using enhanced geometrical topological feature analysis.",
+      "id": "classification_techniques_using_enhanced_geometrical_topological_feature_analysis"
+    },
+    {
+      "type": "conference_paper",
+      "description": "A paper on camera calibration techniques for multi-modal robot vision systems.",
+      "id": "camera_calibration_for_multi-modal_robot_vision"
+    },
+    {
+      "type": "conference_paper",
+      "description": "A paper on character recognition using global features.",
+      "id": "character_recognition_based_on_global_feature"
+    },
+    {
+      "type": "conference_paper",
+      "description": "A comparison of single thresholding methods for handwritten images segmentation.",
+      "id": "comparison_of_single_thresholding_method_for_handwritten_images_segmentation"
+    },
+    {
+      "type": "conference_paper",
+      "description": "A paper on license plate recognition using multi-threshold based on entropy.",
+      "id": "license_plate_recognition_with_multi-threshold_based_on_entropy"
+    },
+    {
+      "type": "conference_paper",
+      "description": "A paper discussing the multi-threshold approach in license plate recognition systems.",
+      "id": "multi-threshold_approach_for_license_plate_recognition_system"
+    },
+    {
+      "type": "concept",
+      "description": "The significance of pattern images in camera calibration.",
+      "id": "pattern_image_significance_for_camera_calibration"
+    },
+    {
+      "type": "project",
+      "description": "A grid computing project at Tafresh University.",
+      "id": "tafreshgrid:_grid_computing_at_tafresh_university"
+    },
+    {
+      "type": "project",
+      "description": "A research project combining computer vision with large language models (LLMs).",
+      "id": "computer_vision_meets_llm"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "image_segmentation"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "robotics"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "map_technologies"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "license_plate_recognition"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "feature_analysis"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "robot_vision"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "handwritten_image_segmentation"
+    },
+    {
+      "type": "app",
+      "description": "A Telegram mini app with IndexedDB persistence and multi-view calendar functionality.",
+      "id": "ai_todo_list_telegram_mini_app"
+    },
+    {
+      "type": "bot",
+      "description": "A fine-tuned GPT-4 Mini on AWS Lambda for CV queries.",
+      "id": "@pirahansiahbot"
+    },
+    {
+      "type": "bot",
+      "description": "A bot to send images, apply OpenCV functions (Canny, etc.), and get instant results with payment via TON/stars.",
+      "id": "@image_processing_farshid_bot"
+    },
+    {
+      "type": "bot",
+      "description": "A bot that transforms photos into pencil sketches.",
+      "id": "@item2cook_bot"
+    },
+    {
+      "type": "extension pack",
+      "description": "A collection of essential tools for CV, ML, LLM, and PKM development.",
+      "id": "vscode_extensions_pack"
+    },
+    {
+      "type": "package",
+      "description": "Static OpenCV 5 library for Visual Studio available via NuGet Package Manager.",
+      "id": "opencv_nuget_packages"
+    },
+    {
+      "type": "framework",
+      "description": "A testing framework for computer vision and deep learning applications.",
+      "id": "cvtest_\u2014_computer_vision_testing_framework"
+    },
+    {
+      "type": "tool",
+      "description": "A just-in-time compiler for Python that translates Python to machine code at runtime.",
+      "id": "numba"
+    },
+    {
+      "type": "function",
+      "description": "A Python function that calculates the sum of squares of numbers in an array.",
+      "id": "sum_of_squares"
+    },
+    {
+      "type": "function",
+      "description": "A Numba-compiled version of the `sum_of_squares` function, optimized for performance.",
+      "id": "sum_of_squares_jit"
+    },
+    {
+      "type": "tool",
+      "description": "Contrast Limited Adaptive Histogram Equalization, a preprocessing technique used to enhance image contrast.",
+      "id": "clahe"
+    },
+    {
+      "type": "model",
+      "description": "Real-Time Adaptive Flow Field Estimation, a deep learning model for optical flow estimation.",
+      "id": "raft"
+    },
+    {
+      "type": "model",
+      "description": "PWC-Net, a deep learning model for optical flow estimation.",
+      "id": "pwc-net"
+    },
+    {
+      "type": "method",
+      "description": "Normalized Cross-Correlation, a method used for robust matching in optical flow estimation.",
+      "id": "ncc"
+    },
+    {
+      "type": "function",
+      "description": "A function from the OpenCV library that calculates dense optical flow using the Farneback algorithm.",
+      "id": "cv2.calcopticalflowfarneback"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "robust_motion_estimation"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "optical_flow_estimation"
+    },
+    {
+      "type": "concept",
+      "description": "The process of detecting movement within a specified time window.",
+      "id": "movement_detection"
+    },
+    {
+      "type": "concept",
+      "description": "Specific optimizations focused on deep learning models.",
+      "id": "deep_learning_optimization"
+    },
+    {
+      "type": "concept",
+      "description": "Optimizations specifically for computer vision tasks.",
+      "id": "computer_vision_optimization"
+    },
+    {
+      "type": "concept",
+      "description": "Strategies for optimizing data collection, preprocessing and augmentation.",
+      "id": "data_optimization"
+    },
+    {
+      "type": "concept",
+      "description": "The trade-off between the model fitting too loosely (underfitting) or too tightly (overfitting).",
+      "id": "underfitting_vs_overfitting"
+    },
+    {
+      "type": "concept",
+      "description": "Techniques to reduce memory usage of the system.",
+      "id": "ram_reduction"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "quantization_(int8/fp16),_pruning,_knowledge_distillation"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "gpu/tpu_acceleration,_cuda/cudnn"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "yolo_(real-time_detection),_mobilenet/squeezenet_(embedded)"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "grayscale_conversion,_roi_focus,_frame_skipping"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "multi-threading,_gpu_processing_via_cuda"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "orb,_hog_\u2014_efficient_extraction"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "nvidia_jetson,_tflite,_fpga/asic"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "diverse_sources,_balanced_classes,_high-quality_filtering"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "normalization,_missing_data_handling,_pca/t-sne"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "rotation/scaling/cropping_(cv),_smote_(imbalanced),_time-series_shifts"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "more_layers/features,_complex_models,_more_epochs,_reduce_learning_rate"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "l1/l2_regularization,_dropout,_early_stopping,_data_augmentation,_reduce_complexity,_ensemble_methods"
+    },
+    {
+      "type": "concept",
+      "description": "",
+      "id": "attention_sinks,_mixed-precision_training,_lower-precision_compute,_reduce_batch_size,_gradient_accumulation,_gradient_checkpointing,_cpu_parameter_offloading"
     }
   ],
   "edges": [
@@ -64,24 +1259,1420 @@
       "description": "Farshid uses Qwen models for AI inference.",
       "source": "farshid",
       "target": "qwen_models"
+    },
+    {
+      "type": "part_of",
+      "description": "Includes OpenCV C++ as part of the library implementations",
+      "source": "opencv",
+      "target": "opencv_c++"
+    },
+    {
+      "type": "part_of",
+      "description": "Includes OpenCV Python as part of the library implementations",
+      "source": "opencv",
+      "target": "opencv_python"
+    },
+    {
+      "type": "part_of",
+      "description": "Includes MacOS OpenCV as part of the build guides",
+      "source": "opencv",
+      "target": "macos_opencv"
+    },
+    {
+      "type": "part_of",
+      "description": "Includes OpenCV Rust as part of the bindings",
+      "source": "opencv",
+      "target": "opencv_rust"
+    },
+    {
+      "type": "part_of",
+      "description": "The update is part of the PKM concept or project",
+      "source": "pkm_update_june_2026",
+      "target": "pkm"
+    },
+    {
+      "type": "works_with",
+      "description": "ATLAS works with Graph to create a knowledge graph.",
+      "source": "atlas",
+      "target": "graph"
+    },
+    {
+      "type": "contains",
+      "description": "Solutions contains Use Cases.",
+      "source": "solutions",
+      "target": "use_cases"
+    },
+    {
+      "type": "contains",
+      "description": "Solutions contains System Design.",
+      "source": "solutions",
+      "target": "system_design"
+    },
+    {
+      "type": "contains",
+      "description": "Solutions contains Offering.",
+      "source": "solutions",
+      "target": "offering"
+    },
+    {
+      "type": "contains",
+      "description": "Resources contains TOC.",
+      "source": "resources",
+      "target": "toc"
+    },
+    {
+      "type": "contains",
+      "description": "Resources contains MOC.",
+      "source": "resources",
+      "target": "moc"
+    },
+    {
+      "type": "contains",
+      "description": "Resources contains Growth Model.",
+      "source": "resources",
+      "target": "growth_model"
+    },
+    {
+      "type": "contains",
+      "description": "Resources contains Costs.",
+      "source": "resources",
+      "target": "costs"
+    },
+    {
+      "type": "contains",
+      "description": "Resources contains Proof.",
+      "source": "resources",
+      "target": "proof"
+    },
+    {
+      "type": "contains",
+      "description": "Resources contains Updates.",
+      "source": "resources",
+      "target": "updates"
+    },
+    {
+      "type": "uses",
+      "description": "LLM uses OpenRouter + Ollama Setup for installation.",
+      "source": "llm",
+      "target": "openrouter_+_ollama_setup"
+    },
+    {
+      "type": "uses",
+      "description": "LLM uses AI Knowledge Graph for entity extraction and graph building.",
+      "source": "llm",
+      "target": "ai_knowledge_graph"
+    },
+    {
+      "type": "works_at",
+      "description": "Dr. Farshid Pirahansiah is involved in the field of AI & Computer Vision Engineering.",
+      "source": "dr._farshid_pirahansiah",
+      "target": "ai_&_computer_vision_engineering"
+    },
+    {
+      "type": "works_at",
+      "description": "The person is working at the cv-header-left section of their CV.",
+      "source": "dr._farshid_pirahansiah",
+      "target": "cv-header-left"
+    },
+    {
+      "type": "has_name",
+      "description": "The person's name is mentioned in the CV header.",
+      "source": "dr._farshid_pirahansiah",
+      "target": "name"
+    },
+    {
+      "type": "works_with",
+      "description": "Expertise in using CUDA for GPU programming.",
+      "source": "dr._farshid_pirahansiah",
+      "target": "cuda_&_gpu_programming"
+    },
+    {
+      "type": "works_on",
+      "description": "Specializes in computer vision techniques like optical flow.",
+      "source": "dr._farshid_pirahansiah",
+      "target": "optical_flow"
+    },
+    {
+      "type": "works_on",
+      "description": "Focuses on processing 3D data from multiple cameras.",
+      "source": "dr._farshid_pirahansiah",
+      "target": "3d_vision_&_multi-camera"
+    },
+    {
+      "type": "works_with",
+      "description": "Applies optimization techniques to improve computer vision solutions.",
+      "source": "dr._farshid_pirahansiah",
+      "target": "optimization"
+    },
+    {
+      "type": "works_on",
+      "description": "Involves in research and development of AI and large language models.",
+      "source": "dr._farshid_pirahansiah",
+      "target": "ai_&_llm"
+    },
+    {
+      "type": "uses",
+      "description": "The intro-text uses the specified font family",
+      "source": "intro-text",
+      "target": "lora,_georgia,_serif"
+    },
+    {
+      "type": "uses",
+      "description": "The intro-text uses the muted color variable",
+      "source": "intro-text",
+      "target": "muted"
+    },
+    {
+      "type": "uses",
+      "description": "The intro-text uses the ink color variable",
+      "source": "intro-text",
+      "target": "ink"
+    },
+    {
+      "type": "uses",
+      "description": "The tag uses the specified font family",
+      "source": "tag",
+      "target": "dm_mono,_monospace"
+    },
+    {
+      "type": "uses",
+      "description": "The tag uses the muted color variable for default text",
+      "source": "tag",
+      "target": "muted"
+    },
+    {
+      "type": "uses",
+      "description": "The tag uses the accent color variable for the accent class",
+      "source": "tag",
+      "target": "accent"
+    },
+    {
+      "type": "uses",
+      "description": "The cv-section uses the specified font family",
+      "source": "cv-section",
+      "target": "lora,_georgia,_serif"
+    },
+    {
+      "type": "uses",
+      "description": "The section-header uses the specified font family",
+      "source": "section-header",
+      "target": "dm_mono,_monospace"
+    },
+    {
+      "type": "uses",
+      "description": "The section-header uses the specified font family for section-title",
+      "source": "section-header",
+      "target": "syne,_sans-serif"
+    },
+    {
+      "type": "uses",
+      "description": "The story-section uses the ink color variable for background",
+      "source": "story-section",
+      "target": "ink"
+    },
+    {
+      "type": "uses",
+      "description": "The story-section uses the paper color variable for text",
+      "source": "story-section",
+      "target": "paper"
+    },
+    {
+      "type": "contains",
+      "description": "The eyebrow concept is part of the cv-header-left section.",
+      "source": "cv-header-left",
+      "target": "eyebrow"
+    },
+    {
+      "type": "contains",
+      "description": "The title-block section is part of the cv-header-left section.",
+      "source": "cv-header-left",
+      "target": "title-block"
+    },
+    {
+      "type": "contains",
+      "description": "The header-stats section is part of the cv-header-left section.",
+      "source": "cv-header-left",
+      "target": "header-stats"
+    },
+    {
+      "type": "contains",
+      "description": "Each stat is a component of the header-stats section.",
+      "source": "header-stats",
+      "target": "stat"
+    },
+    {
+      "type": "part_of",
+      "description": "The Intelligent Video Analytics system is a tool for perceiving the physical world through video analysis.",
+      "source": "perceive_the_physical_world",
+      "target": "intelligent_video_analytics"
+    },
+    {
+      "type": "created_by",
+      "description": "The Intelligent Video Analytics project was developed at MIMOS.",
+      "source": "intelligent_video_analytics",
+      "target": "mimos"
+    },
+    {
+      "type": "works_with",
+      "description": "The Intelligent Video Analytics system utilizes principles of computer vision for video analysis.",
+      "source": "computer_vision",
+      "target": "intelligent_video_analytics"
+    },
+    {
+      "type": "part_of",
+      "description": "AI deployments on Hailo AI hardware.",
+      "source": "hailo_ai",
+      "target": "deployments"
+    },
+    {
+      "type": "part_of",
+      "description": "AI deployments on Axelera Metis hardware.",
+      "source": "axelera_metis",
+      "target": "deployments"
+    },
+    {
+      "type": "applies_to",
+      "description": "The principle of optimisation applies to neural networks.",
+      "source": "optimisation",
+      "target": "neural_networks"
+    },
+    {
+      "type": "applies_to",
+      "description": "The principle of optimisation applies to camera pipelines.",
+      "source": "optimisation",
+      "target": "camera_pipelines"
+    },
+    {
+      "type": "applies_to",
+      "description": "The principle of optimisation applies to the teams that build systems.",
+      "source": "optimisation",
+      "target": "teams"
+    },
+    {
+      "type": "uses",
+      "description": "Airflow uses Python for its scripting and orchestration capabilities",
+      "source": "airflow",
+      "target": "python"
+    },
+    {
+      "type": "uses",
+      "description": "Terraform uses HashiCorp Configuration Language (HCL) for its configuration files",
+      "source": "terraform",
+      "target": "hcl"
+    },
+    {
+      "type": "uses",
+      "description": "Multi-Camera Systems uses Intel RealSense cameras for capturing images and video",
+      "source": "multi-camera_systems",
+      "target": "intel_realsense"
+    },
+    {
+      "type": "uses",
+      "description": "Multi-Camera Systems uses Open3D for 3D data processing",
+      "source": "multi-camera_systems",
+      "target": "open3d"
+    },
+    {
+      "type": "uses",
+      "description": "Multi-Camera Systems uses NumPy for numerical computations",
+      "source": "multi-camera_systems",
+      "target": "numpy"
+    },
+    {
+      "type": "uses",
+      "description": "Multi-Camera Systems uses MFCamera for camera operations",
+      "source": "multi-camera_systems",
+      "target": "mfcamera"
+    },
+    {
+      "type": "uses",
+      "description": "AI Research & Publications uses MATLAB for research and development",
+      "source": "ai_research_&_publications",
+      "target": "matlab"
+    },
+    {
+      "type": "uses",
+      "description": "AI Research & Publications involves using fuzzy logic in their work",
+      "source": "ai_research_&_publications",
+      "target": "fuzzy_logic"
+    },
+    {
+      "type": "uses",
+      "description": "AI Research & Publications uses Bayesian Optimization for experiments and studies",
+      "source": "ai_research_&_publications",
+      "target": "bayesian_opt."
+    },
+    {
+      "type": "uses",
+      "description": "AI Research & Publications employs active learning techniques in their research methodology",
+      "source": "ai_research_&_publications",
+      "target": "active_learning"
+    },
+    {
+      "type": "created_by",
+      "description": "The project was developed at MIMOS.",
+      "source": "intelligent_video_analytics_(iva)",
+      "target": "mimos"
+    },
+    {
+      "type": "uses",
+      "description": "The project uses Python.",
+      "source": "intelligent_video_analytics_(iva)",
+      "target": "python"
+    },
+    {
+      "type": "uses",
+      "description": "The project uses C++.",
+      "source": "intelligent_video_analytics_(iva)",
+      "target": "c++"
+    },
+    {
+      "type": "uses",
+      "description": "The project uses OpenCV.",
+      "source": "intelligent_video_analytics_(iva)",
+      "target": "opencv"
+    },
+    {
+      "type": "uses",
+      "description": "The project uses MATLAB.",
+      "source": "intelligent_video_analytics_(iva)",
+      "target": "matlab"
+    },
+    {
+      "type": "uses",
+      "description": "The project is covered by a patent.",
+      "source": "intelligent_video_analytics_(iva)",
+      "target": "patent"
+    },
+    {
+      "type": "works_at",
+      "description": "Farshid Pirahansiah is the owner or operator of Pirahansiah.com",
+      "source": "pirahansiah.com",
+      "target": "farshid_pirahansiah"
+    },
+    {
+      "type": "created_by",
+      "description": "Farshid Pirahansiah created a patent for Moving Vehicle Detection",
+      "source": "farshid_pirahansiah",
+      "target": "moving_vehicle_detection_patent"
+    },
+    {
+      "type": "created_by",
+      "description": "Farshid Pirahansiah created a patent for Ad Facial Analysis",
+      "source": "farshid_pirahansiah",
+      "target": "ad_facial_analysis_patent"
+    },
+    {
+      "type": "created_by",
+      "description": "Farshid Pirahansiah created a patent for Face Image Augmentation",
+      "source": "farshid_pirahansiah",
+      "target": "face_image_augmentation_patent"
+    },
+    {
+      "type": "uses",
+      "description": "Character recognition uses Globals for feature extraction.",
+      "source": "character_recognition",
+      "target": "globals"
+    },
+    {
+      "type": "works_at",
+      "description": "Grid Computing Tafresh involves character recognition.",
+      "source": "grid_computing_tafresh",
+      "target": "character_recognition"
+    },
+    {
+      "type": "uses",
+      "description": "PSNR Adaptive Segmentation uses PSNR for segmentation.",
+      "source": "psnr_adaptive_segmentation",
+      "target": "psnr"
+    },
+    {
+      "type": "works_at",
+      "description": "Pattern Significance Calibration is used for camera calibration.",
+      "source": "pattern_significance_calibration",
+      "target": "camera"
+    },
+    {
+      "type": "uses",
+      "description": "PSNR Fuzzy Threshold uses PSNR for thresholding.",
+      "source": "psnr_fuzzy_threshold",
+      "target": "psnr"
+    },
+    {
+      "type": "works_at",
+      "description": "Ant Colony Optimization is used in image processing.",
+      "source": "ant_colony_optimization",
+      "target": "image_processing"
+    },
+    {
+      "type": "uses",
+      "description": "Global Feature Recognition uses Globals for feature extraction.",
+      "source": "global_feature_recognition",
+      "target": "globals"
+    },
+    {
+      "type": "uses",
+      "description": "Adaptive Thresholding PSNR uses PSNR for thresholding.",
+      "source": "adaptive_thresholding_psnr",
+      "target": "psnr"
+    },
+    {
+      "type": "works_at",
+      "description": "3D SLAM Robotics involves Simultaneous Localization and Mapping.",
+      "source": "3d_slam_robotics",
+      "target": "slam"
+    },
+    {
+      "type": "uses",
+      "description": "Camera Calibration tool utilizes hardware platforms for calibration demos.",
+      "source": "camera_calibration",
+      "target": "hardware"
+    },
+    {
+      "type": "part_of",
+      "description": "Machine Learning Specialization includes ML Foundations as a foundational course.",
+      "source": "machine_learning_specialization",
+      "target": "ml_foundations"
+    },
+    {
+      "type": "uses",
+      "description": "Includes ChatGPT among its resources and tools",
+      "source": "ai_hub",
+      "target": "chatgpt"
+    },
+    {
+      "type": "part_of",
+      "description": "Includes YouTube as part of the learning resources",
+      "source": "how_to_start",
+      "target": "youtube"
+    },
+    {
+      "type": "part_of",
+      "description": "Includes YouTube II as part of the learning resources",
+      "source": "how_to_start",
+      "target": "youtube_ii"
+    },
+    {
+      "type": "part_of",
+      "description": "Includes Software Tools as part of the essential development tools",
+      "source": "how_to_start",
+      "target": "software_tools"
+    },
+    {
+      "type": "part_of",
+      "description": "Includes Image Processing Roadmap as part of the learning path for image processing",
+      "source": "how_to_start",
+      "target": "image_processing_roadmap"
+    },
+    {
+      "type": "contains",
+      "description": "Contains OpenCV among its code examples and repos",
+      "source": "source_code",
+      "target": "opencv"
+    },
+    {
+      "type": "contains",
+      "description": "Contains Compile Guide among its build resources",
+      "source": "source_code",
+      "target": "compile_guide"
+    },
+    {
+      "type": "uses",
+      "description": "The community uses the LinkedIn Group as a platform for professional connections and sharing ideas.",
+      "source": "community",
+      "target": "linkedin_group"
+    },
+    {
+      "type": "uses",
+      "description": "The community uses the Facebook Group to connect with others, share content, and participate in discussions.",
+      "source": "community",
+      "target": "facebook_group"
+    },
+    {
+      "type": "part_of",
+      "description": "All Links is a project that forms part of the Community resource collection.",
+      "source": "community",
+      "target": "all_links"
+    },
+    {
+      "type": "part_of",
+      "description": "The Contact page is part of the Community, providing a way to reach out for collaboration opportunities.",
+      "source": "community",
+      "target": "contact"
+    },
+    {
+      "type": "part_of",
+      "description": "The FAQ page is part of the Community, providing answers to common questions.",
+      "source": "community",
+      "target": "faq"
+    },
+    {
+      "type": "part_of",
+      "description": "Prompt Engineering is a resource that forms part of the Community project.",
+      "source": "community",
+      "target": "prompt_engineering"
+    },
+    {
+      "type": "includes",
+      "description": "Amazon is one of the links included in the All Links resource collection.",
+      "source": "all_links",
+      "target": "amazon"
+    },
+    {
+      "type": "created_by",
+      "description": "Jeremy Howard created the fast.ai platform.",
+      "source": "jeremy_howard",
+      "target": "fast.ai"
+    },
+    {
+      "type": "uses",
+      "description": "Jeremy Howard uses nbdev for his development work.",
+      "source": "jeremy_howard",
+      "target": "nbdev"
+    },
+    {
+      "type": "created_by",
+      "description": "Chris Olah is famous for creating Explorable Explanations.",
+      "source": "chris_olah",
+      "target": "explorable_explanations"
+    },
+    {
+      "type": "uses",
+      "description": "Sam Altman uses The CODE Method in his work.",
+      "source": "sam_altman",
+      "target": "the_code_method"
+    },
+    {
+      "type": "part_of",
+      "description": "Industry Verticals are part of the menu structure.",
+      "source": "the_architect_website_menu_structure",
+      "target": "industry_verticals"
+    },
+    {
+      "type": "part_of",
+      "description": "Use Case Library is part of the menu structure.",
+      "source": "the_architect_website_menu_structure",
+      "target": "use_case_library"
+    },
+    {
+      "type": "part_of",
+      "description": "Value Proposition is part of the menu structure.",
+      "source": "the_architect_website_menu_structure",
+      "target": "value_proposition"
+    },
+    {
+      "type": "uses",
+      "description": "The canvas object uses its context for rendering.",
+      "source": "canvas",
+      "target": "ctx"
+    },
+    {
+      "type": "part_of",
+      "description": "The selected element is part of the hovered state.",
+      "source": "selected",
+      "target": "hovered"
+    },
+    {
+      "type": "part_of",
+      "description": "The resize function is part of the window's resize event listener.",
+      "source": "resize",
+      "target": "window.addeventlistener('resize',_resize)"
+    },
+    {
+      "type": "uses",
+      "description": "Nodes are used to populate the node map.",
+      "source": "nodes",
+      "target": "nodemap"
+    },
+    {
+      "type": "uses",
+      "description": "Links use the node map to resolve their source and target nodes.",
+      "source": "links",
+      "target": "nodemap"
+    },
+    {
+      "type": "part_of",
+      "description": "The simulate function sets initial velocities for all nodes.",
+      "source": "simulate",
+      "target": "nodes.foreach(n_=>_{_n.vx=0;_n.vy=0;_})"
+    },
+    {
+      "type": "uses",
+      "description": "Repulsion logic iterates over each node to calculate repulsive forces.",
+      "source": "repulsion",
+      "target": "nodes.foreach(a_=>_{_..._})"
+    },
+    {
+      "type": "uses",
+      "description": "Attraction logic iterates over each link to calculate attractive forces.",
+      "source": "attraction",
+      "target": "links.foreach(l_=>_{_..._})"
+    },
+    {
+      "type": "uses",
+      "description": "The cursor style is determined by the hovered state.",
+      "source": "canvas.style.cursor",
+      "target": "hovered"
+    },
+    {
+      "type": "uses",
+      "description": "When the mouse button is released, the drag state is reset.",
+      "source": "canvas.addeventlistener('mouseup')",
+      "target": "drag=null"
+    },
+    {
+      "type": "uses",
+      "description": "Clicking on an element sets the hovered state.",
+      "source": "canvas.addeventlistener('click')",
+      "target": "hovered"
+    },
+    {
+      "type": "uses",
+      "description": "The ID of the selected element is used to set the inner HTML of the info tool.",
+      "source": "info.innerhtml",
+      "target": "selected.id"
+    },
+    {
+      "type": "uses",
+      "description": "The type of the selected element is used to set the inner HTML of the info tool.",
+      "source": "info.innerhtml",
+      "target": "selected.type"
+    },
+    {
+      "type": "uses",
+      "description": "The description of the selected element is used to set the inner HTML of the info tool.",
+      "source": "info.innerhtml",
+      "target": "selected.description"
+    },
+    {
+      "type": "uses",
+      "description": "The number of links related to the selected element is used to set the inner HTML of the info tool.",
+      "source": "info.innerhtml",
+      "target": "links.filter(l=>l.source===selected||l.target===selected).length"
+    },
+    {
+      "type": "uses",
+      "description": "Scrolling on the canvas changes the zoom level.",
+      "source": "canvas.addeventlistener('wheel')",
+      "target": "zoom"
+    },
+    {
+      "type": "created_by",
+      "description": "Developed by Dr. Farshid Pirahansiah to coach individuals in computer vision.",
+      "source": "cv_coaching_roadmap",
+      "target": "dr._farshid_pirahansiah"
+    },
+    {
+      "type": "created_by",
+      "description": "Educational programs created by Dr. Farshid Pirahansiah on computer vision and deep learning.",
+      "source": "courses",
+      "target": "dr._farshid_pirahansiah"
+    },
+    {
+      "type": "organized_by",
+      "description": "Organized sessions or gatherings focused on specific topics in computer vision and AI by Dr. Farshid Pirahansiah.",
+      "source": "workshops_&_events",
+      "target": "dr._farshid_pirahansiah"
+    },
+    {
+      "type": "works_on",
+      "description": "",
+      "source": "psnr_global_single_fuzzy_threshold",
+      "target": "image_segmentation"
+    },
+    {
+      "type": "works_on",
+      "description": "",
+      "source": "psnr_threshold_for_image_segmentation",
+      "target": "image_segmentation"
+    },
+    {
+      "type": "part_of",
+      "description": "",
+      "source": "3d_slam:_simultaneous_localization_and_mapping_trends_and_humanoid_robot_linkages",
+      "target": "robotics"
+    },
+    {
+      "type": "uses",
+      "description": "",
+      "source": "using_an_ant_colony_optimization_algorithm_for_image_processing",
+      "target": "image_processing"
+    },
+    {
+      "type": "uses",
+      "description": "",
+      "source": "2d_vs_3d_map_for_environment_movement_objects",
+      "target": "map_technologies"
+    },
+    {
+      "type": "works_on",
+      "description": "",
+      "source": "adaptive_image_segmentation_based_on_psnr_for_license_plate_recognition",
+      "target": "license_plate_recognition"
+    },
+    {
+      "type": "works_on",
+      "description": "",
+      "source": "classification_techniques_using_enhanced_geometrical_topological_feature_analysis",
+      "target": "feature_analysis"
+    },
+    {
+      "type": "uses",
+      "description": "",
+      "source": "camera_calibration_for_multi-modal_robot_vision",
+      "target": "robot_vision"
+    },
+    {
+      "type": "works_on",
+      "description": "",
+      "source": "character_recognition_based_on_global_feature",
+      "target": "character_recognition"
+    },
+    {
+      "type": "compares",
+      "description": "",
+      "source": "comparison_of_single_thresholding_method_for_handwritten_images_segmentation",
+      "target": "handwritten_image_segmentation"
+    },
+    {
+      "type": "uses",
+      "description": "",
+      "source": "license_plate_recognition_with_multi-threshold_based_on_entropy",
+      "target": "license_plate_recognition"
+    },
+    {
+      "type": "works_on",
+      "description": "",
+      "source": "multi-threshold_approach_for_license_plate_recognition_system",
+      "target": "license_plate_recognition"
+    },
+    {
+      "type": "uses",
+      "description": "The app uses the @pirahansiahbot to enhance its functionality.",
+      "source": "ai_todo_list_telegram_mini_app",
+      "target": "@pirahansiahbot"
+    },
+    {
+      "type": "uses",
+      "description": "The app uses the @image_processing_farshid_bot for image processing capabilities.",
+      "source": "ai_todo_list_telegram_mini_app",
+      "target": "@image_processing_farshid_bot"
+    },
+    {
+      "type": "uses",
+      "description": "The app uses the @item2cook_bot for creative image generation.",
+      "source": "ai_todo_list_telegram_mini_app",
+      "target": "@item2cook_bot"
+    },
+    {
+      "type": "uses",
+      "description": "Numba is used to compile the `sum_of_squares` function into a more performant version, `sum_of_squares_jit`.",
+      "source": "numba",
+      "target": "sum_of_squares_jit"
+    },
+    {
+      "type": "uses",
+      "description": "CLAHE preprocessing is used in the `robust_motion_estimation` function to enhance image contrast.",
+      "source": "clahe",
+      "target": "robust_motion_estimation"
+    },
+    {
+      "type": "uses",
+      "description": "The RAFT model is one of the deep models used in the `robust_motion_estimation` function for optical flow estimation.",
+      "source": "raft",
+      "target": "robust_motion_estimation"
+    },
+    {
+      "type": "uses",
+      "description": "The PWC-Net model is another deep model used in the `robust_motion_estimation` function for optical flow estimation.",
+      "source": "pwc-net",
+      "target": "robust_motion_estimation"
+    },
+    {
+      "type": "uses",
+      "description": "NCC is a method used in the `robust_motion_estimation` function for robust matching in optical flow estimation.",
+      "source": "ncc",
+      "target": "robust_motion_estimation"
+    },
+    {
+      "type": "part_of",
+      "description": "`cv2.calcOpticalFlowFarneback` is part of the `robust_motion_estimation` function, which is a solution for optical flow challenges.",
+      "source": "cv2.calcopticalflowfarneback",
+      "target": "optical_flow_estimation"
+    },
+    {
+      "type": "uses",
+      "description": "These techniques are used in deep learning optimization.",
+      "source": "deep_learning_optimization",
+      "target": "quantization_(int8/fp16),_pruning,_knowledge_distillation"
+    },
+    {
+      "type": "uses",
+      "description": "Hardware and libraries used for acceleration in deep learning optimization.",
+      "source": "deep_learning_optimization",
+      "target": "gpu/tpu_acceleration,_cuda/cudnn"
+    },
+    {
+      "type": "uses",
+      "description": "Algorithms used in computer vision optimization.",
+      "source": "computer_vision_optimization",
+      "target": "yolo_(real-time_detection),_mobilenet/squeezenet_(embedded)"
+    },
+    {
+      "type": "uses",
+      "description": "Preprocessing steps in computer vision optimization.",
+      "source": "computer_vision_optimization",
+      "target": "grayscale_conversion,_roi_focus,_frame_skipping"
+    },
+    {
+      "type": "uses",
+      "description": "Parallel computing techniques used in computer vision optimization.",
+      "source": "computer_vision_optimization",
+      "target": "multi-threading,_gpu_processing_via_cuda"
+    },
+    {
+      "type": "uses",
+      "description": "Feature extraction methods in computer vision optimization.",
+      "source": "computer_vision_optimization",
+      "target": "orb,_hog_\u2014_efficient_extraction"
+    },
+    {
+      "type": "uses",
+      "description": "Edge computing devices and frameworks used in computer vision optimization.",
+      "source": "computer_vision_optimization",
+      "target": "nvidia_jetson,_tflite,_fpga/asic"
+    },
+    {
+      "type": "uses",
+      "description": "Strategies for data collection in data optimization.",
+      "source": "data_optimization",
+      "target": "diverse_sources,_balanced_classes,_high-quality_filtering"
+    },
+    {
+      "type": "uses",
+      "description": "Preprocessing steps in data optimization.",
+      "source": "data_optimization",
+      "target": "normalization,_missing_data_handling,_pca/t-sne"
+    },
+    {
+      "type": "uses",
+      "description": "Augmentation techniques in data optimization.",
+      "source": "data_optimization",
+      "target": "rotation/scaling/cropping_(cv),_smote_(imbalanced),_time-series_shifts"
+    },
+    {
+      "type": "fixes",
+      "description": "Techniques used to address underfitting.",
+      "source": "underfitting_vs_overfitting",
+      "target": "more_layers/features,_complex_models,_more_epochs,_reduce_learning_rate"
+    },
+    {
+      "type": "fixes",
+      "description": "Techniques used to address overfitting.",
+      "source": "underfitting_vs_overfitting",
+      "target": "l1/l2_regularization,_dropout,_early_stopping,_data_augmentation,_reduce_complexity,_ensemble_methods"
+    },
+    {
+      "type": "uses",
+      "description": "Techniques and methods used for reducing RAM usage.",
+      "source": "ram_reduction",
+      "target": "attention_sinks,_mixed-precision_training,_lower-precision_compute,_reduce_batch_size,_gradient_accumulation,_gradient_checkpointing,_cpu_parameter_offloading"
     }
   ],
   "metadata": {
     "entity_types": {
       "farshid": "person",
       "tiziran": "org",
-      "opencv": "tool",
+      "opencv": "library",
       "cuda": "tool",
       "ollama": "org|tool",
-      "qwen_models": "concept|project"
+      "qwen_models": "concept|project",
+      "pkm": "concept",
+      "pkm_update_june_2026": "project",
+      "atlas": "project",
+      "graph": "tool",
+      "solutions": "project",
+      "about": "page",
+      "resources": "section",
+      "llm": "project",
+      "openrouter_+_ollama_setup": "tool",
+      "ai_knowledge_graph": "concept",
+      "use_cases": "concept",
+      "system_design": "concept",
+      "offering": "concept",
+      "toc": "concept",
+      "moc": "concept",
+      "growth_model": "concept",
+      "costs": "concept",
+      "proof": "concept",
+      "updates": "concept",
+      "dr._farshid_pirahansiah": "person",
+      "ai_&_computer_vision_engineering": "concept",
+      "muted": "concept",
+      "ink": "concept",
+      "accent2": "concept",
+      "rule": "concept",
+      "accent": "concept",
+      "paper": "concept",
+      "intro-text": "concept",
+      "lora,_georgia,_serif": "concept",
+      "tag": "concept",
+      "dm_mono,_monospace": "concept",
+      "cv-section": "concept",
+      "section-header": "concept",
+      "syne,_sans-serif": "concept",
+      "story-section": "concept",
+      "cv-header-left": "section",
+      "eyebrow": "concept",
+      "name": "person",
+      "title-block": "section",
+      "header-stats": "section",
+      "stat": "concept",
+      "stat-num": "concept",
+      "stat-label": "concept",
+      "perceive_the_physical_world": "concept",
+      "intelligent_video_analytics": "project",
+      "mimos": "org",
+      "computer_vision": "concept",
+      "hailo_ai": "org",
+      "axelera_metis": "org",
+      "optimisation": "concept",
+      "deployments": "concept",
+      "neural_networks": "concept",
+      "camera_pipelines": "concept",
+      "teams": "concept",
+      "airflow": "tool",
+      "terraform": "tool",
+      "multi-camera_systems": "concept",
+      "intel_realsense": "tool",
+      "open3d": "tool",
+      "numpy": "tool",
+      "mfcamera": "tool",
+      "matlab": "tool",
+      "fuzzy_logic": "concept",
+      "bayesian_opt.": "concept",
+      "active_learning": "concept",
+      "software_architecture": "concept",
+      "python": "tool",
+      "c++": "tool",
+      "hcl": "concept",
+      "ai_research_&_publications": "concept",
+      "intelligent_video_analytics_(iva)": "project",
+      "patent": "concept",
+      "pirahansiah.com": "org",
+      "farshid_pirahansiah": "person",
+      "moving_vehicle_detection_patent": "concept",
+      "ad_facial_analysis_patent": "concept",
+      "face_image_augmentation_patent": "concept",
+      "character_recognition": "concept",
+      "globals": "tool",
+      "grid_computing_tafresh": "project",
+      "psnr_adaptive_segmentation": "tool",
+      "pattern_significance_calibration": "concept",
+      "psnr_fuzzy_threshold": "tool",
+      "ant_colony_optimization": "tool",
+      "global_feature_recognition": "concept",
+      "adaptive_thresholding_psnr": "tool",
+      "3d_slam_robotics": "project",
+      "psnr": "concept",
+      "camera": "concept",
+      "image_processing": "concept",
+      "slam": "concept",
+      "camera_calibration": "tool",
+      "edge_ai_hardware_platforms": "hardware",
+      "machine_learning_specialization": "course",
+      "ml_foundations": "course",
+      "full_stack_deep_learning": "course",
+      "fsdl": "course",
+      "mlops": "course",
+      "ros": "course",
+      "parallel_programming": "course",
+      "modern_c++": "course",
+      "cloud_native": "course",
+      "iot_scholarship_foundation": "course",
+      "tensorflow_deployment": "course",
+      "hardware": "concept",
+      "ai_hub": "project",
+      "chatgpt": "tool",
+      "how_to_start": "project",
+      "youtube": "resource",
+      "youtube_ii": "resource",
+      "software_tools": "project",
+      "image_processing_roadmap": "project",
+      "source_code": "resource",
+      "opencv_c++": "tool",
+      "opencv_python": "tool",
+      "macos_opencv": "guide",
+      "opencv_rust": "library",
+      "compile_guide": "guide",
+      "community": "org",
+      "linkedin_group": "tool",
+      "facebook_group": "tool",
+      "all_links": "project",
+      "amazon": "tool",
+      "contact": "project",
+      "faq": "project",
+      "prompt_engineering": "project",
+      "jeremy_howard": "person",
+      "chris_olah": "person",
+      "sam_altman": "person",
+      "fast.ai": "tool",
+      "nbdev": "tool",
+      "explorable_explanations": "concept",
+      "the_code_method": "concept",
+      "the_architect_website_menu_structure": "project",
+      "industry_verticals": "concept",
+      "use_case_library": "concept",
+      "value_proposition": "concept",
+      "canvas": "tool",
+      "ctx": "object",
+      "w": "variable",
+      "h": "variable",
+      "panx": "variable",
+      "pany": "variable",
+      "zoom": "variable",
+      "drag": "variable",
+      "hovered": "variable",
+      "selected": "variable",
+      "resize": "function",
+      "data": "object",
+      "colors": "object",
+      "nodes": "array",
+      "nodemap": "object",
+      "links": "collection",
+      "window.addeventlistener('resize',_resize)": "concept",
+      "simulate": "concept",
+      "nodes.foreach(n_=>_{_n.vx=0;_n.vy=0;_})": "concept",
+      "repulsion": "concept",
+      "nodes.foreach(a_=>_{_..._})": "concept",
+      "attraction": "concept",
+      "links.foreach(l_=>_{_..._})": "concept",
+      "info": "tool",
+      "canvas.style.cursor": "concept",
+      "canvas.addeventlistener('mouseup')": "concept",
+      "drag=null": "concept",
+      "canvas.addeventlistener('click')": "concept",
+      "info.innerhtml": "concept",
+      "selected.id": "concept",
+      "selected.type": "concept",
+      "selected.description": "concept",
+      "links.filter(l=>l.source===selected||l.target===selected).length": "concept",
+      "canvas.addeventlistener('wheel')": "concept",
+      "cuda_&_gpu_programming": "concept",
+      "optical_flow": "concept",
+      "3d_vision_&_multi-camera": "concept",
+      "optimization": "concept",
+      "ai_&_llm": "concept",
+      "cv_coaching_roadmap": "project",
+      "courses": "project",
+      "workshops_&_events": "event",
+      "image_thresholding_based_on_psnr": "concept",
+      "character_&_object_recognition_via_global_feature_extraction": "concept",
+      "psnr_global_single_fuzzy_threshold": "concept",
+      "psnr_threshold_for_image_segmentation": "concept",
+      "3d_slam:_simultaneous_localization_and_mapping_trends_and_humanoid_robot_linkages": "project",
+      "using_an_ant_colony_optimization_algorithm_for_image_processing": "tool",
+      "2d_vs_3d_map_for_environment_movement_objects": "conference_paper",
+      "adaptive_image_segmentation_based_on_psnr_for_license_plate_recognition": "conference_paper",
+      "classification_techniques_using_enhanced_geometrical_topological_feature_analysis": "conference_paper",
+      "camera_calibration_for_multi-modal_robot_vision": "conference_paper",
+      "character_recognition_based_on_global_feature": "conference_paper",
+      "comparison_of_single_thresholding_method_for_handwritten_images_segmentation": "conference_paper",
+      "license_plate_recognition_with_multi-threshold_based_on_entropy": "conference_paper",
+      "multi-threshold_approach_for_license_plate_recognition_system": "conference_paper",
+      "pattern_image_significance_for_camera_calibration": "concept",
+      "tafreshgrid:_grid_computing_at_tafresh_university": "project",
+      "computer_vision_meets_llm": "project",
+      "image_segmentation": "concept",
+      "robotics": "concept",
+      "map_technologies": "concept",
+      "license_plate_recognition": "concept",
+      "feature_analysis": "concept",
+      "robot_vision": "concept",
+      "handwritten_image_segmentation": "concept",
+      "ai_todo_list_telegram_mini_app": "app",
+      "@pirahansiahbot": "bot",
+      "@image_processing_farshid_bot": "bot",
+      "@item2cook_bot": "bot",
+      "vscode_extensions_pack": "extension pack",
+      "opencv_nuget_packages": "package",
+      "cvtest_\u2014_computer_vision_testing_framework": "framework",
+      "numba": "tool",
+      "sum_of_squares": "function",
+      "sum_of_squares_jit": "function",
+      "clahe": "tool",
+      "raft": "model",
+      "pwc-net": "model",
+      "ncc": "method",
+      "cv2.calcopticalflowfarneback": "function",
+      "robust_motion_estimation": "concept",
+      "optical_flow_estimation": "concept",
+      "movement_detection": "concept",
+      "deep_learning_optimization": "concept",
+      "computer_vision_optimization": "concept",
+      "data_optimization": "concept",
+      "underfitting_vs_overfitting": "concept",
+      "ram_reduction": "concept",
+      "quantization_(int8/fp16),_pruning,_knowledge_distillation": "concept",
+      "gpu/tpu_acceleration,_cuda/cudnn": "concept",
+      "yolo_(real-time_detection),_mobilenet/squeezenet_(embedded)": "concept",
+      "grayscale_conversion,_roi_focus,_frame_skipping": "concept",
+      "multi-threading,_gpu_processing_via_cuda": "concept",
+      "orb,_hog_\u2014_efficient_extraction": "concept",
+      "nvidia_jetson,_tflite,_fpga/asic": "concept",
+      "diverse_sources,_balanced_classes,_high-quality_filtering": "concept",
+      "normalization,_missing_data_handling,_pca/t-sne": "concept",
+      "rotation/scaling/cropping_(cv),_smote_(imbalanced),_time-series_shifts": "concept",
+      "more_layers/features,_complex_models,_more_epochs,_reduce_learning_rate": "concept",
+      "l1/l2_regularization,_dropout,_early_stopping,_data_augmentation,_reduce_complexity,_ensemble_methods": "concept",
+      "attention_sinks,_mixed-precision_training,_lower-precision_compute,_reduce_batch_size,_gradient_accumulation,_gradient_checkpointing,_cpu_parameter_offloading": "concept"
     },
     "descriptions": {
       "farshid": "A person who works in the field of computer vision.",
       "tiziran": "An organization where Farshid works.",
-      "opencv": "A software library used for computer vision applications.",
+      "opencv": "Computer vision library usage",
       "cuda": "A parallel computing platform and application programming interface developed by NVIDIA.",
       "ollama": "An organization or tool used for AI inference.",
-      "qwen_models": "AI models developed at Ollama used for inference."
+      "qwen_models": "AI models developed at Ollama used for inference.",
+      "pkm": "A concept related to Project Knowledge Management",
+      "pkm_update_june_2026": "An update or release of a PKM project in June 2026",
+      "atlas": "A project related to knowledge graph and research synthesis.",
+      "graph": "A tool for creating interactive graphs.",
+      "solutions": "A project related to offering system design and use cases.",
+      "about": "Information about the creator or organization.",
+      "resources": "A section containing various resources like TOC, MOC, Growth Model, Costs, Proof, and Updates.",
+      "llm": "A project related to large language models (LLM).",
+      "openrouter_+_ollama_setup": "An installation setup for OpenRouter cloud and local Ollama Qwen 3.5.",
+      "ai_knowledge_graph": "A visual representation of knowledge and relationships in the field of artificial intelligence.",
+      "use_cases": "",
+      "system_design": "",
+      "offering": "",
+      "toc": "",
+      "moc": "",
+      "growth_model": "",
+      "costs": "",
+      "proof": "",
+      "updates": "",
+      "dr._farshid_pirahansiah": "A Computer Vision expert with over 10 years of R&D experience.",
+      "ai_&_computer_vision_engineering": "A field of engineering that focuses on creating intelligent systems that can perceive and understand the world through computer vision and artificial intelligence.",
+      "muted": "A CSS variable for muted color",
+      "ink": "A CSS variable for ink color",
+      "accent2": "A CSS variable for accent color",
+      "rule": "A CSS variable for rule color",
+      "accent": "A CSS variable for accent color",
+      "paper": "A CSS variable for paper color",
+      "intro-text": "",
+      "lora,_georgia,_serif": "",
+      "tag": "",
+      "dm_mono,_monospace": "",
+      "cv-section": "",
+      "section-header": "",
+      "syne,_sans-serif": "",
+      "story-section": "",
+      "cv-header-left": "The left section of the CV header containing personal information and statistics.",
+      "eyebrow": "A brief description or subtitle.",
+      "name": "The name of the individual.",
+      "title-block": "A block containing job titles and roles.",
+      "header-stats": "A section displaying statistical information.",
+      "stat": "An individual statistic within the header stats section.",
+      "stat-num": "The numeric value of a statistic.",
+      "stat-label": "The label or description for the numeric statistic.",
+      "perceive_the_physical_world": "The ability to understand and interpret the physical environment.",
+      "intelligent_video_analytics": "A patented system for analyzing video data.",
+      "mimos": "Organization where the project was developed",
+      "computer_vision": "The field of study that deals with how computers can interpret and understand visual data.",
+      "hailo_ai": "A company involved in advanced AI technology.",
+      "axelera_metis": "Another organization related to AI and hardware deployments.",
+      "optimisation": "The process of making systems work better without compromising quality.",
+      "deployments": "",
+      "neural_networks": "",
+      "camera_pipelines": "",
+      "teams": "",
+      "airflow": "A workflow automation tool",
+      "terraform": "An infrastructure as code tool",
+      "multi-camera_systems": "A collection of techniques for working with multiple cameras",
+      "intel_realsense": "A camera technology by Intel",
+      "open3d": "An open-source library for 3D data processing",
+      "numpy": "A Python library for numerical computing",
+      "mfcamera": "A camera module or SDK",
+      "matlab": "A programming environment and software for numerical computation, algorithm development, data analysis, and visualization",
+      "fuzzy_logic": "A form of logic that deals with reasoning that is approximate rather than precise",
+      "bayesian_opt.": "An algorithmic method for finding the global maximum of a blackbox function",
+      "active_learning": "A teaching method in which students are actively involved in the learning process",
+      "software_architecture": "The structure of software systems and how they support their intended functions",
+      "python": "An interpreted, high-level, general-purpose programming language",
+      "c++": "A compiled, general-purpose programming language designed with a bias toward systems programming",
+      "hcl": "",
+      "ai_research_&_publications": "",
+      "intelligent_video_analytics_(iva)": "Patented video analytics platform developed at MIMOS \u2014 covering pedestrian density, anomaly detection, licence plate recognition, and real-time event classification.",
+      "patent": "",
+      "pirahansiah.com": "A website or platform owned by Farshid Pirahansiah",
+      "farshid_pirahansiah": "An individual with expertise in patents and publications",
+      "moving_vehicle_detection_patent": "",
+      "ad_facial_analysis_patent": "",
+      "face_image_augmentation_patent": "",
+      "character_recognition": "A method for identifying characters in images.",
+      "globals": "A technique or system used for global feature extraction and recognition.",
+      "grid_computing_tafresh": "A case study on grid computing in Tafresh University.",
+      "psnr_adaptive_segmentation": "An image segmentation method based on the Peak Signal-to-Noise Ratio (PSNR).",
+      "pattern_significance_calibration": "A technique for calibrating camera importance based on pattern significance.",
+      "psnr_fuzzy_threshold": "A fuzzy thresholding method using the Peak Signal-to-Noise Ratio (PSNR).",
+      "ant_colony_optimization": "An optimization algorithm inspired by ant behavior.",
+      "global_feature_recognition": "A method for recognizing objects and characters using global features.",
+      "adaptive_thresholding_psnr": "An adaptive thresholding technique based on the Peak Signal-to-Noise Ratio (PSNR).",
+      "3d_slam_robotics": "A robotics project involving Simultaneous Localization and Mapping in three-dimensional space.",
+      "psnr": "",
+      "camera": "",
+      "image_processing": "",
+      "slam": "",
+      "camera_calibration": "A calibration tool and demo for cameras.",
+      "edge_ai_hardware_platforms": "Hardware platforms for edge AI applications.",
+      "machine_learning_specialization": "A specialization course in machine learning with case studies.",
+      "ml_foundations": "A practical course in machine learning through real projects.",
+      "full_stack_deep_learning": "An end-to-end deep learning deployment course.",
+      "fsdl": "A course on advanced deep learning practices.",
+      "mlops": "A course on ML pipeline operations and monitoring.",
+      "ros": "A course on the Robot Operating System for automation.",
+      "parallel_programming": "A course on GPU and multi-threading techniques.",
+      "modern_c++": "A course on C++17/20 for performance-critical systems.",
+      "cloud_native": "A course on containerized AI deployment.",
+      "iot_scholarship_foundation": "A course on IoT fundamentals for edge AI.",
+      "tensorflow_deployment": "A course on TensorFlow data and deployment specialization.",
+      "hardware": "",
+      "ai_hub": "Curated AI resources and tools",
+      "chatgpt": "LLM applications and prompting",
+      "how_to_start": "Getting started in CV and AI",
+      "youtube": "Video learning resources",
+      "youtube_ii": "More video resources",
+      "software_tools": "Essential dev tools",
+      "image_processing_roadmap": "Learning path for IP",
+      "source_code": "Code examples and repos",
+      "opencv_c++": "C++ vision implementations",
+      "opencv_python": "Python vision scripts",
+      "macos_opencv": "macOS build guide",
+      "opencv_rust": "Rust bindings for vision",
+      "compile_guide": "Build",
+      "community": "A community with a LinkedIn Group and Facebook Group focused on AI, IoT, Robotics, and CV/DL.",
+      "linkedin_group": "A professional network platform for professionals to connect and share ideas.",
+      "facebook_group": "A social networking service where users create and manage their own groups for sharing content and connecting with others.",
+      "all_links": "A comprehensive resource collection on various topics.",
+      "amazon": "An online marketplace for products and services with a focus on books and electronics.",
+      "contact": "A page for reaching out to the community for collaboration opportunities.",
+      "faq": "A page with answers to common questions about the community or its resources.",
+      "prompt_engineering": "A resource on techniques for creating effective prompts for large language models.",
+      "jeremy_howard": "A person known for using fast.ai and nbdev.",
+      "chris_olah": "A person famous for creating Explorable Explanations.",
+      "sam_altman": "The CEO of OpenAI, known for his minimalist approach and The CODE method.",
+      "fast.ai": "A machine learning platform by Jeremy Howard.",
+      "nbdev": "A tool for developing Python projects using Jupyter Notebooks.",
+      "explorable_explanations": "Chris Olah's method of synthesizing AI knowledge into visual diagrams.",
+      "the_code_method": "Sam Altman's approach to capturing, organizing, distilling, and expressing ideas.",
+      "the_architect_website_menu_structure": "A project or website with specific menu structure for business solutions.",
+      "industry_verticals": "",
+      "use_case_library": "",
+      "value_proposition": "",
+      "canvas": "A graphical interface for creating and manipulating visual elements.",
+      "ctx": "The context of the canvas element used for rendering.",
+      "w": "Width of the canvas.",
+      "h": "Height of the canvas.",
+      "panx": "Pan position in X direction.",
+      "pany": "Pan position in Y direction.",
+      "zoom": "A variable to track the current zoom level of the canvas.",
+      "drag": "A variable to track the current drag state.",
+      "hovered": "A boolean indicating whether an element is being hovered over.",
+      "selected": "An object representing the currently selected element.",
+      "resize": "Function to resize the canvas.",
+      "data": "Data object containing nodes and links for the graph.",
+      "colors": "Object mapping node types to colors.",
+      "nodes": "Array of node objects for the graph.",
+      "nodemap": "Object mapping node IDs to their corresponding node objects.",
+      "links": "A collection of connections or relationships between elements.",
+      "window.addeventlistener('resize',_resize)": "",
+      "simulate": "",
+      "nodes.foreach(n_=>_{_n.vx=0;_n.vy=0;_})": "",
+      "repulsion": "",
+      "nodes.foreach(a_=>_{_..._})": "",
+      "attraction": "",
+      "links.foreach(l_=>_{_..._})": "",
+      "info": "A tool for displaying information about elements on the canvas.",
+      "canvas.style.cursor": "",
+      "canvas.addeventlistener('mouseup')": "",
+      "drag=null": "",
+      "canvas.addeventlistener('click')": "",
+      "info.innerhtml": "",
+      "selected.id": "",
+      "selected.type": "",
+      "selected.description": "",
+      "links.filter(l=>l.source===selected||l.target===selected).length": "",
+      "canvas.addeventlistener('wheel')": "",
+      "cuda_&_gpu_programming": "Programming model for parallel computing using NVIDIA GPUs.",
+      "optical_flow": "Technique in computer vision to estimate motion between images or frames of video.",
+      "3d_vision_&_multi-camera": "Field of computer vision that deals with the processing of 3D data from multiple cameras.",
+      "optimization": "Improvements made to the system to enhance performance, efficiency or effectiveness.",
+      "ai_&_llm": "Artificial Intelligence and Large Language Models, focusing on advanced machine learning techniques.",
+      "cv_coaching_roadmap": "A structured plan for coaching individuals in computer vision.",
+      "courses": "Educational programs or classes related to computer vision and deep learning.",
+      "workshops_&_events": "Organized sessions or gatherings focused on specific topics in computer vision and AI.",
+      "image_thresholding_based_on_psnr": "A method for image thresholding using Peak Signal-to-Noise Ratio.",
+      "character_&_object_recognition_via_global_feature_extraction": "A technique for recognizing characters and objects using global feature extraction.",
+      "psnr_global_single_fuzzy_threshold": "A fuzzy threshold method based on Peak Signal-to-Noise Ratio for image segmentation.",
+      "psnr_threshold_for_image_segmentation": "A thresholding method using Peak Signal-to-Noise Ratio for image segmentation.",
+      "3d_slam:_simultaneous_localization_and_mapping_trends_and_humanoid_robot_linkages": "A research project on 3D SLAM and its trends, with a focus on humanoid robot linkages.",
+      "using_an_ant_colony_optimization_algorithm_for_image_processing": "An algorithm using ant colony optimization for image processing tasks.",
+      "2d_vs_3d_map_for_environment_movement_objects": "A conference paper comparing 2D and 3D maps for movement objects in an environment.",
+      "adaptive_image_segmentation_based_on_psnr_for_license_plate_recognition": "A paper on adaptive image segmentation based on Peak Signal-to-Noise Ratio for license plate recognition.",
+      "classification_techniques_using_enhanced_geometrical_topological_feature_analysis": "A paper discussing classification techniques using enhanced geometrical topological feature analysis.",
+      "camera_calibration_for_multi-modal_robot_vision": "A paper on camera calibration techniques for multi-modal robot vision systems.",
+      "character_recognition_based_on_global_feature": "A paper on character recognition using global features.",
+      "comparison_of_single_thresholding_method_for_handwritten_images_segmentation": "A comparison of single thresholding methods for handwritten images segmentation.",
+      "license_plate_recognition_with_multi-threshold_based_on_entropy": "A paper on license plate recognition using multi-threshold based on entropy.",
+      "multi-threshold_approach_for_license_plate_recognition_system": "A paper discussing the multi-threshold approach in license plate recognition systems.",
+      "pattern_image_significance_for_camera_calibration": "The significance of pattern images in camera calibration.",
+      "tafreshgrid:_grid_computing_at_tafresh_university": "A grid computing project at Tafresh University.",
+      "computer_vision_meets_llm": "A research project combining computer vision with large language models (LLMs).",
+      "image_segmentation": "",
+      "robotics": "",
+      "map_technologies": "",
+      "license_plate_recognition": "",
+      "feature_analysis": "",
+      "robot_vision": "",
+      "handwritten_image_segmentation": "",
+      "ai_todo_list_telegram_mini_app": "A Telegram mini app with IndexedDB persistence and multi-view calendar functionality.",
+      "@pirahansiahbot": "A fine-tuned GPT-4 Mini on AWS Lambda for CV queries.",
+      "@image_processing_farshid_bot": "A bot to send images, apply OpenCV functions (Canny, etc.), and get instant results with payment via TON/stars.",
+      "@item2cook_bot": "A bot that transforms photos into pencil sketches.",
+      "vscode_extensions_pack": "A collection of essential tools for CV, ML, LLM, and PKM development.",
+      "opencv_nuget_packages": "Static OpenCV 5 library for Visual Studio available via NuGet Package Manager.",
+      "cvtest_\u2014_computer_vision_testing_framework": "A testing framework for computer vision and deep learning applications.",
+      "numba": "A just-in-time compiler for Python that translates Python to machine code at runtime.",
+      "sum_of_squares": "A Python function that calculates the sum of squares of numbers in an array.",
+      "sum_of_squares_jit": "A Numba-compiled version of the `sum_of_squares` function, optimized for performance.",
+      "clahe": "Contrast Limited Adaptive Histogram Equalization, a preprocessing technique used to enhance image contrast.",
+      "raft": "Real-Time Adaptive Flow Field Estimation, a deep learning model for optical flow estimation.",
+      "pwc-net": "PWC-Net, a deep learning model for optical flow estimation.",
+      "ncc": "Normalized Cross-Correlation, a method used for robust matching in optical flow estimation.",
+      "cv2.calcopticalflowfarneback": "A function from the OpenCV library that calculates dense optical flow using the Farneback algorithm.",
+      "robust_motion_estimation": "",
+      "optical_flow_estimation": "",
+      "movement_detection": "The process of detecting movement within a specified time window.",
+      "deep_learning_optimization": "Specific optimizations focused on deep learning models.",
+      "computer_vision_optimization": "Optimizations specifically for computer vision tasks.",
+      "data_optimization": "Strategies for optimizing data collection, preprocessing and augmentation.",
+      "underfitting_vs_overfitting": "The trade-off between the model fitting too loosely (underfitting) or too tightly (overfitting).",
+      "ram_reduction": "Techniques to reduce memory usage of the system.",
+      "quantization_(int8/fp16),_pruning,_knowledge_distillation": "",
+      "gpu/tpu_acceleration,_cuda/cudnn": "",
+      "yolo_(real-time_detection),_mobilenet/squeezenet_(embedded)": "",
+      "grayscale_conversion,_roi_focus,_frame_skipping": "",
+      "multi-threading,_gpu_processing_via_cuda": "",
+      "orb,_hog_\u2014_efficient_extraction": "",
+      "nvidia_jetson,_tflite,_fpga/asic": "",
+      "diverse_sources,_balanced_classes,_high-quality_filtering": "",
+      "normalization,_missing_data_handling,_pca/t-sne": "",
+      "rotation/scaling/cropping_(cv),_smote_(imbalanced),_time-series_shifts": "",
+      "more_layers/features,_complex_models,_more_epochs,_reduce_learning_rate": "",
+      "l1/l2_regularization,_dropout,_early_stopping,_data_augmentation,_reduce_complexity,_ensemble_methods": "",
+      "attention_sinks,_mixed-precision_training,_lower-precision_compute,_reduce_batch_size,_gradient_accumulation,_gradient_checkpointing,_cpu_parameter_offloading": ""
     }
   }
 }
