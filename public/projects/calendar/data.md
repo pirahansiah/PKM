@@ -1,3 +1,13 @@
+---
+layout: default
+title: "Calendar Data & Legend"
+categories: [projects, calendar]
+tags: [calendar, data, events, schedule]
+description: "Calendar data with legend for events, work, and family scheduling."
+excerpt: "Calendar event data with color-coded legend for work, family, and holidays."
+author: "Dr. Farshid Pirahansiah"
+---
+
 '|': 'holiday',
 '^': work , 'highlight-red',
 '>': family, 'highlight-yellow',

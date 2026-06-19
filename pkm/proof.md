@@ -18,9 +18,9 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path | Description |
 |------|------|-------------|
-| 3D Vision & Multi-Camera | [3D.md](/contents/public/3D.md) | Point clouds, depth sensing, multi-camera sync |
-| Optical Flow | [opticalFlow.md](/contents/public/opticalFlow.md) | Motion estimation challenges and solutions |
-| Real-Time Multi-Camera | [RealTimeMultiCamera.md](/contents/public/RealTimeMultiCamera.md) | Scaling to 100+ cameras, DeepStream, OpenVINO |
+| 3D Vision & Multi-Camera | [3D.md](/contents/public/3D) | Point clouds, depth sensing, multi-camera sync |
+| Optical Flow | [opticalFlow.md](/contents/public/opticalFlow) | Motion estimation challenges and solutions |
+| Real-Time Multi-Camera | [RealTimeMultiCamera.md](/contents/public/RealTimeMultiCamera) | Scaling to 100+ cameras, DeepStream, OpenVINO |
 
 ---
 
@@ -28,12 +28,12 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path | Description |
 |------|------|-------------|
-| Advanced LLM Concepts | [Mind_Map_Advanced_LLM_Concepts.md](/contents/public/Mind_Map_Advanced_LLM_Concepts.md) | RAG, embeddings, multimodal, knowledge graphs |
-| Orchestrating Agents | [Mind_Map_Orchestrating_Agents.md](/contents/public/Mind_Map_Orchestrating_Agents.md) | Multi-agent systems, task decomposition |
-| Blog: AI & LLMs | [Social.md](/contents/public/Social.md) | RAG vs CAG, multi-agent architectures |
-| Avatar Generator | [Avatar.md](/contents/public/Avatar.md) | Local video avatar with Ollama + Wav2Lip |
-| Prompt Templates | [Prompts.md](/contents/public/Prompts.md) | Reusable LLM prompt patterns |
-| SEO for LLMs | [SEO.md](/contents/public/SEO.md) | Structured data, AI-friendly content |
+| Advanced LLM Concepts | [Mind_Map_Advanced_LLM_Concepts.md](/contents/public/Mind_Map_Advanced_LLM_Concepts) | RAG, embeddings, multimodal, knowledge graphs |
+| Orchestrating Agents | [Mind_Map_Orchestrating_Agents.md](/contents/public/Mind_Map_Orchestrating_Agents) | Multi-agent systems, task decomposition |
+| Blog: AI & LLMs | [Social.md](/contents/public/Social) | RAG vs CAG, multi-agent architectures |
+| Avatar Generator | [Avatar.md](/contents/public/Avatar) | Local video avatar with Ollama + Wav2Lip |
+| Prompt Templates | [Prompts.md](/contents/public/Prompts) | Reusable LLM prompt patterns |
+| SEO for LLMs | [SEO.md](/contents/public/SEO) | Structured data, AI-friendly content |
 
 ---
 
@@ -41,11 +41,11 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path | Description |
 |------|------|-------------|
-| Numba JIT Tutorial | [CUDA_numba_jit_tutorial.md](/contents/public/CUDA_numba_jit_tutorial.md) | Python performance with @jit(nopython=True) |
-| PyCUDA Kernels | [CUDA_pycuda_kernel_explanation.md](/contents/public/CUDA_pycuda_kernel_explanation.md) | CUDA C kernels from Python |
-| CUDA in VS Code | [VSCodeCUDAwindows.md](/contents/public/VSCodeCUDAwindows.md) | Dev environment setup on Windows |
-| MLX, CoreML & Metal | [MLX_CoreML_Metal_.md](/contents/public/MLX_CoreML_Metal_.md) | Apple Silicon ML frameworks |
-| CUDA OpenCV Setup | [CUDA/setup_cuda_opencv_vscode_win.md](/contents/public/CUDA/setup_cuda_opencv_vscode_win.md) | Full CUDA+OpenCV on Windows |
+| Numba JIT Tutorial | [CUDA_numba_jit_tutorial.md](/contents/public/CUDA_numba_jit_tutorial) | Python performance with @jit(nopython=True) |
+| PyCUDA Kernels | [CUDA_pycuda_kernel_explanation.md](/contents/public/CUDA_pycuda_kernel_explanation) | CUDA C kernels from Python |
+| CUDA in VS Code | [VSCodeCUDAwindows.md](/contents/public/VSCodeCUDAwindows) | Dev environment setup on Windows |
+| MLX, CoreML & Metal | [MLX_CoreML_Metal_.md](/contents/public/MLX_CoreML_Metal_) | Apple Silicon ML frameworks |
+| CUDA OpenCV Setup | [CUDA/setup_cuda_opencv_vscode_win.md](/contents/public/CUDA/setup_cuda_opencv_vscode_win) | Full CUDA+OpenCV on Windows |
 
 ---
 
@@ -53,11 +53,11 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path | Description |
 |------|------|-------------|
-| C++ Quick Reference | [CPP.md](/contents/public/CPP.md) | Memory, STL, debugging, Linux essentials |
-| Python Config & Tips | [Python.md](/contents/public/Python.md) | Config management, pybind11, Cython |
-| Developer Tools | [setup.md](/contents/public/setup.md) | Docker, GitHub tricks, CLI tools |
-| Shell & Vim | [theMissingSemester.md](/contents/public/theMissingSemester.md) | Terminal essentials, vim basics |
-| Curated Links | [links.md](/contents/public/links.md) | Tools, tutorials, reading |
+| C++ Quick Reference | [CPP.md](/contents/public/CPP) | Memory, STL, debugging, Linux essentials |
+| Python Config & Tips | [Python.md](/contents/public/Python) | Config management, pybind11, Cython |
+| Developer Tools | [setup.md](/contents/public/setup) | Docker, GitHub tricks, CLI tools |
+| Shell & Vim | [theMissingSemester.md](/contents/public/theMissingSemester) | Terminal essentials, vim basics |
+| Curated Links | [links.md](/contents/public/links) | Tools, tutorials, reading |
 
 ---
 
@@ -65,7 +65,7 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path | Description |
 |------|------|-------------|
-| CV/DL/ML Optimization | [Optimization.md](/contents/public/Optimization.md) | Quantization, pruning, frameworks |
+| CV/DL/ML Optimization | [Optimization.md](/contents/public/Optimization) | Quantization, pruning, frameworks |
 
 ---
 
@@ -73,9 +73,9 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path | Description |
 |------|------|-------------|
-| Startup Guide | [StartUp.md](/contents/public/StartUp.md) | Edge AI business, fundraising, pitch decks |
-| Coaching | [coaching.md](/contents/public/coaching.md) | CV coaching and teaching roadmap |
-| Top LinkedIn Posts | [MYTopLinkeInPost2024.md](/contents/public/MYTopLinkeInPost2024.md) | Camera calibration, C++, robotics |
+| Startup Guide | [StartUp.md](/contents/public/StartUp) | Edge AI business, fundraising, pitch decks |
+| Coaching | [coaching.md](/contents/public/coaching) | CV coaching and teaching roadmap |
+| Top LinkedIn Posts | [MYTopLinkeInPost2024.md](/contents/public/MYTopLinkeInPost2024) | Camera calibration, C++, robotics |
 
 ---
 
@@ -83,8 +83,8 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path | Description |
 |------|------|-------------|
-| Home | [enter.md](/contents/public/enter.md) | Main landing page |
-| Portfolio & Resources | [Resources.md](/contents/public/Resources.md) | Patents, books, papers, projects |
+| Home | [enter.md](/contents/public/enter) | Main landing page |
+| Portfolio & Resources | [Resources.md](/contents/public/Resources) | Patents, books, papers, projects |
 
 ---
 
@@ -92,9 +92,9 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path | Patent |
 |------|------|--------|
-| Face Augmentation | [A_METHOD_FOR_AUGMENTING_A_PLURALITY_OF_FACE_IMAGES_WO2021060971A1.md](/contents/public/publications/Patents/A_METHOD_FOR_AUGMENTING_A_PLURALITY_OF_FACE_IMAGES_WO2021060971A1.md) | WO2021/060971 |
-| Moving Vehicle Detection | [A_METHOD_FOR_DETECTING_A_MOVING_VEHICLE_WO2021107761A1.md](/contents/public/publications/Patents/A_METHOD_FOR_DETECTING_A_MOVING_VEHICLE_WO2021107761A1.md) | WO2021/107761 |
-| Ad Facial Analysis | [SYSTEM_AND_METHOD_FOR_PROVIDING_ADVERTISEMENT_CONTENTS_BASED_ON_FACIAL_ANALYSIS_WO2020141969A2.md](/contents/public/publications/Patents/SYSTEM_AND_METHOD_FOR_PROVIDING_ADVERTISEMENT_CONTENTS_BASED_ON_FACIAL_ANALYSIS_WO2020141969A2.md) | WO2020/141969 |
+| Face Augmentation | [A_METHOD_FOR_AUGMENTING_A_PLURALITY_OF_FACE_IMAGES_WO2021060971A1.md](/contents/public/publications/Patents/A_METHOD_FOR_AUGMENTING_A_PLURALITY_OF_FACE_IMAGES_WO2021060971A1) | WO2021/060971 |
+| Moving Vehicle Detection | [A_METHOD_FOR_DETECTING_A_MOVING_VEHICLE_WO2021107761A1.md](/contents/public/publications/Patents/A_METHOD_FOR_DETECTING_A_MOVING_VEHICLE_WO2021107761A1) | WO2021/107761 |
+| Ad Facial Analysis | [SYSTEM_AND_METHOD_FOR_PROVIDING_ADVERTISEMENT_CONTENTS_BASED_ON_FACIAL_ANALYSIS_WO2020141969A2.md](/contents/public/publications/Patents/SYSTEM_AND_METHOD_FOR_PROVIDING_ADVERTISEMENT_CONTENTS_BASED_ON_FACIAL_ANALYSIS_WO2020141969A2) | WO2020/141969 |
 
 ---
 
@@ -102,17 +102,17 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path |
 |------|------|
-| 2D vs 3D Map | [My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects.md](/contents/public/publications/Papers/My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects.md) |
-| PSNR Adaptive Segmentation | [Adaptive_Image_Segmentation_Based_on_PSNR_for_License_Plate_Recognition.md](/contents/public/publications/Papers/Adaptive_Image_Segmentation_Based_on_PSNR_for_License_Plate_Recognition.md) |
-| Geometrical Feature Analysis | [An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis.md](/contents/public/publications/Papers/An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis.md) |
-| Multi-Modal Robot Vision | [Camera_Calibration_for_Multi-Modal_Robot_Vision.md](/contents/public/publications/Papers/Camera_Calibration_for_Multi-Modal_Robot_Vision.md) |
-| Global Feature Recognition | [Character_Recognition_Based_on_Global_Feature.md](/contents/public/publications/Papers/Character_Recognition_Based_on_Global_Feature.md) |
-| Handwritten Segmentation | [Comparison_single_thresholding_method_for_handwritten_images_segmentation.md](/contents/public/publications/Papers/Comparison_single_thresholding_method_for_handwritten_images_segmentation.md) |
-| License Plate Entropy | [License_Plate_Recognition_with_Multi-Threshold_Based_on_Entropy.md](/contents/public/publications/Papers/License_Plate_Recognition_with_Multi-Threshold_Based_on_Entropy.md) |
-| Multi-threshold Plate | [Multi-threshold_Approach_for_License_Plate_Recognition_System.md](/contents/public/publications/Papers/Multi-threshold_Approach_for_License_Plate_Recognition_System.md) |
-| Conference Paper | [My_Conference_Paper.md](/contents/public/publications/Papers/My_Conference_Paper.md) |
-| Pattern Significance | [Pattern_Image_Significance_for_Camera_Calibration.md](/contents/public/publications/Papers/Pattern_Image_Significance_for_Camera_Calibration.md) |
-| Grid Computing Tafresh | [TafreshGrid_Grid_computing_in_Tafresh_university.md](/contents/public/publications/Papers/TafreshGrid_Grid_computing_in_Tafresh_university.md) |
+| 2D vs 3D Map | [My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects.md](/contents/public/publications/Papers/My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects) |
+| PSNR Adaptive Segmentation | [Adaptive_Image_Segmentation_Based_on_PSNR_for_License_Plate_Recognition.md](/contents/public/publications/Papers/Adaptive_Image_Segmentation_Based_on_PSNR_for_License_Plate_Recognition) |
+| Geometrical Feature Analysis | [An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis.md](/contents/public/publications/Papers/An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis) |
+| Multi-Modal Robot Vision | [Camera_Calibration_for_Multi-Modal_Robot_Vision.md](/contents/public/publications/Papers/Camera_Calibration_for_Multi-Modal_Robot_Vision) |
+| Global Feature Recognition | [Character_Recognition_Based_on_Global_Feature.md](/contents/public/publications/Papers/Character_Recognition_Based_on_Global_Feature) |
+| Handwritten Segmentation | [Comparison_single_thresholding_method_for_handwritten_images_segmentation.md](/contents/public/publications/Papers/Comparison_single_thresholding_method_for_handwritten_images_segmentation) |
+| License Plate Entropy | [License_Plate_Recognition_with_Multi-Threshold_Based_on_Entropy.md](/contents/public/publications/Papers/License_Plate_Recognition_with_Multi-Threshold_Based_on_Entropy) |
+| Multi-threshold Plate | [Multi-threshold_Approach_for_License_Plate_Recognition_System.md](/contents/public/publications/Papers/Multi-threshold_Approach_for_License_Plate_Recognition_System) |
+| Conference Paper | [My_Conference_Paper.md](/contents/public/publications/Papers/My_Conference_Paper) |
+| Pattern Significance | [Pattern_Image_Significance_for_Camera_Calibration.md](/contents/public/publications/Papers/Pattern_Image_Significance_for_Camera_Calibration) |
+| Grid Computing Tafresh | [TafreshGrid_Grid_computing_in_Tafresh_university.md](/contents/public/publications/Papers/TafreshGrid_Grid_computing_in_Tafresh_university) |
 
 ---
 
@@ -120,12 +120,12 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path |
 |------|------|
-| 3D SLAM Robotics | [3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages.md](/contents/public/publications/Journals/3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages.md) |
-| Adaptive Thresholding PSNR | [Adaptive_Image_Thresholding_Based_on_the_Peak_Signal-to-noise_Ratio.md](/contents/public/publications/Journals/Adaptive_Image_Thresholding_Based_on_the_Peak_Signal-to-noise_Ratio.md) |
-| Global Feature Recognition | [CHARACTER_AND_OBJECT_RECOGNITION_BASED_ON_GLOBAL_FEATURE_EXTRACTION.md](/contents/public/publications/Journals/CHARACTER_AND_OBJECT_RECOGNITION_BASED_ON_GLOBAL_FEATURE_EXTRACTION.md) |
-| PSNR Fuzzy Threshold | [GSFT-PSNR_Global_Single_Fuzzy_Threshold.md](/contents/public/publications/Journals/GSFT-PSNR_Global_Single_Fuzzy_Threshold.md) |
-| Threshold Segmentation | [PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION.md](/contents/public/publications/Journals/PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION.md) |
-| Ant Colony Optimization | [USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM.md](/contents/public/publications/Journals/USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM.md) |
+| 3D SLAM Robotics | [3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages.md](/contents/public/publications/Journals/3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages) |
+| Adaptive Thresholding PSNR | [Adaptive_Image_Thresholding_Based_on_the_Peak_Signal-to-noise_Ratio.md](/contents/public/publications/Journals/Adaptive_Image_Thresholding_Based_on_the_Peak_Signal-to-noise_Ratio) |
+| Global Feature Recognition | [CHARACTER_AND_OBJECT_RECOGNITION_BASED_ON_GLOBAL_FEATURE_EXTRACTION.md](/contents/public/publications/Journals/CHARACTER_AND_OBJECT_RECOGNITION_BASED_ON_GLOBAL_FEATURE_EXTRACTION) |
+| PSNR Fuzzy Threshold | [GSFT-PSNR_Global_Single_Fuzzy_Threshold.md](/contents/public/publications/Journals/GSFT-PSNR_Global_Single_Fuzzy_Threshold) |
+| Threshold Segmentation | [PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION.md](/contents/public/publications/Journals/PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION) |
+| Ant Colony Optimization | [USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM.md](/contents/public/publications/Journals/USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM) |
 
 ---
 
@@ -133,14 +133,14 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path |
 |------|------|
-| LLMs Meet CV Keynote | [Keynotes/LLMsMeetComputerVision.md](/contents/public/publications/Keynotes/LLMsMeetComputerVision.md) |
-| Camera Calibration Chapter | [Books/My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization.md](/contents/public/publications/Books/My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization.md) |
-| Optical Flow Stabilization | [Books/Book_Computational_Intelligence_From_Theory_to_Application_explores_augmented_optical_flow_methods_for_video_stabilization.md](/contents/public/publications/Books/Book_Computational_Intelligence_From_Theory_to_Application_explores_augmented_optical_flow_methods_for_video_stabilization.md) |
-| OpenCV 5 Ch0 | [Books/AI/0.md](/contents/public/publications/Books/AI/0.md) |
-| OpenCV 5 Ch1 | [Books/AI/1.md](/contents/public/publications/Books/AI/1.md) |
-| OpenCV 5 Ch2 | [Books/AI/2.md](/contents/public/publications/Books/AI/2.md) |
-| OpenCV 5 Ch3 | [Books/AI/3.md](/contents/public/publications/Books/AI/3.md) |
-| CV Meets LLM | [Books/AI/ComputerVisionMeetLLM.md](/contents/public/publications/Books/AI/ComputerVisionMeetLLM.md) |
+| LLMs Meet CV Keynote | [Keynotes/LLMsMeetComputerVision.md](/contents/public/publications/Keynotes/LLMsMeetComputerVision) |
+| Camera Calibration Chapter | [Books/My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization.md](/contents/public/publications/Books/My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization) |
+| Optical Flow Stabilization | [Books/Book_Computational_Intelligence_From_Theory_to_Application_explores_augmented_optical_flow_methods_for_video_stabilization.md](/contents/public/publications/Books/Book_Computational_Intelligence_From_Theory_to_Application_explores_augmented_optical_flow_methods_for_video_stabilization) |
+| OpenCV 5 Ch0 | [Books/AI/0.md](/contents/public/publications/Books/AI/0) |
+| OpenCV 5 Ch1 | [Books/AI/1.md](/contents/public/publications/Books/AI/1) |
+| OpenCV 5 Ch2 | [Books/AI/2.md](/contents/public/publications/Books/AI/2) |
+| OpenCV 5 Ch3 | [Books/AI/3.md](/contents/public/publications/Books/AI/3) |
+| CV Meets LLM | [Books/AI/ComputerVisionMeetLLM.md](/contents/public/publications/Books/AI/ComputerVisionMeetLLM) |
 
 ---
 
@@ -148,8 +148,8 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path |
 |------|------|
-| CV | [publications/CV.md](/contents/public/publications/CV.md) |
-| 10 Years Lessons | [publications/10Years.md](/contents/public/publications/10Years.md) |
+| CV | [publications/CV.md](/contents/public/publications/CV) |
+| 10 Years Lessons | [publications/10Years.md](/contents/public/publications/10Years) |
 
 ---
 
@@ -157,10 +157,10 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path |
 |------|------|
-| Solutions | [projects/Solutions.md](/contents/public/projects/Solutions.md) |
-| Calendar Data | [projects/calendar/data.md](/contents/public/projects/calendar/data.md) |
-| Camera Calibration | [projects/Camera_Calibration/cameracalibration.md](/contents/public/projects/Camera_Calibration/cameracalibration.md) |
-| Hardware | [projects/Embedded/hardware.md](/contents/public/projects/Embedded/hardware.md) |
+| Solutions | [projects/Solutions.md](/contents/public/projects/Solutions) |
+| Calendar Data | [projects/calendar/data.md](/contents/public/projects/calendar/data) |
+| Camera Calibration | [projects/Camera_Calibration/cameracalibration.md](/contents/public/projects/Camera_Calibration/cameracalibration) |
+| Hardware | [projects/Embedded/hardware.md](/contents/public/projects/Embedded/hardware) |
 
 ---
 
@@ -168,7 +168,7 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path |
 |------|------|
-| AI CV Python PPT | [AI_CV_Python/ppt.md](/contents/public/AI_CV_Python/ppt.md) |
+| AI CV Python PPT | [AI_CV_Python/ppt.md](/contents/public/AI_CV_Python/ppt) |
 
 ---
 
