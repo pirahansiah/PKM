@@ -47,21 +47,21 @@ sitemap: true
   - [My Conference Papers: TafreshGrid Grid computing in Tafresh university ](/farshid/portfolio/publications/Papers/TafreshGrid_Grid_computing_in_Tafresh_university )
   - [My Conference Papers: Computer Vision meet LLM ](/farshid/portfolio/publications/Papers/ )      
 # MY Top LinkeIn Post
-- [MY Top LinkeIn Post](content/MYTopLinkeInPost2024)   
+- [MY Top LinkeIn Post](/farshid/content/public/linkedin-top-posts)   
 # LLM     
-  - [Orchestrating Agents](/farshid/content/Mind_Map_Orchestrating_Agents)   
-  - [Dic LLM](/farshid/content/Mind_Map_Advanced_LLM_Concepts)      
+  - [Orchestrating Agents](/farshid/content/public/ai-llm/orchestrating-agents)   
+  - [Dic LLM](/farshid/content/public/ai-llm/advanced-llm-concepts)      
 
 # CUDA    
-- [Numba JIT Computer Vision, ML, DL, LLM](/farshid/content/CUDA_numba_jit_tutorial)   
-- [PyCUDA Kernel Explanation: Computer Vision, ML, DL, LLM](/farshid/content/CUDA_pycuda_kernel_explanation)   
-- [Simple Setting Up a CUDA Development Environment in VS Code in Windows](/farshid/content/VSCodeCUDAwindows)
+- [Numba JIT Computer Vision, ML, DL, LLM](/farshid/content/public/cuda-gpu/numba-jit)   
+- [PyCUDA Kernel Explanation: Computer Vision, ML, DL, LLM](/farshid/content/public/cuda-gpu/pycuda-kernels)   
+- [Simple Setting Up a CUDA Development Environment in VS Code in Windows](/farshid/content/public/cuda-gpu/vscode-cuda-windows)
 
   - [ CUDA & OPENCV ](/farshid/guides/CUDA/setup_cuda_opencv_vscode_win)
 
 # Optimization   
-- [Optimization](/farshid/content/Optimization)   
-- [Optimization ML](/farshid/content/optimizationML.png)   
-- [Optimization under_over_fit_ML](/farshid/content/under_over_fit_ML.png)   
+- [Optimization](/farshid/content/public/optimization)   
+- [Optimization ML](/farshid/content/public/images/optimizationML.png)   
+- [Optimization under_over_fit_ML](/farshid/content/public/images/under_over_fit_ML.png)   
 
 

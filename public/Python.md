@@ -9,14 +9,14 @@ excerpt: "Python config guide covering ConfigParser, argparse, TOML, pydantic, h
 author: "Dr. Farshid Pirahansiah"
 ---
 # Python
-[Python](https://www.pirahansiah.com/farshid/content/Python)
+[Python](https://www.pirahansiah.com/farshid/content/public/python)
 A comparison of built-in and third-party configuration options for Python projects
 This guide compares Python’s native configuration methods and popular third-party libraries, helping developers choose the best fit for their project’s needs.
 #Python #DevTools #Configuration #ConfigFiles #PythonTips #OpenSource #MachineLearning #WebDev #FastAP
 
 - Python Configuration Management
     
-    <img src="/farshid/content/python-configuration-management.png" alt="Python Configuration Management" style="max-width: 100%; height: auto;">
+    <img src="/farshid/content/public/images/python-configuration-management.png" alt="Python Configuration Management" style="max-width: 100%; height: auto;">
 
     [Python Configuration Management](#python-configuration-management)
 
