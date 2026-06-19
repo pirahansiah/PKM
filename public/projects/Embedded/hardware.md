@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Experience with edge and embedded hardware including Raspberry Pi 4, NVIDIA Jetson platforms, depth cameras, FPGA, Hailo AI accelerators, and DSPs. Skilled in evaluating and optimizing their performance for real-time multi-camera computer vision applications that require camera synchronization and medical image processing on edge/IoT systems"
+title: "Edge & Embedded Hardware for Computer Vision"
 date_modified: 2025-09-20
-categories: [image-processing, LLM , computer-vision]
-tags: [AI, deep-learning, image-processing]
-description: "Experience with edge and embedded hardware including Raspberry Pi 4, NVIDIA Jetson platforms, depth cameras, FPGA, Hailo AI accelerators, and DSPs. Skilled in evaluating and optimizing their performance for real-time multi-camera computer vision applications that require camera synchronization and medical image processing on edge/IoT systems An exploration of advanced algorithms and techniques in computer vision, ML, DL, LLM, LLMOPs, DevOps."
-excerpt: "Dive deep into the latest advancements in computer vision, including deep learning methodologies and real-time image processing.Experience with edge and embedded hardware including Raspberry Pi 4, NVIDIA Jetson platforms, depth cameras, FPGA, Hailo AI accelerators, and DSPs. Skilled in evaluating and optimizing their performance for real-time multi-camera computer vision applications that require camera synchronization and medical image processing on edge/IoT systems"
+categories: [projects, edge-AI, embedded]
+tags: [Raspberry-Pi, Jetson, FPGA, Hailo, edge-AI, embedded, depth-camera, DSP, IoT, multi-camera]
+description: "Experience with edge and embedded hardware including Raspberry Pi, Jetson, FPGA, Hailo AI accelerators, and DSPs for real-time CV."
+excerpt: "Edge hardware portfolio: Raspberry Pi, NVIDIA Jetson, depth cameras, FPGA, Hailo accelerators for multi-camera CV applications."
 author: "Dr. Farshid Pirahansiah"
 ---
 Experience with edge and embedded hardware including Raspberry Pi 4, NVIDIA Jetson platforms, depth cameras, FPGA, Hailo AI accelerators, and DSPs. Skilled in evaluating and optimizing their performance for real-time multi-camera computer vision applications that require camera synchronization and medical image processing on edge/IoT systems

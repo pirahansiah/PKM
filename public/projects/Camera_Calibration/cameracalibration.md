@@ -1,13 +1,14 @@
 ---
 layout: default
+title: "Camera Calibration — Tools & Demos"
 author: Dr. Farshid Pirahansiah
-categories: [image-processing, LLM, computer-vision, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-tags: [AI, deep-learning, image-processing, neural-networks, object-detection, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-description: "An in-depth exploration of advanced algorithms and techniques in computer vision, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding, including real-time processing and AI integration."
-excerpt: "Dive deep into the latest advancements in computer vision, including deep learning methodologies,, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding,  real-time image processing, and their applications in modern technology."
+categories: [projects, camera-calibration, computer-vision]
+tags: [camera-calibration, intrinsic-parameters, extrinsic-parameters, chessboard, stereo-vision, robotics]
+description: "Camera calibration tools and demos for single and multi-camera systems including intrinsic and extrinsic parameter estimation."
+excerpt: "Practical camera calibration implementations: chessboard detection, intrinsic/extrinsic estimation, stereo calibration."
 featured: true
-seo_title: "Advanced Computer Vision Techniques: From Theory to Practice, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
-seo_description: "Explore cutting-edge computer vision techniques and their applications in modern technology, including deep learning and real-time processing., ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
+seo_title: "Camera Calibration Tools and Demos"
+seo_description: "Camera calibration project with tools for intrinsic and extrinsic parameter estimation in multi-camera systems."
 show_sidebar: true
 toc: true
 comments: true

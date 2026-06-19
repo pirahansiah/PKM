@@ -1,17 +1,14 @@
 ---
 layout: default
 author: Dr. Farshid Pirahansiah
-categories: [My Conference Paper , image-processing, LLM, computer-vision, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-tags: [AI, deep-learning, image-processing, neural-networks, object-detection, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-description: "An in-depth exploration of advanced algorithms and techniques in computer vision, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding, including real-time processing and AI integration."
-excerpt: "Dive deep into the latest advancements in computer vision, including deep learning methodologies,, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding,  real-time image processing, and their applications in modern technology."
-seo_title: "Advanced Computer Vision Techniques: From Theory to Practice, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
-seo_description: "Explore cutting-edge computer vision techniques and their applications in modern technology, including deep learning and real-time processing., ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-title: "My Conference Paper: Pattern Image Significance for Camera Calibration "
+categories: [conference-paper, camera-calibration, pattern-recognition]
+tags: [camera-calibration, pattern-image, calibration-pattern, chessboard, computer-vision, robotics]
+description: "Conference paper on the significance of pattern images for camera calibration accuracy."
+excerpt: "Analysis of how pattern image design and selection impacts camera calibration precision and reliability."
+seo_title: "Pattern Image Significance for Camera Calibration"
+seo_description: "Research on the role of pattern images in improving camera calibration accuracy and methodology."
+keywords: [camera calibration, pattern image, calibration pattern, chessboard detection, computer vision]
+title: "Pattern Image Significance for Camera Calibration"
 date: 2024-10-19
 ---
 

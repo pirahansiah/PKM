@@ -1,13 +1,13 @@
 ---
 layout: default
 author: Dr. Farshid Pirahansiah
-categories: [image-processing, LLM, computer-vision, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-tags: [AI, deep-learning, image-processing, neural-networks, object-detection, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-description: "An in-depth exploration of advanced algorithms and techniques in computer vision, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding, including real-time processing and AI integration."
-excerpt: "Dive deep into the latest advancements in computer vision, including deep learning methodologies,, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding,  real-time image processing, and their applications in modern technology."
+categories: [journal, pattern-recognition, feature-extraction]
+tags: [character-recognition, object-recognition, global-feature, feature-extraction, pattern-recognition, computer-vision]
+description: "Journal paper on character and object recognition using global feature extraction methods."
+excerpt: "Research on global feature extraction techniques for character and object recognition in computer vision."
 featured: true
-seo_title: "Advanced Computer Vision Techniques: From Theory to Practice, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
-seo_description: "Explore cutting-edge computer vision techniques and their applications in modern technology, including deep learning and real-time processing., ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
+seo_title: "Character and Object Recognition Based on Global Feature Extraction"
+seo_description: "Journal article on global feature extraction methods for character and object recognition applications."
 show_sidebar: true
 toc: true
 comments: true

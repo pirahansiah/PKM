@@ -1,17 +1,14 @@
 ---
 layout: default
 author: Dr. Farshid Pirahansiah
-categories: [My Conference Paper , image-processing, LLM, computer-vision, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-tags: [AI, deep-learning, image-processing, neural-networks, object-detection, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-description: "An in-depth exploration of advanced algorithms and techniques in computer vision, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding, including real-time processing and AI integration."
-excerpt: "Dive deep into the latest advancements in computer vision, including deep learning methodologies,, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding,  real-time image processing, and their applications in modern technology."
-seo_title: "Advanced Computer Vision Techniques: From Theory to Practice, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
-seo_description: "Explore cutting-edge computer vision techniques and their applications in modern technology, including deep learning and real-time processing., ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-title: "My Conference Paper: TafreshGrid Grid computing in Tafresh university"
+categories: [conference-paper, grid-computing, distributed-systems]
+tags: [grid-computing, distributed-computing, Tafresh, cluster, high-performance-computing, university]
+description: "Conference paper on TafreshGrid — grid computing infrastructure at Tafresh University."
+excerpt: "Implementation and evaluation of grid computing resources at Tafresh University for distributed processing."
+seo_title: "TafreshGrid: Grid Computing at Tafresh University"
+seo_description: "Research on grid computing infrastructure deployment and performance at Tafresh University."
+keywords: [grid computing, distributed computing, Tafresh University, cluster computing, HPC]
+title: "TafreshGrid: Grid Computing at Tafresh University"
 date: 2024-10-19
 ---
 

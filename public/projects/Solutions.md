@@ -1,13 +1,14 @@
 ---
 layout: default
+title: "Solutions & Project Portfolio"
 author: Dr. Farshid Pirahansiah
-categories: [image-processing, LLM, computer-vision, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-tags: [AI, deep-learning, image-processing, neural-networks, object-detection, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-description: "An in-depth exploration of advanced algorithms and techniques in computer vision, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding, including real-time processing and AI integration."
-excerpt: "Dive deep into the latest advancements in computer vision, including deep learning methodologies,, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding,  real-time image processing, and their applications in modern technology."
+categories: [projects, portfolio, solutions]
+tags: [computer-vision, edge-AI, IoT, solutions, portfolio, project-highlights]
+description: "Project portfolio showcasing computer vision solutions, edge AI deployments, and IoT implementations."
+excerpt: "Overview of completed projects including real-time CV systems, edge AI deployments, and production solutions."
 featured: true
-seo_title: "Advanced Computer Vision Techniques: From Theory to Practice, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
-seo_description: "Explore cutting-edge computer vision techniques and their applications in modern technology, including deep learning and real-time processing., ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
+seo_title: "Solutions & Project Portfolio — Dr. Farshid Pirahansiah"
+seo_description: "Portfolio of computer vision and AI solutions across edge computing, IoT, and industrial applications."
 show_sidebar: true
 toc: true
 comments: true

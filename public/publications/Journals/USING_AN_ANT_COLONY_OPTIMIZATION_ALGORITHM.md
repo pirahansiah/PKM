@@ -1,13 +1,13 @@
 ---
 layout: default
 author: Dr. Farshid Pirahansiah
-categories: [image-processing, LLM, computer-vision, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-tags: [AI, deep-learning, image-processing, neural-networks, object-detection, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-description: "An in-depth exploration of advanced algorithms and techniques in computer vision, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding, including real-time processing and AI integration."
-excerpt: "Dive deep into the latest advancements in computer vision, including deep learning methodologies,, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding,  real-time image processing, and their applications in modern technology."
+categories: [journal, optimization, image-processing]
+tags: [ant-colony-optimization, ACO, image-processing, metaheuristic, optimization, computer-vision]
+description: "Journal paper on using ant colony optimization algorithms for image processing tasks."
+excerpt: "Application of ant colony optimization to image processing challenges including segmentation and feature extraction."
 featured: true
-seo_title: "Advanced Computer Vision Techniques: From Theory to Practice, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
-seo_description: "Explore cutting-edge computer vision techniques and their applications in modern technology, including deep learning and real-time processing., ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
+seo_title: "Using an Ant Colony Optimization Algorithm for Image Processing"
+seo_description: "Journal article on ant colony optimization applied to image processing and computer vision problems."
 show_sidebar: true
 toc: true
 comments: true

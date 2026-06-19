@@ -1,20 +1,14 @@
 ---
 layout: default
 author: Dr. Farshid Pirahansiah
-categories: [My Conference Paper , image-processing, LLM, computer-vision, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-tags: [AI, deep-learning, image-processing, neural-networks, object-detection, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-description: "An in-depth exploration of advanced algorithms and techniques in computer vision, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding, including real-time processing and AI integration."
-excerpt: "Dive deep into the latest advancements in computer vision, including deep learning methodologies,, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding,  real-time image processing, and their applications in modern technology."
+categories: [conference-paper, mapping, motion-detection]
+tags: [2D-mapping, 3D-mapping, motion-detection, environment-mapping, computer-vision, robotics]
+description: "Conference paper comparing 2D and 3D mapping approaches for detecting moving objects in environments."
+excerpt: "Comparison of 2D versus 3D mapping methods for environment movement object detection and tracking."
 featured: true
-seo_title: "Advanced Computer Vision Techniques: From Theory to Practice, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
-seo_description: "Explore cutting-edge computer vision techniques and their applications in modern technology, including deep learning and real-time processing., ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-
-
-title: "My Conference Paper: 2D versus 3D Map for Environment Movement Objects "
+seo_title: "2D versus 3D Map for Environment Movement Objects"
+seo_description: "Research comparing 2D and 3D mapping techniques for detecting and tracking moving objects in environments."
+title: "2D versus 3D Map for Environment Movement Objects"
 date: 2024-10-18
 ---
 

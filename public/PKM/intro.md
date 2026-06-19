@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "PKM"
-categories: [PKM, image-processing, LLM, computer-vision]
-tags: [PKM, AI, deep-learning, image-processing]
-description: "PKM, An exploration of advanced algorithms and techniques in computer vision, ML, DL, LLM, LLMOPs, DevOps, and comprehensive note-taking methodologies."
+title: "Personal Knowledge Management (PKM)"
+categories: [PKM, knowledge-management, productivity]
+tags: [PKM, second-brain, Zettelkasten, PARA, note-taking, knowledge-graph, productivity]
+description: "Personal knowledge management system combining Zettelkasten, PARA, and second-brain methodologies."
 related: [setup, note2]
 author: "Dr. Farshid Pirahansiah"
 ---

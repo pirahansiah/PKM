@@ -1,17 +1,14 @@
 ---
 layout: default
 author: Dr. Farshid Pirahansiah
-categories: [My Conference Paper , image-processing, LLM, computer-vision, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-tags: [AI, deep-learning, image-processing, neural-networks, object-detection, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-description: "An in-depth exploration of advanced algorithms and techniques in computer vision, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding, including real-time processing and AI integration."
-excerpt: "Dive deep into the latest advancements in computer vision, including deep learning methodologies,, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding,  real-time image processing, and their applications in modern technology."
-seo_title: "Advanced Computer Vision Techniques: From Theory to Practice, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
-seo_description: "Explore cutting-edge computer vision techniques and their applications in modern technology, including deep learning and real-time processing., ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-title: "My Conference Paper: License Plate Recognition with Multi-Threshold Based on Entropy"
+categories: [conference-paper, license-plate-recognition, entropy]
+tags: [license-plate, entropy, multi-threshold, image-segmentation, computer-vision, intelligent-transportation]
+description: "Conference paper on license plate recognition using multi-threshold methods based on entropy analysis."
+excerpt: "Multi-threshold approach for license plate recognition using entropy-based image segmentation techniques."
+seo_title: "License Plate Recognition with Multi-Threshold Based on Entropy"
+seo_description: "Research on entropy-based multi-threshold methods for accurate license plate recognition systems."
+keywords: [license plate recognition, entropy, multi-threshold, image segmentation, computer vision]
+title: "License Plate Recognition with Multi-Threshold Based on Entropy"
 date: 2024-10-19
 ---
 

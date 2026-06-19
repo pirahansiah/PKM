@@ -1,17 +1,14 @@
 ---
 layout: default
 author: Dr. Farshid Pirahansiah
-categories: [My Conference Paper , image-processing, LLM, computer-vision, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-tags: [AI, deep-learning, image-processing, neural-networks, object-detection, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-description: "An in-depth exploration of advanced algorithms and techniques in computer vision, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding, including real-time processing and AI integration."
-excerpt: "Dive deep into the latest advancements in computer vision, including deep learning methodologies,, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding,  real-time image processing, and their applications in modern technology."
-seo_title: "Advanced Computer Vision Techniques: From Theory to Practice, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
-seo_description: "Explore cutting-edge computer vision techniques and their applications in modern technology, including deep learning and real-time processing., ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-title: "My Conference Paper: Comparison single thresholding method for handwritten images segmentation"
+categories: [conference-paper, image-processing, thresholding]
+tags: [thresholding, handwritten-images, segmentation, image-processing, binarization, computer-vision]
+description: "Conference paper comparing single thresholding methods for handwritten image segmentation."
+excerpt: "Comparison of thresholding techniques for segmenting handwritten images in document analysis applications."
+seo_title: "Comparison of Single Thresholding Methods for Handwritten Image Segmentation"
+seo_description: "Research comparing thresholding approaches for handwritten image segmentation in document processing."
+keywords: [thresholding, handwritten images, segmentation, image processing, document analysis]
+title: "Comparison Single Thresholding Method for Handwritten Images Segmentation"
 date: 2024-10-19
 ---
 

@@ -1,13 +1,13 @@
 ---
 layout: default
 author: Dr. Farshid Pirahansiah
-categories: [image-processing, LLM, computer-vision, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-tags: [AI, deep-learning, image-processing, neural-networks, object-detection, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-description: "An in-depth exploration of advanced algorithms and techniques in computer vision, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding, including real-time processing and AI integration."
-excerpt: "Dive deep into the latest advancements in computer vision, including deep learning methodologies,, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding,  real-time image processing, and their applications in modern technology."
+categories: [journal, image-processing, thresholding]
+tags: [adaptive-thresholding, PSNR, image-segmentation, peak-signal-to-noise-ratio, image-processing, computer-vision]
+description: "Journal paper on adaptive image thresholding based on peak signal-to-noise ratio analysis."
+excerpt: "Research on adaptive thresholding methods using PSNR for robust image segmentation across varying conditions."
 featured: true
-seo_title: "Advanced Computer Vision Techniques: From Theory to Practice, , ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
-seo_description: "Explore cutting-edge computer vision techniques and their applications in modern technology, including deep learning and real-time processing., ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding"
+seo_title: "Adaptive Image Thresholding Based on PSNR"
+seo_description: "Journal article presenting adaptive thresholding techniques using peak signal-to-noise ratio for image segmentation."
 show_sidebar: true
 toc: true
 comments: true

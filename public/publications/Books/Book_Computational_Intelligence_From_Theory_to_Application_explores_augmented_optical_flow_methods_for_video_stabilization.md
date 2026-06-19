@@ -1,10 +1,10 @@
 ---
 layout: default
-author: Dr. Farshid Pirahansiah
+title: "Computational Intelligence: Augmented Optical Flow for Video Stabilization"
 categories: [book, optical-flow, video-stabilization]
-tags: [book, optical-flow, video-stabilization, computational-intelligence]
-description: "Book: Computational Intelligence — From Theory to Application explores augmented optical flow methods for video stabilization."
-excerpt: "Published book exploring augmented optical flow methods for video stabilization using computational intelligence techniques."
+tags: [optical-flow, video-stabilization, computational-intelligence, image-processing, motion-estimation]
+description: "Book chapter on augmented optical flow methods for video stabilization using computational intelligence techniques."
+excerpt: "Published book exploring augmented optical flow methods for video stabilization using computational intelligence."
 featured: true
 show_sidebar: true
 toc: true

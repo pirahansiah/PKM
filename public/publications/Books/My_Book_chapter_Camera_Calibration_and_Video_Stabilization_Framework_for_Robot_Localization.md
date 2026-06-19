@@ -1,10 +1,10 @@
 ---
 layout: default
-author: Dr. Farshid Pirahansiah
+title: "Camera Calibration and Video Stabilization Framework for Robot Localization"
 categories: [book-chapter, camera-calibration, robotics]
-tags: [book-chapter, camera-calibration, video-stabilization, robot-localization, Springer]
-description: "Book chapter: Camera Calibration and Video Stabilization Framework for Robot Localization in Springer's Control Engineering in Robotics."
-excerpt: "Springer book chapter on camera calibration and video stabilization for autonomous robot localization and navigation."
+tags: [camera-calibration, video-stabilization, robot-localization, Springer, control-engineering, autonomous-navigation]
+description: "Springer book chapter on camera calibration and video stabilization framework for autonomous robot localization."
+excerpt: "Camera calibration and video stabilization methods for robot localization in Springer's Control Engineering in Robotics."
 featured: true
 show_sidebar: true
 toc: true
