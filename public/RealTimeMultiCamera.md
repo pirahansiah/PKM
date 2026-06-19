@@ -126,7 +126,6 @@ Use same clock/ptp on all devices and set --gst-plugin-path for hardware sync mo
 
 If you want, I can:
 	•	adapt the OpenCV code to save synced frames or stream them, or
-	•	give a GStreamer Python example using GstAppSink and a PTP-synced clock for closer-to-genlock sync. Which one do you want?Rewritten input:
 	•	English: “Yes, I want this as a structured research outline.”
 	•	German: “Ja, ich will das als eine strukturierte Forschungsübersicht.”
 
@@ -202,7 +201,6 @@ Beyond the OR, patient monitoring can benefit from multi-camera vision: intensiv
 In summary, real-time multi-camera AI leverages heterogeneous compute and parallel pipelines. State-of-the-art implementations (from embedded to data center) rely on frameworks like NVIDIA DeepStream or Intel OpenVINO and often use multiple GPUs/NPUs in concert ￼ ￼. Open problems include scaling beyond dozens of streams, synchronizing feeds, and reducing latency. But existing work shows it is feasible to run concurrent DNNs on 10+ cameras by carefully balancing loads across GPU, DLA/NPUs, and CPU ￼ ￼. In medical settings, multi-camera systems are being used for advanced surgical assistance and patient monitoring ￼ ￼.
 
 Sources: Recent literature and industry sources on multi-camera analytics and medical vision were reviewed. Key references include NVIDIA’s Jetson and DeepStream multi-camera guides ￼ ￼, open-source demos (e.g. OpenVINO and NVIDIA pipelines) ￼ ￼, and medical vision reviews ￼ ￼. If information was not found in open publications, we noted it above. All statements are backed by the cited sources.
-Got it. You want me to merge your notebook notes (USB buffer, DMA, UVC headers, driver-level ideas) with the earlier deep research document on real-time multi-camera systems. I’ll build a full technical document that covers:
 	1.	Multi-camera real-time architectures
 	2.	Heterogeneous processing (CPU, GPU, NPU)
 	3.	Scaling to 10–100 cameras
@@ -217,10 +215,8 @@ Got it. You want me to merge your notebook notes (USB buffer, DMA, UVC headers, 
 
 This way, the doc links high-level frameworks (OpenCV, GStreamer, DeepStream, OpenVINO) with low-level performance tricks (USB DMA, direct buffer memory).
 
-Do you want the final document in:
 	•	PDF format (structured, sections, good for sharing),
 	•	or Markdown / plain text (easier to edit)?
-    Perfect. Here’s the full deep technical document in Markdown, combining the research and your notes (USB, DMA, UVC, buffer control).
 
 ⸻
 
@@ -507,7 +503,6 @@ Multi-camera real-time AI needs software + hardware + low-level optimization:
 	•	Scaling: single GPU for small setups, edge SoCs for 20 cams, QSFP clusters for 100 cams
 
 ⸻
-Perfect. I’ll add a hardware comparison table and also cover the case of using many normal USB cameras (like Logitech, generic UVC webcams).
 
 Here’s the extended Markdown:
 
@@ -749,7 +744,6 @@ The Final Cut Camera 2.0 app
 Apple’s updated Final Cut Camera app, coming later this month, unlocks Genlock on the iPhone. You switch on Genlock mode in the app when the phone is connected to the ProDock. Recording options include ProRes RAW, Apple Log 2 for color grading, and open-gate up to 4K60. Blackmagic and other apps will also support it through Apple’s new API.
 
 ⸻
-	1.	Rewritten input — English
 The system reads raw framebuffer pixels in real time.
 It applies OCR to extract visible text.
 It creates a filtered framebuffer output at least 15 frames per second.
