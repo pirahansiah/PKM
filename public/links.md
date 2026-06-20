@@ -7,6 +7,7 @@ tags: [CUDA, Python, FPGA, startup, tools, YouTube, books]
 description: "Hand-picked links for CUDA, Python, FPGA, startup resources, development tools, YouTube channels, and recommended books."
 excerpt: "Curated collection of resources: CUDA tutorials, Python tools, startup guides, YouTube channels, and essential reading."
 author: "Dr. Farshid Pirahansiah"
+permalink: /contents/public/links/
 ---
 
 

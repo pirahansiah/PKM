@@ -9,7 +9,7 @@ excerpt: "Visual guide to advanced LLM topics: function calling, RAG, knowledge 
 author: "Dr. Farshid Pirahansiah"
 ---
 
-<img src="/farshid/content/public/images/Advanced LLM Concepts.png" alt="Mind Map Advanced LLM Concepts" style="max-width: 100%; height: auto;">
+<img src="/contents/public/images/Advanced LLM Concepts.png" alt="Mind Map Advanced LLM Concepts" style="max-width: 100%; height: auto;">
 
 # Mind Map: Orchestrating Agents & Advanced LLM Concepts
 

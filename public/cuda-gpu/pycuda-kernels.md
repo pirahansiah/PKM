@@ -11,7 +11,7 @@ author: "Dr. Farshid Pirahansiah"
 
 How PyCUDA Reads and Runs C Kernels
 
-<img src="/farshid/content/public/images/CUDA_pycuda_kernel_explanation.png" alt="How PyCUDA Reads and Runs C Kernels" style="max-width: 100%; height: auto;">
+<img src="/contents/public/images/CUDA_pycuda_kernel_explanation.png" alt="How PyCUDA Reads and Runs C Kernels" style="max-width: 100%; height: auto;">
 
 # How PyCUDA Reads and Runs C Kernels
 

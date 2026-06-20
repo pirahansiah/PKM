@@ -73,11 +73,11 @@ CAG skips the retrieval step by loading important information into the model's c
 
 ## April
 
-- **VSCode: C++, CUDA, Windows** — [Set up C++, CUDA in VS Code with nvcc, MSVC paths, IntelliSense, and debugging](https://www.pirahansiah.com/farshid/content/public/cuda-gpu/vscode-cuda-windows/)
-- **The New Era of SEO: Optimizing Websites for LLMs** — [Structured data, Q&A formats, and authoritative citations for LLM-driven search](https://www.pirahansiah.com/farshid/content/public/seo/)
-- **The All-Local Video Avatar Generator** — [Create talking video avatars locally using Ollama LLM, Piper TTS, and Wav2Lip](https://www.pirahansiah.com/farshid/content/public/ai-llm/avatar-generator/)
-- **Computer Vision Coaching and Tutoring Service** — [Personalized online tutoring from fundamentals to advanced techniques](https://www.pirahansiah.com/farshid/content/public/coaching/)
-- **3D Vision & Real-Time Multi-Camera** — [Converting 2D depth maps to 3D point clouds in real-time with multi-camera sync](https://www.pirahansiah.com/farshid/content/public/cv/3d/)
+- **VSCode: C++, CUDA, Windows** — [Set up C++, CUDA in VS Code with nvcc, MSVC paths, IntelliSense, and debugging](https://www.pirahansiah.com/contents/public/cuda-gpu/vscode-cuda-windows/)
+- **The New Era of SEO: Optimizing Websites for LLMs** — [Structured data, Q&A formats, and authoritative citations for LLM-driven search](https://www.pirahansiah.com/contents/public/seo/)
+- **The All-Local Video Avatar Generator** — [Create talking video avatars locally using Ollama LLM, Piper TTS, and Wav2Lip](https://www.pirahansiah.com/contents/public/ai-llm/avatar-generator/)
+- **Computer Vision Coaching and Tutoring Service** — [Personalized online tutoring from fundamentals to advanced techniques](https://www.pirahansiah.com/contents/public/coaching/)
+- **3D Vision & Real-Time Multi-Camera** — [Converting 2D depth maps to 3D point clouds in real-time with multi-camera sync](https://www.pirahansiah.com/contents/public/cv/3d/)
 
 ---
 
@@ -85,14 +85,14 @@ CAG skips the retrieval step by loading important information into the model's c
 
 Leveraging CUDA for High-Performance GPU Computing with PyCUDA and Numba.
 
-- [Numba JIT Tutorial](/farshid/content/public/cuda-gpu/numba-jit) — Speed up Python with `@jit(nopython=True)`
-- [PyCUDA Kernel Explanation](/farshid/content/public/cuda-gpu/pycuda-kernels) — Run CUDA C kernels from Python
+- [Numba JIT Tutorial](/contents/public/cuda-gpu/numba-jit) — Speed up Python with `@jit(nopython=True)`
+- [PyCUDA Kernel Explanation](/contents/public/cuda-gpu/pycuda-kernels) — Run CUDA C kernels from Python
 
 ---
 
 # LLM
 
-<img src="/farshid/content/public/images/Mind_Map_Orchestrating_Agents.png" alt="Mind Map Orchestrating Agents" style="max-width: 100%; height: auto;">
+<img src="/contents/public/images/Mind_Map_Orchestrating_Agents.png" alt="Mind Map Orchestrating Agents" style="max-width: 100%; height: auto;">
 
 ## Orchestrating AI Agents
 

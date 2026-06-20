@@ -7,6 +7,7 @@ tags: [C++, memory-management, stack-heap, STL, debugging, profiling]
 description: "Quick reference for C++ memory management (stack vs heap), data structures, debugging tools, and command-line essentials."
 excerpt: "Concise C++ cheat sheet covering memory management, STL containers, debugging with valgrind/fsanitize, and Linux essentials."
 author: "Dr. Farshid Pirahansiah"
+permalink: /contents/public/CPP/
 ---
 
 C++

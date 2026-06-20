@@ -7,6 +7,7 @@ tags: [quantization, pruning, TensorRT, ONNX, edge-deployment, overfitting, unde
 description: "Comprehensive optimization guide covering DL model optimization, CV system tuning, data handling, and library recommendations."
 excerpt: "Optimize deep learning and computer vision systems: model compression, hardware acceleration, data strategies, and frameworks."
 author: "Dr. Farshid Pirahansiah"
+permalink: /contents/public/Optimization/
 ---
 # Optimization 
 

@@ -7,16 +7,17 @@ tags: [Python, configuration, pybind11, Cython, argparse, pydantic, hydra]
 description: "Comparison of Python configuration methods (built-in vs third-party) plus tips on pybind11, Cython, and project scaling."
 excerpt: "Python config guide covering ConfigParser, argparse, TOML, pydantic, hydra, plus pybind11 and Cython for C++ integration."
 author: "Dr. Farshid Pirahansiah"
+permalink: /contents/public/Python/
 ---
 # Python
-[Python](https://www.pirahansiah.com/farshid/content/public/python)
+[Python](https://www.pirahansiah.com/contents/public/python)
 A comparison of built-in and third-party configuration options for Python projects
 This guide compares Python’s native configuration methods and popular third-party libraries, helping developers choose the best fit for their project’s needs.
 #Python #DevTools #Configuration #ConfigFiles #PythonTips #OpenSource #MachineLearning #WebDev #FastAP
 
 - Python Configuration Management
     
-    <img src="/farshid/content/public/images/python-configuration-management.png" alt="Python Configuration Management" style="max-width: 100%; height: auto;">
+    <img src="/contents/public/images/python-configuration-management.png" alt="Python Configuration Management" style="max-width: 100%; height: auto;">
 
     [Python Configuration Management](#python-configuration-management)
 
