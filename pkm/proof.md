@@ -18,9 +18,9 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path | Description |
 |------|------|-------------|
-| Home | [enter.md](/contents/public/enter/) | Main landing page |
+| Home | [enter.md](/) | Main landing page |
 | Coaching | [coaching.md](/contents/public/coaching/) | CV coaching and teaching roadmap |
-| Resources | [resources.md](/contents/public/resources/) | Patents, books, papers, projects |
+| Resources | [resources.md](/contents/public/Resources/) | Patents, books, papers, projects |
 | Links | [links.md](/contents/public/links/) | Curated links and tools |
 
 ---
@@ -61,8 +61,8 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path | Description |
 |------|------|-------------|
-| C++ Reference | [cpp.md](/contents/public/cpp/) | Memory, STL, debugging |
-| Python Config | [python.md](/contents/public/python/) | Config management, pybind11, Cython |
+| C++ Reference | [cpp.md](/contents/public/CPP/) | Memory, STL, debugging |
+| Python Config | [python.md](/contents/public/Python/) | Config management, pybind11, Cython |
 | Developer Tools | [setup.md](/contents/public/setup/) | Docker, GitHub, CLI tools |
 | Shell & Vim | [shell-vim-quickref.md](/contents/public/shell-vim-quickref/) | Terminal essentials |
 
@@ -72,10 +72,10 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path | Description |
 |------|------|-------------|
-| Optimization | [optimization.md](/contents/public/optimization/) | Quantization, pruning, frameworks |
-| Prompts | [prompts.md](/contents/public/prompts/) | LLM prompt patterns |
-| SEO | [seo.md](/contents/public/seo/) | SEO for LLM-powered search |
-| Startup | [startup.md](/contents/public/startup/) | Edge AI business, fundraising |
+| Optimization | [optimization.md](/contents/public/Optimization/) | Quantization, pruning, frameworks |
+| Prompts | [prompts.md](/contents/public/Prompts/) | LLM prompt patterns |
+| SEO | [seo.md](/contents/public/SEO/) | SEO for LLM-powered search |
+| Startup | [startup.md](/contents/public/StartUp/) | Edge AI business, fundraising |
 | LinkedIn Posts | [linkedin-top-posts.md](/contents/public/linkedin-top-posts/) | Top 2024 posts |
 
 ---
