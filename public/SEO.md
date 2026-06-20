@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "The New Era of SEO: Optimizing for LLMs"
 date_modified: 2025-06-19
 categories: [SEO, LLM]

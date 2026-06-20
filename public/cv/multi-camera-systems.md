@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "Real-Time Multi-Camera Vision Systems"
 date_modified: 2025-06-19
 categories: [computer-vision, multi-camera, edge-AI]

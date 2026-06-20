@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "CUDA Development Environment in VS Code on Windows"
 date_modified: 2025-06-19
 categories: [CUDA, dev-tools, Windows]

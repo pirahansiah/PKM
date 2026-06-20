@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "Shell, Vim & Developer Tools Quick Reference"
 date_modified: 2025-06-19
 categories: [dev-tools, shell]

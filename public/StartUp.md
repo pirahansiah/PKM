@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "Startup Guide: Edge AI Business, Fundraising & Strategy in Germany"
 date_modified: 2025-06-19
 categories: [startup, business, Germany]

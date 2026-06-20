@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "Portfolio & Resources"
 date_modified: 2025-06-19
 categories: [portfolio, publications]

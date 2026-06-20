@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "Optimization of CV, DL, and ML Systems"
 date_modified: 2025-06-19
 categories: [optimization, DL, CV]

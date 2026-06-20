@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "C++ Quick Reference: Memory, Data Structures & Tools"
 date_modified: 2025-06-19
 categories: [C++, programming]

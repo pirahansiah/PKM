@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "MLX, CoreML, and Metal for Apple Silicon"
 date_modified: 2025-06-19
 categories: [Apple, ML, GPU]

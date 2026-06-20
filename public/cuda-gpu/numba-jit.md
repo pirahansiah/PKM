@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "Accelerate Python with Numba's @jit(nopython=True)"
 date_modified: 2025-06-19
 categories: [CUDA, Python, performance]

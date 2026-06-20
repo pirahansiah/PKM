@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "Blog: AI, LLMs, and Computer Vision"
 date_modified: 2025-06-19
 categories: [blog, AI, LLM]

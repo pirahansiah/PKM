@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "Prompt Engineering Templates"
 date_modified: 2025-06-19
 categories: [LLM, prompt-engineering]

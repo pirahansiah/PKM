@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "Mind Map: Orchestrating AI Agents"
 date_modified: 2025-06-19
 categories: [LLM, AI, agents]

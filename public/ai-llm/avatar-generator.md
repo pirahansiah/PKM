@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "Local Video Avatar Generator with Ollama and Open-Source Tools"
 date_modified: 2025-06-19
 categories: [AI, LLM, video-processing]

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "Python Configuration Management & Tips"
 date_modified: 2025-06-19
 categories: [Python, dev-tools]

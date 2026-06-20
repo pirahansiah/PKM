@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "My Top LinkedIn Posts of 2024"
 date_modified: 2025-06-19
 categories: [CV, C++, AI, robotics]

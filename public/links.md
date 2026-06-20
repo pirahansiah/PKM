@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "Curated Links & Resources"
 date_modified: 2025-06-19
 categories: [resources, tools]

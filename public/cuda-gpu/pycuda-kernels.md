@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "How PyCUDA Reads and Runs C Kernels"
 date_modified: 2025-06-19
 categories: [CUDA, Python, GPU]
