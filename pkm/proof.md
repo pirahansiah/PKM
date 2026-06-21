@@ -26,7 +26,7 @@ markmap: |
 
 # Pirahansiah.com — Complete Link Index
 
-All content files are under `contents/`. Links below reference local files only — no external tiziran.com links.
+All content files are under `contents/`. Links below reference local files only.
 
 ---
 
@@ -111,43 +111,43 @@ All publication files are under `contents/publications/`.
 
 ---
 
-## Tiziran.com Pages (Local)
+## AI 2026 — Courses & Workshops
 
-All tiziran.com content is mirrored locally under `contents/tiziran/`.
+All course and workshop content is under `contents/ai2026/`.
 
 ### Courses
 
 | File | Path | Description |
 |------|------|-------------|
-| ML Specialization | [/contents/tiziran/machine-learning-specialization/](/contents/tiziran/machine-learning-specialization/) | Coursera ML (2026) |
-| Full Stack DL | [/contents/tiziran/full-stack-deep-learning/](/contents/tiziran/full-stack-deep-learning/) | FSDL 2021 notes |
-| FSDL 2022 | [/contents/tiziran/fsdl-2022/](/contents/tiziran/fsdl-2022/) | Continual learning, data mgmt |
-| MLOps | [/contents/tiziran/mlops/](/contents/tiziran/mlops/) | ML production pipeline |
-| ROS | [/contents/tiziran/ros/](/contents/tiziran/ros/) | Robot Operating System |
-| Parallel Programming | [/contents/tiziran/parallel-programming/](/contents/tiziran/parallel-programming/) | Python parallel CV |
-| Modern C++ | [/contents/tiziran/modern-cpp/](/contents/tiziran/modern-cpp/) | C++29 for image processing |
-| Cloud-Native | [/contents/tiziran/cloud-native/](/contents/tiziran/cloud-native/) | Docker & Kubernetes |
-| IoT Scholarship | [/contents/tiziran/iot-scholarship/](/contents/tiziran/iot-scholarship/) | OpenVINO edge AI |
-| TF Deployment | [/contents/tiziran/tensorflow-deployment/](/contents/tiziran/tensorflow-deployment/) | TF.js, Lite, deployment |
+| ML Specialization | [/contents/ai2026/machine-learning-specialization/](/contents/ai2026/machine-learning-specialization/) | Coursera ML (2026) |
+| Full Stack DL | [/contents/ai2026/full-stack-deep-learning/](/contents/ai2026/full-stack-deep-learning/) | FSDL 2021 notes |
+| FSDL 2022 | [/contents/ai2026/fsdl-2022/](/contents/ai2026/fsdl-2022/) | Continual learning, data mgmt |
+| MLOps | [/contents/ai2026/mlops/](/contents/ai2026/mlops/) | ML production pipeline |
+| ROS | [/contents/ai2026/ros/](/contents/ai2026/ros/) | Robot Operating System |
+| Parallel Programming | [/contents/ai2026/parallel-programming/](/contents/ai2026/parallel-programming/) | Python parallel CV |
+| Modern C++ | [/contents/ai2026/modern-cpp/](/contents/ai2026/modern-cpp/) | C++29 for image processing |
+| Cloud-Native | [/contents/ai2026/cloud-native/](/contents/ai2026/cloud-native/) | Docker & Kubernetes |
+| IoT Scholarship | [/contents/ai2026/iot-scholarship/](/contents/ai2026/iot-scholarship/) | OpenVINO edge AI |
+| TF Deployment | [/contents/ai2026/tensorflow-deployment/](/contents/ai2026/tensorflow-deployment/) | TF.js, Lite, deployment |
 
 ### Workshops
 
 | File | Path | Description |
 |------|------|-------------|
-| RISC-V | [/contents/tiziran/risc-v/](/contents/tiziran/risc-v/) | Open-source processor |
-| Edge AI Summit | [/contents/tiziran/edge-ai-summit/](/contents/tiziran/edge-ai-summit/) | Edge AI conference 2026 |
-| Embedded IoT | [/contents/tiziran/embedded-iot/](/contents/tiziran/embedded-iot/) | Embedded systems |
-| Tesla AI | [/contents/tiziran/tesla/](/contents/tiziran/tesla/) | Autonomous driving |
-| AI Hardware | [/contents/tiziran/ai-hardware/](/contents/tiziran/ai-hardware/) | Accelerators & NPUs |
-| OpenVINO | [/contents/tiziran/openvino/](/contents/tiziran/openvino/) | Intel inference |
-| Metaverse | [/contents/tiziran/metaverse/](/contents/tiziran/metaverse/) | XR computing |
+| RISC-V | [/contents/ai2026/risc-v/](/contents/ai2026/risc-v/) | Open-source processor |
+| Edge AI Summit | [/contents/ai2026/edge-ai-summit/](/contents/ai2026/edge-ai-summit/) | Edge AI conference 2026 |
+| Embedded IoT | [/contents/ai2026/embedded-iot/](/contents/ai2026/embedded-iot/) | Embedded systems |
+| Tesla AI | [/contents/ai2026/tesla/](/contents/ai2026/tesla/) | Autonomous driving |
+| AI Hardware | [/contents/ai2026/ai-hardware/](/contents/ai2026/ai-hardware/) | Accelerators & NPUs |
+| OpenVINO | [/contents/ai2026/openvino/](/contents/ai2026/openvino/) | Intel inference |
+| Metaverse | [/contents/ai2026/metaverse/](/contents/ai2026/metaverse/) | XR computing |
 
 ### Topics
 
 | File | Path | Description |
 |------|------|-------------|
-| Book Summaries | [/contents/tiziran/book-summary/](/contents/tiziran/book-summary/) | Knowledge management |
-| Topics Index | [/contents/tiziran/topics/](/contents/tiziran/topics/) | All topics & projects |
+| Book Summaries | [/contents/ai2026/book-summary/](/contents/ai2026/book-summary/) | Knowledge management |
+| Topics Index | [/contents/ai2026/topics/](/contents/ai2026/topics/) | All topics & projects |
 
 ---
 

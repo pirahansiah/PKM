@@ -19,10 +19,10 @@ markmap: |
 
 # Book Summaries
 
-- [Topics & Projects](/contents/tiziran/topics/) — All topics and project index
-- [Machine Learning Specialization](/contents/tiziran/machine-learning-specialization/) — ML fundamentals and course notes
-- [Full Stack Deep Learning](/contents/tiziran/full-stack-deep-learning/) — End-to-end DL deployment
-- [MLOps](/contents/tiziran/mlops/) — ML pipeline operations and monitoring
+- [Topics & Projects](/contents/ai2026/topics/) — All topics and project index
+- [Machine Learning Specialization](/contents/ai2026/machine-learning-specialization/) — ML fundamentals and course notes
+- [Full Stack Deep Learning](/contents/ai2026/full-stack-deep-learning/) — End-to-end DL deployment
+- [MLOps](/contents/ai2026/mlops/) — ML pipeline operations and monitoring
 - [Portfolio & Use Cases](/contents/pkm/use-cases/) — Personal knowledge management and project portfolio
 
 #Books #PKM #KnowledgeManagement

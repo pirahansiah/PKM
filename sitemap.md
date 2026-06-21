@@ -366,29 +366,29 @@ title: "Sitemap — All Pages"
   </div>
 
   <!-- Tiziran Courses -->
-  <div class="sitemap-section" data-section="tiziran">
+  <div class="sitemap-section" data-section="ai2026">
     <span class="section-icon">&#128218;</span>
-    <div class="section-title">Courses & Workshops <span class="badge">tiziran.com</span></div>
+    <div class="section-title">Courses & Workshops <span class="badge">AI 2026</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/tiziran/machine-learning-specialization/"><span class="link-arrow">&#8594;</span> ML Specialization</a></li>
-      <li><a href="/contents/tiziran/full-stack-deep-learning/"><span class="link-arrow">&#8594;</span> Full Stack Deep Learning</a></li>
-      <li><a href="/contents/tiziran/fsdl-2022/"><span class="link-arrow">&#8594;</span> FSDL 2022</a></li>
-      <li><a href="/contents/tiziran/mlops/"><span class="link-arrow">&#8594;</span> MLOps</a></li>
-      <li><a href="/contents/tiziran/ros/"><span class="link-arrow">&#8594;</span> ROS</a></li>
-      <li><a href="/contents/tiziran/parallel-programming/"><span class="link-arrow">&#8594;</span> Parallel Programming</a></li>
-      <li><a href="/contents/tiziran/modern-cpp/"><span class="link-arrow">&#8594;</span> Modern C++</a></li>
-      <li><a href="/contents/tiziran/cloud-native/"><span class="link-arrow">&#8594;</span> Cloud-Native</a></li>
-      <li><a href="/contents/tiziran/tensorflow-deployment/"><span class="link-arrow">&#8594;</span> TensorFlow Deployment</a></li>
-      <li><a href="/contents/tiziran/risc-v/"><span class="link-arrow">&#8594;</span> RISC-V</a></li>
-      <li><a href="/contents/tiziran/edge-ai-summit/"><span class="link-arrow">&#8594;</span> Edge AI Summit</a></li>
-      <li><a href="/contents/tiziran/embedded-iot/"><span class="link-arrow">&#8594;</span> Embedded IoT</a></li>
-      <li><a href="/contents/tiziran/tesla/"><span class="link-arrow">&#8594;</span> Tesla AI</a></li>
-      <li><a href="/contents/tiziran/ai-hardware/"><span class="link-arrow">&#8594;</span> AI Hardware</a></li>
-      <li><a href="/contents/tiziran/openvino/"><span class="link-arrow">&#8594;</span> OpenVINO</a></li>
-      <li><a href="/contents/tiziran/metaverse/"><span class="link-arrow">&#8594;</span> Metaverse</a></li>
-      <li><a href="/contents/tiziran/book-summary/"><span class="link-arrow">&#8594;</span> Book Summaries</a></li>
-      <li><a href="/contents/tiziran/iot-scholarship/"><span class="link-arrow">&#8594;</span> IoT Scholarship</a></li>
-      <li><a href="/contents/tiziran/topics/"><span class="link-arrow">&#8594;</span> All Topics</a></li>
+      <li><a href="/contents/ai2026/machine-learning-specialization/"><span class="link-arrow">&#8594;</span> ML Specialization</a></li>
+      <li><a href="/contents/ai2026/full-stack-deep-learning/"><span class="link-arrow">&#8594;</span> Full Stack Deep Learning</a></li>
+      <li><a href="/contents/ai2026/fsdl-2022/"><span class="link-arrow">&#8594;</span> FSDL 2022</a></li>
+      <li><a href="/contents/ai2026/mlops/"><span class="link-arrow">&#8594;</span> MLOps</a></li>
+      <li><a href="/contents/ai2026/ros/"><span class="link-arrow">&#8594;</span> ROS</a></li>
+      <li><a href="/contents/ai2026/parallel-programming/"><span class="link-arrow">&#8594;</span> Parallel Programming</a></li>
+      <li><a href="/contents/ai2026/modern-cpp/"><span class="link-arrow">&#8594;</span> Modern C++</a></li>
+      <li><a href="/contents/ai2026/cloud-native/"><span class="link-arrow">&#8594;</span> Cloud-Native</a></li>
+      <li><a href="/contents/ai2026/tensorflow-deployment/"><span class="link-arrow">&#8594;</span> TensorFlow Deployment</a></li>
+      <li><a href="/contents/ai2026/risc-v/"><span class="link-arrow">&#8594;</span> RISC-V</a></li>
+      <li><a href="/contents/ai2026/edge-ai-summit/"><span class="link-arrow">&#8594;</span> Edge AI Summit</a></li>
+      <li><a href="/contents/ai2026/embedded-iot/"><span class="link-arrow">&#8594;</span> Embedded IoT</a></li>
+      <li><a href="/contents/ai2026/tesla/"><span class="link-arrow">&#8594;</span> Tesla AI</a></li>
+      <li><a href="/contents/ai2026/ai-hardware/"><span class="link-arrow">&#8594;</span> AI Hardware</a></li>
+      <li><a href="/contents/ai2026/openvino/"><span class="link-arrow">&#8594;</span> OpenVINO</a></li>
+      <li><a href="/contents/ai2026/metaverse/"><span class="link-arrow">&#8594;</span> Metaverse</a></li>
+      <li><a href="/contents/ai2026/book-summary/"><span class="link-arrow">&#8594;</span> Book Summaries</a></li>
+      <li><a href="/contents/ai2026/iot-scholarship/"><span class="link-arrow">&#8594;</span> IoT Scholarship</a></li>
+      <li><a href="/contents/ai2026/topics/"><span class="link-arrow">&#8594;</span> All Topics</a></li>
     </ul>
   </div>
 

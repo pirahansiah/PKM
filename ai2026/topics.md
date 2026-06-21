@@ -26,8 +26,8 @@ markmap: |
 ## AI & Machine Learning
 - [Advanced LLM Concepts](/contents/public/ai-llm/advanced-llm-concepts/) — RAG, embeddings, multimodal
 - [Orchestrating AI Agents](/contents/public/ai-llm/orchestrating-agents/) — Multi-agent systems
-- [AI Hardware Accelerators](/contents/tiziran/ai-hardware/) — NPU, edge AI chips
-- [OpenVINO](/contents/tiziran/openvino/) — Intel inference optimization
+- [AI Hardware Accelerators](/contents/ai2026/ai-hardware/) — NPU, edge AI chips
+- [OpenVINO](/contents/ai2026/openvino/) — Intel inference optimization
 
 ## Computer Vision
 - [3D Vision & Multi-Camera](/contents/public/cv/3d/) — Point clouds, depth sensing
@@ -36,8 +36,8 @@ markmap: |
 - [CV Coaching Roadmap](/contents/public/coaching/) — Learning path
 
 ## Getting Started
-- [Machine Learning Specialization](/contents/tiziran/machine-learning-specialization/) — ML fundamentals
-- [Full Stack Deep Learning](/contents/tiziran/full-stack-deep-learning/) — End-to-end DL
+- [Machine Learning Specialization](/contents/ai2026/machine-learning-specialization/) — ML fundamentals
+- [Full Stack Deep Learning](/contents/ai2026/full-stack-deep-learning/) — End-to-end DL
 - [Developer Tools & Setup](/contents/public/setup/) — Docker, GitHub, CLI tools
 - [C++ Quick Reference](/contents/public/CPP/) — Memory, STL, debugging
 

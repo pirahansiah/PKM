@@ -83,29 +83,29 @@ markmap: |
 ## Tiziran.com (Local Mirrors)
 
 ### Courses
-- **[ML Specialization](/contents/tiziran/machine-learning-specialization/)** — Coursera ML notes (Python 3.14, C++29)
-- **[Full Stack DL](/contents/tiziran/full-stack-deep-learning/)** — ML production, data lifecycle
-- **[FSDL 2022](/contents/tiziran/fsdl-2022/)** — Continual learning, data management, testing
-- **[MLOps](/contents/tiziran/mlops/)** — ML engineering for production (4-course specialization)
-- **[ROS](/contents/tiziran/ros/)** — Robot Operating System (ETH Zurich)
-- **[Parallel Programming](/contents/tiziran/parallel-programming/)** — Python parallel CV
-- **[Modern C++](/contents/tiziran/modern-cpp/)** — C++29 for image processing, design patterns
-- **[Cloud-Native](/contents/tiziran/cloud-native/)** — Docker & Kubernetes
-- **[IoT Scholarship](/contents/tiziran/iot-scholarship/)** — OpenVINO edge AI, object detection
-- **[TF Deployment](/contents/tiziran/tensorflow-deployment/)** — TF.js, TF Lite, mobile ML
+- **[ML Specialization](/contents/ai2026/machine-learning-specialization/)** — Coursera ML notes (Python 3.14, C++29)
+- **[Full Stack DL](/contents/ai2026/full-stack-deep-learning/)** — ML production, data lifecycle
+- **[FSDL 2022](/contents/ai2026/fsdl-2022/)** — Continual learning, data management, testing
+- **[MLOps](/contents/ai2026/mlops/)** — ML engineering for production (4-course specialization)
+- **[ROS](/contents/ai2026/ros/)** — Robot Operating System (ETH Zurich)
+- **[Parallel Programming](/contents/ai2026/parallel-programming/)** — Python parallel CV
+- **[Modern C++](/contents/ai2026/modern-cpp/)** — C++29 for image processing, design patterns
+- **[Cloud-Native](/contents/ai2026/cloud-native/)** — Docker & Kubernetes
+- **[IoT Scholarship](/contents/ai2026/iot-scholarship/)** — OpenVINO edge AI, object detection
+- **[TF Deployment](/contents/ai2026/tensorflow-deployment/)** — TF.js, TF Lite, mobile ML
 
 ### Workshops
-- **[RISC-V](/contents/tiziran/risc-v/)** — Open-source processor architecture
-- **[Edge AI Summit](/contents/tiziran/edge-ai-summit/)** — TinyML, neuromorphic, edge inference
-- **[Embedded IoT](/contents/tiziran/embedded-iot/)** — Embedded systems
-- **[Tesla AI](/contents/tiziran/tesla/)** — Autonomous driving
-- **[AI Hardware](/contents/tiziran/ai-hardware/)** — Accelerators & NPUs
-- **[OpenVINO](/contents/tiziran/openvino/)** — Intel inference optimization
-- **[Metaverse](/contents/tiziran/metaverse/)** — XR & spatial computing
+- **[RISC-V](/contents/ai2026/risc-v/)** — Open-source processor architecture
+- **[Edge AI Summit](/contents/ai2026/edge-ai-summit/)** — TinyML, neuromorphic, edge inference
+- **[Embedded IoT](/contents/ai2026/embedded-iot/)** — Embedded systems
+- **[Tesla AI](/contents/ai2026/tesla/)** — Autonomous driving
+- **[AI Hardware](/contents/ai2026/ai-hardware/)** — Accelerators & NPUs
+- **[OpenVINO](/contents/ai2026/openvino/)** — Intel inference optimization
+- **[Metaverse](/contents/ai2026/metaverse/)** — XR & spatial computing
 
 ### Topics
-- **[Book Summaries](/contents/tiziran/book-summary/)** — Knowledge management, PKM
-- **[Topics Index](/contents/tiziran/topics/)** — All topics & projects
+- **[Book Summaries](/contents/ai2026/book-summary/)** — Knowledge management, PKM
+- **[Topics Index](/contents/ai2026/topics/)** — All topics & projects
 
 ---
 
