@@ -4,70 +4,85 @@ title: "Solutions — How I Help Businesses"
 ---
 
 <style>
-.toc-hero {
+.sitemap-hero {
   text-align: center;
   padding: 48px 24px 32px;
 }
-.toc-hero h1 {
-  font-size: 2.2rem;
-  background: linear-gradient(135deg, #0a84ff, #bf5af2);
+.sitemap-hero h1 {
+  font-size: 2.4rem;
+  background: linear-gradient(135deg, #0a84ff, #bf5af2, #ff375f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-bottom: 8px;
 }
-.toc-hero p { color: var(--text-muted); font-size: 1.05rem; }
+.sitemap-hero p { color: var(--text-muted); font-size: 1.1rem; }
 
-.toc-grid {
+.sitemap-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 20px;
-  max-width: 1000px;
-  margin: 0 auto 40px;
   padding: 0 16px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.toc-card {
-  border-radius: 18px;
-  padding: 24px;
+
+.sitemap-section {
+  border-radius: 20px;
+  padding: 28px 24px;
   background: var(--glass-bg);
   backdrop-filter: blur(24px) saturate(180%);
   -webkit-backdrop-filter: blur(24px) saturate(180%);
   border: 1px solid var(--glass-border);
   box-shadow: var(--glass-shadow);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s cubic-bezier(0.4,0,0.2,1), box-shadow 0.3s ease;
   position: relative;
   overflow: hidden;
 }
-.toc-card::before {
+.sitemap-section::before {
   content: "";
   position: absolute;
   inset: 0;
   border-radius: inherit;
   background: linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 50%);
   pointer-events: none;
-  opacity: 0.5;
+  opacity: 0.6;
 }
-.toc-card:hover {
+.sitemap-section:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.15);
 }
-.toc-card h2 {
-  font-size: 1.1rem;
+
+.section-icon { font-size: 2rem; margin-bottom: 12px; display: block; }
+
+.section-title {
+  font-size: 1.15rem;
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
+  color: var(--text);
   display: flex;
   align-items: center;
   gap: 8px;
 }
-.toc-card ul {
+
+.section-title .badge {
+  font-size: 0.7rem;
+  background: rgba(10,132,255,0.2);
+  color: #0a84ff;
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.sitemap-links {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.toc-card li {
-  margin-bottom: 6px;
-}
-.toc-card a {
+
+.sitemap-links li { margin-bottom: 6px; }
+
+.sitemap-links a {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -75,72 +90,120 @@ title: "Solutions — How I Help Businesses"
   border-radius: 10px;
   text-decoration: none;
   color: var(--text);
-  font-size: 0.9rem;
-  transition: all 0.15s ease;
-  background: rgba(255,255,255,0.05);
+  font-size: 0.92rem;
+  transition: background 0.2s ease, transform 0.15s ease;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid transparent;
 }
-.toc-card a:hover {
-  background: rgba(10,132,255,0.1);
-  transform: translateX(3px);
+.sitemap-links a:hover {
+  background: rgba(10,132,255,0.12);
+  border-color: rgba(10,132,255,0.3);
+  transform: translateX(4px);
 }
-.toc-card a .arr {
+.sitemap-links a .link-arrow {
   opacity: 0;
-  color: #0a84ff;
-  transition: opacity 0.15s ease;
+  transition: opacity 0.2s ease;
   font-size: 0.8rem;
+  color: #0a84ff;
 }
-.toc-card a:hover .arr { opacity: 1; }
+.sitemap-links a:hover .link-arrow { opacity: 1; }
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 24px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  background: rgba(255,255,255,0.08);
+  transition: all 0.2s ease;
+}
+.back-link:hover {
+  background: rgba(10,132,255,0.1);
+  color: var(--text);
+}
+
+@media (max-width: 768px) {
+  .sitemap-grid { grid-template-columns: 1fr; padding: 0 8px; }
+  .sitemap-hero h1 { font-size: 1.8rem; }
+}
 </style>
 
-<div class="toc-hero">
+<div class="sitemap-hero">
   <h1>Solutions</h1>
   <p>Turn AI research into production-ready products</p>
 </div>
 
-<div class="toc-grid">
+<div style="text-align:center; padding: 0 16px;">
+  <a href="/" class="back-link">&#8592; Home</a>
+  <a href="/contents/public/product/" class="back-link">Product</a>
+  <a href="/contents/public/research/" class="back-link">Research</a>
+</div>
 
-  <div class="toc-card">
-    <h2>&#128640; AI 2026 — Courses</h2>
-    <ul>
-      <li><a href="/contents/ai2026/machine-learning-specialization/"><span class="arr">&#8594;</span> ML Specialization</a></li>
-      <li><a href="/contents/ai2026/full-stack-deep-learning/"><span class="arr">&#8594;</span> Full Stack Deep Learning</a></li>
-      <li><a href="/contents/ai2026/mlops/"><span class="arr">&#8594;</span> MLOps</a></li>
+<div class="sitemap-grid">
+
+  <div class="sitemap-section">
+    <span class="section-icon">&#128640;</span>
+    <div class="section-title">AI 2026 — Courses <span class="badge">9</span></div>
+    <ul class="sitemap-links">
+      <li><a href="/contents/ai2026/machine-learning-specialization/"><span class="link-arrow">&#8594;</span> ML Specialization</a></li>
+      <li><a href="/contents/ai2026/full-stack-deep-learning/"><span class="link-arrow">&#8594;</span> Full Stack Deep Learning</a></li>
+      <li><a href="/contents/ai2026/fsdl-2022/"><span class="link-arrow">&#8594;</span> FSDL 2022</a></li>
+      <li><a href="/contents/ai2026/mlops/"><span class="link-arrow">&#8594;</span> MLOps</a></li>
+      <li><a href="/contents/ai2026/ros/"><span class="link-arrow">&#8594;</span> ROS</a></li>
+      <li><a href="/contents/ai2026/parallel-programming/"><span class="link-arrow">&#8594;</span> Parallel Programming</a></li>
+      <li><a href="/contents/ai2026/modern-cpp/"><span class="link-arrow">&#8594;</span> Modern C++</a></li>
+      <li><a href="/contents/ai2026/cloud-native/"><span class="link-arrow">&#8594;</span> Cloud-Native</a></li>
+      <li><a href="/contents/ai2026/tensorflow-deployment/"><span class="link-arrow">&#8594;</span> TensorFlow Deployment</a></li>
     </ul>
   </div>
 
-  <div class="toc-card">
-    <h2>&#128218; Workshops</h2>
-    <ul>
-      <li><a href="/contents/ai2026/edge-ai-summit/"><span class="arr">&#8594;</span> Edge AI Summit</a></li>
-      <li><a href="/contents/ai2026/ai-hardware/"><span class="arr">&#8594;</span> AI Hardware</a></li>
-      <li><a href="/contents/ai2026/embedded-iot/"><span class="arr">&#8594;</span> Embedded IoT</a></li>
+  <div class="sitemap-section">
+    <span class="section-icon">&#128218;</span>
+    <div class="section-title">Workshops <span class="badge">7</span></div>
+    <ul class="sitemap-links">
+      <li><a href="/contents/ai2026/risc-v/"><span class="link-arrow">&#8594;</span> RISC-V</a></li>
+      <li><a href="/contents/ai2026/edge-ai-summit/"><span class="link-arrow">&#8594;</span> Edge AI Summit</a></li>
+      <li><a href="/contents/ai2026/embedded-iot/"><span class="link-arrow">&#8594;</span> Embedded IoT</a></li>
+      <li><a href="/contents/ai2026/tesla/"><span class="link-arrow">&#8594;</span> Tesla AI</a></li>
+      <li><a href="/contents/ai2026/ai-hardware/"><span class="link-arrow">&#8594;</span> AI Hardware</a></li>
+      <li><a href="/contents/ai2026/openvino/"><span class="link-arrow">&#8594;</span> OpenVINO</a></li>
+      <li><a href="/contents/ai2026/metaverse/"><span class="link-arrow">&#8594;</span> Metaverse</a></li>
     </ul>
   </div>
 
-  <div class="toc-card">
-    <h2>&#128161; Business</h2>
-    <ul>
-      <li><a href="/contents/public/StartUp/"><span class="arr">&#8594;</span> Startup Guide</a></li>
-      <li><a href="/contents/public/SEO/"><span class="arr">&#8594;</span> SEO for LLMs</a></li>
-      <li><a href="/contents/public/Prompts/"><span class="arr">&#8594;</span> Prompt Engineering</a></li>
+  <div class="sitemap-section">
+    <span class="section-icon">&#128161;</span>
+    <div class="section-title">Business <span class="badge">Growth</span></div>
+    <ul class="sitemap-links">
+      <li><a href="/contents/public/StartUp/"><span class="link-arrow">&#8594;</span> Startup Guide</a></li>
+      <li><a href="/contents/public/SEO/"><span class="link-arrow">&#8594;</span> SEO for LLMs</a></li>
+      <li><a href="/contents/public/Prompts/"><span class="link-arrow">&#8594;</span> Prompt Engineering</a></li>
     </ul>
   </div>
 
-  <div class="toc-card">
-    <h2>&#128218; Resources</h2>
-    <ul>
-      <li><a href="/contents/public/links/"><span class="arr">&#8594;</span> Curated Links</a></li>
-      <li><a href="/contents/public/linkedin-top-posts/"><span class="arr">&#8594;</span> Top LinkedIn Posts</a></li>
-      <li><a href="/contents/ai2026/book-summary/"><span class="arr">&#8594;</span> Book Summaries</a></li>
+  <div class="sitemap-section">
+    <span class="section-icon">&#128218;</span>
+    <div class="section-title">Resources <span class="badge">All</span></div>
+    <ul class="sitemap-links">
+      <li><a href="/contents/public/links/"><span class="link-arrow">&#8594;</span> Curated Links</a></li>
+      <li><a href="/contents/public/linkedin-top-posts/"><span class="link-arrow">&#8594;</span> Top LinkedIn Posts</a></li>
+      <li><a href="/contents/ai2026/book-summary/"><span class="link-arrow">&#8594;</span> Book Summaries</a></li>
+      <li><a href="/contents/ai2026/iot-scholarship/"><span class="link-arrow">&#8594;</span> IoT Scholarship</a></li>
+      <li><a href="/contents/ai2026/topics/"><span class="link-arrow">&#8594;</span> All Topics</a></li>
     </ul>
   </div>
 
-  <div class="toc-card">
-    <h2>&#128221; Connect</h2>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/pirahansiah/" target="_blank" rel="noopener"><span class="arr">&#8594;</span> LinkedIn</a></li>
-      <li><a href="https://github.com/pirahansiah" target="_blank" rel="noopener"><span class="arr">&#8594;</span> GitHub</a></li>
-      <li><a href="/contents/sitemap/"><span class="arr">&#8594;</span> Full Sitemap</a></li>
+  <div class="sitemap-section">
+    <span class="section-icon">&#128221;</span>
+    <div class="section-title">Connect</div>
+    <ul class="sitemap-links">
+      <li><a href="https://www.linkedin.com/in/pirahansiah/" target="_blank" rel="noopener"><span class="link-arrow">&#8594;</span> LinkedIn</a></li>
+      <li><a href="https://github.com/pirahansiah" target="_blank" rel="noopener"><span class="link-arrow">&#8594;</span> GitHub (43 repos)</a></li>
+      <li><a href="/contents/sitemap/"><span class="link-arrow">&#8594;</span> Full Sitemap</a></li>
     </ul>
   </div>
 
