@@ -27,7 +27,7 @@ Book_Computational_Intelligence_From_Theory_to_Application_explores_augmented_op
 
 
 
-https://www.pirahansiah.com/farshid/portfolio/publications/Books/Book_Computational_Intelligence_From_Theory_to_Application_explores_augmented_optical_flow_methods_for_video_stabilization/
+https://www.pirahansiah.com/contents/publications/Books/Book_Computational_Intelligence_From_Theory_to_Application_explores_augmented_optical_flow_methods_for_video_stabilization/
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/Book_Computational_Intelligence_From_Theory_to_Application_explores_augmented_optical_flow_methods_for_video_stabilization-e2profn)
 
@@ -35,9 +35,9 @@ https://www.pirahansiah.com/farshid/portfolio/publications/Books/Book_Computatio
 
 
 {% if page.extname == ".md" %}
-  ![Book: Computational Intelligence: From Theory to Application explores augmented optical flow methods for video stabilization, focusing on eliminating jitter and improving image clarity](/farshid/portfolio/publications/Books/Book_Computational_Intelligence_From_Theory_to_Application_explores_augmented_optical_flow_methods_for_video_stabilization.png)
+  ![Book: Computational Intelligence: From Theory to Application explores augmented optical flow methods for video stabilization, focusing on eliminating jitter and improving image clarity](/contents/publications/Books/Book_Computational_Intelligence_From_Theory_to_Application_explores_augmented_optical_flow_methods_for_video_stabilization.png)
 {% else %}
-  <img src="/farshid/portfolio/publications/Books/Book_Computational_Intelligence_From_Theory_to_Application_explores_augmented_optical_flow_methods_for_video_stabilization.png" alt="Book: Computational Intelligence: From Theory to Application explores augmented optical flow methods for video stabilization, focusing on eliminating jitter and improving image clarity" style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Books/Book_Computational_Intelligence_From_Theory_to_Application_explores_augmented_optical_flow_methods_for_video_stabilization.png" alt="Book: Computational Intelligence: From Theory to Application explores augmented optical flow methods for video stabilization, focusing on eliminating jitter and improving image clarity" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

@@ -16,7 +16,7 @@ date: 2024-10-19
 Comparison_single_thresholding_method_for_handwritten_images_segmentation
 
 
-https://www.pirahansiah.com/farshid/portfolio/publications/Papers/Comparison_single_thresholding_method_for_handwritten_images_segmentation
+https://www.pirahansiah.com/contents/publications/Papers/Comparison_single_thresholding_method_for_handwritten_images_segmentation
 
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/My-Conference-Paper-Comparison-single-thresholding-method-for-handwritten-images-segmentation-e2ps22i )
@@ -25,9 +25,9 @@ https://www.pirahansiah.com/farshid/portfolio/publications/Papers/Comparison_sin
 
 
 {% if page.extname == "Comparison_single_thresholding_method_for_handwritten_images_segmentation.md" %}
-  ![My Conference Paper  Comparison single thresholding method for handwritten images segmentation ](/farshid/portfolio/publications/Papers/Comparison_single_thresholding_method_for_handwritten_images_segmentation.png)
+  ![My Conference Paper  Comparison single thresholding method for handwritten images segmentation ](/contents/publications/Papers/Comparison_single_thresholding_method_for_handwritten_images_segmentation.png)
 {% else %}
-  <img src="/farshid/portfolio/publications/Papers/Comparison_single_thresholding_method_for_handwritten_images_segmentation.png" alt="My Conference Paper: Comparison single thresholding method for handwritten images segmentation "  style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Papers/Comparison_single_thresholding_method_for_handwritten_images_segmentation.png" alt="My Conference Paper: Comparison single thresholding method for handwritten images segmentation "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

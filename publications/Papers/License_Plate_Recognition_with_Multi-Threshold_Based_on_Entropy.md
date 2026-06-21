@@ -16,7 +16,7 @@ License_Plate_Recognition_with_Multi-Threshold_Based_on_Entropy
 
 
 
-https://www.pirahansiah.com/farshid/portfolio/publications/Papers/License_Plate_Recognition_with_Multi-Threshold_Based_on_Entropy
+https://www.pirahansiah.com/contents/publications/Papers/License_Plate_Recognition_with_Multi-Threshold_Based_on_Entropy
 
 
 [spotify]( https://podcasters.spotify.com/pod/show/pirahansiah/episodes/License-Plate-Recognition-with-Multi-threshold-based-on-Entropy-e2ps290)
@@ -25,9 +25,9 @@ https://www.pirahansiah.com/farshid/portfolio/publications/Papers/License_Plate_
 
 
 {% if page.extname == "License_Plate_Recognition_with_Multi-Threshold_Based_on_Entropy.md" %}
-  ![My Conference Paper License Plate Recognition with Multi-Threshold Based on Entropy  ](/farshid/portfolio/publications/Papers/License_Plate_Recognition_with_Multi-Threshold_Based_on_Entropy.png)
+  ![My Conference Paper License Plate Recognition with Multi-Threshold Based on Entropy  ](/contents/publications/Papers/License_Plate_Recognition_with_Multi-Threshold_Based_on_Entropy.png)
 {% else %}
-  <img src="/farshid/portfolio/publications/Papers/License_Plate_Recognition_with_Multi-Threshold_Based_on_Entropy.png" alt="My Conference Paper: License Plate Recognition with Multi-Threshold Based on Entropy "  style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Papers/License_Plate_Recognition_with_Multi-Threshold_Based_on_Entropy.png" alt="My Conference Paper: License Plate Recognition with Multi-Threshold Based on Entropy "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

@@ -16,7 +16,7 @@ date: 2024-10-18
 My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects
 
 
-https://www.pirahansiah.com/farshid/portfolio/publications/Papers/My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects
+https://www.pirahansiah.com/contents/publications/Papers/My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects
 
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/My-Paper-2D-versus-3D-Map-for-Environment-Movement-Objects-e2pruii )
@@ -25,9 +25,9 @@ https://www.pirahansiah.com/farshid/portfolio/publications/Papers/My_Conference_
 
 
 {% if page.extname == ".md" %}
-  ![My Conference Paper  My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects ](/farshid/portfolio/publications/Papers/.png)
+  ![My Conference Paper  My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects ](/contents/publications/Papers/.png)
 {% else %}
-  <img src="/farshid/portfolio/publications/Papers/My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects.png" alt="My Conference Paper: My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects "  style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Papers/My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects.png" alt="My Conference Paper: My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

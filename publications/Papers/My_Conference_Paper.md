@@ -15,7 +15,7 @@ date: 2024-10-19
 
 
 
-https://www.pirahansiah.com/farshid/portfolio/publications/Papers/
+https://www.pirahansiah.com/contents/publications/Papers/
 
 
 [spotify]( )
@@ -24,9 +24,9 @@ https://www.pirahansiah.com/farshid/portfolio/publications/Papers/
 
 
 {% if page.extname == ".md" %}
-  ![My Conference Paper   ](/farshid/portfolio/publications/Papers/.png)
+  ![My Conference Paper   ](/contents/publications/Papers/.png)
 {% else %}
-  <img src="/farshid/portfolio/publications/Papers/.png" alt="My Conference Paper:  "  style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Papers/.png" alt="My Conference Paper:  "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

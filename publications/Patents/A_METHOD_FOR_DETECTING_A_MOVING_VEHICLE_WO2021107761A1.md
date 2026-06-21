@@ -33,7 +33,7 @@ date_modified: 2024-10-12
 
 
 <audio controls>
-  <source src="/farshid/portfolio/publications/Patents/A_METHOD_FOR_DETECTING_A_MOVING_VEHICLE_WO2021107761A1.mp3" type="audio/mpeg">
+  <source src="/contents/publications/Patents/A_METHOD_FOR_DETECTING_A_MOVING_VEHICLE_WO2021107761A1.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -41,9 +41,9 @@ date_modified: 2024-10-12
 
 
 {% if page.extname == ".md" %}
-  ![A METHOD FOR DETECTING A MOVING VEHICLE WO2021107761A1](/farshid/portfolio/publications/Patents/A_METHOD_FOR_DETECTING_A_MOVING_VEHICLE_WO2021107761A1.png)
+  ![A METHOD FOR DETECTING A MOVING VEHICLE WO2021107761A1](/contents/publications/Patents/A_METHOD_FOR_DETECTING_A_MOVING_VEHICLE_WO2021107761A1.png)
 {% else %}
-  <img src="/farshid/portfolio/publications/Patents/A_METHOD_FOR_DETECTING_A_MOVING_VEHICLE_WO2021107761A1.png" alt="A METHOD FOR DETECTING A MOVING VEHICLE WO2021107761A1" style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Patents/A_METHOD_FOR_DETECTING_A_MOVING_VEHICLE_WO2021107761A1.png" alt="A METHOD FOR DETECTING A MOVING VEHICLE WO2021107761A1" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

@@ -28,7 +28,7 @@ date: 2024-10-18
 ---
 PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION
 
-https://www.pirahansiah.com/farshid/portfolio/publications/Journals/PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION/
+https://www.pirahansiah.com/contents/publications/Journals/PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION/
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/PEAK-SIGNAL-TO-NOISE-RATIO-BASED-ON-THRESHOLD-METHOD-FOR-IMAGE-SEGMENTATION-e2prep9)
 
@@ -36,9 +36,9 @@ https://www.pirahansiah.com/farshid/portfolio/publications/Journals/PEAK_SIGNAL-
 
 
 {% if page.extname == ".md" %}
-  ![PEAK SIGNAL-TO-NOISE RATIO BASED ON THRESHOLD METHOD FOR IMAGE SEGMENTATION](/farshid/portfolio/publications/Journals/PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION.png)
+  ![PEAK SIGNAL-TO-NOISE RATIO BASED ON THRESHOLD METHOD FOR IMAGE SEGMENTATION](/contents/publications/Journals/PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION.png)
 {% else %}
-  <img src="/farshid/portfolio/publications/Journals/PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION.png" alt="PEAK SIGNAL-TO-NOISE RATIO BASED ON THRESHOLD METHOD FOR IMAGE SEGMENTATION" style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Journals/PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION.png" alt="PEAK SIGNAL-TO-NOISE RATIO BASED ON THRESHOLD METHOD FOR IMAGE SEGMENTATION" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

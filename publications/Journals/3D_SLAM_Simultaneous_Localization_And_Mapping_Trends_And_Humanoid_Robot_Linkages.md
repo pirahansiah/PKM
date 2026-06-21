@@ -25,7 +25,7 @@ date: 2024-10-18
 ---
 3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages
 
-https://www.pirahansiah.com/farshid/portfolio/publications/Journals/3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages/
+https://www.pirahansiah.com/contents/publications/Journals/3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages/
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/3D-SLAM-Simultaneous-Localization-And-Mapping-Trends-And-Humanoid-Robot-Linkages-e2prg07)
 
@@ -33,9 +33,9 @@ https://www.pirahansiah.com/farshid/portfolio/publications/Journals/3D_SLAM_Simu
 
 
 {% if page.extname == ".md" %}
-  ![3D SLAM Simultaneous Localization And Mapping Trends And Humanoid Robot Linkages](/farshid/portfolio/publications/Journals/3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages.png)
+  ![3D SLAM Simultaneous Localization And Mapping Trends And Humanoid Robot Linkages](/contents/publications/Journals/3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages.png)
 {% else %}
-  <img src="/farshid/portfolio/publications/Journals/3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages.png" alt="Simultaneous Localization And Mapping Trends And Humanoid Robot Linkages" style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Journals/3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages.png" alt="Simultaneous Localization And Mapping Trends And Humanoid Robot Linkages" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

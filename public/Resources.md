@@ -62,43 +62,43 @@ permalink: /contents/public/Resources/
 
 ### LLM
 
-- [Orchestrating AI Agents](ai-llm/orchestrating-agents/)
-- [Advanced LLM Concepts](ai-llm/advanced-llm-concepts/)
-- [Blog: AI & LLMs](ai-llm/blog/)
+- [Orchestrating AI Agents](/contents/public/ai-llm/orchestrating-agents/)
+- [Advanced LLM Concepts](/contents/public/ai-llm/advanced-llm-concepts/)
+- [Blog: AI & LLMs](/contents/public/ai-llm/blog/)
 
 ### CUDA & GPU
 
-- [Numba JIT Tutorial](cuda-gpu/numba-jit/)
-- [PyCUDA Kernel Explanation](cuda-gpu/pycuda-kernels/)
-- [CUDA in VS Code on Windows](cuda-gpu/vscode-cuda-windows/)
-- [MLX, CoreML & Metal](cuda-gpu/mlx-coreml-metal/)
+- [Numba JIT Tutorial](/contents/public/cuda-gpu/numba-jit/)
+- [PyCUDA Kernel Explanation](/contents/public/cuda-gpu/pycuda-kernels/)
+- [CUDA in VS Code on Windows](/contents/public/cuda-gpu/vscode-cuda-windows/)
+- [MLX, CoreML & Metal](/contents/public/cuda-gpu/mlx-coreml-metal/)
 
 ### Computer Vision
 
-- [3D Vision & Multi-Camera](cv/3d/)
-- [Optical Flow](cv/optical-flow/)
-- [Real-Time Multi-Camera](cv/multi-camera-systems/)
+- [3D Vision & Multi-Camera](/contents/public/cv/3d/)
+- [Optical Flow](/contents/public/cv/optical-flow/)
+- [Real-Time Multi-Camera](/contents/public/cv/multi-camera-systems/)
 
 ### Optimization
 
-- [CV/DL/ML Optimization](optimization/)
+- [CV/DL/ML Optimization](/contents/public/optimization/)
 
 ### Programming
 
-- [C++ Quick Reference](CPP/)
-- [Python Config & Tips](Python/)
-- [Developer Tools](setup/)
-- [Shell & Vim](shell-vim-quickref/)
+- [C++ Quick Reference](/contents/public/CPP/)
+- [Python Config & Tips](/contents/public/Python/)
+- [Developer Tools](/contents/public/setup/)
+- [Shell & Vim](/contents/public/shell-vim-quickref/)
 
 ### Business & Career
 
-- [Startup Guide](StartUp/)
-- [Coaching](coaching/)
-- [SEO for LLMs](SEO/)
-- [Top LinkedIn Posts](linkedin-top-posts/)
-- [Curated Links](links/)
+- [Startup Guide](/contents/public/StartUp/)
+- [Coaching](/contents/public/coaching/)
+- [SEO for LLMs](/contents/public/SEO/)
+- [Top LinkedIn Posts](/contents/public/linkedin-top-posts/)
+- [Curated Links](/contents/public/links/)
 
 ### Images
 
-- [Optimization ML](images/optimizationML.png)
-- [Under/Over Fit ML](images/under_over_fit_ML.png)
+- [Optimization ML](/contents/public/images/optimizationML.png)
+- [Under/Over Fit ML](/contents/public/images/under_over_fit_ML.png)

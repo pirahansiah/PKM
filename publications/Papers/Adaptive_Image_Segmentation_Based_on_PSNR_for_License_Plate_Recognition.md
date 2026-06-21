@@ -16,7 +16,7 @@ Adaptive_Image_Segmentation_Based_on_PSNR_for_License_Plate_Recognition
 
 
 
-https://www.pirahansiah.com/farshid/portfolio/publications/Papers/Adaptive_Image_Segmentation_Based_on_PSNR_for_License_Plate_Recognition
+https://www.pirahansiah.com/contents/publications/Papers/Adaptive_Image_Segmentation_Based_on_PSNR_for_License_Plate_Recognition
 
 
 [spotify]( https://podcasters.spotify.com/pod/show/pirahansiah/episodes/My-paper-Adaptive-image-segmentation-based-on-Peak-Signal-to-Noise-Ratio-for-a-license-plate-recognition-system-e2ps0ue)
@@ -25,9 +25,9 @@ https://www.pirahansiah.com/farshid/portfolio/publications/Papers/Adaptive_Image
 
 
 {% if page.extname == "Adaptive_Image_Segmentation_Based_on_PSNR_for_License_Plate_Recognition.md" %}
-  ![My Conference Paper   ](/farshid/portfolio/publications/Papers/Adaptive_Image_Segmentation_Based_on_PSNR_for_License_Plate_Recognition.png)
+  ![My Conference Paper   ](/contents/publications/Papers/Adaptive_Image_Segmentation_Based_on_PSNR_for_License_Plate_Recognition.png)
 {% else %}
-  <img src="/farshid/portfolio/publications/Papers/Adaptive_Image_Segmentation_Based_on_PSNR_for_License_Plate_Recognition.png" alt="My Conference Paper: Adaptive Image Segmentation Based on PSNR for License Plate Recognition "  style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Papers/Adaptive_Image_Segmentation_Based_on_PSNR_for_License_Plate_Recognition.png" alt="My Conference Paper: Adaptive Image Segmentation Based on PSNR for License Plate Recognition "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

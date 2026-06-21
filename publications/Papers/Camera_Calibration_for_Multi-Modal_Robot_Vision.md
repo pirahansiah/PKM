@@ -13,7 +13,7 @@ Camera_Calibration_for_Multi-Modal_Robot_Vision
 
 
 
-https://www.pirahansiah.com/farshid/portfolio/publications/Papers/Camera_Calibration_for_Multi-Modal_Robot_Vision
+https://www.pirahansiah.com/contents/publications/Papers/Camera_Calibration_for_Multi-Modal_Robot_Vision
 
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/My-Conference-Paper-Camera-Calibration-for-Multi-Modal-Robot-Vision-e2ps1fn )
@@ -22,9 +22,9 @@ https://www.pirahansiah.com/farshid/portfolio/publications/Papers/Camera_Calibra
 
 
 {% if page.extname == "Camera_Calibration_for_Multi-Modal_Robot_Vision.md" %}
-  ![My Conference Paper  Camera Calibration for Multi-Modal Robot Vision ](/farshid/portfolio/publications/Papers/Camera_Calibration_for_Multi-Modal_Robot_Vision.png)
+  ![My Conference Paper  Camera Calibration for Multi-Modal Robot Vision ](/contents/publications/Papers/Camera_Calibration_for_Multi-Modal_Robot_Vision.png)
 {% else %}
-  <img src="/farshid/portfolio/publications/Papers/Camera_Calibration_for_Multi-Modal_Robot_Vision.png" alt="My Conference Paper: Camera Calibration for Multi-Modal Robot Vision "  style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Papers/Camera_Calibration_for_Multi-Modal_Robot_Vision.png" alt="My Conference Paper: Camera Calibration for Multi-Modal Robot Vision "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

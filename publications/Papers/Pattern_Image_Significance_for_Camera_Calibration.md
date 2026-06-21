@@ -16,7 +16,7 @@ date: 2024-10-19
 Pattern_Image_Significance_for_Camera_Calibration
 
 
-https://www.pirahansiah.com/farshid/portfolio/publications/Papers/Pattern_Image_Significance_for_Camera_Calibration
+https://www.pirahansiah.com/contents/publications/Papers/Pattern_Image_Significance_for_Camera_Calibration
 
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/Pattern-Image-Significance-for-Camera-Calibration-e2ps2mt )
@@ -25,9 +25,9 @@ https://www.pirahansiah.com/farshid/portfolio/publications/Papers/Pattern_Image_
 
 
 {% if page.extname == "Pattern_Image_Significance_for_Camera_Calibration.md" %}
-  ![My Conference Paper   Pattern Image Significance for Camera Calibration](/farshid/portfolio/publications/Papers/Pattern_Image_Significance_for_Camera_Calibration.png)
+  ![My Conference Paper   Pattern Image Significance for Camera Calibration](/contents/publications/Papers/Pattern_Image_Significance_for_Camera_Calibration.png)
 {% else %}
-  <img src="/farshid/portfolio/publications/Papers/Pattern_Image_Significance_for_Camera_Calibration.png" alt="My Conference Paper: Pattern Image Significance for Camera Calibration "  style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Papers/Pattern_Image_Significance_for_Camera_Calibration.png" alt="My Conference Paper: Pattern Image Significance for Camera Calibration "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

@@ -28,7 +28,7 @@ My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_L
 
 
 
-https://www.pirahansiah.com/farshid/portfolio/publications/Books/My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization/
+https://www.pirahansiah.com/contents/publications/Books/My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization/
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/My-book-chapter-titled-Camera-Calibration-and-Video-Stabilization-Framework-for-Robot-Localization-in-the-Book-entitled-Control-Engineering-in-Robotics-and-Industrial-Automation-published-Springer-e2prs80)
 
@@ -36,9 +36,9 @@ https://www.pirahansiah.com/farshid/portfolio/publications/Books/My_Book_chapter
 
 
 {% if page.extname == ".md" %}
-  ![My book chapter titled “Camera Calibration and Video Stabilization Framework for Robot Localization” in the Book entitled Control Engineering in Robotics and Industrial Automation published in Springer](/farshid/portfolio/publications/Books/My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization.png)
+  ![My book chapter titled “Camera Calibration and Video Stabilization Framework for Robot Localization” in the Book entitled Control Engineering in Robotics and Industrial Automation published in Springer](/contents/publications/Books/My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization.png)
 {% else %}
-  <img src="/farshid/portfolio/publications/Books/My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization.png" alt="book chapter titled “Camera Calibration and Video Stabilization Framework for Robot Localization” in the Book entitled “Control Engineering in Robotics and Industrial Automation" published in Springer" style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Books/My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization.png" alt="book chapter titled “Camera Calibration and Video Stabilization Framework for Robot Localization” in the Book entitled “Control Engineering in Robotics and Industrial Automation" published in Springer" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

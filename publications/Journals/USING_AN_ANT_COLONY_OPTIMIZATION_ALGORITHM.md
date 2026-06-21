@@ -28,7 +28,7 @@ date: 2024-10-18
 ---
 USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM
 
-- https://www.pirahansiah.com/farshid/portfolio/publications/Journals/USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM/
+- https://www.pirahansiah.com/contents/publications/Journals/USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM/
 
 - [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM-e2prlrn)
 
@@ -36,9 +36,9 @@ USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM
 
 
 {% if page.extname == ".md" %}
-  ![USING AN ANT COLONY OPTIMIZATION ALGORITHM](/farshid/portfolio/publications/Journals/USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM.png)
+  ![USING AN ANT COLONY OPTIMIZATION ALGORITHM](/contents/publications/Journals/USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM.png)
 {% else %}
-  <img src="/farshid/portfolio/publications/Journals/USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM.png" alt="USING AN ANT COLONY OPTIMIZATION ALGORITHM" style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Journals/USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM.png" alt="USING AN ANT COLONY OPTIMIZATION ALGORITHM" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

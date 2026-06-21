@@ -16,7 +16,7 @@ date: 2024-10-19
 TafreshGrid_Grid_computing_in_Tafresh_university
 
 
-https://www.pirahansiah.com/farshid/portfolio/publications/Papers/TafreshGrid_Grid_computing_in_Tafresh_university
+https://www.pirahansiah.com/contents/publications/Papers/TafreshGrid_Grid_computing_in_Tafresh_university
 
 
 [spotify]( https://podcasters.spotify.com/pod/show/pirahansiah/episodes/My-Conference-Paper-TafreshGrid-Grid-computing-in-Tafresh-university-e2ps3ma)
@@ -25,9 +25,9 @@ https://www.pirahansiah.com/farshid/portfolio/publications/Papers/TafreshGrid_Gr
 
 
 {% if page.extname == "TafreshGrid_Grid_computing_in_Tafresh_university.md" %}
-  ![My Conference Paper  TafreshGrid Grid computing in Tafresh university ](/farshid/portfolio/publications/Papers/TafreshGrid_Grid_computing_in_Tafresh_university.png)
+  ![My Conference Paper  TafreshGrid Grid computing in Tafresh university ](/contents/publications/Papers/TafreshGrid_Grid_computing_in_Tafresh_university.png)
 {% else %}
-  <img src="/farshid/portfolio/publications/Papers/TafreshGrid_Grid_computing_in_Tafresh_university.png" alt="My Conference Paper: TafreshGrid Grid computing in Tafresh university "  style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Papers/TafreshGrid_Grid_computing_in_Tafresh_university.png" alt="My Conference Paper: TafreshGrid Grid computing in Tafresh university "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

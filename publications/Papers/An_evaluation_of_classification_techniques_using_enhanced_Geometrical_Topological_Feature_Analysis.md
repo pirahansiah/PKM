@@ -16,7 +16,7 @@ An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topologica
 
 
 
-https://www.pirahansiah.com/farshid/portfolio/publications/Papers/An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis
+https://www.pirahansiah.com/contents/publications/Papers/An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis
 
 
 [spotify]( https://podcasters.spotify.com/pod/show/pirahansiah/episodes/My-Conference-Paper-An-evaluation-of-classification-techniques-using-enhanced-Geometrical-Topological-Feature-Analysis-e2ps17l)
@@ -25,9 +25,9 @@ https://www.pirahansiah.com/farshid/portfolio/publications/Papers/An_evaluation_
 
 
 {% if page.extname == "An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis.md" %}
-  ![My Conference Paper  An evaluation of classification techniques using enhanced Geometrical Topological Feature Analysis ](/farshid/portfolio/publications/Papers/An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis.png)
+  ![My Conference Paper  An evaluation of classification techniques using enhanced Geometrical Topological Feature Analysis ](/contents/publications/Papers/An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis.png)
 {% else %}
-  <img src="/farshid/portfolio/publications/Papers/An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis.png" alt="My Conference Paper:  An evaluation of classification techniques using enhanced Geometrical Topological Feature Analysis"  style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Papers/An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis.png" alt="My Conference Paper:  An evaluation of classification techniques using enhanced Geometrical Topological Feature Analysis"  style="max-width: 100%; height: auto;">
 {% endif %}
 
 
