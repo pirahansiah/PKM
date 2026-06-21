@@ -7,7 +7,6 @@ tags: [LinkedIn, camera-calibration, C++, NVIDIA, Jetson, robotics, SLAM]
 description: "Most impactful LinkedIn posts of 2024 covering camera calibration, C++ optimization, NVIDIA GPU tuning, and robotics AI."
 excerpt: "Highlights from 2024 LinkedIn posts: camera calibration, C++ mastery, NVIDIA optimization, robotics, and on-device LLM."
 author: "Dr. Farshid Pirahansiah"
-permalink: /contents/public/linkedin-top-posts/
 markmap: |
   # Top LinkedIn Posts 2024
   ## Topics

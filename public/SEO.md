@@ -7,7 +7,6 @@ tags: [SEO, LLM, structured-data, schema-markup, AI-search, content-optimization
 description: "How to optimize websites for LLM-powered search engines using structured data, AI-friendly content, and authority building."
 excerpt: "Modern SEO strategies for LLM-driven search: JSON-LD schema, Q&A formatting, authority signals, and AI visibility tracking."
 author: "Dr. Farshid Pirahansiah"
-permalink: /contents/public/SEO/
 markmap: |
   # SEO for LLMs
   ## Structured Data

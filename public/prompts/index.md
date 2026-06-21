@@ -1,7 +1,6 @@
 ---
 layout: farshid_default
 title: "Prompts"
-permalink: /contents/public/prompts/
 markmap: |
   # Prompt Engineering
   ## Templates

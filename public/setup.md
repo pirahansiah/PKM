@@ -7,7 +7,6 @@ tags: [setup, Docker, GitHub, tools, terminal, vim, shell, Linux, macOS]
 description: "Curated developer tools, shell essentials, Docker management, GitHub tricks, and device setup tips."
 excerpt: "Shell commands, vim basics, Docker cleanup, GitHub PR review tricks, and recommended dev utilities."
 author: "Dr. Farshid Pirahansiah"
-permalink: /contents/public/setup/
 markmap: |
   # Dev Tools Setup
   ## Recommended Tools

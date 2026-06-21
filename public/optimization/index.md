@@ -1,7 +1,6 @@
 ---
 layout: farshid_default
 title: "Optimization"
-permalink: /contents/public/optimization/
 markmap: |
   # Optimization
   ## CV Optimization

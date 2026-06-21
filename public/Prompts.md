@@ -7,7 +7,6 @@ tags: [prompts, LLM, text-simplification, mind-maps, structured-output]
 description: "Reusable prompt templates for C++ expertise, text simplification, mind map generation, and structured content reorganization."
 excerpt: "Ready-to-use prompt templates for LLM-powered content simplification, mind mapping, and structured text processing."
 author: "Dr. Farshid Pirahansiah"
-permalink: /contents/public/Prompts/
 markmap: |
   # Prompt Engineering
   ## Templates

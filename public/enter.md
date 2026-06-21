@@ -1,6 +1,5 @@
 ---
 layout: farshid_page
-permalink: /
 title: Computer Vision
 parent: MainPage
 markmap: |

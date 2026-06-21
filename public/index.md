@@ -1,7 +1,6 @@
 ---
 layout: farshid_default
 title: "Content Hub"
-permalink: /contents/public/
 markmap: |
   # Content Hub
   ## Topics

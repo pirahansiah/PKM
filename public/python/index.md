@@ -1,7 +1,6 @@
 ---
 layout: farshid_default
 title: "Python Config"
-permalink: /contents/public/python/
 markmap: |
   # Python Configuration
   ## ConfigParser

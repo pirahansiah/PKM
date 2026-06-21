@@ -1,7 +1,6 @@
 ---
 layout: farshid_default
 title: "Solutions"
-permalink: /contents/public/projects/Solutions/
 markmap: |
   # Solutions
   ## Industry Applications

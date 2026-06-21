@@ -1,7 +1,6 @@
 ---
 layout: farshid_default
 title: "Patents"
-permalink: /contents/publications/Patents/
 markmap: |
   # Patents
   ## Face Augmentation

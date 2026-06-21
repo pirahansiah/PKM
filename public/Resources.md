@@ -7,7 +7,6 @@ tags: [CV, patents, books, papers, portfolio, resume]
 description: "Dr. Farshid Pirahansiah's complete portfolio: patents, publications, books, conference papers, and project highlights."
 excerpt: "Explore my research portfolio including 3 patents, 2 books, 6 journals, 11 conference papers, and impact projects."
 author: "Dr. Farshid Pirahansiah"
-permalink: /contents/public/Resources/
 markmap: |
   # Portfolio & Resources
   ## Publications

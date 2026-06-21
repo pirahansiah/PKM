@@ -7,7 +7,6 @@ tags: [shell, vim, terminal, grep, fzf, tldr, Linux]
 description: "Quick reference for shell basics, vim commands, and essential developer CLI tools like ripgrep, fzf, and broot."
 excerpt: "Shell essentials: echo, pipes, redirects, vim basics, and must-know CLI tools for efficient development."
 author: "Dr. Farshid Pirahansiah"
-permalink: /contents/public/shell-vim-quickref/
 markmap: |
   # Shell & Vim
   ## Shell Basics

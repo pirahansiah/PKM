@@ -7,7 +7,6 @@ tags: [coaching, tutoring, image-processing, curriculum, learning-path]
 description: "Personalized computer vision coaching services and a comprehensive teaching roadmap from fundamentals to advanced topics."
 excerpt: "Expert CV coaching with a structured roadmap covering image processing, object detection, 3D vision, and real-time systems."
 author: "Dr. Farshid Pirahansiah"
-permalink: /contents/public/coaching/
 markmap: |
   # CV Coaching Roadmap
   ## Fundamentals

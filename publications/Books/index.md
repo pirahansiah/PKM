@@ -1,7 +1,6 @@
 ---
 layout: farshid_default
 title: "Books & Book Chapters"
-permalink: /contents/publications/Books/
 markmap: |
   # Books & Book Chapters
   - Optical flow for video stabilization

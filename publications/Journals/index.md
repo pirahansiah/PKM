@@ -1,7 +1,6 @@
 ---
 layout: farshid_default
 title: "Journal Publications"
-permalink: /contents/publications/Journals/
 markmap: |
   # Journal Publications
   ## Image Processing

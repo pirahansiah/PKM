@@ -7,7 +7,6 @@ tags: [startup, fundraising, pitch-deck, Edge-AI, GmbH, Germany, venture-capital
 description: "Comprehensive startup guide covering Edge AI business plans, fundraising in Germany, pitch decks, and growth strategies."
 excerpt: "From Edge AI business plan to fundraising in Germany: pitch decks, metrics, competition strategy, and family dynamics in startups."
 author: "Dr. Farshid Pirahansiah"
-permalink: /contents/public/StartUp/
 markmap: |
   # Startup Guide
   ## Business Plan

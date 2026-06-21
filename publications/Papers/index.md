@@ -1,7 +1,6 @@
 ---
 layout: farshid_default
 title: "Conference Papers"
-permalink: /contents/publications/Papers/
 markmap: |
   # Conference Papers
   ## Image Processing

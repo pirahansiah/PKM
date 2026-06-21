@@ -1,7 +1,6 @@
 ---
 layout: farshid_default
 title: "SEO for LLMs"
-permalink: /contents/public/seo/
 markmap: |
   # SEO for LLMs
   ## Structured Data

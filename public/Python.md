@@ -7,7 +7,6 @@ tags: [Python, configuration, pybind11, Cython, argparse, pydantic, hydra]
 description: "Comparison of Python configuration methods (built-in vs third-party) plus tips on pybind11, Cython, and project scaling."
 excerpt: "Python config guide covering ConfigParser, argparse, TOML, pydantic, hydra, plus pybind11 and Cython for C++ integration."
 author: "Dr. Farshid Pirahansiah"
-permalink: /contents/public/Python/
 markmap: |
   # Python Configuration
   ## Built-in Tools

@@ -1,7 +1,6 @@
 ---
 layout: farshid_default
 title: "Keynotes"
-permalink: /contents/publications/Keynotes/
 markmap: |
   # Keynotes
   ## LLMs Meet Computer Vision
