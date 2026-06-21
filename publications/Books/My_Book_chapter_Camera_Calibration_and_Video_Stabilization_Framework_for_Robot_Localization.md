@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "Camera Calibration and Video Stabilization Framework for Robot Localization"
 categories: [book-chapter, camera-calibration, robotics]
 tags: [camera-calibration, video-stabilization, robot-localization, Springer, control-engineering, autonomous-navigation]

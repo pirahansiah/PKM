@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [conference-paper, image-processing, thresholding]
 tags: [thresholding, handwritten-images, segmentation, image-processing, binarization, computer-vision]

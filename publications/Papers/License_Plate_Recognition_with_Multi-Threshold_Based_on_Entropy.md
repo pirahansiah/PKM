@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [conference-paper, license-plate-recognition, entropy]
 tags: [license-plate, entropy, multi-threshold, image-segmentation, computer-vision, intelligent-transportation]

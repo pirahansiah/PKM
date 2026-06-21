@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "Curriculum Vitae — Dr. Farshid Pirahansiah"
 categories: [CV, portfolio]
 tags: [CV, resume, publications, patents, Google-Scholar]

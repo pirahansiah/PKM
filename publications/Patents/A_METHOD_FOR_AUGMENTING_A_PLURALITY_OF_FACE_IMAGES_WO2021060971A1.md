@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [patent, face-recognition, image-processing]
 tags: [patent, face-augmentation, WO2021060971A1, image-processing]

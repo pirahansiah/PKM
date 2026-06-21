@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [conference-paper, mapping, motion-detection]
 tags: [2D-mapping, 3D-mapping, motion-detection, environment-mapping, computer-vision, robotics]

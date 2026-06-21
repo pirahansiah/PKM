@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [journal, image-processing, fuzzy-logic]
 tags: [fuzzy-thresholding, PSNR, global-threshold, image-segmentation, fuzzy-logic, computer-vision]

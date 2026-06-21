@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [journal, image-processing, thresholding]
 tags: [PSNR, thresholding, image-segmentation, peak-signal-to-noise-ratio, image-processing, computer-vision]

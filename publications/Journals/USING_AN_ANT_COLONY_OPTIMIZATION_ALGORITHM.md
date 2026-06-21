@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [journal, optimization, image-processing]
 tags: [ant-colony-optimization, ACO, image-processing, metaheuristic, optimization, computer-vision]

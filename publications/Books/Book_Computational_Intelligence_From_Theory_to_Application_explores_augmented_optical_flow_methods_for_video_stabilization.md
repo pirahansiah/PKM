@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "Computational Intelligence: Augmented Optical Flow for Video Stabilization"
 categories: [book, optical-flow, video-stabilization]
 tags: [optical-flow, video-stabilization, computational-intelligence, image-processing, motion-estimation]

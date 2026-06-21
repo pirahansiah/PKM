@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [journal, pattern-recognition, feature-extraction]
 tags: [character-recognition, object-recognition, global-feature, feature-extraction, pattern-recognition, computer-vision]

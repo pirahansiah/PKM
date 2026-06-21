@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [journal, SLAM, robotics]
 tags: [journal, 3D-SLAM, robotics, localization, mapping, humanoid]

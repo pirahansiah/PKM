@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [patent, vehicle-detection, computer-vision]
 tags: [patent, vehicle-detection, WO2021107761A1, motion-analysis]

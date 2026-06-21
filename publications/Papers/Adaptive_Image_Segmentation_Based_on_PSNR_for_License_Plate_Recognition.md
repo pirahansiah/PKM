@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [conference-paper, image-processing, license-plate-recognition]
 tags: [PSNR, image-segmentation, license-plate, thresholding, adaptive, image-processing, computer-vision]

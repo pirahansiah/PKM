@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [conference-paper, computer-vision, image-processing]
 tags: [computer-vision, image-processing, pattern-recognition, thresholding, feature-extraction]

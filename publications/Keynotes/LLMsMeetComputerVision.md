@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "LLMs Meet Computer Vision — Keynote"
 date_modified: 2025-06-19
 categories: [keynote, LLM, computer-vision]

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [patent, facial-analysis, advertising]
 tags: [patent, facial-analysis, WO2020141969A2, advertisement, computer-vision]

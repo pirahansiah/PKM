@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [conference-paper, character-recognition, feature-extraction]
 tags: [character-recognition, global-feature, OCR, pattern-recognition, image-processing, computer-vision]

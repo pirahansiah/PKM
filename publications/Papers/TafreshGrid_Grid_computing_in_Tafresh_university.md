@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [conference-paper, grid-computing, distributed-systems]
 tags: [grid-computing, distributed-computing, Tafresh, cluster, high-performance-computing, university]

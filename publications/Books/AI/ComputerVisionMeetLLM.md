@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "Computer Vision Meets LLM — Book 2025"
 date: 2025
 author: Dr. Farshid Pirahansiah

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [conference-paper, camera-calibration, pattern-recognition]
 tags: [camera-calibration, pattern-image, calibration-pattern, chessboard, computer-vision, robotics]

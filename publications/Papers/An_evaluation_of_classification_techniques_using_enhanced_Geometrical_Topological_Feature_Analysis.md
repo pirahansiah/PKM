@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [conference-paper, pattern-recognition, feature-analysis]
 tags: [classification, geometrical-features, topological-features, pattern-recognition, feature-extraction, computer-vision]

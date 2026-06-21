@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [conference-paper, camera-calibration, robotics]
 tags: [conference-paper, camera-calibration, multi-modal, robot-vision]

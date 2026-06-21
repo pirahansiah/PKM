@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 title: "Lessons from 10 Years of Fixing Bugs in Computer Vision"
 categories: [CV, experience]
 tags: [CV, lessons-learned, debugging, computer-vision, career]

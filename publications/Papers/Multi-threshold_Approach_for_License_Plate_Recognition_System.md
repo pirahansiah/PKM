@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: farshid_default
 author: Dr. Farshid Pirahansiah
 categories: [conference-paper, license-plate-recognition, thresholding]
 tags: [license-plate, multi-threshold, image-segmentation, thresholding, computer-vision, intelligent-transportation]
