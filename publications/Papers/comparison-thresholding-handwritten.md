@@ -39,10 +39,10 @@ https://www.pirahansiah.com/contents/publications/Papers/Comparison_single_thres
 [PDF Download My Conference Paper](https://doi.org/10.1109/ICPAIR.2011.5976918  )
 
 
-{% if page.extname == "Comparison_single_thresholding_method_for_handwritten_images_segmentation.md" %}
-  ![My Conference Paper  Comparison single thresholding method for handwritten images segmentation ](/contents/publications/Papers/Comparison_single_thresholding_method_for_handwritten_images_segmentation.png)
+{% if page.extname == "comparison-thresholding-handwritten.md" %}
+  ![My Conference Paper  Comparison single thresholding method for handwritten images segmentation ](/contents/publications/Papers/comparison-thresholding-handwritten.png)
 {% else %}
-  <img src="/contents/publications/Papers/Comparison_single_thresholding_method_for_handwritten_images_segmentation.png" alt="My Conference Paper: Comparison single thresholding method for handwritten images segmentation "  style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Papers/comparison-thresholding-handwritten.png" alt="My Conference Paper: Comparison single thresholding method for handwritten images segmentation "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

@@ -39,10 +39,10 @@ https://www.pirahansiah.com/contents/publications/Papers/My_Conference_Paper_2D_
 [PDF Download My Conference Paper]( http://www.ftsm.ukm.my/cait2012/images/Program%20Schedule%20CAIT2012.pdf )
 
 
-{% if page.extname == ".md" %}
-  ![My Conference Paper  My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects ](/contents/publications/Papers/.png)
+{% if page.extname == "2d-3d-map-movement.md" %}
+  ![My Conference Paper  My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects ](/contents/publications/Papers/2d-3d-map-movement.png)
 {% else %}
-  <img src="/contents/publications/Papers/My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects.png" alt="My Conference Paper: My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects "  style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Papers/2d-3d-map-movement.png" alt="My Conference Paper: My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

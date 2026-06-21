@@ -51,10 +51,10 @@ USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM
 - [PDF Download](http://www.jatit.org/volumes/Vol95No21/1Vol95No21.pdf)
 
 
-{% if page.extname == ".md" %}
-  ![USING AN ANT COLONY OPTIMIZATION ALGORITHM](/contents/publications/Journals/USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM.png)
+{% if page.extname == "ant-colony-optimization.md" %}
+  ![USING AN ANT COLONY OPTIMIZATION ALGORITHM](/contents/publications/Journals/ant-colony-optimization.png)
 {% else %}
-  <img src="/contents/publications/Journals/USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM.png" alt="USING AN ANT COLONY OPTIMIZATION ALGORITHM" style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Journals/ant-colony-optimization.png" alt="USING AN ANT COLONY OPTIMIZATION ALGORITHM" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

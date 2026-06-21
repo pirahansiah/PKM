@@ -59,10 +59,10 @@ date_modified: 2024-10-12
 [PDF Download](https://patentimages.storage.googleapis.com/16/41/83/2576e20c4a0af5/WO2021107761A1.pdf  )
 
 
-{% if page.extname == ".md" %}
-  ![A METHOD FOR DETECTING A MOVING VEHICLE WO2021107761A1](/contents/publications/Patents/A_METHOD_FOR_DETECTING_A_MOVING_VEHICLE_WO2021107761A1.png)
+{% if page.extname == "vehicle-detection.md" %}
+  ![A METHOD FOR DETECTING A MOVING VEHICLE WO2021107761A1](/contents/publications/Patents/vehicle-detection.png)
 {% else %}
-  <img src="/contents/publications/Patents/A_METHOD_FOR_DETECTING_A_MOVING_VEHICLE_WO2021107761A1.png" alt="A METHOD FOR DETECTING A MOVING VEHICLE WO2021107761A1" style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Patents/vehicle-detection.png" alt="A METHOD FOR DETECTING A MOVING VEHICLE WO2021107761A1" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

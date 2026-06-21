@@ -56,10 +56,10 @@ date_modified: 2024-10-12
 [PDF Download](https://patentimages.storage.googleapis.com/ff/3f/a5/e7b42ef58d8a03/WO2020141969A2.pdf)
 
 
-{% if page.extname == ".md" %}
-  ![SYSTEM AND METHOD FOR PROVIDING ADVERTISEMENT CONTENTS BASED ON FACIAL ANALYSIS WO2020141969A2](/contents/publications/Patents/A_METHOD_FOR_AUGMENTING_A_PLURALITY_OF_FACE_IMAGES_WO2021060971A1.png)
+{% if page.extname == "facial-analysis-advertisement.md" %}
+  ![SYSTEM AND METHOD FOR PROVIDING ADVERTISEMENT CONTENTS BASED ON FACIAL ANALYSIS WO2020141969A2](/contents/publications/Patents/facial-analysis-advertisement.png)
 {% else %}
-  <img src="/contents/publications/Patents/A_METHOD_FOR_AUGMENTING_A_PLURALITY_OF_FACE_IMAGES_WO2021060971A1.png" alt="SYSTEM AND METHOD FOR PROVIDING ADVERTISEMENT CONTENTS BASED ON FACIAL ANALYSIS WO2020141969A2" style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Patents/facial-analysis-advertisement.png" alt="SYSTEM AND METHOD FOR PROVIDING ADVERTISEMENT CONTENTS BASED ON FACIAL ANALYSIS WO2020141969A2" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

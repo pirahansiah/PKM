@@ -52,10 +52,10 @@ https://www.pirahansiah.com/contents/publications/Journals/PEAK_SIGNAL-TO-NOISE_
 [PDF Download](http://www.jatit.org/volumes/Vol57No2/4Vol57No2.pdf  )
 
 
-{% if page.extname == ".md" %}
-  ![PEAK SIGNAL-TO-NOISE RATIO BASED ON THRESHOLD METHOD FOR IMAGE SEGMENTATION](/contents/publications/Journals/PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION.png)
+{% if page.extname == "psnr-threshold-segmentation.md" %}
+  ![PEAK SIGNAL-TO-NOISE RATIO BASED ON THRESHOLD METHOD FOR IMAGE SEGMENTATION](/contents/publications/Journals/psnr-threshold-segmentation.png)
 {% else %}
-  <img src="/contents/publications/Journals/PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION.png" alt="PEAK SIGNAL-TO-NOISE RATIO BASED ON THRESHOLD METHOD FOR IMAGE SEGMENTATION" style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Journals/psnr-threshold-segmentation.png" alt="PEAK SIGNAL-TO-NOISE RATIO BASED ON THRESHOLD METHOD FOR IMAGE SEGMENTATION" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

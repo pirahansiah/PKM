@@ -46,10 +46,10 @@ https://www.pirahansiah.com/contents/publications/Books/My_Book_chapter_Camera_C
 [PDF Download book chapter titled “book chapter titled “Camera Calibration and Video Stabilization Framework for Robot Localization” in the Book entitled “Control Engineering in Robotics and Industrial Automation" published in Springer](https://www.waterstones.com/book/control-engineering-in-robotics-and-industrial-automation/muralindran-mariappan/mohd-rizal-arshad/9783030745394)
 
 
-{% if page.extname == ".md" %}
-  ![My book chapter titled “Camera Calibration and Video Stabilization Framework for Robot Localization” in the Book entitled Control Engineering in Robotics and Industrial Automation published in Springer](/contents/publications/Books/My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization.png)
+{% if page.extname == "camera-calibration-video-stabilization.md" %}
+  ![My book chapter titled "Camera Calibration and Video Stabilization Framework for Robot Localization" in the Book entitled Control Engineering in Robotics and Industrial Automation published in Springer](/contents/publications/Books/camera-calibration-video-stabilization.png)
 {% else %}
-  <img src="/contents/publications/Books/My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization.png" alt="book chapter titled “Camera Calibration and Video Stabilization Framework for Robot Localization” in the Book entitled “Control Engineering in Robotics and Industrial Automation" published in Springer" style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Books/camera-calibration-video-stabilization.png" alt="book chapter titled "Camera Calibration and Video Stabilization Framework for Robot Localization" in the Book entitled "Control Engineering in Robotics and Industrial Automation" published in Springer" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

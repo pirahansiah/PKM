@@ -39,10 +39,10 @@ https://www.pirahansiah.com/contents/publications/Papers/Character_Recognition_B
 [PDF Download My Conference Paper]( https://doi.org/10.1109/ICEEI.2011.6021649 )
 
 
-{% if page.extname == "Character_Recognition_Based_on_Global_Feature.md" %}
-  ![My Conference Paper  Character Recognition Based on Global Feature ](/contents/publications/Papers/Character_Recognition_Based_on_Global_Feature.png)
+{% if page.extname == "character-recognition-global-feature.md" %}
+  ![My Conference Paper  Character Recognition Based on Global Feature ](/contents/publications/Papers/character-recognition-global-feature.png)
 {% else %}
-  <img src="/contents/publications/Papers/Character_Recognition_Based_on_Global_Feature.png" alt="My Conference Paper: Character Recognition Based on Global Feature "  style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Papers/character-recognition-global-feature.png" alt="My Conference Paper: Character Recognition Based on Global Feature "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

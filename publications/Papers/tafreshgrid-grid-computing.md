@@ -41,10 +41,10 @@ https://www.pirahansiah.com/contents/publications/Papers/TafreshGrid_Grid_comput
 [PDF Download My Conference Paper](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6014009&isnumber=6013532 )
 
 
-{% if page.extname == "TafreshGrid_Grid_computing_in_Tafresh_university.md" %}
-  ![My Conference Paper  TafreshGrid Grid computing in Tafresh university ](/contents/publications/Papers/TafreshGrid_Grid_computing_in_Tafresh_university.png)
+{% if page.extname == "tafreshgrid-grid-computing.md" %}
+  ![My Conference Paper  TafreshGrid Grid computing in Tafresh university ](/contents/publications/Papers/tafreshgrid-grid-computing.png)
 {% else %}
-  <img src="/contents/publications/Papers/TafreshGrid_Grid_computing_in_Tafresh_university.png" alt="My Conference Paper: TafreshGrid Grid computing in Tafresh university "  style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Papers/tafreshgrid-grid-computing.png" alt="My Conference Paper: TafreshGrid Grid computing in Tafresh university "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

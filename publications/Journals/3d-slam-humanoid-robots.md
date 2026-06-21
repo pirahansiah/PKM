@@ -50,10 +50,10 @@ https://www.pirahansiah.com/contents/publications/Journals/3D_SLAM_Simultaneous_
 [PDF Download](http://journalarticle.ukm.my/6644/1/4429-10302-1-SM.pdf  )
 
 
-{% if page.extname == ".md" %}
-  ![3D SLAM Simultaneous Localization And Mapping Trends And Humanoid Robot Linkages](/contents/publications/Journals/3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages.png)
+{% if page.extname == "3d-slam-humanoid-robots.md" %}
+  ![3D SLAM Simultaneous Localization And Mapping Trends And Humanoid Robot Linkages](/contents/publications/Journals/3d-slam-humanoid-robots.png)
 {% else %}
-  <img src="/contents/publications/Journals/3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages.png" alt="Simultaneous Localization And Mapping Trends And Humanoid Robot Linkages" style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Journals/3d-slam-humanoid-robots.png" alt="Simultaneous Localization And Mapping Trends And Humanoid Robot Linkages" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

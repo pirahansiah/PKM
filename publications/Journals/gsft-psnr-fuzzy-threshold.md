@@ -49,10 +49,10 @@ GSFT-PSNR_Global_Single_Fuzzy_Threshold
 [PDF Download](https://www.ijcsns.com/June.2016-Volume.4-No.6/Article01.pdf )
 
 
-{% if page.extname == ".md" %}
-  ![Adaptive Image Thresholding Based on the Peak Signal-to-noise Ratio](/contents/publications/Journals/GSFT-PSNR_Global_Single_Fuzzy_Threshold.png)
+{% if page.extname == "gsft-psnr-fuzzy-threshold.md" %}
+  ![Adaptive Image Thresholding Based on the Peak Signal-to-noise Ratio](/contents/publications/Journals/gsft-psnr-fuzzy-threshold.png)
 {% else %}
-  <img src="/contents/publications/Journals/GSFT-PSNR_Global_Single_Fuzzy_Threshold.png" alt="GSFT-PSNR Global Single Fuzzy Threshold" style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Journals/gsft-psnr-fuzzy-threshold.png" alt="GSFT-PSNR Global Single Fuzzy Threshold" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

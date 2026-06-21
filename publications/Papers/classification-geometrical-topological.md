@@ -41,10 +41,10 @@ https://www.pirahansiah.com/contents/publications/Papers/An_evaluation_of_classi
 [PDF Download My Conference Paper](https://scholar.google.com/scholar?oi=bibs&cluster=3038184255311332521&btnI=1&hl=en  )
 
 
-{% if page.extname == "An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis.md" %}
-  ![My Conference Paper  An evaluation of classification techniques using enhanced Geometrical Topological Feature Analysis ](/contents/publications/Papers/An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis.png)
+{% if page.extname == "classification-geometrical-topological.md" %}
+  ![My Conference Paper  An evaluation of classification techniques using enhanced Geometrical Topological Feature Analysis ](/contents/publications/Papers/classification-geometrical-topological.png)
 {% else %}
-  <img src="/contents/publications/Papers/An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis.png" alt="My Conference Paper:  An evaluation of classification techniques using enhanced Geometrical Topological Feature Analysis"  style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Papers/classification-geometrical-topological.png" alt="My Conference Paper:  An evaluation of classification techniques using enhanced Geometrical Topological Feature Analysis"  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

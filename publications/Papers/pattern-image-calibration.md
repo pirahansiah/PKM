@@ -38,10 +38,10 @@ https://www.pirahansiah.com/contents/publications/Papers/Pattern_Image_Significa
 [PDF Download My Conference Paper](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8305440&isnumber=8305342  )
 
 
-{% if page.extname == "Pattern_Image_Significance_for_Camera_Calibration.md" %}
-  ![My Conference Paper   Pattern Image Significance for Camera Calibration](/contents/publications/Papers/Pattern_Image_Significance_for_Camera_Calibration.png)
+{% if page.extname == "pattern-image-calibration.md" %}
+  ![My Conference Paper   Pattern Image Significance for Camera Calibration](/contents/publications/Papers/pattern-image-calibration.png)
 {% else %}
-  <img src="/contents/publications/Papers/Pattern_Image_Significance_for_Camera_Calibration.png" alt="My Conference Paper: Pattern Image Significance for Camera Calibration "  style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Papers/pattern-image-calibration.png" alt="My Conference Paper: Pattern Image Significance for Camera Calibration "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

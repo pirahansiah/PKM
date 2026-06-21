@@ -46,10 +46,10 @@ CHARACTER_AND_OBJECT_RECOGNITION_BASED_ON_GLOBAL_FEATURE_EXTRACTION
 
 [PDF Download](http://www.jatit.org/volumes/Vol52No2/6Vol52No2.pdf )
 
-{% if page.extname == ".md" %}
-  ![CHARACTER_AND_OBJECT_RECOGNITION_BASED_ON_GLOBAL_FEATURE_EXTRACTION](/contents/publications/Journals/CHARACTER_AND_OBJECT_RECOGNITION_BASED_ON_GLOBAL_FEATURE_EXTRACTION.png)
+{% if page.extname == "character-object-recognition.md" %}
+  ![CHARACTER_AND_OBJECT_RECOGNITION_BASED_ON_GLOBAL_FEATURE_EXTRACTION](/contents/publications/Journals/character-object-recognition.png)
 {% else %}
-  <img src="/contents/publications/Journals/CHARACTER_AND_OBJECT_RECOGNITION_BASED_ON_GLOBAL_FEATURE_EXTRACTION.png" alt="CHARACTER AND OBJECT RECOGNITION BASED ON GLOBAL FEATURE EXTRACTION" style="max-width: 100%; height: auto;">
+  <img src="/contents/publications/Journals/character-object-recognition.png" alt="CHARACTER AND OBJECT RECOGNITION BASED ON GLOBAL FEATURE EXTRACTION" style="max-width: 100%; height: auto;">
 {% endif %}
 
 # Mind Map: Character and Object Recognition Based on Global Feature Extraction
