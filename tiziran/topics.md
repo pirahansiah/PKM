@@ -24,30 +24,32 @@ markmap: |
 # Topics & Projects
 
 ## AI & Machine Learning
-- [AI Hub](https://www.tiziran.com/topics-and-projects/ai_hub) — Curated AI resources
-- [ChatGPT](https://www.tiziran.com/topics-and-projects/chatgpt) — LLM applications
-- [DRL](https://www.tiziran.com/topics-and-projects/drl) — Deep reinforcement learning
-- [Hardware](https://www.tiziran.com/topics-and-projects/hardware) — AI accelerator benchmarks
-- [Quantum Computing](https://www.tiziran.com/topics-and-projects/quantum-computing) — Quantum ML
+- [Advanced LLM Concepts](/contents/public/ai-llm/advanced-llm-concepts/) — RAG, embeddings, multimodal
+- [Orchestrating AI Agents](/contents/public/ai-llm/orchestrating-agents/) — Multi-agent systems
+- [AI Hardware Accelerators](/contents/tiziran/ai-hardware/) — NPU, edge AI chips
+- [OpenVINO](/contents/tiziran/openvino/) — Intel inference optimization
 
 ## Computer Vision
-- [Camera Calibration](https://www.tiziran.com/topics-and-projects/camera_calibration) — Stereo and mono calibration
-- [Video Tracking](https://www.tiziran.com/topics-and-projects/video-tracking) — Multi-object tracking
-- [Apple](https://www.tiziran.com/topics-and-projects/apple) — CoreML and Vision framework
+- [3D Vision & Multi-Camera](/contents/public/cv/3d/) — Point clouds, depth sensing
+- [Optical Flow](/contents/public/cv/optical-flow/) — Motion estimation
+- [Multi-Camera Systems](/contents/public/cv/multi-camera-systems/) — Scaling to 100+ cameras
+- [CV Coaching Roadmap](/contents/public/coaching/) — Learning path
 
 ## Getting Started
-- [How to Start](https://www.tiziran.com/topics-and-projects/how-to-start) — Learning roadmap
-- [YouTube](https://www.tiziran.com/topics-and-projects/how-to-start/youtube) — Video resources
-- [Software](https://www.tiziran.com/topics-and-projects/how-to-start/software) — Essential dev tools
-- [IP Roadmap](https://www.tiziran.com/topics-and-projects/how-to-start/roadmap-for-image-processing) — Image processing learning path
+- [Machine Learning Specialization](/contents/tiziran/machine-learning-specialization/) — ML fundamentals
+- [Full Stack Deep Learning](/contents/tiziran/full-stack-deep-learning/) — End-to-end DL
+- [Developer Tools & Setup](/contents/public/setup/) — Docker, GitHub, CLI tools
+- [C++ Quick Reference](/contents/public/CPP/) — Memory, STL, debugging
 
-## Source Code
-- [OpenCV](https://www.tiziran.com/topics-and-projects/source-code/opencv) — Vision library examples
-- [Source Code](https://www.tiziran.com/topics-and-projects/source-code) — Code examples and repos
-- [Compile Guide](https://www.tiziran.com/topics-and-projects/source-code/compile) — Build instructions
+## CUDA & GPU
+- [Numba JIT Tutorial](/contents/public/cuda-gpu/numba-jit/) — Python performance
+- [PyCUDA Kernels](/contents/public/cuda-gpu/pycuda-kernels/) — CUDA from Python
+- [CUDA in VS Code](/contents/public/cuda-gpu/vscode-cuda-windows/) — Dev environment
+- [MLX, CoreML & Metal](/contents/public/cuda-gpu/mlx-coreml-metal/) — Apple Silicon ML
 
 ## Career
-- [Resume/CV](https://www.tiziran.com/topics-and-projects/resume_cv) — Career templates
-- [Startup](https://www.tiziran.com/topics-and-projects/startup) — AI venture building
+- [Startup Guide](/contents/public/StartUp/) — Edge AI business, fundraising
+- [Portfolio & Publications](/contents/public/Resources/) — Patents, books, papers
+- [Top LinkedIn Posts](/contents/public/linkedin-top-posts/) — Camera calibration, C++
 
 #Topics #Projects #FarshidPirahansiah

@@ -19,8 +19,10 @@ markmap: |
 
 # Book Summaries
 
-- [Commonplace Book](https://www.tiziran.com/book-summary/commonplace-book) — Personal knowledge collection
-- [Knowledge Management](https://www.tiziran.com/book-summary/knowledge_management) — Systems for organizing learning
-- [PKM](https://www.tiziran.com/book-summary/knowledge_management/pkm) — Personal knowledge management methods
+- [Topics & Projects](/contents/tiziran/topics/) — All topics and project index
+- [Machine Learning Specialization](/contents/tiziran/machine-learning-specialization/) — ML fundamentals and course notes
+- [Full Stack Deep Learning](/contents/tiziran/full-stack-deep-learning/) — End-to-end DL deployment
+- [MLOps](/contents/tiziran/mlops/) — ML pipeline operations and monitoring
+- [Portfolio & Use Cases](/contents/pkm/use-cases/) — Personal knowledge management and project portfolio
 
 #Books #PKM #KnowledgeManagement
