@@ -1,1 +1,0 @@
-Please provide an explanation for the malfunction of a specific system or process, including the underlying reasons for its failure.
