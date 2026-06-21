@@ -24,6 +24,24 @@ footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
 read_time: 15
 title: "SYSTEM AND METHOD FOR PROVIDING ADVERTISEMENT CONTENTS BASED ON FACIAL ANALYSIS WO2020141969A2"
 date: 2024-10-12
+markmap: |
+  # Advertisement via Facial Analysis
+  ## System Components
+  - Image Acquisition
+  - Face Detection
+  - Analysis Module
+  ## Process
+  - Feature Extraction
+  - Weighted Image
+  - Ad Matching
+  ## Matching Rules
+  - Binary Sequences
+  - Feature Priority
+  - Nearest Similar
+  ## Claims
+  - System Claims
+  - Method Claims
+---
 date_modified: 2024-10-12
 ---
 

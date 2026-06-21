@@ -7,6 +7,23 @@ tags: [keynote, LLM, computer-vision, RAG, vision-LLM]
 description: "Keynote presentation on the intersection of Large Language Models and Computer Vision."
 excerpt: "Keynote exploring how LLMs are transforming computer vision — from image understanding to multimodal AI."
 author: "Dr. Farshid Pirahansiah"
+markmap: |
+  # LLMs Meet Computer Vision
+  ## Token Costs
+  - GPT-4 Turbo Vision
+  - Low vs High Mode
+  - Cost Calculator
+  ## RAG for Images
+  - Multimodal Retrieval
+  - Contrastive Learning
+  ## Use Cases
+  - Video Understanding
+  - IoT and Robotics
+  - Medical Imaging
+  ## Prompting
+  - Zero-Shot
+  - Few-Shot
+  - Context Window
 ---
 # {{ site.author }}  
 

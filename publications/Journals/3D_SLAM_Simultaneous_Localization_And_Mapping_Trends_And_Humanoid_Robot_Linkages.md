@@ -22,6 +22,24 @@ footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
 
 title: "3D SLAM Simultaneous Localization And Mapping Trends And Humanoid Robot Linkages"
 date: 2024-10-18
+markmap: |
+  # 3D SLAM
+  ## SLAM Methods
+  - Kalman Filter (EKF, UKF)
+  - Particle Filter (FastSLAM)
+  - Graph-based SLAM
+  - Feature-based SLAM
+  ## Evaluation Methods
+  - Processing Time
+  - Precision and Noise
+  - Environmental Factors
+  ## Humanoid Robots
+  - Stereo Vision
+  - Local 3D Maps
+  - GPU-Accelerated Tracking
+  ## Datasets
+  - Indoor/Outdoor
+  - Benchmark Datasets
 ---
 3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages
 

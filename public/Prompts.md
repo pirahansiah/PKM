@@ -8,6 +8,18 @@ description: "Reusable prompt templates for C++ expertise, text simplification, 
 excerpt: "Ready-to-use prompt templates for LLM-powered content simplification, mind mapping, and structured text processing."
 author: "Dr. Farshid Pirahansiah"
 permalink: /contents/public/Prompts/
+markmap: |
+  # Prompt Engineering
+  ## Templates
+  - Text Simplification
+  - Mind Maps
+  - Structured Output
+  ## Requirements
+  - Language level B1
+  - Clarity & Readability
+  ## Process
+  - Summarize
+  - Reorganize
 ---
 - a
 Consider yourself an expert software developer with extended knowledge about C++

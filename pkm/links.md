@@ -5,6 +5,22 @@ tags: pkm usecases solutions valueprop customers
 categories: solutions
 references: system-design, knowledge-graph, strategic-connections
 related: offering, growth-model
+markmap: |
+  # Link Collection
+  ## AI Agents
+  - Android Agent
+  - Devin
+  - Context Engineering
+  ## Computer Vision
+  - Ultralytics
+  - Hand Keypoints
+  ## AI Learning
+  - Andrej Karpathy
+  - Stanford AI
+  - Yann Dubs
+  ## Apple ML
+  - MLX Sharp
+  - ANE Book
 ---
 
 

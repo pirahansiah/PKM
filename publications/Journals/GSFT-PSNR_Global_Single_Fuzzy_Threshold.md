@@ -25,6 +25,22 @@ footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
 
 title: "GSFT-PSNR Global Single Fuzzy Threshold"
 date: 2024-10-15
+markmap: |
+  # GSFT-PSNR Method
+  ## Thresholding
+  - Single Level
+  - Multilevel
+  - Binary Conversion
+  ## Fuzzy Logic Integration
+  - Average Intensity Value
+  - PSNR Optimization
+  ## Comparison
+  - vs Otsu's Method
+  - vs Max Entropy
+  ## Applications
+  - OCR Systems
+  - License Plate Recognition
+  - Handwritten Documents
 ---
 GSFT-PSNR_Global_Single_Fuzzy_Threshold
 

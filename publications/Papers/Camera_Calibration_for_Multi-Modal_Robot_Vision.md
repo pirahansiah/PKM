@@ -7,6 +7,20 @@ description: "Conference paper on camera calibration for multi-modal robot visio
 excerpt: "Methods for calibrating multi-modal camera systems used in robotic vision and autonomous navigation."
 title: "Camera Calibration for Multi-Modal Robot Vision"
 date: 2024-10-19
+markmap: |
+  # Camera Calibration for Robot Vision
+  ## Image Quality Assessment
+  - PSNR
+  - SSIM
+  ## Automatic Calibration Framework
+  - Real-time Adjustment
+  - Dynamic Environments
+  ## Evaluation
+  - Accuracy Comparison
+  - Multiple Test Scenarios
+  ## Applications
+  - Autonomous Robots
+  - Multi-Modal Vision
 ---
 
 Camera_Calibration_for_Multi-Modal_Robot_Vision

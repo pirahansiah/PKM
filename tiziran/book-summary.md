@@ -7,6 +7,14 @@ tags: [books, summaries, PKM, FarshidPirahansiah]
 description: "Book summaries and knowledge management resources."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/book-summary"
+markmap: |
+  # Book Summaries
+  ## Commonplace Book
+  - Personal knowledge collection
+  ## Knowledge Management
+  - Systems for organizing learning
+  ## PKM
+  - Personal knowledge management methods
 ---
 
 # Book Summaries

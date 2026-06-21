@@ -28,6 +28,24 @@ header:
   caption: "Advanced Computer Vision Techniques"
 footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
 last_modified_at: 2025
+markmap: |
+  # CV Meets LLM
+  ## Multi-Agent RAG
+  - Swarm Architecture
+  - Retrieval-Augmented Generation
+  ## Token Costs
+  - GPT-4 Turbo Vision
+  - Low vs High Mode
+  ## Multimodal Systems
+  - Contrastive Learning
+  - Any-to-Any Search
+  ## Real-World Applications
+  - Document Analysis
+  - Defect Detection
+  - Graphs to Code
+  ## Prompting Strategies
+  - Zero-Shot
+  - Few-Shot
 
 ---
 {{ site.author }}

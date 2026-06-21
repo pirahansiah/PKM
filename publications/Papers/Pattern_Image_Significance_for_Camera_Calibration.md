@@ -10,6 +10,20 @@ seo_description: "Research on the role of pattern images in improving camera cal
 keywords: [camera calibration, pattern image, calibration pattern, chessboard detection, computer vision]
 title: "Pattern Image Significance for Camera Calibration"
 date: 2024-10-19
+markmap: |
+  # Pattern Image for Calibration
+  ## Calibration Methods
+  - Self-Calibration
+  - Active Vision
+  - Known Object (Chessboard)
+  ## Zhang's Algorithm
+  - Multiple Images
+  - Reprojection Error
+  ## Findings
+  - Image Count Impact
+  - Slope Variation
+  ## Future Work
+  - Deep Learning Integration
 ---
 
 

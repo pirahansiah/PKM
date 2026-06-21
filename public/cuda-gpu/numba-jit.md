@@ -7,6 +7,20 @@ tags: [Numba, JIT, CUDA, Python, performance-optimization, numerical-computing]
 description: "Tutorial on using Numba's @jit decorator to compile Python functions into optimized machine code for faster numerical computing."
 excerpt: "Speed up Python numerical code by 10-100x using Numba's JIT compilation with practical examples."
 author: "Dr. Farshid Pirahansiah"
+markmap: |
+  # Numba JIT
+  ## @jit(nopython=True)
+  - Machine Code Compilation
+  - No Python Interpreter
+  - Numerical Computing
+  ## Performance
+  - 10-100x Speedup
+  - Optimized Loops
+  - No Python Overhead
+  ## Examples
+  - Sum of Squares
+  - Factorials
+  - Matrix Multiplication
 ---
 
 Accelerate Python with Numba’s `@jit(nopython=True)` 

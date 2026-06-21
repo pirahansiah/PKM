@@ -7,6 +7,21 @@ tags: [CUDA, VSCode, nvcc, MSVC, debugging, C++, Windows]
 description: "Step-by-step guide to configure VS Code for CUDA C++ development on Windows with nvcc, IntelliSense, and debugging."
 excerpt: "Set up CUDA C++ in VS Code: tasks.json, launch.json, c_cpp_properties.json for building and debugging .cu files."
 author: "Dr. Farshid Pirahansiah"
+markmap: |
+  # CUDA in VS Code
+  ## tasks.json
+  - nvcc Build Task
+  - MSVC Libraries
+  ## settings.json
+  - .cu File Association
+  - Terminal Config
+  ## launch.json
+  - cppvsdbg Debugger
+  - Auto-Build
+  ## c_cpp_properties.json
+  - IntelliSense
+  - CUDA Headers
+  - MSVC Integration
 ---
 
 # Simple Setting Up a CUDA Development Environment in VS Code in Windows 

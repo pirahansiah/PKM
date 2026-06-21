@@ -7,6 +7,16 @@ tags: [TensorFlow, TF.js, TF-Lite, mobile-ML, FarshidPirahansiah]
 description: "TensorFlow deployment: browser-based TF.js, device-based TF Lite, data pipelines, and advanced deployment."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/courses/tensorflow-data-and-deployment-specialization"
+markmap: |
+  # TensorFlow Deployment
+  ## TF.js
+  - Browser-based models
+  ## TF Lite
+  - Mobile/edge inference, quantization
+  ## Data Pipelines
+  - TF Data Services
+  ## Optimization
+  - Pruning, distillation, topology transforms
 ---
 
 # TensorFlow: Data and Deployment Specialization

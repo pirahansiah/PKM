@@ -19,6 +19,23 @@ header:
   caption: "Advanced Computer Vision Techniques"
 footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
 title: "A METHOD FOR AUGMENTING A PLURALITY OF FACE IMAGES WO2021060971A1"
+markmap: |
+  # Face Image Augmentation Patent
+  ## Image Acquisition
+  - Camera Module
+  - Internet Sources
+  ## Data Augmentation
+  - Light Augmentation
+  - Heavy Augmentation
+  ## GAN Module
+  - Encoder/Decoder
+  - Discriminator Unit
+  ## Quality Selection
+  - Fuzzy Logic
+  - Sharpness Evaluation
+  ## Deep Learning
+  - Feature Extraction
+  - Recognition Training
 ---
 
 [spotify](https://spotifyanchor-web.app.link/e/XZpmcmHCFNb)

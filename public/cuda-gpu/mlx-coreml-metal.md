@@ -7,6 +7,23 @@ tags: [MLX, CoreML, Metal, Apple-Silicon, Numba, PyCUDA-to-Metal]
 description: "Guide to Numba JIT, PyCUDA-to-Metal transition, CoreML conversion, and MLX framework on Apple Silicon."
 excerpt: "Optimize Python on Apple Silicon with Numba, replace PyCUDA with Metal, and deploy ML models via CoreML and MLX."
 author: "Dr. Farshid Pirahansiah"
+markmap: |
+  # Apple Silicon ML
+  ## Numba JIT
+  - CPU Optimization
+  - Numerical Tasks
+  ## Metal for GPU
+  - MSL Kernels
+  - Swift Integration
+  - PyCUDA Migration
+  ## CoreML
+  - Neural Engine
+  - Model Conversion
+  - coremltools
+  ## MLX Framework
+  - Training
+  - Inference
+  - Fullmoon iOS
 ---
 
 

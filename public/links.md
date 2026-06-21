@@ -8,6 +8,19 @@ description: "Hand-picked links for CUDA, Python, FPGA, startup resources, devel
 excerpt: "Curated collection of resources: CUDA tutorials, Python tools, startup guides, YouTube channels, and essential reading."
 author: "Dr. Farshid Pirahansiah"
 permalink: /contents/public/links/
+markmap: |
+  # Curated Links
+  ## Development
+  - Python tools
+  - CUDA resources
+  - FPGA
+  ## Productivity
+  - Notion
+  - YouTube channels
+  - Recommended Books
+  ## Hardware
+  - Windows tools
+  - Mac setup
 ---
 
 

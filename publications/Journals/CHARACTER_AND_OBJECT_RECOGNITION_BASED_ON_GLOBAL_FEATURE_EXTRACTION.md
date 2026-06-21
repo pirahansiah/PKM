@@ -25,6 +25,20 @@ footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
 
 title: "CHARACTER AND OBJECT RECOGNITION BASED ON GLOBAL FEATURE EXTRACTION"
 date: 2024-10-17
+markmap: |
+  # Character & Object Recognition
+  ## Feature Extraction
+  - Global Features (GLCM, EDMS)
+  - Spatial Features (Robinson)
+  ## Proposed Method
+  - GLCM + EDMS Combination
+  - Gain Ratio Selection
+  ## Experimental Results
+  - Character Accuracy: 86%
+  - Object Accuracy: 92.5%
+  ## Applications
+  - License Plate Recognition
+  - Binary Shape Recognition
 ---
 CHARACTER_AND_OBJECT_RECOGNITION_BASED_ON_GLOBAL_FEATURE_EXTRACTION
 

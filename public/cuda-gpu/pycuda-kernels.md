@@ -7,6 +7,22 @@ tags: [PyCUDA, CUDA, GPU, kernels, parallel-computing]
 description: "Explanation of how PyCUDA compiles and executes CUDA kernels written in C from Python, with step-by-step examples."
 excerpt: "Learn how PyCUDA enables running CUDA C kernels directly from Python with GPU memory management and kernel execution."
 author: "Dr. Farshid Pirahansiah"
+markmap: |
+  # PyCUDA Kernels
+  ## Importing Modules
+  - pycuda.driver
+  - pycuda.autoinit
+  - pycuda.curandom
+  ## Writing CUDA Kernels
+  - C Code in Strings
+  - __global__ Functions
+  ## Compiling and Running
+  - SourceModule
+  - get_function
+  ## Memory Management
+  - mem_alloc
+  - memcpy_htod/dtoh
+  - Grid/Block Config
 ---
 
 How PyCUDA Reads and Runs C Kernels

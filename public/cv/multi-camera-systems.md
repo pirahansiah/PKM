@@ -7,6 +7,24 @@ tags: [multi-camera, DeepStream, OpenVINO, GStreamer, Jetson, GPU, NPU, synchron
 description: "Deep technical guide to building real-time multi-camera vision systems with heterogeneous processing and scaling to 100+ cameras."
 excerpt: "Architecture guide for multi-camera AI: sync methods, GPU/NPU acceleration, USB/DMA optimization, and scaling strategies."
 author: "Dr. Farshid Pirahansiah"
+markmap: |
+  # Multi-Camera Systems
+  ## System Architecture
+  - Capture → Decode → Inference
+  - DeepStream, OpenVINO, GStreamer
+  ## Heterogeneous Processing
+  - CPU/GPU/NPU
+  - Double Buffering
+  ## Scaling
+  - 10-100+ Cameras
+  - PCIe, MIPI, QSFP
+  ## Synchronization
+  - Hardware Sync (Genlock, PTP)
+  - Software Sync (NTP, Timecode)
+  ## Low-Level
+  - USB/DMA
+  - Buffer Management
+  - UVC Driver
 ---
 
 # Real-Time Multi-Camera Vision Systems

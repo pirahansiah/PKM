@@ -7,6 +7,16 @@ tags: [IoT, OpenVINO, edge-AI, FarshidPirahansiah]
 description: "IoT and Edge AI with OpenVINO: face recognition, object detection, pose estimation, and semantic segmentation."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/courses/iot-scholarship-foundation"
+markmap: |
+  # IoT Scholarship
+  ## OpenVINO Pipeline
+  - Model Optimizer, Inference Engine
+  ## Key Models
+  - Face recognition, object detection, pose estimation
+  ## Edge Hardware
+  - Coral TPU, Intel Movidius
+  ## Model Types
+  - Classification, detection, segmentation, GANs
 ---
 
 # IoT Scholarship Foundation

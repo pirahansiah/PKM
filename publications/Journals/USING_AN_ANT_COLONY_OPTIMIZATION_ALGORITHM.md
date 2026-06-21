@@ -25,6 +25,22 @@ footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
 
 title: "USING AN ANT COLONY OPTIMIZATION ALGORITHM"
 date: 2024-10-18
+markmap: |
+  # Ant Colony Optimization for Image Processing
+  ## Thresholding Methods
+  - Single Thresholding
+  - Multilevel Thresholding
+  - Multi-threshold
+  ## ACO Process
+  - Ant Initialization
+  - Pheromone Updates
+  - Probability Movement
+  ## Proposed Method
+  - ACO + Thresholding
+  - Comparison with Otsu/Kittler
+  ## Results
+  - DIBCO 2009 Benchmark
+  - Better PSNR Performance
 ---
 USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM
 

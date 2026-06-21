@@ -10,6 +10,21 @@ seo_description: "Research on entropy-based multi-threshold methods for accurate
 keywords: [license plate recognition, entropy, multi-threshold, image segmentation, computer vision]
 title: "License Plate Recognition with Multi-Threshold Based on Entropy"
 date: 2024-10-19
+markmap: |
+  # LPR with Entropy Multi-threshold
+  ## Entropy-Based Thresholding
+  - Cross Entropy Maximization
+  - Pun/Kapur Methods
+  ## Proposed Method
+  - Multi-threshold Selection
+  - Histogram Integration
+  ## Recognition Process
+  - Image Segmentation
+  - Character Segmentation
+  - Recognition
+  ## Results
+  - vs Single Threshold
+  - Varying Conditions
 ---
 
 License_Plate_Recognition_with_Multi-Threshold_Based_on_Entropy

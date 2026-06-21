@@ -10,6 +10,21 @@ seo_description: "Research on multi-threshold techniques for enhancing license p
 keywords: [license plate recognition, multi-threshold, image segmentation, thresholding, intelligent transportation]
 title: "Multi-threshold Approach for License Plate Recognition System"
 date: 2024-10-19
+markmap: |
+  # Multi-threshold LPR
+  ## Adaptive Approach
+  - MLP + Backpropagation
+  - Peak Value Analysis
+  ## Comparison Methods
+  - Kittler/Illingworth
+  - Potential Difference
+  - Otsu's Method
+  ## Recognition Process
+  - Image Segmentation
+  - Character Segmentation
+  - Classification
+  ## Future Work
+  - Real-time Specifications
 ---
 
 

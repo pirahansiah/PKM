@@ -10,6 +10,22 @@ seo_description: "Conference paper presenting adaptive image segmentation using 
 keywords: [PSNR, image segmentation, license plate recognition, adaptive thresholding, computer vision]
 title: "Adaptive Image Segmentation Based on PSNR for License Plate Recognition"
 date: 2024-10-18
+markmap: |
+  # Adaptive Segmentation for LPR
+  ## Pattern Recognition
+  - OCR
+  - Biometrics
+  - Medical Diagnostics
+  ## Proposed Method
+  - PSNR as Metric
+  - Adaptive Threshold Selection
+  ## Multi-Level Thresholding
+  - Recursive PSNR
+  - Complex Image Handling
+  ## Results
+  - vs Kittler/Illingworth
+  - vs Otsu's Method
+  - High Reliability
 ---
 Adaptive_Image_Segmentation_Based_on_PSNR_for_License_Plate_Recognition
 

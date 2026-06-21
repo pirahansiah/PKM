@@ -10,6 +10,23 @@ seo_description: "Research on improving pattern classification through enhanced 
 keywords: [classification, geometrical features, topological features, pattern recognition, feature analysis]
 title: "Classification Techniques Using Enhanced Geometrical Topological Feature Analysis"
 date: 2024-10-19
+markmap: |
+  # Classification Techniques
+  ## Image Classification Methods
+  - AIRS
+  - Neural Networks
+  - Bayesian Networks
+  - Support Vector Machine
+  ## Geometrical Features
+  - Character Shapes
+  - Topological Features
+  ## Results
+  - SVM Best Performer
+  - Malaysian LPR System
+  ## Applications
+  - Law Enforcement
+  - Toll Collection
+  - Traffic Control
 ---
 
 An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis

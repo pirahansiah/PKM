@@ -8,6 +8,21 @@ description: "Curated developer tools, shell essentials, Docker management, GitH
 excerpt: "Shell commands, vim basics, Docker cleanup, GitHub PR review tricks, and recommended dev utilities."
 author: "Dr. Farshid Pirahansiah"
 permalink: /contents/public/setup/
+markmap: |
+  # Dev Tools Setup
+  ## Recommended Tools
+  - NeoHtop
+  - RustDesk
+  - Helix Editor
+  ## Shell Essentials
+  - Echo & Variables
+  - Navigation
+  - Pipes & Redirection
+  ## Vim
+  - Basic commands
+  ## Docker & GitHub
+  - WSL disk
+  - PR review
 ---
 
 ## Recommended Tools

@@ -24,6 +24,25 @@ footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
 read_time: 15
 title: "A METHOD FOR DETECTING A MOVING VEHICLE WO2021107761A1"
 date: 2024-10-12
+markmap: |
+  # Moving Vehicle Detection Patent
+  ## Image Processing
+  - CLAHE Illumination
+  - Sobel Edge Detection
+  - Binary Conversion
+  ## Vehicle Detection
+  - Homogenous Properties
+  - Edge Closing
+  - Noise Filtering
+  ## System Modules
+  - Detection Module
+  - Classification Module
+  - Tracking Module
+  ## Applications
+  - Traffic Surveillance
+  - Law Enforcement
+  - Smart Cities
+---
 date_modified: 2024-10-12
 ---
 

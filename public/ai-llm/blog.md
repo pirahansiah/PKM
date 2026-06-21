@@ -12,6 +12,23 @@ toc: true
 share: true
 published: true
 sitemap: true
+markmap: |
+  # AI & LLM Blog
+  ## RAG vs CAG
+  - Retrieval-based generation
+  - Cache-based generation
+  - Transformer², MML, Mosaic
+  ## Multi-Agent Systems
+  - LangChain, Ray, Auto-GPT
+  - MetaGPT, SWE-agent
+  - Swarm architectures
+  ## Future of Work
+  - AI job displacement
+  - Human-AI collaboration
+  - New creative roles
+  ## CUDA & GPU
+  - Numba JIT
+  - PyCUDA kernels
 ---
 
 # 2025

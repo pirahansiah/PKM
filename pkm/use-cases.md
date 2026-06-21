@@ -5,6 +5,24 @@ tags: proof portfolio publications patents resources projects
 categories: legacy
 references: knowledge-graph, strategic-connections
 related: about, atlas
+markmap: |
+  # Complete Portfolio
+  ## Publications
+  - 3 Patents
+  - 2 Books
+  - 6 Journals
+  - 11 Conference Papers
+  ## Camera Calibration
+  - RGB/Depth/Infrared
+  - Multi-Camera Systems
+  ## Hardware & Platforms
+  - AI Accelerators
+  - Edge Devices
+  - Apple Silicon
+  ## GitHub Projects
+  - BI4CV
+  - opencv_python
+  - workshop_LLM
 ---
 
 # Table of Contents

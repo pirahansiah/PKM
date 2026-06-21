@@ -7,6 +7,14 @@ tags: [Docker, Kubernetes, cloud-native, FarshidPirahansiah]
 description: "Docker and Kubernetes fundamentals for cloud-native infrastructure."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/courses/cloud-native"
+markmap: |
+  # Cloud-Native with Kubernetes
+  ## Docker
+  - Containers, images, networking
+  ## Kubernetes
+  - Orchestration, scaling
+  ## Deployment
+  - Pods, services, ingress
 ---
 
 # Cloud-Native Infrastructure with Kubernetes

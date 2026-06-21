@@ -4,6 +4,26 @@ title: Sitemap & Page Summaries
 tags: indexing, sitemap, navigation
 categories: system
 updated: 2025-06-21
+markmap: |
+  # Sitemap
+  ## Public Content
+  - Computer Vision
+  - AI & LLMs
+  - CUDA & GPU
+  - Programming
+  ## Publications
+  - Patents (3)
+  - Papers (11)
+  - Journals (6)
+  - Books (2)
+  ## Tiziran.com
+  - Courses
+  - Workshops
+  - Topics
+  ## Projects
+  - Solutions
+  - Camera Calibration
+  - Hardware
 ---
 
 # Sitemap — All Pages

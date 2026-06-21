@@ -8,6 +8,23 @@ description: "Personalized computer vision coaching services and a comprehensive
 excerpt: "Expert CV coaching with a structured roadmap covering image processing, object detection, 3D vision, and real-time systems."
 author: "Dr. Farshid Pirahansiah"
 permalink: /contents/public/coaching/
+markmap: |
+  # CV Coaching Roadmap
+  ## Fundamentals
+  - Image formation
+  - Color models
+  ## Image Processing
+  - Filtering
+  - Thresholding
+  ## Object Detection
+  - CNNs
+  - YOLO
+  ## 3D Vision
+  - Stereo vision
+  - SLAM
+  ## Advanced
+  - Real-time systems
+  - Edge AI
 ---
 
 # Computer Vision Expertise: Teaching & Coaching Services

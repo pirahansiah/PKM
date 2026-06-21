@@ -7,6 +7,24 @@ tags: [agents, orchestration, multi-agent, task-decomposition, LLM]
 description: "Mind map and guide to orchestrating multiple AI agents for complex task completion using LLMs."
 excerpt: "How to coordinate multiple AI agents for research, planning, and multi-step processes with LLM-powered orchestration."
 author: "Dr. Farshid Pirahansiah"
+markmap: |
+  # Orchestrating AI Agents
+  ## Agent Types
+  - Single-purpose
+  - General-purpose
+  - Autonomous decision-making
+  ## Orchestrator
+  - Task delegation
+  - Progress monitoring
+  - Result aggregation
+  ## Communication
+  - Message passing
+  - API calls
+  - Shared memory
+  ## Applications
+  - Research & analysis
+  - Content creation
+  - Project management
 ---
 
 

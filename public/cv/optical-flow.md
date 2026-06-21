@@ -7,6 +7,23 @@ tags: [optical-flow, Lucas-Kanade, Farneback, RAFT, motion-estimation, OpenCV]
 description: "Comprehensive guide to optical flow challenges including illumination changes, occlusions, fast motion, and their solutions."
 excerpt: "Solving optical flow problems: illumination invariance, occlusion handling, fast motion, textureless regions, and GPU acceleration."
 author: "Dr. Farshid Pirahansiah"
+markmap: |
+  # Optical Flow Challenges
+  ## Illumination
+  - CLAHE preprocessing
+  - RAFT/FlowNet2 robust models
+  ## Occlusions
+  - Bilateral filtering
+  - Backward-forward consistency
+  ## Fast Motion
+  - Pyramidal Lucas-Kanade
+  - FlowNet2/PWC-Net
+  ## Textureless Regions
+  - Farneback dense flow
+  - Smoothness constraints
+  ## Optimization
+  - GPU-accelerated (CUDA)
+  - LiteFlowNet for real-time
 ---
 
 

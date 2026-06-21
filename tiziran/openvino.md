@@ -7,6 +7,16 @@ tags: [OpenVINO, Intel, inference, FarshidPirahansiah]
 description: "Intel OpenVINO toolkit workshop for deep learning inference optimization."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/workshops-and-events/openvino-deep-learning"
+markmap: |
+  # OpenVINO Deep Learning
+  ## Intel Toolkit
+  - Model Optimizer, Inference Engine
+  ## Optimization
+  - Quantization, pruning, fusion
+  ## Deployment
+  - CPU, GPU, VPU targets
+  ## Edge
+  - Low-latency inference
 ---
 
 # OpenVINO Deep Learning

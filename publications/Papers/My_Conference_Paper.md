@@ -9,6 +9,18 @@ seo_title: "Conference Paper on Computer Vision and Image Processing"
 seo_description: "Research paper covering computer vision techniques for image processing and pattern recognition."
 title: "Conference Paper on Computer Vision"
 date: 2024-10-19
+markmap: |
+  # Conference Paper on Computer Vision
+  ## Image Processing
+  - Filtering
+  - Enhancement
+  - Restoration
+  ## Pattern Recognition
+  - Feature Extraction
+  - Classification
+  ## Computer Vision
+  - Object Detection
+  - Motion Analysis
 ---
 
 

@@ -8,6 +8,21 @@ description: "Comparison of Python configuration methods (built-in vs third-part
 excerpt: "Python config guide covering ConfigParser, argparse, TOML, pydantic, hydra, plus pybind11 and Cython for C++ integration."
 author: "Dr. Farshid Pirahansiah"
 permalink: /contents/public/Python/
+markmap: |
+  # Python Configuration
+  ## Built-in Tools
+  - ConfigParser
+  - argparse
+  - Environment Variables
+  - TOML
+  ## Third-Party
+  - pydantic
+  - hydra
+  - dynaconf
+  ## Advanced
+  - pybind11
+  - Cython
+  - Performance tips
 ---
 # Python
 [Python](https://www.pirahansiah.com/contents/public/python)

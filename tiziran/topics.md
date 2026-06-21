@@ -7,6 +7,18 @@ tags: [AI, OpenCV, camera-calibration, DRL, FarshidPirahansiah]
 description: "Topics and projects covering AI, OpenCV, camera calibration, deep reinforcement learning, and more."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/topics-and-projects"
+markmap: |
+  # Topics & Projects
+  ## AI & Machine Learning
+  - AI Hub, ChatGPT, DRL, Hardware, Quantum Computing
+  ## Computer Vision
+  - Camera Calibration, Video Tracking, Apple CoreML
+  ## Getting Started
+  - Learning roadmap, YouTube, Software, IP Roadmap
+  ## Source Code
+  - OpenCV, Compile Guide
+  ## Career
+  - Resume/CV, Startup
 ---
 
 # Topics & Projects

@@ -8,6 +8,21 @@ description: "Comprehensive optimization guide covering DL model optimization, C
 excerpt: "Optimize deep learning and computer vision systems: model compression, hardware acceleration, data strategies, and frameworks."
 author: "Dr. Farshid Pirahansiah"
 permalink: /contents/public/Optimization/
+markmap: |
+  # CV/DL/ML Optimization
+  ## Model Optimization
+  - Quantization
+  - Pruning
+  - Distillation
+  ## Hardware Acceleration
+  - GPU/TPU
+  - CUDA/TensorRT
+  ## Data Handling
+  - Augmentation
+  - Preprocessing
+  ## Tuning
+  - Overfitting vs Underfitting
+  - Regularization
 ---
 # Optimization 
 

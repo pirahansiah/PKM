@@ -10,6 +10,23 @@ seo_description: "Research on grid computing infrastructure deployment and perfo
 keywords: [grid computing, distributed computing, Tafresh University, cluster computing, HPC]
 title: "TafreshGrid: Grid Computing at Tafresh University"
 date: 2024-10-19
+markmap: |
+  # TafreshGrid
+  ## Project Phases
+  - Implementation
+  - Development
+  - Expansion
+  ## Infrastructure
+  - Networking
+  - Distributed Resources
+  - Globus Toolkit
+  ## Software
+  - Globus 5.0.1
+  - Linux (Debian)
+  - Security Setup
+  ## Testing
+  - Network Testing
+  - Performance Evaluation
 ---
 
 

@@ -8,6 +8,19 @@ description: "Quick reference for shell basics, vim commands, and essential deve
 excerpt: "Shell essentials: echo, pipes, redirects, vim basics, and must-know CLI tools for efficient development."
 author: "Dr. Farshid Pirahansiah"
 permalink: /contents/public/shell-vim-quickref/
+markmap: |
+  # Shell & Vim
+  ## Shell Basics
+  - Echo & Variables
+  - Navigation
+  - Pipes
+  ## Tools
+  - tldr
+  - ripgrep
+  - fzf
+  ## Vim
+  - Modes
+  - Navigation
 ---
 
 - [NeoHtop](https://github.com/Abdenasser/neohtop)

@@ -7,6 +7,16 @@ tags: [RISC-V, edge-AI, processor, FarshidPirahansiah]
 description: "RISC-V ecosystem overview: open-source processor architecture for AI at the edge."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/workshops-and-events/risc-v"
+markmap: |
+  # RISC-V for AI
+  ## Architecture
+  - Open-source ISA
+  ## Edge AI
+  - Low-power processors
+  ## Hardware
+  - HiFive1 Rev B
+  ## Resources
+  - riscv.org, summits, courses
 ---
 
 # RISC-V for AI

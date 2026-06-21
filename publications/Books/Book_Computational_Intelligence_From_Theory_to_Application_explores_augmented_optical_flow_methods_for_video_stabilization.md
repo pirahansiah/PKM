@@ -22,6 +22,17 @@ footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
 
 title: "My Book: Computational Intelligence: From Theory to Application explores augmented optical flow methods for video stabilization, focusing on eliminating jitter and improving image clarity"
 date: 2024-10-18
+markmap: |
+  # Augmented Optical Flow for Video Stabilization
+  ## Method: T2FGPOF
+  - Type-2 Fuzzy Gaussian Pyramid
+  - Adaptive parameters via fuzzy logic
+  ## Results
+  - MPI Sintel benchmark
+  - Outperforms Farneback's method
+  ## Applications
+  - Mobile robot vision
+  - Motion blur reduction
 ---
 Book_Computational_Intelligence_From_Theory_to_Application_explores_augmented_optical_flow_methods_for_video_stabilization
 

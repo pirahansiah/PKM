@@ -7,6 +7,14 @@ tags: [IoT, embedded, edge-AI, FarshidPirahansiah]
 description: "Embedded IoT workshop notes covering edge computing and IoT applications."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/workshops-and-events/embedded-iot"
+markmap: |
+  # Embedded IoT
+  ## Edge Computing
+  - On-device inference
+  ## IoT Systems
+  - Sensors, actuators, connectivity
+  ## Applications
+  - Smart devices, industrial IoT
 ---
 
 # Embedded IoT

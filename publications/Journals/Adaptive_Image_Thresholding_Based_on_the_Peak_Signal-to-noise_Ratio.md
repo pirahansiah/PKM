@@ -25,6 +25,22 @@ footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
 
 title: "Adaptive Image Thresholding Based on the Peak Signal-to-noise Ratio"
 date: 2024-10-15
+markmap: |
+  # Adaptive Thresholding with PSNR
+  ## Thresholding Methods
+  - Single Thresholding
+  - Multilevel Thresholding
+  - Otsu's Method
+  ## PSNR-Based Approach
+  - Quality Measurement
+  - Optimal Threshold Selection
+  ## Applications
+  - License Plate Recognition
+  - Handwriting Recognition
+  - Mobile Devices
+  ## Results
+  - F-Measure Evaluation
+  - Comparative Analysis
 ---
 Adaptive_Image_Thresholding_Based_on_the_Peak_Signal-to-noise_Ratio
 

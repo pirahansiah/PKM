@@ -7,6 +7,24 @@ tags: [LLM, RAG, embeddings, knowledge-graphs, multimodal, function-calling]
 description: "Comprehensive mind map covering advanced LLM concepts including RAG, embeddings, multimodal models, and production deployment."
 excerpt: "Visual guide to advanced LLM topics: function calling, RAG, knowledge graphs, multimodal models, and productionizing LLMs."
 author: "Dr. Farshid Pirahansiah"
+markmap: |
+  # Advanced LLM Concepts
+  ## Agent Systems
+  - Orchestrator
+  - Function Calling
+  - Task Decomposition
+  ## RAG & Embeddings
+  - Knowledge Graphs
+  - pgvector
+  - Embedding Models
+  ## Multimodal LLMs
+  - VisionLLM
+  - NVLM
+  - Qwen2-VL
+  ## Production
+  - LLM + RAG
+  - LLM + IoT
+  - Cost Optimization
 ---
 
 <img src="/contents/public/images/Advanced LLM Concepts.png" alt="Mind Map Advanced LLM Concepts" style="max-width: 100%; height: auto;">

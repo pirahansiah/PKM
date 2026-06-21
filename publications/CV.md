@@ -7,6 +7,18 @@ description: "Dr. Farshid Pirahansiah's curriculum vitae: 21 publications, 3 pat
 excerpt: "Full CV covering 12+ years of computer vision R&D, 21 publications, 3 patents, and expertise in C++, Python, OpenCV, and GPU optimization."
 author: "Dr. Farshid Pirahansiah"
 featured: true
+markmap: |
+  # CV — Dr. Farshid Pirahansiah
+  ## Publications & Patents
+  - 21 publications, 3 patents
+  - 137 citations, h-index 7
+  ## Expertise
+  - Computer Vision & AI
+  - OpenCV, C++, Python
+  - Edge & cloud deployment
+  ## Hardware
+  - Axelera, Hailo, FPGA
+  - Raspberry Pi, Jetson
 ---
 
 As an AI and computer vision expert with over a decade of experience collaborating with esteemed global organizations, my expertise encompasses AI research and development, machine learning, deep learning, Internet of Things (IoT), and model optimization for edge and cloud-based solutions. With a portfolio of 21 publications, three patents, and extensive practical experience in real-time computer vision applications, I have spearheaded groundbreaking projects in generative AI, video analytics, and intelligent systems. Proficient in C++, Python, OpenCV, and advanced GPU optimization, I am recognized for bridging the gap between cutting-edge research and commercially viable products.

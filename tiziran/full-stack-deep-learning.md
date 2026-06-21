@@ -7,6 +7,16 @@ tags: [FSDL, full-stack-deep-learning, FarshidPirahansiah]
 description: "Notes from Full Stack Deep Learning course (2021) covering ML production, data lifecycle, modeling pipelines, and deployment."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/courses/full-stack-deep-learning"
+markmap: |
+  # Full Stack Deep Learning
+  ## Underfitting
+  - Bigger model, reduce regularization
+  ## Overfitting
+  - More data, augmentation, dropout
+  ## Production
+  - Data, training, deployment
+  ## Best Practices
+  - Error analysis, hyperparameter tuning
 ---
 
 # Full Stack Deep Learning

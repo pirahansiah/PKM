@@ -7,6 +7,16 @@ tags: [ML, Coursera, machine-learning-specialization, FarshidPirahansiah]
 description: "Notes from Coursera Machine Learning Specialization (2022) covering regression, classification, clustering, and neural networks."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/courses/machine-learning-specialization"
+markmap: |
+  # ML Specialization 2022
+  ## Supervised Learning
+  - Regression, classification
+  ## Neural Networks
+  - Architecture, training
+  ## Unsupervised Learning
+  - Clustering, anomaly detection, recommenders
+  ## Retrieval
+  - KNN, KD-trees, LSH, K-means, LDA
 ---
 
 # Machine Learning Specialization 2022

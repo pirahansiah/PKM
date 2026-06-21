@@ -8,6 +8,21 @@ description: "Quick reference for C++ memory management (stack vs heap), data st
 excerpt: "Concise C++ cheat sheet covering memory management, STL containers, debugging with valgrind/fsanitize, and Linux essentials."
 author: "Dr. Farshid Pirahansiah"
 permalink: /contents/public/CPP/
+markmap: |
+  # C++ Quick Reference
+  ## Memory
+  - Stack vs Heap
+  - Pointers
+  ## Data Structures
+  - std::map
+  - std::stack
+  - std::queue
+  ## Tools
+  - Valgrind
+  - Debugging
+  ## Shell Basics
+  - Paths
+  - Pipes
 ---
 
 C++

@@ -25,6 +25,23 @@ footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
 
 title: "PEAK SIGNAL-TO-NOISE RATIO BASED ON THRESHOLD METHOD FOR IMAGE SEGMENTATION"
 date: 2024-10-18
+markmap: |
+  # PSNR Threshold Method
+  ## Thresholding Techniques
+  - Single Thresholding
+  - Multilevel Thresholding
+  - Multi-Thresholding
+  - Otsu's Method
+  ## PSNR Algorithm
+  - Calculate PSNR per Threshold
+  - Select Maximum PSNR
+  ## Results
+  - DIBCO 2011 Dataset
+  - F-Measure Evaluation
+  ## Applications
+  - Automated Visual Inspection
+  - License Plate Recognition
+  - Mobile Devices
 ---
 PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION
 

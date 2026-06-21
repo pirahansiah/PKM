@@ -3,6 +3,33 @@ layout: farshid_page
 permalink: /
 title: Computer Vision
 parent: MainPage
+markmap: |
+  # Dr. Farshid Pirahansiah
+  ## Computer Vision & AI
+  ### 3D Vision
+  - Multi-Camera Systems
+  - Optical Flow
+  - Point Clouds
+  ### AI & LLMs
+  - RAG
+  - Multimodal
+  - Agents
+  ## CUDA & GPU
+  - Numba JIT
+  - PyCUDA
+  - MLX / CoreML
+  ## Programming
+  - C++ Quick Ref
+  - Python Config
+  - Shell & Vim
+  ## Optimization
+  - Quantization
+  - Pruning
+  - Edge AI
+  ## Career
+  - Startup Guide
+  - 3 Patents
+  - 17+ Papers
 ---
 
 # Dr. Farshid Pirahansiah

@@ -4,6 +4,24 @@ title: All Links — pirahansiah.com
 tags: pkm links portfolio publications content
 categories: reference
 updated: 2025-06-21
+markmap: |
+  # Link Index
+  ## Landing & Profile
+  - Home, Coaching, Resources
+  ## CV & 3D
+  - 3D Vision, Optical Flow
+  - Multi-Camera Systems
+  ## AI & LLMs
+  - Advanced Concepts
+  - Orchestrating Agents
+  - Avatar Generator
+  ## CUDA & GPU
+  - Numba JIT, PyCUDA
+  - VS Code Setup
+  - MLX/CoreML/Metal
+  ## Publications
+  - Patents, Papers
+  - Journals, Books
 ---
 
 # Pirahansiah.com — Complete Link Index

@@ -10,6 +10,21 @@ seo_title: "2D versus 3D Map for Environment Movement Objects"
 seo_description: "Research comparing 2D and 3D mapping techniques for detecting and tracking moving objects in environments."
 title: "2D versus 3D Map for Environment Movement Objects"
 date: 2024-10-18
+markmap: |
+  # 2D vs 3D Mapping
+  ## Object Detection
+  - Rotation Issues
+  - Scaling Problems
+  ## 3D Mapping Algorithms
+  - Scale Management
+  - Position Tracking
+  - Orientation Handling
+  ## Experiments
+  - Accuracy Comparison
+  - Environmental Challenges
+  ## Results
+  - 3D Superior Performance
+  - Better Rotation Handling
 ---
 
 

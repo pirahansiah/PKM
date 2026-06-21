@@ -8,6 +8,19 @@ description: "How to optimize websites for LLM-powered search engines using stru
 excerpt: "Modern SEO strategies for LLM-driven search: JSON-LD schema, Q&A formatting, authority signals, and AI visibility tracking."
 author: "Dr. Farshid Pirahansiah"
 permalink: /contents/public/SEO/
+markmap: |
+  # SEO for LLMs
+  ## Structured Data
+  - JSON-LD
+  - Schema markup
+  ## Content Strategy
+  - AI-friendly content
+  - Q&A format
+  ## Authority
+  - Citations
+  - Backlinks
+  ## Monitoring
+  - AI visibility tracking
 ---
 
 

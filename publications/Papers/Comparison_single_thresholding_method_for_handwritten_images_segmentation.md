@@ -10,6 +10,21 @@ seo_description: "Research comparing thresholding approaches for handwritten ima
 keywords: [thresholding, handwritten images, segmentation, image processing, document analysis]
 title: "Comparison Single Thresholding Method for Handwritten Images Segmentation"
 date: 2024-10-19
+markmap: |
+  # Single Thresholding Comparison
+  ## Methods
+  - Otsu's Method
+  - PSNR-Based Thresholding
+  - Multi-Level Thresholding
+  ## Proposed Method
+  - PSNR Quality Measurement
+  - Object-Background Separation
+  ## Results
+  - Better PSNR Values
+  - Handwritten Image Optimization
+  ## Applications
+  - OCR Systems
+  - Mobile Devices
 ---
 
 

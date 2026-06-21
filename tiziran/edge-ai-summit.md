@@ -7,6 +7,16 @@ tags: [edge-AI, summit, tinyML, FarshidPirahansiah]
 description: "Edge AI Summit 2020 notes: tinyML, predictive maintenance, neuromorphic computing, and edge inference."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/workshops-and-events/edge-ai-summit"
+markmap: |
+  # Edge AI Summit 2020
+  ## Day 1
+  - Predictive maintenance, TinyML, neuromorphic
+  ## Day 2
+  - Google Coral, Flex Logix, Walmart edge
+  ## Day 3
+  - Spatial computing, sparsity, AI accelerators
+  ## Key Themes
+  - Low-power inference, edge-cloud synergy
 ---
 
 # Edge AI Summit 2020 (Nov 18-20)

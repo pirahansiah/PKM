@@ -7,6 +7,14 @@ tags: [metaverse, XR, spatial-computing, FarshidPirahansiah]
 description: "Metaverse and extended reality workshop covering spatial computing and immersive technologies."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/workshops-and-events/metaverse"
+markmap: |
+  # Metaverse & XR
+  ## Extended Reality
+  - VR, AR, MR
+  ## Spatial Computing
+  - 3D environments, immersive tech
+  ## Workshop
+  - Hands-on XR applications
 ---
 
 # Metaverse & XR

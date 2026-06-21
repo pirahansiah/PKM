@@ -22,6 +22,17 @@ footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
 
 title: "My book chapter titled “Camera Calibration and Video Stabilization Framework for Robot Localization” in the Book entitled “Control Engineering in Robotics and Industrial Automation" published in Springer. "
 date: 2024-10-18
+markmap: |
+  # Camera Calibration & Video Stabilization
+  ## Framework
+  - Fuzzy Camera Calibration (FCC)
+  - Fuzzy Optical Flow (FOF)
+  ## Experiments
+  - DARWIN-OP humanoid robot
+  - Stereo vision localization
+  ## Results
+  - 15% lower error vs Zhang's method
+  - Applicable to AR and autonomous vehicles
 ---
 
 My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization  in the Book entitled “Control Engineering in Robotics and Industrial Automation" published in Springer

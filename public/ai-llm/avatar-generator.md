@@ -7,6 +7,22 @@ tags: [avatar, Ollama, Wav2Lip, Piper-TTS, Whisper, local-AI]
 description: "Build a fully local video avatar generator using Ollama LLM, Piper TTS, and Wav2Lip without cloud services."
 excerpt: "Step-by-step guide to creating talking video avatars locally using open-source LLM, TTS, and lip-sync models."
 author: "Dr. Farshid Pirahansiah"
+markmap: |
+  # Local Video Avatar Generator
+  ## Pipeline
+  - Ollama LLM for script generation
+  - Piper TTS for speech synthesis
+  - Wav2Lip for lip-sync animation
+  ## Requirements
+  - 8GB+ VRAM GPU
+  - 16GB+ RAM
+  - Local-only, no cloud APIs
+  ## Optional
+  - Whisper for captions
+  - FFmpeg for video processing
+  ## Setup
+  - Install Ollama + Piper + Wav2Lip
+  - Python pipeline script
 ---
 
 

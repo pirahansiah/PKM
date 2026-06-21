@@ -10,6 +10,21 @@ seo_description: "Research on character recognition approaches using global feat
 keywords: [character recognition, global feature, OCR, pattern recognition, image processing]
 title: "Character Recognition Based on Global Feature"
 date: 2024-10-19
+markmap: |
+  # Character Recognition
+  ## Feature Extraction
+  - GLCM (Texture)
+  - EDMS (Edge Directions)
+  ## Proposed Method
+  - Hybrid GLCM + EDMS
+  - Improved Accuracy
+  ## Classifiers
+  - Neural Networks
+  - Bayesian Networks
+  - Decision Trees
+  ## Results
+  - Binary Character Images
+  - Outperforms Individual Methods
 ---
 
 Character_Recognition_Based_on_Global_Feature

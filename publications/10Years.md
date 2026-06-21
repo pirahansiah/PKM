@@ -7,6 +7,19 @@ description: "Dr. Farshid Pirahansiah's lessons learned from 10+ years of debugg
 excerpt: "Hard-won lessons from a decade of building production computer vision systems — debugging strategies and war stories."
 author: "Dr. Farshid Pirahansiah"
 featured: true
+markmap: |
+  # 10 Years of CV Debugging
+  ## Lessons Learned
+  - Floating point pitfalls
+  - Background subtraction
+  - Stereo depth mapping
+  ## Techniques
+  - Resize: INTER_LANCZOS4, INTER_AREA
+  - Camera calibration & stereo
+  - Temporal constraints in video
+  ## Tools
+  - OpenCV, VLLM
+  - WSL portable dev setup
 ---
 #ComputerVision_Edge_AI
 High-Accuracy Real-Time Medical Image Processing on Embedded Systems
