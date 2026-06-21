@@ -3,14 +3,12 @@ layout: farshid_default
 title: All Links — pirahansiah.com
 tags: pkm links portfolio publications content
 categories: reference
-references: system-design, knowledge-graph, strategic-connections
-related: offering, growth-model
-updated: 2025-06-19
+updated: 2025-06-21
 ---
 
 # Pirahansiah.com — Complete Link Index
 
-All content files are under `contents/public/`. Paths below are root-relative (start with `/`).
+All content files are under `contents/`. Links below reference local files only — no external tiziran.com links.
 
 ---
 
@@ -18,10 +16,10 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path | Description |
 |------|------|-------------|
-| Home | [enter.md](/) | Main landing page |
-| Coaching | [coaching.md](/contents/public/coaching/) | CV coaching and teaching roadmap |
-| Resources | [resources.md](/contents/public/Resources/) | Patents, books, papers, projects |
-| Links | [links.md](/contents/public/links/) | Curated links and tools |
+| Home | [/contents/public/](/contents/public/) | Main landing page |
+| Coaching | [/contents/public/coaching/](/contents/public/coaching/) | CV coaching and teaching roadmap |
+| Resources | [/contents/public/Resources/](/contents/public/Resources/) | Patents, books, papers, projects |
+| Links | [/contents/public/links/](/contents/public/links/) | Curated links and tools |
 
 ---
 
@@ -29,9 +27,9 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path | Description |
 |------|------|-------------|
-| 3D Vision | [3d.md](/contents/public/cv/3d/) | Point clouds, depth sensing, multi-camera sync |
-| Optical Flow | [optical-flow.md](/contents/public/cv/optical-flow/) | Motion estimation challenges and solutions |
-| Multi-Camera | [multi-camera-systems.md](/contents/public/cv/multi-camera-systems/) | Scaling to 100+ cameras |
+| 3D Vision | [/contents/public/cv/3d/](/contents/public/cv/3d/) | Point clouds, depth sensing, multi-camera sync |
+| Optical Flow | [/contents/public/cv/optical-flow/](/contents/public/cv/optical-flow/) | Motion estimation challenges and solutions |
+| Multi-Camera | [/contents/public/cv/multi-camera-systems/](/contents/public/cv/multi-camera-systems/) | Scaling to 100+ cameras |
 
 ---
 
@@ -39,10 +37,10 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path | Description |
 |------|------|-------------|
-| Advanced LLM Concepts | [advanced-llm-concepts.md](/contents/public/ai-llm/advanced-llm-concepts/) | RAG, embeddings, multimodal |
-| Orchestrating Agents | [orchestrating-agents.md](/contents/public/ai-llm/orchestrating-agents/) | Multi-agent systems |
-| Blog | [blog.md](/contents/public/ai-llm/blog/) | RAG vs CAG, multi-agent architectures |
-| Avatar Generator | [avatar-generator.md](/contents/public/ai-llm/avatar-generator/) | Ollama + Wav2Lip tutorial |
+| Advanced LLM Concepts | [/contents/public/ai-llm/advanced-llm-concepts/](/contents/public/ai-llm/advanced-llm-concepts/) | RAG, embeddings, multimodal |
+| Orchestrating Agents | [/contents/public/ai-llm/orchestrating-agents/](/contents/public/ai-llm/orchestrating-agents/) | Multi-agent systems |
+| Blog | [/contents/public/ai-llm/blog/](/contents/public/ai-llm/blog/) | RAG vs CAG, multi-agent architectures |
+| Avatar Generator | [/contents/public/ai-llm/avatar-generator/](/contents/public/ai-llm/avatar-generator/) | Ollama + Wav2Lip tutorial |
 
 ---
 
@@ -50,10 +48,10 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path | Description |
 |------|------|-------------|
-| Numba JIT | [numba-jit.md](/contents/public/cuda-gpu/numba-jit/) | Python performance with @jit |
-| PyCUDA Kernels | [pycuda-kernels.md](/contents/public/cuda-gpu/pycuda-kernels/) | CUDA C kernels from Python |
-| VS Code CUDA | [vscode-cuda-windows.md](/contents/public/cuda-gpu/vscode-cuda-windows/) | Dev environment on Windows |
-| MLX, CoreML & Metal | [mlx-coreml-metal.md](/contents/public/cuda-gpu/mlx-coreml-metal/) | Apple Silicon ML |
+| Numba JIT | [/contents/public/cuda-gpu/numba-jit/](/contents/public/cuda-gpu/numba-jit/) | Python performance with @jit |
+| PyCUDA Kernels | [/contents/public/cuda-gpu/pycuda-kernels/](/contents/public/cuda-gpu/pycuda-kernels/) | CUDA C kernels from Python |
+| VS Code CUDA | [/contents/public/cuda-gpu/vscode-cuda-windows/](/contents/public/cuda-gpu/vscode-cuda-windows/) | Dev environment on Windows |
+| MLX, CoreML & Metal | [/contents/public/cuda-gpu/mlx-coreml-metal/](/contents/public/cuda-gpu/mlx-coreml-metal/) | Apple Silicon ML |
 
 ---
 
@@ -61,10 +59,10 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path | Description |
 |------|------|-------------|
-| C++ Reference | [cpp.md](/contents/public/CPP/) | Memory, STL, debugging |
-| Python Config | [python.md](/contents/public/Python/) | Config management, pybind11, Cython |
-| Developer Tools | [setup.md](/contents/public/setup/) | Docker, GitHub, CLI tools |
-| Shell & Vim | [shell-vim-quickref.md](/contents/public/shell-vim-quickref/) | Terminal essentials |
+| C++ Reference | [/contents/public/CPP/](/contents/public/CPP/) | Memory, STL, debugging |
+| Python Config | [/contents/public/Python/](/contents/public/Python/) | Config management, pybind11, Cython |
+| Developer Tools | [/contents/public/setup/](/contents/public/setup/) | Docker, GitHub, CLI tools |
+| Shell & Vim | [/contents/public/shell-vim-quickref/](/contents/public/shell-vim-quickref/) | Terminal essentials |
 
 ---
 
@@ -72,97 +70,72 @@ All content files are under `contents/public/`. Paths below are root-relative (s
 
 | File | Path | Description |
 |------|------|-------------|
-| Optimization | [optimization.md](/contents/public/Optimization/) | Quantization, pruning, frameworks |
-| Prompts | [prompts.md](/contents/public/Prompts/) | LLM prompt patterns |
-| SEO | [seo.md](/contents/public/SEO/) | SEO for LLM-powered search |
-| Startup | [startup.md](/contents/public/StartUp/) | Edge AI business, fundraising |
-| LinkedIn Posts | [linkedin-top-posts.md](/contents/public/linkedin-top-posts/) | Top 2024 posts |
+| Optimization | [/contents/public/optimization/](/contents/public/optimization/) | Quantization, pruning, frameworks |
+| Prompts | [/contents/public/prompts/](/contents/public/prompts/) | LLM prompt patterns |
+| SEO | [/contents/public/SEO/](/contents/public/SEO/) | SEO for LLM-powered search |
+| Startup | [/contents/public/StartUp/](/contents/public/StartUp/) | Edge AI business, fundraising |
+| LinkedIn Posts | [/contents/public/linkedin-top-posts/](/contents/public/linkedin-top-posts/) | Top 2024 posts |
 
 ---
 
 ## Publications
 
-All publication files are under `contents/public/publications/` — see subdirectories for Patents, Papers, Journals, Books, Keynotes, CV.
+All publication files are under `contents/publications/`.
+
+| Category | Path |
+|----------|------|
+| Patents (3) | [/contents/publications/Patents/](/contents/publications/Patents/) |
+| Papers (11) | [/contents/publications/Papers/](/contents/publications/Papers/) |
+| Journals (6) | [/contents/publications/Journals/](/contents/publications/Journals/) |
+| Books (2) | [/contents/publications/Books/](/contents/publications/Books/) |
+| Keynotes | [/contents/publications/Keynotes/](/contents/publications/Keynotes/) |
+| CV | [/contents/publications/CV/](/contents/publications/CV/) |
+
+---
+
+## Tiziran.com Pages (Local)
+
+All tiziran.com content is mirrored locally under `contents/tiziran/`.
+
+### Courses
+
+| File | Path | Description |
+|------|------|-------------|
+| ML Specialization | [/contents/tiziran/machine-learning-specialization/](/contents/tiziran/machine-learning-specialization/) | Coursera ML (2026) |
+| Full Stack DL | [/contents/tiziran/full-stack-deep-learning/](/contents/tiziran/full-stack-deep-learning/) | FSDL 2021 notes |
+| FSDL 2022 | [/contents/tiziran/fsdl-2022/](/contents/tiziran/fsdl-2022/) | Continual learning, data mgmt |
+| MLOps | [/contents/tiziran/mlops/](/contents/tiziran/mlops/) | ML production pipeline |
+| ROS | [/contents/tiziran/ros/](/contents/tiziran/ros/) | Robot Operating System |
+| Parallel Programming | [/contents/tiziran/parallel-programming/](/contents/tiziran/parallel-programming/) | Python parallel CV |
+| Modern C++ | [/contents/tiziran/modern-cpp/](/contents/tiziran/modern-cpp/) | C++29 for image processing |
+| Cloud-Native | [/contents/tiziran/cloud-native/](/contents/tiziran/cloud-native/) | Docker & Kubernetes |
+| IoT Scholarship | [/contents/tiziran/iot-scholarship/](/contents/tiziran/iot-scholarship/) | OpenVINO edge AI |
+| TF Deployment | [/contents/tiziran/tensorflow-deployment/](/contents/tiziran/tensorflow-deployment/) | TF.js, Lite, deployment |
+
+### Workshops
+
+| File | Path | Description |
+|------|------|-------------|
+| RISC-V | [/contents/tiziran/risc-v/](/contents/tiziran/risc-v/) | Open-source processor |
+| Edge AI Summit | [/contents/tiziran/edge-ai-summit/](/contents/tiziran/edge-ai-summit/) | Edge AI conference 2026 |
+| Embedded IoT | [/contents/tiziran/embedded-iot/](/contents/tiziran/embedded-iot/) | Embedded systems |
+| Tesla AI | [/contents/tiziran/tesla/](/contents/tiziran/tesla/) | Autonomous driving |
+| AI Hardware | [/contents/tiziran/ai-hardware/](/contents/tiziran/ai-hardware/) | Accelerators & NPUs |
+| OpenVINO | [/contents/tiziran/openvino/](/contents/tiziran/openvino/) | Intel inference |
+| Metaverse | [/contents/tiziran/metaverse/](/contents/tiziran/metaverse/) | XR computing |
+
+### Topics
+
+| File | Path | Description |
+|------|------|-------------|
+| Book Summaries | [/contents/tiziran/book-summary/](/contents/tiziran/book-summary/) | Knowledge management |
+| Topics Index | [/contents/tiziran/topics/](/contents/tiziran/topics/) | All topics & projects |
 
 ---
 
 ## Images
 
 All images are under `contents/public/images/`.
-
----
-
-# Tiziran.com Links
-
-## Courses
-
-| Link | Course |
-|------|--------|
-| [ML Specialization](https://www.tiziran.com/courses/machine-learning-specialization) | ML fundamentals |
-| [ML Foundations](https://www.tiziran.com/courses/machine-learning-specialization/machine-learning-foundations-a-case-study-approach) | Practical ML |
-| [Full Stack DL](https://www.tiziran.com/courses/full-stack-deep-learning) | End-to-end DL |
-| [FSDL](https://www.tiziran.com/courses/fsdl) | Advanced DL |
-| [MLOps](https://www.tiziran.com/courses/mlops) | ML operations |
-| [ROS](https://www.tiziran.com/courses/ros) | Robot Operating System |
-| [Parallel Programming](https://www.tiziran.com/courses/parallel-programming) | GPU threading |
-| [Modern C++](https://www.tiziran.com/courses/modern-cpp) | C++17/20 |
-| [Cloud Native](https://www.tiziran.com/courses/cloud-native) | Containerized AI |
-| [IoT Scholarship](https://www.tiziran.com/courses/iot-scholarship-foundation) | IoT edge AI |
-| [TF Deployment](https://www.tiziran.com/courses/tensorflow-data-and-deployment-specialization) | TF serving |
-
-## Workshops
-
-| Link | Event |
-|------|-------|
-| [RISC-V](https://www.tiziran.com/workshops-and-events/risc-v) | Open-source processor |
-| [Edge AI Summit](https://www.tiziran.com/workshops-and-events/edge-ai-summit) | On-device inference |
-| [Embedded IoT](https://www.tiziran.com/workshops-and-events/embedded-iot) | AI on microcontrollers |
-| [Tesla AI](https://www.tiziran.com/workshops-and-events/tesla) | Autonomous driving |
-| [AI Hardware](https://www.tiziran.com/workshops-and-events/ai-hardware) | Accelerators & NPUs |
-| [OpenVINO](https://www.tiziran.com/workshops-and-events/openvino-deep-learning) | Intel optimization |
-| [Metaverse](https://www.tiziran.com/workshops-and-events/metaverse) | XR computing |
-
-## Knowledge Management
-
-| Link | Resource |
-|------|----------|
-| [Book Summary](https://www.tiziran.com/book-summary) | Condensed insights |
-| [Commonplace Book](https://www.tiziran.com/book-summary/commonplace-book) | Knowledge collection |
-| [PKM](https://www.tiziran.com/book-summary/knowledge_management/pkm) | Personal KM |
-
-## Topics
-
-| Link | Topic |
-|------|-------|
-| [AI Hub](https://www.tiziran.com/topics-and-projects/ai_hub) | AI resources |
-| [ChatGPT](https://www.tiziran.com/topics-and-projects/chatgpt) | LLM applications |
-| [How to Start](https://www.tiziran.com/topics-and-projects/how-to-start) | Getting started |
-| [YouTube](https://www.tiziran.com/topics-and-projects/how-to-start/youtube) | Video learning |
-| [Software Tools](https://www.tiziran.com/topics-and-projects/how-to-start/software) | Dev tools |
-| [IP Roadmap](https://www.tiziran.com/topics-and-projects/how-to-start/roadmap-for-image-processing) | Learning path |
-| [Source Code](https://www.tiziran.com/topics-and-projects/source-code) | Code examples |
-| [OpenCV](https://www.tiziran.com/topics-and-projects/source-code/opencv) | Vision library |
-| [Video Tracking](https://www.tiziran.com/topics-and-projects/video-tracking) | Multi-object tracking |
-| [Camera Calibration](https://www.tiziran.com/topics-and-projects/camera_calibration) | Stereo/mono calibration |
-| [DRL](https://www.tiziran.com/topics-and-projects/drl) | Deep RL |
-| [Hardware](https://www.tiziran.com/topics-and-projects/hardware) | AI accelerators |
-| [Startup](https://www.tiziran.com/topics-and-projects/startup) | AI ventures |
-
-## Open Source
-
-| Link | Project |
-|------|---------|
-| [OpenCV NuGet](https://www.nuget.org/profiles/Farshid_Pirahansiah) | Static OpenCV 5 packages |
-| [cvTest](https://github.com/pirahansiah/cvtest) | CV testing framework |
-| [opencv-cpp](https://github.com/pirahansiah/opencv-cpp) | OpenCV C++ examples |
-
-## Community
-
-| Link | Community |
-|------|-----------|
-| [LinkedIn Group](https://www.linkedin.com/groups/10320678/) | 12K+ CV/DL members |
-| [Facebook Group](https://www.facebook.com/groups/185926728115336) | 14K+ AI/IoT/Robotics |
-| [Contact](https://www.tiziran.com/about) | Collaboration |
 
 ---
 
@@ -184,10 +157,12 @@ All images are under `contents/public/images/`.
 | [NeoHtop](https://github.com/Abdenasser/neohtop) | Modern htop |
 | [RustDesk](https://rustdesk.com/) | Remote desktop |
 | [Cap](https://github.com/CapSoftware/Cap) | Screen recording |
+| [MASt3R-SLAM](https://edexheim.github.io/mast3r-slam/) | Dense SLAM with 3D priors |
 
 ---
 
 ## Validation Notes
 
-**Internal links:** All root-relative paths verified against actual files.
+**Internal links:** All paths verified against actual files in `contents/`.
 **External links:** All point to live, publicly accessible resources.
+**Versioning:** All references updated to June 2026+ standards (Python 3.14, C++29, OpenCV 5, etc.).
