@@ -22,118 +22,65 @@ markmap: |
   - Mac setup
 ---
 
+# Curated Links & Resources
 
-- [Notion](https://pirahansiah.notion.site/Farshid-110c40b5518a44c7ac3909ed6b705ef7?source=copy_link)
+Hand-picked tools, tutorials, and references for computer vision, AI, and software engineering.
 
-### CV
-- This project is an image viewer built using Qt6, C++, and Vulkan. It supports BMP, PNG, and JPG images and provides essential viewing features such as pan, zoom, and scrolling. The application utilizes Vulkan for rendering and implements custom shaders for efficient image processing.
--[Vulkan C++ Qt Image viewer](https://github.com/HosseinAssaran/VulkanImageViewer)
+## Computer Vision
+- [Vulkan C++ Qt Image Viewer](https://github.com/HosseinAssaran/VulkanImageViewer) — Image viewer built with Qt6, C++, and Vulkan for real-time rendering.
 
+## CUDA & GPU
+- [CUDA Python Introduction](https://www.pyspur.dev/blog/introduction_cuda_programming) — Getting started with CUDA from Python.
+- [CUDA Programming Guide (PDF)](https://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf) — Official NVIDIA documentation.
+- [GPU Architecture Overview](https://cvw.cac.cornell.edu/gpu-architecture) — Cornell's GPU computing resource.
+- [CUDA Flash Attention Algorithms](https://github.com/Maharshi-Pandya/cudacodes) — Implementation of flash attention in CUDA.
+- [LeetGPU](https://leetgpu.com) — GPU programming practice platform.
+- [CUDA YouTube Playlist](https://www.youtube.com/playlist?list=PL1ysOEBe5977vlocXuRt6KBCYu_sdu1Ru) — Video tutorials on CUDA programming.
 
-### tips
-- [get markdown from url](https://r.jina.ai/YOUR_URL)
-- [A simple SSH host manager in terminal](https://github.com/rayx/pickhost)
+## Python
+- [Pydoll](https://github.com/autoscrape-labs/pydoll) — Browser automation without WebDriver.
+- [Hyperdiv](https://hyperdiv.io) — Python GUI framework.
+- [Python Multithreading Tutorial](https://www.youtube.com/watch?v=fK72KDAWV38&list=PLs6THB5KHWo2k0OdWXbu_pB_0n2KzpGC1&index=7) — Concurrent programming in Python.
+- [Python Data Structures](https://www.youtube.com/watch?v=GnZ9ppr_zaI&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=16) — Essential data structures explained.
 
-### Code
-- python gui: https://hyperdiv.io
-- Python Multithreading (3/25) : https://www.youtube.com/watch?v=fK72KDAWV38&list=PLs6THB5KHWo2k0OdWXbu_pB_0n2KzpGC1&index=7 
-- data structure python : 20: https://www.youtube.com/watch?v=GnZ9ppr_zaI&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=16
-- [ollama-vision]( https://github.com/codearrangertoo/ollama-vision/blob/main/llava/Dockerfile )
-- [RAG notebook IBM](https://github.com/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/RAG/Granite_Multimodal_RAG.ipynb)Building an AI-powered multimodal RAG system with Docling and Granite
-- 
-### FPGA
+## AI & LLMs
+- [Multimodal RAG with Granite](https://github.com/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/RAG/Granite_Multimodal_RAG.ipynb) — IBM's notebook on building RAG systems.
+- [MCP Server & Client Webinar](https://www.youtube.com/watch?v=tT3zTPxGzTg) — Building Model Context Protocol servers.
+- [AdaptiveCpp GPU Programming](https://www.youtube.com/watch?v=ImM7f5IQOaw) — 68x faster C++ GPU programming.
 
-- [Introduction to FPGA Part 11 - RISC-V Softcore Processor | Digi-Key Electronics](https://www.youtube.com/watch?v=gJno9TloDj8)
+## FPGA
+- [Introduction to FPGA Part 11 — RISC-V Softcore Processor](https://www.youtube.com/watch?v=gJno9TloDj8) — Digi-Key's FPGA tutorial series.
 
+## Startup & Business
+- [How to Start a Startup (21 videos)](https://www.youtube.com/watch?v=CBYhVcO4WgI&list=PL5q_lef6zVkaTY_cT1k7qFNF2TidHCe-1) — Y Combinator's startup course.
+- [VentureKit](https://www.venturekit.ai) — Business planning tool.
 
+## Developer Tools
+- [pickhost](https://github.com/rayx/pickhost) — Simple SSH host manager.
+- [Voidtools Everything](https://www.voidtools.com) — Fast Windows file search.
+- [Jina Reader](https://r.jina.ai/) — Convert URLs to markdown.
 
-### StartUp
-- [How to Start a Startup 21 videos](https://www.youtube.com/watch?v=CBYhVcO4WgI&list=PL5q_lef6zVkaTY_cT1k7qFNF2TidHCe-1)
-- Everything you need to plan, start, and grow your business. [Business Plan](https://www.venturekit.ai)
+## Windows Tools
+- [MPC Video Renderer](https://www.videohelp.com/software/MPC-Video-Renderer) — Video player with YouTube fragment support.
+- [Log4View](https://www.log4view.com/download-en) — Log viewer for Java applications.
+- [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) — Enhanced terminal for Windows.
+- [Notepad++](https://notepad-plus-plus.org/downloads/) — Text editor.
+- [KeePass2](https://keepass.info/download.html) — Password manager.
+- [OBS Studio](https://obsproject.com/download) — Screen recording and streaming.
+- [RustDesk](https://rustdesk.com/) — Open-source remote desktop.
 
+## Mac Tools
+- [DisplayLink Manager](https://www.synaptics.com/products/displaylink-graphics/downloads/macos) — Multi-monitor support for macOS.
 
-### CUDA
-- [CUDA python](https://www.pyspur.dev/blog/introduction_cuda_programming)
-- [CUDA PDF](https://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf)
-- [CUDA ](https://cvw.cac.cornell.edu/gpu-architecture)
-- [CUDA youtube playlist](https://www.youtube.com/playlist?list=PL1ysOEBe5977vlocXuRt6KBCYu_sdu1Ru)
-- [CUDA flash attention algorithms](https://github.com/Maharshi-Pandya/cudacodes)
-- Day 28: Performance Comparison: SYCL vs. CUDA — Benchmarks and Results | by Joel Joseph | Medium
-- [LeetGPU - The GPU Programming Platform](https://leetgpu.com)
-- [mini project how to program a gpu cuda c++](https://www.youtube.com/@0mean1sigma/playlists)
-- 
+## YouTube Channels
+- [Ali Abdaal](https://www.youtube.com/@aliabdaal) — Productivity and entrepreneurship.
+- [KhashayarTalks](https://www.youtube.com/@KhashayarTalks) — AI and machine learning.
+- [Dan Martell](https://www.youtube.com/@danmartell) — SaaS growth strategies.
+- [Finanzfluss](https://www.youtube.com/@Finanzfluss) — German finance education.
 
-### Python
-- Pydoll is a library for automating chromium-based browsers without a WebDriver, offering realistic interactions.
-- [pydoll](https://github.com/autoscrape-labs/pydoll)
-
-
-
-### My List of Tools for Windows to install in the first use  
-- video player for windws it can show framgment of youtube video downloaded very easy to select which part you want
-- [video player for windws](https://www.videohelp.com/software/MPC-Video-Renderer)
-- [Log4View](https://www.log4view.com/download-en)
-- [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html)
-- [notepad++](https://notepad-plus-plus.org/downloads/)
-- [keepass2](https://keepass.info/download.html)
-- [OBS Studio](https://obsproject.com/download)
-- [rustdesk The Fast Open-Source Remote Access and Support Software](https://rustdesk.com/)
-- VSCode
-    - VSCode extensions Farshid
-    - Excalidraw
-    - CodeSnap
-    - Foam
-    - Markmap
-
-- [search for windows app](https://www.voidtools.com)
-
-### Mac
-- DisplayLink Manager is a new way to enable your DisplayLink dock, adapter or monitor on macOS platforms. It's an application that combines our latest driver with features that streamline the setup of mutliple displays up to 4K.
-- [display link](https://www.synaptics.com/products/displaylink-graphics/downloads/macos)
-
-- [Case Study: How We Reduced a Container Image by 99.7% (800GB to 2GB)](https://sealos.io/blog/reduce-container-image-size-case-study)
-
-### YouTube
-- [CUDA](https://www.youtube.com/playlist?list=PL5B692fm6--vWLhYPqLcEu6RF3hXjEyJr)
-- https://www.youtube.com/@aliabdaal
-- https://www.youtube.com/@KhashayarTalks
-- https://www.youtube.com/@danmartell
-- Webinar Build and Ship Your Own MCP Server and Client - Dr. Kuan Hoong
-- [MCP](https://www.youtube.com/watch?v=tT3zTPxGzTg)
-- [C++ Weekly - Ep 435 - Easy GPU Programming With AdaptiveCpp (68x Faster!)](https://www.youtube.com/watch?v=ImM7f5IQOaw)
-- شروع مسیر کارآفرینی
-- [farsi start up](https://www.youtube.com/@leadermarketer/playlists)
-- شناخت موسیقی دستگاهی ایران ۱ محمد رضا لطفی
-- [learn persian music](https://www.youtube.com/watch?v=XJy4G8C8zWY&list=PLereFNCH_ke_O34QZi1Hr4WGrggQwhA6W)
-- [How To Be 10x More Productive In Cursor Using MDC Rules](https://www.youtube.com/watch?v=ABozvKmctkc)
-- [8 Things I Did to Stop Wasting My Evenings After Work](https://www.youtube.com/watch?v=kXtC9cEwBoI)
-- [german ](https://www.youtube.com/watch?v=6hHDoDo7PNo&list=PLYzp2xhTw9W0xYYdHGGR6D2e6nTKLVL_K&index=5)
-- shadowing learning language 
-- [HDMI wifi](https://www.aurga.com/products/aurga-viewer)
-- [Finanzfluss](https://www.youtube.com/@Finanzfluss/videos)
-### Books
-- The Power Of Habit By Charles Duhigg
-- Deep Work By Cal Newport
-- Outliers: The Story Of Success By Malcolm Gladwell
-- Thinking In Bets By Annie Duke
-- Essentialism By Greg McKeown
-- معجزه شکر گذاری
-- story teller tactice
-
-
-
-### Farshid
-
-- CV edge AI SDK
-- CUDA
-- coach production scale up for API/SDK/...
-
-
-type hint -> can show all functions inside IDE is setup correctly. 
-
-- 5 insights in 5 minutes 
-    - foam
-    github
-    book
-    films
-    WSL
+## Books
+- *The Power of Habit* by Charles Duhigg
+- *Deep Work* by Cal Newport
+- *Outliers* by Malcolm Gladwell
+- *Thinking in Bets* by Annie Duke
+- *Essentialism* by Greg McKeown
