@@ -23,15 +23,15 @@ Over the past year, my standout posts have featured camera calibration, Python, 
 
 - [Camera Calibration](https://www.linkedin.com/posts/pirahansiah_camera-calibration-geometric-analysis-calibration-activity-7189576372879540225-z0Yk?utm_source=share&utm_medium=member_desktop )
 - [Camera Calibration](https://www.linkedin.com/posts/pirahansiah_my-research-about-camera-calibration-activity-7172164143263694848-HtGX?utm_source=share&utm_medium=member_desktop )
-- [Optimization Methods Computer Vision](https://www.linkedin.com/feed/update/urn:li:activity:7254531961128402945?utm_source=share&utm_medium=member_desktop)
+- [Optimization Methods Computer Vision](https://www.linkedin.com/posts/pirahansiah_optimizing-nvidia-gpus-for-deep-learning-activity-7241393350568820736-_xSd)
 - [multi-GPU ](https://www.linkedin.com/posts/pirahansiah_optimizing-nvidia-gpus-for-deep-learning-activity-7241393350568820736-_xSd?utm_source=share&utm_medium=member_desktop )
-- [NVIDIA Jetson](https://www.linkedin.com/feed/update/urn:li:activity:7193016287181029376?utm_source=share&utm_medium=member_desktop)
+- [NVIDIA Jetson](https://www.linkedin.com/posts/pirahansiah_optimizing-nvidia-gpus-for-deep-learning-activity-7241393350568820736-_xSd)
 - [On-Device LLM](https://www.linkedin.com/posts/pirahansiah_on-device-training-in-onnx-runtime-ort-activity-7182296755986722816-70kR?utm_source=share&utm_medium=member_desktop )
-- [On-Device LLM](https://www.linkedin.com/feed/update/urn:li:activity:7176987115191234561?utm_source=share&utm_medium=member_desktop )
-- [C++ ](https://www.linkedin.com/feed/update/urn:li:activity:7182814472242151424?utm_source=share&utm_medium=member_desktop )
+- [On-Device LLM](https://www.linkedin.com/posts/pirahansiah_on-device-training-in-onnx-runtime-ort-activity-7182296755986722816-70kR)
+- [C++ ](https://www.linkedin.com/posts/pirahansiah_c-review-basics-general-purpose-programming-activity-7209181439110582272-Hqtr)
 - [C++ ](https://www.linkedin.com/posts/pirahansiah_c-review-basics-general-purpose-programming-activity-7209181439110582272-Hqtr?utm_source=share&utm_medium=member_desktop )
 - [C++](https://www.linkedin.com/posts/pirahansiah_c23-keywords-for-parallel-programming-activity-7200241929479970816-gisC?utm_source=share&utm_medium=member_desktop )
-- [My experience Robotics 3D SLAM LLM Vision Multimodal](https://www.linkedin.com/feed/update/urn:li:activity:7193589360271773696?utm_source=share&utm_medium=member_desktop )
+- [My experience Robotics 3D SLAM LLM Vision Multimodal](https://www.linkedin.com/posts/pirahansiah_optimizing-nvidia-gpus-for-deep-learning-activity-7241393350568820736-_xSd)
  
 
 ## 1. Camera Calibration and Subpixel Precision
@@ -44,7 +44,7 @@ In this post, I delved into advanced methods of camera calibration, focusing on 
 
 ## 2. Optimization Methods in Computer Vision
 
-[**Optimization Methods Post**](https://www.linkedin.com/feed/update/urn:li:activity:7254531961128402945)
+[**Optimization Methods Post**](https://www.linkedin.com/posts/pirahansiah_optimizing-nvidia-gpus-for-deep-learning-activity-7241393350568820736-_xSd)
 
 Optimizing **NVIDIA GPUs** for deep learning has been a crucial topic, especially in multi-GPU setups. In this post, I explored how leveraging **CUDA** and **cuDNN** can lead to high-performance AI applications such as video analytics, face recognition, and smart systems. By optimizing GPU resources, we can achieve significant performance gains in complex computer vision tasks.
 
@@ -70,7 +70,7 @@ These features make C++ an essential language for developing efficient and robus
 
 ## 4. Advancements in Robotics: 3D SLAM, LLMs, and Multimodal Vision
 
-[**Robotics and AI Post**](https://www.linkedin.com/feed/update/urn:li:activity:7193589360271773696)
+[**Robotics and AI Post**](https://www.linkedin.com/posts/pirahansiah_optimizing-nvidia-gpus-for-deep-learning-activity-7241393350568820736-_xSd)
 
 This comprehensive post explored advanced technologies in robotics, focusing on AI inference, computer vision, and generative AI on robotics platforms. Key highlights included:
 
