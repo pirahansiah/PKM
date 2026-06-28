@@ -157,21 +157,121 @@ title: "Reducing Token Usage in AI-Assisted Development"
       </section>
 
       <section>
+        <h2>Advanced: AST Skeletonization</h2>
+        <p style="color:#bf5af2;">Hide implementation, keep structure</p>
+        <div class="m">
+          <div class="c" style="text-align:left;">
+            <p style="color:#ff375f; font-weight:bold;">BEFORE</p>
+            <p>Send full 1000-line file</p>
+            <p>~50,000 tokens</p>
+          </div>
+          <div class="c" style="text-align:left;">
+            <p style="color:#30d158; font-weight:bold;">AFTER (Skeleton)</p>
+            <p>Signatures + imports only</p>
+            <p>~2,000 tokens</p>
+          </div>
+        </div>
+        <p style="margin-top:0.8em;">Tree-sitter parses AST → strips function bodies → keeps class/method signatures</p>
+      </section>
+
+      <section>
+        <h2>Advanced: Prompt Caching</h2>
+        <p style="color:#bf5af2;">The game changer from Anthropic &amp; OpenAI</p>
+        <div class="m">
+          <div class="c"><div class="n g">90%</div><p>Cost reduction</p></div>
+          <div class="c"><div class="n b">100KB</div><p>Cache checkpoint</p></div>
+          <div class="c"><div class="n p">Perfect</div><p>Accuracy</p></div>
+          <div class="c"><div class="n o">Free</div><p>Cache hits</p></div>
+        </div>
+        <p style="margin-top:0.8em;">Freeze .claude/skills + CLAUDE.md in cache block</p>
+      </section>
+
+      <section>
+        <h2>Advanced: LLMLingua Compression</h2>
+        <p style="color:#bf5af2;">Microsoft Research • 7B model pre-processor</p>
+        <div class="m">
+          <div class="c"><div class="n g">20x</div><p>Compression ratio</p></div>
+          <div class="c"><div class="n b">&lt;1%</div><p>Accuracy drop</p></div>
+          <div class="c"><div class="n p">7B</div><p>Pre-processor model</p></div>
+          <div class="c"><div class="n o">90-95%</div><p>Token savings</p></div>
+        </div>
+        <p style="margin-top:0.8em;">AI doesn't need "the, and, a" or verbose boilerplate</p>
+      </section>
+
+      <section>
+        <h2>Advanced: Multi-Model Routing</h2>
+        <p style="color:#bf5af2;">Don't use Sonnet for everything</p>
+        <div class="m">
+          <div class="c" style="text-align:left;">
+            <p style="color:#30d158; font-weight:bold;">Step 1: Haiku (cheap)</p>
+            <p>"Which 3 files are relevant?"</p>
+            <p>Returns file paths only</p>
+          </div>
+          <div class="c" style="text-align:left;">
+            <p style="color:#0a84ff; font-weight:bold;">Step 2: Sonnet (expensive)</p>
+            <p>Receives only 3 files</p>
+            <p>Does the actual coding</p>
+          </div>
+        </div>
+        <p style="margin-top:0.8em;">80% cost reduction • High accuracy</p>
+      </section>
+
+      <section>
+        <h2>Advanced: Unified Diff Output</h2>
+        <p style="color:#bf5af2;">Stop asking AI to rewrite entire files</p>
+        <div class="m">
+          <div class="c" style="text-align:left;">
+            <p style="color:#ff375f; font-weight:bold;">BEFORE</p>
+            <p>Rewrite entire 1000-line file</p>
+            <p>Full re-stream every time</p>
+          </div>
+          <div class="c" style="text-align:left;">
+            <p style="color:#30d158; font-weight:bold;">AFTER (Diff)</p>
+            <p>Output 10 changed lines only</p>
+            <p>60-90% token savings</p>
+          </div>
+        </div>
+        <p style="margin-top:0.8em;">Tools: Aider search/replace blocks, unified diff format</p>
+      </section>
+
+      <section>
+        <h2>Advanced: Open Source Tools</h2>
+        <div class="m">
+          <div class="c"><p style="font-weight:bold; color:#0a84ff;">Aider</p><p>Repository map with ctags</p><p>Strip comments &amp; whitespace</p></div>
+          <div class="c"><p style="font-weight:bold; color:#bf5af2;">Repomix</p><p>Pack repo → single file</p><p>Token counting + secrets scrub</p></div>
+          <div class="c"><p style="font-weight:bold; color:#30d158;">grep-ast</p><p>AST-aware grep</p><p>Signatures only, skip bodies</p></div>
+          <div class="c"><p style="font-weight:bold; color:#ff9f0a;">codebase-memory</p><p>Knowledge graph index</p><p>158 languages, sub-ms queries</p></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Technique Comparison</h2>
+        <div class="m">
+          <div class="c"><div class="n p">70-80%</div><p><strong>AST Skeleton</strong><br>High accuracy</p></div>
+          <div class="c"><div class="n g">90%</div><p><strong>Prompt Caching</strong><br>Perfect accuracy</p></div>
+          <div class="c"><div class="n b">90-95%</div><p><strong>LLMLingua</strong><br>Medium-high</p></div>
+          <div class="c"><div class="n o">60-90%</div><p><strong>Unified Diff</strong><br>High accuracy</p></div>
+        </div>
+      </section>
+
+      <section>
         <h2>Results</h2>
         <div class="m">
           <div class="c"><div class="n g">-81%</div><p>Files</p></div>
           <div class="c"><div class="n b">-82%</div><p>Size</p></div>
           <div class="c"><div class="n p">-88%</div><p>Lines</p></div>
-          <div class="c"><div class="n o">60-95%</div><p>Tokens saved</p></div>
+          <div class="c"><div class="n o">90-99%</div><p>Tokens saved</p></div>
         </div>
       </section>
 
       <section>
         <h1>Summary</h1>
-        <p>→ Templates, selective loading, cleanup, graph indexing</p>
+        <p>→ 10 strategies from file cleanup to AI compression</p>
         <p>→ 60 files → 12, 162KB → 30KB</p>
-        <p>→ 10x fewer tokens with codebase-memory</p>
-        <p style="margin-top:1.5em; color:#0a84ff;">pirahansiah.com</p>
+        <p>→ AST skeleton: 70% savings, full structure</p>
+        <p>→ Prompt caching: 90% cost reduction</p>
+        <p>→ LLMLingua: 20x compression, &lt;1% accuracy loss</p>
+        <p style="margin-top:1em; color:#0a84ff;">pirahansiah.com</p>
       </section>
 
       <section>
