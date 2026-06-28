@@ -67,3 +67,10 @@ Enhanced geometrical and topological features for pattern classification.
 
 ### [TafreshGrid: Grid Computing at Tafresh University](/contents/publications/Papers/tafreshgrid-grid-computing/)
 Grid computing infrastructure and implementation at Tafresh University.
+
+---
+
+## Additional
+
+### [Conference Paper on Computer Vision](/contents/publications/Papers/My_Conference_Paper/)
+Additional conference paper on computer vision topics.

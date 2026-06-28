@@ -4,10 +4,15 @@ title: "Books & Book Chapters"
 description: "Books and book chapters on computer vision, camera calibration, and AI."
 markmap: |
   # Books & Book Chapters
+  ## Springer Book Chapters
   - Optical flow for video stabilization
   - Camera calibration for robotics
-  - OpenCV 5 book series
+  ## OpenCV 5 Ebook
   - CV meets LLM
+  - Ch.0 Introduction
+  - Ch.1 Image Basics
+  - Ch.2 Feature Detection
+  - Ch.3 Advanced Topics
 ---
 
 # Books & Book Chapters

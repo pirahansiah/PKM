@@ -1,7 +1,7 @@
 ---
 layout: farshid_default
 title: "Topics & Projects"
-date_modified: 2025-06-19
+date_modified: 2026-06-28
 categories: [topics, projects]
 tags: [AI, OpenCV, camera-calibration, DRL, FarshidPirahansiah]
 description: "Topics and projects covering AI, OpenCV, camera calibration, deep reinforcement learning, and more."
@@ -33,6 +33,9 @@ markmap: |
 - [Orchestrating AI Agents](/contents/public/ai-llm/orchestrating-agents/) — Multi-agent systems
 - [AI Hardware Accelerators](/contents/ai2026/ai-hardware/) — NPU, edge AI chips
 - [OpenVINO](/contents/ai2026/openvino/) — Intel inference optimization
+- [Machine Learning Specialization](/contents/ai2026/machine-learning-specialization/) — ML fundamentals
+- [Full Stack Deep Learning](/contents/ai2026/full-stack-deep-learning/) — End-to-end DL
+- [MLOps](/contents/ai2026/mlops/) — ML engineering for production
 
 ## Computer Vision
 - [3D Vision & Multi-Camera](/contents/public/cv/3d/) — Point clouds, depth sensing
@@ -51,6 +54,22 @@ markmap: |
 - [PyCUDA Kernels](/contents/public/cuda-gpu/pycuda-kernels/) — CUDA from Python
 - [CUDA in VS Code](/contents/public/cuda-gpu/vscode-cuda-windows/) — Dev environment
 - [MLX, CoreML & Metal](/contents/public/cuda-gpu/mlx-coreml-metal/) — Apple Silicon ML
+
+## Courses & Workshops
+- [FSDL 2022](/contents/ai2026/fsdl-2022/) — Continual learning, data management
+- [MLOps](/contents/ai2026/mlops/) — ML engineering for production
+- [ROS](/contents/ai2026/ros/) — Robot Operating System
+- [Parallel Programming](/contents/ai2026/parallel-programming/) — Python parallel CV
+- [Modern C++](/contents/ai2026/modern-cpp/) — C++29 for image processing
+- [Cloud-Native](/contents/ai2026/cloud-native/) — Docker & Kubernetes
+- [TF Deployment](/contents/ai2026/tensorflow-deployment/) — TF.js, TF Lite, mobile ML
+- [RISC-V](/contents/ai2026/risc-v/) — Open-source processor architecture
+- [Edge AI Summit](/contents/ai2026/edge-ai-summit/) — TinyML, neuromorphic, edge inference
+- [Embedded IoT](/contents/ai2026/embedded-iot/) — Embedded systems
+- [Tesla AI](/contents/ai2026/tesla/) — Autonomous driving
+- [Metaverse](/contents/ai2026/metaverse/) — XR & spatial computing
+- [Book Summaries](/contents/ai2026/book-summary/) — Knowledge management, PKM
+- [IoT Scholarship](/contents/ai2026/iot-scholarship/) — OpenVINO edge AI, object detection
 
 ## Career
 - [Startup Guide](/contents/public/StartUp/) — Edge AI business, fundraising

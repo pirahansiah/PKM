@@ -46,8 +46,9 @@ title: "All Pages — pirahansiah.com"
     <span class="wiki-stat"><strong>{{ site.pages | size }}</strong> pages</span>
     <span class="wiki-stat"><strong>3</strong> patents</span>
     <span class="wiki-stat"><strong>6</strong> journals</span>
-    <span class="wiki-stat"><strong>12</strong> papers</span>
-    <span class="wiki-stat"><strong>8</strong> books</span>
+    <span class="wiki-stat"><strong>11</strong> papers</span>
+    <span class="wiki-stat"><strong>7</strong> books</span>
+    <span class="wiki-stat"><strong>19</strong> courses</span>
   </div>
 
   <div class="wiki-toc">
@@ -87,6 +88,7 @@ title: "All Pages — pirahansiah.com"
       <li><a href="/contents/public/cv/multi-camera-systems/">Multi-Camera Systems</a></li>
       <li><a href="/contents/public/coaching/">CV Coaching Roadmap</a></li>
       <li><a href="/contents/public/product/">Product — Embedded CV &amp; Edge AI</a></li>
+      <li><a href="/contents/public/enter/">Computer Vision Overview</a></li>
     </ul>
   </div>
 
@@ -140,14 +142,14 @@ title: "All Pages — pirahansiah.com"
   <div class="wiki-section" data-section="knowledge">
     <h2 id="knowledge">PKM &amp; Knowledge</h2>
     <ul>
-      <li><a href="/contents/pkm/use-cases/">Complete Portfolio</a></li>
-      <li><a href="/contents/pkm/links/">Use Cases</a></li>
-      <li><a href="/contents/pkm/proof/">All Links</a></li>
-      <li><a href="/contents/pkm/TOC/">Data &amp; DevOps</a></li>
-      <li><a href="/contents/public/research/">Research — Publications &amp; Patents</a></li>
-      <li><a href="/contents/public/Resources/">Portfolio &amp; Resources</a></li>
       <li><a href="/contents/public/index/">Content Hub</a></li>
       <li><a href="/contents/public/links/">Curated Links</a></li>
+      <li><a href="/contents/pkm/use-cases/">Use Cases</a></li>
+      <li><a href="/contents/pkm/links/">Links</a></li>
+      <li><a href="/contents/pkm/proof/">Proof</a></li>
+      <li><a href="/contents/pkm/TOC/">Table of Contents</a></li>
+      <li><a href="/contents/public/Resources/">Portfolio &amp; Resources</a></li>
+      <li><a href="/contents/sitemap/">Sitemap</a></li>
     </ul>
   </div>
 
@@ -177,7 +179,7 @@ title: "All Pages — pirahansiah.com"
   <div class="wiki-section" data-section="papers">
     <h2 id="papers">Conference Papers</h2>
     <ul class="wiki-cols">
-      <li><a href="/contents/publications/Papers/">All Papers</a> <span class="wiki-badge">12</span></li>
+      <li><a href="/contents/publications/Papers/">All Papers</a> <span class="wiki-badge">11</span></li>
       <li><a href="/contents/publications/Papers/adaptive-image-segmentation-psnr/">Adaptive Segmentation PSNR</a></li>
       <li><a href="/contents/publications/Papers/license-plate-recognition-entropy/">License Plate — Entropy</a></li>
       <li><a href="/contents/publications/Papers/multi-threshold-license-plate/">Multi-threshold License Plate</a></li>
@@ -195,7 +197,7 @@ title: "All Pages — pirahansiah.com"
   <div class="wiki-section" data-section="books">
     <h2 id="books">Books &amp; Chapters</h2>
     <ul class="wiki-cols">
-      <li><a href="/contents/publications/Books/">All Books</a> <span class="wiki-badge">8</span></li>
+      <li><a href="/contents/publications/Books/">All Books</a> <span class="wiki-badge">7</span></li>
       <li><a href="/contents/publications/Books/computational-intelligence-optical-flow/">Optical Flow for Video Stabilization</a></li>
       <li><a href="/contents/publications/Books/camera-calibration-video-stabilization/">Camera Calibration for Robotics</a></li>
       <li><a href="/contents/publications/Books/AI/computer-vision-meets-llm/">Computer Vision Meets LLM</a></li>
