@@ -245,6 +245,25 @@ title: "Reducing Token Usage in AI-Assisted Development"
       </section>
 
       <section>
+        <h2>What We Added to .claude</h2>
+        <p style="color:#bf5af2;">New rule: rules/token-reduction.md</p>
+        <div class="m">
+          <div class="c" style="text-align:left;">
+            <p style="color:#30d158; font-weight:bold;">Added</p>
+            <p>token-reduction.md (8 strategies)</p>
+            <p>Quick reference table</p>
+            <p>Always-loaded coding rule</p>
+          </div>
+          <div class="c" style="text-align:left;">
+            <p style="color:#0a84ff; font-weight:bold;">Result</p>
+            <p>.claude folder: cleaned + enhanced</p>
+            <p>Agent knows all 8 techniques</p>
+            <p>Applied automatically per session</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
         <h2>Technique Comparison</h2>
         <div class="m">
           <div class="c"><div class="n p">70-80%</div><p><strong>AST Skeleton</strong><br>High accuracy</p></div>
