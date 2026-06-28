@@ -297,13 +297,93 @@ title: "Reducing Token Usage in AI-Assisted Development"
         </div>
       </section>
 
-      <!-- Slide 10: Summary -->
+      <!-- Slide 10: Codebase Memory MCP -->
+      <section>
+        <h2>Strategy 5: codebase-memory-mcp</h2>
+        <p style="color: #bf5af2; font-weight: bold;">Stop telling Claude "read this file" • Stop grep the whole repo</p>
+        <div class="slide-grid">
+          <div class="slide-card">
+            <h3 style="color: #30d158;">What It Does</h3>
+            <ul>
+              <li>Indexes entire codebase into a knowledge graph</li>
+              <li>158 languages, sub-ms queries</li>
+              <li>Single static binary, zero dependencies</li>
+              <li>One query replaces dozens of grep/read cycles</li>
+            </ul>
+          </div>
+          <div class="slide-card">
+            <h3 style="color: #0a84ff;">Speed</h3>
+            <ul>
+              <li>Linux kernel (28M LOC) → 3 minutes</li>
+              <li>Average repo → milliseconds</li>
+              <li>Cypher query → &lt;1ms</li>
+              <li>Trace call path (depth=5) → &lt;10ms</li>
+            </ul>
+          </div>
+        </div>
+        <p style="margin-top: 1em; font-size: 0.7em;"><code>curl -fsSL https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/install.sh | bash</code></p>
+      </section>
+
+      <!-- Slide 11: Benchmark Results -->
+      <section>
+        <h2>Benchmarked Across 31 Real Repos</h2>
+        <div class="slide-grid">
+          <div class="slide-card" style="text-align: center;">
+            <div class="slide-metric green">10x</div>
+            <p>Fewer tokens on<br>structural queries</p>
+          </div>
+          <div class="slide-card" style="text-align: center;">
+            <div class="slide-metric blue">83%</div>
+            <p>Answer quality on<br>complex tasks</p>
+          </div>
+          <div class="slide-card" style="text-align: center;">
+            <div class="slide-metric purple">2.1x</div>
+            <p>Fewer tool calls<br>per query</p>
+          </div>
+          <div class="slide-card" style="text-align: center;">
+            <div class="slide-metric orange">99%</div>
+            <p>Token reduction<br>vs file-by-file</p>
+          </div>
+        </div>
+        <p style="margin-top: 1em; font-size: 0.7em;">5 structural queries: ~3,400 tokens vs ~412,000 via grep/read</p>
+      </section>
+
+      <!-- Slide 12: Impact Analysis -->
+      <section>
+        <h2>Impact Analysis</h2>
+        <div class="slide-grid">
+          <div class="slide-card">
+            <h3 style="color: #ff375f;">BEFORE (grep/read)</h3>
+            <ul>
+              <li>Read file → parse → find reference</li>
+              <li>Grep repo → scan results → read files</li>
+              <li>Repeat 10-20 times per question</li>
+              <li>~412,000 tokens per query session</li>
+              <li>Context window pollution</li>
+            </ul>
+          </div>
+          <div class="slide-card">
+            <h3 style="color: #30d158;">AFTER (codebase-memory)</h3>
+            <ul>
+              <li>Index once → persistent knowledge graph</li>
+              <li>One graph query → all dependencies</li>
+              <li>14 MCP tools: search, trace, architecture</li>
+              <li>~3,400 tokens per query session</li>
+              <li>Clean, focused context</li>
+            </ul>
+          </div>
+        </div>
+        <p style="margin-top: 1em; font-size: 0.7em;">github.com/DeusData/codebase-memory-mcp • 18.7k stars • MIT License</p>
+      </section>
+
+      <!-- Slide 13: Summary -->
       <section>
         <h1>Summary</h1>
         <ul style="margin-top: 1em;">
-          <li>→ 4 strategies: Templates, Selective Loading, Cleanup, Combine</li>
-          <li>→ Real result: 60 files → 12 files, 162KB → ~30KB</li>
-          <li>→ Token savings: 60-95% with project-specific .cursorignore</li>
+          <li>→ 5 strategies: Templates, Selective Loading, Cleanup, Combine, Graph Indexing</li>
+          <li>→ File cleanup: 60 files → 12 files, 162KB → ~30KB</li>
+          <li>→ .cursorignore: 60-95% token savings per project</li>
+          <li>→ codebase-memory: 10x fewer tokens, 99% reduction vs grep</li>
           <li>→ Faster responses + Lower costs + Better focus</li>
         </ul>
         <p style="margin-top: 2em; color: #0a84ff;">pirahansiah.com</p>
