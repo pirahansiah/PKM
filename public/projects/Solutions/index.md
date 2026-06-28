@@ -1,6 +1,7 @@
 ---
 layout: farshid_default
 title: "Solutions"
+description: "Showcase of industry applications, portfolio projects, and technical skills in computer vision and AI."
 markmap: |
   # Solutions
   ## Industry Applications

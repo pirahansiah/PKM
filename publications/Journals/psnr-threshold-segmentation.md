@@ -1,30 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [journal, image-processing, thresholding]
-tags: [PSNR, thresholding, image-segmentation, peak-signal-to-noise-ratio, image-processing, computer-vision]
-description: "Journal paper on PSNR-based threshold methods for image segmentation."
-excerpt: "Research on using peak signal-to-noise ratio as a threshold criterion for effective image segmentation."
-featured: true
-seo_title: "PSNR-Based Threshold Method for Image Segmentation"
-seo_description: "Journal article on PSNR-based thresholding techniques for image segmentation applications."
-show_sidebar: true
-toc: true
-comments: true
-share: true
-published: true
-sitemap: true
-lang: en
-mathjax: true
-mermaid: true
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-
-
-title: "PEAK SIGNAL-TO-NOISE RATIO BASED ON THRESHOLD METHOD FOR IMAGE SEGMENTATION"
-date: 2024-10-18
+title: "PSNR Threshold for Image Segmentation"
+description: "PSNR-based thresholding method for image segmentation in automated visual inspection."
 markmap: |
   # PSNR Threshold Method
   ## Thresholding Techniques

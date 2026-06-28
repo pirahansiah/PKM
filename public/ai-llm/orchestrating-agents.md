@@ -1,12 +1,7 @@
 ---
 layout: farshid_default
 title: "Mind Map: Orchestrating AI Agents"
-date_modified: 2025-06-19
-categories: [LLM, AI, agents]
-tags: [agents, orchestration, multi-agent, task-decomposition, LLM]
 description: "Mind map and guide to orchestrating multiple AI agents for complex task completion using LLMs."
-excerpt: "How to coordinate multiple AI agents for research, planning, and multi-step processes with LLM-powered orchestration."
-author: "Dr. Farshid Pirahansiah"
 markmap: |
   # Orchestrating AI Agents
   ## Agent Types

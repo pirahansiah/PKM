@@ -1,25 +1,22 @@
 ---
 layout: farshid_default
 title: "Curated Links & Resources"
-date_modified: 2025-06-19
-categories: [resources, tools]
-tags: [CUDA, Python, FPGA, startup, tools, YouTube, books]
-description: "Hand-picked links for CUDA, Python, FPGA, startup resources, development tools, YouTube channels, and recommended books."
-excerpt: "Curated collection of resources: CUDA tutorials, Python tools, startup guides, YouTube channels, and essential reading."
-author: "Dr. Farshid Pirahansiah"
+description: "Hand-picked tools, tutorials, and references for CV, AI, and software engineering."
 markmap: |
   # Curated Links
   ## Development
+  - CUDA & GPU resources
   - Python tools
-  - CUDA resources
   - FPGA
+  ## AI & LLMs
+  - Multimodal RAG
+  - MCP Server
   ## Productivity
-  - Notion
   - YouTube channels
-  - Recommended Books
-  ## Hardware
-  - Windows tools
-  - Mac setup
+  - Recommended books
+  ## Tools
+  - Windows & Mac utilities
+  - Developer tools
 ---
 
 # Curated Links & Resources

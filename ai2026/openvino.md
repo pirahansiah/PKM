@@ -4,15 +4,17 @@ title: "OpenVINO Deep Learning"
 date_modified: 2025-06-19
 categories: [workshops, OpenVINO]
 tags: [OpenVINO, Intel, inference, FarshidPirahansiah]
-description: "Intel OpenVINO toolkit workshop for deep learning inference optimization."
+description: "Intel OpenVINO toolkit for optimizing and deploying deep learning models."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/workshops-and-events/openvino-deep-learning"
 markmap: |
   # OpenVINO Deep Learning
   ## Intel Toolkit
-  - Model Optimizer, Inference Engine
+  - Model Optimizer
+  - Inference Engine
   ## Optimization
-  - Quantization, pruning, fusion
+  - Quantization, pruning
+  - Graph fusion
   ## Deployment
   - CPU, GPU, VPU targets
   ## Edge

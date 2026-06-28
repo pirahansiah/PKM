@@ -1,30 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [journal, pattern-recognition, feature-extraction]
-tags: [character-recognition, object-recognition, global-feature, feature-extraction, pattern-recognition, computer-vision]
-description: "Journal paper on character and object recognition using global feature extraction methods."
-excerpt: "Research on global feature extraction techniques for character and object recognition in computer vision."
-featured: true
-seo_title: "Character and Object Recognition Based on Global Feature Extraction"
-seo_description: "Journal article on global feature extraction methods for character and object recognition applications."
-show_sidebar: true
-toc: true
-comments: true
-share: true
-published: true
-sitemap: true
-lang: en
-mathjax: true
-mermaid: true
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-
-
-title: "CHARACTER AND OBJECT RECOGNITION BASED ON GLOBAL FEATURE EXTRACTION"
-date: 2024-10-17
+title: "Character & Object Recognition via Features"
+description: "Global feature extraction methods for character and object recognition in computer vision."
 markmap: |
   # Character & Object Recognition
   ## Feature Extraction

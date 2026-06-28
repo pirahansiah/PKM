@@ -1,6 +1,26 @@
 ---
 layout: farshid_default
-title: "Solutions — How I Help Businesses"
+title: "Solutions — AI Courses & Workshops"
+description: "AI 2026 courses, workshops, and business solutions for production-ready products."
+markmap: |
+  # Solutions
+  ## AI 2026 Courses
+  - ML Specialization
+  - Full Stack Deep Learning
+  - MLOps & ROS
+  - Modern C++
+  ## Workshops
+  - RISC-V & Edge AI
+  - Tesla AI & OpenVINO
+  - Embedded IoT
+  ## Business
+  - Startup Guide
+  - SEO for LLMs
+  - Prompt Engineering
+  ## Resources
+  - Curated Links
+  - LinkedIn Posts
+  - Book Summaries
 ---
 
 <style>

@@ -1,15 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [conference-paper, license-plate-recognition, entropy]
-tags: [license-plate, entropy, multi-threshold, image-segmentation, computer-vision, intelligent-transportation]
-description: "Conference paper on license plate recognition using multi-threshold methods based on entropy analysis."
-excerpt: "Multi-threshold approach for license plate recognition using entropy-based image segmentation techniques."
-seo_title: "License Plate Recognition with Multi-Threshold Based on Entropy"
-seo_description: "Research on entropy-based multi-threshold methods for accurate license plate recognition systems."
-keywords: [license plate recognition, entropy, multi-threshold, image segmentation, computer vision]
-title: "License Plate Recognition with Multi-Threshold Based on Entropy"
-date: 2024-10-19
+title: "Entropy-Based Multi-Threshold LPR"
+description: "Multi-threshold license plate recognition using entropy-based image segmentation."
 markmap: |
   # LPR with Entropy Multi-threshold
   ## Entropy-Based Thresholding

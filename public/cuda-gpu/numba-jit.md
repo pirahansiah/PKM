@@ -1,12 +1,7 @@
 ---
 layout: farshid_default
 title: "Accelerate Python with Numba's @jit(nopython=True)"
-date_modified: 2025-06-19
-categories: [CUDA, Python, performance]
-tags: [Numba, JIT, CUDA, Python, performance-optimization, numerical-computing]
 description: "Tutorial on using Numba's @jit decorator to compile Python functions into optimized machine code for faster numerical computing."
-excerpt: "Speed up Python numerical code by 10-100x using Numba's JIT compilation with practical examples."
-author: "Dr. Farshid Pirahansiah"
 markmap: |
   # Numba JIT
   ## @jit(nopython=True)

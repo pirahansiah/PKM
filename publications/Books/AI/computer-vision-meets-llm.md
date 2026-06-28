@@ -1,33 +1,7 @@
 ---
 layout: farshid_default
-title: "Computer Vision Meets LLM — Book 2025"
-date: 2025
-author: Dr. Farshid Pirahansiah
-categories: [book, LLM, computer-vision]
-tags: [book, LLM, computer-vision, vision-LLM, multimodal]
-description: "Book exploring the intersection of Computer Vision and Large Language Models — multimodal AI from theory to practice."
-excerpt: "How LLMs are transforming computer vision: image understanding, multimodal reasoning, and production deployments."
-featured: true
-related_posts:
-  - /farshid/resources.md
-  - /farshid/social.md
-show_sidebar: true
-website_path: https://www.pirahansiah.com
-toc: true
-comments: true
-share: true
-read_time: 15
-published: true
-sitemap: true
-canonical_url: https://www.pirahansiah.com
-lang: en
-mathjax: true
-mermaid: true
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-last_modified_at: 2025
+title: "Computer Vision Meets LLM"
+description: "Book exploring multimodal AI combining computer vision with large language models."
 markmap: |
   # CV Meets LLM
   ## Multi-Agent RAG
@@ -46,7 +20,6 @@ markmap: |
   ## Prompting Strategies
   - Zero-Shot
   - Few-Shot
-
 ---
 {{ site.author }}
 

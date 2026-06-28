@@ -1,15 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [conference-paper, camera-calibration, pattern-recognition]
-tags: [camera-calibration, pattern-image, calibration-pattern, chessboard, computer-vision, robotics]
-description: "Conference paper on the significance of pattern images for camera calibration accuracy."
-excerpt: "Analysis of how pattern image design and selection impacts camera calibration precision and reliability."
-seo_title: "Pattern Image Significance for Camera Calibration"
-seo_description: "Research on the role of pattern images in improving camera calibration accuracy and methodology."
-keywords: [camera calibration, pattern image, calibration pattern, chessboard detection, computer vision]
-title: "Pattern Image Significance for Camera Calibration"
-date: 2024-10-19
+title: "Pattern Image for Camera Calibration"
+description: "Analysis of how pattern image design impacts camera calibration accuracy and reliability."
 markmap: |
   # Pattern Image for Calibration
   ## Calibration Methods

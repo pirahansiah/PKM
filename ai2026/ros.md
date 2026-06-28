@@ -1,20 +1,21 @@
 ---
 layout: farshid_default
-title: "ROS — Robot Operating System"
+title: "ROS: Robot Operating System"
 date_modified: 2025-06-19
 categories: [courses, robotics]
 tags: [ROS, robotics, ETH-Zurich, FarshidPirahansiah]
-description: "Notes from ETH Zurich Programming for Robotics (ROS) lecture covering ROS architecture, navigation, simulation, and URDF."
+description: "ETH Zurich lecture on ROS architecture, navigation, simulation, and robot models."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/courses/ros"
 markmap: |
-  # ROS — Robot Operating System
+  # ROS: Robot Operating System
   ## Architecture
   - Nodes, topics, services
   ## Navigation
   - Path planning, SLAM
   ## Simulation
-  - Gazebo, URDF/SDF models
+  - Gazebo
+  - URDF/SDF models
   ## Visualization
   - RViz, rqt tools
 ---

@@ -1,27 +1,7 @@
 ---
 layout: farshid_default
-title: "Computational Intelligence: Augmented Optical Flow for Video Stabilization"
-categories: [book, optical-flow, video-stabilization]
-tags: [optical-flow, video-stabilization, computational-intelligence, image-processing, motion-estimation]
-description: "Book chapter on augmented optical flow methods for video stabilization using computational intelligence techniques."
-excerpt: "Published book exploring augmented optical flow methods for video stabilization using computational intelligence."
-featured: true
-show_sidebar: true
-toc: true
-share: true
-published: true
-sitemap: true
-lang: en
-mathjax: true
-mermaid: true
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-
-
-title: "My Book: Computational Intelligence: From Theory to Application explores augmented optical flow methods for video stabilization, focusing on eliminating jitter and improving image clarity"
-date: 2024-10-18
+title: "Augmented Optical Flow for Video Stabilization"
+description: "Book chapter on Type-2 Fuzzy Gaussian Pyramid optical flow for video stabilization."
 markmap: |
   # Augmented Optical Flow for Video Stabilization
   ## Method: T2FGPOF

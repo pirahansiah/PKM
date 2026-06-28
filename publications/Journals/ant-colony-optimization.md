@@ -1,30 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [journal, optimization, image-processing]
-tags: [ant-colony-optimization, ACO, image-processing, metaheuristic, optimization, computer-vision]
-description: "Journal paper on using ant colony optimization algorithms for image processing tasks."
-excerpt: "Application of ant colony optimization to image processing challenges including segmentation and feature extraction."
-featured: true
-seo_title: "Using an Ant Colony Optimization Algorithm for Image Processing"
-seo_description: "Journal article on ant colony optimization applied to image processing and computer vision problems."
-show_sidebar: true
-toc: true
-comments: true
-share: true
-published: true
-sitemap: true
-lang: en
-mathjax: true
-mermaid: true
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-
-
-title: "USING AN ANT COLONY OPTIMIZATION ALGORITHM"
-date: 2024-10-18
+title: "Ant Colony Optimization for Image Processing"
+description: "ACO-based optimization for image thresholding and edge detection in OCR systems."
 markmap: |
   # Ant Colony Optimization for Image Processing
   ## Thresholding Methods

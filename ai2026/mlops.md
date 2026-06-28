@@ -4,19 +4,23 @@ title: "MLOps"
 date_modified: 2025-06-19
 categories: [courses, mlops]
 tags: [MLOps, machine-learning-engineering, Coursera, FarshidPirahansiah]
-description: "Notes from Coursera MLOps Specialization covering ML production, data lifecycle, modeling pipelines, and deployment."
+description: "Coursera MLOps Specialization covering ML production, data lifecycle, modeling pipelines, and deployment."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/courses/mlops"
 markmap: |
   # MLOps
   ## Production ML
-  - Lifecycle, deployment overview
+  - Lifecycle overview
+  - Deployment
   ## Data Lifecycle
-  - Labeling, feature engineering, storage
+  - Labeling, feature engineering
+  - Data storage
   ## Modeling Pipelines
-  - NAS, quantization, distillation, interpretability
+  - NAS, quantization
+  - Distillation, interpretability
   ## Deployment
-  - TF Serving, TorchServe, monitoring
+  - TF Serving, TorchServe
+  - Monitoring
 ---
 
 # MLOps — Machine Learning Engineering for Production

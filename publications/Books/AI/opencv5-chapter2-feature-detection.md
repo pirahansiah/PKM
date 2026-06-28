@@ -1,35 +1,7 @@
 ---
 layout: farshid_default
 title: "OpenCV 5 — Chapter 2: Feature Detection"
-date: 2025
-author: Dr. Farshid Pirahansiah
-categories: [book, computer-vision, OpenCV]
-tags: [OpenCV, feature-detection, SIFT, SURF, ORB, keypoint-matching, feature-extraction]
-description: "OpenCV 5 book Chapter 2 — Feature detection including SIFT, SURF, ORB, and keypoint matching."
-excerpt: "Feature detection and description methods: SIFT, SURF, ORB, keypoint matching, and feature-based applications."
-featured: true
-seo_title: "OpenCV 5 Chapter 2: Feature Detection"
-seo_description: "Chapter 2 of the OpenCV 5 book covering feature detection, description, and matching techniques."
-related_posts:
-  - /farshid/resources.md
-  - /farshid/social.md
-show_sidebar: true
-website_path: https://www.pirahansiah.com
-toc: true
-comments: true
-share: true
-read_time: 15
-published: true
-sitemap: true
-canonical_url: https://www.pirahansiah.com
-lang: en
-mathjax: true
-mermaid: true
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-last_modified_at: 2025
+description: "Comprehensive guide to AI/ML concepts, tools, best practices, and ethical considerations."
 markmap: |
   # AI/ML Comprehensive Guide
   ## Key Concepts
@@ -47,7 +19,6 @@ markmap: |
   - Bias and Fairness
   - Transparency
   - Privacy
-
 ---
 {{ site.author }}
 

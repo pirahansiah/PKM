@@ -1,12 +1,7 @@
 ---
 layout: farshid_default
 title: "Optical Flow: Challenges and Solutions"
-date_modified: 2025-06-19
-categories: [computer-vision, motion-analysis]
-tags: [optical-flow, Lucas-Kanade, Farneback, RAFT, motion-estimation, OpenCV]
 description: "Comprehensive guide to optical flow challenges including illumination changes, occlusions, fast motion, and their solutions."
-excerpt: "Solving optical flow problems: illumination invariance, occlusion handling, fast motion, textureless regions, and GPU acceleration."
-author: "Dr. Farshid Pirahansiah"
 markmap: |
   # Optical Flow Challenges
   ## Illumination

@@ -1,12 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [conference-paper, camera-calibration, robotics]
-tags: [conference-paper, camera-calibration, multi-modal, robot-vision]
-description: "Conference paper on camera calibration for multi-modal robot vision systems."
-excerpt: "Methods for calibrating multi-modal camera systems used in robotic vision and autonomous navigation."
-title: "Camera Calibration for Multi-Modal Robot Vision"
-date: 2024-10-19
+title: "Camera Calibration for Multi-Modal Vision"
+description: "Automatic calibration framework for multi-modal robot vision using IQA metrics."
 markmap: |
   # Camera Calibration for Robot Vision
   ## Image Quality Assessment

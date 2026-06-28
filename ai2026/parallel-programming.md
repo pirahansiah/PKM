@@ -10,7 +10,8 @@ source: "https://www.tiziran.com/courses/parallel-programming"
 markmap: |
   # Parallel Programming
   ## Threading
-  - Multi-threading, multi-processing
+  - Multi-threading
+  - Multi-processing
   ## GPU Acceleration
   - CUDA programming
   ## Distributed Computing

@@ -1,12 +1,7 @@
 ---
 layout: farshid_default
-title: "Curriculum Vitae — Dr. Farshid Pirahansiah"
-categories: [CV, portfolio]
-tags: [CV, resume, publications, patents, Google-Scholar]
-description: "Dr. Farshid Pirahansiah's curriculum vitae: 21 publications, 3 patents, 137 citations, h-index 7 in computer vision and AI."
-excerpt: "Full CV covering 12+ years of computer vision R&D, 21 publications, 3 patents, and expertise in C++, Python, OpenCV, and GPU optimization."
-author: "Dr. Farshid Pirahansiah"
-featured: true
+title: "CV — Dr. Farshid Pirahansiah"
+description: "Curriculum vitae covering 12+ years of computer vision R&D, 21 publications, and 3 patents."
 markmap: |
   # CV — Dr. Farshid Pirahansiah
   ## Publications & Patents

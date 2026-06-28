@@ -1,27 +1,22 @@
 ---
 layout: farshid_default
-title: "Developer Tools, Shell & Setup Tips"
-date_modified: 2025-06-19
-categories: [dev-tools, tips, shell]
-tags: [setup, Docker, GitHub, tools, terminal, vim, shell, Linux, macOS]
-description: "Curated developer tools, shell essentials, Docker management, GitHub tricks, and device setup tips."
-excerpt: "Shell commands, vim basics, Docker cleanup, GitHub PR review tricks, and recommended dev utilities."
-author: "Dr. Farshid Pirahansiah"
+title: "Developer Tools & Setup Guide"
+description: "Curated developer tools, shell essentials, Docker tips, and GitHub tricks."
 markmap: |
   # Dev Tools Setup
   ## Recommended Tools
-  - NeoHtop
-  - RustDesk
+  - NeoHtop & RustDesk
   - Helix Editor
   ## Shell Essentials
-  - Echo & Variables
-  - Navigation
-  - Pipes & Redirection
+  - Echo & variables
+  - Pipes & redirection
   ## Vim
   - Basic commands
-  ## Docker & GitHub
-  - WSL disk
-  - PR review
+  ## Docker
+  - WSL disk shrinking
+  ## GitHub
+  - PR review with .diff
+  - GitIngest & GitSummarize
 ---
 
 ## Recommended Tools

@@ -1,6 +1,7 @@
 ---
 layout: farshid_default
 title: "Optimization"
+description: "Guides to optimizing computer vision, deep learning, and machine learning systems for performance and efficiency."
 markmap: |
   # Optimization
   ## CV Optimization

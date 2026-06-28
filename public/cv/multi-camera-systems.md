@@ -1,12 +1,7 @@
 ---
 layout: farshid_default
 title: "Real-Time Multi-Camera Vision Systems"
-date_modified: 2025-06-19
-categories: [computer-vision, multi-camera, edge-AI]
-tags: [multi-camera, DeepStream, OpenVINO, GStreamer, Jetson, GPU, NPU, synchronization, USB, DMA]
 description: "Deep technical guide to building real-time multi-camera vision systems with heterogeneous processing and scaling to 100+ cameras."
-excerpt: "Architecture guide for multi-camera AI: sync methods, GPU/NPU acceleration, USB/DMA optimization, and scaling strategies."
-author: "Dr. Farshid Pirahansiah"
 markmap: |
   # Multi-Camera Systems
   ## System Architecture

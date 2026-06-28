@@ -1,35 +1,7 @@
 ---
 layout: farshid_default
 title: "OpenCV 5 — Chapter 0: Introduction"
-date: 2025
-author: Dr. Farshid Pirahansiah
-categories: [book, computer-vision, OpenCV]
-tags: [OpenCV, computer-vision, image-processing, introduction, getting-started, C++, Python]
-description: "OpenCV 5 book Chapter 0 — Introduction to computer vision and the OpenCV library."
-excerpt: "Introduction to computer vision concepts and getting started with OpenCV 5 for image processing and analysis."
-featured: true
-seo_title: "OpenCV 5 Chapter 0: Introduction to Computer Vision"
-seo_description: "Chapter 0 of the OpenCV 5 book covering fundamental computer vision concepts and library introduction."
-related_posts:
-  - /farshid/resources.md
-  - /farshid/social.md
-show_sidebar: true
-website_path: https://www.pirahansiah.com
-toc: true
-comments: true
-share: true
-read_time: 15
-published: true
-sitemap: true
-canonical_url: https://www.pirahansiah.com
-lang: en
-mathjax: true
-mermaid: true
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-last_modified_at: 2025
+description: "Introduction to the new developer era, AI agents, and multi-agent systems."
 markmap: |
   # AI Agents and Future of Work
   ## The Silent Tsunami
@@ -45,7 +17,6 @@ markmap: |
   ## Career Transformation
   - New Roles
   - Essential Skills
-
 ---
 {{ site.author }}
 

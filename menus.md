@@ -1,9 +1,7 @@
 ---
 layout: farshid_default
 title: Sitemap & Page Summaries
-tags: indexing, sitemap, navigation
-categories: system
-updated: 2025-06-21
+description: Complete navigation index with summaries of all site pages
 markmap: |
   # Sitemap
   ## Public Content
@@ -11,6 +9,9 @@ markmap: |
   - AI & LLMs
   - CUDA & GPU
   - Programming
+  - Optimization
+  - Business & Career
+  - Resources
   ## Publications
   - Patents (3)
   - Papers (11)

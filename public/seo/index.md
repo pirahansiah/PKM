@@ -1,6 +1,7 @@
 ---
 layout: farshid_default
-title: "SEO for LLMs"
+title: "SEO for LLM-Powered Search"
+description: "Techniques for optimizing websites for large language model search engines using structured data and AI-friendly content."
 markmap: |
   # SEO for LLMs
   ## Structured Data

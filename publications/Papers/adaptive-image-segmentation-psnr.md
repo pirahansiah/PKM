@@ -1,15 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [conference-paper, image-processing, license-plate-recognition]
-tags: [PSNR, image-segmentation, license-plate, thresholding, adaptive, image-processing, computer-vision]
-description: "Conference paper on adaptive image segmentation using peak signal-to-noise ratio for license plate recognition systems."
-excerpt: "Methods for adaptive image segmentation based on PSNR analysis applied to automatic license plate recognition."
-seo_title: "Adaptive Image Segmentation Based on PSNR for License Plate Recognition"
-seo_description: "Conference paper presenting adaptive image segmentation using PSNR for improving license plate recognition accuracy."
-keywords: [PSNR, image segmentation, license plate recognition, adaptive thresholding, computer vision]
-title: "Adaptive Image Segmentation Based on PSNR for License Plate Recognition"
-date: 2024-10-18
+title: "PSNR-Based Segmentation for LPR"
+description: "Adaptive image segmentation using PSNR for license plate recognition systems."
 markmap: |
   # Adaptive Segmentation for LPR
   ## Pattern Recognition

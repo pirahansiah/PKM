@@ -4,7 +4,7 @@ title: "RISC-V for AI"
 date_modified: 2025-06-19
 categories: [workshops, RISC-V]
 tags: [RISC-V, edge-AI, processor, FarshidPirahansiah]
-description: "RISC-V ecosystem overview: open-source processor architecture for AI at the edge."
+description: "RISC-V open-source processor architecture for AI at the edge."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/workshops-and-events/risc-v"
 markmap: |
@@ -16,7 +16,8 @@ markmap: |
   ## Hardware
   - HiFive1 Rev B
   ## Resources
-  - riscv.org, summits, courses
+  - riscv.org, summits
+  - RISC-V courses
 ---
 
 # RISC-V for AI

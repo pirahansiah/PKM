@@ -1,12 +1,7 @@
 ---
 layout: farshid_default
-title: "LLMs Meet Computer Vision — Keynote"
-date_modified: 2025-06-19
-categories: [keynote, LLM, computer-vision]
-tags: [keynote, LLM, computer-vision, RAG, vision-LLM]
-description: "Keynote presentation on the intersection of Large Language Models and Computer Vision."
-excerpt: "Keynote exploring how LLMs are transforming computer vision — from image understanding to multimodal AI."
-author: "Dr. Farshid Pirahansiah"
+title: "LLMs Meet Computer Vision"
+description: "Keynote on token economics, multimodal RAG, and practical CV+LLM applications."
 markmap: |
   # LLMs Meet Computer Vision
   ## Token Costs

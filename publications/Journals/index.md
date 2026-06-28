@@ -1,6 +1,7 @@
 ---
 layout: farshid_default
 title: "Journal Publications"
+description: "Peer-reviewed journal articles on image processing, pattern recognition, and robotics."
 markmap: |
   # Journal Publications
   ## Image Processing

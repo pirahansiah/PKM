@@ -1,35 +1,7 @@
 ---
 layout: farshid_default
 title: "OpenCV 5 — Chapter 1: Image Basics"
-date: 2025
-author: Dr. Farshid Pirahansiah
-categories: [book, computer-vision, OpenCV]
-tags: [OpenCV, image-basics, image-processing, pixel-operations, color-spaces, histogram]
-description: "OpenCV 5 book Chapter 1 — Image basics including pixel operations, color spaces, and histograms."
-excerpt: "Core image processing concepts: pixel manipulation, color space conversions, histograms, and basic transformations."
-featured: true
-seo_title: "OpenCV 5 Chapter 1: Image Basics"
-seo_description: "Chapter 1 of the OpenCV 5 book covering fundamental image processing operations and techniques."
-related_posts:
-  - /farshid/resources.md
-  - /farshid/social.md
-show_sidebar: true
-website_path: https://www.pirahansiah.com
-toc: true
-comments: true
-share: true
-read_time: 15
-published: true
-sitemap: true
-canonical_url: https://www.pirahansiah.com
-lang: en
-mathjax: true
-mermaid: true
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-last_modified_at: 2025
+description: "Glossary of AI/ML terms, references, and resources for computer vision practitioners."
 markmap: |
   # AI and Machine Learning
   ## Glossary of Key Terms
@@ -44,7 +16,6 @@ markmap: |
   - Scikit-learn
   ## Community Engagement
   - Forums and Conferences
-
 ---
 {{ site.author }}
 # **Mastering AI and Machine Learning: Essential Glossary, Resources, and References**

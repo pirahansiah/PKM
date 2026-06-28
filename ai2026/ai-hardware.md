@@ -4,17 +4,17 @@ title: "AI Hardware Accelerators"
 date_modified: 2025-06-19
 categories: [workshops, hardware]
 tags: [AI-hardware, accelerators, NPU, FarshidPirahansiah]
-description: "AI hardware workshop covering custom accelerators, NPUs, and edge AI chips."
+description: "Workshop covering custom accelerators, NPUs, and edge AI chips."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/workshops-and-events/ai-hardware"
 markmap: |
   # AI Hardware Accelerators
   ## Custom ASICs
-  - Domain-specific chips
-  ## NPUs
-  - Neural Processing Units
+  - Domain-specific design
+  ## Neural Processing Units
+  - Dedicated ML inference
   ## Edge AI Chips
-  - Low-power inference
+  - Low-power deployment
   ## Benchmarks
   - Performance comparison
 ---

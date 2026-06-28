@@ -1,27 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [journal, SLAM, robotics]
-tags: [journal, 3D-SLAM, robotics, localization, mapping, humanoid]
-description: "Journal paper on 3D SLAM — simultaneous localization and mapping trends and humanoid robot linkages."
-excerpt: "Survey of 3D SLAM techniques covering localization, mapping trends, and applications in humanoid robotics."
-featured: true
-show_sidebar: true
-toc: true
-share: true
-published: true
-sitemap: true
-lang: en
-mathjax: true
-mermaid: true
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-
-
-title: "3D SLAM Simultaneous Localization And Mapping Trends And Humanoid Robot Linkages"
-date: 2024-10-18
+title: "3D SLAM and Humanoid Robot Linkages"
+description: "Survey of 3D SLAM techniques for localization, mapping, and humanoid robot applications."
 markmap: |
   # 3D SLAM
   ## SLAM Methods

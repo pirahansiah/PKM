@@ -1,15 +1,21 @@
 ---
 layout: farshid_default
 title: "Content Hub"
+description: "Technical articles and tutorials on computer vision, AI, edge deployment, and software engineering."
 markmap: |
   # Content Hub
-  ## Topics
-  - Coaching & Roadmap
-  - C++ & Python
-  - Optimization
-  - Startup & Business
-  - SEO & LLMs
-  - Links & Resources
+  ## Computer Vision
+  - 3D Vision & Optical Flow
+  - Multi-Camera Systems
+  ## CUDA & GPU
+  - Numba JIT & PyCUDA
+  ## AI & LLMs
+  - Advanced LLM Concepts
+  - Orchestrating Agents
+  ## Optimization
+  - CV/DL/ML Optimization
+  ## Resources
+  - Coaching & Links
 ---
 # Content Hub
 

@@ -1,30 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [journal, image-processing, thresholding]
-tags: [adaptive-thresholding, PSNR, image-segmentation, peak-signal-to-noise-ratio, image-processing, computer-vision]
-description: "Journal paper on adaptive image thresholding based on peak signal-to-noise ratio analysis."
-excerpt: "Research on adaptive thresholding methods using PSNR for robust image segmentation across varying conditions."
-featured: true
-seo_title: "Adaptive Image Thresholding Based on PSNR"
-seo_description: "Journal article presenting adaptive thresholding techniques using peak signal-to-noise ratio for image segmentation."
-show_sidebar: true
-toc: true
-comments: true
-share: true
-published: true
-sitemap: true
-lang: en
-mathjax: true
-mermaid: true
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-
-
-title: "Adaptive Image Thresholding Based on the Peak Signal-to-noise Ratio"
-date: 2024-10-15
+title: "Adaptive Thresholding Based on PSNR"
+description: "PSNR-based adaptive thresholding for image segmentation in OCR and license plate recognition."
 markmap: |
   # Adaptive Thresholding with PSNR
   ## Thresholding Methods

@@ -1,6 +1,6 @@
 ---
 layout: farshid_default
-title: "Cloud-Native Infrastructure with Kubernetes"
+title: "Cloud-Native with Kubernetes"
 date_modified: 2025-06-19
 categories: [courses, cloud]
 tags: [Docker, Kubernetes, cloud-native, FarshidPirahansiah]

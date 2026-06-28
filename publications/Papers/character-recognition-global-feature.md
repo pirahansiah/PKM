@@ -1,15 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [conference-paper, character-recognition, feature-extraction]
-tags: [character-recognition, global-feature, OCR, pattern-recognition, image-processing, computer-vision]
-description: "Conference paper on character recognition using global feature extraction methods."
-excerpt: "Methods for character recognition based on global feature extraction techniques for optical character recognition tasks."
-seo_title: "Character Recognition Based on Global Feature Extraction"
-seo_description: "Research on character recognition approaches using global feature extraction for OCR applications."
-keywords: [character recognition, global feature, OCR, pattern recognition, image processing]
-title: "Character Recognition Based on Global Feature"
-date: 2024-10-19
+title: "Character Recognition via Global Features"
+description: "Hybrid GLCM and EDMS method for character recognition in OCR applications."
 markmap: |
   # Character Recognition
   ## Feature Extraction

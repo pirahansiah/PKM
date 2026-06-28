@@ -1,12 +1,7 @@
 ---
 layout: farshid_default
 title: "CUDA Development Environment in VS Code on Windows"
-date_modified: 2025-06-19
-categories: [CUDA, dev-tools, Windows]
-tags: [CUDA, VSCode, nvcc, MSVC, debugging, C++, Windows]
 description: "Step-by-step guide to configure VS Code for CUDA C++ development on Windows with nvcc, IntelliSense, and debugging."
-excerpt: "Set up CUDA C++ in VS Code: tasks.json, launch.json, c_cpp_properties.json for building and debugging .cu files."
-author: "Dr. Farshid Pirahansiah"
 markmap: |
   # CUDA in VS Code
   ## tasks.json

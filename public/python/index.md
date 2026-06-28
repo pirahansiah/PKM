@@ -1,6 +1,7 @@
 ---
 layout: farshid_default
-title: "Python Config"
+title: "Python Configuration Management"
+description: "Guides to managing Python configuration with ConfigParser, argparse, pydantic, and advanced tools."
 markmap: |
   # Python Configuration
   ## ConfigParser

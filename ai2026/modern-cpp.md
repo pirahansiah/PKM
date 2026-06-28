@@ -4,19 +4,21 @@ title: "Modern C++ for Image Processing"
 date_modified: 2025-06-19
 categories: [courses, C++]
 tags: [C++, C++23, image-processing, design-patterns, FarshidPirahansiah]
-description: "Advanced Modern C++ 23 for image processing: memory management, design patterns, CUDA compilation, and OpenCV integration."
+description: "Modern C++23 for image processing: memory management, design patterns, CUDA, and OpenCV."
 author: "Dr. Farshid Pirahansiah"
 source: "https://www.tiziran.com/courses/modern-cpp"
 markmap: |
   # Modern C++23 for Image Processing
   ## Memory Management
-  - Stack vs heap, smart pointers
+  - Stack vs heap
+  - Smart pointers
   ## Design Patterns
   - Creational, structural, behavioral
   ## CUDA Compilation
   - nvcc, Jetson targets
   ## OpenCV Tips
-  - cv::Mat, deep copy, vectors
+  - cv::Mat deep copy
+  - Vector handling
 ---
 
 # Advanced Programming with Modern C++ 23 for Image Processing

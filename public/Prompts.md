@@ -1,12 +1,7 @@
 ---
 layout: farshid_default
 title: "Prompt Engineering Templates"
-date_modified: 2025-06-19
-categories: [LLM, prompt-engineering]
-tags: [prompts, LLM, text-simplification, mind-maps, structured-output]
-description: "Reusable prompt templates for C++ expertise, text simplification, mind map generation, and structured content reorganization."
-excerpt: "Ready-to-use prompt templates for LLM-powered content simplification, mind mapping, and structured text processing."
-author: "Dr. Farshid Pirahansiah"
+description: "Reusable prompt templates for text simplification, mind maps, and structured content processing."
 markmap: |
   # Prompt Engineering
   ## Templates
@@ -14,11 +9,11 @@ markmap: |
   - Mind Maps
   - Structured Output
   ## Requirements
-  - Language level B1
-  - Clarity & Readability
+  - B1 language level
+  - Clarity & readability
   ## Process
-  - Summarize
-  - Reorganize
+  - Summarize & reorganize
+  - Format for readability
 ---
 - a
 Consider yourself an expert software developer with extended knowledge about C++

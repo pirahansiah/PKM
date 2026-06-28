@@ -1,20 +1,19 @@
 ---
 layout: farshid_default
-title: "My Top LinkedIn Posts of 2024"
-date_modified: 2025-06-19
-categories: [CV, C++, AI, robotics]
-tags: [LinkedIn, camera-calibration, C++, NVIDIA, Jetson, robotics, SLAM]
-description: "Most impactful LinkedIn posts of 2024 covering camera calibration, C++ optimization, NVIDIA GPU tuning, and robotics AI."
-excerpt: "Highlights from 2024 LinkedIn posts: camera calibration, C++ mastery, NVIDIA optimization, robotics, and on-device LLM."
-author: "Dr. Farshid Pirahansiah"
+title: "Top LinkedIn Posts 2024"
+description: "Highlights from 2024 LinkedIn posts covering camera calibration, C++, NVIDIA optimization, and robotics."
 markmap: |
   # Top LinkedIn Posts 2024
-  ## Topics
-  - Camera Calibration
-  - C++ & Optimization
-  - NVIDIA GPUs
-  - Robotics & SLAM
-  - On-Device LLM
+  ## Camera Calibration
+  - Geometric analysis
+  - Subpixel precision
+  ## C++ & Optimization
+  - High-performance computing
+  - NVIDIA GPU tuning
+  ## Robotics & AI
+  - 3D SLAM
+  - On-device LLM
+  - Edge deployment
 ---
 Over the past year, my standout posts have featured camera calibration, Python, C++, OpenCV, NVIDIA optimizations, advanced C++ techniques, AI integration in robotics with LLMs, computer vision, and machine learning. Explore more: 
 [Link](https://www.pirahansiah.com/contents/public/linkedin-top-posts/ )

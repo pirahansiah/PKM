@@ -1,10 +1,7 @@
 ---
 layout: farshid_default
-title: "Dr. Farshid Pirahansiah — Complete Portfolio"
-tags: proof portfolio publications patents resources projects
-categories: legacy
-references: knowledge-graph, strategic-connections
-related: about, atlas
+title: Complete Portfolio
+description: Publications, patents, expertise, tools, and GitHub projects across CV and AI
 markmap: |
   # Complete Portfolio
   ## Publications
@@ -23,6 +20,15 @@ markmap: |
   - BI4CV
   - opencv_python
   - workshop_LLM
+  ## Technical Content
+  - CUDA & GPU
+  - Optical Flow
+  - 3D Vision
+  - Optimization
+  - AI & LLM
+  ## Coaching & Courses
+  - CV Coaching Roadmap
+  - Workshops
 ---
 
 # Table of Contents

@@ -1,15 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [conference-paper, grid-computing, distributed-systems]
-tags: [grid-computing, distributed-computing, Tafresh, cluster, high-performance-computing, university]
-description: "Conference paper on TafreshGrid — grid computing infrastructure at Tafresh University."
-excerpt: "Implementation and evaluation of grid computing resources at Tafresh University for distributed processing."
-seo_title: "TafreshGrid: Grid Computing at Tafresh University"
-seo_description: "Research on grid computing infrastructure deployment and performance at Tafresh University."
-keywords: [grid computing, distributed computing, Tafresh University, cluster computing, HPC]
-title: "TafreshGrid: Grid Computing at Tafresh University"
-date: 2024-10-19
+title: "TafreshGrid: Grid Computing"
+description: "Grid computing infrastructure implementation and evaluation at Tafresh University."
 markmap: |
   # TafreshGrid
   ## Project Phases

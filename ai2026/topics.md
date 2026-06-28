@@ -10,15 +10,20 @@ source: "https://www.tiziran.com/topics-and-projects"
 markmap: |
   # Topics & Projects
   ## AI & Machine Learning
-  - AI Hub, ChatGPT, DRL, Hardware, Quantum Computing
+  - LLMs, agents
+  - AI hardware, quantum
   ## Computer Vision
-  - Camera Calibration, Video Tracking, Apple CoreML
+  - Camera calibration
+  - Optical flow, multi-camera
   ## Getting Started
-  - Learning roadmap, YouTube, Software, IP Roadmap
-  ## Source Code
-  - OpenCV, Compile Guide
+  - ML fundamentals
+  - Developer tools & setup
+  ## CUDA & GPU
+  - Numba, PyCUDA
+  - MLX, CoreML, Metal
   ## Career
-  - Resume/CV, Startup
+  - Startup guide
+  - Portfolio & publications
 ---
 
 # Topics & Projects

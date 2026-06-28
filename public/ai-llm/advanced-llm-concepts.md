@@ -1,12 +1,7 @@
 ---
 layout: farshid_default
-title: "Mind Map: Advanced LLM Concepts"
-date_modified: 2025-06-19
-categories: [LLM, AI]
-tags: [LLM, RAG, embeddings, knowledge-graphs, multimodal, function-calling]
+title: "Advanced LLM Concepts"
 description: "Comprehensive mind map covering advanced LLM concepts including RAG, embeddings, multimodal models, and production deployment."
-excerpt: "Visual guide to advanced LLM topics: function calling, RAG, knowledge graphs, multimodal models, and productionizing LLMs."
-author: "Dr. Farshid Pirahansiah"
 markmap: |
   # Advanced LLM Concepts
   ## Agent Systems

@@ -1,29 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [patent, vehicle-detection, computer-vision]
-tags: [patent, vehicle-detection, WO2021107761A1, motion-analysis]
-description: "Patent: A method for detecting a moving vehicle — WO2021107761A1."
-excerpt: "Patent for detecting moving vehicles using computer vision techniques for intelligent transportation and surveillance."
-featured: true
-show_sidebar: true
-toc: true
-share: true
-published: true
-sitemap: true
-lang: en
-mathjax: true
-mermaid: true
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-
-
-
-read_time: 15
-title: "A METHOD FOR DETECTING A MOVING VEHICLE WO2021107761A1"
-date: 2024-10-12
+title: "Moving Vehicle Detection WO2021107761A1"
+description: "Image processing method for detecting moving vehicles using CLAHE, Sobel, and geometric filtering."
 markmap: |
   # Moving Vehicle Detection Patent
   ## Image Processing

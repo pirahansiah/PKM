@@ -1,27 +1,22 @@
 ---
 layout: farshid_default
-title: "Python Configuration Management & Tips"
-date_modified: 2025-06-19
-categories: [Python, dev-tools]
-tags: [Python, configuration, pybind11, Cython, argparse, pydantic, hydra]
-description: "Comparison of Python configuration methods (built-in vs third-party) plus tips on pybind11, Cython, and project scaling."
-excerpt: "Python config guide covering ConfigParser, argparse, TOML, pydantic, hydra, plus pybind11 and Cython for C++ integration."
-author: "Dr. Farshid Pirahansiah"
+title: "Python Configuration & C++ Integration"
+description: "Python configuration methods comparison plus pybind11 and Cython tips for C++ integration."
 markmap: |
   # Python Configuration
   ## Built-in Tools
-  - ConfigParser
-  - argparse
+  - ConfigParser & argparse
   - Environment Variables
-  - TOML
+  - TOML & JSON
   ## Third-Party
-  - pydantic
-  - hydra
+  - pydantic & hydra
   - dynaconf
-  ## Advanced
+  ## C++ Integration
   - pybind11
   - Cython
-  - Performance tips
+  ## Tips
+  - Memory optimization
+  - Decorators & dataclasses
 ---
 # Python
 [Python](https://www.pirahansiah.com/contents/public/python)

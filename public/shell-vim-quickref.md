@@ -1,25 +1,19 @@
 ---
 layout: farshid_default
-title: "Shell, Vim & Developer Tools Quick Reference"
-date_modified: 2025-06-19
-categories: [dev-tools, shell]
-tags: [shell, vim, terminal, grep, fzf, tldr, Linux]
-description: "Quick reference for shell basics, vim commands, and essential developer CLI tools like ripgrep, fzf, and broot."
-excerpt: "Shell essentials: echo, pipes, redirects, vim basics, and must-know CLI tools for efficient development."
-author: "Dr. Farshid Pirahansiah"
+title: "Shell & Vim Quick Reference"
+description: "Quick reference for shell commands, vim basics, and essential CLI tools."
 markmap: |
   # Shell & Vim
   ## Shell Basics
-  - Echo & Variables
+  - Echo & variables
   - Navigation
-  - Pipes
-  ## Tools
-  - tldr
-  - ripgrep
-  - fzf
+  - Pipes & shortcuts
+  ## CLI Tools
+  - tldr & ripgrep
+  - fzf & broot
   ## Vim
-  - Modes
-  - Navigation
+  - Modes & navigation
+  - Visual selection
 ---
 
 - [NeoHtop](https://github.com/Abdenasser/neohtop)

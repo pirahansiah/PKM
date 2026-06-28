@@ -1,23 +1,21 @@
 ---
 layout: farshid_default
-title: "The New Era of SEO: Optimizing for LLMs"
-date_modified: 2025-06-19
-categories: [SEO, LLM]
-tags: [SEO, LLM, structured-data, schema-markup, AI-search, content-optimization]
-description: "How to optimize websites for LLM-powered search engines using structured data, AI-friendly content, and authority building."
-excerpt: "Modern SEO strategies for LLM-driven search: JSON-LD schema, Q&A formatting, authority signals, and AI visibility tracking."
-author: "Dr. Farshid Pirahansiah"
+title: "SEO for LLM-Powered Search"
+description: "How to optimize websites for LLM-powered search engines using structured data and AI-friendly content."
 markmap: |
   # SEO for LLMs
   ## Structured Data
-  - JSON-LD
-  - Schema markup
+  - JSON-LD schema markup
+  - FAQ & HowTo formats
   ## Content Strategy
   - AI-friendly content
-  - Q&A format
+  - Q&A formatting
   ## Authority
-  - Citations
-  - Backlinks
+  - Backlinks & citations
+  - Author credentials
+  ## Technical SEO
+  - Machine-readable sitemaps
+  - Semantic HTML5
   ## Monitoring
   - AI visibility tracking
 ---

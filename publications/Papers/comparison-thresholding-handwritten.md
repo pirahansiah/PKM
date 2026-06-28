@@ -1,15 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [conference-paper, image-processing, thresholding]
-tags: [thresholding, handwritten-images, segmentation, image-processing, binarization, computer-vision]
-description: "Conference paper comparing single thresholding methods for handwritten image segmentation."
-excerpt: "Comparison of thresholding techniques for segmenting handwritten images in document analysis applications."
-seo_title: "Comparison of Single Thresholding Methods for Handwritten Image Segmentation"
-seo_description: "Research comparing thresholding approaches for handwritten image segmentation in document processing."
-keywords: [thresholding, handwritten images, segmentation, image processing, document analysis]
-title: "Comparison Single Thresholding Method for Handwritten Images Segmentation"
-date: 2024-10-19
+title: "Thresholding for Handwritten Segmentation"
+description: "Comparison of PSNR and Otsu thresholding for handwritten image segmentation."
 markmap: |
   # Single Thresholding Comparison
   ## Methods

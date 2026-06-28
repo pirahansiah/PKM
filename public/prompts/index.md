@@ -1,6 +1,7 @@
 ---
 layout: farshid_default
 title: "Prompts"
+description: "Templates and best practices for effective prompt engineering in code generation, data analysis, and creative writing."
 markmap: |
   # Prompt Engineering
   ## Templates

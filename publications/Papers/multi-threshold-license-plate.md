@@ -1,15 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [conference-paper, license-plate-recognition, thresholding]
-tags: [license-plate, multi-threshold, image-segmentation, thresholding, computer-vision, intelligent-transportation]
-description: "Conference paper on a multi-threshold approach for license plate recognition systems."
-excerpt: "Multi-threshold methods for improved license plate recognition in intelligent transportation systems."
-seo_title: "Multi-threshold Approach for License Plate Recognition System"
-seo_description: "Research on multi-threshold techniques for enhancing license plate recognition accuracy."
-keywords: [license plate recognition, multi-threshold, image segmentation, thresholding, intelligent transportation]
-title: "Multi-threshold Approach for License Plate Recognition System"
-date: 2024-10-19
+title: "Multi-Threshold for License Plate Recognition"
+description: "Adaptive multi-threshold approach using MLP for license plate recognition systems."
 markmap: |
   # Multi-threshold LPR
   ## Adaptive Approach

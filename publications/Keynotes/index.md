@@ -1,6 +1,7 @@
 ---
 layout: farshid_default
 title: "Keynotes"
+description: "Technical keynotes on computer vision, LLMs, and multimodal AI."
 markmap: |
   # Keynotes
   ## LLMs Meet Computer Vision

@@ -1,26 +1,19 @@
 ---
 layout: farshid_default
-title: "Computer Vision Coaching & Teaching Roadmap"
-date_modified: 2025-06-19
-categories: [computer-vision, teaching]
-tags: [coaching, tutoring, image-processing, curriculum, learning-path]
-description: "Personalized computer vision coaching services and a comprehensive teaching roadmap from fundamentals to advanced topics."
-excerpt: "Expert CV coaching with a structured roadmap covering image processing, object detection, 3D vision, and real-time systems."
-author: "Dr. Farshid Pirahansiah"
+title: "CV Coaching & Teaching Roadmap"
+description: "Personalized computer vision coaching with a structured curriculum from fundamentals to edge AI."
 markmap: |
   # CV Coaching Roadmap
   ## Fundamentals
-  - Image formation
-  - Color models
+  - Image formation & color models
   ## Image Processing
-  - Filtering
-  - Thresholding
+  - Filtering & thresholding
+  - Feature detection
   ## Object Detection
-  - CNNs
-  - YOLO
+  - CNNs & YOLO
+  - Segmentation
   ## 3D Vision
-  - Stereo vision
-  - SLAM
+  - Stereo vision & SLAM
   ## Advanced
   - Real-time systems
   - Edge AI

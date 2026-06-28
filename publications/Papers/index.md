@@ -1,6 +1,7 @@
 ---
 layout: farshid_default
 title: "Conference Papers"
+description: "Peer-reviewed conference papers on image processing, camera calibration, and pattern recognition."
 markmap: |
   # Conference Papers
   ## Image Processing

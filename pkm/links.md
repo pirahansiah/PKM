@@ -1,26 +1,31 @@
 ---
 layout: farshid_default
-title: Use Cases
-tags: pkm usecases solutions valueprop customers
-categories: solutions
-references: system-design, knowledge-graph, strategic-connections
-related: offering, growth-model
+title: Curated Links & Resources
+description: Collection of AI, CV, ML, and software development tools and tutorials
 markmap: |
   # Link Collection
   ## AI Agents
   - Android Agent
   - Devin
   - Context Engineering
+  - Local Screen Agent
   ## Computer Vision
-  - Ultralytics
-  - Hand Keypoints
+  - Ultralytics Hand Keypoints
+  - MakeHuman 3D
   ## AI Learning
   - Andrej Karpathy
-  - Stanford AI
+  - Stanford AI Playlist
   - Yann Dubs
   ## Apple ML
-  - MLX Sharp
+  - MLX Sharp Tutorial
   - ANE Book
+  ## Software
+  - Vertical Slice Architecture
+  - HandBrake
+  - Reveal.js
+  ## Other
+  - SendBySound
+  - Kanoon Archive
 ---
 
 

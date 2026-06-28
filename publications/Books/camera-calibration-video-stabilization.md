@@ -1,27 +1,7 @@
 ---
 layout: farshid_default
-title: "Camera Calibration and Video Stabilization Framework for Robot Localization"
-categories: [book-chapter, camera-calibration, robotics]
-tags: [camera-calibration, video-stabilization, robot-localization, Springer, control-engineering, autonomous-navigation]
-description: "Springer book chapter on camera calibration and video stabilization framework for autonomous robot localization."
-excerpt: "Camera calibration and video stabilization methods for robot localization in Springer's Control Engineering in Robotics."
-featured: true
-show_sidebar: true
-toc: true
-share: true
-published: true
-sitemap: true
-lang: en
-mathjax: true
-mermaid: true
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-
-
-title: "My book chapter titled “Camera Calibration and Video Stabilization Framework for Robot Localization” in the Book entitled “Control Engineering in Robotics and Industrial Automation" published in Springer. "
-date: 2024-10-18
+title: "Camera Calibration & Video Stabilization"
+description: "Springer book chapter on fuzzy camera calibration and video stabilization for robot localization."
 markmap: |
   # Camera Calibration & Video Stabilization
   ## Framework

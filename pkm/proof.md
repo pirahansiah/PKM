@@ -1,9 +1,7 @@
 ---
 layout: farshid_default
-title: All Links — pirahansiah.com
-tags: pkm links portfolio publications content
-categories: reference
-updated: 2025-06-21
+title: Site Link Index
+description: Complete index of all pages, publications, and resources on pirahansiah.com
 markmap: |
   # Link Index
   ## Landing & Profile
@@ -22,6 +20,12 @@ markmap: |
   ## Publications
   - Patents, Papers
   - Journals, Books
+  ## Courses & Workshops
+  - AI 2026 Courses
+  - Edge AI Workshops
+  ## External Links
+  - AI Tools
+  - Developer Tools
 ---
 
 # Pirahansiah.com — Complete Link Index

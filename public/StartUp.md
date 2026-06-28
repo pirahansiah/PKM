@@ -1,26 +1,26 @@
 ---
 layout: farshid_default
-title: "Startup Guide: Edge AI Business, Fundraising & Strategy in Germany"
-date_modified: 2025-06-19
-categories: [startup, business, Germany]
-tags: [startup, fundraising, pitch-deck, Edge-AI, GmbH, Germany, venture-capital]
-description: "Comprehensive startup guide covering Edge AI business plans, fundraising in Germany, pitch decks, and growth strategies."
-excerpt: "From Edge AI business plan to fundraising in Germany: pitch decks, metrics, competition strategy, and family dynamics in startups."
-author: "Dr. Farshid Pirahansiah"
+title: "Startup Guide: Edge AI Business"
+description: "Edge AI business plan, fundraising in Germany, pitch decks, and growth strategies."
 markmap: |
   # Startup Guide
-  ## Business Plan
-  - Edge AI Solutions
+  ## Edge AI Business Plan
+  - Product offerings
   - Revenue streams
-  ## Fundraising
-  - Germany market
-  - Pitch deck
+  - Hardware configs
+  ## Fundraising in Germany
+  - Market landscape
+  - Survival strategies
+  ## Pitch Deck
+  - Design & brevity
+  - Key slides
   ## Metrics
-  - CAC & LTV
-  - MRR & ARR
+  - CAC, LTV, MRR
+  - Churn & retention
   ## Strategy
-  - Competition
-  - AI wrappers
+  - Competition as growth
+  - AI wrappers in Germany
+  - Family dynamics
 ---
 
 

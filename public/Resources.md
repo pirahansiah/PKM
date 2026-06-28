@@ -1,12 +1,7 @@
 ---
 layout: farshid_default
-title: "Portfolio & Resources"
-date_modified: 2025-06-19
-categories: [portfolio, publications]
-tags: [CV, patents, books, papers, portfolio, resume]
-description: "Dr. Farshid Pirahansiah's complete portfolio: patents, publications, books, conference papers, and project highlights."
-excerpt: "Explore my research portfolio including 3 patents, 2 books, 6 journals, 11 conference papers, and impact projects."
-author: "Dr. Farshid Pirahansiah"
+title: "Portfolio & Publications"
+description: "Complete portfolio of patents, publications, books, and project highlights."
 markmap: |
   # Portfolio & Resources
   ## Publications
@@ -19,6 +14,8 @@ markmap: |
   - CUDA & GPU
   - Computer Vision
   - Optimization
+  - Programming
+  - Business & Career
 ---
 
 # My Portfolio

@@ -1,27 +1,24 @@
 ---
 layout: farshid_default
-title: "Optimization of CV, DL, and ML Systems"
-date_modified: 2025-06-19
-categories: [optimization, DL, CV]
-tags: [quantization, pruning, TensorRT, ONNX, edge-deployment, overfitting, underfitting]
-description: "Comprehensive optimization guide covering DL model optimization, CV system tuning, data handling, and library recommendations."
-excerpt: "Optimize deep learning and computer vision systems: model compression, hardware acceleration, data strategies, and frameworks."
-author: "Dr. Farshid Pirahansiah"
+title: "CV, DL & ML Optimization Guide"
+description: "Comprehensive guide to optimizing deep learning models, CV systems, and data pipelines."
 markmap: |
   # CV/DL/ML Optimization
   ## Model Optimization
-  - Quantization
-  - Pruning
-  - Distillation
+  - Quantization & Pruning
+  - Knowledge Distillation
   ## Hardware Acceleration
-  - GPU/TPU
-  - CUDA/TensorRT
+  - GPU/TPU & CUDA
+  - TensorRT & OpenVINO
+  ## CV System Optimization
+  - Real-time processing
+  - Edge deployment
   ## Data Handling
-  - Augmentation
-  - Preprocessing
-  ## Tuning
+  - Augmentation & Preprocessing
   - Overfitting vs Underfitting
-  - Regularization
+  ## Libraries & Frameworks
+  - PyTorch, TensorFlow
+  - ONNX Runtime, CoreML
 ---
 # Optimization 
 

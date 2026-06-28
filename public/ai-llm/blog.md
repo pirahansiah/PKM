@@ -1,17 +1,7 @@
 ---
 layout: farshid_default
 title: "Blog: AI, LLMs, and Computer Vision"
-date_modified: 2025-06-19
-categories: [blog, AI, LLM]
-tags: [blog, RAG, CAG, multi-agent, AI-agents, MetaGPT, SEO, future-of-work]
 description: "Blog posts on RAG vs CAG, multi-agent architectures, AI's impact on jobs, and the future of software development."
-excerpt: "Latest blog posts: RAG vs CAG comparison, multi-agent swarm architectures, AI replacing jobs, and LLM frameworks."
-author: "Dr. Farshid Pirahansiah"
-featured: true
-toc: true
-share: true
-published: true
-sitemap: true
 markmap: |
   # AI & LLM Blog
   ## RAG vs CAG

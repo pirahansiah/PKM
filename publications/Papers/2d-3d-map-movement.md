@@ -1,15 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [conference-paper, mapping, motion-detection]
-tags: [2D-mapping, 3D-mapping, motion-detection, environment-mapping, computer-vision, robotics]
-description: "Conference paper comparing 2D and 3D mapping approaches for detecting moving objects in environments."
-excerpt: "Comparison of 2D versus 3D mapping methods for environment movement object detection and tracking."
-featured: true
-seo_title: "2D versus 3D Map for Environment Movement Objects"
-seo_description: "Research comparing 2D and 3D mapping techniques for detecting and tracking moving objects in environments."
-title: "2D versus 3D Map for Environment Movement Objects"
-date: 2024-10-18
+title: "2D vs 3D Mapping for Moving Objects"
+description: "Comparison of 2D and 3D mapping approaches for environment movement detection."
 markmap: |
   # 2D vs 3D Mapping
   ## Object Detection

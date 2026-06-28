@@ -1,24 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [patent, face-recognition, image-processing]
-tags: [patent, face-augmentation, WO2021060971A1, image-processing]
-description: "Patent: A method for augmenting a plurality of face images — WO2021060971A1."
-excerpt: "Patent for augmenting face images using computational methods for improved face recognition and training data generation."
-featured: true
-show_sidebar: true
-toc: true
-share: true
-published: true
-sitemap: true
-lang: en
-mathjax: true
-mermaid: true
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-title: "A METHOD FOR AUGMENTING A PLURALITY OF FACE IMAGES WO2021060971A1"
+title: "Face Image Augmentation WO2021060971A1"
+description: "GAN-based method for augmenting face images from surveillance with fuzzy logic quality filtering."
 markmap: |
   # Face Image Augmentation Patent
   ## Image Acquisition

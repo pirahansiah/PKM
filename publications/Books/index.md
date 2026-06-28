@@ -1,6 +1,7 @@
 ---
 layout: farshid_default
 title: "Books & Book Chapters"
+description: "Books and book chapters on computer vision, camera calibration, and AI."
 markmap: |
   # Books & Book Chapters
   - Optical flow for video stabilization

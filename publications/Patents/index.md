@@ -1,6 +1,7 @@
 ---
 layout: farshid_default
 title: "Patents"
+description: "AI and computer vision patents covering face augmentation, vehicle detection, and facial analysis."
 markmap: |
   # Patents
   ## Face Augmentation

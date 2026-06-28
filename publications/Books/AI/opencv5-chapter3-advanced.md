@@ -1,11 +1,7 @@
 ---
 layout: farshid_default
-title: "OpenCV 5 Ebook — Chapter 3"
-categories: [book, OpenCV, computer-vision]
-tags: [OpenCV, computer-vision, advanced-topics, image-processing]
-description: "OpenCV 5 Ebook Chapter 3: Advanced topics in computer vision."
-excerpt: "Advanced computer vision techniques using OpenCV 5."
-author: "Dr. Farshid Pirahansiah"
+title: "OpenCV 5 — Chapter 3: Advanced Topics"
+description: "Advanced computer vision techniques including filtering, morphology, and G-API integration."
 markmap: |
   # Advanced CV Topics
   ## Image Processing

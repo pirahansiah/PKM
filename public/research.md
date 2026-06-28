@@ -1,6 +1,27 @@
 ---
 layout: farshid_default
 title: "Research — Publications & Patents"
+description: "Complete list of patents, journal articles, conference papers, books, and keynotes."
+markmap: |
+  # Research
+  ## Patents (3)
+  - Face Augmentation
+  - Vehicle Detection
+  - Facial Analysis Advertising
+  ## Papers (11)
+  - Camera Calibration
+  - Image Segmentation
+  - License Plate Recognition
+  ## Journals (6)
+  - Adaptive Thresholding
+  - 3D SLAM
+  - Ant Colony Optimization
+  ## Books (7)
+  - OpenCV 5 Chapters
+  - Optical Flow
+  - Camera Calibration
+  ## Keynotes
+  - LLMs Meet Computer Vision
 ---
 
 <style>

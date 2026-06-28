@@ -1,30 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [journal, image-processing, fuzzy-logic]
-tags: [fuzzy-thresholding, PSNR, global-threshold, image-segmentation, fuzzy-logic, computer-vision]
-description: "Journal paper on global single fuzzy thresholding using PSNR analysis for image segmentation."
-excerpt: "Research on fuzzy thresholding methods combining global analysis with PSNR for improved image segmentation."
-featured: true
-seo_title: "GSFT-PSNR: Global Single Fuzzy Threshold Based on PSNR"
-seo_description: "Journal article presenting fuzzy thresholding approach using PSNR for robust image segmentation."
-show_sidebar: true
-toc: true
-comments: true
-share: true
-published: true
-sitemap: true
-lang: en
-mathjax: true
-mermaid: true
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI, ML, DL, AWS, IoT, Robotics, Adaptive Image Thresholding]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-
-
-title: "GSFT-PSNR Global Single Fuzzy Threshold"
-date: 2024-10-15
+title: "GSFT-PSNR: Fuzzy Threshold Method"
+description: "Fuzzy logic approach to global single thresholding using PSNR for image segmentation."
 markmap: |
   # GSFT-PSNR Method
   ## Thresholding

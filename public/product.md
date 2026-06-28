@@ -1,6 +1,24 @@
 ---
 layout: farshid_default
 title: "Product — Embedded CV & Edge AI"
+description: "Embedded computer vision and edge AI systems portfolio."
+markmap: |
+  # Product
+  ## Computer Vision
+  - 3D Vision & Multi-Camera
+  - Optical Flow
+  ## AI & LLMs
+  - Advanced LLM Concepts
+  - Orchestrating Agents
+  ## CUDA & GPU
+  - Numba JIT & PyCUDA
+  - MLX, CoreML & Metal
+  ## Optimization
+  - CV/DL/ML Optimization
+  - Prompt Engineering
+  ## Programming
+  - C++ & Python
+  - Shell & Vim
 ---
 
 <style>

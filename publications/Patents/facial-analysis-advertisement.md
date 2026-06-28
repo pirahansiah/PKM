@@ -1,29 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [patent, facial-analysis, advertising]
-tags: [patent, facial-analysis, WO2020141969A2, advertisement, computer-vision]
-description: "Patent: System and method for providing advertisement contents based on facial analysis — WO2020141969A2."
-excerpt: "Patent for delivering targeted advertisements using real-time facial analysis and demographic detection."
-featured: true
-show_sidebar: true
-toc: true
-share: true
-published: true
-sitemap: true
-lang: en
-mathjax: true
-mermaid: true
-keywords: [computer vision, deep learning, image processing, object detection, neural networks, AI]
-header:
-  caption: "Advanced Computer Vision Techniques"
-footer: "© 2024 Dr. Farshid Pirahansiah. All rights reserved."
-
-
-
-read_time: 15
-title: "SYSTEM AND METHOD FOR PROVIDING ADVERTISEMENT CONTENTS BASED ON FACIAL ANALYSIS WO2020141969A2"
-date: 2024-10-12
+title: "Facial Analysis Advertisement WO2020141969A2"
+description: "System for targeted digital advertising using real-time facial analysis and demographic detection."
 markmap: |
   # Advertisement via Facial Analysis
   ## System Components

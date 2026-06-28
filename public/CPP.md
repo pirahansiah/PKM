@@ -1,27 +1,20 @@
 ---
 layout: farshid_default
-title: "C++ Quick Reference: Memory, Data Structures & Tools"
-date_modified: 2025-06-19
-categories: [C++, programming]
-tags: [C++, memory-management, stack-heap, STL, debugging, profiling]
-description: "Quick reference for C++ memory management (stack vs heap), data structures, debugging tools, and command-line essentials."
-excerpt: "Concise C++ cheat sheet covering memory management, STL containers, debugging with valgrind/fsanitize, and Linux essentials."
-author: "Dr. Farshid Pirahansiah"
+title: "C++ Quick Reference"
+description: "Quick reference for C++ memory management, data structures, debugging tools, and shell basics."
 markmap: |
   # C++ Quick Reference
   ## Memory
   - Stack vs Heap
   - Pointers
   ## Data Structures
-  - std::map
-  - std::stack
-  - std::queue
-  ## Tools
+  - std::map, stack, queue
+  ## Debugging
   - Valgrind
-  - Debugging
+  - fsanitize
   ## Shell Basics
-  - Paths
-  - Pipes
+  - Paths & pipes
+  - Log levels
 ---
 
 C++

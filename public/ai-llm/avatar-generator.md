@@ -1,12 +1,7 @@
 ---
 layout: farshid_default
-title: "Local Video Avatar Generator with Ollama and Open-Source Tools"
-date_modified: 2025-06-19
-categories: [AI, LLM, video-processing]
-tags: [avatar, Ollama, Wav2Lip, Piper-TTS, Whisper, local-AI]
+title: "Local Video Avatar Generator with Ollama"
 description: "Build a fully local video avatar generator using Ollama LLM, Piper TTS, and Wav2Lip without cloud services."
-excerpt: "Step-by-step guide to creating talking video avatars locally using open-source LLM, TTS, and lip-sync models."
-author: "Dr. Farshid Pirahansiah"
 markmap: |
   # Local Video Avatar Generator
   ## Pipeline

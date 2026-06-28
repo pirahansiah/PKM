@@ -1,15 +1,7 @@
 ---
 layout: farshid_default
-author: Dr. Farshid Pirahansiah
-categories: [conference-paper, pattern-recognition, feature-analysis]
-tags: [classification, geometrical-features, topological-features, pattern-recognition, feature-extraction, computer-vision]
-description: "Conference paper evaluating classification techniques using enhanced geometrical and topological feature analysis."
-excerpt: "Evaluation of classification methods enhanced by geometrical and topological feature analysis for pattern recognition tasks."
-seo_title: "Classification Techniques Using Enhanced Geometrical Topological Feature Analysis"
-seo_description: "Research on improving pattern classification through enhanced geometrical and topological feature extraction methods."
-keywords: [classification, geometrical features, topological features, pattern recognition, feature analysis]
-title: "Classification Techniques Using Enhanced Geometrical Topological Feature Analysis"
-date: 2024-10-19
+title: "Classification with Geometrical Features"
+description: "Evaluation of classification techniques using enhanced geometrical and topological features."
 markmap: |
   # Classification Techniques
   ## Image Classification Methods
