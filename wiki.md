@@ -244,7 +244,6 @@ title: "All Pages — pirahansiah.com"
     <h2 id="presentations">Presentations</h2>
     <ul>
       <li><a href="/contents/ppt/farshid-ai-cv-llm-presentation/">Reducing Token Usage in AI-Assisted Development</a></li>
-      <li><a href="/contents/ppt/token-reduction-presentation.pptx">Download: Token Reduction (PPTX)</a></li>
     </ul>
   </div>
 
