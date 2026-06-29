@@ -19,6 +19,8 @@ markmap: |
   ## Deep Learning
   - Feature Extraction
   - Recognition Training
+tags: [patent, face-augmentation, gan, data-augmentation]
+hashtags: "#patent #faceaugmentation #gan #dataaugmentation"
 ---
 
 [spotify](https://spotifyanchor-web.app.link/e/XZpmcmHCFNb)

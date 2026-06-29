@@ -17,6 +17,10 @@ markmap: |
   ## Community Engagement
   - Forums and Conferences
 ---
+
+tags: [opencv, image-processing, computer-vision, python]
+hashtags: "#opencv #imageprocessing #cv #python"
+
 {{ site.author }}
 # **Mastering AI and Machine Learning: Essential Glossary, Resources, and References**
 

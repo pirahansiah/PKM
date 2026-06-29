@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Research — Publications & Patents"
 description: "Complete list of patents, journal articles, conference papers, books, and keynotes."
+tags: [research, publications, patents, computer-vision]
+hashtags: "#research #publications #patents #cv"
 markmap: |
   # Research
   ## Patents (3)

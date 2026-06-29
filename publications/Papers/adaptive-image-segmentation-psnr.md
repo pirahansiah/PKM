@@ -18,7 +18,10 @@ markmap: |
   - vs Kittler/Illingworth
   - vs Otsu's Method
   - High Reliability
+tags: [image-segmentation, psnr, thresholding, license-plate-recognition]
+hashtags: "#imagesegmentation #psnr #thresholding #lpr"
 ---
+
 Adaptive_Image_Segmentation_Based_on_PSNR_for_License_Plate_Recognition
 
 

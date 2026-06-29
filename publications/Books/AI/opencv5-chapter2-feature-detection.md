@@ -20,6 +20,10 @@ markmap: |
   - Transparency
   - Privacy
 ---
+
+tags: [opencv, feature-detection, computer-vision, ai]
+hashtags: "#opencv #featuredetection #cv #ai"
+
 {{ site.author }}
 
 # **Mastering AI and Machine Learning: A Comprehensive Summary**

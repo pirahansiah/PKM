@@ -16,4 +16,6 @@ markmap: |
   - New APIs
   - Performance Improvements
   - G-API Integration
+tags: [opencv, computer-vision, image-processing, filtering]
+hashtags: "#opencv #cv #imageprocessing #filtering"
 ---

@@ -15,7 +15,10 @@ markmap: |
   ## Tools
   - OpenCV, VLLM
   - WSL portable dev setup
+tags: [computer-vision, debugging, lessons-learned, opencv]
+hashtags: "#cv #debugging #lessonslearned #opencv"
 ---
+
 #ComputerVision_Edge_AI
 High-Accuracy Real-Time Medical Image Processing on Embedded Systems
 #RealTimeEmbeddedMedicalImageProcessing

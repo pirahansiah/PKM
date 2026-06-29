@@ -16,6 +16,8 @@ markmap: |
   - Feature Extraction
   ## Grid Computing
   - TafreshGrid
+tags: [research, paper, image-processing, computer-vision]
+hashtags: "#research #cv #papers #imageprocessing"
 ---
 
 # Conference Papers

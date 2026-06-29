@@ -2,6 +2,8 @@
 layout: farshid_page
 title: "Dr. Farshid Pirahansiah — CV & AI"
 parent: MainPage
+tags: [computer-vision, ai, portfolio, about]
+hashtags: "#cv #ai #portfolio #about"
 markmap: |
   # Dr. Farshid Pirahansiah
   ## Computer Vision & AI

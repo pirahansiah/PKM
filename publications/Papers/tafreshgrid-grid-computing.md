@@ -19,8 +19,9 @@ markmap: |
   ## Testing
   - Network Testing
   - Performance Evaluation
+tags: [grid-computing, distributed-systems, high-performance-computing]
+hashtags: "#gridcomputing #distributedsystems #hpc"
 ---
-
 
 TafreshGrid_Grid_computing_in_Tafresh_university
 

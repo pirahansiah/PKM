@@ -18,7 +18,10 @@ markmap: |
   - OCR Systems
   - License Plate Recognition
   - Handwritten Documents
+tags: [fuzzy-logic, thresholding, psnr, image-segmentation]
+hashtags: "#fuzzylogic #thresholding #psnr #imagesegmentation"
 ---
+
 GSFT-PSNR_Global_Single_Fuzzy_Threshold
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/GSFT-PSNR-Global-Single-Fuzzy-Threshold-e2pr7cs)

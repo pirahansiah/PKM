@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "C++ Quick Reference"
 description: "Quick reference for C++ memory management, data structures, debugging tools, and shell basics."
+tags: [cpp, programming, debugging, memory-management]
+hashtags: "#cpp #programming #debugging #memorymanagement"
 markmap: |
   # C++ Quick Reference
   ## Memory

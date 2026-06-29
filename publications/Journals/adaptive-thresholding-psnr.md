@@ -18,7 +18,10 @@ markmap: |
   ## Results
   - F-Measure Evaluation
   - Comparative Analysis
+tags: [thresholding, psnr, adaptive-thresholding, image-segmentation]
+hashtags: "#thresholding #psnr #adaptivethresholding #imagesegmentation"
 ---
+
 Adaptive_Image_Thresholding_Based_on_the_Peak_Signal-to-noise_Ratio
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/Adaptive-Image-Thresholding-Based-on-the-Peak-Signal-to-noise-Ratio-e2pnbgj)

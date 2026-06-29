@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Portfolio & Publications"
 description: "Complete portfolio of patents, publications, books, and project highlights."
+tags: [portfolio, publications, patents, research]
+hashtags: "#portfolio #publications #patents #research"
 markmap: |
   # Portfolio & Resources
   ## Publications

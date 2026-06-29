@@ -21,6 +21,8 @@ markmap: |
   - Method Claims
 ---
 date_modified: 2024-10-12
+tags: [patent, facial-recognition, advertising, deep-learning]
+hashtags: "#patent #facialrecognition #advertising #deeplearning"
 ---
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/SYSTEM-AND-METHOD-FOR-PROVIDING-ADVERTISEMENT-CONTENTS-BASED-ON-FACIAL-ANALYSIS-WO2020141969A2-e2p7342)

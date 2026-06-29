@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Developer Tools & Setup Guide"
 description: "Curated developer tools, shell essentials, Docker tips, and GitHub tricks."
+tags: [developer-tools, docker, github, productivity]
+hashtags: "#devtools #docker #github #productivity"
 markmap: |
   # Dev Tools Setup
   ## Recommended Tools

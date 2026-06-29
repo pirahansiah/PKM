@@ -19,6 +19,8 @@ markmap: |
   - Better Rotation Handling
 ---
 
+tags: [3d-mapping, object-detection, computer-vision, robotics]
+hashtags: "#3dmapping #objectdetection #cv #robotics"
 
 My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects
 

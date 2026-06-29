@@ -17,8 +17,8 @@ markmap: |
   - Classification
   ## Future Work
   - Real-time Specifications
----
-
+tags: [license-plate-recognition, thresholding, image-segmentation]
+hashtags: "#lpr #thresholding #imagesegmentation"
 
 Multi-threshold_Approach_for_License_Plate_Recognition_System
 

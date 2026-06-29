@@ -19,7 +19,10 @@ markmap: |
   - Automated Visual Inspection
   - License Plate Recognition
   - Mobile Devices
+tags: [psnr, thresholding, image-segmentation, image-processing]
+hashtags: "#psnr #thresholding #imagesegmentation #imageprocessing"
 ---
+
 PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION
 
 https://www.pirahansiah.com/contents/publications/Journals/PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION/

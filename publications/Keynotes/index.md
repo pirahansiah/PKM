@@ -14,6 +14,8 @@ markmap: |
   - Document Analysis
   - Video Understanding
   - IoT and Robotics
+tags: [keynote, ai, computer-vision, multimodal]
+hashtags: "#keynote #ai #computervision #multimodal"
 ---
 
 # Keynotes

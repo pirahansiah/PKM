@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Blog: AI, LLMs, and Computer Vision"
 description: "Blog posts on RAG vs CAG, multi-agent architectures, AI's impact on jobs, and the future of software development."
+tags: [ai, llm, rag, multi-agent]
+hashtags: "#ai #llm #rag #multiagent"
 markmap: |
   # AI & LLM Blog
   ## RAG vs CAG

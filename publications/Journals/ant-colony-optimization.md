@@ -18,7 +18,10 @@ markmap: |
   ## Results
   - DIBCO 2009 Benchmark
   - Better PSNR Performance
+tags: [ant-colony-optimization, image-processing, thresholding, optimization]
+hashtags: "#aco #imageprocessing #thresholding #optimization"
 ---
+
 USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM
 
 - https://www.pirahansiah.com/contents/publications/Journals/USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM/

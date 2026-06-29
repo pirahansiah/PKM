@@ -16,6 +16,8 @@ markmap: |
   - Motion Analysis
 ---
 
+tags: [conference-paper, computer-vision, image-processing]
+hashtags: "#conferencepaper #cv #imageprocessing"
 
 
 

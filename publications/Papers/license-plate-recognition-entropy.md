@@ -17,6 +17,8 @@ markmap: |
   ## Results
   - vs Single Threshold
   - Varying Conditions
+tags: [license-plate-recognition, entropy, thresholding, image-segmentation]
+hashtags: "#lpr #entropy #thresholding #imagesegmentation"
 ---
 
 License_Plate_Recognition_with_Multi-Threshold_Based_on_Entropy

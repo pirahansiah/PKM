@@ -16,7 +16,10 @@ markmap: |
   ## Applications
   - License Plate Recognition
   - Binary Shape Recognition
+tags: [character-recognition, object-recognition, feature-extraction, glcm]
+hashtags: "#characterrecognition #objectrecognition #featureextraction #glcm"
 ---
+
 CHARACTER_AND_OBJECT_RECOGNITION_BASED_ON_GLOBAL_FEATURE_EXTRACTION
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/Character-and-Object-Recognition-Based-on-Global-Feature-Extraction-e2pptrp)

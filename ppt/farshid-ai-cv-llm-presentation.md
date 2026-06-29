@@ -1,6 +1,12 @@
 ---
 layout: farshid_default
 title: "Reducing Token Usage in AI-Assisted Development"
+tags:
+  - presentation
+  - ai
+  - llm
+  - token-optimization
+hashtags: "#presentation #ai #llm #token-optimization"
 ---
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">

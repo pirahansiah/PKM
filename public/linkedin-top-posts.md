@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Top LinkedIn Posts 2024"
 description: "Highlights from 2024 LinkedIn posts covering camera calibration, C++, NVIDIA optimization, and robotics."
+tags: [linkedin, camera-calibration, cpp, robotics]
+hashtags: "#linkedin #cameracalibration #cpp #robotics"
 markmap: |
   # Top LinkedIn Posts 2024
   ## Camera Calibration

@@ -16,8 +16,9 @@ markmap: |
   - Slope Variation
   ## Future Work
   - Deep Learning Integration
+tags: [camera-calibration, pattern-recognition, robotics]
+hashtags: "#cameracalibration #patternrecognition #robotics"
 ---
-
 
 Pattern_Image_Significance_for_Camera_Calibration
 

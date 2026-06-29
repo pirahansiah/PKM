@@ -19,6 +19,8 @@ markmap: |
   - Law Enforcement
   - Toll Collection
   - Traffic Control
+tags: [classification, geometrical-features, pattern-recognition, machine-learning]
+hashtags: "#classification #geometricalfeatures #patternrecognition #ml"
 ---
 
 An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis

@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Python Configuration & C++ Integration"
 description: "Python configuration methods comparison plus pybind11 and Cython tips for C++ integration."
+tags: [python, cpp, configuration, development]
+hashtags: "#python #cpp #configuration #devtools"
 markmap: |
   # Python Configuration
   ## Built-in Tools

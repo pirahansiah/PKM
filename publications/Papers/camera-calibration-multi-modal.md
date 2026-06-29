@@ -16,6 +16,8 @@ markmap: |
   ## Applications
   - Autonomous Robots
   - Multi-Modal Vision
+tags: [camera-calibration, multi-modal, robotics, image-quality]
+hashtags: "#cameracalibration #multimodal #robotics #iqa"
 ---
 
 Camera_Calibration_for_Multi-Modal_Robot_Vision

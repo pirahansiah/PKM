@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "CV Coaching & Teaching Roadmap"
 description: "Personalized computer vision coaching with a structured curriculum from fundamentals to edge AI."
+tags: [computer-vision, coaching, teaching, curriculum]
+hashtags: "#cv #coaching #teaching #curriculum"
 markmap: |
   # CV Coaching Roadmap
   ## Fundamentals

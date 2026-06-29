@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Content Hub"
 description: "Technical articles and tutorials on computer vision, AI, edge deployment, and software engineering."
+tags: [computer-vision, ai, llm, edge-ai]
+hashtags: "#cv #ai #llm #edgeai"
 markmap: |
   # Content Hub
   ## Computer Vision

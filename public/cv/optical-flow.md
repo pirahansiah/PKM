@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Optical Flow: Challenges and Solutions"
 description: "Comprehensive guide to optical flow challenges including illumination changes, occlusions, fast motion, and their solutions."
+tags: [computer-vision, optical-flow, motion-analysis, opencv]
+hashtags: "#cv #opticalflow #motionanalysis #opencv"
 markmap: |
   # Optical Flow Challenges
   ## Illumination

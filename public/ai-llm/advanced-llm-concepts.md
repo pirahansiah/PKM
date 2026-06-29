@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Advanced LLM Concepts"
 description: "Comprehensive mind map covering advanced LLM concepts including RAG, embeddings, multimodal models, and production deployment."
+tags: [ai, llm, rag, multimodal]
+hashtags: "#ai #llm #rag #multimodal"
 markmap: |
   # Advanced LLM Concepts
   ## Agent Systems

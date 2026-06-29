@@ -16,6 +16,8 @@ markmap: |
   - Targeted Advertising
   - Demographic Detection
   - Privacy-Preserving
+tags: [patent, face-detection, vehicle-detection, augmented-reality]
+hashtags: "#patent #facedetection #vehicledetection #augmentedreality"
 ---
 
 # Patents

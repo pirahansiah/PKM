@@ -2,6 +2,8 @@
 layout: farshid_default
 title: Curated Links & Resources
 description: Collection of AI, CV, ML, and software development tools and tutorials
+tags: [curated-links, ai-tools, resources]
+hashtags: "#curatedlinks #aitools #resources"
 markmap: |
   # Link Collection
   ## AI Agents

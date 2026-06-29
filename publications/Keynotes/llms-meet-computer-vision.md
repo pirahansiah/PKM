@@ -19,7 +19,8 @@ markmap: |
   - Zero-Shot
   - Few-Shot
   - Context Window
----
+tags: [llm, computer-vision, multimodal, ai]
+hashtags: "#llm #cv #multimodal #ai"
 # {{ site.author }}  
 
 # coursera video RAG

@@ -2,6 +2,8 @@
 layout: farshid_default
 title: Complete Portfolio
 description: Publications, patents, expertise, tools, and GitHub projects across CV and AI
+tags: [portfolio, computer-vision, edge-ai, github-projects]
+hashtags: "#portfolio #computervision #edgeai #github"
 markmap: |
   # Complete Portfolio
   ## Publications

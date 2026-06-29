@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "CUDA Development Environment in VS Code on Windows"
 description: "Step-by-step guide to configure VS Code for CUDA C++ development on Windows with nvcc, IntelliSense, and debugging."
+tags: [cuda, gpu, development, visual-studio-code]
+hashtags: "#cuda #gpu #devtools #vscode"
 markmap: |
   # CUDA in VS Code
   ## tasks.json

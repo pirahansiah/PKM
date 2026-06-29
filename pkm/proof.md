@@ -2,6 +2,8 @@
 layout: farshid_default
 title: Site Link Index
 description: Complete index of all pages, publications, and resources on pirahansiah.com
+tags: [site-index, links, documentation]
+hashtags: "#siteindex #links #documentation"
 markmap: |
   # Link Index
   ## Landing & Profile

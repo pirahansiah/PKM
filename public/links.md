@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Curated Links & Resources"
 description: "Hand-picked tools, tutorials, and references for CV, AI, and software engineering."
+tags: [resources, tools, tutorials, references]
+hashtags: "#resources #tools #tutorials #references"
 markmap: |
   # Curated Links
   ## Development

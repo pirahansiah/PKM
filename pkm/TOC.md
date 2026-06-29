@@ -2,6 +2,8 @@
 layout: farshid_default
 title: PKM Methods & Website Structure
 description: Personal knowledge management approaches from top practitioners and site architecture
+tags: [pkm, knowledge-management, productivity]
+hashtags: "#pkm #knowledgemanagement #productivity"
 markmap: |
   # PKM Methods
   ## Andrej Karpathy

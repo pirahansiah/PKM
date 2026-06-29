@@ -13,6 +13,8 @@ markmap: |
   - Ch.1 Image Basics
   - Ch.2 Feature Detection
   - Ch.3 Advanced Topics
+tags: [book, opencv, computer-vision, ai]
+hashtags: "#book #opencv #computervision #ai"
 ---
 
 # Books & Book Chapters

@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Product — Embedded CV & Edge AI"
 description: "Embedded computer vision and edge AI systems portfolio."
+tags: [computer-vision, edge-ai, embedded-systems, product]
+hashtags: "#cv #edgeai #embeddedsystems #product"
 markmap: |
   # Product
   ## Computer Vision

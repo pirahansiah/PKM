@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Shell & Vim Quick Reference"
 description: "Quick reference for shell commands, vim basics, and essential CLI tools."
+tags: [shell, vim, cli, developer-tools]
+hashtags: "#shell #vim #cli #devtools"
 markmap: |
   # Shell & Vim
   ## Shell Basics

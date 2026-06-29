@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Mind Map: Orchestrating AI Agents"
 description: "Mind map and guide to orchestrating multiple AI agents for complex task completion using LLMs."
+tags: [ai, llm, agents, multi-agent]
+hashtags: "#ai #llm #agents #multiagent"
 markmap: |
   # Orchestrating AI Agents
   ## Agent Types

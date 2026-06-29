@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Accelerate Python with Numba's @jit(nopython=True)"
 description: "Tutorial on using Numba's @jit decorator to compile Python functions into optimized machine code for faster numerical computing."
+tags: [python, numba, jit, performance]
+hashtags: "#python #numba #jit #performance"
 markmap: |
   # Numba JIT
   ## @jit(nopython=True)

@@ -20,7 +20,10 @@ markmap: |
   ## Datasets
   - Indoor/Outdoor
   - Benchmark Datasets
+tags: [slam, humanoid-robots, 3d-mapping, robotics]
+hashtags: "#slam #humanoidrobots #3dmapping #robotics"
 ---
+
 3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages
 
 https://www.pirahansiah.com/contents/publications/Journals/3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages/

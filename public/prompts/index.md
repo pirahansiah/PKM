@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Prompt Engineering Templates"
 description: "Reusable prompt templates for text simplification, mind maps, and structured content processing."
+tags: [prompt-engineering, llm, ai, nlp]
+hashtags: "#promptengineering #llm #ai #nlp"
 markmap: |
   # Prompt Engineering
   ## Templates

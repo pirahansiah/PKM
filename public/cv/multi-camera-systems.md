@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Real-Time Multi-Camera Vision Systems"
 description: "Deep technical guide to building real-time multi-camera vision systems with heterogeneous processing and scaling to 100+ cameras."
+tags: [computer-vision, multi-camera, real-time, edge-ai]
+hashtags: "#cv #multicamera #realtime #edgeai"
 markmap: |
   # Multi-Camera Systems
   ## System Architecture

@@ -17,6 +17,8 @@ markmap: |
   - Humanoid Robots
   ## Optimization
   - Ant Colony Algorithms
+tags: [journal, image-processing, thresholding, pattern-recognition]
+hashtags: "#research #cv #journals #thresholding"
 ---
 
 # Journal Publications

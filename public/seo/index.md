@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "SEO for LLM-Powered Search"
 description: "How to optimize websites for LLM-powered search engines using structured data and AI-friendly content."
+tags: [seo, llm, ai, web-optimization]
+hashtags: "#seo #llm #ai #weboptimization"
 markmap: |
   # SEO for LLMs
   ## Structured Data

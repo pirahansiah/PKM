@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Solutions — AI Courses & Workshops"
 description: "AI 2026 courses, workshops, and business solutions for production-ready products."
+tags: [ai, courses, workshops, deep-learning]
+hashtags: "#ai #courses #workshops #deeplearning"
 markmap: |
   # Solutions
   ## AI 2026 Courses

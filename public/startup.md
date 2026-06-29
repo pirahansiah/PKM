@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Startup Guide: Edge AI Business"
 description: "Edge AI business plan, fundraising in Germany, pitch decks, and growth strategies."
+tags: [startup, business, fundraising, ai]
+hashtags: "#startup #business #fundraising #ai"
 markmap: |
   # Startup Guide
   ## Edge AI Business Plan

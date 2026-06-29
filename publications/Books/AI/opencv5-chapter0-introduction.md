@@ -18,6 +18,10 @@ markmap: |
   - New Roles
   - Essential Skills
 ---
+
+tags: [ai-agents, multi-agent-systems, llm, deep-learning]
+hashtags: "#aiagents #multiagent #llm #deeplearning"
+
 {{ site.author }}
 
 The New Developer Era: Transforming Your Career and Building Production-Ready AI Agents in 2025

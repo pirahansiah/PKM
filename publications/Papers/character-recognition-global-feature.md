@@ -17,6 +17,8 @@ markmap: |
   ## Results
   - Binary Character Images
   - Outperforms Individual Methods
+tags: [character-recognition, feature-extraction, glcm, ocr]
+hashtags: "#characterrecognition #featureextraction #glcm #ocr"
 ---
 
 Character_Recognition_Based_on_Global_Feature

@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "CV, DL & ML Optimization Guide"
 description: "Comprehensive guide to optimizing deep learning models, CV systems, and data pipelines."
+tags: [optimization, deep-learning, machine-learning, computer-vision]
+hashtags: "#optimization #deeplearning #machinelearning #cv"
 markmap: |
   # CV/DL/ML Optimization
   ## Model Optimization

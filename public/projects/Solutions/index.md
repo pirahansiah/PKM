@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "Solutions"
 description: "Showcase of industry applications, portfolio projects, and technical skills in computer vision and AI."
+tags: [portfolio, computer-vision, ai, projects]
+hashtags: "#portfolio #cv #ai #projects"
 markmap: |
   # Solutions
   ## Industry Applications

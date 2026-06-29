@@ -20,7 +20,8 @@ markmap: |
   - Traffic Surveillance
   - Law Enforcement
   - Smart Cities
----
+tags: [patent, vehicle-detection, image-processing, traffic-surveillance]
+hashtags: "#patent #vehicledetection #imageprocessing #trafficsurveillance"
 date_modified: 2024-10-12
 ---
 

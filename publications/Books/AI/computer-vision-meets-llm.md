@@ -21,6 +21,10 @@ markmap: |
   - Zero-Shot
   - Few-Shot
 ---
+
+tags: [computer-vision, llm, multimodal, rag]
+hashtags: "#cv #llm #multimodal #rag"
+
 {{ site.author }}
 
 [https://www./contents/publications/Books/AI/ComputerVisionMeetLLM](https://www./contents/publications/Books/AI/ComputerVisionMeetLLM)

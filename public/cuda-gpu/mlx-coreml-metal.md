@@ -2,6 +2,8 @@
 layout: farshid_default
 title: "MLX, CoreML, and Metal for Apple Silicon"
 description: "Guide to Numba JIT, PyCUDA-to-Metal transition, CoreML conversion, and MLX framework on Apple Silicon."
+tags: [apple-silicon, coreml, metal, mlx]
+hashtags: "#applesilicon #coreml #metal #mlx"
 markmap: |
   # Apple Silicon ML
   ## Numba JIT
