@@ -5,7 +5,7 @@ permalink: /graph-tags/
 extra_css: graph.css
 ---
 
-<div class="graph-page" data-graph="/assets/graph-hashtags.json">
+<div class="graph-page">
   <div class="graph-header">
     <h1>Hashtag Graph</h1>
     <span class="graph-stats" id="graph-stats">Loading…</span>
@@ -17,7 +17,7 @@ extra_css: graph.css
     </div>
   </div>
   <p class="graph-hint">Tags that appear together in the same file are connected</p>
-  <div id="graph-wrap" class="liquid-glass">
+  <div id="graph-wrap" class="liquid-glass" data-graph="/assets/graph-hashtags.json">
     <canvas id="graph-canvas" aria-label="Interactive hashtag graph"></canvas>
   </div>
   <div class="graph-bottom-bar">
