@@ -31,8 +31,8 @@ As an AI and computer vision expert with over a decade of experience collaborati
 
     | Metric       | Value |
     |--------------|-------|
-    | **Citations**| 137   |
-    | **h-index**  | 7     |
+    | **Citations**| 142   |
+    | **h-index**  | 8     |
     | **i10-index**| 5     |   
 
 - [ScienceOpen Collection](https://www.scienceopen.com/collection/da288fa0-3d52-46dc-9e07-73dfc597dfb8)   
