@@ -114,7 +114,7 @@ class Note:
 
 _FRONT_MATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 _HEADING_RE = re.compile(r"^#{1,6}\s+(.*)$", re.MULTILINE)
-_HASHTAG_RE = re.compile(r"(?:^|\s)#([A-Za-z][\w/-]+)")
+_HASHTAG_RE = re.compile(r"(?:^|\s)#([A-Za-z][A-Za-z0-9_-]+)")
 _INLINE_TAG_LINE_RE = re.compile(r"^\s*tags?\s*:\s*(.+?)\s*$", re.IGNORECASE | re.MULTILINE)
 _WIKILINK_RE = re.compile(r"\[\[([^\]|#]+)")
 _MDLINK_RE = re.compile(r"\[[^\]]*\]\(([^)]+\.md)[^)]*\)")
@@ -438,7 +438,8 @@ def build_graph(
             else:
                 tag_to_files[tag].append(note.name)  # promote to fm_tag node
     for tag, files in tag_to_files.items():
-        tag_id = f"#tag:{tag}"
+        tag_clean = re.sub(r'[^\w-]', '', tag)
+        tag_id = f"#tag:{tag_clean}"
         nodes.append({
             "id": tag_id, "label": f"#{tag}", "type": "tag",
             "summary": f"Front-matter tag in {len(files)} note(s)",
@@ -449,7 +450,8 @@ def build_graph(
         for fname in files:
             links.append({"source": fname, "target": tag_id, "type": "tag", "weight": 0.6})
     for tag, files in hashtag_to_files.items():
-        tag_id = f"#hashtag:{tag}"
+        tag_clean = re.sub(r'[^\w-]', '', tag)
+        tag_id = f"#hashtag:{tag_clean}"
         nodes.append({
             "id": tag_id, "label": f"#{tag}", "type": "hashtag",
             "summary": f"Inline hashtag in {len(files)} note(s)",
