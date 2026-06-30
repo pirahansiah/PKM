@@ -3,8 +3,8 @@
 # Uses the local Ollama model (qwen3.5:4b-mlx) when reachable, otherwise falls
 # back to local TF-IDF + fuzzy + tag/link techniques only.
 # Outputs:
-#   - assets/graph.json  (for Jekyll site /graph/ page)
-#   - contents/main/knowledge_graph.html (standalone local viewer)
+#   - assets/graph.json  (for Jekyll site /graph/ page via graph-view.js)
+#   - assets/knowledge_graph.html (standalone viewer)
 set -euo pipefail
 
 cd "$(dirname "$0")"
@@ -23,6 +23,11 @@ if command -v conda >/dev/null 2>&1; then
 fi
 
 python knowledge_graph.py --model "$MODEL" --host "$HOST" "$@"
+
+# Copy standalone HTML to Jekyll assets so /graph/ can serve it.
+DEST="/Volumes/4tb/myWebsite/assets/knowledge_graph.html"
+cp knowledge_graph.html "$DEST"
+echo "[OK] Copied to $DEST"
 
 echo "[OK] graph.json written to assets/ — Jekyll site will use it at /graph/"
 
