@@ -59,6 +59,15 @@ LOW_PRIORITY_PATH_HINTS = {
   "requirements", ".vscode", "launch.json", "tasks.json", "package-lock", "pnpm-lock",
 }
 
+HIGH_PRIORITY_PATH_HINTS = {
+    "farshid-vmouse", "vpen-2026", "vpen", "contents", "docs", "readme",
+}
+
+HIGH_PRIORITY_NAME_HINTS = {
+    "readme", "guide", "summary", "quick_reference", "troubleshooting",
+    "adaptation", "plan", "todo", "vpen", "vmouse", "architecture",
+}
+
 
 # Fallback hosts tried in order when the primary is unreachable.
 FALLBACK_HOSTS = [
