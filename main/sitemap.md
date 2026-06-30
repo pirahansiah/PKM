@@ -1,6 +1,7 @@
 ---
 layout: farshid_default
 title: "Sitemap — All Pages"
+permalink: /contents/sitemap/
 ---
 
 <style>

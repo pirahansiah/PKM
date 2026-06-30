@@ -1,6 +1,7 @@
 ---
 layout: farshid_default
 title: "All Pages — pirahansiah.com"
+permalink: /contents/wiki/
 ---
 
 <style>

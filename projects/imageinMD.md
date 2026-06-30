@@ -28,5 +28,3 @@ image
 ## level a2
 ### level a3
 ```
-
-
