@@ -541,6 +541,88 @@ def build_graph(
     }
 
 
+# --- graph.json export (for Jekyll site rendering) ---------------------------
+
+# Map knowledge_graph node types to graph-view.js categories.
+_TYPE_TO_CATEGORY = {
+    "file": "page",
+    "code": "page",
+    "tag": "tag",
+    "hashtag": "tag",
+    "topic": "tag",
+    "project": "hub",
+}
+
+# Hub definitions that get injected as top-level nodes.
+_HUBS = [
+    {"id": "hub-product", "label": "Product", "url": "/contents/public/product/"},
+    {"id": "hub-research", "label": "Research", "url": "/contents/public/research/"},
+    {"id": "hub-solutions", "label": "Solutions", "url": "/contents/public/solutions/"},
+    {"id": "hub-content", "label": "Content Hub", "url": "/contents/public/"},
+    {"id": "hub-wiki", "label": "Wiki", "url": "/contents/wiki/"},
+    {"id": "hub-portfolio", "label": "Portfolio", "url": "/contents/pkm/use-cases/"},
+]
+
+
+def _note_url(note: Note) -> str:
+    """Derive a Jekyll permalink-style URL from a note's path."""
+    rel = note.path.relative_to(PROJECT_ROOT).with_suffix("")
+    return "/" + rel.as_posix() + "/"
+
+
+def export_graph_json(data: dict[str, Any]) -> dict[str, Any]:
+    """Convert knowledge_graph internal format to graph-view.js format."""
+    node_id_set = {n["id"] for n in data["nodes"]}
+    kg_nodes = {n["id"]: n for n in data["nodes"]}
+
+    # Start with hub nodes.
+    nodes: list[dict[str, Any]] = []
+    for hub in _HUBS:
+        nodes.append({**hub, "category": "hub", "size": 5})
+
+    # Add file/tag/topic nodes.
+    for n in data["nodes"]:
+        cat = _TYPE_TO_CATEGORY.get(n["type"], "page")
+        url = n.get("url", "")
+        if not url and n["type"] == "file":
+            # Try to derive URL from path.
+            path_str = n.get("path", "")
+            if path_str and path_str.endswith(".md"):
+                url = "/" + path_str[:-3] + "/"
+        size = max(1, min(5, (n.get("degree", 0) or 0) // 3 + 1))
+        nodes.append({
+            "id": n["id"],
+            "label": n.get("label", n["id"]),
+            "url": url,
+            "category": cat,
+            "size": size,
+        })
+
+    # Convert links — resolve string IDs to indices.
+    idx_map = {n["id"]: i for i, n in enumerate(nodes)}
+    links: list[dict[str, Any]] = []
+    for l in data["links"]:
+        src = l["source"] if isinstance(l["source"], str) else l["source"].get("id", l["source"])
+        tgt = l["target"] if isinstance(l["target"], str) else l["target"].get("id", l["target"])
+        if src in idx_map and tgt in idx_map and src != tgt:
+            links.append({
+                "source": src,
+                "target": tgt,
+                "strength": round(l.get("weight", l.get("strength", 0.5)), 3),
+            })
+
+    # Add hub-to-page links for top-level content.
+    page_urls = {n.get("url", ""): n["id"] for n in nodes if n.get("url")}
+    for hub in _HUBS:
+        hub_id = hub["id"]
+        for node in nodes:
+            if node["category"] == "page" and node.get("url", "").startswith(hub["url"][:hub["url"].rfind("/", 0, -1) + 1]):
+                if node["id"] in idx_map and hub_id in idx_map:
+                    links.append({"source": hub_id, "target": node["id"], "strength": 0.3})
+
+    return {"nodes": nodes, "links": links}
+
+
 # --- HTML rendering --------------------------------------------------------
 
 
@@ -641,6 +723,15 @@ def main() -> int:
     print(f"[WRITE] {OUTPUT_HTML.name} "
           f"({meta['node_count']} nodes, {meta['link_count']} links)")
     OUTPUT_HTML.write_text(render_html(data, meta), encoding="utf-8")
+
+    # Also export graph.json for Jekyll site rendering.
+    graph_json_path = SCRIPT_DIR.parent.parent / "assets" / "graph.json"
+    graph_json = export_graph_json(data)
+    graph_json_path.write_text(
+        json.dumps(graph_json, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+    print(f"[WRITE] {graph_json_path.name} "
+          f"({len(graph_json['nodes'])} nodes, {len(graph_json['links'])} links)")
 
     if args.open:
         import webbrowser

@@ -76,8 +76,8 @@ VIEWER_EXTENSIONS = %w[
 
 def canonical_asset_path(url)
   rel = url.to_s.sub(%r{\A/}, "").split("?").first
-  direct = File.join(ROOT, rel)
-  return "/#{rel}" if File.file?(direct)
+  return "/#{url}" if rel.nil? || rel.empty?
+  return "/#{rel}" if File.file?(File.join(ROOT, rel))
 
   base = File.basename(rel)
   Dir.glob(File.join(ROOT, "**", base)).each do |found|
@@ -200,12 +200,12 @@ def parse_moc(text)
       next
     end
 
-    next unless stripped.match?(/\A(- \[.+\]\(.+\)|\[.+\]\(.+\)|\[\[.+\]\])\z/)
+    next unless stripped.match?(/\A-\s*\*{0,2}\[.+?\]\(.+?\)\*{0,2}/)
 
-    if (m = stripped.match(/\A-\s*\[(.+?)\]\((.+?)\)\z/))
+    if (m = stripped.match(/\A-\s*\*?\*?\[(.+?)\]\((.+?)\)\*?\*?/))
       child = { "title" => m[1], "items" => [] }
       child["url"] = menu_url(m[2])
-      parent = ctx[:h2] || ctx[:h1]
+      parent = ctx[:h3] || ctx[:h2] || ctx[:h1]
       parent["items"] << child if parent
       next
     end

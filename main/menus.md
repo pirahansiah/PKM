@@ -4,36 +4,30 @@ title: Sitemap & Page Summaries
 description: Complete navigation index with summaries of all site pages
 markmap: |
   # Sitemap
-  ## Public Content
+  ## Product
   - Computer Vision
   - AI & LLMs
   - CUDA & GPU
+  ## Solution
+  - Courses
+  - Business
+  ## Atlas
+  - Research
   - Programming
   - Optimization
-  - Business & Career
-  - Resources
-  ## Publications
-  - Patents (3)
-  - Papers (11)
-  - Journals (6)
-  - Books (7)
-  - Keynotes (1)
-  ## Courses
-  - AI 2026 Topics
-  ## Solutions
-  - Business
-  - Connect
+  - Knowledge
 ---
 
 # Sitemap — All Pages
 
-## Public Content Hub
+## Product
 
 ### Computer Vision
 - **[3D Vision & Multi-Camera](/contents/public/cv/3d/)** — Real-time 3D point cloud generation, depth sensing, multi-camera sync with OpenCV, GStreamer, and C++
 - **[Optical Flow](/contents/public/cv/optical-flow/)** — Challenges and solutions: illumination, occlusions, fast motion, textureless regions, GPU acceleration
 - **[Multi-Camera Systems](/contents/public/cv/multi-camera-systems/)** — Architecture guide for scaling to 100+ cameras: sync, GPU/NPU, USB/DMA
-- **[Computer Vision Overview](/contents/public/enter/)** — CV overview and research
+- **[CV Overview](/contents/public/enter/)** — Computer vision research and overview
+- **[CV Coaching](/contents/public/coaching/)** — Computer vision teaching and coaching services
 
 ### AI & LLMs
 - **[Advanced LLM Concepts](/contents/public/ai-llm/advanced-llm-concepts/)** — RAG, embeddings, knowledge graphs, multimodal models, production deployment
@@ -47,42 +41,11 @@ markmap: |
 - **[CUDA in VS Code](/contents/public/cuda-gpu/vscode-cuda-windows/)** — Dev environment setup on Windows
 - **[MLX, CoreML & Metal](/contents/public/cuda-gpu/mlx-coreml-metal/)** — Apple Silicon ML frameworks
 
-### Programming
-- **[C++ Reference](/contents/public/CPP/)** — Memory (stack/heap), STL, debugging, Linux essentials
-- **[Python Config](/contents/public/Python/)** — ConfigParser, argparse, pydantic, hydra, pybind11, Cython
-- **[Developer Tools](/contents/public/setup/)** — Docker, GitHub tricks, CLI tools
-- **[Shell & Vim](/contents/public/shell-vim-quickref/)** — Terminal essentials, vim basics
-
-### Optimization
-- **[CV/DL/ML Optimization](/contents/public/Optimization/)** — Quantization, pruning, TensorRT, ONNX, frameworks
-- **[Prompts](/contents/public/Prompts/)** — Reusable LLM prompt templates
-
-### Business & Career
-- **[Startup Guide](/contents/public/StartUp/)** — Edge AI business plans, fundraising in Germany, pitch decks
-- **[Coaching](/contents/public/coaching/)** — CV coaching and teaching roadmap
-- **[SEO for LLMs](/contents/public/SEO/)** — Structured data, AI-friendly content optimization
-- **[LinkedIn Posts](/contents/public/linkedin-top-posts/)** — Top posts: camera calibration, C++, robotics
-
-### Resources
-- **[Portfolio & Resources](/contents/public/Resources/)** — Patents, books, papers, projects
-- **[Curated Links](/contents/public/links/)** — Tools, tutorials, reading, YouTube
-- **[Content Hub](/contents/public/index/)** — All content categories
-
 ---
 
-## Publications
+## Solution
 
-- **[Patents](/contents/publications/Patents/)** — 3 patents: face augmentation, vehicle detection, facial analysis
-- **[Papers](/contents/publications/Papers/)** — 11 conference papers: camera calibration, license plates, thresholding
-- **[Journals](/contents/publications/Journals/)** — 6 journals: PSNR, SLAM, ant colony, character recognition
-- **[Books](/contents/publications/Books/)** — 7 books: optical flow, camera calibration, OpenCV 5 chapters, CV meets LLM
-- **[Keynotes](/contents/publications/Keynotes/)** — LLMs meet Computer Vision
-- **[CV](/contents/publications/CV/)** — Full curriculum vitae
-
----
-
-## Courses (AI 2026)
-
+### Courses
 - **[All Topics](/contents/ai2026/topics/)** — Complete topics index
 - **[ML Specialization](/contents/ai2026/machine-learning-specialization/)** — Coursera ML notes
 - **[Full Stack DL](/contents/ai2026/full-stack-deep-learning/)** — ML production, data lifecycle
@@ -103,8 +66,41 @@ markmap: |
 - **[Book Summaries](/contents/ai2026/book-summary/)** — Knowledge management, PKM
 - **[IoT Scholarship](/contents/ai2026/iot-scholarship/)** — OpenVINO edge AI, object detection
 
----
-
-## Solutions
+### Business
+- **[Startup Guide](/contents/public/startup/)** — Edge AI business plans, fundraising in Germany, pitch decks
+- **[SEO for LLMs](/contents/public/seo/)** — Structured data, AI-friendly content optimization
+- **[Top LinkedIn Posts](/contents/public/linkedin-top-posts/)** — Top posts: camera calibration, C++, robotics
+- **[10 Years of Bug Fixing](/contents/publications/10Years/)** — Lessons from fixing bugs in CV systems
 - **[Solutions](/contents/public/solutions/)** — Industry solutions and business
 - **[Connect](/contents/public/solutions/#connect)** — Get in touch
+
+---
+
+## Atlas
+
+### Research
+- **[Patents](/contents/publications/Patents/)** — 3 patents: face augmentation, vehicle detection, facial analysis
+- **[Papers](/contents/publications/Papers/)** — 11 conference papers: camera calibration, license plates, thresholding
+- **[Journals](/contents/publications/Journals/)** — 6 journals: PSNR, SLAM, ant colony, character recognition
+- **[Books](/contents/publications/Books/)** — 7 books: optical flow, camera calibration, OpenCV 5 chapters, CV meets LLM
+- **[Keynotes](/contents/publications/Keynotes/)** — LLMs meet Computer Vision
+- **[CV](/contents/publications/CV/)** — Full curriculum vitae
+
+### Programming
+- **[C++ Reference](/contents/public/cpp/)** — Memory (stack/heap), STL, debugging, Linux essentials
+- **[Python Config](/contents/public/python/)** — ConfigParser, argparse, pydantic, hydra, pybind11, Cython
+- **[Developer Tools](/contents/public/setup/)** — Docker, GitHub tricks, CLI tools
+- **[Shell & Vim](/contents/public/shell-vim-quickref/)** — Terminal essentials, vim basics
+
+### Optimization
+- **[CV/DL/ML Optimization](/contents/public/optimization/)** — Quantization, pruning, TensorRT, ONNX, frameworks
+- **[Prompts](/contents/public/prompts/)** — Reusable LLM prompt templates
+
+### Knowledge
+- **[Wiki](/contents/wiki/)** — Wikipedia-style index of all pages
+- **[Sitemap](/contents/sitemap/)** — Complete page listing
+- **[Presentations](/contents/ppt/farshid-ai-cv-llm-presentation/)** — Token reduction in AI-assisted development
+- **[Portfolio](/contents/pkm/use-cases/)** — Publications, patents, books, journals, papers, keynotes
+- **[Resources](/contents/public/Resources/)** — Patents, books, papers, projects
+- **[Curated Links](/contents/public/links/)** — Tools, tutorials, reading, YouTube
+- **[Content Hub](/contents/public/index/)** — All content categories
