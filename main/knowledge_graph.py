@@ -384,16 +384,19 @@ def build_graph(
     # File nodes.
     for note in notes:
         search_terms = " ".join(top_tfidf_terms(note.name, note_vectors, 20))
+        rel_path = note.path.relative_to(PROJECT_ROOT).as_posix()
+        web_url = "/contents/" + rel_path.rsplit(".", 1)[0] + "/"
         nodes.append({
             "id": note.name,
             "label": note.title or note.name,
             "type": "file",
+            "url": web_url,
             "summary": note.summary,
             "tags": sorted(note.tags),
             "topics": note.topics,
             "headings": note.headings[:12],
             "words": note.words,
-            "path": note.path.name,
+            "path": rel_path,
             "search_text": (
                 f"{note.title} {note.summary} "
                 f"{' '.join(sorted(note.tags))} {' '.join(note.topics)} "
@@ -478,6 +481,20 @@ def build_graph(
                 "source": fname, "target": topic_id,
                 "type": "topic", "weight": 0.5,
             })
+
+    # Code file nodes.
+    for code in code_notes:
+        rel_path = code.path.relative_to(PROJECT_ROOT).as_posix()
+        nodes.append({
+            "id": code.name,
+            "label": code.title or code.name,
+            "type": "code",
+            "url": "/contents/" + rel_path.rsplit(".", 1)[0] + "/" if rel_path.endswith(".md") else "",
+            "summary": code.summary,
+            "tags": [], "topics": code.topics, "headings": [],
+            "words": code.words, "path": rel_path,
+            "search_text": f"{code.title} {code.summary}".lower(),
+        })
 
     # Semantic similarity edges + full matrix (file x file).
     file_names = [n.name for n in notes]
