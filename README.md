@@ -1,3 +1,4 @@
 # PKM
 PKM
-Update June 2026
+Update July 2026
+using Obsidian

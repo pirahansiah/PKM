@@ -74,6 +74,7 @@ As an AI and computer vision expert with over a decade of experience collaborati
 - **FPGA Xilinx: Kria KV260 Vision AI Starter Kit**
   - Kria KV260 Vision AI Starter Kit: Zynq™ UltraScale+™ MPSoC, SOM + Carrier Card + Thermal Solution, 
   - The development platform for AMD Kria™ K26 SOMs, the KV260 Starter Kit is built for advanced vision application development without requiring complex hardware design knowledge. 
+  - advance computer vision applications 
 - **Raspberry Pi 3,4,5**
   - Edge computing, low-power processing
 - **Intel Neural Compute Stick 2**
