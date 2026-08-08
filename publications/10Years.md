@@ -19,6 +19,24 @@ tags: [computer-vision, debugging, lessons-learned, opencv]
 hashtags: "#cv #debugging #lessonslearned #opencv"
 ---
 
+
+I engage directly with investors, customers, and companies to present our solutions and understand their concerns and product needs. By organizing and analyzing these requirements from a professional, technical perspective, I design and architect robust software systems. I translate these user needs into actionable user stories, project milestones, and tasks to deliver reliable solutions, while planning future optimizations and feature roadmaps.
+# update Aug. 2026
+
+for color detection HSV can use multiple colors so better and more robust
+using multi color HSV during ROI selection for detect the multi objects 
+
+Metis PCIe 4-AIPU card axelera 
+different position of camera 
+shadow rejection 
+i tested many models for Hermes for 4060 with 8gb gpu ram only need 2gb model + 6gb contecsx 64k so 
+Hermes: need 5gb for context , so the qwen3:4b is only 3gb and can run with it on 4060 laptop 8gb ram, so connect browser is working fine and fast so the ram is really important 
+
+the speed of 4060 vs 5060 gap gddr 6 vs gddr7
+the apple use lines to increase bus ram for lpddr so achieve same with low ram
+
+
+
 #ComputerVision_Edge_AI
 High-Accuracy Real-Time Medical Image Processing on Embedded Systems
 #RealTimeEmbeddedMedicalImageProcessing

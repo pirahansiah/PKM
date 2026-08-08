@@ -27,11 +27,15 @@ Books and book chapters authored or co-authored by Dr. Farshid Pirahansiah.
 
 ### [Camera Calibration and Video Stabilization Framework for Robot Localization](/contents/publications/Books/camera-calibration-video-stabilization/)
 Camera calibration framework for robot localization in "Control Engineering in Robotics and Industrial Automation" (Springer).
-
+![[camera-calibration-video-stabilization.png]]
 ### [Computational Intelligence: Augmented Optical Flow for Video Stabilization](/contents/publications/Books/computational-intelligence-optical-flow/)
 Optical flow methods for video stabilization in "Computational Intelligence: From Theory to Application".
 
 ---
+# drafts
+
+
+
 
 ## OpenCV 5 Ebook
 
@@ -49,3 +53,12 @@ Feature detection methods: SIFT, SURF, ORB, keypoint matching.
 
 ### [OpenCV 5 — Chapter 3: Advanced Topics](/contents/publications/Books/AI/opencv5-chapter3-advanced/)
 Advanced computer vision techniques using OpenCV 5.
+
+
+
+````dataview
+LIST 
+FROM [[#]]
+
+````
+

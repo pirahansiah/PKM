@@ -33,7 +33,7 @@ hashtags: "#cv #llm #multimodal #rag"
 
 # AI computer vision locally LLMs on device 
 
-## Computer Vision Meets LLM: Multi-Agent Swarm with RAG for Images and Videos**
+## Computer Vision Meets LLM: Multi-Agent Swarm with RAG for Images and Videos
 
 ### **Introduction**
 

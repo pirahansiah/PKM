@@ -18,23 +18,23 @@ markmap: |
   - New Roles
   - Essential Skills
 ---
-
+reference index: [[index books]]
 tags: [ai-agents, multi-agent-systems, llm, deep-learning]
 hashtags: "#aiagents #multiagent #llm #deeplearning"
 
 {{ site.author }}
 
-The New Developer Era: Transforming Your Career and Building Production-Ready AI Agents in 2025
+# The New Developer Era: Transforming Your Career and Building Production Ready AI Agents in 2027
 
 - **Title Page**  
-    - *The New Developer Era: Transforming Your Career and Building Production-Ready AI Agents in 2025; Agents will replace all software*  
+    - *The New Developer Era: Transforming Your Career and Building Production Ready AI Agents in 2027; Agents will replace all software*  
     - **Author Name**
         **Dr. Farshid Pirahansiah**  
         Lead LLM/AI/Computer Vision Engineer & Researcher  
         [LinkedIn: linkedin.com/in/pirahansiah](https://linkedin.com/in/pirahansiah)
 
     - **Publication Details** 
-        - **Date of Publication**: 2025 
+        - **Date of Publication**: 2027
         - **Edition**: Draft Edition 
 
     - **Disclaimers**
