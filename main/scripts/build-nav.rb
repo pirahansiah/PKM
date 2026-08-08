@@ -30,7 +30,7 @@ def content_url_for_path(path)
   rel = path.sub("#{ROOT}/", "")
   rel = rel.sub(/\.md\z/i, "")
   url = "/#{rel}"
-  url.sub(%r{\A/[Rr]eddit}, "/contents")
+  url.sub(%r{\A/[Rr]eddit}, "/reddit")
 end
 
 def wiki_index
@@ -45,7 +45,7 @@ def wiki_index
       raw = content_url_for_path(path)
       idx[base.downcase] = raw
       idx[rel.downcase] = raw
-      idx[rel.sub(/reddit/i, "contents").downcase] = raw
+      idx[rel.sub(/reddit/i, "reddit").downcase] = raw
       idx[rel.sub(/\.(md|html?)\z/i, "").downcase] = raw
     end
     idx
@@ -410,12 +410,14 @@ def build_graph(nav, hashtag_mode: false)
       add_link.call(link["source"], link["target"], link["kind"])
       next if nodes[link["target"]]
 
+      # Assets (images, pdfs, code…) are informational — not navigable pages.
+      is_asset = link["url"].to_s.start_with?("/view/")
       add_node.call(
         link["target"],
         graph_label_for_url(link["raw"] || link["url"]),
         url: link["url"],
         raw: link["raw"],
-        kind: "note"
+        kind: is_asset ? "asset" : "note"
       )
     end
   end

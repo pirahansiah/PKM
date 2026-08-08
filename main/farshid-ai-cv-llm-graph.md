@@ -24,7 +24,8 @@ extra_css: graph.css
     <span id="graph-search-results" class="graph-search-count"></span>
   </div>
 
-  <p class="graph-hint">Scroll to zoom · Drag to pan · Click node to open page</p>
+  <p class="graph-hint">Scroll to zoom · Drag to pan · Click page to open · Click tag to filter · Esc to clear</p>
+  <div id="graph-tag-hint" class="graph-tag-hint" style="display:none"></div>
   <div id="graph-wrap" class="liquid-glass">
     <canvas id="graph-canvas" aria-label="Interactive knowledge graph"></canvas>
   </div>
@@ -53,6 +54,13 @@ extra_css: graph.css
     display: block; font-size: 0.75rem; color: #0a84ff;
     margin-top: 4px; text-align: center; min-height: 1em;
   }
+  .graph-tag-hint {
+    max-width: 500px; margin: 4px auto 8px; padding: 6px 14px;
+    font-size: 0.8rem; text-align: center; border-radius: 8px;
+    background: rgba(10,132,255,0.12); border: 1px solid rgba(10,132,255,0.35);
+    color: #0a84ff;
+  }
+  .gt-action { opacity: 0.75; font-style: italic; }
 </style>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -71,7 +79,7 @@ extra_css: graph.css
   var tooltipEl = null;
   var gFuse = null;
 
-  var COLORS = { hub: "#0a84ff", page: "#30d158", tag: "#af52de" };
+  var COLORS = { hub: "#0a84ff", page: "#30d158", tag: "#af52de", asset: "#8e8e93" };
   var isDark = matchMedia("(prefers-color-scheme:dark)").matches;
   var BG = isDark ? "#0d1117" : "#f8f9fa";
   var TEXT = isDark ? "#f5f5f7" : "#1d1d1f";
@@ -84,7 +92,10 @@ extra_css: graph.css
     canvas.style.width = W + "px"; canvas.style.height = H + "px";
   }
 
-  function nodeR(d) { return Math.sqrt((d.connections || 0) + 1) * 2 + 3; }
+  function nodeR(d) {
+    if (d.category === "asset") return 2.5;
+    return Math.sqrt((d.connections || 0) + 1) * 2 + 3;
+  }
 
   function render() {
     ctx.save(); ctx.scale(dpr, dpr);
@@ -105,11 +116,11 @@ extra_css: graph.css
       var s = l.source, t = l.target;
       if (!s || !t || typeof s.x !== "number" || typeof t.x !== "number") return;
       var isHL = active && (s === active || t === active);
-      var isDim = active && !isHL;
+      var isDim = (active && !isHL) || (activeTag && !(tagNeighborIds.has(s.id) && tagNeighborIds.has(t.id)));
       ctx.beginPath(); ctx.moveTo(s.x, s.y); ctx.lineTo(t.x, t.y);
       ctx.strokeStyle = isHL ? "#0a84ff" : EDGE_COLOR;
       ctx.lineWidth = isHL ? 1.5 / transform.k : 0.5 / transform.k;
-      ctx.globalAlpha = isDim ? 0.08 : isHL ? 0.8 : 0.3;
+      ctx.globalAlpha = isDim ? 0.04 : isHL ? 0.8 : 0.3;
       ctx.stroke(); ctx.globalAlpha = 1;
     });
 
@@ -118,7 +129,8 @@ extra_css: graph.css
       var r = nodeR(n);
       var isHov = hoveredNode === n;
       var isConn = active && connected.has(n);
-      var isDim = active && !isHov && !isConn;
+      var isDim = (active && !isHov && !isConn) || isDimmedByFilter(n);
+      var isAsset = n.category === "asset";
       var fill = COLORS[n.category] || "#8e8e93";
 
       if (isHov) {
@@ -127,14 +139,14 @@ extra_css: graph.css
         ctx.fillStyle = fill; ctx.fill();
       }
 
-      ctx.globalAlpha = isDim ? 0.08 : 1;
+      ctx.globalAlpha = isDim ? 0.06 : isAsset ? 0.5 : 1;
       ctx.beginPath(); ctx.arc(n.x, n.y, isHov ? r + 2 : r, 0, Math.PI * 2);
       ctx.fillStyle = fill; ctx.fill();
       ctx.strokeStyle = isHov ? "#0a84ff" : "rgba(255,255,255,0.15)";
       ctx.lineWidth = (isHov ? 2 : 0.4) / Math.max(transform.k, 0.5);
       ctx.stroke();
 
-      var showLabel = isHov || isConn || (!active && transform.k > 0.6);
+      var showLabel = !isAsset && (isHov || isConn || (!active && transform.k > 0.6));
       if (showLabel) {
         var label = n.label || n.id;
         if (!isHov && !isConn && label.length > 20) label = label.substring(0, 18) + "…";
@@ -161,9 +173,57 @@ extra_css: graph.css
     return null;
   }
 
+  function isClickablePage(n) {
+    if (!n || !n.url) return false;
+    if (n.category !== "hub" && n.category !== "page") return false;
+    if (/^\/view\//.test(n.url)) return false; // assets open in viewer, not a page
+    return true;
+  }
+
+  var activeTag = null; // Obsidian-like: click a tag to filter the graph
+  var tagNeighborIds = new Set();
+
+  function computeTagNeighbors(tagId) {
+    tagNeighborIds = new Set([tagId]);
+    gLinks.forEach(function(l) {
+      var s = typeof l.source === "object" ? l.source.id : l.source;
+      var t = typeof l.target === "object" ? l.target.id : l.target;
+      if (l.kind === "tag") {
+        if (s === tagId) tagNeighborIds.add(t);
+        if (t === tagId) tagNeighborIds.add(s);
+      }
+    });
+  }
+
+  function clearTagFilter() {
+    activeTag = null;
+    tagNeighborIds = new Set();
+    var hint = document.getElementById("graph-tag-hint");
+    if (hint) hint.style.display = "none";
+    render();
+  }
+
+  function toggleTagFilter(tagId) {
+    if (activeTag === tagId) { clearTagFilter(); return; }
+    activeTag = tagId;
+    computeTagNeighbors(tagId);
+    var hint = document.getElementById("graph-tag-hint");
+    if (hint) {
+      hint.style.display = "block";
+      hint.textContent = "Filtered: " + (tagId.replace(/^tag-/, "#") || tagId) + " — click tag again or Esc to clear";
+    }
+    render();
+  }
+
+  function isDimmedByFilter(n) {
+    if (!activeTag) return false;
+    return !tagNeighborIds.has(n.id);
+  }
+
   function showTooltip(node, px, py) {
     if (!tooltipEl) { tooltipEl = document.createElement("div"); tooltipEl.className = "graph-tooltip"; wrap.appendChild(tooltipEl); }
-    tooltipEl.innerHTML = '<div class="gt-title">' + (node.label || node.id) + '</div><div class="gt-cat" style="color:' + (COLORS[node.category]||'#8e8e93') + '">' + (node.category||'') + '</div>';
+    var tipAction = node.category === "tag" ? "Click to filter" : (isClickablePage(node) ? "Click to open" : "");
+    tooltipEl.innerHTML = '<div class="gt-title">' + (node.label || node.id) + '</div><div class="gt-cat" style="color:' + (COLORS[node.category]||'#8e8e93') + '">' + (node.category||'') + (tipAction ? ' · <span class="gt-action">' + tipAction + '</span>' : '') + '</div>';
     tooltipEl.style.left = Math.min(px, W - 180) + "px";
     tooltipEl.style.top = (py - 50) + "px";
     tooltipEl.style.display = "block";
@@ -171,7 +231,7 @@ extra_css: graph.css
   function hideTooltip() { if (tooltipEl) tooltipEl.style.display = "none"; }
 
   function setup(data) {
-    var KIND_MAP = { moc: "hub", note: "page", tag: "tag" };
+    var KIND_MAP = { moc: "hub", note: "page", tag: "tag", asset: "asset" };
     gNodes = (data.nodes || []).map(function(n, i) {
       if (!n.category && n.kind) n.category = KIND_MAP[n.kind] || "page";
       if (!n.category) n.category = "page";
@@ -184,7 +244,7 @@ extra_css: graph.css
       var s = typeof l.source === "string" ? l.source : null;
       var t = typeof l.target === "string" ? l.target : null;
       if (s && t && s !== t && idSet.has(s) && idSet.has(t)) {
-        gLinks.push({ source: s, target: t, strength: l.strength || l.weight || 0.5 });
+        gLinks.push({ source: s, target: t, kind: l.kind || l.type || "link", strength: l.strength || l.weight || 0.5 });
       }
     });
 
@@ -219,7 +279,7 @@ extra_css: graph.css
         var hit = hitTest(e.clientX - rect.left, e.clientY - rect.top);
         if (hit !== hoveredNode) {
           hoveredNode = hit;
-          canvas.style.cursor = hit ? (hit.url ? "pointer" : "default") : "grab";
+          canvas.style.cursor = hit ? (isClickablePage(hit) ? "pointer" : "default") : "grab";
           if (hit) showTooltip(hit, e.clientX - rect.left, e.clientY - rect.top);
           else hideTooltip();
           render();
@@ -229,10 +289,19 @@ extra_css: graph.css
         if (draggingNode) return;
         var rect = wrap.getBoundingClientRect();
         var hit = hitTest(e.clientX - rect.left, e.clientY - rect.top);
-        if (hit && hit.url) {
+        if (!hit) { clearTagFilter(); return; }
+        if (hit.category === "tag") { toggleTagFilter(hit.id); return; }
+        if (isClickablePage(hit)) {
           window.location.href = hit.url;
         }
+      })
+      .on("dblclick", function(e) {
+        clearTagFilter();
       });
+
+    d3.select(window).on("keydown", function(e) {
+      if (e && e.key === "Escape") clearTagFilter();
+    });
 
     var stat = document.getElementById("graph-stats");
     if (stat) stat.textContent = gNodes.length + " nodes · " + gLinks.length + " connections";
