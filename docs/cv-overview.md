@@ -1,5 +1,5 @@
 ---
-layout: farshid_page
+layout: farshid_default
 title: "Dr. Farshid Pirahansiah — CV & AI"
 parent: MainPage
 tags: [computer-vision, ai, portfolio, about]
