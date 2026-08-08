@@ -36,6 +36,8 @@ markmap: |
   - Build Logs
 ---
 
+> **PKM Methods & Website Structure** — Personal knowledge management approaches from top practitioners and site architecture — https://www.pirahansiah.com/notes/pkm/TOC/
+
 PARA, Zettelkasten, Second Brain, Link Your Thinking, LYT, Maps of Content, MOC, Johnny.Decimal, Atomic Notes, GTD, Getting Things Done, CODE, Pillars Pipelines Vaults, Inbox Method, Action Method, Luhmann System, Slipbox, Commonplace Book, Laboratory Method, Evergreen Notes, Digital Garden, The Archive, Bullet Journal, Accessory System, Folderless System, Atomic Thinking, Knowledge Graph, Semantic Linkage, Personal Information Management, PIM, Personal Research Management, PRM, Personal Knowledge Infrastructure, PKI, Information Scaffolding, Transactive Memory, Knowledge Crystallization, Cognitive Offloading, Distributed Cognition, Cybernetic PKM, Rhizomatic Learning, Memex, Project Xanadu, Sensemaking, Information Foraging Theory, Personal Digital Archiving, Curatorial Learning, Epistemic Foraging, Holigarchy, BASB, ACCESS, ACE, The Pillar Method, PAIN, REAP, QEC, SQ3R, PQ4R, Cornell Method, Feynman Technique, DiSSS, SQRRR, Morphological Analysis, Knowledge Graphing, Triple-Entry Accounting of Thought, Heuristic Systematic Model, PASK, Conversation Theory, Cynefin Framework, Double-Loop Learning, Metacognitive Scaffolding, Personal Learning Networks, PLN, Knowledge Work, Cognitive Mapping, Concept Mapping, Spatial Hypertext, Non-Linear Documentation, Multi-Dimensional Tagging, Hierarchical Foldering, Flat File System, Associative Trails, Navigational Orienting, Information Curation, Semantic MediaWiki, Wiki-Log, Personal Knowledge Base, PKB, Brain Dump, Antinet, Niklas Luhmann, Sönke Ahrens, Tiago Forte, Nick Milo, Vannevar Bush, Ted Nelson, Douglas Engelbart, Collective Intelligence, Personal Operating System, POS, LifeOS, KMaaS, Knowledge Orchestration, Knowledge Graph Embeddings, RAG, Retrieval-Augmented Generation, Agentic PKM, Synthetic Brain, Co-evolution of Man and Machine, Associative Indexing, Knowledge Lifecycle Management, Cognitive Load Theory, Personal Ontology, Knowledge Audit, Fractal Knowledge Management, Interstitial Logging, Just-in-Time Learning, JITL, Sketchnoting, Flow State Mapping, Knowledge Cartography, Heuristic Foraging, Knowledge Distillation, Information Architecture, IA, User Experience of Knowledge, UXK, Personal Content Management, PCM.
 
 ---
@@ -102,4 +104,4 @@ PARA, Zettelkasten, Second Brain, Link Your Thinking, LYT, Maps of Content, MOC,
 *   **Strategic Connections** (Linking Research to Market-ready Solutions)
 
 ---
-cd reddit && git pull && cd .. && git add reddit && git commit -m "update PKM" && git push
+cd notes && git pull && cd .. && git add notes && git commit -m "update PKM" && git push

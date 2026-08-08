@@ -31,6 +31,8 @@ markmap: |
 ---
 
 
+> **Curated Links & Resources** — Collection of AI, CV, ML, and software development tools and tutorials — https://www.pirahansiah.com/notes/pkm/links/
+
 # Link Collection
 
 | Category | Title | Link | Short Summary |

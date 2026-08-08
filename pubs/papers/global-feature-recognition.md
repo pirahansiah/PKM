@@ -1,0 +1,86 @@
+---
+layout: farshid_default
+title: "Character Recognition via Global Features"
+description: "Hybrid GLCM and EDMS method for character recognition in OCR applications."
+markmap: |
+  # Character Recognition
+  ## Feature Extraction
+  - GLCM (Texture)
+  - EDMS (Edge Directions)
+  ## Proposed Method
+  - Hybrid GLCM + EDMS
+  - Improved Accuracy
+  ## Classifiers
+  - Neural Networks
+  - Bayesian Networks
+  - Decision Trees
+  ## Results
+  - Binary Character Images
+  - Outperforms Individual Methods
+tags: [character-recognition, feature-extraction, glcm, ocr]
+hashtags: "#characterrecognition #featureextraction #glcm #ocr"
+---
+
+> **Character Recognition via Global Features** — Hybrid GLCM and EDMS method for character recognition in OCR applications. — https://www.pirahansiah.com/notes/pubs/papers/global-feature-recognition/
+
+Character_Recognition_Based_on_Global_Feature
+
+
+
+https://www.pirahansiah.com/notes/pubs/papers/Character_Recognition_Based_on_Global_Feature
+
+
+[spotify]( https://podcasters.spotify.com/pod/show/pirahansiah/episodes/My-Conference-Paper-Character-Recognition-Based-on-Global-Feature-e2ps1tp)
+
+[PDF Download My Conference Paper]( https://doi.org/10.1109/ICEEI.2011.6021649 )
+
+
+{% if page.extname == "character-recognition-global-feature.md" %}
+  ![My Conference Paper  Character Recognition Based on Global Feature ](/notes/pubs/papers/character-recognition-global-feature.png)
+{% else %}
+  <img src="/notes/pubs/papers/character-recognition-global-feature.png" alt="My Conference Paper: Character Recognition Based on Global Feature "  style="max-width: 100%; height: auto;">
+{% endif %}
+
+
+# Character Recognition Based on Global Feature Extraction
+
+## 1. Introduction
+   - **Objective**: Propose a combination of two feature extraction techniques for character recognition.
+   - **Key Techniques**:
+     - Gray Level Co-occurrence Matrix (GLCM)
+     - Edge Direction Matrix (EDMS)
+   - **Challenges**:
+     - Selecting the best feature extraction technique for various character recognition tasks.
+
+## 2. Feature Extraction Techniques
+   - **Gray Level Co-occurrence Matrix (GLCM)**:
+     - Focuses on texture and pixel relationships in the image.
+     - Extracts texture features for character recognition.
+   - **Edge Direction Matrix (EDMS)**:
+     - Emphasizes edges and directions in character images.
+     - Extracts shape features.
+
+## 3. Proposed Method
+   - **Combination of GLCM and EDMS**:
+     - A hybrid approach that leverages both texture and edge features.
+     - Aims to improve accuracy over using either GLCM or EDMS alone.
+
+## 4. Classification Techniques
+   - **Classifiers Used**:
+     - Neural Networks (NN)
+     - Bayesian Networks (BN)
+     - Decision Tree Classifiers
+   - **Objective**: Find the best classifier to complement the hybrid feature extraction method.
+
+## 5. Experimental Results
+   - **Datasets**:
+     - Binary character images of different sizes used for testing.
+   - **Performance**:
+     - The hybrid method (GLCM + EDMS) outperforms individual feature extraction techniques.
+     - Results show improved accuracy in character recognition tasks.
+
+## 6. Conclusion
+   - **Key Findings**:
+     - The combination of GLCM and EDMS provides better recognition performance than using either technique alone.
+   - **Implications**:
+     - More reliable character recognition systems for real-world applications.

@@ -33,6 +33,8 @@ markmap: |
   - Workshops
 ---
 
+> **Complete Portfolio** — Publications, patents, expertise, tools, and GitHub projects across CV and AI — https://www.pirahansiah.com/notes/pkm/use-cases/
+
 # Table of Contents
 
 - [About](#about)

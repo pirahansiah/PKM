@@ -1,0 +1,63 @@
+---
+layout: farshid_default
+title: "Books & Book Chapters"
+description: "Books and book chapters on computer vision, camera calibration, and AI."
+markmap: |
+  # Books & Book Chapters
+  ## Springer Book Chapters
+  - Optical flow for video stabilization
+  - Camera calibration for robotics
+  ## OpenCV 5 Ebook
+  - CV meets LLM
+  - Ch.0 Introduction
+  - Ch.1 Image Basics
+  - Ch.2 Feature Detection
+  - Ch.3 Advanced Topics
+tags: [book, opencv, computer-vision, ai]
+hashtags: "#book #opencv #computervision #ai"
+---
+
+> **Books & Book Chapters** — Books and book chapters on computer vision, camera calibration, and AI. — https://www.pirahansiah.com/notes/pubs/books/
+
+# Books & Book Chapters
+
+Books and book chapters authored or co-authored by Dr. Farshid Pirahansiah.
+
+---
+
+## Springer Book Chapters
+
+### [Camera Calibration and Video Stabilization Framework for Robot Localization](/notes/pubs/books/camera-calibration/)
+Camera calibration framework for robot localization in "Control Engineering in Robotics and Industrial Automation" (Springer).
+![[camera-calibration-video-stabilization.png]]
+### [Computational Intelligence: Augmented Optical Flow for Video Stabilization](/notes/pubs/books/computational-intelligence/)
+Optical flow methods for video stabilization in "Computational Intelligence: From Theory to Application".
+
+---
+# drafts
+
+
+
+
+## OpenCV 5 Ebook
+
+### [Computer Vision Meets LLM](/notes/pubs/books/ai/cv-meets-llm/)
+Exploring the intersection of computer vision and large language models.
+
+### [OpenCV 5 — Chapter 1: Image Basics](/notes/pubs/books/ai/opencv5-ch1/)
+Image processing fundamentals: pixel operations, color spaces, histograms.
+
+### [OpenCV 5 — Chapter 2: Feature Detection](/notes/pubs/books/ai/opencv5-ch2/)
+Feature detection methods: SIFT, SURF, ORB, keypoint matching.
+
+### [OpenCV 5 — Chapter 3: Advanced Topics](/notes/pubs/books/ai/opencv5-ch3/)
+Advanced computer vision techniques using OpenCV 5.
+
+
+
+````dataview
+LIST 
+FROM [[#]]
+
+````
+
