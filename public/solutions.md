@@ -161,8 +161,8 @@ markmap: |
 
 <div style="text-align:center; padding: 0 16px;">
   <a href="/" class="back-link">&#8592; Home</a>
-  <a href="/contents/public/product/" class="back-link">Product</a>
-  <a href="/contents/public/research/" class="back-link">Research</a>
+  <a href="/reddit/public/product/" class="back-link">Product</a>
+  <a href="/reddit/public/research/" class="back-link">Research</a>
 </div>
 
 <div class="sitemap-grid">
@@ -171,15 +171,15 @@ markmap: |
     <span class="section-icon">&#128640;</span>
     <div class="section-title">AI 2026 — Courses <span class="badge">9</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/ai2026/machine-learning-specialization/"><span class="link-arrow">&#8594;</span> ML Specialization</a></li>
-      <li><a href="/contents/ai2026/full-stack-deep-learning/"><span class="link-arrow">&#8594;</span> Full Stack Deep Learning</a></li>
-      <li><a href="/contents/ai2026/fsdl-2022/"><span class="link-arrow">&#8594;</span> FSDL 2022</a></li>
-      <li><a href="/contents/ai2026/mlops/"><span class="link-arrow">&#8594;</span> MLOps</a></li>
-      <li><a href="/contents/ai2026/ros/"><span class="link-arrow">&#8594;</span> ROS</a></li>
-      <li><a href="/contents/ai2026/parallel-programming/"><span class="link-arrow">&#8594;</span> Parallel Programming</a></li>
-      <li><a href="/contents/ai2026/modern-cpp/"><span class="link-arrow">&#8594;</span> Modern C++</a></li>
-      <li><a href="/contents/ai2026/cloud-native/"><span class="link-arrow">&#8594;</span> Cloud-Native</a></li>
-      <li><a href="/contents/ai2026/tensorflow-deployment/"><span class="link-arrow">&#8594;</span> TensorFlow Deployment</a></li>
+      <li><a href="/reddit/ai2026/machine-learning-specialization/"><span class="link-arrow">&#8594;</span> ML Specialization</a></li>
+      <li><a href="/reddit/ai2026/full-stack-deep-learning/"><span class="link-arrow">&#8594;</span> Full Stack Deep Learning</a></li>
+      <li><a href="/reddit/ai2026/fsdl-2022/"><span class="link-arrow">&#8594;</span> FSDL 2022</a></li>
+      <li><a href="/reddit/ai2026/mlops/"><span class="link-arrow">&#8594;</span> MLOps</a></li>
+      <li><a href="/reddit/ai2026/ros/"><span class="link-arrow">&#8594;</span> ROS</a></li>
+      <li><a href="/reddit/ai2026/parallel-programming/"><span class="link-arrow">&#8594;</span> Parallel Programming</a></li>
+      <li><a href="/reddit/ai2026/modern-cpp/"><span class="link-arrow">&#8594;</span> Modern C++</a></li>
+      <li><a href="/reddit/ai2026/cloud-native/"><span class="link-arrow">&#8594;</span> Cloud-Native</a></li>
+      <li><a href="/reddit/ai2026/tensorflow-deployment/"><span class="link-arrow">&#8594;</span> TensorFlow Deployment</a></li>
     </ul>
   </div>
 
@@ -187,13 +187,13 @@ markmap: |
     <span class="section-icon">&#128218;</span>
     <div class="section-title">Workshops <span class="badge">7</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/ai2026/risc-v/"><span class="link-arrow">&#8594;</span> RISC-V</a></li>
-      <li><a href="/contents/ai2026/edge-ai-summit/"><span class="link-arrow">&#8594;</span> Edge AI Summit</a></li>
-      <li><a href="/contents/ai2026/embedded-iot/"><span class="link-arrow">&#8594;</span> Embedded IoT</a></li>
-      <li><a href="/contents/ai2026/tesla/"><span class="link-arrow">&#8594;</span> Tesla AI</a></li>
-      <li><a href="/contents/ai2026/ai-hardware/"><span class="link-arrow">&#8594;</span> AI Hardware</a></li>
-      <li><a href="/contents/ai2026/openvino/"><span class="link-arrow">&#8594;</span> OpenVINO</a></li>
-      <li><a href="/contents/ai2026/metaverse/"><span class="link-arrow">&#8594;</span> Metaverse</a></li>
+      <li><a href="/reddit/ai2026/risc-v/"><span class="link-arrow">&#8594;</span> RISC-V</a></li>
+      <li><a href="/reddit/ai2026/edge-ai-summit/"><span class="link-arrow">&#8594;</span> Edge AI Summit</a></li>
+      <li><a href="/reddit/ai2026/embedded-iot/"><span class="link-arrow">&#8594;</span> Embedded IoT</a></li>
+      <li><a href="/reddit/ai2026/tesla/"><span class="link-arrow">&#8594;</span> Tesla AI</a></li>
+      <li><a href="/reddit/ai2026/ai-hardware/"><span class="link-arrow">&#8594;</span> AI Hardware</a></li>
+      <li><a href="/reddit/ai2026/openvino/"><span class="link-arrow">&#8594;</span> OpenVINO</a></li>
+      <li><a href="/reddit/ai2026/metaverse/"><span class="link-arrow">&#8594;</span> Metaverse</a></li>
     </ul>
   </div>
 
@@ -201,9 +201,9 @@ markmap: |
     <span class="section-icon">&#128161;</span>
     <div class="section-title">Business <span class="badge">Growth</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/public/StartUp/"><span class="link-arrow">&#8594;</span> Startup Guide</a></li>
-      <li><a href="/contents/public/SEO/"><span class="link-arrow">&#8594;</span> SEO for LLMs</a></li>
-      <li><a href="/contents/public/Prompts/"><span class="link-arrow">&#8594;</span> Prompt Engineering</a></li>
+      <li><a href="/reddit/public/StartUp/"><span class="link-arrow">&#8594;</span> Startup Guide</a></li>
+      <li><a href="/reddit/public/SEO/"><span class="link-arrow">&#8594;</span> SEO for LLMs</a></li>
+      <li><a href="/reddit/public/Prompts/"><span class="link-arrow">&#8594;</span> Prompt Engineering</a></li>
     </ul>
   </div>
 
@@ -211,11 +211,11 @@ markmap: |
     <span class="section-icon">&#128218;</span>
     <div class="section-title">Resources <span class="badge">All</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/public/links/"><span class="link-arrow">&#8594;</span> Curated Links</a></li>
-      <li><a href="/contents/public/linkedin-top-posts/"><span class="link-arrow">&#8594;</span> Top LinkedIn Posts</a></li>
-      <li><a href="/contents/ai2026/book-summary/"><span class="link-arrow">&#8594;</span> Book Summaries</a></li>
-      <li><a href="/contents/ai2026/iot-scholarship/"><span class="link-arrow">&#8594;</span> IoT Scholarship</a></li>
-      <li><a href="/contents/ai2026/topics/"><span class="link-arrow">&#8594;</span> All Topics</a></li>
+      <li><a href="/reddit/public/links/"><span class="link-arrow">&#8594;</span> Curated Links</a></li>
+      <li><a href="/reddit/public/linkedin-top-posts/"><span class="link-arrow">&#8594;</span> Top LinkedIn Posts</a></li>
+      <li><a href="/reddit/ai2026/book-summary/"><span class="link-arrow">&#8594;</span> Book Summaries</a></li>
+      <li><a href="/reddit/ai2026/iot-scholarship/"><span class="link-arrow">&#8594;</span> IoT Scholarship</a></li>
+      <li><a href="/reddit/ai2026/topics/"><span class="link-arrow">&#8594;</span> All Topics</a></li>
     </ul>
   </div>
 
@@ -225,7 +225,7 @@ markmap: |
     <ul class="sitemap-links">
       <li><a href="https://www.linkedin.com/in/pirahansiah/" target="_blank" rel="noopener"><span class="link-arrow">&#8594;</span> LinkedIn</a></li>
       <li><a href="https://github.com/pirahansiah" target="_blank" rel="noopener"><span class="link-arrow">&#8594;</span> GitHub (43 repos)</a></li>
-      <li><a href="/contents/sitemap/"><span class="link-arrow">&#8594;</span> Full Sitemap</a></li>
+      <li><a href="/reddit/sitemap/"><span class="link-arrow">&#8594;</span> Full Sitemap</a></li>
     </ul>
   </div>
 

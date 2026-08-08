@@ -60,7 +60,7 @@ LOW_PRIORITY_PATH_HINTS = {
 }
 
 HIGH_PRIORITY_PATH_HINTS = {
-    "farshid-vmouse", "vpen-2026", "vpen", "contents", "docs", "readme",
+    "farshid-vmouse", "vpen-2026", "vpen", "reddit", "docs", "readme",
 }
 
 HIGH_PRIORITY_NAME_HINTS = {
@@ -288,8 +288,8 @@ def select_important_code_files(
         if parts & IGNORE_DIR_NAMES:
             continue
         rel = path.relative_to(PROJECT_ROOT).as_posix().lower()
-        # Avoid duplicating note nodes from contents/; focus on project-level knowledge.
-        if rel.startswith("contents/"):
+        # Avoid duplicating note nodes from reddit/; focus on project-level knowledge.
+        if rel.startswith("reddit/"):
             continue
         if any(h in rel for h in LOW_PRIORITY_PATH_HINTS):
             continue
@@ -385,7 +385,7 @@ def build_graph(
     for note in notes:
         search_terms = " ".join(top_tfidf_terms(note.name, note_vectors, 20))
         rel_path = note.path.relative_to(PROJECT_ROOT).as_posix()
-        web_url = "/contents/" + rel_path.rsplit(".", 1)[0] + "/"
+        web_url = "/reddit/" + rel_path.rsplit(".", 1)[0] + "/"
         nodes.append({
             "id": note.name,
             "label": note.title or note.name,
@@ -491,7 +491,7 @@ def build_graph(
             "id": code.name,
             "label": code.title or code.name,
             "type": "code",
-            "url": "/contents/" + rel_path.rsplit(".", 1)[0] + "/" if rel_path.endswith(".md") else "",
+            "url": "/reddit/" + rel_path.rsplit(".", 1)[0] + "/" if rel_path.endswith(".md") else "",
             "summary": code.summary,
             "tags": [], "topics": code.topics, "headings": [],
             "words": code.words, "path": rel_path,
@@ -583,12 +583,12 @@ _TYPE_TO_CATEGORY = {
 
 # Hub definitions that get injected as top-level nodes.
 _HUBS = [
-    {"id": "hub-product", "label": "Product", "url": "/contents/public/product/"},
-    {"id": "hub-research", "label": "Research", "url": "/contents/public/research/"},
-    {"id": "hub-solutions", "label": "Solutions", "url": "/contents/public/solutions/"},
-    {"id": "hub-content", "label": "Content Hub", "url": "/contents/public/"},
-    {"id": "hub-wiki", "label": "Wiki", "url": "/contents/wiki/"},
-    {"id": "hub-portfolio", "label": "Portfolio", "url": "/contents/pkm/use-cases/"},
+    {"id": "hub-product", "label": "Product", "url": "/reddit/public/product/"},
+    {"id": "hub-research", "label": "Research", "url": "/reddit/public/research/"},
+    {"id": "hub-solutions", "label": "Solutions", "url": "/reddit/public/solutions/"},
+    {"id": "hub-content", "label": "Content Hub", "url": "/reddit/public/"},
+    {"id": "hub-wiki", "label": "Wiki", "url": "/reddit/wiki/"},
+    {"id": "hub-portfolio", "label": "Portfolio", "url": "/reddit/pkm/use-cases/"},
 ]
 
 

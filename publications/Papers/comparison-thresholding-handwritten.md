@@ -23,7 +23,7 @@ hashtags: "#thresholding #handwritten #imagesegmentation #psnr"
 Comparison_single_thresholding_method_for_handwritten_images_segmentation
 
 
-https://www.pirahansiah.com/contents/publications/Papers/Comparison_single_thresholding_method_for_handwritten_images_segmentation
+https://www.pirahansiah.com/reddit/publications/Papers/Comparison_single_thresholding_method_for_handwritten_images_segmentation
 
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/My-Conference-Paper-Comparison-single-thresholding-method-for-handwritten-images-segmentation-e2ps22i )
@@ -32,9 +32,9 @@ https://www.pirahansiah.com/contents/publications/Papers/Comparison_single_thres
 
 
 {% if page.extname == "comparison-thresholding-handwritten.md" %}
-  ![My Conference Paper  Comparison single thresholding method for handwritten images segmentation ](/contents/publications/Papers/comparison-thresholding-handwritten.png)
+  ![My Conference Paper  Comparison single thresholding method for handwritten images segmentation ](/reddit/publications/Papers/comparison-thresholding-handwritten.png)
 {% else %}
-  <img src="/contents/publications/Papers/comparison-thresholding-handwritten.png" alt="My Conference Paper: Comparison single thresholding method for handwritten images segmentation "  style="max-width: 100%; height: auto;">
+  <img src="/reddit/publications/Papers/comparison-thresholding-handwritten.png" alt="My Conference Paper: Comparison single thresholding method for handwritten images segmentation "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

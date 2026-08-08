@@ -23,8 +23,8 @@ markmap: |
 
 # Simple Setting Up a CUDA Development Environment in VS Code in Windows 
 
-https://www.pirahansiah.com/contents/public/cuda-gpu/vscode-cuda-windows/ 
-![VSCode: C++, CUDA, Windows](/contents/public/images/VSCodeCUDAwindows.png)
+https://www.pirahansiah.com/reddit/public/cuda-gpu/vscode-cuda-windows/ 
+![VSCode: C++, CUDA, Windows](/reddit/public/images/VSCodeCUDAwindows.png)
 
 🚀 Setting Up a CUDA Development Environment in VS Code (Windows)
 

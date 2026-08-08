@@ -23,7 +23,7 @@ hashtags: "#cameracalibration #patternrecognition #robotics"
 Pattern_Image_Significance_for_Camera_Calibration
 
 
-https://www.pirahansiah.com/contents/publications/Papers/Pattern_Image_Significance_for_Camera_Calibration
+https://www.pirahansiah.com/reddit/publications/Papers/Pattern_Image_Significance_for_Camera_Calibration
 
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/Pattern-Image-Significance-for-Camera-Calibration-e2ps2mt )
@@ -32,9 +32,9 @@ https://www.pirahansiah.com/contents/publications/Papers/Pattern_Image_Significa
 
 
 {% if page.extname == "pattern-image-calibration.md" %}
-  ![My Conference Paper   Pattern Image Significance for Camera Calibration](/contents/publications/Papers/pattern-image-calibration.png)
+  ![My Conference Paper   Pattern Image Significance for Camera Calibration](/reddit/publications/Papers/pattern-image-calibration.png)
 {% else %}
-  <img src="/contents/publications/Papers/pattern-image-calibration.png" alt="My Conference Paper: Pattern Image Significance for Camera Calibration "  style="max-width: 100%; height: auto;">
+  <img src="/reddit/publications/Papers/pattern-image-calibration.png" alt="My Conference Paper: Pattern Image Significance for Camera Calibration "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Build / update the knowledge graph from all markdown notes in contents/.
+# Build / update the knowledge graph from all markdown notes in reddit/.
 # Uses the local Ollama model (qwen3.5:4b-mlx) when reachable, otherwise falls
 # back to local TF-IDF + fuzzy + tag/link techniques only.
 # Outputs:

@@ -1,13 +1,13 @@
 #!/bin/bash
-# Generates a list of all files in contents/ and appends it to system-design.md
+# Generates a list of all files in reddit/ and appends it to system-design.md
 # Run manually or via git pre-commit hook
 
 REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
-CONTENTS_DIR="$REPO_ROOT/contents"
-TARGET="$REPO_ROOT/contents/pkm/system-design.md"
+CONTENTS_DIR="$REPO_ROOT/reddit"
+TARGET="$REPO_ROOT/reddit/pkm/system-design.md"
 
 if [ ! -d "$CONTENTS_DIR" ]; then
-  echo "contents/ directory not found at $CONTENTS_DIR"
+  echo "reddit/ directory not found at $CONTENTS_DIR"
   exit 1
 fi
 
@@ -21,7 +21,7 @@ FILE_LIST=$(find "$CONTENTS_DIR" -type f \
   | sort \
   | while read -r f; do
     rel="${f#$CONTENTS_DIR/}"
-    url="/contents/$rel"
+    url="/reddit/$rel"
     # For .md files, strip extension from URL (GitHub Pages serves without .md)
     if [[ "$rel" == *.md ]]; then
       url="${url%.md}"
@@ -40,7 +40,7 @@ fi
 cat > "$TARGET" << EOF
 $FRONTMATTER
 
-## All Files in contents/
+## All Files in reddit/
 
 $FILE_LIST
 EOF

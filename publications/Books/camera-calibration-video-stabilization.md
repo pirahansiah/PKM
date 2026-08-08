@@ -20,7 +20,7 @@ My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_L
 
 
 
-https://www.pirahansiah.com/contents/publications/Books/My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization/
+https://www.pirahansiah.com/reddit/publications/Books/My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization/
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/My-book-chapter-titled-Camera-Calibration-and-Video-Stabilization-Framework-for-Robot-Localization-in-the-Book-entitled-Control-Engineering-in-Robotics-and-Industrial-Automation-published-Springer-e2prs80)
 
@@ -28,9 +28,9 @@ https://www.pirahansiah.com/contents/publications/Books/My_Book_chapter_Camera_C
 
 
 {% if page.extname == "camera-calibration-video-stabilization.md" %}
-  ![My book chapter titled "Camera Calibration and Video Stabilization Framework for Robot Localization" in the Book entitled Control Engineering in Robotics and Industrial Automation published in Springer](/contents/publications/Books/camera-calibration-video-stabilization.png)
+  ![My book chapter titled "Camera Calibration and Video Stabilization Framework for Robot Localization" in the Book entitled Control Engineering in Robotics and Industrial Automation published in Springer](/reddit/publications/Books/camera-calibration-video-stabilization.png)
 {% else %}
-  <img src="/contents/publications/Books/camera-calibration-video-stabilization.png" alt="book chapter titled "Camera Calibration and Video Stabilization Framework for Robot Localization" in the Book entitled "Control Engineering in Robotics and Industrial Automation" published in Springer" style="max-width: 100%; height: auto;">
+  <img src="/reddit/publications/Books/camera-calibration-video-stabilization.png" alt="book chapter titled "Camera Calibration and Video Stabilization Framework for Robot Localization" in the Book entitled "Control Engineering in Robotics and Industrial Automation" published in Springer" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

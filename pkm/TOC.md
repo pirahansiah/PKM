@@ -102,4 +102,4 @@ PARA, Zettelkasten, Second Brain, Link Your Thinking, LYT, Maps of Content, MOC,
 *   **Strategic Connections** (Linking Research to Market-ready Solutions)
 
 ---
-cd contents && git pull && cd .. && git add contents && git commit -m "update PKM" && git push
+cd reddit && git pull && cd .. && git add reddit && git commit -m "update PKM" && git push

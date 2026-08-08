@@ -162,8 +162,8 @@ markmap: |
 
 <div style="text-align:center; padding: 0 16px;">
   <a href="/" class="back-link">&#8592; Home</a>
-  <a href="/contents/public/product/" class="back-link">Product</a>
-  <a href="/contents/public/solutions/" class="back-link">Solutions</a>
+  <a href="/reddit/public/product/" class="back-link">Product</a>
+  <a href="/reddit/public/solutions/" class="back-link">Solutions</a>
 </div>
 
 <div class="sitemap-grid">
@@ -172,9 +172,9 @@ markmap: |
     <span class="section-icon">&#128220;</span>
     <div class="section-title">Patents <span class="badge">3</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/publications/Patents/face-image-augmentation/"><span class="link-arrow">&#8594;</span> Face Image Augmentation — WO 2021/060971</a></li>
-      <li><a href="/contents/publications/Patents/vehicle-detection/"><span class="link-arrow">&#8594;</span> Vehicle Detection — WO 2021/107761</a></li>
-      <li><a href="/contents/publications/Patents/facial-analysis-advertisement/"><span class="link-arrow">&#8594;</span> Facial Analysis Advertising — WO 2020/141969</a></li>
+      <li><a href="/reddit/publications/Patents/face-image-augmentation/"><span class="link-arrow">&#8594;</span> Face Image Augmentation — WO 2021/060971</a></li>
+      <li><a href="/reddit/publications/Patents/vehicle-detection/"><span class="link-arrow">&#8594;</span> Vehicle Detection — WO 2021/107761</a></li>
+      <li><a href="/reddit/publications/Patents/facial-analysis-advertisement/"><span class="link-arrow">&#8594;</span> Facial Analysis Advertising — WO 2020/141969</a></li>
     </ul>
   </div>
 
@@ -182,17 +182,17 @@ markmap: |
     <span class="section-icon">&#128197;</span>
     <div class="section-title">Conference Papers <span class="badge">11</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/publications/Papers/adaptive-image-segmentation-psnr/"><span class="link-arrow">&#8594;</span> Adaptive Segmentation PSNR</a></li>
-      <li><a href="/contents/publications/Papers/license-plate-recognition-entropy/"><span class="link-arrow">&#8594;</span> License Plate — Entropy</a></li>
-      <li><a href="/contents/publications/Papers/multi-threshold-license-plate/"><span class="link-arrow">&#8594;</span> Multi-threshold License Plate</a></li>
-      <li><a href="/contents/publications/Papers/comparison-thresholding-handwritten/"><span class="link-arrow">&#8594;</span> Thresholding Handwritten</a></li>
-      <li><a href="/contents/publications/Papers/camera-calibration-multi-modal/"><span class="link-arrow">&#8594;</span> Camera Calibration Multi-Modal</a></li>
-      <li><a href="/contents/publications/Papers/pattern-image-calibration/"><span class="link-arrow">&#8594;</span> Pattern Image Calibration</a></li>
-      <li><a href="/contents/publications/Papers/2d-3d-map-movement/"><span class="link-arrow">&#8594;</span> 2D vs 3D Map Movement</a></li>
-      <li><a href="/contents/publications/Papers/character-recognition-global-feature/"><span class="link-arrow">&#8594;</span> Character Recognition</a></li>
-      <li><a href="/contents/publications/Papers/classification-geometrical-topological/"><span class="link-arrow">&#8594;</span> Classification Geometrical</a></li>
-      <li><a href="/contents/publications/Papers/tafreshgrid-grid-computing/"><span class="link-arrow">&#8594;</span> TafreshGrid</a></li>
-      <li><a href="/contents/publications/Papers/"><span class="link-arrow">&#8594;</span> All Papers &#8594;</a></li>
+      <li><a href="/reddit/publications/Papers/adaptive-image-segmentation-psnr/"><span class="link-arrow">&#8594;</span> Adaptive Segmentation PSNR</a></li>
+      <li><a href="/reddit/publications/Papers/license-plate-recognition-entropy/"><span class="link-arrow">&#8594;</span> License Plate — Entropy</a></li>
+      <li><a href="/reddit/publications/Papers/multi-threshold-license-plate/"><span class="link-arrow">&#8594;</span> Multi-threshold License Plate</a></li>
+      <li><a href="/reddit/publications/Papers/comparison-thresholding-handwritten/"><span class="link-arrow">&#8594;</span> Thresholding Handwritten</a></li>
+      <li><a href="/reddit/publications/Papers/camera-calibration-multi-modal/"><span class="link-arrow">&#8594;</span> Camera Calibration Multi-Modal</a></li>
+      <li><a href="/reddit/publications/Papers/pattern-image-calibration/"><span class="link-arrow">&#8594;</span> Pattern Image Calibration</a></li>
+      <li><a href="/reddit/publications/Papers/2d-3d-map-movement/"><span class="link-arrow">&#8594;</span> 2D vs 3D Map Movement</a></li>
+      <li><a href="/reddit/publications/Papers/character-recognition-global-feature/"><span class="link-arrow">&#8594;</span> Character Recognition</a></li>
+      <li><a href="/reddit/publications/Papers/classification-geometrical-topological/"><span class="link-arrow">&#8594;</span> Classification Geometrical</a></li>
+      <li><a href="/reddit/publications/Papers/tafreshgrid-grid-computing/"><span class="link-arrow">&#8594;</span> TafreshGrid</a></li>
+      <li><a href="/reddit/publications/Papers/"><span class="link-arrow">&#8594;</span> All Papers &#8594;</a></li>
     </ul>
   </div>
 
@@ -200,12 +200,12 @@ markmap: |
     <span class="section-icon">&#128196;</span>
     <div class="section-title">Journal Articles <span class="badge">6</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/publications/Journals/adaptive-thresholding-psnr/"><span class="link-arrow">&#8594;</span> Adaptive Thresholding PSNR</a></li>
-      <li><a href="/contents/publications/Journals/gsft-psnr-fuzzy-threshold/"><span class="link-arrow">&#8594;</span> GSFT-PSNR Fuzzy Threshold</a></li>
-      <li><a href="/contents/publications/Journals/psnr-threshold-segmentation/"><span class="link-arrow">&#8594;</span> PSNR Threshold Segmentation</a></li>
-      <li><a href="/contents/publications/Journals/character-object-recognition/"><span class="link-arrow">&#8594;</span> Character & Object Recognition</a></li>
-      <li><a href="/contents/publications/Journals/3d-slam-humanoid-robots/"><span class="link-arrow">&#8594;</span> 3D SLAM & Humanoid Robots</a></li>
-      <li><a href="/contents/publications/Journals/ant-colony-optimization/"><span class="link-arrow">&#8594;</span> Ant Colony Optimization</a></li>
+      <li><a href="/reddit/publications/Journals/adaptive-thresholding-psnr/"><span class="link-arrow">&#8594;</span> Adaptive Thresholding PSNR</a></li>
+      <li><a href="/reddit/publications/Journals/gsft-psnr-fuzzy-threshold/"><span class="link-arrow">&#8594;</span> GSFT-PSNR Fuzzy Threshold</a></li>
+      <li><a href="/reddit/publications/Journals/psnr-threshold-segmentation/"><span class="link-arrow">&#8594;</span> PSNR Threshold Segmentation</a></li>
+      <li><a href="/reddit/publications/Journals/character-object-recognition/"><span class="link-arrow">&#8594;</span> Character & Object Recognition</a></li>
+      <li><a href="/reddit/publications/Journals/3d-slam-humanoid-robots/"><span class="link-arrow">&#8594;</span> 3D SLAM & Humanoid Robots</a></li>
+      <li><a href="/reddit/publications/Journals/ant-colony-optimization/"><span class="link-arrow">&#8594;</span> Ant Colony Optimization</a></li>
     </ul>
   </div>
 
@@ -213,13 +213,13 @@ markmap: |
     <span class="section-icon">&#128214;</span>
     <div class="section-title">Books & Chapters <span class="badge">7</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/publications/Books/computer-vision-meets-llm/"><span class="link-arrow">&#8594;</span> Computer Vision Meets LLM</a></li>
-      <li><a href="/contents/publications/Books/opencv5-chapter0-introduction/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.0 Introduction</a></li>
-      <li><a href="/contents/publications/Books/opencv5-chapter1-image-basics/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.1 Image Basics</a></li>
-      <li><a href="/contents/publications/Books/opencv5-chapter2-feature-detection/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.2 Feature Detection</a></li>
-      <li><a href="/contents/publications/Books/opencv5-chapter3-advanced/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.3 Advanced Topics</a></li>
-      <li><a href="/contents/publications/Books/computational-intelligence-optical-flow/"><span class="link-arrow">&#8594;</span> Optical Flow for Video Stabilization</a></li>
-      <li><a href="/contents/publications/Books/camera-calibration-video-stabilization/"><span class="link-arrow">&#8594;</span> Camera Calibration for Robotics</a></li>
+      <li><a href="/reddit/publications/Books/computer-vision-meets-llm/"><span class="link-arrow">&#8594;</span> Computer Vision Meets LLM</a></li>
+      <li><a href="/reddit/publications/Books/opencv5-chapter0-introduction/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.0 Introduction</a></li>
+      <li><a href="/reddit/publications/Books/opencv5-chapter1-image-basics/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.1 Image Basics</a></li>
+      <li><a href="/reddit/publications/Books/opencv5-chapter2-feature-detection/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.2 Feature Detection</a></li>
+      <li><a href="/reddit/publications/Books/opencv5-chapter3-advanced/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.3 Advanced Topics</a></li>
+      <li><a href="/reddit/publications/Books/computational-intelligence-optical-flow/"><span class="link-arrow">&#8594;</span> Optical Flow for Video Stabilization</a></li>
+      <li><a href="/reddit/publications/Books/camera-calibration-video-stabilization/"><span class="link-arrow">&#8594;</span> Camera Calibration for Robotics</a></li>
     </ul>
   </div>
 
@@ -227,7 +227,7 @@ markmap: |
     <span class="section-icon">&#127908;</span>
     <div class="section-title">Keynotes <span class="badge">1</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/publications/Keynotes/llms-meet-computer-vision/"><span class="link-arrow">&#8594;</span> LLMs Meet Computer Vision</a></li>
+      <li><a href="/reddit/publications/Keynotes/llms-meet-computer-vision/"><span class="link-arrow">&#8594;</span> LLMs Meet Computer Vision</a></li>
     </ul>
   </div>
 
@@ -235,9 +235,9 @@ markmap: |
     <span class="section-icon">&#128196;</span>
     <div class="section-title">Full CV</div>
     <ul class="sitemap-links">
-      <li><a href="/contents/publications/CV/"><span class="link-arrow">&#8594;</span> Curriculum Vitae</a></li>
-      <li><a href="/contents/publications/10Years/"><span class="link-arrow">&#8594;</span> 10 Years of CV Bug Fixing</a></li>
-      <li><a href="/contents/public/Resources/"><span class="link-arrow">&#8594;</span> Portfolio & Resources</a></li>
+      <li><a href="/reddit/publications/CV/"><span class="link-arrow">&#8594;</span> Curriculum Vitae</a></li>
+      <li><a href="/reddit/publications/10Years/"><span class="link-arrow">&#8594;</span> 10 Years of CV Bug Fixing</a></li>
+      <li><a href="/reddit/public/Resources/"><span class="link-arrow">&#8594;</span> Portfolio & Resources</a></li>
     </ul>
   </div>
 

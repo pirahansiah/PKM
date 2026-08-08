@@ -344,11 +344,11 @@ def process_file(filepath: str, kg: KnowledgeGraph):
 
 
 def process_contents_dir(kg: KnowledgeGraph):
-    """Process all text files in contents/ directory."""
-    contents_dir = Path(__file__).parent.parent.parent  # contents/
+    """Process all text files in reddit/ directory."""
+    contents_dir = Path(__file__).parent.parent.parent  # reddit/
     extensions = {".md", ".py", ".sh", ".html", ".yml", ".yaml", ".json", ".txt", ".js", ".css"}
     files = [f for f in contents_dir.rglob("*") if f.suffix.lower() in extensions and not f.name.startswith(".")]
-    print(f"  Found {len(files)} files in contents/")
+    print(f"  Found {len(files)} files in reddit/")
 
     for i, f in enumerate(files):
         print(f"\n  [{i+1}/{len(files)}] {f.name}")
@@ -416,7 +416,7 @@ def main():
     parser = argparse.ArgumentParser(description="AI Knowledge Graph — Extract & visualize knowledge from text")
     parser.add_argument("--text", "-t", help="Text to extract from")
     parser.add_argument("--file", "-f", help="File to process")
-    parser.add_argument("--contents", action="store_true", default=True, help="Process all files in contents/ (default)")
+    parser.add_argument("--contents", action="store_true", default=True, help="Process all files in reddit/ (default)")
     parser.add_argument("--export", "-e", choices=["html", "json"], default="html", help="Export format (default: html)")
     parser.add_argument("--interactive", "-i", action="store_true", help="Interactive REPL mode")
     parser.add_argument("--model", "-m", default=MODEL, help=f"Ollama model (default: {MODEL})")

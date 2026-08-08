@@ -1,7 +1,7 @@
 ---
 layout: farshid_default
 title: "Sitemap — All Pages"
-permalink: /contents/sitemap/
+permalink: /reddit/sitemap/
 ---
 
 <style>
@@ -219,10 +219,10 @@ permalink: /contents/sitemap/
     <span class="section-icon">&#128065;</span>
     <div class="section-title">Computer Vision <span class="badge">AI</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/public/cv/3d/"><span class="link-arrow">&#8594;</span> 3D Vision & Multi-Camera</a></li>
-      <li><a href="/contents/public/cv/optical-flow/"><span class="link-arrow">&#8594;</span> Optical Flow</a></li>
-      <li><a href="/contents/public/cv/multi-camera-systems/"><span class="link-arrow">&#8594;</span> Multi-Camera Systems</a></li>
-      <li><a href="/contents/public/coaching/"><span class="link-arrow">&#8594;</span> CV Coaching Roadmap</a></li>
+      <li><a href="/reddit/public/cv/3d/"><span class="link-arrow">&#8594;</span> 3D Vision & Multi-Camera</a></li>
+      <li><a href="/reddit/public/cv/optical-flow/"><span class="link-arrow">&#8594;</span> Optical Flow</a></li>
+      <li><a href="/reddit/public/cv/multi-camera-systems/"><span class="link-arrow">&#8594;</span> Multi-Camera Systems</a></li>
+      <li><a href="/reddit/public/coaching/"><span class="link-arrow">&#8594;</span> CV Coaching Roadmap</a></li>
     </ul>
   </div>
 
@@ -231,10 +231,10 @@ permalink: /contents/sitemap/
     <span class="section-icon">&#129302;</span>
     <div class="section-title">AI & LLMs <span class="badge">New</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/public/ai-llm/advanced-llm-concepts/"><span class="link-arrow">&#8594;</span> Advanced LLM Concepts</a></li>
-      <li><a href="/contents/public/ai-llm/orchestrating-agents/"><span class="link-arrow">&#8594;</span> Orchestrating AI Agents</a></li>
-      <li><a href="/contents/public/ai-llm/blog/"><span class="link-arrow">&#8594;</span> Blog: AI & LLMs</a></li>
-      <li><a href="/contents/public/ai-llm/avatar-generator/"><span class="link-arrow">&#8594;</span> Avatar Generator</a></li>
+      <li><a href="/reddit/public/ai-llm/advanced-llm-concepts/"><span class="link-arrow">&#8594;</span> Advanced LLM Concepts</a></li>
+      <li><a href="/reddit/public/ai-llm/orchestrating-agents/"><span class="link-arrow">&#8594;</span> Orchestrating AI Agents</a></li>
+      <li><a href="/reddit/public/ai-llm/blog/"><span class="link-arrow">&#8594;</span> Blog: AI & LLMs</a></li>
+      <li><a href="/reddit/public/ai-llm/avatar-generator/"><span class="link-arrow">&#8594;</span> Avatar Generator</a></li>
     </ul>
   </div>
 
@@ -243,10 +243,10 @@ permalink: /contents/sitemap/
     <span class="section-icon">&#9889;</span>
     <div class="section-title">CUDA & GPU <span class="badge">Dev</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/public/cuda-gpu/numba-jit/"><span class="link-arrow">&#8594;</span> Numba JIT Tutorial</a></li>
-      <li><a href="/contents/public/cuda-gpu/pycuda-kernels/"><span class="link-arrow">&#8594;</span> PyCUDA Kernels</a></li>
-      <li><a href="/contents/public/cuda-gpu/vscode-cuda-windows/"><span class="link-arrow">&#8594;</span> CUDA in VS Code</a></li>
-      <li><a href="/contents/public/cuda-gpu/mlx-coreml-metal/"><span class="link-arrow">&#8594;</span> MLX, CoreML & Metal</a></li>
+      <li><a href="/reddit/public/cuda-gpu/numba-jit/"><span class="link-arrow">&#8594;</span> Numba JIT Tutorial</a></li>
+      <li><a href="/reddit/public/cuda-gpu/pycuda-kernels/"><span class="link-arrow">&#8594;</span> PyCUDA Kernels</a></li>
+      <li><a href="/reddit/public/cuda-gpu/vscode-cuda-windows/"><span class="link-arrow">&#8594;</span> CUDA in VS Code</a></li>
+      <li><a href="/reddit/public/cuda-gpu/mlx-coreml-metal/"><span class="link-arrow">&#8594;</span> MLX, CoreML & Metal</a></li>
     </ul>
   </div>
 
@@ -255,10 +255,10 @@ permalink: /contents/sitemap/
     <span class="section-icon">&#128187;</span>
     <div class="section-title">Programming <span class="badge">Tools</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/public/CPP/"><span class="link-arrow">&#8594;</span> C++ Quick Reference</a></li>
-      <li><a href="/contents/public/Python/"><span class="link-arrow">&#8594;</span> Python Configuration</a></li>
-      <li><a href="/contents/public/setup/"><span class="link-arrow">&#8594;</span> Developer Tools & Setup</a></li>
-      <li><a href="/contents/public/shell-vim-quickref/"><span class="link-arrow">&#8594;</span> Shell & Vim Reference</a></li>
+      <li><a href="/reddit/public/CPP/"><span class="link-arrow">&#8594;</span> C++ Quick Reference</a></li>
+      <li><a href="/reddit/public/Python/"><span class="link-arrow">&#8594;</span> Python Configuration</a></li>
+      <li><a href="/reddit/public/setup/"><span class="link-arrow">&#8594;</span> Developer Tools & Setup</a></li>
+      <li><a href="/reddit/public/shell-vim-quickref/"><span class="link-arrow">&#8594;</span> Shell & Vim Reference</a></li>
     </ul>
   </div>
 
@@ -267,8 +267,8 @@ permalink: /contents/sitemap/
     <span class="section-icon">&#9889;</span>
     <div class="section-title">Optimization <span class="badge">ML</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/public/Optimization/"><span class="link-arrow">&#8594;</span> CV, DL & ML Optimization</a></li>
-      <li><a href="/contents/public/Prompts/"><span class="link-arrow">&#8594;</span> Prompt Engineering</a></li>
+      <li><a href="/reddit/public/Optimization/"><span class="link-arrow">&#8594;</span> CV, DL & ML Optimization</a></li>
+      <li><a href="/reddit/public/Prompts/"><span class="link-arrow">&#8594;</span> Prompt Engineering</a></li>
     </ul>
   </div>
 
@@ -277,9 +277,9 @@ permalink: /contents/sitemap/
     <span class="section-icon">&#128640;</span>
     <div class="section-title">Business & Career</div>
     <ul class="sitemap-links">
-      <li><a href="/contents/public/StartUp/"><span class="link-arrow">&#8594;</span> Startup Guide</a></li>
-      <li><a href="/contents/public/SEO/"><span class="link-arrow">&#8594;</span> SEO for LLMs</a></li>
-      <li><a href="/contents/public/linkedin-top-posts/"><span class="link-arrow">&#8594;</span> Top LinkedIn Posts 2024</a></li>
+      <li><a href="/reddit/public/StartUp/"><span class="link-arrow">&#8594;</span> Startup Guide</a></li>
+      <li><a href="/reddit/public/SEO/"><span class="link-arrow">&#8594;</span> SEO for LLMs</a></li>
+      <li><a href="/reddit/public/linkedin-top-posts/"><span class="link-arrow">&#8594;</span> Top LinkedIn Posts 2024</a></li>
     </ul>
   </div>
 
@@ -288,9 +288,9 @@ permalink: /contents/sitemap/
     <span class="section-icon">&#128218;</span>
     <div class="section-title">Resources</div>
     <ul class="sitemap-links">
-      <li><a href="/contents/public/Resources/"><span class="link-arrow">&#8594;</span> Portfolio & Publications</a></li>
-      <li><a href="/contents/public/links/"><span class="link-arrow">&#8594;</span> Curated Links</a></li>
-      <li><a href="/contents/public/index/"><span class="link-arrow">&#8594;</span> Content Hub</a></li>
+      <li><a href="/reddit/public/Resources/"><span class="link-arrow">&#8594;</span> Portfolio & Publications</a></li>
+      <li><a href="/reddit/public/links/"><span class="link-arrow">&#8594;</span> Curated Links</a></li>
+      <li><a href="/reddit/public/index/"><span class="link-arrow">&#8594;</span> Content Hub</a></li>
     </ul>
   </div>
 
@@ -299,10 +299,10 @@ permalink: /contents/sitemap/
     <span class="section-icon">&#128220;</span>
     <div class="section-title">Patents <span class="badge">3</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/publications/Patents/"><span class="link-arrow">&#8594;</span> All Patents</a></li>
-      <li><a href="/contents/publications/Patents/face-image-augmentation/"><span class="link-arrow">&#8594;</span> Face Image Augmentation</a></li>
-      <li><a href="/contents/publications/Patents/vehicle-detection/"><span class="link-arrow">&#8594;</span> Vehicle Detection</a></li>
-      <li><a href="/contents/publications/Patents/facial-analysis-advertisement/"><span class="link-arrow">&#8594;</span> Facial Analysis Advertising</a></li>
+      <li><a href="/reddit/publications/Patents/"><span class="link-arrow">&#8594;</span> All Patents</a></li>
+      <li><a href="/reddit/publications/Patents/face-image-augmentation/"><span class="link-arrow">&#8594;</span> Face Image Augmentation</a></li>
+      <li><a href="/reddit/publications/Patents/vehicle-detection/"><span class="link-arrow">&#8594;</span> Vehicle Detection</a></li>
+      <li><a href="/reddit/publications/Patents/facial-analysis-advertisement/"><span class="link-arrow">&#8594;</span> Facial Analysis Advertising</a></li>
     </ul>
   </div>
 
@@ -311,13 +311,13 @@ permalink: /contents/sitemap/
     <span class="section-icon">&#128196;</span>
     <div class="section-title">Journal Articles <span class="badge">6</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/publications/Journals/"><span class="link-arrow">&#8594;</span> All Journals</a></li>
-      <li><a href="/contents/publications/Journals/adaptive-thresholding-psnr/"><span class="link-arrow">&#8594;</span> Adaptive Thresholding PSNR</a></li>
-      <li><a href="/contents/publications/Journals/gsft-psnr-fuzzy-threshold/"><span class="link-arrow">&#8594;</span> GSFT-PSNR Fuzzy Threshold</a></li>
-      <li><a href="/contents/publications/Journals/psnr-threshold-segmentation/"><span class="link-arrow">&#8594;</span> PSNR Threshold Segmentation</a></li>
-      <li><a href="/contents/publications/Journals/character-object-recognition/"><span class="link-arrow">&#8594;</span> Character & Object Recognition</a></li>
-      <li><a href="/contents/publications/Journals/3d-slam-humanoid-robots/"><span class="link-arrow">&#8594;</span> 3D SLAM & Humanoid Robots</a></li>
-      <li><a href="/contents/publications/Journals/ant-colony-optimization/"><span class="link-arrow">&#8594;</span> Ant Colony Optimization</a></li>
+      <li><a href="/reddit/publications/Journals/"><span class="link-arrow">&#8594;</span> All Journals</a></li>
+      <li><a href="/reddit/publications/Journals/adaptive-thresholding-psnr/"><span class="link-arrow">&#8594;</span> Adaptive Thresholding PSNR</a></li>
+      <li><a href="/reddit/publications/Journals/gsft-psnr-fuzzy-threshold/"><span class="link-arrow">&#8594;</span> GSFT-PSNR Fuzzy Threshold</a></li>
+      <li><a href="/reddit/publications/Journals/psnr-threshold-segmentation/"><span class="link-arrow">&#8594;</span> PSNR Threshold Segmentation</a></li>
+      <li><a href="/reddit/publications/Journals/character-object-recognition/"><span class="link-arrow">&#8594;</span> Character & Object Recognition</a></li>
+      <li><a href="/reddit/publications/Journals/3d-slam-humanoid-robots/"><span class="link-arrow">&#8594;</span> 3D SLAM & Humanoid Robots</a></li>
+      <li><a href="/reddit/publications/Journals/ant-colony-optimization/"><span class="link-arrow">&#8594;</span> Ant Colony Optimization</a></li>
     </ul>
   </div>
 
@@ -326,17 +326,17 @@ permalink: /contents/sitemap/
     <span class="section-icon">&#128197;</span>
     <div class="section-title">Conference Papers <span class="badge">11</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/publications/Papers/"><span class="link-arrow">&#8594;</span> All Papers</a></li>
-      <li><a href="/contents/publications/Papers/adaptive-image-segmentation-psnr/"><span class="link-arrow">&#8594;</span> Adaptive Segmentation PSNR</a></li>
-      <li><a href="/contents/publications/Papers/license-plate-recognition-entropy/"><span class="link-arrow">&#8594;</span> License Plate — Entropy</a></li>
-      <li><a href="/contents/publications/Papers/multi-threshold-license-plate/"><span class="link-arrow">&#8594;</span> Multi-threshold License Plate</a></li>
-      <li><a href="/contents/publications/Papers/comparison-thresholding-handwritten/"><span class="link-arrow">&#8594;</span> Thresholding Handwritten</a></li>
-      <li><a href="/contents/publications/Papers/camera-calibration-multi-modal/"><span class="link-arrow">&#8594;</span> Camera Calibration Multi-Modal</a></li>
-      <li><a href="/contents/publications/Papers/pattern-image-calibration/"><span class="link-arrow">&#8594;</span> Pattern Image Calibration</a></li>
-      <li><a href="/contents/publications/Papers/2d-3d-map-movement/"><span class="link-arrow">&#8594;</span> 2D vs 3D Map Movement</a></li>
-      <li><a href="/contents/publications/Papers/character-recognition-global-feature/"><span class="link-arrow">&#8594;</span> Character Recognition</a></li>
-      <li><a href="/contents/publications/Papers/classification-geometrical-topological/"><span class="link-arrow">&#8594;</span> Classification Geometrical</a></li>
-      <li><a href="/contents/publications/Papers/tafreshgrid-grid-computing/"><span class="link-arrow">&#8594;</span> TafreshGrid Grid Computing</a></li>
+      <li><a href="/reddit/publications/Papers/"><span class="link-arrow">&#8594;</span> All Papers</a></li>
+      <li><a href="/reddit/publications/Papers/adaptive-image-segmentation-psnr/"><span class="link-arrow">&#8594;</span> Adaptive Segmentation PSNR</a></li>
+      <li><a href="/reddit/publications/Papers/license-plate-recognition-entropy/"><span class="link-arrow">&#8594;</span> License Plate — Entropy</a></li>
+      <li><a href="/reddit/publications/Papers/multi-threshold-license-plate/"><span class="link-arrow">&#8594;</span> Multi-threshold License Plate</a></li>
+      <li><a href="/reddit/publications/Papers/comparison-thresholding-handwritten/"><span class="link-arrow">&#8594;</span> Thresholding Handwritten</a></li>
+      <li><a href="/reddit/publications/Papers/camera-calibration-multi-modal/"><span class="link-arrow">&#8594;</span> Camera Calibration Multi-Modal</a></li>
+      <li><a href="/reddit/publications/Papers/pattern-image-calibration/"><span class="link-arrow">&#8594;</span> Pattern Image Calibration</a></li>
+      <li><a href="/reddit/publications/Papers/2d-3d-map-movement/"><span class="link-arrow">&#8594;</span> 2D vs 3D Map Movement</a></li>
+      <li><a href="/reddit/publications/Papers/character-recognition-global-feature/"><span class="link-arrow">&#8594;</span> Character Recognition</a></li>
+      <li><a href="/reddit/publications/Papers/classification-geometrical-topological/"><span class="link-arrow">&#8594;</span> Classification Geometrical</a></li>
+      <li><a href="/reddit/publications/Papers/tafreshgrid-grid-computing/"><span class="link-arrow">&#8594;</span> TafreshGrid Grid Computing</a></li>
     </ul>
   </div>
 
@@ -345,14 +345,14 @@ permalink: /contents/sitemap/
     <span class="section-icon">&#128214;</span>
     <div class="section-title">Books & Chapters <span class="badge">7</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/publications/Books/"><span class="link-arrow">&#8594;</span> All Books</a></li>
-      <li><a href="/contents/publications/Books/computational-intelligence-optical-flow/"><span class="link-arrow">&#8594;</span> Optical Flow for Video Stabilization</a></li>
-      <li><a href="/contents/publications/Books/camera-calibration-video-stabilization/"><span class="link-arrow">&#8594;</span> Camera Calibration for Robotics</a></li>
-      <li><a href="/contents/publications/Books/AI/computer-vision-meets-llm/"><span class="link-arrow">&#8594;</span> Computer Vision Meets LLM</a></li>
-      <li><a href="/contents/publications/Books/AI/opencv5-chapter0-introduction/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.0 Introduction</a></li>
-      <li><a href="/contents/publications/Books/AI/opencv5-chapter1-image-basics/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.1 Image Basics</a></li>
-      <li><a href="/contents/publications/Books/AI/opencv5-chapter2-feature-detection/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.2 Feature Detection</a></li>
-      <li><a href="/contents/publications/Books/AI/opencv5-chapter3-advanced/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.3 Advanced Topics</a></li>
+      <li><a href="/reddit/publications/Books/"><span class="link-arrow">&#8594;</span> All Books</a></li>
+      <li><a href="/reddit/publications/Books/computational-intelligence-optical-flow/"><span class="link-arrow">&#8594;</span> Optical Flow for Video Stabilization</a></li>
+      <li><a href="/reddit/publications/Books/camera-calibration-video-stabilization/"><span class="link-arrow">&#8594;</span> Camera Calibration for Robotics</a></li>
+      <li><a href="/reddit/publications/Books/AI/computer-vision-meets-llm/"><span class="link-arrow">&#8594;</span> Computer Vision Meets LLM</a></li>
+      <li><a href="/reddit/publications/Books/AI/opencv5-chapter0-introduction/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.0 Introduction</a></li>
+      <li><a href="/reddit/publications/Books/AI/opencv5-chapter1-image-basics/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.1 Image Basics</a></li>
+      <li><a href="/reddit/publications/Books/AI/opencv5-chapter2-feature-detection/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.2 Feature Detection</a></li>
+      <li><a href="/reddit/publications/Books/AI/opencv5-chapter3-advanced/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.3 Advanced Topics</a></li>
     </ul>
   </div>
 
@@ -361,8 +361,8 @@ permalink: /contents/sitemap/
     <span class="section-icon">&#127908;</span>
     <div class="section-title">Keynotes</div>
     <ul class="sitemap-links">
-      <li><a href="/contents/publications/Keynotes/"><span class="link-arrow">&#8594;</span> All Keynotes</a></li>
-      <li><a href="/contents/publications/Keynotes/llms-meet-computer-vision/"><span class="link-arrow">&#8594;</span> LLMs Meet Computer Vision</a></li>
+      <li><a href="/reddit/publications/Keynotes/"><span class="link-arrow">&#8594;</span> All Keynotes</a></li>
+      <li><a href="/reddit/publications/Keynotes/llms-meet-computer-vision/"><span class="link-arrow">&#8594;</span> LLMs Meet Computer Vision</a></li>
     </ul>
   </div>
 
@@ -371,25 +371,25 @@ permalink: /contents/sitemap/
     <span class="section-icon">&#128218;</span>
     <div class="section-title">Courses & Workshops <span class="badge">AI 2026</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/ai2026/machine-learning-specialization/"><span class="link-arrow">&#8594;</span> ML Specialization</a></li>
-      <li><a href="/contents/ai2026/full-stack-deep-learning/"><span class="link-arrow">&#8594;</span> Full Stack Deep Learning</a></li>
-      <li><a href="/contents/ai2026/fsdl-2022/"><span class="link-arrow">&#8594;</span> FSDL 2022</a></li>
-      <li><a href="/contents/ai2026/mlops/"><span class="link-arrow">&#8594;</span> MLOps</a></li>
-      <li><a href="/contents/ai2026/ros/"><span class="link-arrow">&#8594;</span> ROS</a></li>
-      <li><a href="/contents/ai2026/parallel-programming/"><span class="link-arrow">&#8594;</span> Parallel Programming</a></li>
-      <li><a href="/contents/ai2026/modern-cpp/"><span class="link-arrow">&#8594;</span> Modern C++</a></li>
-      <li><a href="/contents/ai2026/cloud-native/"><span class="link-arrow">&#8594;</span> Cloud-Native</a></li>
-      <li><a href="/contents/ai2026/tensorflow-deployment/"><span class="link-arrow">&#8594;</span> TensorFlow Deployment</a></li>
-      <li><a href="/contents/ai2026/risc-v/"><span class="link-arrow">&#8594;</span> RISC-V</a></li>
-      <li><a href="/contents/ai2026/edge-ai-summit/"><span class="link-arrow">&#8594;</span> Edge AI Summit</a></li>
-      <li><a href="/contents/ai2026/embedded-iot/"><span class="link-arrow">&#8594;</span> Embedded IoT</a></li>
-      <li><a href="/contents/ai2026/tesla/"><span class="link-arrow">&#8594;</span> Tesla AI</a></li>
-      <li><a href="/contents/ai2026/ai-hardware/"><span class="link-arrow">&#8594;</span> AI Hardware</a></li>
-      <li><a href="/contents/ai2026/openvino/"><span class="link-arrow">&#8594;</span> OpenVINO</a></li>
-      <li><a href="/contents/ai2026/metaverse/"><span class="link-arrow">&#8594;</span> Metaverse</a></li>
-      <li><a href="/contents/ai2026/book-summary/"><span class="link-arrow">&#8594;</span> Book Summaries</a></li>
-      <li><a href="/contents/ai2026/iot-scholarship/"><span class="link-arrow">&#8594;</span> IoT Scholarship</a></li>
-      <li><a href="/contents/ai2026/topics/"><span class="link-arrow">&#8594;</span> All Topics</a></li>
+      <li><a href="/reddit/ai2026/machine-learning-specialization/"><span class="link-arrow">&#8594;</span> ML Specialization</a></li>
+      <li><a href="/reddit/ai2026/full-stack-deep-learning/"><span class="link-arrow">&#8594;</span> Full Stack Deep Learning</a></li>
+      <li><a href="/reddit/ai2026/fsdl-2022/"><span class="link-arrow">&#8594;</span> FSDL 2022</a></li>
+      <li><a href="/reddit/ai2026/mlops/"><span class="link-arrow">&#8594;</span> MLOps</a></li>
+      <li><a href="/reddit/ai2026/ros/"><span class="link-arrow">&#8594;</span> ROS</a></li>
+      <li><a href="/reddit/ai2026/parallel-programming/"><span class="link-arrow">&#8594;</span> Parallel Programming</a></li>
+      <li><a href="/reddit/ai2026/modern-cpp/"><span class="link-arrow">&#8594;</span> Modern C++</a></li>
+      <li><a href="/reddit/ai2026/cloud-native/"><span class="link-arrow">&#8594;</span> Cloud-Native</a></li>
+      <li><a href="/reddit/ai2026/tensorflow-deployment/"><span class="link-arrow">&#8594;</span> TensorFlow Deployment</a></li>
+      <li><a href="/reddit/ai2026/risc-v/"><span class="link-arrow">&#8594;</span> RISC-V</a></li>
+      <li><a href="/reddit/ai2026/edge-ai-summit/"><span class="link-arrow">&#8594;</span> Edge AI Summit</a></li>
+      <li><a href="/reddit/ai2026/embedded-iot/"><span class="link-arrow">&#8594;</span> Embedded IoT</a></li>
+      <li><a href="/reddit/ai2026/tesla/"><span class="link-arrow">&#8594;</span> Tesla AI</a></li>
+      <li><a href="/reddit/ai2026/ai-hardware/"><span class="link-arrow">&#8594;</span> AI Hardware</a></li>
+      <li><a href="/reddit/ai2026/openvino/"><span class="link-arrow">&#8594;</span> OpenVINO</a></li>
+      <li><a href="/reddit/ai2026/metaverse/"><span class="link-arrow">&#8594;</span> Metaverse</a></li>
+      <li><a href="/reddit/ai2026/book-summary/"><span class="link-arrow">&#8594;</span> Book Summaries</a></li>
+      <li><a href="/reddit/ai2026/iot-scholarship/"><span class="link-arrow">&#8594;</span> IoT Scholarship</a></li>
+      <li><a href="/reddit/ai2026/topics/"><span class="link-arrow">&#8594;</span> All Topics</a></li>
     </ul>
   </div>
 

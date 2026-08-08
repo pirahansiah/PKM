@@ -32,7 +32,7 @@ markmap: |
 
 # Pirahansiah.com — Complete Link Index
 
-All content files are under `contents/`. Links below reference local files only.
+All content files are under `reddit/`. Links below reference local files only.
 
 ---
 
@@ -40,10 +40,10 @@ All content files are under `contents/`. Links below reference local files only.
 
 | File | Path | Description |
 |------|------|-------------|
-| Home | [/contents/public/](/contents/public/) | Main landing page |
-| Coaching | [/contents/public/coaching/](/contents/public/coaching/) | CV coaching and teaching roadmap |
-| Resources | [/contents/public/Resources/](/contents/public/Resources/) | Patents, books, papers, projects |
-| Links | [/contents/public/links/](/contents/public/links/) | Curated links and tools |
+| Home | [/reddit/public/](/reddit/public/) | Main landing page |
+| Coaching | [/reddit/public/coaching/](/reddit/public/coaching/) | CV coaching and teaching roadmap |
+| Resources | [/reddit/public/Resources/](/reddit/public/Resources/) | Patents, books, papers, projects |
+| Links | [/reddit/public/links/](/reddit/public/links/) | Curated links and tools |
 
 ---
 
@@ -51,9 +51,9 @@ All content files are under `contents/`. Links below reference local files only.
 
 | File | Path | Description |
 |------|------|-------------|
-| 3D Vision | [/contents/public/cv/3d/](/contents/public/cv/3d/) | Point clouds, depth sensing, multi-camera sync |
-| Optical Flow | [/contents/public/cv/optical-flow/](/contents/public/cv/optical-flow/) | Motion estimation challenges and solutions |
-| Multi-Camera | [/contents/public/cv/multi-camera-systems/](/contents/public/cv/multi-camera-systems/) | Scaling to 100+ cameras |
+| 3D Vision | [/reddit/public/cv/3d/](/reddit/public/cv/3d/) | Point clouds, depth sensing, multi-camera sync |
+| Optical Flow | [/reddit/public/cv/optical-flow/](/reddit/public/cv/optical-flow/) | Motion estimation challenges and solutions |
+| Multi-Camera | [/reddit/public/cv/multi-camera-systems/](/reddit/public/cv/multi-camera-systems/) | Scaling to 100+ cameras |
 
 ---
 
@@ -61,10 +61,10 @@ All content files are under `contents/`. Links below reference local files only.
 
 | File | Path | Description |
 |------|------|-------------|
-| Advanced LLM Concepts | [/contents/public/ai-llm/advanced-llm-concepts/](/contents/public/ai-llm/advanced-llm-concepts/) | RAG, embeddings, multimodal |
-| Orchestrating Agents | [/contents/public/ai-llm/orchestrating-agents/](/contents/public/ai-llm/orchestrating-agents/) | Multi-agent systems |
-| Blog | [/contents/public/ai-llm/blog/](/contents/public/ai-llm/blog/) | RAG vs CAG, multi-agent architectures |
-| Avatar Generator | [/contents/public/ai-llm/avatar-generator/](/contents/public/ai-llm/avatar-generator/) | Ollama + Wav2Lip tutorial |
+| Advanced LLM Concepts | [/reddit/public/ai-llm/advanced-llm-concepts/](/reddit/public/ai-llm/advanced-llm-concepts/) | RAG, embeddings, multimodal |
+| Orchestrating Agents | [/reddit/public/ai-llm/orchestrating-agents/](/reddit/public/ai-llm/orchestrating-agents/) | Multi-agent systems |
+| Blog | [/reddit/public/ai-llm/blog/](/reddit/public/ai-llm/blog/) | RAG vs CAG, multi-agent architectures |
+| Avatar Generator | [/reddit/public/ai-llm/avatar-generator/](/reddit/public/ai-llm/avatar-generator/) | Ollama + Wav2Lip tutorial |
 
 ---
 
@@ -72,10 +72,10 @@ All content files are under `contents/`. Links below reference local files only.
 
 | File | Path | Description |
 |------|------|-------------|
-| Numba JIT | [/contents/public/cuda-gpu/numba-jit/](/contents/public/cuda-gpu/numba-jit/) | Python performance with @jit |
-| PyCUDA Kernels | [/contents/public/cuda-gpu/pycuda-kernels/](/contents/public/cuda-gpu/pycuda-kernels/) | CUDA C kernels from Python |
-| VS Code CUDA | [/contents/public/cuda-gpu/vscode-cuda-windows/](/contents/public/cuda-gpu/vscode-cuda-windows/) | Dev environment on Windows |
-| MLX, CoreML & Metal | [/contents/public/cuda-gpu/mlx-coreml-metal/](/contents/public/cuda-gpu/mlx-coreml-metal/) | Apple Silicon ML |
+| Numba JIT | [/reddit/public/cuda-gpu/numba-jit/](/reddit/public/cuda-gpu/numba-jit/) | Python performance with @jit |
+| PyCUDA Kernels | [/reddit/public/cuda-gpu/pycuda-kernels/](/reddit/public/cuda-gpu/pycuda-kernels/) | CUDA C kernels from Python |
+| VS Code CUDA | [/reddit/public/cuda-gpu/vscode-cuda-windows/](/reddit/public/cuda-gpu/vscode-cuda-windows/) | Dev environment on Windows |
+| MLX, CoreML & Metal | [/reddit/public/cuda-gpu/mlx-coreml-metal/](/reddit/public/cuda-gpu/mlx-coreml-metal/) | Apple Silicon ML |
 
 ---
 
@@ -83,10 +83,10 @@ All content files are under `contents/`. Links below reference local files only.
 
 | File | Path | Description |
 |------|------|-------------|
-| C++ Reference | [/contents/public/CPP/](/contents/public/CPP/) | Memory, STL, debugging |
-| Python Config | [/contents/public/Python/](/contents/public/Python/) | Config management, pybind11, Cython |
-| Developer Tools | [/contents/public/setup/](/contents/public/setup/) | Docker, GitHub, CLI tools |
-| Shell & Vim | [/contents/public/shell-vim-quickref/](/contents/public/shell-vim-quickref/) | Terminal essentials |
+| C++ Reference | [/reddit/public/CPP/](/reddit/public/CPP/) | Memory, STL, debugging |
+| Python Config | [/reddit/public/Python/](/reddit/public/Python/) | Config management, pybind11, Cython |
+| Developer Tools | [/reddit/public/setup/](/reddit/public/setup/) | Docker, GitHub, CLI tools |
+| Shell & Vim | [/reddit/public/shell-vim-quickref/](/reddit/public/shell-vim-quickref/) | Terminal essentials |
 
 ---
 
@@ -94,72 +94,72 @@ All content files are under `contents/`. Links below reference local files only.
 
 | File | Path | Description |
 |------|------|-------------|
-| Optimization | [/contents/public/optimization/](/contents/public/optimization/) | Quantization, pruning, frameworks |
-| Prompts | [/contents/public/prompts/](/contents/public/prompts/) | LLM prompt patterns |
-| SEO | [/contents/public/SEO/](/contents/public/SEO/) | SEO for LLM-powered search |
-| Startup | [/contents/public/StartUp/](/contents/public/StartUp/) | Edge AI business, fundraising |
-| LinkedIn Posts | [/contents/public/linkedin-top-posts/](/contents/public/linkedin-top-posts/) | Top 2024 posts |
+| Optimization | [/reddit/public/optimization/](/reddit/public/optimization/) | Quantization, pruning, frameworks |
+| Prompts | [/reddit/public/prompts/](/reddit/public/prompts/) | LLM prompt patterns |
+| SEO | [/reddit/public/SEO/](/reddit/public/SEO/) | SEO for LLM-powered search |
+| Startup | [/reddit/public/StartUp/](/reddit/public/StartUp/) | Edge AI business, fundraising |
+| LinkedIn Posts | [/reddit/public/linkedin-top-posts/](/reddit/public/linkedin-top-posts/) | Top 2024 posts |
 
 ---
 
 ## Publications
 
-All publication files are under `contents/publications/`.
+All publication files are under `reddit/publications/`.
 
 | Category | Path |
 |----------|------|
-| Patents (3) | [/contents/publications/Patents/](/contents/publications/Patents/) |
-| Papers (11) | [/contents/publications/Papers/](/contents/publications/Papers/) |
-| Journals (6) | [/contents/publications/Journals/](/contents/publications/Journals/) |
-| Books (2) | [/contents/publications/Books/](/contents/publications/Books/) |
-| Keynotes | [/contents/publications/Keynotes/](/contents/publications/Keynotes/) |
-| CV | [/contents/publications/CV/](/contents/publications/CV/) |
+| Patents (3) | [/reddit/publications/Patents/](/reddit/publications/Patents/) |
+| Papers (11) | [/reddit/publications/Papers/](/reddit/publications/Papers/) |
+| Journals (6) | [/reddit/publications/Journals/](/reddit/publications/Journals/) |
+| Books (2) | [/reddit/publications/Books/](/reddit/publications/Books/) |
+| Keynotes | [/reddit/publications/Keynotes/](/reddit/publications/Keynotes/) |
+| CV | [/reddit/publications/CV/](/reddit/publications/CV/) |
 
 ---
 
 ## AI 2026 — Courses & Workshops
 
-All course and workshop content is under `contents/ai2026/`.
+All course and workshop content is under `reddit/ai2026/`.
 
 ### Courses
 
 | File | Path | Description |
 |------|------|-------------|
-| ML Specialization | [/contents/ai2026/machine-learning-specialization/](/contents/ai2026/machine-learning-specialization/) | Coursera ML (2026) |
-| Full Stack DL | [/contents/ai2026/full-stack-deep-learning/](/contents/ai2026/full-stack-deep-learning/) | FSDL 2021 notes |
-| FSDL 2022 | [/contents/ai2026/fsdl-2022/](/contents/ai2026/fsdl-2022/) | Continual learning, data mgmt |
-| MLOps | [/contents/ai2026/mlops/](/contents/ai2026/mlops/) | ML production pipeline |
-| ROS | [/contents/ai2026/ros/](/contents/ai2026/ros/) | Robot Operating System |
-| Parallel Programming | [/contents/ai2026/parallel-programming/](/contents/ai2026/parallel-programming/) | Python parallel CV |
-| Modern C++ | [/contents/ai2026/modern-cpp/](/contents/ai2026/modern-cpp/) | C++29 for image processing |
-| Cloud-Native | [/contents/ai2026/cloud-native/](/contents/ai2026/cloud-native/) | Docker & Kubernetes |
-| IoT Scholarship | [/contents/ai2026/iot-scholarship/](/contents/ai2026/iot-scholarship/) | OpenVINO edge AI |
-| TF Deployment | [/contents/ai2026/tensorflow-deployment/](/contents/ai2026/tensorflow-deployment/) | TF.js, Lite, deployment |
+| ML Specialization | [/reddit/ai2026/machine-learning-specialization/](/reddit/ai2026/machine-learning-specialization/) | Coursera ML (2026) |
+| Full Stack DL | [/reddit/ai2026/full-stack-deep-learning/](/reddit/ai2026/full-stack-deep-learning/) | FSDL 2021 notes |
+| FSDL 2022 | [/reddit/ai2026/fsdl-2022/](/reddit/ai2026/fsdl-2022/) | Continual learning, data mgmt |
+| MLOps | [/reddit/ai2026/mlops/](/reddit/ai2026/mlops/) | ML production pipeline |
+| ROS | [/reddit/ai2026/ros/](/reddit/ai2026/ros/) | Robot Operating System |
+| Parallel Programming | [/reddit/ai2026/parallel-programming/](/reddit/ai2026/parallel-programming/) | Python parallel CV |
+| Modern C++ | [/reddit/ai2026/modern-cpp/](/reddit/ai2026/modern-cpp/) | C++29 for image processing |
+| Cloud-Native | [/reddit/ai2026/cloud-native/](/reddit/ai2026/cloud-native/) | Docker & Kubernetes |
+| IoT Scholarship | [/reddit/ai2026/iot-scholarship/](/reddit/ai2026/iot-scholarship/) | OpenVINO edge AI |
+| TF Deployment | [/reddit/ai2026/tensorflow-deployment/](/reddit/ai2026/tensorflow-deployment/) | TF.js, Lite, deployment |
 
 ### Workshops
 
 | File | Path | Description |
 |------|------|-------------|
-| RISC-V | [/contents/ai2026/risc-v/](/contents/ai2026/risc-v/) | Open-source processor |
-| Edge AI Summit | [/contents/ai2026/edge-ai-summit/](/contents/ai2026/edge-ai-summit/) | Edge AI conference 2026 |
-| Embedded IoT | [/contents/ai2026/embedded-iot/](/contents/ai2026/embedded-iot/) | Embedded systems |
-| Tesla AI | [/contents/ai2026/tesla/](/contents/ai2026/tesla/) | Autonomous driving |
-| AI Hardware | [/contents/ai2026/ai-hardware/](/contents/ai2026/ai-hardware/) | Accelerators & NPUs |
-| OpenVINO | [/contents/ai2026/openvino/](/contents/ai2026/openvino/) | Intel inference |
-| Metaverse | [/contents/ai2026/metaverse/](/contents/ai2026/metaverse/) | XR computing |
+| RISC-V | [/reddit/ai2026/risc-v/](/reddit/ai2026/risc-v/) | Open-source processor |
+| Edge AI Summit | [/reddit/ai2026/edge-ai-summit/](/reddit/ai2026/edge-ai-summit/) | Edge AI conference 2026 |
+| Embedded IoT | [/reddit/ai2026/embedded-iot/](/reddit/ai2026/embedded-iot/) | Embedded systems |
+| Tesla AI | [/reddit/ai2026/tesla/](/reddit/ai2026/tesla/) | Autonomous driving |
+| AI Hardware | [/reddit/ai2026/ai-hardware/](/reddit/ai2026/ai-hardware/) | Accelerators & NPUs |
+| OpenVINO | [/reddit/ai2026/openvino/](/reddit/ai2026/openvino/) | Intel inference |
+| Metaverse | [/reddit/ai2026/metaverse/](/reddit/ai2026/metaverse/) | XR computing |
 
 ### Topics
 
 | File | Path | Description |
 |------|------|-------------|
-| Book Summaries | [/contents/ai2026/book-summary/](/contents/ai2026/book-summary/) | Knowledge management |
-| Topics Index | [/contents/ai2026/topics/](/contents/ai2026/topics/) | All topics & projects |
+| Book Summaries | [/reddit/ai2026/book-summary/](/reddit/ai2026/book-summary/) | Knowledge management |
+| Topics Index | [/reddit/ai2026/topics/](/reddit/ai2026/topics/) | All topics & projects |
 
 ---
 
 ## Images
 
-All images are under `contents/public/images/`.
+All images are under `reddit/public/images/`.
 
 ---
 
@@ -187,6 +187,6 @@ All images are under `contents/public/images/`.
 
 ## Validation Notes
 
-**Internal links:** All paths verified against actual files in `contents/`.
+**Internal links:** All paths verified against actual files in `reddit/`.
 **External links:** All point to live, publicly accessible resources.
 **Versioning:** All references updated to June 2026+ standards (Python 3.14, C++29, OpenCV 5, etc.).

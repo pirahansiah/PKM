@@ -26,16 +26,16 @@ hashtags: "#patent #faceaugmentation #gan #dataaugmentation"
 [spotify](https://spotifyanchor-web.app.link/e/XZpmcmHCFNb)
 
 <audio controls>
-  <source src="/contents/publications/Patents/A_METHOD_FOR_AUGMENTING_A_PLURALITY_OF_FACE_IMAGES_WO2021060971A1.mp3" type="audio/mpeg">
+  <source src="/reddit/publications/Patents/A_METHOD_FOR_AUGMENTING_A_PLURALITY_OF_FACE_IMAGES_WO2021060971A1.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 [PDF Download](https://patentimages.storage.googleapis.com/b8/d9/7f/ea8a5b789e1dad/WO2021060971A1.pdf )
 
 {% if page.extname == "face-image-augmentation.md" %}
-  ![A METHOD FOR AUGMENTING A PLURALITY OF FACE IMAGES WO2021060971A1](/contents/publications/Patents/face-image-augmentation.png)
+  ![A METHOD FOR AUGMENTING A PLURALITY OF FACE IMAGES WO2021060971A1](/reddit/publications/Patents/face-image-augmentation.png)
 {% else %}
-  <img src="/contents/publications/Patents/face-image-augmentation.png" alt="A METHOD FOR AUGMENTING A PLURALITY OF FACE IMAGES WO2021060971A1" style="max-width: 100%; height: auto;">
+  <img src="/reddit/publications/Patents/face-image-augmentation.png" alt="A METHOD FOR AUGMENTING A PLURALITY OF FACE IMAGES WO2021060971A1" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

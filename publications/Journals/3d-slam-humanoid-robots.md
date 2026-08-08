@@ -26,7 +26,7 @@ hashtags: "#slam #humanoidrobots #3dmapping #robotics"
 
 3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages
 
-https://www.pirahansiah.com/contents/publications/Journals/3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages/
+https://www.pirahansiah.com/reddit/publications/Journals/3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages/
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/3D-SLAM-Simultaneous-Localization-And-Mapping-Trends-And-Humanoid-Robot-Linkages-e2prg07)
 
@@ -34,9 +34,9 @@ https://www.pirahansiah.com/contents/publications/Journals/3D_SLAM_Simultaneous_
 
 
 {% if page.extname == "3d-slam-humanoid-robots.md" %}
-  ![3D SLAM Simultaneous Localization And Mapping Trends And Humanoid Robot Linkages](/contents/publications/Journals/3d-slam-humanoid-robots.png)
+  ![3D SLAM Simultaneous Localization And Mapping Trends And Humanoid Robot Linkages](/reddit/publications/Journals/3d-slam-humanoid-robots.png)
 {% else %}
-  <img src="/contents/publications/Journals/3d-slam-humanoid-robots.png" alt="Simultaneous Localization And Mapping Trends And Humanoid Robot Linkages" style="max-width: 100%; height: auto;">
+  <img src="/reddit/publications/Journals/3d-slam-humanoid-robots.png" alt="Simultaneous Localization And Mapping Trends And Humanoid Robot Linkages" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

@@ -25,7 +25,7 @@ hashtags: "#3dmapping #objectdetection #cv #robotics"
 My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects
 
 
-https://www.pirahansiah.com/contents/publications/Papers/My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects
+https://www.pirahansiah.com/reddit/publications/Papers/My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects
 
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/My-Paper-2D-versus-3D-Map-for-Environment-Movement-Objects-e2pruii )
@@ -34,9 +34,9 @@ https://www.pirahansiah.com/contents/publications/Papers/My_Conference_Paper_2D_
 
 
 {% if page.extname == "2d-3d-map-movement.md" %}
-  ![My Conference Paper  My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects ](/contents/publications/Papers/2d-3d-map-movement.png)
+  ![My Conference Paper  My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects ](/reddit/publications/Papers/2d-3d-map-movement.png)
 {% else %}
-  <img src="/contents/publications/Papers/2d-3d-map-movement.png" alt="My Conference Paper: My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects "  style="max-width: 100%; height: auto;">
+  <img src="/reddit/publications/Papers/2d-3d-map-movement.png" alt="My Conference Paper: My_Conference_Paper_2D_versus_3D_Map_for_Environment_Movement_Objects "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

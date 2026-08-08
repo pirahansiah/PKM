@@ -29,7 +29,7 @@ hashtags: "#patent #facialrecognition #advertising #deeplearning"
 
 
 <audio controls>
-  <source src="/contents/publications/Patents/SYSTEM_AND_METHOD_FOR_PROVIDING_ADVERTISEMENT_CONTENTS_BASED_ON_FACIAL_ANALYSIS_WO2020141969A2.mp3" type="audio/mpeg">
+  <source src="/reddit/publications/Patents/SYSTEM_AND_METHOD_FOR_PROVIDING_ADVERTISEMENT_CONTENTS_BASED_ON_FACIAL_ANALYSIS_WO2020141969A2.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -37,9 +37,9 @@ hashtags: "#patent #facialrecognition #advertising #deeplearning"
 
 
 {% if page.extname == "facial-analysis-advertisement.md" %}
-  ![SYSTEM AND METHOD FOR PROVIDING ADVERTISEMENT CONTENTS BASED ON FACIAL ANALYSIS WO2020141969A2](/contents/publications/Patents/facial-analysis-advertisement.png)
+  ![SYSTEM AND METHOD FOR PROVIDING ADVERTISEMENT CONTENTS BASED ON FACIAL ANALYSIS WO2020141969A2](/reddit/publications/Patents/facial-analysis-advertisement.png)
 {% else %}
-  <img src="/contents/publications/Patents/facial-analysis-advertisement.png" alt="SYSTEM AND METHOD FOR PROVIDING ADVERTISEMENT CONTENTS BASED ON FACIAL ANALYSIS WO2020141969A2" style="max-width: 100%; height: auto;">
+  <img src="/reddit/publications/Patents/facial-analysis-advertisement.png" alt="SYSTEM AND METHOD FOR PROVIDING ADVERTISEMENT CONTENTS BASED ON FACIAL ANALYSIS WO2020141969A2" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

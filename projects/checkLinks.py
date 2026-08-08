@@ -213,7 +213,7 @@ def main():
                     all_similar.append({"url": href, "text": text, "source": src})
 
     print(f"\n--- Local Markdown File Check ---")
-    contents_dir = "/Volumes/4tb/myWebsite/contents"
+    contents_dir = "/Volumes/4tb/2026-07/myWebsite/reddit"
     broken_local, md_files = scan_markdown_files(contents_dir)
     print(f"  Scanned {len(md_files)} markdown/HTML files")
 

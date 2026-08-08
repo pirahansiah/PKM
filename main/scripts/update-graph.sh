@@ -1,6 +1,6 @@
 #!/bin/bash
 # Regenerate graph.json from content files
-# Run after adding/modifying pages in contents/
+# Run after adding/modifying pages in reddit/
 cd "$(dirname "$0")/.."
 python3 scripts/generate-graph.py
 echo ""

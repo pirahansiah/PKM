@@ -23,7 +23,7 @@ As an AI and computer vision expert with over a decade of experience collaborati
 
 # Me
 - I have a total of 21 publications, including 3 patents, 2 book chapters, 6 journal articles, and 10 conference papers. My Google Scholar profile indicates 137 citations, an h-index of 7, and an i10-index of 5.
-- [Dr. Farshid Pirahansiah CV](/contents/publications/CV)
+- [Dr. Farshid Pirahansiah CV](/reddit/publications/CV)
 - [My podcast](https://podcasters.spotify.com/pod/show/pirahansiah)
 
 ## My Academic Contributions and Publications
@@ -38,31 +38,31 @@ As an AI and computer vision expert with over a decade of experience collaborati
 - [ScienceOpen Collection](https://www.scienceopen.com/collection/da288fa0-3d52-46dc-9e07-73dfc597dfb8)   
 ## My Publications ( Total 21 )   
 ### My Patents (3)   
-  - [My Patents: A METHOD FOR AUGMENTING A PLURALITY OF FACE IMAGES WO2021060971A1](/contents/publications/Patents/face-image-augmentation)
-  - [My Patents: SYSTEM AND METHOD FOR PROVIDING ADVERTISEMENT CONTENTS BASED ON FACIAL ANALYSIS WO2020141969A2](/contents/publications/Patents/facial-analysis-advertisement)
-  - [My Patents: A METHOD FOR DETECTING A MOVING VEHICLE WO2021107761A1](/contents/publications/Patents/vehicle-detection)    
+  - [My Patents: A METHOD FOR AUGMENTING A PLURALITY OF FACE IMAGES WO2021060971A1](/reddit/publications/Patents/face-image-augmentation)
+  - [My Patents: SYSTEM AND METHOD FOR PROVIDING ADVERTISEMENT CONTENTS BASED ON FACIAL ANALYSIS WO2020141969A2](/reddit/publications/Patents/facial-analysis-advertisement)
+  - [My Patents: A METHOD FOR DETECTING A MOVING VEHICLE WO2021107761A1](/reddit/publications/Patents/vehicle-detection)    
 ### My Books (2)
-  - [My Book: My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization  in the Book entitled “Control Engineering in Robotics and Industrial Automation" published in Springer](/contents/publications/Books/camera-calibration-video-stabilization)
-  - [My Book: Computational Intelligence: From Theory to Application explores augmented optical flow methods for video stabilization](/contents/publications/Books/computational-intelligence-optical-flow)     
+  - [My Book: My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization  in the Book entitled “Control Engineering in Robotics and Industrial Automation" published in Springer](/reddit/publications/Books/camera-calibration-video-stabilization)
+  - [My Book: Computational Intelligence: From Theory to Application explores augmented optical flow methods for video stabilization](/reddit/publications/Books/computational-intelligence-optical-flow)     
 ### My Journals (6)    
-  - [My Journal Publications: Adaptive Image Thresholding Based on the Peak Signal-to-noise Ratio (PSNR) ](/contents/publications/Journals/adaptive-thresholding-psnr)
-  - [My Journal Publications: CHARACTER AND OBJECT RECOGNITION BASED ON GLOBAL FEATURE EXTRACTION](/contents/publications/Journals/character-object-recognition)
-  - [My Journal Publications: GSFT-PSNR Global Single Fuzzy Threshold](/contents/publications/Journals/gsft-psnr-fuzzy-threshold)
-  - [My Journal Publications: PEAK SIGNAL-TO-NOISE RATIO BASED ON THRESHOLD METHOD FOR IMAGE SEGMENTATION](/contents/publications/Journals/psnr-threshold-segmentation)
-  - [My Journal Publications: 3D SLAM Simultaneous Localization And Mapping Trends And Humanoid Robot Linkages](/contents/publications/Journals/3d-slam-humanoid-robots)
-  - [My Journal Publications: USING AN ANT COLONY OPTIMIZATION ALGORITHM](/contents/publications/Journals/ant-colony-optimization)    
+  - [My Journal Publications: Adaptive Image Thresholding Based on the Peak Signal-to-noise Ratio (PSNR) ](/reddit/publications/Journals/adaptive-thresholding-psnr)
+  - [My Journal Publications: CHARACTER AND OBJECT RECOGNITION BASED ON GLOBAL FEATURE EXTRACTION](/reddit/publications/Journals/character-object-recognition)
+  - [My Journal Publications: GSFT-PSNR Global Single Fuzzy Threshold](/reddit/publications/Journals/gsft-psnr-fuzzy-threshold)
+  - [My Journal Publications: PEAK SIGNAL-TO-NOISE RATIO BASED ON THRESHOLD METHOD FOR IMAGE SEGMENTATION](/reddit/publications/Journals/psnr-threshold-segmentation)
+  - [My Journal Publications: 3D SLAM Simultaneous Localization And Mapping Trends And Humanoid Robot Linkages](/reddit/publications/Journals/3d-slam-humanoid-robots)
+  - [My Journal Publications: USING AN ANT COLONY OPTIMIZATION ALGORITHM](/reddit/publications/Journals/ant-colony-optimization)    
 ### My Conference Papers (10)    
-  - [My Conference Papers: 2D versus 3D Map for Environment Movement Objects  ](/contents/publications/Papers/2d-3d-map-movement)
-  - [My Conference Papers: Adaptive Image Segmentation Based on PSNR for License Plate Recognition ](/contents/publications/Papers/adaptive-image-segmentation-psnr)
-  - [My Conference Papers: An evaluation of classification techniques using enhanced Geometrical Topological Feature Analysis ](/contents/publications/Papers/classification-geometrical-topological)
-  - [My Conference Papers: Camera Calibration for Multi-Modal Robot Vision ](/contents/publications/Papers/camera-calibration-multi-modal)
-  - [My Conference Papers: Character Recognition Based on Global Feature ](/contents/publications/Papers/character-recognition-global-feature)
-  - [My Conference Papers: Comparison single thresholding method for handwritten images segmentation ](/contents/publications/Papers/comparison-thresholding-handwritten)
-  - [My Conference Papers: License Plate Recognition with Multi-Threshold Based on Entropy ](/contents/publications/Papers/license-plate-recognition-entropy)
-  - [My Conference Papers: Multi-threshold Approach for License Plate Recognition System ](/contents/publications/Papers/multi-threshold-license-plate)
-  - [My Conference Papers: Pattern Image Significance for Camera Calibration](/contents/publications/Papers/pattern-image-calibration)
-  - [My Conference Papers: TafreshGrid Grid computing in Tafresh university ](/contents/publications/Papers/tafreshgrid-grid-computing)
-  <!-- - [My Conference Papers: Computer Vision meet LLM ](/contents/publications/Papers/ ) -->
+  - [My Conference Papers: 2D versus 3D Map for Environment Movement Objects  ](/reddit/publications/Papers/2d-3d-map-movement)
+  - [My Conference Papers: Adaptive Image Segmentation Based on PSNR for License Plate Recognition ](/reddit/publications/Papers/adaptive-image-segmentation-psnr)
+  - [My Conference Papers: An evaluation of classification techniques using enhanced Geometrical Topological Feature Analysis ](/reddit/publications/Papers/classification-geometrical-topological)
+  - [My Conference Papers: Camera Calibration for Multi-Modal Robot Vision ](/reddit/publications/Papers/camera-calibration-multi-modal)
+  - [My Conference Papers: Character Recognition Based on Global Feature ](/reddit/publications/Papers/character-recognition-global-feature)
+  - [My Conference Papers: Comparison single thresholding method for handwritten images segmentation ](/reddit/publications/Papers/comparison-thresholding-handwritten)
+  - [My Conference Papers: License Plate Recognition with Multi-Threshold Based on Entropy ](/reddit/publications/Papers/license-plate-recognition-entropy)
+  - [My Conference Papers: Multi-threshold Approach for License Plate Recognition System ](/reddit/publications/Papers/multi-threshold-license-plate)
+  - [My Conference Papers: Pattern Image Significance for Camera Calibration](/reddit/publications/Papers/pattern-image-calibration)
+  - [My Conference Papers: TafreshGrid Grid computing in Tafresh university ](/reddit/publications/Papers/tafreshgrid-grid-computing)
+  <!-- - [My Conference Papers: Computer Vision meet LLM ](/reddit/publications/Papers/ ) -->
 # Hardware I Used and Can Work With
 - **Axelera AI M2**
   - Axelera Metis M.2 on Raspberry Pi 5
@@ -109,9 +109,9 @@ As an AI and computer vision expert with over a decade of experience collaborati
 # Patent Summary
 
 {% if page.extname == "CV.md" %}
-  ![Dr. Farshid Pirahansiah 3 Patents - AI Innovations in Vehicle Detection, Facial Analysis, and Image Augmentation](/contents/publications/Patents/Dr._Farshid_Pirahansiah_3_Patents_-_AI_Innovations_in_Vehicle_Detection,_Facial_Analysis,_and_Image_Augmentation.png)
+  ![Dr. Farshid Pirahansiah 3 Patents - AI Innovations in Vehicle Detection, Facial Analysis, and Image Augmentation](/reddit/publications/Patents/Dr._Farshid_Pirahansiah_3_Patents_-_AI_Innovations_in_Vehicle_Detection,_Facial_Analysis,_and_Image_Augmentation.png)
 {% else %}
-  <img src="/contents/publications/Patents/Dr._Farshid_Pirahansiah_3_Patents_-_AI_Innovations_in_Vehicle_Detection,_Facial_Analysis,_and_Image_Augmentation.png" alt="Dr. Farshid Pirahansiah 3 Patents - AI Innovations in Vehicle Detection, Facial Analysis, and Image Augmentation" style="max-width: 100%; height: auto;">
+  <img src="/reddit/publications/Patents/Dr._Farshid_Pirahansiah_3_Patents_-_AI_Innovations_in_Vehicle_Detection,_Facial_Analysis,_and_Image_Augmentation.png" alt="Dr. Farshid Pirahansiah 3 Patents - AI Innovations in Vehicle Detection, Facial Analysis, and Image Augmentation" style="max-width: 100%; height: auto;">
 {% endif %}
 
 This collection of patents presents cutting-edge innovations in computer vision and facial analysis, enhancing applications in surveillance, advertising, and vehicle detection.

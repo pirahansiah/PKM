@@ -1,23 +1,23 @@
 #!/usr/bin/env python3
 """
 Auto-generate graph.json from Jekyll content files.
-Run this after adding/modifying pages in contents/.
+Run this after adding/modifying pages in reddit/.
 Output: assets/graph.json
 """
 import os, json, re
 from pathlib import Path
 from collections import defaultdict
 
-CONTENTS = Path("/Volumes/4tb/myWebsite/contents")
-OUTPUT = Path("/Volumes/4tb/myWebsite/assets/graph.json")
+CONTENTS = Path("/Volumes/4tb/2026-07/myWebsite/reddit")
+OUTPUT = Path("/Volumes/4tb/2026-07/myWebsite/assets/graph.json")
 
 HUBS = {
-    "Product": "/contents/public/product/",
-    "Research": "/contents/public/research/",
-    "Solutions": "/contents/public/solutions/",
-    "Content Hub": "/contents/public/",
-    "Wiki": "/contents/wiki/",
-    "Portfolio": "/contents/pkm/use-cases/",
+    "Product": "/reddit/public/product/",
+    "Research": "/reddit/public/research/",
+    "Solutions": "/reddit/public/solutions/",
+    "Content Hub": "/reddit/public/",
+    "Wiki": "/reddit/wiki/",
+    "Portfolio": "/reddit/pkm/use-cases/",
 }
 
 HUB_CATEGORIES = {
@@ -74,7 +74,7 @@ def detect_category(url):
 
 def make_id(url):
     """Create node ID from URL."""
-    slug = url.replace('/contents/', '').replace('/', '-').strip('-')
+    slug = url.replace('/reddit/', '').replace('/', '-').strip('-')
     return slug
 
 def main():
@@ -103,9 +103,9 @@ def main():
             continue
 
         rel = md_file.relative_to(CONTENTS)
-        url = "/contents/" + str(rel).replace('.md', '/')
+        url = "/reddit/" + str(rel).replace('.md', '/')
         if md_file.name == 'index.md':
-            url = "/contents/" + str(rel.parent) + "/"
+            url = "/reddit/" + str(rel.parent) + "/"
 
         text = md_file.read_text(errors='ignore')
         fm = parse_frontmatter(text)

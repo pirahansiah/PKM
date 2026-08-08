@@ -22,7 +22,7 @@ hashtags: "#conferencepaper #cv #imageprocessing"
 
 
 
-https://www.pirahansiah.com/contents/publications/Papers/
+https://www.pirahansiah.com/reddit/publications/Papers/
 
 
 [spotify]( )
@@ -31,9 +31,9 @@ https://www.pirahansiah.com/contents/publications/Papers/
 
 
 {% if page.extname == ".md" %}
-  ![My Conference Paper   ](/contents/publications/Papers/.png)
+  ![My Conference Paper   ](/reddit/publications/Papers/.png)
 {% else %}
-  <img src="/contents/publications/Papers/.png" alt="My Conference Paper:  "  style="max-width: 100%; height: auto;">
+  <img src="/reddit/publications/Papers/.png" alt="My Conference Paper:  "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

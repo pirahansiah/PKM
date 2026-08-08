@@ -24,7 +24,7 @@ markmap: |
 
 How PyCUDA Reads and Runs C Kernels
 
-<img src="/contents/public/images/CUDA_pycuda_kernel_explanation.png" alt="How PyCUDA Reads and Runs C Kernels" style="max-width: 100%; height: auto;">
+<img src="/reddit/public/images/CUDA_pycuda_kernel_explanation.png" alt="How PyCUDA Reads and Runs C Kernels" style="max-width: 100%; height: auto;">
 
 # How PyCUDA Reads and Runs C Kernels
 

@@ -24,7 +24,7 @@ markmap: |
   - Cost Optimization
 ---
 
-<img src="/contents/public/images/Advanced LLM Concepts.png" alt="Mind Map Advanced LLM Concepts" style="max-width: 100%; height: auto;">
+<img src="/reddit/public/images/Advanced LLM Concepts.png" alt="Mind Map Advanced LLM Concepts" style="max-width: 100%; height: auto;">
 
 # Mind Map: Orchestrating Agents & Advanced LLM Concepts
 

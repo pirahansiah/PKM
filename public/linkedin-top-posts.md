@@ -18,7 +18,7 @@ markmap: |
   - Edge deployment
 ---
 Over the past year, my standout posts have featured camera calibration, Python, C++, OpenCV, NVIDIA optimizations, advanced C++ techniques, AI integration in robotics with LLMs, computer vision, and machine learning. Explore more: 
-[Link](https://www.pirahansiah.com/contents/public/linkedin-top-posts/ )
+[Link](https://www.pirahansiah.com/reddit/public/linkedin-top-posts/ )
 
 # My Top LinkedIn Posts from the Past Year
 

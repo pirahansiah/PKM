@@ -22,7 +22,7 @@ markmap: |
 
 Accelerate Python with Numba’s `@jit(nopython=True)` 
 
-<img src="/contents/public/images/CUDA_numba_jit_tutorial.png" alt="Accelerate Python with Numba’s `@jit(nopython=True)` " style="max-width: 100%; height: auto;">
+<img src="/reddit/public/images/CUDA_numba_jit_tutorial.png" alt="Accelerate Python with Numba’s `@jit(nopython=True)` " style="max-width: 100%; height: auto;">
 
 # 🚀 Accelerate Python with Numba’s `@jit(nopython=True)` 🚀
 

@@ -2,7 +2,7 @@
 set -e
 
 REPO_ROOT="/Volumes/4tb/2026-6/pirahansiah.github.io"
-SUBMODULE="$REPO_ROOT/contents"
+SUBMODULE="$REPO_ROOT/reddit"
 
 echo "=== [1/6] Submodule: staging changes ==="
 cd "$SUBMODULE"
@@ -20,11 +20,11 @@ echo "  Submodule pushed"
 
 echo "=== [3/6] Main repo: staging submodule pointer ==="
 cd "$REPO_ROOT"
-git add contents
+git add reddit
 if git diff --cached --quiet; then
   echo "  Submodule pointer already up to date"
 else
-  git commit -m "update contents submodule"
+  git commit -m "update reddit submodule"
   echo "  Submodule pointer committed"
 fi
 

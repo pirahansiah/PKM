@@ -30,9 +30,9 @@ GSFT-PSNR_Global_Single_Fuzzy_Threshold
 
 
 {% if page.extname == "gsft-psnr-fuzzy-threshold.md" %}
-  ![Adaptive Image Thresholding Based on the Peak Signal-to-noise Ratio](/contents/publications/Journals/gsft-psnr-fuzzy-threshold.png)
+  ![Adaptive Image Thresholding Based on the Peak Signal-to-noise Ratio](/reddit/publications/Journals/gsft-psnr-fuzzy-threshold.png)
 {% else %}
-  <img src="/contents/publications/Journals/gsft-psnr-fuzzy-threshold.png" alt="GSFT-PSNR Global Single Fuzzy Threshold" style="max-width: 100%; height: auto;">
+  <img src="/reddit/publications/Journals/gsft-psnr-fuzzy-threshold.png" alt="GSFT-PSNR Global Single Fuzzy Threshold" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

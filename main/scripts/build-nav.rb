@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-# Parse Obsidian-style MOC (contents/site.md) → _data/nav.yml + assets/site-map.md
+# Parse Obsidian-style MOC (reddit/site.md) → _data/nav.yml + assets/site-map.md
 # Run before Jekyll build (see run.sh). No gem plugins required.
 
 require "cgi"
@@ -10,7 +10,7 @@ require "yaml"
 require "fileutils"
 
 ROOT = File.expand_path("../../..", __dir__)
-SITE_MD = File.join(ROOT, "contents", "main", "menus.md")
+SITE_MD = File.join(ROOT, "reddit", "main", "menus.md")
 OUT_YML = File.join(ROOT, "_data", "nav.yml")
 OUT_ASSET = File.join(ROOT, "assets", "site-map.md")
 OUT_GRAPH = File.join(ROOT, "assets", "graph.json")
@@ -30,13 +30,13 @@ def content_url_for_path(path)
   rel = path.sub("#{ROOT}/", "")
   rel = rel.sub(/\.md\z/i, "")
   url = "/#{rel}"
-  url.sub(%r{\A/[Cc]ontents}, "/contents")
+  url.sub(%r{\A/[Rr]eddit}, "/contents")
 end
 
 def wiki_index
   @wiki_index ||= begin
     idx = {}
-    Dir.glob(File.join(ROOT, "contents", "**", "*")).each do |path|
+    Dir.glob(File.join(ROOT, "reddit", "**", "*")).each do |path|
       next unless File.file?(path)
       next if File.basename(path) == "site.md"
 
@@ -45,7 +45,7 @@ def wiki_index
       raw = content_url_for_path(path)
       idx[base.downcase] = raw
       idx[rel.downcase] = raw
-      idx[rel.sub(/contents/i, "contents").downcase] = raw
+      idx[rel.sub(/reddit/i, "contents").downcase] = raw
       idx[rel.sub(/\.(md|html?)\z/i, "").downcase] = raw
     end
     idx
@@ -57,7 +57,7 @@ def normalize_url(url)
   return url if url.match?(%r{\A(https?:|#|mailto:)}i)
 
   url = url.strip
-  url = url.sub(%r{\A\./}, "/contents/")
+  url = url.sub(%r{\A\./}, "/reddit/")
   url = "/#{url}" unless url.start_with?("/")
   url = url.sub(/\.md\z/i, "") unless file_extension?(url)
 
@@ -136,7 +136,7 @@ def resolve_wiki_raw(ref)
   found = wiki_index[key] || wiki_index[ref.downcase]
   return canonical_asset_path(found) if found
 
-  canonical_asset_path(normalize_url("/contents/#{ref}"))
+  canonical_asset_path(normalize_url("/reddit/#{ref}"))
 end
 
 def attach_link_to_heading(ctx, title, url)
@@ -261,7 +261,7 @@ def raw_path_from_url(url)
     return nil
   end
 
-  return url if url.match?(%r{\A/contents/}i)
+  return url if url.match?(%r{\A/reddit/}i)
 
   nil
 end
@@ -311,7 +311,7 @@ def build_hashtag_graph
     nodes[id] ||= { "id" => id, "label" => label, "kind" => "tag" }
   end
 
-  Dir.glob(File.join(ROOT, "contents", "**", "*.md")).each do |path|
+  Dir.glob(File.join(ROOT, "reddit", "**", "*.md")).each do |path|
     next unless File.file?(path)
 
     body = File.read(path, encoding: "UTF-8").scrub("")
@@ -387,7 +387,7 @@ def build_graph(nav, hashtag_mode: false)
 
   walk_nav.call(nav, nil)
 
-  Dir.glob(File.join(ROOT, "contents", "**", "*.md")).each do |path|
+  Dir.glob(File.join(ROOT, "reddit", "**", "*.md")).each do |path|
     next unless File.file?(path)
 
     rel = path.sub("#{ROOT}/", "")

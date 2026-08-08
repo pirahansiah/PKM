@@ -23,7 +23,7 @@ hashtags: "#lpr #thresholding #imagesegmentation"
 Multi-threshold_Approach_for_License_Plate_Recognition_System
 
 
-https://www.pirahansiah.com/contents/publications/Papers/Multi-threshold_Approach_for_License_Plate_Recognition_System
+https://www.pirahansiah.com/reddit/publications/Papers/Multi-threshold_Approach_for_License_Plate_Recognition_System
 
 
 [spotify]( https://podcasters.spotify.com/pod/show/pirahansiah/episodes/My-Conference-Paper-Multi-threshold-Approach-for-License-Plate-Recognition-System-e2ps2fe)
@@ -32,9 +32,9 @@ https://www.pirahansiah.com/contents/publications/Papers/Multi-threshold_Approac
 
 
 {% if page.extname == "multi-threshold-license-plate.md" %}
-  ![My Conference Paper  Multi-threshold Approach for License Plate Recognition System ](/contents/publications/Papers/multi-threshold-license-plate.png)
+  ![My Conference Paper  Multi-threshold Approach for License Plate Recognition System ](/reddit/publications/Papers/multi-threshold-license-plate.png)
 {% else %}
-  <img src="/contents/publications/Papers/multi-threshold-license-plate.png" alt="My Conference Paper:  Multi-threshold Approach for License Plate Recognition System"  style="max-width: 100%; height: auto;">
+  <img src="/reddit/publications/Papers/multi-threshold-license-plate.png" alt="My Conference Paper:  Multi-threshold Approach for License Plate Recognition System"  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

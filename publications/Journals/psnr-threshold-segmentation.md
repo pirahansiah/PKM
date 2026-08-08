@@ -25,7 +25,7 @@ hashtags: "#psnr #thresholding #imagesegmentation #imageprocessing"
 
 PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION
 
-https://www.pirahansiah.com/contents/publications/Journals/PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION/
+https://www.pirahansiah.com/reddit/publications/Journals/PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION/
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/PEAK-SIGNAL-TO-NOISE-RATIO-BASED-ON-THRESHOLD-METHOD-FOR-IMAGE-SEGMENTATION-e2prep9)
 
@@ -33,9 +33,9 @@ https://www.pirahansiah.com/contents/publications/Journals/PEAK_SIGNAL-TO-NOISE_
 
 
 {% if page.extname == "psnr-threshold-segmentation.md" %}
-  ![PEAK SIGNAL-TO-NOISE RATIO BASED ON THRESHOLD METHOD FOR IMAGE SEGMENTATION](/contents/publications/Journals/psnr-threshold-segmentation.png)
+  ![PEAK SIGNAL-TO-NOISE RATIO BASED ON THRESHOLD METHOD FOR IMAGE SEGMENTATION](/reddit/publications/Journals/psnr-threshold-segmentation.png)
 {% else %}
-  <img src="/contents/publications/Journals/psnr-threshold-segmentation.png" alt="PEAK SIGNAL-TO-NOISE RATIO BASED ON THRESHOLD METHOD FOR IMAGE SEGMENTATION" style="max-width: 100%; height: auto;">
+  <img src="/reddit/publications/Journals/psnr-threshold-segmentation.png" alt="PEAK SIGNAL-TO-NOISE RATIO BASED ON THRESHOLD METHOD FOR IMAGE SEGMENTATION" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

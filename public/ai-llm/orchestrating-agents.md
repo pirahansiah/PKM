@@ -26,7 +26,7 @@ markmap: |
 
 
 
-<img src="/contents/public/images/Mind_Map_Orchestrating_Agents.png" alt="Mind Map Orchestrating Agents" style="max-width: 100%; height: auto;">
+<img src="/reddit/public/images/Mind_Map_Orchestrating_Agents.png" alt="Mind Map Orchestrating Agents" style="max-width: 100%; height: auto;">
 
 # Mind Map: Orchestrating Agents
 

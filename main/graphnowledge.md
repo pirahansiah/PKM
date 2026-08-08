@@ -31,8 +31,8 @@ fuzzy symantic search , hashtags, tags, keywords, content, points, naming, obsid
 
 | File | Purpose |
 |------|---------|
-| `contents/pkm/graph.html` | Standalone mini graph (6 nodes, hardcoded) |
-| `contents/pkm/graph.json` | PKM graph data |
+| `reddit/pkm/graph.html` | Standalone mini graph (6 nodes, hardcoded) |
+| `reddit/pkm/graph.json` | PKM graph data |
 
 ## Architecture
 

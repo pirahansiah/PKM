@@ -27,7 +27,7 @@ An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topologica
 
 
 
-https://www.pirahansiah.com/contents/publications/Papers/An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis
+https://www.pirahansiah.com/reddit/publications/Papers/An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis
 
 
 [spotify]( https://podcasters.spotify.com/pod/show/pirahansiah/episodes/My-Conference-Paper-An-evaluation-of-classification-techniques-using-enhanced-Geometrical-Topological-Feature-Analysis-e2ps17l)
@@ -36,9 +36,9 @@ https://www.pirahansiah.com/contents/publications/Papers/An_evaluation_of_classi
 
 
 {% if page.extname == "classification-geometrical-topological.md" %}
-  ![My Conference Paper  An evaluation of classification techniques using enhanced Geometrical Topological Feature Analysis ](/contents/publications/Papers/classification-geometrical-topological.png)
+  ![My Conference Paper  An evaluation of classification techniques using enhanced Geometrical Topological Feature Analysis ](/reddit/publications/Papers/classification-geometrical-topological.png)
 {% else %}
-  <img src="/contents/publications/Papers/classification-geometrical-topological.png" alt="My Conference Paper:  An evaluation of classification techniques using enhanced Geometrical Topological Feature Analysis"  style="max-width: 100%; height: auto;">
+  <img src="/reddit/publications/Papers/classification-geometrical-topological.png" alt="My Conference Paper:  An evaluation of classification techniques using enhanced Geometrical Topological Feature Analysis"  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

@@ -25,7 +25,7 @@ Character_Recognition_Based_on_Global_Feature
 
 
 
-https://www.pirahansiah.com/contents/publications/Papers/Character_Recognition_Based_on_Global_Feature
+https://www.pirahansiah.com/reddit/publications/Papers/Character_Recognition_Based_on_Global_Feature
 
 
 [spotify]( https://podcasters.spotify.com/pod/show/pirahansiah/episodes/My-Conference-Paper-Character-Recognition-Based-on-Global-Feature-e2ps1tp)
@@ -34,9 +34,9 @@ https://www.pirahansiah.com/contents/publications/Papers/Character_Recognition_B
 
 
 {% if page.extname == "character-recognition-global-feature.md" %}
-  ![My Conference Paper  Character Recognition Based on Global Feature ](/contents/publications/Papers/character-recognition-global-feature.png)
+  ![My Conference Paper  Character Recognition Based on Global Feature ](/reddit/publications/Papers/character-recognition-global-feature.png)
 {% else %}
-  <img src="/contents/publications/Papers/character-recognition-global-feature.png" alt="My Conference Paper: Character Recognition Based on Global Feature "  style="max-width: 100%; height: auto;">
+  <img src="/reddit/publications/Papers/character-recognition-global-feature.png" alt="My Conference Paper: Character Recognition Based on Global Feature "  style="max-width: 100%; height: auto;">
 {% endif %}
 
 

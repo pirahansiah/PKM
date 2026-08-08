@@ -31,7 +31,7 @@ date_modified: 2024-10-12
 
 
 <audio controls>
-  <source src="/contents/publications/Patents/A_METHOD_FOR_DETECTING_A_MOVING_VEHICLE_WO2021107761A1.mp3" type="audio/mpeg">
+  <source src="/reddit/publications/Patents/A_METHOD_FOR_DETECTING_A_MOVING_VEHICLE_WO2021107761A1.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -39,9 +39,9 @@ date_modified: 2024-10-12
 
 
 {% if page.extname == "vehicle-detection.md" %}
-  ![A METHOD FOR DETECTING A MOVING VEHICLE WO2021107761A1](/contents/publications/Patents/vehicle-detection.png)
+  ![A METHOD FOR DETECTING A MOVING VEHICLE WO2021107761A1](/reddit/publications/Patents/vehicle-detection.png)
 {% else %}
-  <img src="/contents/publications/Patents/vehicle-detection.png" alt="A METHOD FOR DETECTING A MOVING VEHICLE WO2021107761A1" style="max-width: 100%; height: auto;">
+  <img src="/reddit/publications/Patents/vehicle-detection.png" alt="A METHOD FOR DETECTING A MOVING VEHICLE WO2021107761A1" style="max-width: 100%; height: auto;">
 {% endif %}
 
 

@@ -159,8 +159,8 @@ markmap: |
 
 <div style="text-align:center; padding: 0 16px;">
   <a href="/" class="back-link">&#8592; Home</a>
-  <a href="/contents/public/research/" class="back-link">Research</a>
-  <a href="/contents/public/solutions/" class="back-link">Solutions</a>
+  <a href="/reddit/public/research/" class="back-link">Research</a>
+  <a href="/reddit/public/solutions/" class="back-link">Solutions</a>
 </div>
 
 <div class="sitemap-grid">
@@ -169,10 +169,10 @@ markmap: |
     <span class="section-icon">&#128065;</span>
     <div class="section-title">Computer Vision <span class="badge">Core</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/public/cv/3d/"><span class="link-arrow">&#8594;</span> 3D Vision & Multi-Camera</a></li>
-      <li><a href="/contents/public/cv/optical-flow/"><span class="link-arrow">&#8594;</span> Optical Flow</a></li>
-      <li><a href="/contents/public/cv/multi-camera-systems/"><span class="link-arrow">&#8594;</span> Multi-Camera Systems</a></li>
-      <li><a href="/contents/public/coaching/"><span class="link-arrow">&#8594;</span> CV Coaching Roadmap</a></li>
+      <li><a href="/reddit/public/cv/3d/"><span class="link-arrow">&#8594;</span> 3D Vision & Multi-Camera</a></li>
+      <li><a href="/reddit/public/cv/optical-flow/"><span class="link-arrow">&#8594;</span> Optical Flow</a></li>
+      <li><a href="/reddit/public/cv/multi-camera-systems/"><span class="link-arrow">&#8594;</span> Multi-Camera Systems</a></li>
+      <li><a href="/reddit/public/coaching/"><span class="link-arrow">&#8594;</span> CV Coaching Roadmap</a></li>
     </ul>
   </div>
 
@@ -180,10 +180,10 @@ markmap: |
     <span class="section-icon">&#129302;</span>
     <div class="section-title">AI & LLMs <span class="badge">New</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/public/ai-llm/advanced-llm-concepts/"><span class="link-arrow">&#8594;</span> Advanced LLM Concepts</a></li>
-      <li><a href="/contents/public/ai-llm/orchestrating-agents/"><span class="link-arrow">&#8594;</span> Orchestrating AI Agents</a></li>
-      <li><a href="/contents/public/ai-llm/blog/"><span class="link-arrow">&#8594;</span> AI Blog</a></li>
-      <li><a href="/contents/public/ai-llm/avatar-generator/"><span class="link-arrow">&#8594;</span> Avatar Generator</a></li>
+      <li><a href="/reddit/public/ai-llm/advanced-llm-concepts/"><span class="link-arrow">&#8594;</span> Advanced LLM Concepts</a></li>
+      <li><a href="/reddit/public/ai-llm/orchestrating-agents/"><span class="link-arrow">&#8594;</span> Orchestrating AI Agents</a></li>
+      <li><a href="/reddit/public/ai-llm/blog/"><span class="link-arrow">&#8594;</span> AI Blog</a></li>
+      <li><a href="/reddit/public/ai-llm/avatar-generator/"><span class="link-arrow">&#8594;</span> Avatar Generator</a></li>
     </ul>
   </div>
 
@@ -191,10 +191,10 @@ markmap: |
     <span class="section-icon">&#9889;</span>
     <div class="section-title">CUDA & GPU <span class="badge">Dev</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/public/cuda-gpu/numba-jit/"><span class="link-arrow">&#8594;</span> Numba JIT Tutorial</a></li>
-      <li><a href="/contents/public/cuda-gpu/pycuda-kernels/"><span class="link-arrow">&#8594;</span> PyCUDA Kernels</a></li>
-      <li><a href="/contents/public/cuda-gpu/vscode-cuda-windows/"><span class="link-arrow">&#8594;</span> CUDA in VS Code</a></li>
-      <li><a href="/contents/public/cuda-gpu/mlx-coreml-metal/"><span class="link-arrow">&#8594;</span> MLX, CoreML & Metal</a></li>
+      <li><a href="/reddit/public/cuda-gpu/numba-jit/"><span class="link-arrow">&#8594;</span> Numba JIT Tutorial</a></li>
+      <li><a href="/reddit/public/cuda-gpu/pycuda-kernels/"><span class="link-arrow">&#8594;</span> PyCUDA Kernels</a></li>
+      <li><a href="/reddit/public/cuda-gpu/vscode-cuda-windows/"><span class="link-arrow">&#8594;</span> CUDA in VS Code</a></li>
+      <li><a href="/reddit/public/cuda-gpu/mlx-coreml-metal/"><span class="link-arrow">&#8594;</span> MLX, CoreML & Metal</a></li>
     </ul>
   </div>
 
@@ -202,8 +202,8 @@ markmap: |
     <span class="section-icon">&#9881;</span>
     <div class="section-title">Optimization <span class="badge">ML</span></div>
     <ul class="sitemap-links">
-      <li><a href="/contents/public/Optimization/"><span class="link-arrow">&#8594;</span> CV/DL/ML Optimization</a></li>
-      <li><a href="/contents/public/Prompts/"><span class="link-arrow">&#8594;</span> Prompt Engineering</a></li>
+      <li><a href="/reddit/public/Optimization/"><span class="link-arrow">&#8594;</span> CV/DL/ML Optimization</a></li>
+      <li><a href="/reddit/public/Prompts/"><span class="link-arrow">&#8594;</span> Prompt Engineering</a></li>
     </ul>
   </div>
 
@@ -211,10 +211,10 @@ markmap: |
     <span class="section-icon">&#128187;</span>
     <div class="section-title">Programming</div>
     <ul class="sitemap-links">
-      <li><a href="/contents/public/CPP/"><span class="link-arrow">&#8594;</span> C++ Quick Reference</a></li>
-      <li><a href="/contents/public/Python/"><span class="link-arrow">&#8594;</span> Python Configuration</a></li>
-      <li><a href="/contents/public/setup/"><span class="link-arrow">&#8594;</span> Developer Tools</a></li>
-      <li><a href="/contents/public/shell-vim-quickref/"><span class="link-arrow">&#8594;</span> Shell & Vim</a></li>
+      <li><a href="/reddit/public/CPP/"><span class="link-arrow">&#8594;</span> C++ Quick Reference</a></li>
+      <li><a href="/reddit/public/Python/"><span class="link-arrow">&#8594;</span> Python Configuration</a></li>
+      <li><a href="/reddit/public/setup/"><span class="link-arrow">&#8594;</span> Developer Tools</a></li>
+      <li><a href="/reddit/public/shell-vim-quickref/"><span class="link-arrow">&#8594;</span> Shell & Vim</a></li>
     </ul>
   </div>
 

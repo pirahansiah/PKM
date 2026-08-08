@@ -31,9 +31,9 @@ Adaptive_Image_Thresholding_Based_on_the_Peak_Signal-to-noise_Ratio
 
 
 {% if page.extname == "adaptive-thresholding-psnr.md" %}
-  ![Adaptive Image Thresholding Based on the Peak Signal-to-noise Ratio](/contents/publications/Journals/adaptive-thresholding-psnr.png)
+  ![Adaptive Image Thresholding Based on the Peak Signal-to-noise Ratio](/reddit/publications/Journals/adaptive-thresholding-psnr.png)
 {% else %}
-  <img src="/contents/publications/Journals/adaptive-thresholding-psnr.png" alt="Adaptive Image Thresholding Based on the Peak Signal-to-noise Ratio" style="max-width: 100%; height: auto;">
+  <img src="/reddit/publications/Journals/adaptive-thresholding-psnr.png" alt="Adaptive Image Thresholding Based on the Peak Signal-to-noise Ratio" style="max-width: 100%; height: auto;">
 {% endif %}
 
 # Mind Map: Adaptive Image Thresholding Based on PSNR
