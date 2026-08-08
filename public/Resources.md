@@ -95,16 +95,16 @@ markmap: |
 
 ### Programming
 
-- [C++ Quick Reference](/reddit/public/CPP/)
-- [Python Config & Tips](/reddit/public/Python/)
+- [C++ Quick Reference](/reddit/public/cpp/)
+- [Python Config & Tips](/reddit/public/python/)
 - [Developer Tools](/reddit/public/setup/)
 - [Shell & Vim](/reddit/public/shell-vim-quickref/)
 
 ### Business & Career
 
-- [Startup Guide](/reddit/public/StartUp/)
+- [Startup Guide](/reddit/public/startup/)
 - [Coaching](/reddit/public/coaching/)
-- [SEO for LLMs](/reddit/public/SEO/)
+- [SEO for LLMs](/reddit/public/seo/)
 - [Top LinkedIn Posts](/reddit/public/linkedin-top-posts/)
 - [Curated Links](/reddit/public/links/)
 

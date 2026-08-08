@@ -18,7 +18,7 @@ markmap: |
   - New Roles
   - Essential Skills
 ---
-reference index: [[index books]]
+reference index: [[index]]
 tags: [ai-agents, multi-agent-systems, llm, deep-learning]
 hashtags: "#aiagents #multiagent #llm #deeplearning"
 

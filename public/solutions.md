@@ -201,9 +201,9 @@ markmap: |
     <span class="section-icon">&#128161;</span>
     <div class="section-title">Business <span class="badge">Growth</span></div>
     <ul class="sitemap-links">
-      <li><a href="/reddit/public/StartUp/"><span class="link-arrow">&#8594;</span> Startup Guide</a></li>
-      <li><a href="/reddit/public/SEO/"><span class="link-arrow">&#8594;</span> SEO for LLMs</a></li>
-      <li><a href="/reddit/public/Prompts/"><span class="link-arrow">&#8594;</span> Prompt Engineering</a></li>
+      <li><a href="/reddit/public/startup/"><span class="link-arrow">&#8594;</span> Startup Guide</a></li>
+      <li><a href="/reddit/public/seo/"><span class="link-arrow">&#8594;</span> SEO for LLMs</a></li>
+      <li><a href="/reddit/public/prompts/"><span class="link-arrow">&#8594;</span> Prompt Engineering</a></li>
     </ul>
   </div>
 

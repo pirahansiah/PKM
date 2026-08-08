@@ -213,11 +213,10 @@ markmap: |
     <span class="section-icon">&#128214;</span>
     <div class="section-title">Books & Chapters <span class="badge">7</span></div>
     <ul class="sitemap-links">
-      <li><a href="/reddit/publications/Books/computer-vision-meets-llm/"><span class="link-arrow">&#8594;</span> Computer Vision Meets LLM</a></li>
-      <li><a href="/reddit/publications/Books/opencv5-chapter0-introduction/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.0 Introduction</a></li>
-      <li><a href="/reddit/publications/Books/opencv5-chapter1-image-basics/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.1 Image Basics</a></li>
-      <li><a href="/reddit/publications/Books/opencv5-chapter2-feature-detection/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.2 Feature Detection</a></li>
-      <li><a href="/reddit/publications/Books/opencv5-chapter3-advanced/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.3 Advanced Topics</a></li>
+      <li><a href="/reddit/publications/Books/AI/computer-vision-meets-llm/"><span class="link-arrow">&#8594;</span> Computer Vision Meets LLM</a></li>
+            <li><a href="/reddit/publications/Books/AI/opencv5-chapter1-image-basics/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.1 Image Basics</a></li>
+      <li><a href="/reddit/publications/Books/AI/opencv5-chapter2-feature-detection/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.2 Feature Detection</a></li>
+      <li><a href="/reddit/publications/Books/AI/opencv5-chapter3-advanced/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.3 Advanced Topics</a></li>
       <li><a href="/reddit/publications/Books/computational-intelligence-optical-flow/"><span class="link-arrow">&#8594;</span> Optical Flow for Video Stabilization</a></li>
       <li><a href="/reddit/publications/Books/camera-calibration-video-stabilization/"><span class="link-arrow">&#8594;</span> Camera Calibration for Robotics</a></li>
     </ul>

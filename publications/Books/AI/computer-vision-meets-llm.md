@@ -27,7 +27,7 @@ hashtags: "#cv #llm #multimodal #rag"
 
 {{ site.author }}
 
-[https://www./reddit/publications/Books/AI/ComputerVisionMeetLLM](https://www./reddit/publications/Books/AI/ComputerVisionMeetLLM)
+[Computer Vision Meets LLM](/reddit/publications/Books/AI/computer-vision-meets-llm/)
 
 
 
@@ -76,7 +76,7 @@ OpenAI's GPT-4 Turbo with Vision capabilities offers powerful tools for processi
 
 #### **c. Token Cost Management**
 - **Tools**: Utilize AI Model Cost Calculators to estimate and manage token costs effectively.
-  - [AI Model Cost Calculator](https://www./reddit/public/projects/AI_Model_Cost_Calculator.html)
+  - [AI Model Cost Calculator](/reddit/public/projects/AI_Model_Cost_Calculator/)
 
 ### **4. Implementing Retrieval-Augmented Generation (RAG) Systems with Multimodal Data**
 
@@ -225,7 +225,7 @@ As AI continues to evolve, the symbiosis between visual and textual data process
 
 
 Computer  Vision Meet LLM: Multi agent swarm with RAG for image and videos
-https://www./reddit/public/projects/AI_Model_Cost_Calculator.html
+https://www.pirahansiah.com/reddit/public/projects/AI_Model_Cost_Calculator/
 https://community.openai.com/t/how-do-i-calculate-image-tokens-in-gpt4-vision/492318
 https://platform.openai.com/docs/guides/vision
 Multi agent swarm with RAG for image and videos

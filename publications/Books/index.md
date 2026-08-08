@@ -42,9 +42,6 @@ Optical flow methods for video stabilization in "Computational Intelligence: Fro
 ### [Computer Vision Meets LLM](/reddit/publications/Books/AI/computer-vision-meets-llm/)
 Exploring the intersection of computer vision and large language models.
 
-### [OpenCV 5 — Chapter 0: Introduction](/reddit/publications/Books/AI/opencv5-chapter0-introduction/)
-Introduction to computer vision and the OpenCV 5 library.
-
 ### [OpenCV 5 — Chapter 1: Image Basics](/reddit/publications/Books/AI/opencv5-chapter1-image-basics/)
 Image processing fundamentals: pixel operations, color spaces, histograms.
 

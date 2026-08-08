@@ -47,7 +47,7 @@ markmap: |
 - [Machine Learning Specialization](/reddit/ai2026/machine-learning-specialization/) — ML fundamentals
 - [Full Stack Deep Learning](/reddit/ai2026/full-stack-deep-learning/) — End-to-end DL
 - [Developer Tools & Setup](/reddit/public/setup/) — Docker, GitHub, CLI tools
-- [C++ Quick Reference](/reddit/public/CPP/) — Memory, STL, debugging
+- [C++ Quick Reference](/reddit/public/cpp/) — Memory, STL, debugging
 
 ## CUDA & GPU
 - [Numba JIT Tutorial](/reddit/public/cuda-gpu/numba-jit/) — Python performance
@@ -72,7 +72,7 @@ markmap: |
 - [IoT Scholarship](/reddit/ai2026/iot-scholarship/) — OpenVINO edge AI, object detection
 
 ## Career
-- [Startup Guide](/reddit/public/StartUp/) — Edge AI business, fundraising
+- [Startup Guide](/reddit/public/startup/) — Edge AI business, fundraising
 - [Portfolio & Publications](/reddit/public/Resources/) — Patents, books, papers
 - [Top LinkedIn Posts](/reddit/public/linkedin-top-posts/) — Camera calibration, C++
 

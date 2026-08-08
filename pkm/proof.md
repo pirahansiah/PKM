@@ -83,8 +83,8 @@ All content files are under `reddit/`. Links below reference local files only.
 
 | File | Path | Description |
 |------|------|-------------|
-| C++ Reference | [/reddit/public/CPP/](/reddit/public/CPP/) | Memory, STL, debugging |
-| Python Config | [/reddit/public/Python/](/reddit/public/Python/) | Config management, pybind11, Cython |
+| C++ Reference | [/reddit/public/cpp/](/reddit/public/cpp/) | Memory, STL, debugging |
+| Python Config | [/reddit/public/python/](/reddit/public/python/) | Config management, pybind11, Cython |
 | Developer Tools | [/reddit/public/setup/](/reddit/public/setup/) | Docker, GitHub, CLI tools |
 | Shell & Vim | [/reddit/public/shell-vim-quickref/](/reddit/public/shell-vim-quickref/) | Terminal essentials |
 
@@ -96,8 +96,8 @@ All content files are under `reddit/`. Links below reference local files only.
 |------|------|-------------|
 | Optimization | [/reddit/public/optimization/](/reddit/public/optimization/) | Quantization, pruning, frameworks |
 | Prompts | [/reddit/public/prompts/](/reddit/public/prompts/) | LLM prompt patterns |
-| SEO | [/reddit/public/SEO/](/reddit/public/SEO/) | SEO for LLM-powered search |
-| Startup | [/reddit/public/StartUp/](/reddit/public/StartUp/) | Edge AI business, fundraising |
+| SEO | [/reddit/public/seo/](/reddit/public/seo/) | SEO for LLM-powered search |
+| Startup | [/reddit/public/startup/](/reddit/public/startup/) | Edge AI business, fundraising |
 | LinkedIn Posts | [/reddit/public/linkedin-top-posts/](/reddit/public/linkedin-top-posts/) | Top 2024 posts |
 
 ---

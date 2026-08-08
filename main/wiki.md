@@ -116,8 +116,8 @@ permalink: /reddit/wiki/
   <div class="wiki-section" data-section="programming">
     <h2 id="programming">Programming</h2>
     <ul class="wiki-cols">
-      <li><a href="/reddit/public/CPP/">C++ Quick Reference</a></li>
-      <li><a href="/reddit/public/Python/">Python Configuration</a></li>
+      <li><a href="/reddit/public/cpp/">C++ Quick Reference</a></li>
+      <li><a href="/reddit/public/python/">Python Configuration</a></li>
       <li><a href="/reddit/public/setup/">Developer Tools &amp; Setup</a></li>
       <li><a href="/reddit/public/shell-vim-quickref/">Shell &amp; Vim Reference</a></li>
     </ul>
@@ -126,16 +126,16 @@ permalink: /reddit/wiki/
   <div class="wiki-section" data-section="optimization">
     <h2 id="optimization">Optimization</h2>
     <ul>
-      <li><a href="/reddit/public/Optimization/">CV, DL &amp; ML Optimization</a></li>
-      <li><a href="/reddit/public/Prompts/">Prompt Engineering</a></li>
+      <li><a href="/reddit/public/optimization/">CV, DL &amp; ML Optimization</a></li>
+      <li><a href="/reddit/public/prompts/">Prompt Engineering</a></li>
     </ul>
   </div>
 
   <div class="wiki-section" data-section="business">
     <h2 id="business">Business &amp; Career</h2>
     <ul>
-      <li><a href="/reddit/public/StartUp/">Startup Guide</a> — Edge AI business in Germany</li>
-      <li><a href="/reddit/public/SEO/">SEO for LLMs</a></li>
+      <li><a href="/reddit/public/startup/">Startup Guide</a> — Edge AI business in Germany</li>
+      <li><a href="/reddit/public/seo/">SEO for LLMs</a></li>
       <li><a href="/reddit/public/linkedin-top-posts/">Top LinkedIn Posts 2024</a></li>
     </ul>
   </div>
@@ -143,7 +143,7 @@ permalink: /reddit/wiki/
   <div class="wiki-section" data-section="knowledge">
     <h2 id="knowledge">PKM &amp; Knowledge</h2>
     <ul>
-      <li><a href="/reddit/public/index/">Content Hub</a></li>
+      <li><a href="/reddit/public/">Content Hub</a></li>
       <li><a href="/reddit/public/links/">Curated Links</a></li>
       <li><a href="/reddit/pkm/use-cases/">Use Cases</a></li>
       <li><a href="/reddit/pkm/links/">Links</a></li>
@@ -202,7 +202,6 @@ permalink: /reddit/wiki/
       <li><a href="/reddit/publications/Books/computational-intelligence-optical-flow/">Optical Flow for Video Stabilization</a></li>
       <li><a href="/reddit/publications/Books/camera-calibration-video-stabilization/">Camera Calibration for Robotics</a></li>
       <li><a href="/reddit/publications/Books/AI/computer-vision-meets-llm/">Computer Vision Meets LLM</a></li>
-      <li><a href="/reddit/publications/Books/AI/opencv5-chapter0-introduction/">OpenCV 5 — Ch.0 Introduction</a></li>
       <li><a href="/reddit/publications/Books/AI/opencv5-chapter1-image-basics/">OpenCV 5 — Ch.1 Image Basics</a></li>
       <li><a href="/reddit/publications/Books/AI/opencv5-chapter2-feature-detection/">OpenCV 5 — Ch.2 Feature Detection</a></li>
       <li><a href="/reddit/publications/Books/AI/opencv5-chapter3-advanced/">OpenCV 5 — Ch.3 Advanced Topics</a></li>

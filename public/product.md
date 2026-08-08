@@ -202,8 +202,8 @@ markmap: |
     <span class="section-icon">&#9881;</span>
     <div class="section-title">Optimization <span class="badge">ML</span></div>
     <ul class="sitemap-links">
-      <li><a href="/reddit/public/Optimization/"><span class="link-arrow">&#8594;</span> CV/DL/ML Optimization</a></li>
-      <li><a href="/reddit/public/Prompts/"><span class="link-arrow">&#8594;</span> Prompt Engineering</a></li>
+      <li><a href="/reddit/public/optimization/"><span class="link-arrow">&#8594;</span> CV/DL/ML Optimization</a></li>
+      <li><a href="/reddit/public/prompts/"><span class="link-arrow">&#8594;</span> Prompt Engineering</a></li>
     </ul>
   </div>
 
@@ -211,8 +211,8 @@ markmap: |
     <span class="section-icon">&#128187;</span>
     <div class="section-title">Programming</div>
     <ul class="sitemap-links">
-      <li><a href="/reddit/public/CPP/"><span class="link-arrow">&#8594;</span> C++ Quick Reference</a></li>
-      <li><a href="/reddit/public/Python/"><span class="link-arrow">&#8594;</span> Python Configuration</a></li>
+      <li><a href="/reddit/public/cpp/"><span class="link-arrow">&#8594;</span> C++ Quick Reference</a></li>
+      <li><a href="/reddit/public/python/"><span class="link-arrow">&#8594;</span> Python Configuration</a></li>
       <li><a href="/reddit/public/setup/"><span class="link-arrow">&#8594;</span> Developer Tools</a></li>
       <li><a href="/reddit/public/shell-vim-quickref/"><span class="link-arrow">&#8594;</span> Shell & Vim</a></li>
     </ul>

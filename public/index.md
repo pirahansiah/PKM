@@ -47,18 +47,18 @@ Technical articles, tutorials, and deep dives on computer vision, AI, edge deplo
 - [Avatar Generator](/reddit/public/ai-llm/avatar-generator/) — Local video avatar with Ollama + Wav2Lip.
 
 ## Optimization
-- [CV/DL/ML Optimization](/reddit/public/Optimization/) — Model quantization, pruning, and edge deployment strategies.
-- [Prompt Engineering](/reddit/public/Prompts/) — Reusable LLM prompt templates.
+- [CV/DL/ML Optimization](/reddit/public/optimization/) — Model quantization, pruning, and edge deployment strategies.
+- [Prompt Engineering](/reddit/public/prompts/) — Reusable LLM prompt templates.
 
 ## Programming
-- [C++ Quick Reference](/reddit/public/CPP/) — Memory (stack/heap), STL, debugging, Linux essentials.
-- [Python Configuration](/reddit/public/Python/) — ConfigParser, argparse, pydantic, hydra, pybind11, Cython.
+- [C++ Quick Reference](/reddit/public/cpp/) — Memory (stack/heap), STL, debugging, Linux essentials.
+- [Python Configuration](/reddit/public/python/) — ConfigParser, argparse, pydantic, hydra, pybind11, Cython.
 - [Developer Tools & Setup](/reddit/public/setup/) — Docker, GitHub tricks, CLI tools.
 - [Shell & Vim Reference](/reddit/public/shell-vim-quickref/) — Terminal essentials, vim basics.
 
 ## Business & Career
-- [Startup Guide](/reddit/public/StartUp/) — Edge AI business plans, fundraising in Germany, pitch decks.
-- [SEO for LLMs](/reddit/public/SEO/) — Structured data, AI-friendly content optimization.
+- [Startup Guide](/reddit/public/startup/) — Edge AI business plans, fundraising in Germany, pitch decks.
+- [SEO for LLMs](/reddit/public/seo/) — Structured data, AI-friendly content optimization.
 - [Top LinkedIn Posts](/reddit/public/linkedin-top-posts/) — Top posts: camera calibration, C++, robotics.
 
 ## Resources

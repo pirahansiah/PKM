@@ -83,18 +83,18 @@ I offer personalized coaching, tutoring, and consulting in computer vision and A
 - [MLX, CoreML & Metal](/reddit/public/cuda-gpu/mlx-coreml-metal/) — Apple Silicon ML
 
 ### Programming & Tools
-- [C++ Quick Reference](/reddit/public/CPP/) — Memory, STL, debugging
-- [Python Configuration & Tips](/reddit/public/Python/) — Config management, pybind11, Cython
+- [C++ Quick Reference](/reddit/public/cpp/) — Memory, STL, debugging
+- [Python Configuration & Tips](/reddit/public/python/) — Config management, pybind11, Cython
 - [Developer Tools & Setup](/reddit/public/setup/) — Docker, GitHub, CLI tools
 - [Shell & Vim Reference](/reddit/public/shell-vim-quickref/) — Terminal essentials
 
 ### Optimization & ML
-- [CV, DL & ML Optimization](/reddit/public/Optimization/) — Quantization, pruning, frameworks
-- [Prompt Engineering Templates](/reddit/public/Prompts/) — LLM prompt patterns
+- [CV, DL & ML Optimization](/reddit/public/optimization/) — Quantization, pruning, frameworks
+- [Prompt Engineering Templates](/reddit/public/prompts/) — LLM prompt patterns
 
 ### Business & Career
-- [Startup Guide](/reddit/public/StartUp/) — Edge AI business, fundraising, pitch decks
-- [SEO for LLM-Powered Search](/reddit/public/SEO/) — Structured data, AI visibility
+- [Startup Guide](/reddit/public/startup/) — Edge AI business, fundraising, pitch decks
+- [SEO for LLM-Powered Search](/reddit/public/seo/) — Structured data, AI visibility
 - [Local Video Avatar Generator](/reddit/public/ai-llm/avatar-generator/) — Ollama + Wav2Lip tutorial
 - [Top LinkedIn Posts 2024](/reddit/public/linkedin-top-posts/) — Camera calibration, C++, robotics
 

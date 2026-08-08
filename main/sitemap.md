@@ -255,8 +255,8 @@ permalink: /reddit/sitemap/
     <span class="section-icon">&#128187;</span>
     <div class="section-title">Programming <span class="badge">Tools</span></div>
     <ul class="sitemap-links">
-      <li><a href="/reddit/public/CPP/"><span class="link-arrow">&#8594;</span> C++ Quick Reference</a></li>
-      <li><a href="/reddit/public/Python/"><span class="link-arrow">&#8594;</span> Python Configuration</a></li>
+      <li><a href="/reddit/public/cpp/"><span class="link-arrow">&#8594;</span> C++ Quick Reference</a></li>
+      <li><a href="/reddit/public/python/"><span class="link-arrow">&#8594;</span> Python Configuration</a></li>
       <li><a href="/reddit/public/setup/"><span class="link-arrow">&#8594;</span> Developer Tools & Setup</a></li>
       <li><a href="/reddit/public/shell-vim-quickref/"><span class="link-arrow">&#8594;</span> Shell & Vim Reference</a></li>
     </ul>
@@ -267,8 +267,8 @@ permalink: /reddit/sitemap/
     <span class="section-icon">&#9889;</span>
     <div class="section-title">Optimization <span class="badge">ML</span></div>
     <ul class="sitemap-links">
-      <li><a href="/reddit/public/Optimization/"><span class="link-arrow">&#8594;</span> CV, DL & ML Optimization</a></li>
-      <li><a href="/reddit/public/Prompts/"><span class="link-arrow">&#8594;</span> Prompt Engineering</a></li>
+      <li><a href="/reddit/public/optimization/"><span class="link-arrow">&#8594;</span> CV, DL & ML Optimization</a></li>
+      <li><a href="/reddit/public/prompts/"><span class="link-arrow">&#8594;</span> Prompt Engineering</a></li>
     </ul>
   </div>
 
@@ -277,8 +277,8 @@ permalink: /reddit/sitemap/
     <span class="section-icon">&#128640;</span>
     <div class="section-title">Business & Career</div>
     <ul class="sitemap-links">
-      <li><a href="/reddit/public/StartUp/"><span class="link-arrow">&#8594;</span> Startup Guide</a></li>
-      <li><a href="/reddit/public/SEO/"><span class="link-arrow">&#8594;</span> SEO for LLMs</a></li>
+      <li><a href="/reddit/public/startup/"><span class="link-arrow">&#8594;</span> Startup Guide</a></li>
+      <li><a href="/reddit/public/seo/"><span class="link-arrow">&#8594;</span> SEO for LLMs</a></li>
       <li><a href="/reddit/public/linkedin-top-posts/"><span class="link-arrow">&#8594;</span> Top LinkedIn Posts 2024</a></li>
     </ul>
   </div>
@@ -290,7 +290,7 @@ permalink: /reddit/sitemap/
     <ul class="sitemap-links">
       <li><a href="/reddit/public/Resources/"><span class="link-arrow">&#8594;</span> Portfolio & Publications</a></li>
       <li><a href="/reddit/public/links/"><span class="link-arrow">&#8594;</span> Curated Links</a></li>
-      <li><a href="/reddit/public/index/"><span class="link-arrow">&#8594;</span> Content Hub</a></li>
+      <li><a href="/reddit/public/"><span class="link-arrow">&#8594;</span> Content Hub</a></li>
     </ul>
   </div>
 
@@ -349,7 +349,6 @@ permalink: /reddit/sitemap/
       <li><a href="/reddit/publications/Books/computational-intelligence-optical-flow/"><span class="link-arrow">&#8594;</span> Optical Flow for Video Stabilization</a></li>
       <li><a href="/reddit/publications/Books/camera-calibration-video-stabilization/"><span class="link-arrow">&#8594;</span> Camera Calibration for Robotics</a></li>
       <li><a href="/reddit/publications/Books/AI/computer-vision-meets-llm/"><span class="link-arrow">&#8594;</span> Computer Vision Meets LLM</a></li>
-      <li><a href="/reddit/publications/Books/AI/opencv5-chapter0-introduction/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.0 Introduction</a></li>
       <li><a href="/reddit/publications/Books/AI/opencv5-chapter1-image-basics/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.1 Image Basics</a></li>
       <li><a href="/reddit/publications/Books/AI/opencv5-chapter2-feature-detection/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.2 Feature Detection</a></li>
       <li><a href="/reddit/publications/Books/AI/opencv5-chapter3-advanced/"><span class="link-arrow">&#8594;</span> OpenCV 5 — Ch.3 Advanced Topics</a></li>
