@@ -153,4 +153,4 @@ extra_css: webgpu-llm.css
 </div>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="{{ '/assets/js/webgpu-llm.js?v=4' | relative_url }}"></script>
+<script src="{{ '/assets/js/webgpu-llm.js?v=5' | relative_url }}"></script>
