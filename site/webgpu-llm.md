@@ -56,6 +56,7 @@ extra_css: webgpu-llm.css
       <label class="llm-model-pick" for="llm-model-select">
         <span>Model:</span>
         <select id="llm-model-select" title="Choose the model size — smaller downloads less, larger answers better">
+          <option value="Xenova/LaMini-GPT-124M">Micro — 0.1B (~0.25 GB, low RAM)</option>
           <option value="Xenova/Qwen1.5-0.5B-Chat">Tiny — 0.5B (~0.5 GB, iPhone)</option>
           <option value="onnx-community/Qwen2.5-1.5B-Instruct">Medium — 1.5B (~1.2 GB, laptop)</option>
           <option value="onnx-community/Llama-3.2-3B-Instruct">Large — 3B (~2 GB, powerful GPU)</option>
@@ -152,4 +153,4 @@ extra_css: webgpu-llm.css
 </div>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="{{ '/assets/js/webgpu-llm.js?v=3' | relative_url }}"></script>
+<script src="{{ '/assets/js/webgpu-llm.js?v=4' | relative_url }}"></script>
