@@ -20,13 +20,24 @@ extra_css: webgpu-llm.css
   </div>
 
   <div class="llm-body">
+    <!-- Local-only notice: user asked for this prominently at the top -->
+    <div class="llm-notice" id="llm-notice">
+      <div class="llm-notice-title">&#128274; 100% local &amp; private — runs in your browser</div>
+      <div class="llm-notice-text">
+        This page loads a small LLM (<strong>~500 MB download</strong>) directly into <em>your</em> browser
+        (WebGPU / WASM). <strong>No data, question, or document ever leaves your device</strong> — nothing is sent to any server.
+        The first load takes a few minutes (download once, then cached by the browser).
+        Questions run on your own hardware — no account, no tracking.
+      </div>
+    </div>
+
     <div class="llm-search-wrap">
       <div class="llm-search-box">
         <input type="text" id="llm-query" placeholder="Ask anything about the site… (e.g. camera calibration)" autofocus disabled>
         <span class="llm-search-icon">&#128269;</span>
       </div>
       <button type="button" id="llm-ask-btn" class="llm-ask-btn" disabled>Ask</button>
-      <button type="button" id="llm-init-btn" class="llm-ask-btn" style="background:var(--glass-bg);border:1px solid var(--glass-border);color:#0a84ff" title="Pre-download the LLM model">Load model</button>
+      <button type="button" id="llm-init-btn" class="llm-ask-btn" style="background:var(--glass-bg);border:1px solid var(--glass-border);color:#0a84ff" title="Pre-download the LLM model now (about 500 MB)">Load model</button>
     </div>
 
     <div class="llm-suggest">
@@ -48,6 +59,13 @@ extra_css: webgpu-llm.css
       <span class="llm-status-text" id="llm-status-text"></span>
     </div>
 
+    <!-- Relevant pages / files / PDFs FIRST (instant, no model needed) -->
+    <div class="llm-results-head" id="llm-results-head" style="display:none">
+      <span>Relevant pages &amp; files: <span class="count" id="llm-count">0</span></span>
+    </div>
+    <div class="llm-results" id="llm-results"></div>
+
+    <!-- Streamed LLM answer -->
     <div class="llm-answer" id="llm-answer">
       <h2>&#128161; Answer</h2>
       <div class="llm-answer-body" id="llm-answer-body"></div>
@@ -60,12 +78,25 @@ extra_css: webgpu-llm.css
       <div class="llm-conn-hint">Top results and their neighbors from the knowledge graph — click a node to open</div>
     </div>
 
-    <div class="llm-results-head" id="llm-results-head" style="display:none">
-      <span>Relevant sections: <span class="count" id="llm-count">0</span></span>
+    <!-- ============ ChatGPT-like chat section (separate div) ============ -->
+    <div class="llm-chat" id="llm-chat">
+      <div class="llm-chat-head">
+        <h2>&#128172; Chat with your site</h2>
+        <span class="llm-chat-sub">Conversational follow-ups — the model remembers this conversation. Same local &amp; private engine.</span>
+      </div>
+      <div class="llm-chat-log" id="llm-chat-log">
+        <div class="chat-msg chat-bot">
+          <div class="chat-bubble">Hi! Ask me anything about the site — papers, courses, CV, code, anything. I answer from your pages, locally in your browser. (First question may need the model to load once.)</div>
+        </div>
+      </div>
+      <div class="llm-chat-input-row">
+        <input type="text" id="llm-chat-input" placeholder="Type a message…" autocomplete="off" disabled>
+        <button type="button" id="llm-chat-send" class="llm-ask-btn" disabled>Send</button>
+      </div>
+      <div class="llm-chat-status" id="llm-chat-status"></div>
     </div>
-    <div class="llm-results" id="llm-results"></div>
 
-    <p class="llm-hint-line" id="llm-hint-line">Runs fully in your browser: Qwen1.5-0.5B via transformers.js (WebGPU, WASM fallback) + TF-IDF retrieval over every page. First run downloads the model (a few hundred MB, cached by the browser).</p>
+    <p class="llm-hint-line" id="llm-hint-line">Runs fully in your browser: Qwen1.5-0.5B via transformers.js (WebGPU, WASM fallback) + TF-IDF retrieval over every page. First run downloads the model (~500 MB, cached by the browser).</p>
   </div>
 </div>
 
