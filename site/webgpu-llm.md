@@ -53,16 +53,30 @@ extra_css: webgpu-llm.css
 
     <div class="llm-device-row">
       <span class="llm-badge" id="llm-device-badge"><span id="llm-device-text">checking GPU…</span></span>
+      <label class="llm-model-pick" for="llm-model-select">
+        <span>Model:</span>
+        <select id="llm-model-select" title="Choose the model size — smaller downloads less, larger answers better">
+          <option value="Xenova/Qwen1.5-0.5B-Chat">Tiny — 0.5B (~0.5 GB, iPhone)</option>
+          <option value="onnx-community/Qwen2.5-1.5B-Instruct">Medium — 1.5B (~1.2 GB, laptop)</option>
+          <option value="onnx-community/Llama-3.2-3B-Instruct">Large — 3B (~2 GB, powerful GPU)</option>
+        </select>
+      </label>
       <div class="llm-progress-wrap">
         <div class="llm-progress" id="llm-progress"><div class="llm-progress-bar" id="llm-progress-bar" style="width:0%">0%</div></div>
       </div>
       <span class="llm-status-text" id="llm-status-text"></span>
     </div>
 
-    <!-- Answer package FIRST: review + key points + visualizations + tags + refs + X post -->
+    <!-- Answer package FIRST: review + keyword map + key points + visualizations + tags + refs + X post -->
     <div class="llm-answer" id="llm-answer">
       <h2>&#128161; Topic review</h2>
       <div class="llm-review" id="llm-review"></div>
+
+      <div class="llm-kwmap" id="llm-kwmap" style="display:none">
+        <div class="llm-kwmap-title">&#128270; Keyword map</div>
+        <div class="llm-kwmap-rows" id="llm-kwmap-rows"></div>
+        <div class="llm-kwmap-idea" id="llm-kwmap-idea"></div>
+      </div>
 
       <div class="llm-keypoints" id="llm-keypoints"></div>
 
