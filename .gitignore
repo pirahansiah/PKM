@@ -173,8 +173,9 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
+# NOTE: removed leftover mkdocs "/site" pattern — it was silently ignoring the
+# site/ tool-pages folder (graph.md, search.md, menus.md, scripts/) which the
+# CI workflow depends on (notes/site/scripts/build-nav.rb).
 
 # mypy
 .mypy_cache/
