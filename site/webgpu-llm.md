@@ -59,13 +59,7 @@ extra_css: webgpu-llm.css
       <span class="llm-status-text" id="llm-status-text"></span>
     </div>
 
-    <!-- Relevant pages / files / PDFs FIRST (instant, no model needed) -->
-    <div class="llm-results-head" id="llm-results-head" style="display:none">
-      <span>Relevant pages &amp; files: <span class="count" id="llm-count">0</span></span>
-    </div>
-    <div class="llm-results" id="llm-results"></div>
-
-    <!-- Streamed LLM answer: review + key points + visualizations + refs + X post -->
+    <!-- Answer package FIRST: review + key points + visualizations + tags + refs + X post -->
     <div class="llm-answer" id="llm-answer">
       <h2>&#128161; Topic review</h2>
       <div class="llm-review" id="llm-review"></div>
@@ -108,6 +102,12 @@ extra_css: webgpu-llm.css
 
       <div class="llm-sources" id="llm-sources"></div>
     </div>
+
+    <!-- Relevant pages / files / PDFs (instant, no model needed) -->
+    <div class="llm-results-head" id="llm-results-head" style="display:none">
+      <span>Relevant pages &amp; files: <span class="count" id="llm-count">0</span></span>
+    </div>
+    <div class="llm-results" id="llm-results"></div>
 
     <div class="llm-conn" id="llm-conn">
       <h2>&#128279; Connection map</h2>
