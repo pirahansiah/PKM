@@ -65,10 +65,47 @@ extra_css: webgpu-llm.css
     </div>
     <div class="llm-results" id="llm-results"></div>
 
-    <!-- Streamed LLM answer -->
+    <!-- Streamed LLM answer: review + key points + visualizations + refs + X post -->
     <div class="llm-answer" id="llm-answer">
-      <h2>&#128161; Answer</h2>
-      <div class="llm-answer-body" id="llm-answer-body"></div>
+      <h2>&#128161; Topic review</h2>
+      <div class="llm-review" id="llm-review"></div>
+
+      <div class="llm-keypoints" id="llm-keypoints"></div>
+
+      <div class="llm-viz" id="llm-viz">
+        <div class="llm-viz-title">&#128202; Visualizations</div>
+        <div class="llm-viz-grid">
+          <div class="llm-viz-panel">
+            <div class="llm-viz-sub">Categories in results</div>
+            <div class="llm-bars" id="llm-cat-bars"></div>
+          </div>
+          <div class="llm-viz-panel">
+            <div class="llm-viz-sub">Top tags &amp; hashtags</div>
+            <div class="llm-tagcloud" id="llm-tagcloud"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="llm-refs" id="llm-refs">
+        <div class="llm-refs-title">&#128279; References</div>
+        <ol class="llm-refs-list" id="llm-refs-list"></ol>
+      </div>
+
+      <div class="llm-web" id="llm-web">
+        <div class="llm-web-title">&#127760; Find more on the web</div>
+        <div class="llm-web-links" id="llm-web-links"></div>
+        <div class="llm-web-hint">Opens a new tab with a search for this topic — combine with the tags above.</div>
+      </div>
+
+      <div class="llm-xpost" id="llm-xpost">
+        <div class="llm-xpost-title">&#128038; Ready to post on X</div>
+        <div class="llm-xpost-body" id="llm-xpost-body"></div>
+        <div class="llm-xpost-actions">
+          <button type="button" class="llm-ask-btn llm-copy-btn" id="llm-xpost-copy">Copy</button>
+          <a class="llm-xpost-open" id="llm-xpost-open" target="_blank" rel="noopener">Open in X</a>
+        </div>
+      </div>
+
       <div class="llm-sources" id="llm-sources"></div>
     </div>
 
