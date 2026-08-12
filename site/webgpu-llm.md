@@ -24,9 +24,9 @@ extra_css: webgpu-llm.css
     <div class="llm-notice" id="llm-notice">
       <div class="llm-notice-title">&#128274; 100% local &amp; private — runs in your browser</div>
       <div class="llm-notice-text">
-        This page loads a small LLM (<strong>~500 MB download</strong>) directly into <em>your</em> browser
+        This page loads a small LLM (<strong>~40 MB with the Micro model</strong>) directly into <em>your</em> browser
         (WebGPU / WASM). <strong>No data, question, or document ever leaves your device</strong> — nothing is sent to any server.
-        The first load takes a few minutes (download once, then cached by the browser).
+        The first load takes a moment (download once, then cached by the browser).
         Questions run on your own hardware — no account, no tracking.
       </div>
     </div>
@@ -56,10 +56,10 @@ extra_css: webgpu-llm.css
       <label class="llm-model-pick" for="llm-model-select">
         <span>Model:</span>
         <select id="llm-model-select" title="Choose the model size — smaller downloads less, larger answers better">
-          <option value="Xenova/LaMini-GPT-124M">Micro — 0.1B (~0.25 GB, low RAM)</option>
-          <option value="Xenova/Qwen1.5-0.5B-Chat">Tiny — 0.5B (~0.5 GB, iPhone)</option>
-          <option value="onnx-community/Qwen2.5-1.5B-Instruct">Medium — 1.5B (~1.2 GB, laptop)</option>
-          <option value="onnx-community/Llama-3.2-3B-Instruct">Large — 3B (~2 GB, powerful GPU)</option>
+          <option value="Xenova/llama2.c-stories42M">Micro — 42M (~40 MB, loads anywhere)</option>
+          <option value="Xenova/LaMini-GPT-124M">Tiny — 0.1B (~250 MB)</option>
+          <option value="Xenova/Qwen1.5-0.5B-Chat">Medium — 0.5B (~500 MB)</option>
+          <option value="onnx-community/Qwen2.5-1.5B-Instruct">Large — 1.5B (~1.2 GB, desktop)</option>
         </select>
       </label>
       <div class="llm-progress-wrap">
@@ -148,9 +148,9 @@ extra_css: webgpu-llm.css
       <div class="llm-chat-status" id="llm-chat-status"></div>
     </div>
 
-    <p class="llm-hint-line" id="llm-hint-line">Runs fully in your browser: Qwen1.5-0.5B via transformers.js (WebGPU, WASM fallback) + TF-IDF retrieval over every page. First run downloads the model (~500 MB, cached by the browser).</p>
+    <p class="llm-hint-line" id="llm-hint-line">Runs fully in your browser: llama2.c 42M (Micro) via transformers.js (WebGPU, WASM fallback) + BM25 retrieval over every page. First run downloads the model (from ~40 MB, cached by the browser).</p>
   </div>
 </div>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="{{ '/assets/js/llm-search.js?v=8' | relative_url }}"></script>
+<script src="{{ '/assets/js/llm-search.js?v=9' | relative_url }}"></script>
