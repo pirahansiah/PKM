@@ -24,9 +24,13 @@ extra_css: webgpu-llm.css
     <div class="llm-notice" id="llm-notice">
       <div class="llm-notice-title">&#128274; 100% local &amp; private — runs in your browser</div>
       <div class="llm-notice-text">
-        This page loads a small LLM (<strong>~100 MB with the Micro Flan-T5 model</strong>) directly into <em>your</em> browser
-        (WebGPU / WASM). <strong>No data, question, or document ever leaves your device</strong> — nothing is sent to any server.
-        The first load takes a moment (download once, then cached by the browser).
+        This page runs a small LLM <strong>entirely in your browser</strong> — no data, question, or document
+        ever leaves your device. Pick a model from <strong>~15&nbsp;MB (Nano) up to ~1.5&nbsp;GB (Large)</strong>;
+        each option shows its estimated total RAM (weights&nbsp;+&nbsp;KV&nbsp;cache&nbsp;+&nbsp;context). The
+        <strong>Method</strong> selector chooses how it runs: <strong>Auto</strong> picks the best backend for your
+        system, <strong>WebGPU</strong> uses your GPU, and <strong>WASM</strong> is the universal fallback that runs
+        on any device (its SIMD&nbsp;&rarr;&nbsp;plain ladder is the modern successor to asm.js). The first load
+        downloads the model once, then it's cached by the browser. <strong>All answers are English only.</strong>
         Questions run on your own hardware — no account, no tracking.
       </div>
     </div>
@@ -37,7 +41,7 @@ extra_css: webgpu-llm.css
         <span class="llm-search-icon">&#128269;</span>
       </div>
       <button type="button" id="llm-ask-btn" class="llm-ask-btn" disabled>Ask</button>
-      <button type="button" id="llm-init-btn" class="llm-ask-btn" style="background:var(--glass-bg);border:1px solid var(--glass-border);color:#0a84ff" title="Pre-download the LLM model now (~100 MB for Micro Flan-T5)">Load model</button>
+      <button type="button" id="llm-init-btn" class="llm-ask-btn" style="background:var(--glass-bg);border:1px solid var(--glass-border);color:#0a84ff" title="Pre-download the selected model now (the Micro default is ~90 MB)">Load model</button>
     </div>
 
     <div class="llm-suggest">
@@ -55,11 +59,24 @@ extra_css: webgpu-llm.css
       <span class="llm-badge" id="llm-device-badge"><span id="llm-device-text">checking GPU…</span></span>
       <label class="llm-model-pick" for="llm-model-select">
         <span>Model:</span>
-        <select id="llm-model-select" title="Choose the model size — smaller downloads less, larger answers better">
-          <option value="Xenova/LaMini-Flan-T5-77M">Micro — Flan-T5 77M (phone-safe, ~100 MB)</option>
-          <option value="Xenova/LaMini-GPT-124M">Tiny — 0.1B (~250 MB)</option>
-          <option value="Xenova/Qwen1.5-0.5B-Chat">Medium — 0.5B (~500 MB)</option>
-          <option value="onnx-community/Qwen2.5-1.5B-Instruct">Large — 1.5B (~1.2 GB, desktop)</option>
+        <select id="llm-model-select" title="Choose the model size — smaller downloads less, larger answers better. Each shows its estimated total RAM (weights + KV cache + context).">
+          <option value="Xenova/LaMini-Flan-T5-77M">Micro — Flan-T5 77M · ~150 MB</option>
+          <option value="Xenova/llama2.c-stories15M">Nano — stories 15M · ~25 MB</option>
+          <option value="Xenova/llama2.c-stories42M">Pico — stories 42M · ~95 MB</option>
+          <option value="Xenova/llama2.c-stories110M">Slim — stories 110M · ~230 MB</option>
+          <option value="Xenova/distilgpt2">Compact — DistilGPT-2 · ~375 MB</option>
+          <option value="Xenova/LaMini-GPT-124M">Tiny — LaMini 124M · ~475 MB</option>
+          <option value="Xenova/Qwen1.5-0.5B-Chat">Medium — Qwen1.5 0.5B · ~1.1 GB</option>
+          <option value="onnx-community/Qwen2.5-0.5B-Instruct">Balanced — Qwen2.5 0.5B · ~780 MB</option>
+          <option value="onnx-community/Qwen2.5-1.5B-Instruct">Large — Qwen2.5 1.5B · ~2.4 GB</option>
+        </select>
+      </label>
+      <label class="llm-model-pick" for="llm-device-select">
+        <span>Method:</span>
+        <select id="llm-device-select" title="How the model runs — Auto picks the best backend for your device; WASM runs on every browser">
+          <option value="auto">Auto (best for device)</option>
+          <option value="webgpu">WebGPU (GPU, fastest)</option>
+          <option value="wasm">WASM (universal)</option>
         </select>
       </label>
       <div class="llm-progress-wrap">
@@ -67,6 +84,7 @@ extra_css: webgpu-llm.css
       </div>
       <span class="llm-status-text" id="llm-status-text"></span>
     </div>
+    <div class="llm-ram-info" id="llm-ram-info"></div>
 
     <!-- Answer package FIRST: review + keyword map + key points + visualizations + tags + refs + X post -->
     <div class="llm-answer" id="llm-answer">
@@ -148,9 +166,9 @@ extra_css: webgpu-llm.css
       <div class="llm-chat-status" id="llm-chat-status"></div>
     </div>
 
-    <p class="llm-hint-line" id="llm-hint-line">Runs fully in your browser: LaMini-Flan-T5 77M (Micro, phone-safe) via transformers.js (WASM int8 on iOS/Android; WebGPU on desktop Chrome) + BM25 retrieval over every page. First run downloads the model (~100 MB, cached by the browser).</p>
+    <p class="llm-hint-line" id="llm-hint-line">Runs fully in your browser: 9 models from ~15 MB (Nano) to ~1.5 GB (Large) with per-model RAM estimates (weights + KV cache + context), via transformers.js. Method: Auto / WebGPU / WASM — WASM runs on every device (the modern asm.js-style universal fallback). All answers are English only. BM25 retrieval over every page; first run downloads the model (cached).</p>
   </div>
 </div>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="{{ '/assets/js/llm-search.js?v=12' | relative_url }}"></script>
+<script src="{{ '/assets/js/llm-search.js?v=13' | relative_url }}"></script>
