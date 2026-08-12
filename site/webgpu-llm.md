@@ -24,7 +24,7 @@ extra_css: webgpu-llm.css
     <div class="llm-notice" id="llm-notice">
       <div class="llm-notice-title">&#128274; 100% local &amp; private — runs in your browser</div>
       <div class="llm-notice-text">
-        This page loads a small LLM (<strong>~40 MB with the Micro model</strong>) directly into <em>your</em> browser
+        This page loads a small LLM (<strong>~100 MB with the Micro Flan-T5 model</strong>) directly into <em>your</em> browser
         (WebGPU / WASM). <strong>No data, question, or document ever leaves your device</strong> — nothing is sent to any server.
         The first load takes a moment (download once, then cached by the browser).
         Questions run on your own hardware — no account, no tracking.
@@ -37,7 +37,7 @@ extra_css: webgpu-llm.css
         <span class="llm-search-icon">&#128269;</span>
       </div>
       <button type="button" id="llm-ask-btn" class="llm-ask-btn" disabled>Ask</button>
-      <button type="button" id="llm-init-btn" class="llm-ask-btn" style="background:var(--glass-bg);border:1px solid var(--glass-border);color:#0a84ff" title="Pre-download the LLM model now (about 500 MB)">Load model</button>
+      <button type="button" id="llm-init-btn" class="llm-ask-btn" style="background:var(--glass-bg);border:1px solid var(--glass-border);color:#0a84ff" title="Pre-download the LLM model now (~100 MB for Micro Flan-T5)">Load model</button>
     </div>
 
     <div class="llm-suggest">
@@ -56,7 +56,7 @@ extra_css: webgpu-llm.css
       <label class="llm-model-pick" for="llm-model-select">
         <span>Model:</span>
         <select id="llm-model-select" title="Choose the model size — smaller downloads less, larger answers better">
-          <option value="Xenova/llama2.c-stories42M">Micro — 42M (~40 MB, loads anywhere)</option>
+          <option value="Xenova/LaMini-Flan-T5-77M">Micro — Flan-T5 77M (phone-safe, ~100 MB)</option>
           <option value="Xenova/LaMini-GPT-124M">Tiny — 0.1B (~250 MB)</option>
           <option value="Xenova/Qwen1.5-0.5B-Chat">Medium — 0.5B (~500 MB)</option>
           <option value="onnx-community/Qwen2.5-1.5B-Instruct">Large — 1.5B (~1.2 GB, desktop)</option>
@@ -148,9 +148,9 @@ extra_css: webgpu-llm.css
       <div class="llm-chat-status" id="llm-chat-status"></div>
     </div>
 
-    <p class="llm-hint-line" id="llm-hint-line">Runs fully in your browser: llama2.c 42M (Micro) via transformers.js (WebGPU, WASM fallback) + BM25 retrieval over every page. First run downloads the model (from ~40 MB, cached by the browser).</p>
+    <p class="llm-hint-line" id="llm-hint-line">Runs fully in your browser: LaMini-Flan-T5 77M (Micro, phone-safe) via transformers.js (WASM int8 on iOS/Android; WebGPU on desktop Chrome) + BM25 retrieval over every page. First run downloads the model (~100 MB, cached by the browser).</p>
   </div>
 </div>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="{{ '/assets/js/llm-search.js?v=9' | relative_url }}"></script>
+<script src="{{ '/assets/js/llm-search.js?v=10' | relative_url }}"></script>
