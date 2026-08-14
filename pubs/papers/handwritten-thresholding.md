@@ -19,6 +19,7 @@ markmap: |
   - Mobile Devices
 tags: [thresholding, handwritten-recognition, image-segmentation, psnr]
 hashtags: "#thresholding #handwritten #imagesegmentation #psnr"
+---
 
 Comparison_single_thresholding_method_for_handwritten_images_segmentation
 
