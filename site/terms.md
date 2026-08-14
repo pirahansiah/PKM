@@ -2,6 +2,7 @@
 layout: farshid_default
 title: Terms of Service
 permalink: /terms/
+description: "Terms of service for pirahansiah.com: acceptable use of the content, intellectual property notice, disclaimers, and contact information."
 ---
 
 > **Terms of Service** — Terms of Service — https://www.pirahansiah.com/terms/

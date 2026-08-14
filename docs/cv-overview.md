@@ -2,6 +2,7 @@
 layout: farshid_default
 title: "Dr. Farshid Pirahansiah — CV & AI"
 parent: MainPage
+description: "Overview of Dr. Farshid Pirahansiah's computer vision and AI expertise: 3D vision, multi-camera systems, optical flow, model optimization, and edge AI deployment."
 tags: [computer-vision, ai, portfolio, about]
 hashtags: "#cv #ai #portfolio #about"
 markmap: |
