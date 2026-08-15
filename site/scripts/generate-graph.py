@@ -30,9 +30,9 @@ HUB_CATEGORIES = {
 }
 
 CATEGORY_COLORS = {
-    "hub": "#F5A623", "page": "#30d158", "tag": "#af52de",
+    "hub": "#22D3EE", "page": "#30d158", "tag": "#af52de",
     "paper": "#14B8A6", "journal": "#64d2ff", "book": "#ffd60a",
-    "patent": "#F97316", "keynote": "#ff6482", "course": "#00c7be",
+    "patent": "#A78BFA", "keynote": "#ff6482", "course": "#00c7be",
     "pkm": "#ac8e68", "business": "#8e8e93",
 }
 

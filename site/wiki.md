@@ -12,7 +12,7 @@ permalink: /notes/wiki/
 .wiki-toc-title { font-weight: 700; font-size: 0.95rem; margin-bottom: 8px; color: var(--text); }
 .wiki-toc ol { margin: 0; padding-left: 20px; columns: 2; column-gap: 24px; }
 .wiki-toc li { font-size: 0.85rem; margin-bottom: 4px; color: var(--text); }
-.wiki-toc a { color: #F5A623; text-decoration: none; }
+.wiki-toc a { color: #22D3EE; text-decoration: none; }
 .wiki-toc a:hover { text-decoration: underline; }
 .wiki-section { margin-bottom: 28px; }
 .wiki-section h2 { font-size: 1.25rem; font-weight: 400; border-bottom: 1px solid var(--glass-border); padding-bottom: 6px; margin-bottom: 12px; color: var(--text); }
@@ -20,17 +20,17 @@ permalink: /notes/wiki/
 .wiki-section p, .wiki-section li { font-size: 0.9rem; line-height: 1.6; color: var(--text); }
 .wiki-section ul { padding-left: 22px; }
 .wiki-section li { margin-bottom: 4px; }
-.wiki-section a { color: #F5A623; text-decoration: none; }
+.wiki-section a { color: #22D3EE; text-decoration: none; }
 .wiki-section a:hover { text-decoration: underline; }
 .wiki-cols { column-count: 2; column-gap: 28px; }
 .wiki-cols li { break-inside: avoid; }
-.wiki-badge { display: inline-block; font-size: 0.7rem; background: rgba(245, 166, 35,0.15); color: #F5A623; padding: 1px 6px; border-radius: 4px; margin-left: 6px; vertical-align: middle; }
+.wiki-badge { display: inline-block; font-size: 0.7rem; background: rgba(34, 211, 238,0.15); color: #22D3EE; padding: 1px 6px; border-radius: 4px; margin-left: 6px; vertical-align: middle; }
 .wiki-search { margin-bottom: 24px; }
 .wiki-search input { width: 100%; max-width: 400px; padding: 10px 14px; font-size: 0.9rem; border: 1px solid var(--glass-border); border-radius: 6px; background: var(--glass-bg); color: var(--text); outline: none; box-sizing: border-box; }
-.wiki-search input:focus { border-color: #F5A623; }
+.wiki-search input:focus { border-color: #22D3EE; }
 .wiki-search input::placeholder { color: var(--text-muted); }
 .wiki-stat { display: inline-block; background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 6px; padding: 4px 10px; margin: 0 6px 6px 0; font-size: 0.8rem; color: var(--text); }
-.wiki-stat strong { color: #F5A623; }
+.wiki-stat strong { color: #22D3EE; }
 @media (max-width: 600px) { .wiki-toc ol { columns: 1; } .wiki-cols { column-count: 1; } }
 </style>
 
