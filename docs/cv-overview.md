@@ -111,7 +111,6 @@ I offer personalized coaching, tutoring, and consulting in computer vision and A
 
 - [LinkedIn](https://www.linkedin.com/in/pirahansiah/)
 - [GitHub](https://github.com/pirahansiah)
-- [Email](mailto:pirahansiah@gmail.com)
 
 ---
 
