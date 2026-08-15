@@ -285,13 +285,19 @@ noindex: true
     }
   }
 
-  function disconnect() {
+  async function disconnect() {
     connectedAccount = null;
     connectBtn.style.display = 'inline-block';
     connectedBox.style.display = 'none';
     acctEl.textContent = '';
     balEl.textContent = '';
     display();
+    // Revoke the MetaMask permission so the next "Connect" re-prompts.
+    if (typeof window.ethereum !== 'undefined' && window.ethereum.request) {
+      try {
+        await window.ethereum.request({ method: 'wallet_revokePermissions', params: [{ eth_accounts: {} }] });
+      } catch (e) { /* not supported everywhere — local state is already cleared */ }
+    }
   }
 
   connectBtn.addEventListener('click', connect);
