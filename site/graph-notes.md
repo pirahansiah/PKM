@@ -61,14 +61,14 @@ graph-view.js
 
 | Category | Color | Count |
 |----------|-------|-------|
-| hub | #0a84ff (blue) | 6 |
+| hub | #F5A623 (blue) | 6 |
 | cv | #30d158 (green) | 5 |
-| ai | #bf5af2 (purple) | 4 |
+| ai | #EA580C (purple) | 4 |
 | cuda | #ff9f0a (orange) | 4 |
-| paper | #5ac8fa (light blue) | 10 |
+| paper | #14B8A6 (light blue) | 10 |
 | journal | #64d2ff (cyan) | 6 |
 | book | #ffd60a (yellow) | 7 |
-| patent | #ff375f (red) | 3 |
+| patent | #F97316 (red) | 3 |
 | keynote | #ff6482 (pink) | 1 |
 | course | #00c7be (teal) | 17 |
 | pkm | #ac8e68 (brown) | 3 |

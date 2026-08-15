@@ -12,7 +12,7 @@ permalink: /notes/sitemap/
 }
 .sitemap-hero h1 {
   font-size: 2.4rem;
-  background: linear-gradient(135deg, #0a84ff, #bf5af2, #ff375f);
+  background: linear-gradient(135deg, #F5A623, #EA580C, #F97316);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -76,8 +76,8 @@ permalink: /notes/sitemap/
 
 .section-title .badge {
   font-size: 0.7rem;
-  background: rgba(10,132,255,0.2);
-  color: #0a84ff;
+  background: rgba(245, 166, 35,0.2);
+  color: #F5A623;
   padding: 2px 8px;
   border-radius: 20px;
   font-weight: 600;
@@ -107,15 +107,15 @@ permalink: /notes/sitemap/
   border: 1px solid transparent;
 }
 .sitemap-links a:hover {
-  background: rgba(10,132,255,0.12);
-  border-color: rgba(10,132,255,0.3);
+  background: rgba(245, 166, 35,0.12);
+  border-color: rgba(245, 166, 35,0.3);
   transform: translateX(4px);
 }
 .sitemap-links a .link-arrow {
   opacity: 0;
   transition: opacity 0.2s ease;
   font-size: 0.8rem;
-  color: #0a84ff;
+  color: #F5A623;
 }
 .sitemap-links a:hover .link-arrow {
   opacity: 1;
@@ -141,8 +141,8 @@ permalink: /notes/sitemap/
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 .sitemap-search input:focus {
-  border-color: #0a84ff;
-  box-shadow: 0 0 0 3px rgba(10,132,255,0.15);
+  border-color: #F5A623;
+  box-shadow: 0 0 0 3px rgba(245, 166, 35,0.15);
 }
 .sitemap-search input::placeholder { color: var(--text-muted); }
 .sitemap-search .search-icon {
@@ -167,7 +167,7 @@ permalink: /notes/sitemap/
 .stat-num {
   font-size: 2rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #0a84ff, #5ac8fa);
+  background: linear-gradient(135deg, #F5A623, #EA580C);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

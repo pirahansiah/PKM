@@ -23,7 +23,7 @@ hashtags: "#presentation #ai #llm #token-optimization"
   .reveal .slides { height: 100%; }
   .reveal { height: 100%; width: 100%; }
   .reveal h1 { font-size: 1.8em; margin-bottom: 0.2em; color: #fff; text-align: center; }
-  .reveal h2 { font-size: 1.2em; margin: 0.1em 0; color: #0a84ff; text-align: center; }
+  .reveal h2 { font-size: 1.2em; margin: 0.1em 0; color: #F5A623; text-align: center; }
   .reveal p, .reveal li { font-size: 0.9em; color: #ccc; line-height: 1.5; }
   .reveal ul { list-style: none; padding: 0; text-align: left; }
   .reveal .controls { color: #fff; }
@@ -31,7 +31,7 @@ hashtags: "#presentation #ai #llm #token-optimization"
   .c { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.15); border-radius: 10px; padding: 14px; text-align: center; }
   .c p { text-align: left; margin: 4px 0; }
   .n { font-size: 2.2em; font-weight: 800; margin: 0; }
-  .n.g { color: #30d158; } .n.r { color: #ff375f; } .n.b { color: #0a84ff; } .n.p { color: #bf5af2; } .n.o { color: #ff9f0a; }
+  .n.g { color: #30d158; } .n.r { color: #F97316; } .n.b { color: #F5A623; } .n.p { color: #EA580C; } .n.o { color: #ff9f0a; }
   .nav-hint { position: absolute; bottom: 8px; font-size: 0.5em; opacity: 0.3; color: white; pointer-events: none; z-index: 10; }
   @media (max-width: 480px) { .m { grid-template-columns: 1fr; } .n { font-size: 1.8em; } .reveal h1 { font-size: 1.4em; } .reveal h2 { font-size: 1em; } }
 </style>
@@ -89,7 +89,7 @@ hashtags: "#presentation #ai #llm #token-optimization"
             <p>! .claude/CLAUDE.md</p>
           </div>
           <div class="c" style="text-align:left;">
-            <p style="color:#ff375f; font-weight:bold;">❌ EXCLUDE</p>
+            <p style="color:#F97316; font-weight:bold;">❌ EXCLUDE</p>
             <p>.claude/skills/portfolio/</p>
             <p>.claude/workflows/</p>
             <p>.claude/agent-memory/</p>
@@ -102,7 +102,7 @@ hashtags: "#presentation #ai #llm #token-optimization"
         <h2>Strategy 3: Remove Files</h2>
         <div class="m">
           <div class="c" style="text-align:left;">
-            <p style="color:#ff375f; font-weight:bold;">Delete</p>
+            <p style="color:#F97316; font-weight:bold;">Delete</p>
             <p>DIRECTORY-TREE.md</p>
             <p>FILE-INVENTORY.md</p>
             <p>PROJECT_PORTFOLIO (4084 lines!)</p>
@@ -120,8 +120,8 @@ hashtags: "#presentation #ai #llm #token-optimization"
       <section>
         <h2>Before & After</h2>
         <div class="m">
-          <div class="c" style="border-color:#ff375f;">
-            <p style="color:#ff375f; font-weight:bold;">BEFORE</p>
+          <div class="c" style="border-color:#F97316;">
+            <p style="color:#F97316; font-weight:bold;">BEFORE</p>
             <p>60 files • 162 KB</p>
             <p>4084-line portfolio file</p>
             <p>7 .cursorignore variants</p>
@@ -137,7 +137,7 @@ hashtags: "#presentation #ai #llm #token-optimization"
 
       <section>
         <h2>Strategy 4: codebase-memory</h2>
-        <p style="color:#bf5af2;">Stop "read this file" • Stop grep the repo</p>
+        <p style="color:#EA580C;">Stop "read this file" • Stop grep the repo</p>
         <div class="m">
           <div class="c"><div class="n g">10x</div><p>Fewer tokens</p></div>
           <div class="c"><div class="n b">83%</div><p>Answer quality</p></div>
@@ -151,7 +151,7 @@ hashtags: "#presentation #ai #llm #token-optimization"
         <h2>Impact Analysis</h2>
         <div class="m">
           <div class="c" style="text-align:left;">
-            <p style="color:#ff375f; font-weight:bold;">BEFORE</p>
+            <p style="color:#F97316; font-weight:bold;">BEFORE</p>
             <p>grep → scan → read → repeat</p>
             <p>~412,000 tokens per session</p>
           </div>
@@ -166,10 +166,10 @@ hashtags: "#presentation #ai #llm #token-optimization"
 
       <section>
         <h2>Advanced: AST Skeletonization</h2>
-        <p style="color:#bf5af2;">Hide implementation, keep structure</p>
+        <p style="color:#EA580C;">Hide implementation, keep structure</p>
         <div class="m">
           <div class="c" style="text-align:left;">
-            <p style="color:#ff375f; font-weight:bold;">BEFORE</p>
+            <p style="color:#F97316; font-weight:bold;">BEFORE</p>
             <p>Send full 1000-line file</p>
             <p>~50,000 tokens</p>
           </div>
@@ -184,7 +184,7 @@ hashtags: "#presentation #ai #llm #token-optimization"
 
       <section>
         <h2>Advanced: Prompt Caching</h2>
-        <p style="color:#bf5af2;">The game changer from Anthropic &amp; OpenAI</p>
+        <p style="color:#EA580C;">The game changer from Anthropic &amp; OpenAI</p>
         <div class="m">
           <div class="c"><div class="n g">90%</div><p>Cost reduction</p></div>
           <div class="c"><div class="n b">100KB</div><p>Cache checkpoint</p></div>
@@ -196,7 +196,7 @@ hashtags: "#presentation #ai #llm #token-optimization"
 
       <section>
         <h2>Advanced: LLMLingua Compression</h2>
-        <p style="color:#bf5af2;">Microsoft Research • 7B model pre-processor</p>
+        <p style="color:#EA580C;">Microsoft Research • 7B model pre-processor</p>
         <div class="m">
           <div class="c"><div class="n g">20x</div><p>Compression ratio</p></div>
           <div class="c"><div class="n b">&lt;1%</div><p>Accuracy drop</p></div>
@@ -208,7 +208,7 @@ hashtags: "#presentation #ai #llm #token-optimization"
 
       <section>
         <h2>Advanced: Multi-Model Routing</h2>
-        <p style="color:#bf5af2;">Don't use Sonnet for everything</p>
+        <p style="color:#EA580C;">Don't use Sonnet for everything</p>
         <div class="m">
           <div class="c" style="text-align:left;">
             <p style="color:#30d158; font-weight:bold;">Step 1: Haiku (cheap)</p>
@@ -216,7 +216,7 @@ hashtags: "#presentation #ai #llm #token-optimization"
             <p>Returns file paths only</p>
           </div>
           <div class="c" style="text-align:left;">
-            <p style="color:#0a84ff; font-weight:bold;">Step 2: Sonnet (expensive)</p>
+            <p style="color:#F5A623; font-weight:bold;">Step 2: Sonnet (expensive)</p>
             <p>Receives only 3 files</p>
             <p>Does the actual coding</p>
           </div>
@@ -226,10 +226,10 @@ hashtags: "#presentation #ai #llm #token-optimization"
 
       <section>
         <h2>Advanced: Unified Diff Output</h2>
-        <p style="color:#bf5af2;">Stop asking AI to rewrite entire files</p>
+        <p style="color:#EA580C;">Stop asking AI to rewrite entire files</p>
         <div class="m">
           <div class="c" style="text-align:left;">
-            <p style="color:#ff375f; font-weight:bold;">BEFORE</p>
+            <p style="color:#F97316; font-weight:bold;">BEFORE</p>
             <p>Rewrite entire 1000-line file</p>
             <p>Full re-stream every time</p>
           </div>
@@ -245,8 +245,8 @@ hashtags: "#presentation #ai #llm #token-optimization"
       <section>
         <h2>Advanced: Open Source Tools</h2>
         <div class="m">
-          <div class="c"><p style="font-weight:bold; color:#0a84ff;">Aider</p><p>Repository map with ctags</p><p>Strip comments &amp; whitespace</p></div>
-          <div class="c"><p style="font-weight:bold; color:#bf5af2;">Repomix</p><p>Pack repo → single file</p><p>Token counting + secrets scrub</p></div>
+          <div class="c"><p style="font-weight:bold; color:#F5A623;">Aider</p><p>Repository map with ctags</p><p>Strip comments &amp; whitespace</p></div>
+          <div class="c"><p style="font-weight:bold; color:#EA580C;">Repomix</p><p>Pack repo → single file</p><p>Token counting + secrets scrub</p></div>
           <div class="c"><p style="font-weight:bold; color:#30d158;">grep-ast</p><p>AST-aware grep</p><p>Signatures only, skip bodies</p></div>
           <div class="c"><p style="font-weight:bold; color:#ff9f0a;">codebase-memory</p><p>Knowledge graph index</p><p>158 languages, sub-ms queries</p></div>
         </div>
@@ -254,7 +254,7 @@ hashtags: "#presentation #ai #llm #token-optimization"
 
       <section>
         <h2>What We Added to .claude</h2>
-        <p style="color:#bf5af2;">New rule: rules/token-reduction.md</p>
+        <p style="color:#EA580C;">New rule: rules/token-reduction.md</p>
         <div class="m">
           <div class="c" style="text-align:left;">
             <p style="color:#30d158; font-weight:bold;">Added</p>
@@ -263,7 +263,7 @@ hashtags: "#presentation #ai #llm #token-optimization"
             <p>Always-loaded coding rule</p>
           </div>
           <div class="c" style="text-align:left;">
-            <p style="color:#0a84ff; font-weight:bold;">Result</p>
+            <p style="color:#F5A623; font-weight:bold;">Result</p>
             <p>.claude folder: cleaned + enhanced</p>
             <p>Agent knows all 8 techniques</p>
             <p>Applied automatically per session</p>
@@ -298,7 +298,7 @@ hashtags: "#presentation #ai #llm #token-optimization"
         <p>→ AST skeleton: 70% savings, full structure</p>
         <p>→ Prompt caching: 90% cost reduction</p>
         <p>→ LLMLingua: 20x compression, &lt;1% accuracy loss</p>
-        <p style="margin-top:1em; color:#0a84ff;">pirahansiah.com</p>
+        <p style="margin-top:1em; color:#F5A623;">pirahansiah.com</p>
       </section>
 
       <section>

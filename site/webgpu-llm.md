@@ -41,7 +41,7 @@ extra_css: webgpu-llm.css
         <span class="llm-search-icon">&#128269;</span>
       </div>
       <button type="button" id="llm-ask-btn" class="llm-ask-btn" disabled>Ask</button>
-      <button type="button" id="llm-init-btn" class="llm-ask-btn" style="background:var(--glass-bg);border:1px solid var(--glass-border);color:#0a84ff" title="Pre-download the selected model now (the Micro default is ~90 MB)">Load model</button>
+      <button type="button" id="llm-init-btn" class="llm-ask-btn" style="background:var(--glass-bg);border:1px solid var(--glass-border);color:#F5A623" title="Pre-download the selected model now (the Micro default is ~90 MB)">Load model</button>
     </div>
 
     <div class="llm-suggest">

@@ -50,18 +50,18 @@ extra_css: graph.css
     background: var(--glass-bg); color: var(--text); outline: none;
     box-sizing: border-box;
   }
-  .graph-search-box input:focus { border-color: #0a84ff; }
+  .graph-search-box input:focus { border-color: #F5A623; }
   .graph-search-box input::placeholder { color: var(--text-muted); }
   .graph-search-icon { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); color: var(--text-muted); font-size: 0.9rem; pointer-events: none; }
   .graph-search-count {
-    display: block; font-size: 0.75rem; color: #0a84ff;
+    display: block; font-size: 0.75rem; color: #F5A623;
     margin-top: 4px; text-align: center; min-height: 1em;
   }
   .graph-tag-hint {
     max-width: 500px; margin: 4px auto 8px; padding: 6px 14px;
     font-size: 0.8rem; text-align: center; border-radius: 8px;
-    background: rgba(10,132,255,0.12); border: 1px solid rgba(10,132,255,0.35);
-    color: #0a84ff;
+    background: rgba(245, 166, 35,0.12); border: 1px solid rgba(245, 166, 35,0.35);
+    color: #F5A623;
   }
   .gt-action { opacity: 0.75; font-style: italic; }
 </style>
@@ -82,7 +82,7 @@ extra_css: graph.css
   var tooltipEl = null;
   var gFuse = null;
 
-  var COLORS = { hub: "#0a84ff", page: "#30d158", tag: "#af52de", asset: "#8e8e93" };
+  var COLORS = { hub: "#F5A623", page: "#30d158", tag: "#af52de", asset: "#8e8e93" };
   var isDark = matchMedia("(prefers-color-scheme:dark)").matches;
   var BG = isDark ? "#0d1117" : "#f8f9fa";
   var TEXT = isDark ? "#f5f5f7" : "#1d1d1f";
@@ -121,7 +121,7 @@ extra_css: graph.css
       var isHL = active && (s === active || t === active);
       var isDim = (active && !isHL) || (activeTag && !(tagNeighborIds.has(s.id) && tagNeighborIds.has(t.id)));
       ctx.beginPath(); ctx.moveTo(s.x, s.y); ctx.lineTo(t.x, t.y);
-      ctx.strokeStyle = isHL ? "#0a84ff" : EDGE_COLOR;
+      ctx.strokeStyle = isHL ? "#F5A623" : EDGE_COLOR;
       ctx.lineWidth = isHL ? 1.5 / transform.k : 0.5 / transform.k;
       ctx.globalAlpha = isDim ? 0.04 : isHL ? 0.8 : 0.3;
       ctx.stroke(); ctx.globalAlpha = 1;
@@ -145,7 +145,7 @@ extra_css: graph.css
       ctx.globalAlpha = isDim ? 0.06 : isAsset ? 0.5 : 1;
       ctx.beginPath(); ctx.arc(n.x, n.y, isHov ? r + 2 : r, 0, Math.PI * 2);
       ctx.fillStyle = fill; ctx.fill();
-      ctx.strokeStyle = isHov ? "#0a84ff" : "rgba(255,255,255,0.15)";
+      ctx.strokeStyle = isHov ? "#F5A623" : "rgba(255,255,255,0.15)";
       ctx.lineWidth = (isHov ? 2 : 0.4) / Math.max(transform.k, 0.5);
       ctx.stroke();
 
@@ -154,7 +154,7 @@ extra_css: graph.css
         var label = n.label || n.id;
         if (!isHov && !isConn && label.length > 20) label = label.substring(0, 18) + "…";
         ctx.globalAlpha = isDim ? 0.08 : isHov ? 1 : 0.5;
-        ctx.fillStyle = isHov ? "#0a84ff" : TEXT;
+        ctx.fillStyle = isHov ? "#F5A623" : TEXT;
         ctx.font = (isHov ? "600 " : "400 ") + Math.max(8, 10 / Math.max(transform.k, 0.5)) + "px -apple-system, system-ui, sans-serif";
         ctx.textAlign = "center";
         ctx.fillText(label, n.x, n.y + r + 10 / Math.max(transform.k, 0.5));

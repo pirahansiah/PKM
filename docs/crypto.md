@@ -13,7 +13,7 @@ hashtags: "#crypto #bitcoin #ethereum #solana #base #bnb #donate #web3"
 .crypto-hero { text-align: center; padding: 40px 20px 16px; }
 .crypto-hero h1 {
   font-size: 2.5rem; font-weight: 800; line-height: 1.2; margin-bottom: 12px;
-  background: linear-gradient(135deg, #0a84ff 0%, #bf5af2 50%, #ff375f 100%);
+  background: linear-gradient(135deg, #F5A623 0%, #EA580C 50%, #F97316 100%);
   -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
 }
 .crypto-hero p { color: var(--text-muted); font-size: 1.12rem; max-width: 680px; margin: 0 auto; line-height: 1.65; }
@@ -31,11 +31,11 @@ hashtags: "#crypto #bitcoin #ethereum #solana #base #bnb #donate #web3"
 .warn-box.warning b { color: #ff6961; }
 .warn-box.caution { background: rgba(255,149,0,0.10); border: 1px solid rgba(255,159,10,0.38); color: #ffd9a0; }
 .warn-box.caution b { color: #ffb340; }
-.warn-box.note { background: rgba(10,132,255,0.10); border: 1px solid rgba(10,132,255,0.38); color: #bcd9ff; }
-.warn-box.note b { color: #5ac8fa; }
+.warn-box.note { background: rgba(245, 166, 35,0.10); border: 1px solid rgba(245, 166, 35,0.38); color: #bcd9ff; }
+.warn-box.note b { color: #14B8A6; }
 .warn-box.when { background: rgba(48,209,88,0.09); border: 1px solid rgba(48,209,88,0.36); color: #b7e8c7; }
 .warn-box.when b { color: #30d158; }
-.warn-box code { font-family: ui-monospace, monospace; color: #5ac8fa; }
+.warn-box code { font-family: ui-monospace, monospace; color: #14B8A6; }
 
 /* --- token selector --- */
 .crypto-selector {
@@ -48,11 +48,10 @@ hashtags: "#crypto #bitcoin #ethereum #solana #base #bnb #donate #web3"
   background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14);
   transition: all 0.18s ease;
 }
-.token-pill:hover { border-color: rgba(90,200,250,0.5); color: var(--text); }
-.token-pill.active {
-  color: #fff; border-color: transparent;
-  background: linear-gradient(135deg, #0a84ff, #bf5af2);
-  box-shadow: 0 4px 16px rgba(10,132,255,0.35);
+.token-pill:hover { border-color: rgba(245, 166, 35,0.5); color: var(--text); }
+.token-pill.active { color: #1B1208; border-color: transparent;
+  background: linear-gradient(135deg, #F5A623, #EA580C);
+  box-shadow: 0 4px 16px rgba(245, 166, 35,0.35);
 }
 
 /* --- wallet panel --- */
@@ -79,7 +78,7 @@ hashtags: "#crypto #bitcoin #ethereum #solana #base #bnb #donate #web3"
 }
 .copy-btn {
   display: inline-flex; align-items: center; gap: 8px; padding: 10px 22px;
-  background: linear-gradient(135deg, #0a84ff, #5ac8fa); color: #fff; border: none;
+  background: linear-gradient(135deg, #F5A623, #EA580C); color: #1B1208; border: none;
   border-radius: 10px; font-size: 0.92rem; font-weight: 700; cursor: pointer;
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
