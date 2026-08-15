@@ -100,6 +100,7 @@ noindex: true
 }
 .send-panel h3 { margin: 0 0 4px; font-size: 1.15rem; }
 .send-desc { color: var(--text-muted); font-size: 0.82rem; margin: 0 0 14px; }
+.send-balance { font-size: 0.9rem; font-weight: 600; color: #7ee0a3; margin-bottom: 14px; min-height: 1.2em; }
 .send-row { display: flex; align-items: center; gap: 10px; justify-content: center; margin-bottom: 14px; }
 .send-row input {
   width: 180px; padding: 11px 14px; border-radius: 10px; font-size: 1rem;
@@ -188,6 +189,7 @@ noindex: true
 <div class="send-panel">
   <h3>Send crypto</h3>
   <p class="send-desc">Sends native tokens from your connected wallet to the support address (auto-switches network).</p>
+  <div class="send-balance" id="send-balance">Connect MetaMask to see your balance.</div>
   <div class="send-row">
     <input type="text" id="send-amount" inputmode="decimal" placeholder="0.001" autocomplete="off">
     <span class="send-sym" id="send-sym">ETH</span>
@@ -239,6 +241,11 @@ noindex: true
     base: { chainId: '0x2105', name: 'Base', symbol: 'ETH', rpc: 'https://mainnet.base.org' },
     bnb: { chainId: '0x38', name: 'BNB Smart Chain', symbol: 'BNB', rpc: 'https://bsc-dataseed.binance.org' }
   };
+  var BALANCE_RPC = {
+    eth: 'https://ethereum-rpc.publicnode.com',
+    base: 'https://mainnet.base.org',
+    bnb: 'https://bsc-dataseed.binance.org'
+  };
 
   var tickerEl = document.getElementById('sel-ticker');
   var chainEl = document.getElementById('sel-chain');
@@ -262,6 +269,7 @@ noindex: true
   var sendSym = document.getElementById('send-sym');
   var sendBtn = document.getElementById('send-btn');
   var sendStatus = document.getElementById('send-status');
+  var sendBalance = document.getElementById('send-balance');
 
   var connectedAccount = null;
   var current = 'eth';
@@ -281,6 +289,48 @@ noindex: true
     var frac = (parts[1] || '').replace(/[^0-9]/g, '').padEnd(decimals, '0').slice(0, decimals);
     var val = BigInt(whole) * (10n ** BigInt(decimals)) + BigInt(frac || '0');
     return neg ? -val : val;
+  }
+
+  function formatBalance(hexWei) {
+    try {
+      var wei = BigInt(hexWei);
+      var whole = wei / (10n ** 18n);
+      var frac = (wei % (10n ** 18n)).toString().padStart(18, '0').slice(0, 6).replace(/0+$/, '');
+      return frac ? whole.toString() + '.' + frac : whole.toString();
+    } catch (e) { return '0'; }
+  }
+
+  async function fetchBalance(account, rpc) {
+    var resp = await fetch(rpc, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ jsonrpc: '2.0', id: 1, method: 'eth_getBalance', params: [account, 'latest'] })
+    });
+    if (!resp.ok) throw new Error('rpc ' + resp.status);
+    var data = await resp.json();
+    if (data && data.error) throw new Error(data.error.message);
+    return data.result;
+  }
+
+  async function refreshBalance() {
+    var t = TOKENS[current];
+    if (!connectedAccount) {
+      sendBalance.textContent = 'Connect MetaMask to see your balance.';
+      return;
+    }
+    if (!t.evm) {
+      sendBalance.textContent = 'MetaMask can only read EVM wallets (ETH, BASE, BNB).';
+      return;
+    }
+    var rpc = BALANCE_RPC[current];
+    if (!rpc) { sendBalance.textContent = ''; return; }
+    sendBalance.textContent = 'Loading balance…';
+    try {
+      var hex = await fetchBalance(connectedAccount, rpc);
+      sendBalance.textContent = 'Your balance: ' + formatBalance(hex) + ' ' + t.sym + ' (' + t.chain + ')';
+    } catch (e) {
+      sendBalance.textContent = 'Balance unavailable on ' + t.chain + '.';
+    }
   }
 
   function renderQR(text) {
@@ -321,6 +371,7 @@ noindex: true
     copyBtn.textContent = 'Copy address';
     pills.forEach(function (p) { p.classList.toggle('active', p.getAttribute('data-token') === current); });
     updateSendState();
+    refreshBalance();
   }
 
   function updateSendState() {
@@ -444,11 +495,12 @@ noindex: true
       sendStatus.className = 'send-status ok';
       sendAmount.value = '';
       refreshLive();
+      refreshBalance();
     } catch (e) {
       if (e && e.code === 4001) { sendStatus.textContent = 'Transaction rejected.'; sendStatus.className = 'send-status err'; }
       else { sendStatus.textContent = (e && e.message) || 'Send failed.'; sendStatus.className = 'send-status err'; }
     } finally {
-      updateSendState();
+      sendBtn.disabled = false;
     }
   }
 
