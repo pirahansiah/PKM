@@ -2,19 +2,18 @@
 layout: farshid_default
 permalink: /metamask/
 title: "MetaMask — Connect & Receive"
-description: "Connect MetaMask to auto-fill your EVM address, or select a token to reveal its receive address. Private test page."
+description: "Connect MetaMask to auto-fill your EVM address, send crypto, or reveal a receive address. Private test page."
 sitemap: false
 noindex: true
 ---
 
-> **MetaMask Connect** — Connect your wallet and get your receive address + QR code. — https://pirahansiah.com/metamask/
+> **MetaMask Connect** — Connect your wallet, receive, or send crypto automatically. — https://pirahansiah.com/metamask/
 
 <style>
 .mm-hero { text-align: center; padding: 32px 16px 4px; }
 .mm-hero h1 { font-size: 2rem; margin: 0 0 8px; }
 .mm-hero p { color: var(--text-muted); margin: 0 auto 4px; max-width: 640px; }
 
-/* --- connect bar --- */
 .mm-connect-bar { max-width: 520px; margin: 18px auto 0; padding: 0 16px; text-align: center; }
 .mm-btn {
   display: inline-block; padding: 12px 26px; border: none; border-radius: 12px; cursor: pointer;
@@ -24,6 +23,7 @@ noindex: true
 }
 .mm-btn:hover { transform: translateY(-1px); box-shadow: 0 6px 22px rgba(10,132,255,0.45); }
 .mm-btn.ghost { background: var(--glass-bg-strong); box-shadow: none; }
+.mm-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
 .mm-connected {
   display: none; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap;
   padding: 12px 16px; border-radius: 14px; background: var(--glass-bg); border: 1px solid var(--glass-border);
@@ -37,7 +37,6 @@ noindex: true
   color: #ff8a9b; font-size: 0.88rem; display: none;
 }
 
-/* --- disclaimers --- */
 .crypto-warnings { max-width: 760px; margin: 22px auto 6px; padding: 0 16px; display: grid; gap: 12px; }
 .warn-box {
   display: flex; gap: 12px; align-items: flex-start;
@@ -56,7 +55,6 @@ noindex: true
 .warn-box.when b { color: #30d158; }
 .warn-box code { font-family: ui-monospace, monospace; color: #5ac8fa; }
 
-/* --- token selector --- */
 .crypto-selector { max-width: 760px; margin: 26px auto 0; padding: 0 16px; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
 .token-pill {
   padding: 9px 18px; border-radius: 999px; cursor: pointer; font-size: 0.9rem; font-weight: 700;
@@ -66,9 +64,8 @@ noindex: true
 .token-pill:hover { border-color: rgba(90,200,250,0.5); color: var(--text); }
 .token-pill.active { color: #fff; border-color: transparent; background: linear-gradient(135deg, #0a84ff, #bf5af2); box-shadow: 0 4px 16px rgba(10,132,255,0.35); }
 
-/* --- wallet panel --- */
 .crypto-panel {
-  max-width: 440px; margin: 22px auto 40px; padding: 26px 22px; border-radius: 20px; text-align: center;
+  max-width: 440px; margin: 22px auto 0; padding: 26px 22px; border-radius: 20px; text-align: center;
   background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12);
   backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
 }
@@ -79,7 +76,8 @@ noindex: true
 .panel-live { display: none; color: #30d158; font-size: 0.78rem; margin-bottom: 10px; }
 .crypto-panel .qr { width: 168px; height: 168px; margin: 0 auto 16px; border-radius: 12px; background: #fff; padding: 10px; display: flex; align-items: center; justify-content: center; }
 .crypto-panel .qr img { width: 148px; height: 148px; display: block; }
-.crypto-panel .qr canvas { display: none; }
+.crypto-panel .qr .qr-svg { display: none; }
+.crypto-panel .qr .qr-svg svg { width: 148px; height: 148px; display: block; }
 .crypto-panel .addr {
   font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
   font-size: 0.8rem; line-height: 1.5; word-break: break-all; color: #c9d4e3;
@@ -93,12 +91,41 @@ noindex: true
 .copy-btn:hover { opacity: 0.9; transform: scale(1.03); }
 .copy-btn.copied { background: linear-gradient(135deg, #34c759, #30d158); }
 .panel-warn { margin-top: 16px; font-size: 0.8rem; color: #ffb340; line-height: 1.5; }
+
+/* --- send panel --- */
+.send-panel {
+  max-width: 440px; margin: 18px auto 40px; padding: 24px 22px; border-radius: 20px; text-align: center;
+  background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12);
+  backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+}
+.send-panel h3 { margin: 0 0 4px; font-size: 1.15rem; }
+.send-desc { color: var(--text-muted); font-size: 0.82rem; margin: 0 0 14px; }
+.send-row { display: flex; align-items: center; gap: 10px; justify-content: center; margin-bottom: 14px; }
+.send-row input {
+  width: 180px; padding: 11px 14px; border-radius: 10px; font-size: 1rem;
+  background: rgba(0,0,0,0.28); border: 1px solid rgba(255,255,255,0.14); color: var(--text);
+}
+.send-row input:focus { outline: none; border-color: rgba(90,200,250,0.6); }
+.send-sym { font-size: 0.9rem; font-weight: 700; color: var(--text-muted); min-width: 34px; }
+.send-btn {
+  display: inline-block; padding: 11px 28px; border: none; border-radius: 12px; cursor: pointer;
+  font-size: 0.95rem; font-weight: 700; color: #fff;
+  background: linear-gradient(135deg, #34c759, #30d158); box-shadow: 0 4px 18px rgba(48,209,88,0.3);
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+.send-btn:hover { transform: translateY(-1px); }
+.send-btn:disabled { opacity: 0.45; cursor: not-allowed; transform: none; }
+.send-status { margin-top: 12px; font-size: 0.84rem; line-height: 1.5; min-height: 1.2em; color: var(--text-muted); word-break: break-all; }
+.send-status.ok { color: #30d158; }
+.send-status.err { color: #ff8a9b; }
+.send-status.pending { color: #ffb340; }
+
 .mm-note { color: var(--text-muted); font-size: 0.8rem; margin: 20px auto 0; text-align: center; max-width: 560px; padding-bottom: 40px; }
 </style>
 
 <div class="mm-hero">
   <h1>MetaMask — Connect &amp; Receive</h1>
-  <p>Connect your wallet to auto-fill your EVM address, or select a token below to reveal its receive address.</p>
+  <p>Connect your wallet, then receive or send crypto automatically. Select a token to switch networks.</p>
 </div>
 
 <div class="mm-connect-bar">
@@ -120,7 +147,7 @@ noindex: true
   <div class="warn-box caution">
     <span class="warn-icon">&#9888;&#65039;</span>
     <div><b>Caution — send on the correct network</b>
-    Ethereum, Base and BNB Smart Chain share the same address (<code>0xFcE7&hellip;53B0C</code>). Sending on the wrong network — for example Base instead of Ethereum — can permanently lose your funds. Always verify the network in your wallet before confirming.</div>
+    Ethereum, Base and BNB Smart Chain share the same address (<code>0xFcE7&hellip;53B0C</code>). Sending on the wrong network — for example Base instead of Ethereum — can permanently lose your funds. The page auto-switches to the right network before sending.</div>
   </div>
   <div class="warn-box note">
     <span class="warn-icon">&#8505;&#65039;</span>
@@ -151,39 +178,52 @@ noindex: true
   <div class="panel-live" id="sel-live">&#10003; Live from your connected MetaMask wallet</div>
   <div class="qr">
     <img id="sel-qr-img" src="{{ '/assets/qr/eth.svg' | relative_url }}" alt="Ethereum QR code">
-    <canvas id="sel-qr-canvas" width="148" height="148"></canvas>
+    <div class="qr-svg" id="sel-qr-svg"></div>
   </div>
   <div class="addr" id="sel-addr">0xFcE78486AE65e006Dc0d235FDD5d1E9169D53B0C</div>
   <button class="copy-btn" id="sel-copy" type="button">Copy address</button>
   <div class="panel-warn" id="sel-warn">Send only on the Ethereum network (ERC-20).</div>
 </div>
 
+<div class="send-panel">
+  <h3>Send crypto</h3>
+  <p class="send-desc">Sends native tokens from your connected wallet to the support address (auto-switches network).</p>
+  <div class="send-row">
+    <input type="text" id="send-amount" inputmode="decimal" placeholder="0.001" autocomplete="off">
+    <span class="send-sym" id="send-sym">ETH</span>
+  </div>
+  <button class="send-btn" id="send-btn" type="button" disabled>Send</button>
+  <div class="send-status" id="send-status">Connect MetaMask to enable sending.</div>
+</div>
+
 <p class="mm-note">Private test page — not linked from anywhere on the site. Requires the MetaMask browser extension.</p>
 
-<script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.4/lib/browser.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
 <script>
 (function () {
+  var RECIPIENT = '0xFcE78486AE65e006Dc0d235FDD5d1E9169D53B0C';
+
   var TOKENS = {
     btc: { ticker: '&#8383; BTC', chain: 'Bitcoin', qr: '/assets/qr/btc.svg',
       addr: 'bc1q922uu6uwu3x2grlkypeuyywet9msk2fzxypy6d',
       network: 'Bitcoin network &middot; native BTC &middot; bech32 (SegWit) address',
-      warn: 'Send only on the Bitcoin network.', evm: false },
+      warn: 'Send only on the Bitcoin network.', evm: false, sym: 'BTC' },
     eth: { ticker: '&#9874; ETH', chain: 'Ethereum', qr: '/assets/qr/eth.svg',
-      addr: '0xFcE78486AE65e006Dc0d235FDD5d1E9169D53B0C',
+      addr: RECIPIENT,
       network: 'Ethereum mainnet &middot; native ETH &amp; ERC-20 tokens',
-      warn: 'Send only on the Ethereum network (ERC-20).', evm: true },
+      warn: 'Send only on the Ethereum network (ERC-20).', evm: true, sym: 'ETH', chainId: '0x1' },
     sol: { ticker: '&#9670; SOL', chain: 'Solana', qr: '/assets/qr/sol.svg',
       addr: 'DPfX2mNvCqQuosQLe4nDBQRf8ZdNfS5LA4tvSsGPyCH4',
       network: 'Solana network &middot; native SOL &amp; SPL tokens',
-      warn: 'Send only on the Solana network.', evm: false },
+      warn: 'Send only on the Solana network.', evm: false, sym: 'SOL' },
     base: { ticker: '&#9650; BASE', chain: 'Base', qr: '/assets/qr/base.svg',
-      addr: '0xFcE78486AE65e006Dc0d235FDD5d1E9169D53B0C',
+      addr: RECIPIENT,
       network: 'Base L2 &middot; native ETH &amp; ERC-20 tokens',
-      warn: 'Send only on the Base network &mdash; do NOT send on Ethereum mainnet.', evm: true },
+      warn: 'Send only on the Base network &mdash; do NOT send on Ethereum mainnet.', evm: true, sym: 'ETH', chainId: '0x2105' },
     bnb: { ticker: '&#9679; BNB', chain: 'BNB Smart Chain', qr: '/assets/qr/bnb.svg',
-      addr: '0xFcE78486AE65e006Dc0d235FDD5d1E9169D53B0C',
+      addr: RECIPIENT,
       network: 'BNB Smart Chain &middot; native BNB &amp; BEP-20 tokens',
-      warn: 'Send only on BNB Smart Chain (BEP-20).', evm: true }
+      warn: 'Send only on BNB Smart Chain (BEP-20).', evm: true, sym: 'BNB', chainId: '0x38' }
   };
   var CHAINS = {
     '0x1': { name: 'Ethereum Mainnet', sym: 'ETH' },
@@ -194,13 +234,18 @@ noindex: true
     '0xa4b1': { name: 'Arbitrum One', sym: 'ETH' },
     '0xa': { name: 'Optimism', sym: 'ETH' }
   };
+  var CHAIN_DETAILS = {
+    eth: { chainId: '0x1', name: 'Ethereum Mainnet', symbol: 'ETH', rpc: 'https://eth.llamarpc.com' },
+    base: { chainId: '0x2105', name: 'Base', symbol: 'ETH', rpc: 'https://mainnet.base.org' },
+    bnb: { chainId: '0x38', name: 'BNB Smart Chain', symbol: 'BNB', rpc: 'https://bsc-dataseed.binance.org' }
+  };
 
   var tickerEl = document.getElementById('sel-ticker');
   var chainEl = document.getElementById('sel-chain');
   var networkEl = document.getElementById('sel-network');
   var liveEl = document.getElementById('sel-live');
   var qrImg = document.getElementById('sel-qr-img');
-  var qrCanvas = document.getElementById('sel-qr-canvas');
+  var qrSvg = document.getElementById('sel-qr-svg');
   var addrEl = document.getElementById('sel-addr');
   var warnEl = document.getElementById('sel-warn');
   var copyBtn = document.getElementById('sel-copy');
@@ -213,6 +258,11 @@ noindex: true
   var disconnectBtn = document.getElementById('mm-disconnect');
   var errBox = document.getElementById('mm-err');
 
+  var sendAmount = document.getElementById('send-amount');
+  var sendSym = document.getElementById('send-sym');
+  var sendBtn = document.getElementById('send-btn');
+  var sendStatus = document.getElementById('send-status');
+
   var connectedAccount = null;
   var current = 'eth';
 
@@ -220,25 +270,49 @@ noindex: true
   function clearErr() { errBox.style.display = 'none'; errBox.textContent = ''; }
   function short(a) { return a.slice(0, 6) + '&hellip;' + a.slice(-4); }
 
+  function toWei(s, decimals) {
+    decimals = decimals || 18;
+    s = String(s).trim();
+    var neg = s[0] === '-';
+    if (neg) s = s.slice(1);
+    var parts = s.split('.');
+    if (parts.length > 2) throw new Error('bad amount');
+    var whole = (parts[0] || '').replace(/[^0-9]/g, '') || '0';
+    var frac = (parts[1] || '').replace(/[^0-9]/g, '').padEnd(decimals, '0').slice(0, decimals);
+    var val = BigInt(whole) * (10n ** BigInt(decimals)) + BigInt(frac || '0');
+    return neg ? -val : val;
+  }
+
+  function renderQR(text) {
+    qrSvg.innerHTML = '';
+    if (typeof qrcode === 'function') {
+      try {
+        var qr = qrcode(0, 'M');
+        qr.addData(text);
+        qr.make();
+        qrSvg.innerHTML = qr.createSvgTag({ cellSize: 4, margin: 0 });
+      } catch (e) { /* leave empty */ }
+    }
+  }
+
   function display() {
     var t = TOKENS[current];
     tickerEl.innerHTML = t.ticker;
     chainEl.textContent = t.chain;
     networkEl.innerHTML = t.network;
     warnEl.innerHTML = t.warn;
+    sendSym.textContent = t.sym;
     var useLive = t.evm && connectedAccount;
     var addr = useLive ? connectedAccount : t.addr;
     addrEl.textContent = addr;
     if (useLive) {
       liveEl.style.display = 'block';
       qrImg.style.display = 'none';
-      qrCanvas.style.display = 'block';
-      if (window.QRCode) {
-        try { QRCode.toCanvas(qrCanvas, addr, { width: 148, margin: 1 }); } catch (e) {}
-      }
+      qrSvg.style.display = 'block';
+      renderQR(addr);
     } else {
       liveEl.style.display = 'none';
-      qrCanvas.style.display = 'none';
+      qrSvg.style.display = 'none';
       qrImg.style.display = 'block';
       qrImg.src = t.qr;
       qrImg.alt = t.chain + ' QR code';
@@ -246,6 +320,26 @@ noindex: true
     copyBtn.classList.remove('copied');
     copyBtn.textContent = 'Copy address';
     pills.forEach(function (p) { p.classList.toggle('active', p.getAttribute('data-token') === current); });
+    updateSendState();
+  }
+
+  function updateSendState() {
+    var t = TOKENS[current];
+    if (!connectedAccount) {
+      sendBtn.disabled = true;
+      sendStatus.textContent = 'Connect MetaMask to enable sending.';
+      sendStatus.className = 'send-status';
+      return;
+    }
+    if (!t.evm) {
+      sendBtn.disabled = true;
+      sendStatus.textContent = 'MetaMask can only send EVM tokens (ETH, BASE, BNB).';
+      sendStatus.className = 'send-status';
+      return;
+    }
+    sendBtn.disabled = false;
+    sendStatus.textContent = 'Sends ' + t.sym + ' to ' + short(RECIPIENT) + ' (' + t.chain + ').';
+    sendStatus.className = 'send-status';
   }
 
   function select(token) { current = token; display(); }
@@ -274,6 +368,7 @@ noindex: true
     clearErr();
     try {
       var accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
+      if (!accounts || accounts.length === 0) throw new Error('No account returned.');
       connectedAccount = accounts[0];
       connectBtn.style.display = 'none';
       connectedBox.style.display = 'flex';
@@ -292,7 +387,6 @@ noindex: true
     acctEl.textContent = '';
     balEl.textContent = '';
     display();
-    // Revoke the MetaMask permission so the next "Connect" re-prompts.
     if (typeof window.ethereum !== 'undefined' && window.ethereum.request) {
       try {
         await window.ethereum.request({ method: 'wallet_revokePermissions', params: [{ eth_accounts: {} }] });
@@ -300,8 +394,67 @@ noindex: true
     }
   }
 
+  async function ensureChain(token) {
+    var detail = CHAIN_DETAILS[token];
+    if (!detail) return true;
+    var currentChain = await window.ethereum.request({ method: 'eth_chainId' });
+    if (currentChain === detail.chainId) return true;
+    try {
+      await window.ethereum.request({ method: 'wallet_switchEthereumChain', params: [{ chainId: detail.chainId }] });
+    } catch (switchErr) {
+      if (switchErr && switchErr.code === 4902) {
+        await window.ethereum.request({
+          method: 'wallet_addEthereumChain',
+          params: [{
+            chainId: detail.chainId,
+            chainName: detail.name,
+            rpcUrls: [detail.rpc],
+            nativeCurrency: { name: detail.symbol, symbol: detail.symbol, decimals: 18 }
+          }]
+        });
+      } else {
+        throw switchErr;
+      }
+    }
+  }
+
+  async function send() {
+    var t = TOKENS[current];
+    if (!connectedAccount) { sendStatus.textContent = 'Connect MetaMask first.'; sendStatus.className = 'send-status err'; return; }
+    if (!t.evm) { sendStatus.textContent = 'MetaMask can only send EVM tokens (ETH, BASE, BNB).'; sendStatus.className = 'send-status err'; return; }
+    var amountStr = sendAmount.value.trim();
+    var wei;
+    try { wei = toWei(amountStr, 18); } catch (e) { wei = 0n; }
+    if (!amountStr || wei <= 0n) {
+      sendStatus.textContent = 'Enter a valid amount greater than zero.';
+      sendStatus.className = 'send-status err';
+      return;
+    }
+    sendBtn.disabled = true;
+    sendStatus.textContent = 'Switching network & requesting confirmation…';
+    sendStatus.className = 'send-status pending';
+    try {
+      await ensureChain(current);
+      sendStatus.textContent = 'Confirm the transaction in MetaMask…';
+      var txHash = await window.ethereum.request({
+        method: 'eth_sendTransaction',
+        params: [{ from: connectedAccount, to: RECIPIENT, value: '0x' + wei.toString(16) }]
+      });
+      sendStatus.textContent = 'Sent! Tx: ' + txHash;
+      sendStatus.className = 'send-status ok';
+      sendAmount.value = '';
+      refreshLive();
+    } catch (e) {
+      if (e && e.code === 4001) { sendStatus.textContent = 'Transaction rejected.'; sendStatus.className = 'send-status err'; }
+      else { sendStatus.textContent = (e && e.message) || 'Send failed.'; sendStatus.className = 'send-status err'; }
+    } finally {
+      updateSendState();
+    }
+  }
+
   connectBtn.addEventListener('click', connect);
   disconnectBtn.addEventListener('click', disconnect);
+  sendBtn.addEventListener('click', send);
 
   copyBtn.addEventListener('click', function () {
     var addr = addrEl.textContent;
@@ -326,10 +479,10 @@ noindex: true
 
   if (typeof window.ethereum !== 'undefined') {
     window.ethereum.on('accountsChanged', function (accounts) {
-      if (accounts.length === 0) disconnect();
+      if (!accounts || accounts.length === 0) disconnect();
       else { connectedAccount = accounts[0]; refreshLive(); display(); }
     });
-    window.ethereum.on('chainChanged', function () { refreshLive(); });
+    window.ethereum.on('chainChanged', function () { refreshLive(); display(); });
   }
 
   display();
