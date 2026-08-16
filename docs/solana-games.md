@@ -278,4 +278,4 @@ hashtags: "#solana #games #snake #tetris #phantom #web3 #crypto"
   </div>
 </div>
 
-<script src="{{ '/assets/js/solana-games.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/solana-games.js?v=2' | relative_url }}"></script>

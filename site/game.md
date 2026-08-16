@@ -81,4 +81,4 @@ description: Play Snake, Flappy Bird and 2048 — classic arcade games in your b
 </div>
 
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
-<script src="{{ '/assets/js/game.js?v=1' | relative_url }}"></script>
+<script src="{{ '/assets/js/game.js?v=2' | relative_url }}"></script>
