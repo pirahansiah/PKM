@@ -11,7 +11,7 @@ description: Invite friends to join — trading, investing, and AI tools.
 .hero-section { text-align: center; padding: 56px 24px 32px; }
 .hero-section h1 {
   font-size: 2.4rem; font-weight: 800; margin-bottom: 12px;
-  background: linear-gradient(135deg, #34D399 0%, #10B981 50%, #059669 100%);
+  background: linear-gradient(135deg, #8FB996 0%, #6FAE8A 50%, #5BA57B 100%);
   -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
 }
 .hero-subtitle { font-size: 1.15rem; color: var(--text-muted); max-width: 560px; margin: 0 auto 8px; line-height: 1.6; }
@@ -27,11 +27,11 @@ description: Invite friends to join — trading, investing, and AI tools.
 .expertise-card h3 { font-size: 1.15rem; font-weight: 700; margin: 0; }
 .expertise-card p { font-size: 0.92rem; color: var(--text-muted); line-height: 1.5; margin: 0; flex: 1; }
 .cta-btn {
-  display: inline-block; padding: 12px 22px; background: #059669; color: #fff;
+  display: inline-block; padding: 12px 22px; background: #5BA57B; color: #fff;
   text-decoration: none; border-radius: 12px; font-size: 0.95rem; font-weight: 700;
   text-align: center; transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
-.cta-btn:hover { background: #047857; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(5, 150, 105, 0.35); }
+.cta-btn:hover { background: #46825F; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(91, 165, 123, 0.35); }
 </style>
 
 > **Share** — Invite friends to join — trading, investing, and AI tools — https://pirahansiah.com/share/
