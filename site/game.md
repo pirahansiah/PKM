@@ -28,7 +28,7 @@ description: Play Snake, Flappy Bird and 2048 — classic arcade games in your b
     <button type="button" class="game-btn" id="game-share" title="Share your score">&#128279; Share</button>
   </div>
 
-  <div class="game-stage">
+  <div class="game-stage" id="game-stage">
     <!-- SNAKE -->
     <div class="game-panel" id="game-snake">
       <canvas id="snake-canvas" aria-label="Snake game board"></canvas>

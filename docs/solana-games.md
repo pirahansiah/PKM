@@ -68,6 +68,9 @@ hashtags: "#solana #games #snake #tetris #phantom #web3 #crypto"
 }
 .sga-tab:hover { border-color: rgba(20,241,149,0.5); color: var(--text); }
 .sga-tab.active { color: #0b0b0f; border-color: transparent; background: linear-gradient(135deg, #14F195, #9945FF); box-shadow: 0 4px 16px rgba(20,241,149,0.3); }
+.sga-phone-note { max-width: 560px; margin: 12px auto 0; font-size: 0.9rem; color: var(--text-muted); line-height: 1.5; }
+.sga-tip-addr { display: block; max-width: 540px; margin: 12px auto; padding: 12px 14px; border-radius: 10px; background: rgba(20,241,149,0.08); border: 1px solid rgba(20,241,149,0.28); font-family: ui-monospace, SF Mono, Menlo, monospace; font-size: 0.9rem; word-break: break-all; user-select: all; }
+.sga-tip-hint { font-size: 0.85rem; color: var(--text-muted); }
 
 .sga-panel { margin-top: 14px; }
 .sga-hud {
@@ -151,6 +154,7 @@ hashtags: "#solana #games #snake #tetris #phantom #web3 #crypto"
   .sga-hero h1 { font-size: 1.9rem; }
   .sga-scores { grid-template-columns: 1fr; }
   .sga-pad { min-width: 52px; height: 52px; } /* 44px+ touch targets */
+  .sga-tab { padding: 14px 26px; font-size: 1rem; }
 }
 </style>
 
@@ -168,6 +172,12 @@ hashtags: "#solana #games #snake #tetris #phantom #web3 #crypto"
       <button id="wallet-disconnect-btn" class="sga-btn ghost small" type="button">Disconnect</button>
     </div>
     <div class="sga-err" id="wallet-err"></div>
+    <p class="sga-phone-note">📱 <b>On mobile or inside Telegram?</b> Solana wallets can't connect inside Telegram's browser &mdash; the games still work everywhere, and you can send a tip to the SOL address below.</p>
+  </div>
+
+  <div class="sga-tabs">
+    <button id="tab-snake" class="sga-tab active" type="button">&#128013; Snake</button>
+    <button id="tab-tetris" class="sga-tab" type="button">&#129521; Tetris</button>
   </div>
 
   <div class="sga-warnings">
@@ -186,11 +196,6 @@ hashtags: "#solana #games #snake #tetris #phantom #web3 #crypto"
       <div><b>No on-chain leaderboard yet</b>
       Scores are local, not stored on-chain. Signing produces a proof you can verify against your public key, but scores are not written to the Solana network.</div>
     </div>
-  </div>
-
-  <div class="sga-tabs">
-    <button id="tab-snake" class="sga-tab active" type="button">&#128013; Snake</button>
-    <button id="tab-tetris" class="sga-tab" type="button">&#129521; Tetris</button>
   </div>
 
   <div id="panel-snake" class="sga-panel">
@@ -263,11 +268,13 @@ hashtags: "#solana #games #snake #tetris #phantom #web3 #crypto"
   <div class="sga-scores" id="sga-scores"></div>
 
   <div class="sga-support">
-    <p><strong>Tip the developer</strong> &mdash; if the games made you smile, a small SOL tip helps keep this open-source work going.</p>
+    <p><strong>Tip the developer</strong> &mdash; if the games made you smile, a small SOL tip helps keep this open-source work going. Send any amount to this address:</p>
+    <code class="sga-tip-addr" id="tip-address">4Ub6VYF69PdCjpCMWDysU54WPb1xB7s628ASkCuJmcib</code>
     <div class="sga-support-actions">
-      <a class="sga-btn ghost" href="{{ '/crypto/' | relative_url }}">View Solana address</a>
+      <a class="sga-btn ghost" href="{{ '/crypto/' | relative_url }}">All donation addresses</a>
       <button id="tip-copy" class="sga-btn ghost" type="button">Copy SOL address</button>
     </div>
+    <p class="sga-tip-hint">Works in Telegram and mobile browsers too &mdash; no wallet connection needed to send.</p>
   </div>
 </div>
 

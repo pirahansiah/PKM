@@ -215,7 +215,7 @@ noindex: true
       network: 'Ethereum mainnet &middot; native ETH &amp; ERC-20 tokens',
       warn: 'Send only on the Ethereum network (ERC-20).', evm: true, sym: 'ETH', chainId: '0x1' },
     sol: { ticker: '&#9670; SOL', chain: 'Solana', qr: '/assets/qr/sol.svg',
-      addr: 'DPfX2mNvCqQuosQLe4nDBQRf8ZdNfS5LA4tvSsGPyCH4',
+      addr: '4Ub6VYF69PdCjpCMWDysU54WPb1xB7s628ASkCuJmcib',
       network: 'Solana network &middot; native SOL &amp; SPL tokens',
       warn: 'Send only on the Solana network.', evm: false, sym: 'SOL' },
     base: { ticker: '&#9650; BASE', chain: 'Base', qr: '/assets/qr/base.svg',

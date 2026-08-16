@@ -155,7 +155,7 @@ hashtags: "#crypto #bitcoin #ethereum #solana #base #bnb #donate #web3"
     sol: {
       ticker: '&#9670; SOL', chain: 'Solana',
       qr: '/assets/qr/sol.svg',
-      addr: 'DPfX2mNvCqQuosQLe4nDBQRf8ZdNfS5LA4tvSsGPyCH4',
+      addr: '4Ub6VYF69PdCjpCMWDysU54WPb1xB7s628ASkCuJmcib',
       network: 'Solana network &middot; native SOL &amp; SPL tokens',
       warn: 'Send only on the Solana network.'
     },
