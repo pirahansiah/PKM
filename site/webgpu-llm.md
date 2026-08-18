@@ -15,6 +15,7 @@ extra_css: webgpu-llm.css
       <a href="{{ '/graph/' | relative_url }}" class="liquid-glass-item">Graph</a>
       <a href="{{ '/graph-tags/' | relative_url }}" class="liquid-glass-item">Hashtags</a>
       <a href="{{ '/search/' | relative_url }}" class="liquid-glass-item">&#128269; Search</a>
+      <a href="{{ '/swarm/' | relative_url }}" class="liquid-glass-item">Swarm</a>
       <a href="{{ '/' | relative_url }}" class="liquid-glass-item">Home</a>
     </div>
   </div>

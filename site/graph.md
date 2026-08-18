@@ -15,6 +15,7 @@ extra_css: graph.css
       <a href="{{ '/graph-tags/' | relative_url }}" class="liquid-glass-item">Hashtags</a>
       <a href="{{ '/search/' | relative_url }}" class="liquid-glass-item">&#128269; Search</a>
       <a href="{{ '/webgpu-llm/' | relative_url }}" class="liquid-glass-item">LLM</a>
+      <a href="{{ '/swarm/' | relative_url }}" class="liquid-glass-item">Swarm</a>
       <a href="{{ '/' | relative_url }}" class="liquid-glass-item">Home</a>
     </div>
   </div>
