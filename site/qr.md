@@ -65,10 +65,11 @@ permalink: /qr/
       <span class="qr-ico">&#128187;</span>
       <h3>OpenCode</h3>
       <p class="qr-desc">Low cost coding models for everyone.</p>
-      <img class="qr-img" src="{{ '/assets/qr/opencode.svg' | relative_url }}" alt="OpenCode QR code" width="150" height="150">
+      <img class="qr-img" src="{{ '/assets/qr/opencode.png' | relative_url }}" alt="OpenCode QR code" width="150" height="150">
       <a class="qr-link" href="https://opencode.ai/go?ref=3KMNQG0CS4" target="_blank" rel="noopener">opencode.ai/go?ref=3KMNQG0CS4</a>
       <div class="qr-actions">
         <a class="qr-btn open" href="https://opencode.ai/go?ref=3KMNQG0CS4" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/opencode.png' | relative_url }}" download>Download</a>
         <button class="qr-btn copy" data-link="https://opencode.ai/go?ref=3KMNQG0CS4">Copy</button>
       </div>
     </div>
@@ -77,10 +78,11 @@ permalink: /qr/
       <span class="qr-ico">&#128184;</span>
       <h3>Trade Republic</h3>
       <p class="qr-desc">The smartest way to invest, spend and bank. Create an account via the link to secure a welcome bonus.</p>
-      <img class="qr-img" src="{{ '/assets/qr/trade.svg' | relative_url }}" alt="Trade Republic QR code" width="150" height="150">
+      <img class="qr-img" src="{{ '/assets/qr/trade.png' | relative_url }}" alt="Trade Republic QR code" width="150" height="150">
       <a class="qr-link" href="https://refnocode.trade.re/z28xmjp6" target="_blank" rel="noopener">refnocode.trade.re/z28xmjp6</a>
       <div class="qr-actions">
         <a class="qr-btn open" href="https://refnocode.trade.re/z28xmjp6" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/trade.png' | relative_url }}" download>Download</a>
         <button class="qr-btn copy" data-link="https://refnocode.trade.re/z28xmjp6">Copy</button>
       </div>
     </div>
@@ -89,10 +91,11 @@ permalink: /qr/
       <span class="qr-ico">&#128202;</span>
       <h3>Scalable Capital</h3>
       <p class="qr-desc">Join me at Scalable — the best place to invest in your financial future. Open an account in minutes and secure a start bonus of €25.</p>
-      <img class="qr-img" src="{{ '/assets/qr/scalable.svg' | relative_url }}" alt="Scalable Capital QR code" width="150" height="150">
+      <img class="qr-img" src="{{ '/assets/qr/scalable.png' | relative_url }}" alt="Scalable Capital QR code" width="150" height="150">
       <a class="qr-link" href="https://de.scalable.capital/en/invitation/bj2bkn" target="_blank" rel="noopener">de.scalable.capital/en/invitation/bj2bkn</a>
       <div class="qr-actions">
         <a class="qr-btn open" href="https://de.scalable.capital/en/invitation/bj2bkn" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/scalable.png' | relative_url }}" download>Download</a>
         <button class="qr-btn copy" data-link="https://de.scalable.capital/en/invitation/bj2bkn">Copy</button>
       </div>
     </div>
@@ -101,10 +104,11 @@ permalink: /qr/
       <span class="qr-ico">&#128176;</span>
       <h3>Wise</h3>
       <p class="qr-desc">Send and receive money internationally with low fees. Join with my invite link.</p>
-      <img class="qr-img" src="{{ '/assets/qr/wise.svg' | relative_url }}" alt="Wise QR code" width="150" height="150">
+      <img class="qr-img" src="{{ '/assets/qr/wise.png' | relative_url }}" alt="Wise QR code" width="150" height="150">
       <a class="qr-link" href="https://wise.com/invite/ilpn/farshidp1" target="_blank" rel="noopener">wise.com/invite/ilpn/farshidp1</a>
       <div class="qr-actions">
         <a class="qr-btn open" href="https://wise.com/invite/ilpn/farshidp1" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/wise.png' | relative_url }}" download>Download</a>
         <button class="qr-btn copy" data-link="https://wise.com/invite/ilpn/farshidp1">Copy</button>
       </div>
     </div>
@@ -113,10 +117,11 @@ permalink: /qr/
       <span class="qr-ico">&#128200;</span>
       <h3>eToro</h3>
       <p class="qr-desc">Hey! I'm trading with eToro — 1,000s of assets and awesome tools. Want to join me? Use my link to sign up.</p>
-      <img class="qr-img" src="{{ '/assets/qr/etoro.svg' | relative_url }}" alt="eToro QR code" width="150" height="150">
+      <img class="qr-img" src="{{ '/assets/qr/etoro.png' | relative_url }}" alt="eToro QR code" width="150" height="150">
       <a class="qr-link" href="https://etoro.tw/3XGZzNz" target="_blank" rel="noopener">etoro.tw/3XGZzNz</a>
       <div class="qr-actions">
         <a class="qr-btn open" href="https://etoro.tw/3XGZzNz" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/etoro.png' | relative_url }}" download>Download</a>
         <button class="qr-btn copy" data-link="https://etoro.tw/3XGZzNz">Copy</button>
       </div>
     </div>
@@ -125,10 +130,11 @@ permalink: /qr/
       <span class="qr-ico">&#129517;</span>
       <h3>Kraken</h3>
       <p class="qr-desc">Buy, sell and trade crypto on Kraken — one of the world's most trusted exchanges. Join with my invite link.</p>
-      <img class="qr-img" src="{{ '/assets/qr/kraken.svg' | relative_url }}" alt="Kraken QR code" width="150" height="150">
+      <img class="qr-img" src="{{ '/assets/qr/kraken.png' | relative_url }}" alt="Kraken QR code" width="150" height="150">
       <a class="qr-link" href="https://invite.kraken.com/JDNW/sqqgzc9a" target="_blank" rel="noopener">invite.kraken.com/JDNW/sqqgzc9a</a>
       <div class="qr-actions">
         <a class="qr-btn open" href="https://invite.kraken.com/JDNW/sqqgzc9a" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/kraken.png' | relative_url }}" download>Download</a>
         <button class="qr-btn copy" data-link="https://invite.kraken.com/JDNW/sqqgzc9a">Copy</button>
       </div>
     </div>
