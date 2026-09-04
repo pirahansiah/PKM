@@ -29,9 +29,12 @@ markmap: |
   - SendBySound
   - Kanoon Archive
 ---
-
-
+last_modified_at: 2026-08-08
 > **Curated Links & Resources** — Collection of AI, CV, ML, and software development tools and tutorials — https://www.pirahansiah.com/notes/pkm/links/
+Collection of AI, CV, ML, and software development tools and tutorials
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Link Collection
 

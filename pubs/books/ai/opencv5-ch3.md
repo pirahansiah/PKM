@@ -19,5 +19,10 @@ markmap: |
 tags: [opencv, computer-vision, image-processing, filtering]
 hashtags: "#opencv #cv #imageprocessing #filtering"
 ---
+last_modified_at: 2026-08-08
 > **OpenCV 5 — Chapter 3: Advanced Topics** — Advanced computer vision techniques including filtering, morphology, and G-API integration. — https://www.pirahansiah.com/notes/pubs/books/ai/opencv5-ch3/
+Advanced computer vision techniques including filtering, morphology, and G-API integration.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 

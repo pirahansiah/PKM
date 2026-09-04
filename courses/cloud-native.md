@@ -16,8 +16,12 @@ markmap: |
   ## Deployment
   - Pods, services, ingress
 ---
-
+last_modified_at: 2026-08-08
 > **Cloud-Native with Kubernetes** — Docker and Kubernetes fundamentals for cloud-native infrastructure. — https://www.pirahansiah.com/notes/courses/cloud-native/
+Docker and Kubernetes fundamentals for cloud-native infrastructure.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Cloud-Native Infrastructure with Kubernetes
 

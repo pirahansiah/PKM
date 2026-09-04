@@ -21,8 +21,12 @@ markmap: |
 tags: [thresholding, psnr, adaptive-thresholding, image-segmentation]
 hashtags: "#thresholding #psnr #adaptivethresholding #imagesegmentation"
 ---
-
+last_modified_at: 2026-08-08
 > **Adaptive Thresholding Based on PSNR** — PSNR-based adaptive thresholding for image segmentation in OCR and license plate recognition. — https://www.pirahansiah.com/notes/pubs/journals/adaptive-thresholding/
+PSNR-based adaptive thresholding for image segmentation in OCR and license plate recognition.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 Adaptive_Image_Thresholding_Based_on_the_Peak_Signal-to-noise_Ratio
 

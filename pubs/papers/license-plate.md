@@ -20,8 +20,12 @@ markmap: |
 tags: [license-plate-recognition, entropy, thresholding, image-segmentation]
 hashtags: "#lpr #entropy #thresholding #imagesegmentation"
 ---
-
+last_modified_at: 2026-08-08
 > **Entropy-Based Multi-Threshold LPR** — Multi-threshold license plate recognition using entropy-based image segmentation. — https://www.pirahansiah.com/notes/pubs/papers/license-plate/
+Multi-threshold license plate recognition using entropy-based image segmentation.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 License_Plate_Recognition_with_Multi-Threshold_Based_on_Entropy
 

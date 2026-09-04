@@ -20,7 +20,12 @@ markmap: |
   - Memory optimization
   - Decorators & dataclasses
 ---
+last_modified_at: 2026-08-08
 > **Python Configuration & C++ Integration** — Python configuration methods comparison plus pybind11 and Cython tips for C++ integration. — https://www.pirahansiah.com/notes/docs/python/
+Python configuration methods comparison plus pybind11 and Cython tips for C++ integration.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Python
 [Python](https://www.pirahansiah.com/notes/docs/python)

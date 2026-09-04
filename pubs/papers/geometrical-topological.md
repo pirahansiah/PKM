@@ -22,8 +22,12 @@ markmap: |
 tags: [classification, geometrical-features, pattern-recognition, machine-learning]
 hashtags: "#classification #geometricalfeatures #patternrecognition #ml"
 ---
-
+last_modified_at: 2026-08-08
 > **Classification with Geometrical Features** — Evaluation of classification techniques using enhanced geometrical and topological features. — https://www.pirahansiah.com/notes/pubs/papers/geometrical-topological/
+Evaluation of classification techniques using enhanced geometrical and topological features.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 An_evaluation_of_classification_techniques_using_enhanced_Geometrical_Topological_Feature_Analysis
 

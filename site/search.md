@@ -2,9 +2,14 @@
 layout: farshid_default
 title: Search
 permalink: /search/
+description: "Search the entire pirahansiah.com knowledge base — computer vision, deep learning, CUDA, LLM integration and edge-AI deployment notes."
 ---
-
+last_modified_at: 2026-08-16
 > **Search** — Search — https://www.pirahansiah.com/search/
+Search the entire pirahansiah.com knowledge base — computer vision, deep learning, CUDA, LLM integration and edge-AI deployment notes.
+
+*Last updated: 2026-08-16.*  <!--ENHANCED-->
+
 
 <style>
   .search-wrap { max-width: 700px; margin: 0 auto; padding: 0 16px; }

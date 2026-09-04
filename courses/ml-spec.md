@@ -21,8 +21,12 @@ markmap: |
   - KNN, KD-trees, LSH
   - K-means, LDA
 ---
-
+last_modified_at: 2026-08-08
 > **Machine Learning Specialization** — Coursera ML Specialization notes covering regression, classification, clustering, and neural networks. — https://www.pirahansiah.com/notes/courses/ml-spec/
+Coursera ML Specialization notes covering regression, classification, clustering, and neural networks.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Machine Learning Specialization 2022
 

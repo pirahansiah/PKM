@@ -21,8 +21,12 @@ markmap: |
   - Zero-Shot
   - Few-Shot
 ---
-
+last_modified_at: 2026-08-08
 > **Computer Vision Meets LLM** — Book exploring multimodal AI combining computer vision with large language models. — https://www.pirahansiah.com/notes/pubs/books/ai/cv-meets-llm/
+Book exploring multimodal AI combining computer vision with large language models.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 tags: [computer-vision, llm, multimodal, rag]
 hashtags: "#cv #llm #multimodal #rag"

@@ -3,9 +3,14 @@ layout: farshid_default
 title: WebGPU LLM
 permalink: /webgpu-llm/
 extra_css: webgpu-llm.css
+description: "Run a large language model entirely in your browser with WebGPU — ask questions across all pirahansiah.com notes, 100% locally, nothing sent to a server."
 ---
-
+last_modified_at: 2026-08-18
 > **WebGPU LLM** — Ask your questions across all site pages with an in-browser LLM — https://www.pirahansiah.com/webgpu-llm/
+Run a large language model entirely in your browser with WebGPU — ask questions across all pirahansiah.com notes, 100% locally, nothing sent to a server.
+
+*Last updated: 2026-08-18.*  <!--ENHANCED-->
+
 
 <div class="llm-page">
   <div class="llm-header">

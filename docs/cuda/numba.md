@@ -19,8 +19,12 @@ markmap: |
   - Factorials
   - Matrix Multiplication
 ---
-
+last_modified_at: 2026-08-08
 > **Accelerate Python with Numba's @jit(nopython=True)** — Tutorial on using Numba's @jit decorator to compile Python functions into optimized machine code for faster numerical computing. — https://www.pirahansiah.com/notes/docs/cuda/numba/
+Tutorial on using Numba's @jit decorator to compile Python functions into optimized machine code for faster numerical computing.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 Accelerate Python with Numba’s `@jit(nopython=True)` 
 

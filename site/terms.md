@@ -4,8 +4,12 @@ title: Terms of Service
 permalink: /terms/
 description: "Terms of service for pirahansiah.com: acceptable use of the content, intellectual property notice, disclaimers, and contact information."
 ---
-
+last_modified_at: 2026-08-14
 > **Terms of Service** — Terms of Service — https://www.pirahansiah.com/terms/
+Terms of service for pirahansiah.com: acceptable use of the content, intellectual property notice, disclaimers, and contact information.
+
+*Last updated: 2026-08-14.*  <!--ENHANCED-->
+
 
 # Terms of Service
 

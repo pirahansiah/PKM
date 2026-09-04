@@ -7,9 +7,14 @@ tags:
   - llm
   - token-optimization
 hashtags: "#presentation #ai #llm #token-optimization"
+description: "Presentation: practical techniques to reduce token usage and cost when using AI assistants for software development."
 ---
-
+last_modified_at: 2026-08-16
 > **Reducing Token Usage in AI-Assisted Development** — Reducing Token Usage in AI-Assisted Development — https://www.pirahansiah.com/notes/slides/presentation/
+Presentation: practical techniques to reduce token usage and cost when using AI assistants for software development.
+
+*Last updated: 2026-08-16.*  <!--ENHANCED-->
+
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css">

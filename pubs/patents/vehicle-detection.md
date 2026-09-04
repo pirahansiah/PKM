@@ -24,16 +24,19 @@ tags: [patent, vehicle-detection, image-processing, traffic-surveillance]
 hashtags: "#patent #vehicledetection #imageprocessing #trafficsurveillance"
 date_modified: 2024-10-12
 ---
-
-
+last_modified_at: 2026-08-08
 > **Moving Vehicle Detection WO2021107761A1** — Image processing method for detecting moving vehicles using CLAHE, Sobel, and geometric filtering. — https://www.pirahansiah.com/notes/pubs/patents/vehicle-detection/
+Image processing method for detecting moving vehicles using CLAHE, Sobel, and geometric filtering.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 [spotify](https://podcasters.spotify.com/pod/show/pirahansiah/episodes/A-METHOD-FOR-DETECTING-A-MOVING-VEHICLE-WO2021107761A1-e2pk5mj)
 
 
 
 <audio controls>
-  <source src="/notes/pubs/patents/A_METHOD_FOR_DETECTING_A_MOVING_VEHICLE_WO2021107761A1.mp3" type="audio/mpeg">
+  <source src="/notes/pubs/patents/vehicle-detection.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 

@@ -17,8 +17,12 @@ markmap: |
   - Modes & navigation
   - Visual selection
 ---
-
+last_modified_at: 2026-08-08
 > **Shell & Vim Quick Reference** — Quick reference for shell commands, vim basics, and essential CLI tools. — https://www.pirahansiah.com/notes/docs/shell-vim/
+Quick reference for shell commands, vim basics, and essential CLI tools.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 - [NeoHtop](https://github.com/Abdenasser/neohtop)
 - 

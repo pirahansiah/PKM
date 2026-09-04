@@ -20,8 +20,12 @@ markmap: |
   - PR review with .diff
   - GitIngest & GitSummarize
 ---
-
+last_modified_at: 2026-08-08
 > **Developer Tools & Setup Guide** — Curated developer tools, shell essentials, Docker tips, and GitHub tricks. — https://www.pirahansiah.com/notes/docs/dev-tools/
+Curated developer tools, shell essentials, Docker tips, and GitHub tricks.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 ## Recommended Tools
 

@@ -18,8 +18,12 @@ markmap: |
   - 3D Superior Performance
   - Better Rotation Handling
 ---
-
+last_modified_at: 2026-08-08
 > **2D vs 3D Mapping for Moving Objects** — Comparison of 2D and 3D mapping approaches for environment movement detection. — https://www.pirahansiah.com/notes/pubs/papers/2d-3d-mapping/
+Comparison of 2D and 3D mapping approaches for environment movement detection.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 tags: [3d-mapping, object-detection, computer-vision, robotics]
 hashtags: "#3dmapping #objectdetection #cv #robotics"

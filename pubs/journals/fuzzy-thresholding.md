@@ -21,8 +21,12 @@ markmap: |
 tags: [fuzzy-logic, thresholding, psnr, image-segmentation]
 hashtags: "#fuzzylogic #thresholding #psnr #imagesegmentation"
 ---
-
+last_modified_at: 2026-08-08
 > **GSFT-PSNR: Fuzzy Threshold Method** — Fuzzy logic approach to global single thresholding using PSNR for image segmentation. — https://www.pirahansiah.com/notes/pubs/journals/fuzzy-thresholding/
+Fuzzy logic approach to global single thresholding using PSNR for image segmentation.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 GSFT-PSNR_Global_Single_Fuzzy_Threshold
 

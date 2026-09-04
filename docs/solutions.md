@@ -24,8 +24,12 @@ markmap: |
   - LinkedIn Posts
   - Book Summaries
 ---
-
+last_modified_at: 2026-08-16
 > **Solutions — AI Courses & Workshops** — AI 2026 courses, workshops, and business solutions for production-ready products. — https://www.pirahansiah.com/notes/docs/solutions/
+AI 2026 courses, workshops, and business solutions for production-ready products.
+
+*Last updated: 2026-08-16.*  <!--ENHANCED-->
+
 
 <style>
 .sitemap-hero {

@@ -20,8 +20,12 @@ markmap: |
   - Real-time systems
   - Edge AI
 ---
-
+last_modified_at: 2026-08-08
 > **CV Coaching & Teaching Roadmap** — Personalized computer vision coaching with a structured curriculum from fundamentals to edge AI. — https://www.pirahansiah.com/notes/docs/coaching/
+Personalized computer vision coaching with a structured curriculum from fundamentals to edge AI.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Computer Vision Expertise: Teaching & Coaching Services
 

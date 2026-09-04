@@ -18,8 +18,12 @@ markmap: |
   - Paths & pipes
   - Log levels
 ---
-
+last_modified_at: 2026-08-08
 > **C++ Quick Reference** — Quick reference for C++ memory management, data structures, debugging tools, and shell basics. — https://www.pirahansiah.com/notes/docs/cpp/
+Quick reference for C++ memory management, data structures, debugging tools, and shell basics.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 C++
 

@@ -18,9 +18,12 @@ markmap: |
 tags: [computer-vision, debugging, lessons-learned, opencv]
 hashtags: "#cv #debugging #lessonslearned #opencv"
 ---
-
-
+last_modified_at: 2026-08-08
 > **10 Years of CV Debugging Lessons** — Lessons learned from a decade of debugging computer vision systems in production. — https://www.pirahansiah.com/notes/pubs/10-years/
+Lessons learned from a decade of debugging computer vision systems in production.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 I engage directly with investors, customers, and companies to present our solutions and understand their concerns and product needs. By organizing and analyzing these requirements from a professional, technical perspective, I design and architect robust software systems. I translate these user needs into actionable user stories, project milestones, and tasks to deliver reliable solutions, while planning future optimizations and feature roadmaps.
 # update Aug. 2026

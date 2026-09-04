@@ -20,8 +20,12 @@ markmap: |
 tags: [character-recognition, feature-extraction, glcm, ocr]
 hashtags: "#characterrecognition #featureextraction #glcm #ocr"
 ---
-
+last_modified_at: 2026-08-08
 > **Character Recognition via Global Features** — Hybrid GLCM and EDMS method for character recognition in OCR applications. — https://www.pirahansiah.com/notes/pubs/papers/global-feature-recognition/
+Hybrid GLCM and EDMS method for character recognition in OCR applications.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 Character_Recognition_Based_on_Global_Feature
 

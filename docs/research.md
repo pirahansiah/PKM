@@ -25,8 +25,12 @@ markmap: |
   ## Keynotes
   - LLMs Meet Computer Vision
 ---
-
+last_modified_at: 2026-08-16
 > **Research — Publications & Patents** — Complete list of patents, journal articles, conference papers, books, and keynotes. — https://www.pirahansiah.com/notes/docs/research/
+Complete list of patents, journal articles, conference papers, books, and keynotes.
+
+*Last updated: 2026-08-16.*  <!--ENHANCED-->
+
 
 <style>
 .sitemap-hero {

@@ -21,8 +21,12 @@ markmap: |
 tags: [ant-colony-optimization, image-processing, thresholding, optimization]
 hashtags: "#aco #imageprocessing #thresholding #optimization"
 ---
-
+last_modified_at: 2026-08-08
 > **Ant Colony Optimization for Image Processing** — ACO-based optimization for image thresholding and edge detection in OCR systems. — https://www.pirahansiah.com/notes/pubs/journals/ant-colony/
+ACO-based optimization for image thresholding and edge detection in OCR systems.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 USING_AN_ANT_COLONY_OPTIMIZATION_ALGORITHM
 

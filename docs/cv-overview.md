@@ -27,8 +27,12 @@ markmap: |
   - 3 Patents, 17+ Papers
   - Startup Guide
 ---
-
+last_modified_at: 2026-08-15
 > **Dr. Farshid Pirahansiah — CV & AI** — Dr. Farshid Pirahansiah — CV & AI — https://www.pirahansiah.com/notes/docs/cv-overview/
+Overview of Dr. Farshid Pirahansiah's computer vision and AI expertise: 3D vision, multi-camera systems, optical flow, model optimization, and edge AI deployment.
+
+*Last updated: 2026-08-15.*  <!--ENHANCED-->
+
 
 # Dr. Farshid Pirahansiah
 

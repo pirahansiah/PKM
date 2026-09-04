@@ -19,6 +19,11 @@ markmap: |
   - PyTorch, ONNX
   - C++, Python
 ---
+last_modified_at: 2026-08-08
 > **Solutions** — Showcase of industry applications, portfolio projects, and technical skills in computer vision and AI. — https://www.pirahansiah.com/notes/docs/projects/solutions/
+Showcase of industry applications, portfolio projects, and technical skills in computer vision and AI.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Impact Portfolio

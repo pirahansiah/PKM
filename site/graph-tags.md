@@ -3,9 +3,14 @@ layout: farshid_default
 title: Hashtag Graph
 permalink: /graph-tags/
 extra_css: graph.css
+description: "Hashtag knowledge graph of pirahansiah.com — see how #ai, #llm, #cuda, #computervision and other topics cluster and connect."
 ---
-
+last_modified_at: 2026-08-11
 > **Hashtag Graph** — Hashtag Graph — https://www.pirahansiah.com/graph-tags/
+Hashtag knowledge graph of pirahansiah.com — see how #ai, #llm, #cuda, #computervision and other topics cluster and connect.
+
+*Last updated: 2026-08-11.*  <!--ENHANCED-->
+
 
 <div class="graph-page">
   <div class="graph-header">

@@ -16,8 +16,12 @@ markmap: |
 tags: [book, opencv, computer-vision, ai]
 hashtags: "#book #opencv #computervision #ai"
 ---
-
+last_modified_at: 2026-08-08
 > **Books & Book Chapters** — Books and book chapters on computer vision, camera calibration, and AI. — https://www.pirahansiah.com/notes/pubs/books/
+Books and book chapters on computer vision, camera calibration, and AI.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Books & Book Chapters
 

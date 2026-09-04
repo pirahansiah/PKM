@@ -16,7 +16,11 @@ markmap: |
 tags: [camera-calibration, video-stabilization, robotics, slam]
 hashtags: "#cameracalibration #videostabilization #robotics #slam"
 ---
+last_modified_at: 2026-08-14
 
+Springer book chapter on fuzzy camera calibration and video stabilization for robot localization.
+
+*Last updated: 2026-08-14.*  <!--ENHANCED-->
 My_Book_chapter_Camera_Calibration_and_Video_Stabilization_Framework_for_Robot_Localization  in the Book entitled “Control Engineering in Robotics and Industrial Automation" published in Springer
 
 

@@ -3,9 +3,14 @@ layout: farshid_default
 title: Knowledge Graph
 permalink: /graph/
 extra_css: graph.css
+description: "Interactive knowledge graph of pirahansiah.com — explore how AI, computer vision, CUDA, LLM and edge-deployment notes connect."
 ---
-
+last_modified_at: 2026-08-18
 > **Knowledge Graph** — Knowledge Graph — https://www.pirahansiah.com/graph/
+Interactive knowledge graph of pirahansiah.com — explore how AI, computer vision, CUDA, LLM and edge-deployment notes connect.
+
+*Last updated: 2026-08-18.*  <!--ENHANCED-->
+
 
 <div class="graph-page">
   <div class="graph-header">

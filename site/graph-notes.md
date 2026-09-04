@@ -2,9 +2,14 @@
 layout: farshid_default
 title: Knowledge Graph — Files & Architecture
 permalink: /graph-notes/
+description: "How the pirahansiah.com knowledge graph is built from the Obsidian vault — file architecture, link extraction and the generator pipeline."
 ---
-
+last_modified_at: 2026-08-16
 > **Knowledge Graph — Files & Architecture** — Knowledge Graph — Files & Architecture — https://www.pirahansiah.com/graph-notes/
+How the pirahansiah.com knowledge graph is built from the Obsidian vault — file architecture, link extraction and the generator pipeline.
+
+*Last updated: 2026-08-16.*  <!--ENHANCED-->
+
 
 fuzzy symantic search , hashtags, tags, keywords, content, points, naming, obsidian show grphraph knowledge based like foam on vscode. 
 # Knowledge Graph — All Files & Code

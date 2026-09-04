@@ -16,8 +16,12 @@ markmap: |
   ## PKM
   - Personal knowledge management methods
 ---
-
+last_modified_at: 2026-08-08
 > **Book Summaries** — Book summaries and knowledge management resources. — https://www.pirahansiah.com/notes/courses/book-summary/
+Book summaries and knowledge management resources.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Book Summaries
 

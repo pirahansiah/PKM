@@ -6,8 +6,12 @@ description: "Support Dr. Farshid Pirahansiah's open-source computer vision and 
 tags: [crypto, bitcoin, ethereum, solana, base, bnb, donations, support]
 hashtags: "#crypto #bitcoin #ethereum #solana #base #bnb #donate #web3"
 ---
-
+last_modified_at: 2026-08-16
 > **Crypto Payments** — Support open-source computer vision and edge AI work with cryptocurrency. — https://pirahansiah.com/crypto/
+Support Dr. Farshid Pirahansiah's open-source computer vision and edge AI work with cryptocurrency. Bitcoin, Ethereum, Solana, Base and BNB Smart Chain wallet addresses.
+
+*Last updated: 2026-08-16.*  <!--ENHANCED-->
+
 
 <style>
 .crypto-hero { text-align: center; padding: 40px 20px 16px; }

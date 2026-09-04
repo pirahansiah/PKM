@@ -20,8 +20,12 @@ markmap: |
   ## Edge
   - Low-latency inference
 ---
-
+last_modified_at: 2026-08-08
 > **OpenVINO Deep Learning** — Intel OpenVINO toolkit for optimizing and deploying deep learning models. — https://www.pirahansiah.com/notes/courses/openvino/
+Intel OpenVINO toolkit for optimizing and deploying deep learning models.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # OpenVINO Deep Learning
 

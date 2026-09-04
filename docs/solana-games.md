@@ -6,8 +6,12 @@ description: "Play Snake and Tetris in your browser, connect a Phantom wallet, a
 tags: [solana, games, snake, tetris, phantom, web3, arcade]
 hashtags: "#solana #games #snake #tetris #phantom #web3 #crypto"
 ---
-
+last_modified_at: 2026-08-16
 > **Solana Arcade** — Play Snake & Tetris, connect Phantom, and sign your high score as a cryptographic proof. — https://pirahansiah.com/solana-games/
+Play Snake and Tetris in your browser, connect a Phantom wallet, and sign your high score as a cryptographic proof on Solana. No install, no account, runs locally.
+
+*Last updated: 2026-08-16.*  <!--ENHANCED-->
+
 
 <style>
 .sga-wrap { max-width: 860px; margin: 0 auto; padding: 0 16px 40px; }

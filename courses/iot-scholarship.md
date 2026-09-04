@@ -23,8 +23,12 @@ markmap: |
   - Classification, detection
   - Segmentation, GANs
 ---
-
+last_modified_at: 2026-08-08
 > **IoT Scholarship: Edge AI with OpenVINO** — IoT and Edge AI with OpenVINO: face recognition, object detection, pose estimation, and semantic segmentation. — https://www.pirahansiah.com/notes/courses/iot-scholarship/
+IoT and Edge AI with OpenVINO: face recognition, object detection, pose estimation, and semantic segmentation.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # IoT Scholarship Foundation
 

@@ -18,7 +18,12 @@ markmap: |
   - New Roles
   - Essential Skills
 ---
+last_modified_at: 2026-08-08
 > **OpenCV 5 — Chapter 0: Introduction** — Introduction to the new developer era, AI agents, and multi-agent systems. — https://www.pirahansiah.com/notes/pubs/books/ai/new-developer-era/
+Introduction to the new developer era, AI agents, and multi-agent systems.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 reference index: [[index]]
 tags: [ai-agents, multi-agent-systems, llm, deep-learning]

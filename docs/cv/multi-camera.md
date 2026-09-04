@@ -23,8 +23,12 @@ markmap: |
   - Buffer Management
   - UVC Driver
 ---
-
+last_modified_at: 2026-08-08
 > **Real-Time Multi-Camera Vision Systems** — Deep technical guide to building real-time multi-camera vision systems with heterogeneous processing and scaling to 100+ cameras. — https://www.pirahansiah.com/notes/docs/cv/multi-camera/
+Deep technical guide to building real-time multi-camera vision systems with heterogeneous processing and scaling to 100+ cameras.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Real-Time Multi-Camera Vision Systems
 

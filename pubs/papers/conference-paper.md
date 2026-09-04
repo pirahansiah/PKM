@@ -17,8 +17,12 @@ markmap: |
   ## Grid Computing
   - TafreshGrid
 ---
-
+last_modified_at: 2026-08-08
 > **Publications — Conference Papers** — All peer-reviewed conference papers by Dr. Farshid Pirahansiah on image processing, camera calibration, pattern recognition, and grid computing. — https://www.pirahansiah.com/notes/pubs/papers/conference-paper/
+All peer-reviewed conference papers by Dr. Farshid Pirahansiah on image processing, camera calibration, pattern recognition, and grid computing.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 tags: [research, papers, image-processing, computer-vision, camera-calibration, pattern-recognition]
 hashtags: "#research #papers #computervision #imageprocessing"

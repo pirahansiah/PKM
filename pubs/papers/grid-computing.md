@@ -22,8 +22,12 @@ markmap: |
 tags: [grid-computing, distributed-systems, high-performance-computing]
 hashtags: "#gridcomputing #distributedsystems #hpc"
 ---
-
+last_modified_at: 2026-08-08
 > **TafreshGrid: Grid Computing** — Grid computing infrastructure implementation and evaluation at Tafresh University. — https://www.pirahansiah.com/notes/pubs/papers/grid-computing/
+Grid computing infrastructure implementation and evaluation at Tafresh University.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 TafreshGrid_Grid_computing_in_Tafresh_university
 

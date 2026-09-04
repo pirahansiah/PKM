@@ -20,8 +20,12 @@ markmap: |
   - Windows & Mac utilities
   - Developer tools
 ---
-
+last_modified_at: 2026-08-08
 > **Curated Links & Resources** — Hand-picked tools, tutorials, and references for CV, AI, and software engineering. — https://www.pirahansiah.com/notes/docs/links/
+Hand-picked tools, tutorials, and references for CV, AI, and software engineering.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Curated Links & Resources
 

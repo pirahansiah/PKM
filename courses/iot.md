@@ -17,8 +17,12 @@ markmap: |
   - Smart devices
   - Industrial IoT
 ---
-
+last_modified_at: 2026-08-08
 > **Embedded IoT** — Workshop on embedded IoT systems and edge computing applications. — https://www.pirahansiah.com/notes/courses/iot/
+Workshop on embedded IoT systems and edge computing applications.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Embedded IoT
 

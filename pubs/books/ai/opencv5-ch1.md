@@ -17,8 +17,12 @@ markmap: |
   ## Community Engagement
   - Forums and Conferences
 ---
-
+last_modified_at: 2026-08-08
 > **OpenCV 5 — Chapter 1: Image Basics** — Glossary of AI/ML terms, references, and resources for computer vision practitioners. — https://www.pirahansiah.com/notes/pubs/books/ai/opencv5-ch1/
+Glossary of AI/ML terms, references, and resources for computer vision practitioners.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 tags: [opencv, image-processing, computer-vision, python]
 hashtags: "#opencv #imageprocessing #cv #python"

@@ -22,9 +22,12 @@ markmap: |
   - GPU-accelerated (CUDA)
   - LiteFlowNet for real-time
 ---
-
-
+last_modified_at: 2026-08-08
 > **Optical Flow: Challenges and Solutions** — Comprehensive guide to optical flow challenges including illumination changes, occlusions, fast motion, and their solutions. — https://www.pirahansiah.com/notes/docs/cv/optical-flow/
+Comprehensive guide to optical flow challenges including illumination changes, occlusions, fast motion, and their solutions.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 1. Illumination Variations
 

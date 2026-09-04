@@ -5,8 +5,12 @@ permalink: /game/
 extra_css: game.css
 description: Play Snake, Flappy Bird and 2048 — classic arcade games in your browser or as a Telegram Mini App. High scores, haptics and a share button.
 ---
-
+last_modified_at: 2026-08-16
 > **Games** — Play classic arcade games — Snake, Flappy Bird & 2048 — right in your browser or as a Telegram Mini App — https://pirahansiah.com/game/
+Play Snake, Flappy Bird and 2048 — classic arcade games in your browser or as a Telegram Mini App. High scores, haptics and a share button.
+
+*Last updated: 2026-08-16.*  <!--ENHANCED-->
+
 
 <div class="game-page">
   <div class="game-header">

@@ -5,8 +5,12 @@ description: "Scan or tap QR codes to open Dr. Farshid Pirahansiah's referral an
 tags: [qr, referral, invite, links, share]
 permalink: /qr/
 ---
-
+last_modified_at: 2026-09-04
 > **QR Codes** — Scan or tap to open referral & join links — OpenCode, Trade Republic, Scalable Capital, Wise, eToro — https://pirahansiah.com/qr/
+Scan or tap QR codes to open Dr. Farshid Pirahansiah's referral and join links — OpenCode, Trade Republic, Scalable Capital, Wise and eToro — and share them with friends.
+
+*Last updated: 2026-09-04.*  <!--ENHANCED-->
+
 
 <style>
 .qr-wrap { max-width: 920px; margin: 0 auto; padding: 8px 16px 56px; }

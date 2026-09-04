@@ -19,8 +19,12 @@ markmap: |
 tags: [camera-calibration, pattern-recognition, robotics]
 hashtags: "#cameracalibration #patternrecognition #robotics"
 ---
-
+last_modified_at: 2026-08-08
 > **Pattern Image for Camera Calibration** — Analysis of how pattern image design impacts camera calibration accuracy and reliability. — https://www.pirahansiah.com/notes/pubs/papers/pattern-calibration/
+Analysis of how pattern image design impacts camera calibration accuracy and reliability.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 Pattern_Image_Significance_for_Camera_Calibration
 

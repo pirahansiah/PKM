@@ -22,8 +22,12 @@ markmap: |
   - Error analysis
   - Hyperparameter tuning
 ---
-
+last_modified_at: 2026-08-08
 > **Full Stack Deep Learning** — Full Stack Deep Learning course notes covering ML production from data to deployment. — https://www.pirahansiah.com/notes/courses/fsdl/
+Full Stack Deep Learning course notes covering ML production from data to deployment.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Full Stack Deep Learning
 

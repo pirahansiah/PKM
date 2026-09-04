@@ -22,8 +22,12 @@ markmap: |
   - C++ & Python
   - Shell & Vim
 ---
-
+last_modified_at: 2026-08-16
 > **Product — Embedded CV & Edge AI** — Embedded computer vision and edge AI systems portfolio. — https://www.pirahansiah.com/notes/docs/product/
+Embedded computer vision and edge AI systems portfolio.
+
+*Last updated: 2026-08-16.*  <!--ENHANCED-->
+
 
 <style>
 .sitemap-hero {

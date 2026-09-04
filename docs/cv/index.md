@@ -5,8 +5,12 @@ description: "Computer vision topics: 3D vision, optical flow, multi-camera syst
 tags: [computer-vision, 3d, optical-flow]
 hashtags: "#cv #3d #opticalflow"
 ---
-
+last_modified_at: 2026-08-08
 > **Computer Vision** — Computer vision topics: 3D vision, optical flow, multi-camera systems. — https://www.pirahansiah.com/notes/docs/cv/
+Computer vision topics: 3D vision, optical flow, multi-camera systems.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Computer Vision
 

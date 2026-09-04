@@ -19,8 +19,12 @@ markmap: |
   ## CV Optimization
   - Pipeline performance tuning
 ---
-
+last_modified_at: 2026-08-08
 > **Parallel Programming for Computer Vision** — Python parallel programming techniques for computer vision applications. — https://www.pirahansiah.com/notes/courses/parallel/
+Python parallel programming techniques for computer vision applications.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Parallel Programming
 

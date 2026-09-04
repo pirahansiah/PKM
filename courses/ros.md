@@ -19,8 +19,12 @@ markmap: |
   ## Visualization
   - RViz, rqt tools
 ---
-
+last_modified_at: 2026-08-08
 > **ROS: Robot Operating System** — ETH Zurich lecture on ROS architecture, navigation, simulation, and robot models. — https://www.pirahansiah.com/notes/courses/ros/
+ETH Zurich lecture on ROS architecture, navigation, simulation, and robot models.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # ROS — Robot Operating System
 

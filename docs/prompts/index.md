@@ -17,7 +17,12 @@ markmap: |
   - Summarize & reorganize
   - Format for readability
 ---
+last_modified_at: 2026-08-08
 > **Prompt Engineering Templates** — Reusable prompt templates for text simplification, mind maps, and structured content processing. — https://www.pirahansiah.com/notes/docs/prompts/
+Reusable prompt templates for text simplification, mind maps, and structured content processing.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 - a
 Consider yourself an expert software developer with extended knowledge about C++

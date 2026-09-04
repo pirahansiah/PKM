@@ -21,8 +21,12 @@ markmap: |
   - memcpy_htod/dtoh
   - Grid/Block Config
 ---
-
+last_modified_at: 2026-08-08
 > **How PyCUDA Reads and Runs C Kernels** — Explanation of how PyCUDA compiles and executes CUDA kernels written in C from Python, with step-by-step examples. — https://www.pirahansiah.com/notes/docs/cuda/pycuda/
+Explanation of how PyCUDA compiles and executes CUDA kernels written in C from Python, with step-by-step examples.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 How PyCUDA Reads and Runs C Kernels
 

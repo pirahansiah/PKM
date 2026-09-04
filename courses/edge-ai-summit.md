@@ -23,8 +23,12 @@ markmap: |
   - Low-power inference
   - Edge-cloud synergy
 ---
-
+last_modified_at: 2026-08-08
 > **Edge AI Summit 2020** — Notes from Edge AI Summit covering tinyML, neuromorphic computing, and edge inference. — https://www.pirahansiah.com/notes/courses/edge-ai-summit/
+Notes from Edge AI Summit covering tinyML, neuromorphic computing, and edge inference.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Edge AI Summit 2020 (Nov 18-20)
 

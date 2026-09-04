@@ -17,8 +17,12 @@ markmap: |
   ## Workshop
   - Hands-on XR applications
 ---
-
+last_modified_at: 2026-08-08
 > **Metaverse & XR** — Workshop on extended reality, spatial computing, and immersive technologies. — https://www.pirahansiah.com/notes/courses/metaverse/
+Workshop on extended reality, spatial computing, and immersive technologies.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Metaverse & XR
 

@@ -19,8 +19,12 @@ markmap: |
 tags: [character-recognition, object-recognition, feature-extraction, glcm]
 hashtags: "#characterrecognition #objectrecognition #featureextraction #glcm"
 ---
-
+last_modified_at: 2026-08-08
 > **Character & Object Recognition via Features** — Global feature extraction methods for character and object recognition in computer vision. — https://www.pirahansiah.com/notes/pubs/journals/character-recognition/
+Global feature extraction methods for character and object recognition in computer vision.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 CHARACTER_AND_OBJECT_RECOGNITION_BASED_ON_GLOBAL_FEATURE_EXTRACTION
 

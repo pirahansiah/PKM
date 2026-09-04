@@ -3,7 +3,11 @@ layout: farshid_default
 title: "Guide to This Knowledge Base"
 description: "A practical guide to navigating this personal knowledge base: how notes are organized, how to search, and how to use the knowledge graph and LLM search."
 ---
+last_modified_at: 2026-08-14
 
+A practical guide to navigating this personal knowledge base: how notes are organized, how to search, and how to use the knowledge graph and LLM search.
+
+*Last updated: 2026-08-14.*  <!--ENHANCED-->
 This site is a personal knowledge base and engineering notebook maintained by Dr. Farshid Pirahansiah. It collects technical deep dives, course notes, publications, and practical guides on computer vision, deep learning, edge AI, and LLM engineering.
 
 ## How the knowledge base is organized

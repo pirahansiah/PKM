@@ -22,13 +22,17 @@ markmap: |
 tags: [patent, face-augmentation, gan, data-augmentation]
 hashtags: "#patent #faceaugmentation #gan #dataaugmentation"
 ---
-
+last_modified_at: 2026-08-08
 > **Face Image Augmentation WO2021060971A1** — GAN-based method for augmenting face images from surveillance with fuzzy logic quality filtering. — https://www.pirahansiah.com/notes/pubs/patents/face-augmentation/
+GAN-based method for augmenting face images from surveillance with fuzzy logic quality filtering.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 [spotify](https://spotifyanchor-web.app.link/e/XZpmcmHCFNb)
 
 <audio controls>
-  <source src="/notes/pubs/patents/A_METHOD_FOR_AUGMENTING_A_PLURALITY_OF_FACE_IMAGES_WO2021060971A1.mp3" type="audio/mpeg">
+  <source src="/notes/pubs/patents/face-image-augmentation.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 

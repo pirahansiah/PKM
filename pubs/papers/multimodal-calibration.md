@@ -19,8 +19,12 @@ markmap: |
 tags: [camera-calibration, multi-modal, robotics, image-quality]
 hashtags: "#cameracalibration #multimodal #robotics #iqa"
 ---
-
+last_modified_at: 2026-08-08
 > **Camera Calibration for Multi-Modal Vision** — Automatic calibration framework for multi-modal robot vision using IQA metrics. — https://www.pirahansiah.com/notes/pubs/papers/multimodal-calibration/
+Automatic calibration framework for multi-modal robot vision using IQA metrics.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 Camera_Calibration_for_Multi-Modal_Robot_Vision
 

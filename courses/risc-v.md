@@ -19,8 +19,12 @@ markmap: |
   - riscv.org, summits
   - RISC-V courses
 ---
-
+last_modified_at: 2026-08-08
 > **RISC-V for AI** — RISC-V open-source processor architecture for AI at the edge. — https://www.pirahansiah.com/notes/courses/risc-v/
+RISC-V open-source processor architecture for AI at the edge.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # RISC-V for AI
 

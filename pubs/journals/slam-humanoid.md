@@ -23,8 +23,12 @@ markmap: |
 tags: [slam, humanoid-robots, 3d-mapping, robotics]
 hashtags: "#slam #humanoidrobots #3dmapping #robotics"
 ---
-
+last_modified_at: 2026-08-08
 > **3D SLAM and Humanoid Robot Linkages** — Survey of 3D SLAM techniques for localization, mapping, and humanoid robot applications. — https://www.pirahansiah.com/notes/pubs/journals/slam-humanoid/
+Survey of 3D SLAM techniques for localization, mapping, and humanoid robot applications.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 3D_SLAM_Simultaneous_Localization_And_Mapping_Trends_And_Humanoid_Robot_Linkages
 

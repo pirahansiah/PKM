@@ -3,9 +3,14 @@ layout: farshid_default
 title: Agent Swarm
 permalink: /swarm/
 extra_css: swarm.css
+description: "Agent Swarm — ask a question and watch a live swarm of research agents map and synthesize the whole pirahansiah.com knowledge base."
 ---
-
+last_modified_at: 2026-08-18
 > **Agent Swarm** — Ask a question; a swarm of AI agents explores the whole site — papers, journals, books, patents, keynotes, courses, wiki, CV — and answers with a dynamic knowledge graph — https://www.pirahansiah.com/swarm/
+Agent Swarm — ask a question and watch a live swarm of research agents map and synthesize the whole pirahansiah.com knowledge base.
+
+*Last updated: 2026-08-18.*  <!--ENHANCED-->
+
 
 <div class="swarm-page">
   <div class="swarm-header">

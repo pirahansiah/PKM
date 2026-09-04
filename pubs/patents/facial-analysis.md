@@ -20,7 +20,12 @@ markmap: |
   - System Claims
   - Method Claims
 ---
+last_modified_at: 2026-08-08
 > **Facial Analysis Advertisement WO2020141969A2** — System for targeted digital advertising using real-time facial analysis and demographic detection. — https://www.pirahansiah.com/notes/pubs/patents/facial-analysis/
+System for targeted digital advertising using real-time facial analysis and demographic detection.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 date_modified: 2024-10-12
 tags: [patent, facial-recognition, advertising, deep-learning]
@@ -31,7 +36,7 @@ hashtags: "#patent #facialrecognition #advertising #deeplearning"
 
 
 <audio controls>
-  <source src="/notes/pubs/patents/SYSTEM_AND_METHOD_FOR_PROVIDING_ADVERTISEMENT_CONTENTS_BASED_ON_FACIAL_ANALYSIS_WO2020141969A2.mp3" type="audio/mpeg">
+  <source src="/notes/pubs/patents/facial-analysis-advertisement.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 

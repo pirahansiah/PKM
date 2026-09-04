@@ -19,8 +19,12 @@ markmap: |
 tags: [research, paper, image-processing, computer-vision]
 hashtags: "#research #cv #papers #imageprocessing"
 ---
-
+last_modified_at: 2026-08-08
 > **Conference Papers** — Peer-reviewed conference papers on image processing, camera calibration, and pattern recognition. — https://www.pirahansiah.com/notes/pubs/papers/
+Peer-reviewed conference papers on image processing, camera calibration, and pattern recognition.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Conference Papers
 

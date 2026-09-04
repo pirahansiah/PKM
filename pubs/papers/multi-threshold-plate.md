@@ -20,7 +20,11 @@ markmap: |
 tags: [license-plate-recognition, thresholding, image-segmentation]
 hashtags: "#lpr #thresholding #imagesegmentation"
 ---
+last_modified_at: 2026-08-14
 
+Adaptive multi-threshold approach using MLP for license plate recognition systems.
+
+*Last updated: 2026-08-14.*  <!--ENHANCED-->
 Multi-threshold_Approach_for_License_Plate_Recognition_System
 
 

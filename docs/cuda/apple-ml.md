@@ -22,12 +22,12 @@ markmap: |
   - Inference
   - Fullmoon iOS
 ---
-
-
-
-
-
+last_modified_at: 2026-08-08
 > **MLX, CoreML, and Metal for Apple Silicon** — Guide to Numba JIT, PyCUDA-to-Metal transition, CoreML conversion, and MLX framework on Apple Silicon. — https://www.pirahansiah.com/notes/docs/cuda/apple-ml/
+Guide to Numba JIT, PyCUDA-to-Metal transition, CoreML conversion, and MLX framework on Apple Silicon.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Numba JIT Tutorial and PyCUDA with Apple Silicon Adaptation
 

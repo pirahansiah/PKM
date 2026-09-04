@@ -3,7 +3,11 @@ layout: farshid_default
 title: "Knowledge Base — Notes, Docs & Publications"
 description: "The knowledge base behind pirahansiah.com: technical notes on computer vision, edge AI, CUDA, LLMs, courses, and publications by Dr. Farshid Pirahansiah."
 ---
+last_modified_at: 2026-08-14
 
+The knowledge base behind pirahansiah.com: technical notes on computer vision, edge AI, CUDA, LLMs, courses, and publications by Dr. Farshid Pirahansiah.
+
+*Last updated: 2026-08-14.*  <!--ENHANCED-->
 # PKM
 
 This is the knowledge base of [Dr. Farshid Pirahansiah](/notes/pkm/AboutMe/): a living collection of technical notes on computer vision, embedded and edge AI, GPU programming with CUDA, LLM engineering, and the courses and publications behind his research and consulting work.

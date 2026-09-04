@@ -17,8 +17,12 @@ markmap: |
   - Neural nets
   - Dojo supercomputer
 ---
-
+last_modified_at: 2026-08-08
 > **Tesla AI** — Workshop on Tesla's autonomous driving technology and AI systems. — https://www.pirahansiah.com/notes/courses/tesla/
+Workshop on Tesla's autonomous driving technology and AI systems.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Tesla AI
 

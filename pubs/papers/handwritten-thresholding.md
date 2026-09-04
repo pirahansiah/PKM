@@ -20,7 +20,11 @@ markmap: |
 tags: [thresholding, handwritten-recognition, image-segmentation, psnr]
 hashtags: "#thresholding #handwritten #imagesegmentation #psnr"
 ---
+last_modified_at: 2026-08-14
 
+Comparison of PSNR and Otsu thresholding for handwritten image segmentation.
+
+*Last updated: 2026-08-14.*  <!--ENHANCED-->
 Comparison_single_thresholding_method_for_handwritten_images_segmentation
 
 

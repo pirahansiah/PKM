@@ -21,9 +21,12 @@ markmap: |
   - Install Ollama + Piper + Wav2Lip
   - Python pipeline script
 ---
-
-
+last_modified_at: 2026-08-08
 > **Local Video Avatar Generator with Ollama** — Build a fully local video avatar generator using Ollama LLM, Piper TTS, and Wav2Lip without cloud services. — https://www.pirahansiah.com/notes/docs/llm/avatar/
+Build a fully local video avatar generator using Ollama LLM, Piper TTS, and Wav2Lip without cloud services.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Building a Local Video Avatar Generator Using Ollama and Open-Source Tools
 

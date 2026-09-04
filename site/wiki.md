@@ -2,8 +2,13 @@
 layout: farshid_default
 title: "All Pages — pirahansiah.com"
 permalink: /notes/wiki/
+description: "A complete alphabetical index of every page on pirahansiah.com — computer vision, AI, LLM, CUDA and edge-deployment knowledge base."
 ---
+last_modified_at: 2026-08-16
 
+A complete alphabetical index of every page on pirahansiah.com — computer vision, AI, LLM, CUDA and edge-deployment knowledge base.
+
+*Last updated: 2026-08-16.*  <!--ENHANCED-->
 <style>
 .wiki-wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; font-family: -apple-system, 'Linux Libertine', Georgia, Times, serif; }
 .wiki-title { font-size: 1.8rem; font-weight: 400; border-bottom: 1px solid var(--glass-border); padding-bottom: 8px; margin-bottom: 16px; color: var(--text); }

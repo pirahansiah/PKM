@@ -21,9 +21,12 @@ markmap: |
   ## Monitoring
   - AI visibility tracking
 ---
-
-
+last_modified_at: 2026-08-08
 > **SEO for LLM-Powered Search** — How to optimize websites for LLM-powered search engines using structured data and AI-friendly content. — https://www.pirahansiah.com/notes/docs/seo/
+How to optimize websites for LLM-powered search engines using structured data and AI-friendly content.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # The New Era of SEO: Optimizing Websites for LLMs
 

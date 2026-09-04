@@ -2,8 +2,13 @@
 layout: farshid_default
 title: "Sitemap — All Pages"
 permalink: /notes/sitemap/
+description: "Full sitemap of pirahansiah.com — every computer-vision, AI, LLM, CUDA and edge-AI page listed in one place."
 ---
+last_modified_at: 2026-08-16
 
+Full sitemap of pirahansiah.com — every computer-vision, AI, LLM, CUDA and edge-AI page listed in one place.
+
+*Last updated: 2026-08-16.*  <!--ENHANCED-->
 <style>
 .sitemap-hero {
   text-align: center;

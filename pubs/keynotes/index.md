@@ -17,8 +17,12 @@ markmap: |
 tags: [keynote, ai, computer-vision, multimodal]
 hashtags: "#keynote #ai #computervision #multimodal"
 ---
-
+last_modified_at: 2026-08-08
 > **Keynotes** — Technical keynotes on computer vision, LLMs, and multimodal AI. — https://www.pirahansiah.com/notes/pubs/keynotes/
+Technical keynotes on computer vision, LLMs, and multimodal AI.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Keynotes
 

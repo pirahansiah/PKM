@@ -29,8 +29,12 @@ markmap: |
   - AI Tools
   - Developer Tools
 ---
-
+last_modified_at: 2026-08-08
 > **Site Link Index** — Complete index of all pages, publications, and resources on pirahansiah.com — https://www.pirahansiah.com/notes/pkm/proof/
+Complete index of all pages, publications, and resources on pirahansiah.com
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Pirahansiah.com — Complete Link Index
 

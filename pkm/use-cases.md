@@ -32,8 +32,12 @@ markmap: |
   - CV Coaching Roadmap
   - Workshops
 ---
-
+last_modified_at: 2026-08-08
 > **Complete Portfolio** — Publications, patents, expertise, tools, and GitHub projects across CV and AI — https://www.pirahansiah.com/notes/pkm/use-cases/
+Publications, patents, expertise, tools, and GitHub projects across CV and AI
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Table of Contents
 

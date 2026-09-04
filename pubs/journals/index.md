@@ -20,8 +20,12 @@ markmap: |
 tags: [journal, image-processing, thresholding, pattern-recognition]
 hashtags: "#research #cv #journals #thresholding"
 ---
-
+last_modified_at: 2026-08-08
 > **Journal Publications** — Peer-reviewed journal articles on image processing, pattern recognition, and robotics. — https://www.pirahansiah.com/notes/pubs/journals/
+Peer-reviewed journal articles on image processing, pattern recognition, and robotics.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Journal Publications
 

@@ -19,8 +19,12 @@ markmap: |
 tags: [patent, face-detection, vehicle-detection, augmented-reality]
 hashtags: "#patent #facedetection #vehicledetection #augmentedreality"
 ---
-
+last_modified_at: 2026-08-08
 > **Patents** — AI and computer vision patents covering face augmentation, vehicle detection, and facial analysis. — https://www.pirahansiah.com/notes/pubs/patents/
+AI and computer vision patents covering face augmentation, vehicle detection, and facial analysis.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Patents
 

@@ -22,8 +22,12 @@ markmap: |
   - TF Serving, TorchServe
   - Monitoring
 ---
-
+last_modified_at: 2026-08-08
 > **MLOps** — Coursera MLOps Specialization covering ML production, data lifecycle, modeling pipelines, and deployment. — https://www.pirahansiah.com/notes/courses/mlops/
+Coursera MLOps Specialization covering ML production, data lifecycle, modeling pipelines, and deployment.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # MLOps — Machine Learning Engineering for Production
 

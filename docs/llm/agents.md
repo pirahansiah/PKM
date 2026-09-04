@@ -23,10 +23,12 @@ markmap: |
   - Content creation
   - Project management
 ---
-
-
-
+last_modified_at: 2026-08-08
 > **Mind Map: Orchestrating AI Agents** — Mind map and guide to orchestrating multiple AI agents for complex task completion using LLMs. — https://www.pirahansiah.com/notes/docs/llm/agents/
+Mind map and guide to orchestrating multiple AI agents for complex task completion using LLMs.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 <img src="/notes/docs/images/Mind_Map_Orchestrating_Agents.png" alt="Mind Map Orchestrating Agents" style="max-width: 100%; height: auto;">
 

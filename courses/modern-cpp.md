@@ -20,8 +20,12 @@ markmap: |
   - cv::Mat deep copy
   - Vector handling
 ---
-
+last_modified_at: 2026-08-08
 > **Modern C++ for Image Processing** — Modern C++23 for image processing: memory management, design patterns, CUDA, and OpenCV. — https://www.pirahansiah.com/notes/courses/modern-cpp/
+Modern C++23 for image processing: memory management, design patterns, CUDA, and OpenCV.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Advanced Programming with Modern C++ 23 for Image Processing
 

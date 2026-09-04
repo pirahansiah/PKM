@@ -23,10 +23,14 @@ markmap: |
   - LLM + IoT
   - Cost Optimization
 ---
-
+last_modified_at: 2026-08-08
 > **Advanced LLM Concepts** — Comprehensive mind map covering advanced LLM concepts including RAG, embeddings, multimodal models, and production deployment. — https://www.pirahansiah.com/notes/docs/llm/llm-concepts/
+Comprehensive mind map covering advanced LLM concepts including RAG, embeddings, multimodal models, and production deployment.
 
-<img src="/notes/docs/images/Advanced LLM Concepts.png" alt="Mind Map Advanced LLM Concepts" style="max-width: 100%; height: auto;">
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
+
+<img src="/notes/docs/images/Mind_Map_Advanced_LLM_Concepts.png" alt="Mind Map Advanced LLM Concepts" style="max-width: 100%; height: auto;">
 
 # Mind Map: Orchestrating Agents & Advanced LLM Concepts
 

@@ -3,7 +3,11 @@ layout: farshid_default
 title: "Why This Site Exists"
 description: "Why this personal knowledge base exists, what it covers, and the principles behind how it is built and maintained."
 ---
+last_modified_at: 2026-08-14
 
+Why this personal knowledge base exists, what it covers, and the principles behind how it is built and maintained.
+
+*Last updated: 2026-08-14.*  <!--ENHANCED-->
 This site exists for three reasons:
 
 ## 1. A public engineering notebook

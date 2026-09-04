@@ -20,8 +20,12 @@ markmap: |
   - CUDA Headers
   - MSVC Integration
 ---
-
+last_modified_at: 2026-08-08
 > **CUDA Development Environment in VS Code on Windows** — Step-by-step guide to configure VS Code for CUDA C++ development on Windows with nvcc, IntelliSense, and debugging. — https://www.pirahansiah.com/notes/docs/cuda/cuda-vscode/
+Step-by-step guide to configure VS Code for CUDA C++ development on Windows with nvcc, IntelliSense, and debugging.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Simple Setting Up a CUDA Development Environment in VS Code in Windows 
 

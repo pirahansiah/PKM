@@ -20,8 +20,12 @@ markmap: |
   - Pruning, distillation
   - Topology transforms
 ---
-
+last_modified_at: 2026-08-08
 > **TensorFlow Deployment Specialization** — TensorFlow deployment: browser-based TF.js, device-based TF Lite, data pipelines, and optimization. — https://www.pirahansiah.com/notes/courses/tf-deploy/
+TensorFlow deployment: browser-based TF.js, device-based TF Lite, data pipelines, and optimization.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # TensorFlow: Data and Deployment Specialization
 

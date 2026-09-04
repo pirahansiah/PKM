@@ -20,8 +20,12 @@ markmap: |
   - Transparency
   - Privacy
 ---
-
+last_modified_at: 2026-08-08
 > **OpenCV 5 — Chapter 2: Feature Detection** — Comprehensive guide to AI/ML concepts, tools, best practices, and ethical considerations. — https://www.pirahansiah.com/notes/pubs/books/ai/opencv5-ch2/
+Comprehensive guide to AI/ML concepts, tools, best practices, and ethical considerations.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 tags: [opencv, feature-detection, computer-vision, ai]
 hashtags: "#opencv #featuredetection #cv #ai"

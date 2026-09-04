@@ -21,8 +21,12 @@ markmap: |
 tags: [image-segmentation, psnr, thresholding, license-plate-recognition]
 hashtags: "#imagesegmentation #psnr #thresholding #lpr"
 ---
-
+last_modified_at: 2026-08-08
 > **PSNR-Based Segmentation for LPR** — Adaptive image segmentation using PSNR for license plate recognition systems. — https://www.pirahansiah.com/notes/pubs/papers/adaptive-segmentation/
+Adaptive image segmentation using PSNR for license plate recognition systems.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 Adaptive_Image_Segmentation_Based_on_PSNR_for_License_Plate_Recognition
 

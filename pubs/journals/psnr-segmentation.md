@@ -22,8 +22,12 @@ markmap: |
 tags: [psnr, thresholding, image-segmentation, image-processing]
 hashtags: "#psnr #thresholding #imagesegmentation #imageprocessing"
 ---
-
+last_modified_at: 2026-08-08
 > **PSNR Threshold for Image Segmentation** — PSNR-based thresholding method for image segmentation in automated visual inspection. — https://www.pirahansiah.com/notes/pubs/journals/psnr-segmentation/
+PSNR-based thresholding method for image segmentation in automated visual inspection.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 PEAK_SIGNAL-TO-NOISE_RATIO_BASED_ON_THRESHOLD_METHOD_FOR_IMAGE_SEGMENTATION
 

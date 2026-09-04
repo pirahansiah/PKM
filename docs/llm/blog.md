@@ -22,8 +22,12 @@ markmap: |
   - Numba JIT
   - PyCUDA kernels
 ---
-
+last_modified_at: 2026-08-08
 > **Blog: AI, LLMs, and Computer Vision** — Blog posts on RAG vs CAG, multi-agent architectures, AI's impact on jobs, and the future of software development. — https://www.pirahansiah.com/notes/docs/llm/blog/
+Blog posts on RAG vs CAG, multi-agent architectures, AI's impact on jobs, and the future of software development.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # 2025
 

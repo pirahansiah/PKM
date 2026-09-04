@@ -3,9 +3,14 @@ layout: farshid_default
 title: View
 permalink: /view/
 extra_css: farshid-ai-cv-llm-viewer.css
+description: "In-page viewer for PDFs, code and media assets from pirahansiah.com, with the site navigation and styling kept visible."
 ---
-
+last_modified_at: 2026-08-11
 > **View** — View — https://www.pirahansiah.com/view/
+In-page viewer for PDFs, code and media assets from pirahansiah.com, with the site navigation and styling kept visible.
+
+*Last updated: 2026-08-11.*  <!--ENHANCED-->
+
 
 <div class="content-viewer" id="content-viewer">
   <div class="viewer-bar liquid-glass">

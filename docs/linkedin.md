@@ -17,7 +17,12 @@ markmap: |
   - On-device LLM
   - Edge deployment
 ---
+last_modified_at: 2026-08-08
 > **Top LinkedIn Posts 2024** — Highlights from 2024 LinkedIn posts covering camera calibration, C++, NVIDIA optimization, and robotics. — https://www.pirahansiah.com/notes/docs/linkedin/
+Highlights from 2024 LinkedIn posts covering camera calibration, C++, NVIDIA optimization, and robotics.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 Over the past year, my standout posts have featured camera calibration, Python, C++, OpenCV, NVIDIA optimizations, advanced C++ techniques, AI integration in robotics with LLMs, computer vision, and machine learning. Explore more: 
 [Link](https://www.pirahansiah.com/notes/docs/linkedin/ )

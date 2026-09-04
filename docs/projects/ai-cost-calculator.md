@@ -5,8 +5,12 @@ description: "Estimate text and image processing costs for GPT-4, Claude, and Ge
 tags: [ai, llm, cost, calculator, gpt4, claude, gemini]
 hashtags: "#ai #llm #costcalculator #gpt4 #claude #gemini"
 ---
-
+last_modified_at: 2026-08-08
 > **AI Model Cost Calculator** — Estimate text and image processing costs for GPT-4, Claude, and Gemini — token-aware cost planning for computer vision and multimodal AI. — https://www.pirahansiah.com/notes/docs/projects/ai-cost-calculator/
+Estimate text and image processing costs for GPT-4, Claude, and Gemini — token-aware cost planning for computer vision and multimodal AI.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # AI Model Cost Calculator
 

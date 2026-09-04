@@ -19,8 +19,12 @@ markmap: |
   - Programming
   - Business & Career
 ---
-
+last_modified_at: 2026-08-08
 > **Portfolio & Publications** — Complete portfolio of patents, publications, books, and project highlights. — https://www.pirahansiah.com/notes/docs/resources/
+Complete portfolio of patents, publications, books, and project highlights.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # My Portfolio
 

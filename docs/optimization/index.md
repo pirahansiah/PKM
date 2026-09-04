@@ -22,7 +22,12 @@ markmap: |
   - PyTorch, TensorFlow
   - ONNX Runtime, CoreML
 ---
+last_modified_at: 2026-08-08
 > **CV, DL & ML Optimization Guide** — Comprehensive guide to optimizing deep learning models, CV systems, and data pipelines. — https://www.pirahansiah.com/notes/docs/optimization/
+Comprehensive guide to optimizing deep learning models, CV systems, and data pipelines.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Optimization 
 

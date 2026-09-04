@@ -23,7 +23,12 @@ markmap: |
   ## Resources
   - Coaching & Links
 ---
+last_modified_at: 2026-08-08
 > **Content Hub** — Technical articles and tutorials on computer vision, AI, edge deployment, and software engineering. — https://www.pirahansiah.com/notes/docs/
+Technical articles and tutorials on computer vision, AI, edge deployment, and software engineering.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Content Hub
 

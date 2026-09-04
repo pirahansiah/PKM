@@ -16,7 +16,11 @@ markmap: |
 tags: [optical-flow, video-stabilization, fuzzy-logic, computer-vision]
 hashtags: "#opticalflow #videostabilization #fuzzylogic #cv"
 ---
+last_modified_at: 2026-08-14
 
+Book chapter on Type-2 Fuzzy Gaussian Pyramid optical flow for video stabilization.
+
+*Last updated: 2026-08-14.*  <!--ENHANCED-->
 Book_Computational_Intelligence_From_Theory_to_Application_explores_augmented_optical_flow_methods_for_video_stabilization
 
 

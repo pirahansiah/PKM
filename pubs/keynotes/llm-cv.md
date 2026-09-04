@@ -22,7 +22,11 @@ markmap: |
 tags: [llm, computer-vision, multimodal, ai]
 hashtags: "#llm #cv #multimodal #ai"
 ---
+last_modified_at: 2026-08-14
 
+Keynote on token economics, multimodal RAG, and practical CV+LLM applications.
+
+*Last updated: 2026-08-14.*  <!--ENHANCED-->
 # {{ site.author }}  
 
 # coursera video RAG

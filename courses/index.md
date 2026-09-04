@@ -25,8 +25,12 @@ markmap: |
   - Startup guide
   - Portfolio & publications
 ---
-
+last_modified_at: 2026-08-08
 > **Topics & Projects** — Topics and projects covering AI, OpenCV, camera calibration, deep reinforcement learning, and more. — https://www.pirahansiah.com/notes/courses/
+Topics and projects covering AI, OpenCV, camera calibration, deep reinforcement learning, and more.
+
+*Last updated: 2026-08-08.*  <!--ENHANCED-->
+
 
 # Topics & Projects
 
