@@ -61,7 +61,7 @@ Interactive knowledge graph of pirahansiah.com — click a topic to highlight ev
   </div>
 </div>
 
-<p class="graph-hint">Click a <strong>topic chip</strong> to highlight every related page · click a <strong>page</strong> in the graph or the side panel to open it here · use <strong>Back / Forward</strong> to walk your trail · Esc clears the topic · scroll to zoom, drag to pan.</p>
+<p class="graph-hint">Click a <strong>topic or page</strong> to select it and highlight only what's relevant to that idea · <strong>double-click</strong> to open the selected page · use <strong>Back / Forward</strong> to walk your trail · Esc clears · scroll to zoom, drag to pan.</p>
 
 <style>
   .graph-search-wrap { max-width: 620px; margin: 8px auto 0; }

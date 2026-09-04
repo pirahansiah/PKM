@@ -50,7 +50,7 @@ Hashtag knowledge graph of pirahansiah.com — click a topic to see which other 
   </div>
 </div>
 
-<p class="graph-hint">Click a <strong>topic</strong> to highlight its cluster · click any related item in the panel to dive deeper · use <strong>Back / Forward</strong> to walk your trail · Esc clears the focus.</p>
+<p class="graph-hint">Click a <strong>topic</strong> to highlight its cluster · double-click any related topic/page to dive deeper · use <strong>Back / Forward</strong> to walk your trail · Esc clears the focus.</p>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
