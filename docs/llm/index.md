@@ -23,3 +23,4 @@ Articles on large language models, retrieval-augmented generation, and AI agents
 - [Blog: AI & LLMs](/notes/docs/llm/blog/) — RAG vs CAG, multi-agent architectures, AI's impact.
 - [Avatar Generator](/notes/docs/llm/avatar/) — Local video avatar with Ollama + Wav2Lip.
 - [Local LLM Optimization](/notes/docs/llm/local-llm-optimization/) — Fastest Qwen3.5 at 64K context on Apple M3 via MLX (oMLX/llama.cpp), with downloadable scripts.
+- [K2-Horizon Locally](/notes/docs/llm/k2-horizon-local/) — Serve IFM K2-Horizon GGUF via the MBZUAI-IFM llama.cpp fork on Apple Silicon, wired into Hermes at 64K.

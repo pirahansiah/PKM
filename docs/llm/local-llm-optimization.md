@@ -165,6 +165,46 @@ curl -s http://127.0.0.1:8000/v1/models
 
 Never let context default to a model's full 262K on 16GB (pre-set KV eats RAM you don't have).
 
+## Add a new model to oMLX (and the GGUF exception)
+
+oMLX has **no `add`/`pull` subcommand** — it *discovers* models from subdirectories of
+`~/.omlx/models` (default `--model-dir`). Each subdirectory must be a valid **MLX safetensors**
+model: `config.json` + `*.safetensors` (+ optional `chat_template.jinja`).
+
+> **Hard rule: oMLX eats MLX safetensors ONLY.** A `.gguf` is **not** ingestible by oMLX.
+> If the source is a GGUF (e.g. the K2-Horizon GGUF), serve it with the llama.cpp fork on a
+> **separate port** instead (see the [K2-Horizon local](/notes/docs/llm/k2-horizon-local/) page).
+
+Add an MLX safetensors model:
+
+```bash
+MODEL_ID="Qwen3.5-4B-OptiQ-4bit"   # dir name = the id Hermes references
+DEST="$HOME/.omlx/models/$MODEL_ID"
+mkdir -p "$DEST"
+APP_PY=/Applications/oMLX.app/Contents/Resources/Python/cpython-3.11/bin/python3
+PYTHONHOME="$(dirname "$(dirname "$APP_PY")")" PYTHONPATH="$(dirname "$APP_PY")" \
+  "$APP_PY" - "$MODEL_REPO" "$DEST" <<'PY'
+import sys, os
+from huggingface_hub import snapshot_download
+repo, dest = sys.argv[1], sys.argv[2]
+os.makedirs(dest, exist_ok=True)
+snapshot_download(repo, local_dir=dest,
+                  allow_patterns=["*.safetensors","*.json","*.txt","tokenizer.*"])
+print("downloaded to", dest)
+PY
+curl -s http://127.0.0.1:8000/v1/models | python3 -m json.tool
+```
+
+Then set Hermes `model: $MODEL_ID`, `base_url: http://127.0.0.1:8000/v1` (see Hermes integration
+above). If it is a *reasoning* model, also pass `enable_thinking` per §"Suppress thinking".
+
+**Gotchas when adding models:**
+- **Format mismatch = #1 failure.** `config.json` + `*.safetensors` for oMLX; `.gguf` for llama.cpp.
+- **Hermes enforces a 64K context floor** for the default model. If the server reports `< 65536`
+  (`--ctx-size` / `n_ctx_slot`), Hermes refuses it. Set `--ctx-size 65536` or higher.
+- **One port, one process.** Only one server may hold :8000 (oMLX) or :8080 (llama.cpp). Kill any
+  hand-started instance before `launchctl load`-ing the plist.
+
 ## Download the files
 
 All three source files are available for download — the full guide, the prompt/keyword bank, and the auto-detect startup script.
