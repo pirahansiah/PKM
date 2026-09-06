@@ -165,6 +165,27 @@ last_modified_at: 2026-09-06
         </div>
       </section>
 
+      <!-- Slide: New Skills Installed (validated 2026-09-06) -->
+      <section>
+        <h2>New Skills Installed &amp; Validated <span class="tag">2026-09-06</span></h2>
+        <p style="font-size:0.62em; color:#94a3b8;">Installed via <code>hermes skills install</code> / URL, scanned, and verified (valid SKILL.md frontmatter, enabled).</p>
+        <div class="m-3">
+          <div class="c"><h3 style="color:#38bdf8;">Web &amp; Research</h3>
+            <p style="font-size:0.6em;">• <b>agent-reach</b> — internet eyes, no paid API<br>• <b>youtube-full</b> — transcripts/search<br>• <b>defuddle</b> — clean pages → Markdown<br>• <b>resemble-detect</b> — spot AI fake media</p></div>
+          <div class="c"><h3 style="color:#a855f7;">Build &amp; Engineering</h3>
+            <p style="font-size:0.6em;">• <b>using-agent-skills</b> (addyosmani)<br>• <b>setup-matt-pocock-skills</b><br>• <b>make-interfaces-feel-better</b><br>• <b>humanizer</b> — strip AI tells</p></div>
+          <div class="c"><h3 style="color:#22d3ee;">Agents &amp; Ops</h3>
+            <p style="font-size:0.6em;">• <b>browser-harness</b> — drive real browser<br>• <b>i-have-adhd</b> — action-first replies<br>• <b>loopy</b> + <b>loop-library</b> — repeatable loops<br>• <b>skillclaw</b> — self-improving skills</p></div>
+        </div>
+        <div class="code-box" style="font-size:0.56em; margin-top:10px;">
+<span class="cmt"># Install example (hub id or raw SKILL.md URL)</span>
+hermes skills install skills-sh/panniantong/agent-reach/agent-reach -y
+hermes skills install https://raw.githubusercontent.com/resemble-ai/detect-skill/master/SKILL.md -y
+<span class="cmt"># 14 skills installed & validated · 15 community/url total now active</span>
+        </div>
+        <p style="font-size:0.5em; color:#fbbf24;">Blocked by security scan (dangerous verdict, --force cannot override): codebase-memory-mcp, openmontage, composio, claude-mem, rlaope/oh-my-hermes. Plugin-only (not flat SKILL.md): witt3rd/oh-my-hermes, agent37/minions. Use curated repo paths or audit before install.</p>
+      </section>
+
       <!-- Slide 6: Persistent Memory -->
       <section>
         <h2>Persistent Memory</h2>
