@@ -36,6 +36,13 @@ A collection of slide decks built with [Reveal.js](https://revealjs.com), ready 
     <span class="slide-tags">#features #update #hermes-agent</span>
   </a>
 
+  <a class="slide-card" href="/notes/slides/research-tools/">
+    <div class="slide-thumb">🔬</div>
+    <h3>The New Era of Research Tools</h3>
+    <p>From passive chat to autonomous workflows: Hermes, LeapSpace, PaperBanana, AI citation finders, agent swarms, peer review, and your Obsidian second brain.</p>
+    <span class="slide-tags">#researchtools #hermes-agent #ai #llm</span>
+  </a>
+
 </div>
 
 <style>

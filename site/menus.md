@@ -115,7 +115,11 @@ Complete navigation index with summaries of all site pages
 ### Knowledge
 - **[Wiki](/notes/wiki/)** — Wikipedia-style index of all pages
 - **[Sitemap](/notes/sitemap/)** — Complete page listing
-- **[Presentations](/notes/slides/presentation/)** — Token reduction in AI-assisted development
+- **[Presentations](/notes/slides/)** — All research-tool decks
+  - **[The New Era of Research Tools](/notes/slides/research-tools/)** — Passive chat → autonomous workflows: Hermes, LeapSpace, PaperBanana, citation finders, swarms
+  - **[Hermes for Research Assistance](/notes/slides/presentation/)** — Literature sweeps, code reproduction, paper drafting
+  - **[Hermes for Big CV Projects](/notes/slides/presentation-cv/)** — Production-scale CV engineering with agents
+  - **[Hermes Updates & Feature Guide](/notes/slides/presentation-updates/)** — Complete feature tour with examples
 - **[Portfolio](/notes/pkm/use-cases/)** — Publications, patents, books, journals, papers, keynotes
 - **[Resources](/notes/docs/resources/)** — Patents, books, papers, projects
 - **[Curated Links](/notes/docs/links/)** — Tools, tutorials, reading, YouTube
