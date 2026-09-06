@@ -111,6 +111,41 @@ last_modified_at: 2026-09-06
         <p style="margin-top:0.8em; color:#cbd5e1;">A unified terminal & GUI agent that acts as a full-time research assistant.</p>
       </section>
 
+      <!-- Slide: Research Skills Catalog -->
+      <section>
+        <h2>Hermes Research Skills Catalog</h2>
+        <p style="font-size:0.7em; color:#94a3b8; text-align:center;">8 new research skills installed + 8 existing — full toolkit for literature sweeps, critique & synthesis.</p>
+        <div style="width:98%; max-height:60vh; overflow-y:auto; font-size:0.58em; margin:0.4em auto;">
+          <table style="width:100%; border-collapse:collapse; color:#cbd5e1;">
+            <thead>
+              <tr style="color:#22D3EE; text-align:left;">
+                <th style="padding:5px 10px; border-bottom:1px solid rgba(34,211,238,0.5);">Skill</th>
+                <th style="padding:5px 10px; border-bottom:1px solid rgba(34,211,238,0.5);">Trigger / what it does</th>
+                <th style="padding:5px 10px; border-bottom:1px solid rgba(34,211,238,0.5);">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>deepdive</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Deep multi-source investigation; cited synthesis with confidence + disagreement mapping</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><span class="tag">NEW</span></td></tr>
+              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>researchgap</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Finds gaps, contradictions & open problems in a topic's literature; proposes research questions</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><span class="tag">NEW</span></td></tr>
+              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>critic</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Rigorous critique of a paper/claim/argument with severity-rated weaknesses + verdict</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><span class="tag">NEW</span></td></tr>
+              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>literature-review</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Themed survey of a topic with annotated bibliography</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><span class="tag">NEW</span></td></tr>
+              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>synthesise</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Merges several sources into one attributed synthesis; flags consensus vs open questions</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><span class="tag">NEW</span></td></tr>
+              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>factcheck</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Verifies claims against sources; labels each supported/contradicted/unverifiable</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><span class="tag">NEW</span></td></tr>
+              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>question-storm</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Generates diverse, prioritized research questions across levels</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><span class="tag">NEW</span></td></tr>
+              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>cite</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Formats references in a citation style (APA/MLA/IEEE/BibTeX); finds real sources</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><span class="tag">NEW</span></td></tr>
+              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>arxiv</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Search arXiv papers by keyword/author/category</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">existing</td></tr>
+              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>llm-wiki</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Build/query interlinked markdown knowledge base</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">existing</td></tr>
+              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>grounded-citations</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Ground answers in cited verifiable sources</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">existing</td></tr>
+              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>reference-curation</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Audit/curate doc reference links</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">existing</td></tr>
+              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>polymarket</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Query Polymarket markets/prices</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">existing</td></tr>
+              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>competitor-news-monitor</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Watch companies for material news</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">existing</td></tr>
+              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>blogwatcher</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Monitor blogs/RSS feeds</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">existing</td></tr>
+              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>research-paper-writing</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Authoring structure for research papers</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">existing</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
       <!-- Slide 3: Architecture Overview -->
       <section>
         <h2>Hermes Core Architecture</h2>
