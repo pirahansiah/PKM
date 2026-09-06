@@ -575,7 +575,30 @@ delegate_task(tasks=[
         <p style="margin-top:0.5em; font-size:0.72em; color:#94a3b8;">Flow: capture → Hermes tags & links → query with <code>search_files</code> → surface in <code>deepdive</code> / <code>literature-review</code>. Your second brain, always current.</p>
       </section>
 
-      <!-- Slide 22: Thank You Slide -->
+      <!-- Slide 22: Google Opal (Experiment) -->
+      <section>
+        <h2>Google Opal <span class="tag">Experiment</span></h2>
+        <p style="font-size:0.66em; color:#94a3b8; text-align:center;">Google's experimental AI app platform — verified facts only; function not yet documented publicly.</p>
+        <div class="m-2">
+          <div class="c c-left">
+            <h3 style="color:#22D3EE;">🔎 What is confirmed</h3>
+            <p>• Official Google product labelled <strong>"Opal [Experiment]"</strong>.</p>
+            <p>• Web app (opal.google) loading in a sandboxed iframe.</p>
+            <p>• Requires <strong>Google sign-in</strong> (OAuth) to use.</p>
+            <p>• Requests <strong>camera &amp; microphone</strong> permissions.</p>
+          </div>
+          <div class="c c-left">
+            <h3 style="color:#A855F7;">❓ Not yet public</h3>
+            <p>• Exact purpose / feature set is not in the page source.</p>
+            <p>• Positioned in Google's "experiments" track (like Labs).</p>
+            <p>• Likely an AI app-/agent-building surface — <em>unconfirmed</em>.</p>
+            <p>• Check <a href="https://opal.google" style="color:#38bdf8; text-decoration:underline;">opal.google</a> after sign-in for live capability.</p>
+          </div>
+        </div>
+        <p style="margin-top:0.5em; font-size:0.72em; color:#94a3b8;">Hermes angle: if Opal is an app/agent builder, it parallels <code>skill_manage</code> (custom skills) &amp; <code>delegate_task</code> (subagents) — but treat as speculation until docs ship.</p>
+      </section>
+
+      <!-- Slide 23: Thank You Slide -->
       <section>
         <h1>Thank You & Discussion</h1>
         <h2 style="color:#cbd5e1;">Hermes Agent for Research Assistance</h2>
