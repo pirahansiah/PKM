@@ -28,9 +28,9 @@ last_modified_at: 2026-09-06
   .reveal .slides { height: 100%; }
   .reveal { height: 100%; width: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
   .reveal h1 { font-size: 2.0em; margin-bottom: 0.2em; color: #fff; text-align: center; font-weight: 800; background: linear-gradient(135deg, #22D3EE, #06B6D4, #3B82F6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-  .reveal h2 { font-size: 1.35em; margin: 0.2em 0 0.5em; color: #22D3EE; text-align: center; font-weight: 700; }
+  .reveal h2 { font-size: 1.22em; margin: 0.18em 0 0.4em; color: #22D3EE; text-align: center; font-weight: 700; }
   .reveal h3 { font-size: 1.1em; color: #A855F7; margin: 0.2em 0; }
-  .reveal p, .reveal li { font-size: 0.85em; color: #cbd5e1; line-height: 1.5; }
+  .reveal p, .reveal li { font-size: 0.76em; color: #cbd5e1; line-height: 1.4; }
   .reveal ul { list-style: none; padding: 0; text-align: left; margin: 0.5em 0; }
   .reveal .controls { color: #22D3EE; }
   .reveal .progress { color: #22D3EE; height: 4px; }
@@ -53,7 +53,7 @@ last_modified_at: 2026-09-06
   .n.o { color: #ff9f0a; }
   
   /* Code blocks */
-  .code-box { background: #090d16; border: 1px solid rgba(34,211,238,0.3); border-radius: 8px; padding: 12px 16px; font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 0.75em; color: #38bdf8; text-align: left; width: 95%; max-width: 1000px; overflow-x: auto; box-shadow: inset 0 2px 8px rgba(0,0,0,0.6); }
+  .code-box { background: #090d16; border: 1px solid rgba(34,211,238,0.3); border-radius: 8px; padding: 10px 14px; font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 0.68em; color: #38bdf8; text-align: left; width: 95%; max-width: 1000px; overflow-x: auto; box-shadow: inset 0 2px 8px rgba(0,0,0,0.6); }
   .code-box pre { margin: 0; padding: 0; }
   .code-box .cmd { color: #34d399; font-weight: bold; }
   .code-box .cmt { color: #64748b; italic; }
@@ -115,7 +115,7 @@ last_modified_at: 2026-09-06
       <section>
         <h2>Hermes Research Skills Catalog</h2>
         <p style="font-size:0.7em; color:#94a3b8; text-align:center;">8 new research skills installed + 8 existing — full toolkit for literature sweeps, critique & synthesis.</p>
-        <div style="width:98%; max-height:60vh; overflow-y:auto; font-size:0.58em; margin:0.4em auto;">
+        <div style="width:96%; max-height:62vh; overflow-y:auto; font-size:0.5em; margin:0.3em auto;">
           <table style="width:100%; border-collapse:collapse; color:#cbd5e1;">
             <thead>
               <tr style="color:#22D3EE; text-align:left;">
@@ -125,22 +125,22 @@ last_modified_at: 2026-09-06
               </tr>
             </thead>
             <tbody>
-              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>deepdive</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Deep multi-source investigation; cited synthesis with confidence + disagreement mapping</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><span class="tag">NEW</span></td></tr>
-              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>researchgap</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Finds gaps, contradictions & open problems in a topic's literature; proposes research questions</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><span class="tag">NEW</span></td></tr>
-              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>critic</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Rigorous critique of a paper/claim/argument with severity-rated weaknesses + verdict</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><span class="tag">NEW</span></td></tr>
-              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>literature-review</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Themed survey of a topic with annotated bibliography</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><span class="tag">NEW</span></td></tr>
-              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>synthesise</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Merges several sources into one attributed synthesis; flags consensus vs open questions</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><span class="tag">NEW</span></td></tr>
-              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>factcheck</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Verifies claims against sources; labels each supported/contradicted/unverifiable</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><span class="tag">NEW</span></td></tr>
-              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>question-storm</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Generates diverse, prioritized research questions across levels</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><span class="tag">NEW</span></td></tr>
-              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>cite</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Formats references in a citation style (APA/MLA/IEEE/BibTeX); finds real sources</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><span class="tag">NEW</span></td></tr>
-              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>arxiv</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Search arXiv papers by keyword/author/category</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">existing</td></tr>
-              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>llm-wiki</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Build/query interlinked markdown knowledge base</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">existing</td></tr>
-              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>grounded-citations</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Ground answers in cited verifiable sources</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">existing</td></tr>
-              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>reference-curation</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Audit/curate doc reference links</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">existing</td></tr>
-              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>polymarket</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Query Polymarket markets/prices</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">existing</td></tr>
-              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>competitor-news-monitor</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Watch companies for material news</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">existing</td></tr>
-              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>blogwatcher</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Monitor blogs/RSS feeds</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">existing</td></tr>
-              <tr><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);"><code>research-paper-writing</code></td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">Authoring structure for research papers</td><td style="padding:4px 10px; border-bottom:1px solid rgba(148,163,184,0.15);">existing</td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><code>deepdive</code></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Deep multi-source investigation; cited synthesis with confidence + disagreement mapping</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><span class="tag">NEW</span></td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><code>researchgap</code></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Finds gaps, contradictions & open problems in a topic's literature; proposes research questions</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><span class="tag">NEW</span></td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><code>critic</code></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Rigorous critique of a paper/claim/argument with severity-rated weaknesses + verdict</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><span class="tag">NEW</span></td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><code>literature-review</code></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Themed survey of a topic with annotated bibliography</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><span class="tag">NEW</span></td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><code>synthesise</code></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Merges several sources into one attributed synthesis; flags consensus vs open questions</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><span class="tag">NEW</span></td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><code>factcheck</code></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Verifies claims against sources; labels each supported/contradicted/unverifiable</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><span class="tag">NEW</span></td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><code>question-storm</code></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Generates diverse, prioritized research questions across levels</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><span class="tag">NEW</span></td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><code>cite</code></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Formats references in a citation style (APA/MLA/IEEE/BibTeX); finds real sources</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><span class="tag">NEW</span></td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><code>arxiv</code></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Search arXiv papers by keyword/author/category</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">existing</td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><code>llm-wiki</code></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Build/query interlinked markdown knowledge base</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">existing</td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><code>grounded-citations</code></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Ground answers in cited verifiable sources</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">existing</td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><code>reference-curation</code></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Audit/curate doc reference links</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">existing</td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><code>polymarket</code></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Query Polymarket markets/prices</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">existing</td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><code>competitor-news-monitor</code></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Watch companies for material news</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">existing</td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><code>blogwatcher</code></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Monitor blogs/RSS feeds</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">existing</td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><code>research-paper-writing</code></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Authoring structure for research papers</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">existing</td></tr>
             </tbody>
           </table>
         </div>
@@ -410,7 +410,23 @@ delegate_task(tasks=[
         </p>
       </section>
 
-      <!-- Slide 15: Thank You Slide -->
+      <!-- Slide 15: How to Write a Paper (reverse-order writing flow) -->
+      <section>
+        <h2>How to Write a Paper — Write in This Order</h2>
+        <p style="font-size:0.7em; color:#94a3b8; text-align:center;">Draft bottom-up: build the evidence first, then frame it. Read top-down.</p>
+        <ol style="text-align:left; max-width:860px; margin:0.5em auto; font-size:0.82em; line-height:1.6; color:#cbd5e1; counter-reset:step;">
+          <li style="margin:0.25em 0;"><strong style="color:#22D3EE;">1 · Methods</strong> — Lock the protocol, setup, datasets & metrics. The foundation everything cites.</li>
+          <li style="margin:0.25em 0;"><strong style="color:#22D3EE;">2 · Results</strong> — Report what happened, raw: numbers, curves, observed behaviour.</li>
+          <li style="margin:0.25em 0;"><strong style="color:#22D3EE;">3 · Figures</strong> — Build the visuals: plots, diagrams, architecture art. One idea each.</li>
+          <li style="margin:0.25em 0;"><strong style="color:#22D3EE;">4 · Tables</strong> — Assemble comparison/benchmark tables; numbers must match figures.</li>
+          <li style="margin:0.25em 0;"><strong style="color:#A855F7;">5 · Discussion</strong> — Interpret: why it works, limits, implications, relation to prior work.</li>
+          <li style="margin:0.25em 0;"><strong style="color:#A855F7;">6 · Introduction</strong> — Open with the gap & motivation; now you know what you proved.</li>
+          <li style="margin:0.25em 0;"><strong style="color:#34d399;">7 · Abstract</strong> — Written last: the 200-word distillation of the finished paper.</li>
+        </ol>
+        <p style="margin-top:0.5em; font-size:0.74em; color:#94a3b8;">Hermes: <code>researchgap</code> scopes the gap · <code>critic</code> stress-tests claims · <code>cite</code> formats refs · <code>research-paper-writing</code> structures the draft.</p>
+      </section>
+
+      <!-- Slide 16: Thank You Slide -->
       <section>
         <h1>Thank You & Discussion</h1>
         <h2 style="color:#cbd5e1;">Hermes Agent for Research Assistance</h2>
