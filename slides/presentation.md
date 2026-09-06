@@ -426,7 +426,30 @@ delegate_task(tasks=[
         <p style="margin-top:0.5em; font-size:0.74em; color:#94a3b8;">Hermes: <code>researchgap</code> scopes the gap · <code>critic</code> stress-tests claims · <code>cite</code> formats refs · <code>research-paper-writing</code> structures the draft.</p>
       </section>
 
-      <!-- Slide 16: Thank You Slide -->
+      <!-- Slide 16: PaperBanana — Automating Academic Illustration -->
+      <section>
+        <h2>PaperBanana: Automating Academic Illustration</h2>
+        <p style="font-size:0.68em; color:#94a3b8; text-align:center;">Text-to-figure AI for researchers — publication-ready diagrams & charts from a description.</p>
+        <div class="m-2">
+          <div class="c c-left">
+            <h3 style="color:#22D3EE;">🔧 What it does</h3>
+            <p>• <strong>Methodology diagrams</strong> — model architectures, algorithm flows, encoders, system pipelines.</p>
+            <p>• <strong>Statistical plots</strong> — generates executable <strong>Matplotlib code</strong> from raw data (no numeric hallucination).</p>
+            <p>• <strong>Aesthetic enhancement</strong> — turns hand sketches / whiteboard notes into top-venue art.</p>
+            <p>• <strong>Styles</strong> — Transformer, GAN, RAG, Multi-Agent templates; posters & more.</p>
+          </div>
+          <div class="c c-left">
+            <h3 style="color:#A855F7;">🤖 How it works</h3>
+            <p>• <strong>5-agent closed loop</strong> (Planner → Visualizer → …) for faithful, precise, polished figures.</p>
+            <p>• <strong>Planner</strong> turns text into structured visual layouts.</p>
+            <p>• <strong>Visualizer</strong> renders via Nano-Banana-Pro — exact shapes, connectors, icons.</p>
+            <p>• <strong>Trusted by</strong> SNU, Stanford, UC Berkeley, CMU, Tsinghua, SJTU, Yonsei, IIT Madras, Monash, Broad Institute.</p>
+          </div>
+        </div>
+        <p style="margin-top:0.5em; font-size:0.74em; color:#94a3b8;">Example: prompt <em>"encoder–decoder segmentation pipeline with skip connections"</em> → ready architecture diagram in seconds. Reference: <a href="https://paper-banana.org" style="color:#38bdf8; text-decoration:underline;">paper-banana.org</a></p>
+      </section>
+
+      <!-- Slide 17: Thank You Slide -->
       <section>
         <h1>Thank You & Discussion</h1>
         <h2 style="color:#cbd5e1;">Hermes Agent for Research Assistance</h2>
