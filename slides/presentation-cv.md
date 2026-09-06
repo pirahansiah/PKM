@@ -290,6 +290,22 @@ delegate_task(tasks=[
         <p style="margin-top:1em; color:#22D3EE; font-size:1.05em; font-weight:bold;">pirahansiah.com/notes/docs/cv/</p>
       </section>
 
+      <!-- Slide: Validated Skills Library -->
+      <section>
+        <h2>Validated Skills Library <span class="tag">installed &amp; scanned</span></h2>
+        <p style="font-size:0.6em; color:#94a3b8;">All installed via <code>hermes skills install</code>, security-scanned, and verified (valid SKILL.md, enabled).</p>
+        <div class="m-3">
+          <div class="c"><h3 style="color:#38bdf8;">Web &amp; Research</h3><p style="font-size:0.6em;">agent-reach · youtube-full · defuddle · resemble-detect</p></div>
+          <div class="c"><h3 style="color:#a855f7;">Build &amp; Engineering</h3><p style="font-size:0.6em;">using-agent-skills · setup-matt-pocock-skills · make-interfaces-feel-better · humanizer</p></div>
+          <div class="c"><h3 style="color:#22d3ee;">Agents &amp; Ops</h3><p style="font-size:0.6em;">browser-harness · i-have-adhd · loopy · loop-library · skillclaw</p></div>
+        </div>
+        <div class="code-box" style="font-size:0.56em; margin-top:10px;">
+<span class="cmt"># list active skills</span>
+hermes skills list
+<span class="cmt"># 14 validated community/url skills now active</span>
+        </div>
+      </section>
+
       <!-- Slide 14: Thank You -->
       <section>
         <h1>Thank You & Discussion</h1>
