@@ -449,7 +449,34 @@ delegate_task(tasks=[
         <p style="margin-top:0.5em; font-size:0.74em; color:#94a3b8;">Example: prompt <em>"encoder–decoder segmentation pipeline with skip connections"</em> → ready architecture diagram in seconds. Reference: <a href="https://paper-banana.org" style="color:#38bdf8; text-decoration:underline;">paper-banana.org</a></p>
       </section>
 
-      <!-- Slide 17: Thank You Slide -->
+      <!-- Slide 17: Academic Peer-Review Loop -->
+      <section>
+        <h2>Academic Peer-Review Loop</h2>
+        <p style="font-size:0.68em; color:#94a3b8; text-align:center;">From submission to camera-ready — and how Hermes shortens each cycle.</p>
+        <div class="m-3">
+          <div class="c c-left">
+            <h3 style="color:#22D3EE;">📤 Submit</h3>
+            <p>• Format to venue template (IEEE/ACM).</p>
+            <p>• <code>grounded-citations</code> checks every claim links to a real source.</p>
+            <p>• <code>cite</code> exports clean BibTeX/references.</p>
+          </div>
+          <div class="c c-left">
+            <h3 style="color:#A855F7;">🔍 Review</h3>
+            <p>• Editors assign 2–3 anonymous reviewers.</p>
+            <p>• <code>critic</code> pre-empts weaknesses before submission.</p>
+            <p>• <code>factcheck</code> flags unsupported claims.</p>
+          </div>
+          <div class="c c-left">
+            <h3 style="color:#30D158;">✏️ Revise</h3>
+            <p>• Address each point (accept / rebut).</p>
+            <p>• <code>deepdive</code> gathers new evidence for gaps.</p>
+            <p>• <code>synthesise</code> merges reviewer feedback.</p>
+          </div>
+        </div>
+        <p style="margin-top:0.6em; font-size:0.74em; color:#94a3b8;">Loop repeats per round (R1 → R2 → …) until <strong>accept</strong>; then camera-ready + <code>research-paper-writing</code> polish. Average: 2–4 months per round.</p>
+      </section>
+
+      <!-- Slide 18: Thank You Slide -->
       <section>
         <h1>Thank You & Discussion</h1>
         <h2 style="color:#cbd5e1;">Hermes Agent for Research Assistance</h2>
