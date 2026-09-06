@@ -66,6 +66,17 @@ Scan or tap QR codes to open Dr. Farshid Pirahansiah's referral and join links â
   <div class="qr-grid">
 
     <div class="qr-card">
+      <span class="qr-ico">&#128188;</span>
+      <h3>LinkedIn (Profile)</h3>
+      <p class="qr-desc">My LinkedIn profile â€” CV, experience &amp; posts.</p>
+      <img class="qr-img" src="{{ '/assets/qr/linkedin2.png' | relative_url }}" alt="LinkedIn profile QR code" width="150" height="150">
+      <div class="qr-actions">
+        <a class="qr-btn open" href="https://www.linkedin.com/in/pirahansiah/" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/linkedin2.png' | relative_url }}" download>Download</a>
+      </div>
+    </div>
+
+    <div class="qr-card">
       <span class="qr-ico">&#128187;</span>
       <h3>OpenCode</h3>
       <p class="qr-desc">Low cost coding models for everyone.</p>
@@ -153,10 +164,12 @@ Scan or tap QR codes to open Dr. Farshid Pirahansiah's referral and join links â
     <div class="qr-card">
       <span class="qr-ico">&#128188;</span>
       <h3>LinkedIn</h3>
-      <p class="qr-desc">Professional profile &amp; publications.</p>
+      <p class="qr-desc">Profile, page &amp; groups.</p>
       <img class="qr-img" src="{{ '/assets/qr/linkedin.png' | relative_url }}" alt="LinkedIn QR code" width="150" height="150">
       <div class="qr-actions">
-        <a class="qr-btn open" href="https://www.linkedin.com/in/farshidpirahansiah/" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn open" href="https://www.linkedin.com/in/pirahansiah/" target="_blank" rel="noopener">Profile</a>
+        <a class="qr-btn open" href="https://www.linkedin.com/company/pirahansiah/" target="_blank" rel="noopener">Page</a>
+        <a class="qr-btn open" href="https://www.linkedin.com/groups/10320678/" target="_blank" rel="noopener">Group</a>
         <a class="qr-btn copy" href="{{ '/assets/qr/linkedin.png' | relative_url }}" download>Download</a>
       </div>
     </div>
@@ -164,10 +177,11 @@ Scan or tap QR codes to open Dr. Farshid Pirahansiah's referral and join links â
     <div class="qr-card">
       <span class="qr-ico">&#128241;</span>
       <h3>Facebook</h3>
-      <p class="qr-desc">Facebook page &amp; community.</p>
+      <p class="qr-desc">Page &amp; groups.</p>
       <img class="qr-img" src="{{ '/assets/qr/facebook.png' | relative_url }}" alt="Facebook QR code" width="150" height="150">
       <div class="qr-actions">
-        <a class="qr-btn open" href="https://www.facebook.com/farshid.pirahansiah" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn open" href="https://www.facebook.com/farshid.pirahansiah" target="_blank" rel="noopener">Page</a>
+        <a class="qr-btn open" href="https://www.facebook.com/groups/computervisiondeeplearning" target="_blank" rel="noopener">Group</a>
         <a class="qr-btn copy" href="{{ '/assets/qr/facebook.png' | relative_url }}" download>Download</a>
       </div>
     </div>
@@ -301,17 +315,6 @@ Scan or tap QR codes to open Dr. Farshid Pirahansiah's referral and join links â
       <div class="qr-actions">
         <a class="qr-btn open" href="https://discord.gg/pirahansiah" target="_blank" rel="noopener">Open</a>
         <a class="qr-btn copy" href="{{ '/assets/qr/discord.png' | relative_url }}" download>Download</a>
-      </div>
-    </div>
-
-    <div class="qr-card">
-      <span class="qr-ico">&#129513;</span>
-      <h3>MindMaps</h3>
-      <p class="qr-desc">Interactive knowledge mind maps.</p>
-      <img class="qr-img" src="{{ '/assets/qr/mindmaps.png' | relative_url }}" alt="MindMaps QR code" width="150" height="150">
-      <div class="qr-actions">
-        <a class="qr-btn open" href="https://www.pirahansiah.com/notes/site/graph/" target="_blank" rel="noopener">Open</a>
-        <a class="qr-btn copy" href="{{ '/assets/qr/mindmaps.png' | relative_url }}" download>Download</a>
       </div>
     </div>
 
