@@ -43,6 +43,13 @@ A collection of slide decks built with [Reveal.js](https://revealjs.com), ready 
     <span class="slide-tags">#researchtools #hermes-agent #ai #llm</span>
   </a>
 
+  <a class="slide-card" href="/notes/slides/llm-optimization/">
+    <div class="slide-thumb">⚡</div>
+    <h3>New LLM Optimization Methods</h3>
+    <p>Run frontier LLMs fast and small: Unsloth Dynamic 3.0, multi-token prediction, DFlash2, oMLX/MLX, FlashAttention-2 — with a Qwen3.8-Flash synthesis.</p>
+    <span class="slide-tags">#llm #optimization #quantization #speculativedecoding</span>
+  </a>
+
 </div>
 
 <style>

@@ -117,6 +117,7 @@ Complete navigation index with summaries of all site pages
 - **[Sitemap](/notes/sitemap/)** — Complete page listing
 - **[Presentations](/notes/slides/)** — All research-tool decks
   - **[The New Era of Research Tools](/notes/slides/research-tools/)** — Passive chat → autonomous workflows: Hermes, LeapSpace, PaperBanana, citation finders, swarms
+  - **[New LLM Optimization Methods](/notes/slides/llm-optimization/)** — Unsloth Dynamic 3.0, MTP, DFlash2, oMLX/MLX, FlashAttention-2; Qwen3.8-Flash synthesis
   - **[Hermes for Research Assistance](/notes/slides/presentation/)** — Literature sweeps, code reproduction, paper drafting
   - **[Hermes for Big CV Projects](/notes/slides/presentation-cv/)** — Production-scale CV engineering with agents
   - **[Hermes Updates & Feature Guide](/notes/slides/presentation-updates/)** — Complete feature tour with examples
