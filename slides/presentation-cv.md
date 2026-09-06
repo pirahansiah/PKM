@@ -306,6 +306,29 @@ hermes skills list
         </div>
       </section>
 
+      <!-- Slide: Command Cheat Sheet -->
+      <section>
+        <h2>Command Cheat Sheet <span class="tag">DESK · CLI · MSG · SHELL</span></h2>
+        <p style="font-size:0.5em; color:#94a3b8;">Everyday commands — Desktop, CLI chat, messaging, shell. (Verified vs current Hermes source, Sep 2026.)</p>
+        <div class="m-3">
+          <div class="c"><h3 style="color:#38bdf8;">Sessions &amp; Context</h3><p style="font-size:0.55em;">/new · /resume · /sessions · /title · /branch · /compress · /context · /status</p></div>
+          <div class="c"><h3 style="color:#38bdf8;">Control Work</h3><p style="font-size:0.55em;">/queue · /steer · /bg · /btw · /agents · /stop</p></div>
+          <div class="c"><h3 style="color:#38bdf8;">Goals, Loops &amp; Plans</h3><p style="font-size:0.55em;">/goal · /subgoal · /heartbeat · /loop · /plan · /review · /refine</p></div>
+          <div class="c"><h3 style="color:#a855f7;">Models &amp; Behavior</h3><p style="font-size:0.55em;">/model · /moa · /personality · /reasoning · /fast · /approvals · /yolo · /busy · /voice</p></div>
+          <div class="c"><h3 style="color:#a855f7;">Skills, Memory &amp; Tools</h3><p style="font-size:0.55em;">/skills · /learn · /memory · /init · /tools · /browser</p></div>
+          <div class="c"><h3 style="color:#a855f7;">Automation &amp; Coord</h3><p style="font-size:0.55em;">/cron · /suggestions · /blueprint · /kanban</p></div>
+          <div class="c"><h3 style="color:#22d3ee;">Inspect, Recover &amp; Fix</h3><p style="font-size:0.55em;">/retry · /undo · /save · /diff · /rollback · /usage · /debug · /help</p></div>
+          <div class="c"><h3 style="color:#f472b6;">Messaging / Gateway</h3><p style="font-size:0.55em;">/sethome · /topic · /commands · /approve · /deny · /pause · /platform · /restart</p></div>
+          <div class="c"><h3 style="color:#22d3ee;">Terminal Essentials</h3><p style="font-size:0.55em;">hermes / hermes chat · -z "prompt" · model · status · doctor · gateway status · --safe-mode · update</p></div>
+        </div>
+        <div class="code-box" style="font-size:0.52em; margin-top:8px;">
+<span class="cmt"># repeat-work modes</span>
+/goal  = work until objective met   /loop  = repeat w/ stop conditions
+/heartbeat = one recurring check    /cron  = durable schedule outside chat
+<span class="cmt"># type / + letters for autocomplete; /help for full list</span>
+        </div>
+      </section>
+
       <!-- Slide 14: Thank You -->
       <section>
         <h1>Thank You & Discussion</h1>
