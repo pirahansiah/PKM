@@ -551,7 +551,31 @@ delegate_task(tasks=[
         <p style="margin-top:0.4em; font-size:0.7em; color:#94a3b8;">Beyond find: <strong>Scite</strong> labels citations support/challenge/mention · <strong>Google Scholar</strong> (free, manual) · <strong>Consensus</strong> (Consensus Meter) · manage with <strong>Zotero / Mendeley / <a href="https://www.mybib.com/" style="color:#38bdf8;">MyBib</a></strong>. Hermes: <code>cite</code> formats, <code>factcheck</code> verifies, <code>grounded-citations</code> grounds.</p>
       </section>
 
-      <!-- Slide 21: Thank You Slide -->
+      <!-- Slide 21: Second Brain — Obsidian + Hermes -->
+      <section>
+        <h2>Second Brain: Obsidian &times; Hermes</h2>
+        <p style="font-size:0.66em; color:#94a3b8; text-align:center;">Turn your notes into a queryable, agent-editable knowledge base.</p>
+        <div class="m-2">
+          <div class="c c-left">
+            <h3 style="color:#22D3EE;">🧠 Connect Obsidian</h3>
+            <p>• Vault = plain markdown; Hermes reads/writes via the <code>obsidian</code> skill.</p>
+            <p>• Path from <code>OBSIDIAN_VAULT_PATH</code> or <code>~/Documents/Obsidian Vault</code>.</p>
+            <p>• Use <code>[[wikilinks]]</code> + YAML frontmatter (tags, aliases) for structure.</p>
+            <p>• Two-way sync: edit in Obsidian, Hermes sees it next turn.</p>
+          </div>
+          <div class="c c-left">
+            <h3 style="color:#A855F7;">🔌 Hermes skills for your vault</h3>
+            <p>• <code>obsidian</code> — search, read, create, edit notes & wikilinks.</p>
+            <p>• <code>llm-wiki</code> — build interlinked markdown KB.</p>
+            <p>• <code>synthesise</code> — merge notes into one.</p>
+            <p>• <code>cite</code> — attach BibTeX to literature notes.</p>
+            <p>• <code>factcheck</code> / <code>grounded-citations</code> — verify before saving.</p>
+          </div>
+        </div>
+        <p style="margin-top:0.5em; font-size:0.72em; color:#94a3b8;">Flow: capture → Hermes tags & links → query with <code>search_files</code> → surface in <code>deepdive</code> / <code>literature-review</code>. Your second brain, always current.</p>
+      </section>
+
+      <!-- Slide 22: Thank You Slide -->
       <section>
         <h1>Thank You & Discussion</h1>
         <h2 style="color:#cbd5e1;">Hermes Agent for Research Assistance</h2>
