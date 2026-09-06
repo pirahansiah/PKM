@@ -144,6 +144,189 @@ Scan or tap QR codes to open Dr. Farshid Pirahansiah's referral and join links â
     </div>
 
   </div>
+
+  <h2 style="text-align:center; margin:48px 0 4px; color:#5BA57B; font-size:1.6rem;">Profiles &amp; Pages</h2>
+  <p style="text-align:center; color:var(--text-muted); margin-bottom:24px;">Scan to open my social profiles, websites, and resources.</p>
+
+  <div class="qr-grid">
+
+    <div class="qr-card">
+      <span class="qr-ico">&#128188;</span>
+      <h3>LinkedIn</h3>
+      <p class="qr-desc">Professional profile &amp; publications.</p>
+      <img class="qr-img" src="{{ '/assets/qr/linkedin.png' | relative_url }}" alt="LinkedIn QR code" width="150" height="150">
+      <div class="qr-actions">
+        <a class="qr-btn open" href="https://www.linkedin.com/in/farshidpirahansiah/" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/linkedin.png' | relative_url }}" download>Download</a>
+      </div>
+    </div>
+
+    <div class="qr-card">
+      <span class="qr-ico">&#128241;</span>
+      <h3>Facebook</h3>
+      <p class="qr-desc">Facebook page &amp; community.</p>
+      <img class="qr-img" src="{{ '/assets/qr/facebook.png' | relative_url }}" alt="Facebook QR code" width="150" height="150">
+      <div class="qr-actions">
+        <a class="qr-btn open" href="https://www.facebook.com/farshid.pirahansiah" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/facebook.png' | relative_url }}" download>Download</a>
+      </div>
+    </div>
+
+    <div class="qr-card">
+      <span class="qr-ico">&#127916;</span>
+      <h3>YouTube</h3>
+      <p class="qr-desc">Video tutorials &amp; tech talks.</p>
+      <img class="qr-img" src="{{ '/assets/qr/youtube.png' | relative_url }}" alt="YouTube QR code" width="150" height="150">
+      <div class="qr-actions">
+        <a class="qr-btn open" href="https://www.youtube.com/@pirahansiah" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/youtube.png' | relative_url }}" download>Download</a>
+      </div>
+    </div>
+
+    <div class="qr-card">
+      <span class="qr-ico">&#127760;</span>
+      <h3>pirahansiah.com</h3>
+      <p class="qr-desc">Main knowledge base &amp; articles.</p>
+      <img class="qr-img" src="{{ '/assets/qr/pirahansiah.png' | relative_url }}" alt="pirahansiah.com QR code" width="150" height="150">
+      <div class="qr-actions">
+        <a class="qr-btn open" href="https://www.pirahansiah.com/" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/pirahansiah.png' | relative_url }}" download>Download</a>
+      </div>
+    </div>
+
+    <div class="qr-card">
+      <span class="qr-ico">&#127760;</span>
+      <h3>tiziran.com</h3>
+      <p class="qr-desc">Tiziran project site.</p>
+      <img class="qr-img" src="{{ '/assets/qr/tiziran.png' | relative_url }}" alt="tiziran.com QR code" width="150" height="150">
+      <div class="qr-actions">
+        <a class="qr-btn open" href="https://www.tiziran.com/" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/tiziran.png' | relative_url }}" download>Download</a>
+      </div>
+    </div>
+
+    <div class="qr-card">
+      <span class="qr-ico">&#128038;</span>
+      <h3>Twitter / X</h3>
+      <p class="qr-desc">Posts &amp; updates on X.</p>
+      <img class="qr-img" src="{{ '/assets/qr/twitter.png' | relative_url }}" alt="Twitter QR code" width="150" height="150">
+      <div class="qr-actions">
+        <a class="qr-btn open" href="https://x.com/pirahansiah" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/twitter.png' | relative_url }}" download>Download</a>
+      </div>
+    </div>
+
+    <div class="qr-card">
+      <span class="qr-ico">&#128247;</span>
+      <h3>Instagram</h3>
+      <p class="qr-desc">Visual updates &amp; highlights.</p>
+      <img class="qr-img" src="{{ '/assets/qr/instagram.png' | relative_url }}" alt="Instagram QR code" width="150" height="150">
+      <div class="qr-actions">
+        <a class="qr-btn open" href="https://www.instagram.com/pirahansiah/" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/instagram.png' | relative_url }}" download>Download</a>
+      </div>
+    </div>
+
+    <div class="qr-card">
+      <span class="qr-ico">&#128187;</span>
+      <h3>GitHub</h3>
+      <p class="qr-desc">Open-source repos &amp; code.</p>
+      <img class="qr-img" src="{{ '/assets/qr/github.png' | relative_url }}" alt="GitHub QR code" width="150" height="150">
+      <div class="qr-actions">
+        <a class="qr-btn open" href="https://github.com/pirahansiah" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/github.png' | relative_url }}" download>Download</a>
+      </div>
+    </div>
+
+    <div class="qr-card">
+      <span class="qr-ico">&#9993;</span>
+      <h3>Telegram</h3>
+      <p class="qr-desc">Telegram channel &amp; bots.</p>
+      <img class="qr-img" src="{{ '/assets/qr/telegram.png' | relative_url }}" alt="Telegram QR code" width="150" height="150">
+      <div class="qr-actions">
+        <a class="qr-btn open" href="https://t.me/pirahansiah" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/telegram.png' | relative_url }}" download>Download</a>
+      </div>
+    </div>
+
+    <div class="qr-card">
+      <span class="qr-ico">&#128222;</span>
+      <h3>WhatsApp</h3>
+      <p class="qr-desc">Direct message on WhatsApp.</p>
+      <img class="qr-img" src="{{ '/assets/qr/whatsapp.png' | relative_url }}" alt="WhatsApp QR code" width="150" height="150">
+      <div class="qr-actions">
+        <a class="qr-btn open" href="https://wa.me/pirahansiah" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/whatsapp.png' | relative_url }}" download>Download</a>
+      </div>
+    </div>
+
+    <div class="qr-card">
+      <span class="qr-ico">&#128173;</span>
+      <h3>Reddit</h3>
+      <p class="qr-desc">Reddit profile &amp; communities.</p>
+      <img class="qr-img" src="{{ '/assets/qr/reddit.png' | relative_url }}" alt="Reddit QR code" width="150" height="150">
+      <div class="qr-actions">
+        <a class="qr-btn open" href="https://www.reddit.com/user/pirahansiah/" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/reddit.png' | relative_url }}" download>Download</a>
+      </div>
+    </div>
+
+    <div class="qr-card">
+      <span class="qr-ico">&#127908;</span>
+      <h3>TikTok</h3>
+      <p class="qr-desc">Short-form video content.</p>
+      <img class="qr-img" src="{{ '/assets/qr/tiktok.png' | relative_url }}" alt="TikTok QR code" width="150" height="150">
+      <div class="qr-actions">
+        <a class="qr-btn open" href="https://www.tiktok.com/@pirahansiah" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/tiktok.png' | relative_url }}" download>Download</a>
+      </div>
+    </div>
+
+    <div class="qr-card">
+      <span class="qr-ico">&#129418;</span>
+      <h3>Mastodon</h3>
+      <p class="qr-desc">Fediverse profile.</p>
+      <img class="qr-img" src="{{ '/assets/qr/mastodon.png' | relative_url }}" alt="Mastodon QR code" width="150" height="150">
+      <div class="qr-actions">
+        <a class="qr-btn open" href="https://mastodon.social/@pirahansiah" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/mastodon.png' | relative_url }}" download>Download</a>
+      </div>
+    </div>
+
+    <div class="qr-card">
+      <span class="qr-ico">&#128172;</span>
+      <h3>Discord</h3>
+      <p class="qr-desc">Join the community server.</p>
+      <img class="qr-img" src="{{ '/assets/qr/discord.png' | relative_url }}" alt="Discord QR code" width="150" height="150">
+      <div class="qr-actions">
+        <a class="qr-btn open" href="https://discord.gg/pirahansiah" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/discord.png' | relative_url }}" download>Download</a>
+      </div>
+    </div>
+
+    <div class="qr-card">
+      <span class="qr-ico">&#129513;</span>
+      <h3>MindMaps</h3>
+      <p class="qr-desc">Interactive knowledge mind maps.</p>
+      <img class="qr-img" src="{{ '/assets/qr/mindmaps.png' | relative_url }}" alt="MindMaps QR code" width="150" height="150">
+      <div class="qr-actions">
+        <a class="qr-btn open" href="https://www.pirahansiah.com/notes/site/graph/" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/mindmaps.png' | relative_url }}" download>Download</a>
+      </div>
+    </div>
+
+    <div class="qr-card">
+      <span class="qr-ico">&#128202;</span>
+      <h3>Presentation Slides</h3>
+      <p class="qr-desc">All slide decks &amp; talks.</p>
+      <img class="qr-img" src="{{ '/assets/qr/slides.png' | relative_url }}" alt="Presentation slides QR code" width="150" height="150">
+      <div class="qr-actions">
+        <a class="qr-btn open" href="https://www.pirahansiah.com/notes/slides/" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn copy" href="{{ '/assets/qr/slides.png' | relative_url }}" download>Download</a>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 <script>
