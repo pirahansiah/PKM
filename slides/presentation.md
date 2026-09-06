@@ -476,7 +476,30 @@ delegate_task(tasks=[
         <p style="margin-top:0.6em; font-size:0.74em; color:#94a3b8;">Loop repeats per round (R1 → R2 → …) until <strong>accept</strong>; then camera-ready + <code>research-paper-writing</code> polish. Average: 2–4 months per round.</p>
       </section>
 
-      <!-- Slide 18: Thank You Slide -->
+      <!-- Slide 18: Agent Swarms -->
+      <section>
+        <h2>Agent Swarms: Parallel Research at Scale</h2>
+        <p style="font-size:0.68em; color:#94a3b8; text-align:center;">One orchestrator fans out to many specialized workers, then merges results.</p>
+        <div class="m-2">
+          <div class="c c-left">
+            <h3 style="color:#22D3EE;">🐝 How a swarm runs</h3>
+            <p>• <strong>Orchestrator</strong> splits the task into independent sub-goals.</p>
+            <p>• <strong>Swarm</strong> = N parallel subagents, each with its own context & tools.</p>
+            <p>• <strong>Merge</strong>: results aggregated, deduplicated, cross-checked.</p>
+            <p>• <strong>Hermes</strong>: <code>delegate_task</code> spawns concurrent workers (no shared context bloat).</p>
+          </div>
+          <div class="c c-left">
+            <h3 style="color:#A855F7;">🌊 Example: kimi.com → swarm</h3>
+            <p>1. <strong>kimi.com</strong> receives the research question (e.g. "compare 2025 VLM agents").</p>
+            <p>2. <strong>→ swarm</strong>: fans out to subagents — ArXiv sweep, benchmark mining, repo cloning.</p>
+            <p>3. <strong>→ …</strong>: each worker returns findings; orchestrator synthesizes one report + BibTeX.</p>
+            <p>• Same pattern in Hermes: 3 <code>delegate_task</code> calls → one literature matrix.</p>
+          </div>
+        </div>
+        <p style="margin-top:0.5em; font-size:0.74em; color:#94a3b8;">Why: 10× speedup vs serial search, isolated failures, no single context overflow. Pair with <code>synthesise</code> + <code>critic</code>.</p>
+      </section>
+
+      <!-- Slide 19: Thank You Slide -->
       <section>
         <h1>Thank You & Discussion</h1>
         <h2 style="color:#cbd5e1;">Hermes Agent for Research Assistance</h2>
