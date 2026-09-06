@@ -524,7 +524,34 @@ delegate_task(tasks=[
         <p style="margin-top:0.5em; font-size:0.72em; color:#94a3b8;">Hermes mapping: <code>deepdive</code>/<code>literature-review</code> ≈ Deep Research · <code>grounded-citations</code>/<code>factcheck</code> ≈ Trust Cards/Claim Radar · <code>cite</code> ≈ Author Search/BibTeX.</p>
       </section>
 
-      <!-- Slide 20: Thank You Slide -->
+      <!-- Slide 20: AI Citation & Reference Finders -->
+      <section>
+        <h2>Best Reference Finder — AI Citation Tools</h2>
+        <p style="font-size:0.66em; color:#94a3b8; text-align:center;">Dedicated finders query Crossref / Semantic Scholar — no hallucinated refs like chatbots.</p>
+        <div style="width:97%; max-height:58vh; overflow-y:auto; font-size:0.5em; margin:0.3em auto;">
+          <table style="width:100%; border-collapse:collapse; color:#cbd5e1;">
+            <thead>
+              <tr style="color:#22D3EE; text-align:left;">
+                <th style="padding:3px 8px; border-bottom:1px solid rgba(34,211,238,0.5);">Tool</th>
+                <th style="padding:3px 8px; border-bottom:1px solid rgba(34,211,238,0.5);">Best for</th>
+                <th style="padding:3px 8px; border-bottom:1px solid rgba(34,211,238,0.5);">Standout</th>
+                <th style="padding:3px 8px; border-bottom:1px solid rgba(34,211,238,0.5);">Styles</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><a href="https://www.sourcely.net/" style="color:#38bdf8;">Sourcely</a></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Bulk / paragraph</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Scans essays, highlights text needing support, summaries</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">700+ (BibTeX, RIS)</td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><a href="https://citely.ai/citation-finder" style="color:#38bdf8;">Citely AI</a></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Claim verification</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Paste claim → matched to verified DOIs</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">APA, MLA</td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><a href="https://www.grammarly.com/ai-agents/citation-finder" style="color:#38bdf8;">Grammarly</a></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">In-line writing</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Flags missing sources in editor, inserts citations</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">APA, MLA, Chicago</td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><a href="https://paperpal.com/tools/citation-generator" style="color:#38bdf8;">Paperpal</a></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">MS Word flow</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">250M+ articles, search by title/DOI</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">10,000+</td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><a href="https://scispace.com/agents/citation-finder-6ewdpowc" style="color:#38bdf8;">SciSpace</a></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Partial metadata</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Broken URL/author → complete citation</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">BibTeX, RIS, CSV</td></tr>
+              <tr><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);"><a href="https://writeless.ai/ai-reference-finder" style="color:#38bdf8;">Writeless</a></td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">PDF uploads</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">Filter by min year, inline insertion</td><td style="padding:3px 8px; border-bottom:1px solid rgba(148,163,184,0.12);">APA, MLA, Harvard…</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="margin-top:0.4em; font-size:0.7em; color:#94a3b8;">Beyond find: <strong>Scite</strong> labels citations support/challenge/mention · <strong>Google Scholar</strong> (free, manual) · <strong>Consensus</strong> (Consensus Meter) · manage with <strong>Zotero / Mendeley / <a href="https://www.mybib.com/" style="color:#38bdf8;">MyBib</a></strong>. Hermes: <code>cite</code> formats, <code>factcheck</code> verifies, <code>grounded-citations</code> grounds.</p>
+      </section>
+
+      <!-- Slide 21: Thank You Slide -->
       <section>
         <h1>Thank You & Discussion</h1>
         <h2 style="color:#cbd5e1;">Hermes Agent for Research Assistance</h2>
