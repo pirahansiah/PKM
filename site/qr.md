@@ -192,7 +192,7 @@ Scan or tap QR codes to open Dr. Farshid Pirahansiah's referral and join links â
       <p class="qr-desc">Video tutorials &amp; tech talks.</p>
       <img class="qr-img" src="{{ '/assets/qr/youtube.png' | relative_url }}" alt="YouTube QR code" width="150" height="150">
       <div class="qr-actions">
-        <a class="qr-btn open" href="https://www.youtube.com/@pirahansiah" target="_blank" rel="noopener">Open</a>
+        <a class="qr-btn open" href="https://www.youtube.com/@computervisiondeeplearning" target="_blank" rel="noopener">Open</a>
         <a class="qr-btn copy" href="{{ '/assets/qr/youtube.png' | relative_url }}" download>Download</a>
       </div>
     </div>
