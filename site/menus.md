@@ -41,6 +41,7 @@ Complete navigation index with summaries of all site pages
 - **[Avatar Generator](/notes/docs/llm/avatar/)** — Local video avatar with Ollama + Wav2Lip (no cloud)
 - **[Local LLM Optimization](/notes/docs/llm/local-llm-optimization/)** — Fastest Qwen3.5 at 64K context on Apple M3 via MLX (oMLX/llama.cpp), with downloadable scripts
 - **[K2-Horizon Locally](/notes/docs/llm/k2-horizon-local/)** — Serve IFM K2-Horizon GGUF via the MBZUAI-IFM llama.cpp fork on Apple Silicon, wired into Hermes at 64K
+- **[Why Hermes](/notes/docs/llm/why-hermes/)** — Hermes vs OpenAI Dots, Meta Muse Code & xAI Grok Build: one self-hosted harness, any model, your machine
 
 ### CUDA & GPU
 - **[Numba JIT](/notes/docs/cuda/numba/)** — Python 10-100x speedup with @jit(nopython=True)
